@@ -57,7 +57,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, clioquinol is a topical halogenated hydroxyquinoline with antifungal and antibacterial activity. A commonly proposed mechanism is metal ion chelation affecting fungal enzymes, but this cannot be confirmed from the data compiled for this report.
+ChEMBL (EMBL-EBI) records the mechanism of action of clioquinol as: Zinc chelating agent; Copper chelating agent; Iron chelating agent ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, clioquinol is a topical halogenated hydroxyquinoline with antifungal and antibacterial activity. A commonly proposed mechanism is metal ion chelation affecting fungal enzymes, but this cannot be confirmed from the data compiled for this report.
 
 Ectothrix infection is a dermatophyte infection in which fungal arthroconidia form on the outside of the hair shaft, typically from *Microsporum* and *Trichophyton* species. The high score (0.9926) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -115,11 +115,12 @@ The prediction is biologically plausible within the dermatophyte class, but it i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and are listed as single-ingredient records" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

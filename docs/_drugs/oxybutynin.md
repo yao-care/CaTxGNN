@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and **no publications*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxybutynin is a muscarinic receptor antagonist (anticholinergic), and its efficacy in overactive bladder is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxybutynin: "Oxybutynin relaxes bladder smooth muscle. Oxybutynin chloride exerts a direct antispasmodic effect on smooth muscle and inhibits the muscarinic action of acetylcholine on smooth muscle. No blocking effects occur at skeletal neuromuscular junctions or autonomic ganglia (antinicotinic effects)." ([DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67), label version 2026-11-11; accessed 2026-11-19.) Based on known information, oxybutynin is a muscarinic receptor antagonist (anticholinergic), and its efficacy in overactive bladder is established.
 
 The data compiled for this report do not establish a mechanistic link to restless legs syndrome. The very high model score (0.9974) comes from the TxGNN model (deep learning) and is a prediction only; it may reflect similarities the model learned between related diseases, not biological evidence. Anticholinergics are not a recognized treatment for restless legs syndrome, and their central effects could even worsen sleep or symptoms. This prediction should therefore be regarded as a weak, hypothesis-level signal.
 
@@ -114,6 +114,19 @@ The prediction for restless legs syndrome has a high model score but no clinical
 - Preclinical or observational evidence for oxybutynin in restless legs syndrome, including whether anticholinergic exposure worsens symptoms
 - Dosage form, route and approved indication details for the Canadian licences
 - A review of the interaction burden and the anticholinergic safety profile in the likely target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oxybutynin Chloride Extended Release (oxybutynin chloride) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5653b7e-1e3b-4da3-b3a2-33318f448c67) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

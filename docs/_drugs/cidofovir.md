@@ -58,7 +58,7 @@ Cidofovir is a nucleotide-analog antiviral that inhibits viral DNA polymerase an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for cidofovir is not available in the data compiled for this report. Based on general knowledge, cidofovir is a nucleotide analog that inhibits DNA polymerase in cytomegalovirus (CMV) and other DNA viruses.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cidofovir: "Cidofovir suppresses cytomegalovirus (CMV) replication by selective inhibition of viral DNA synthesis. Biochemical data support selective inhibition of CMV DNA polymerase by cidofovir diphosphate, the active intracellular metabolite of cidofovir." ([DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9), label version 2021-04-15; accessed 2026-11-19.) Based on general knowledge, cidofovir is a nucleotide analog that inhibits DNA polymerase in cytomegalovirus (CMV) and other DNA viruses.
 
 A possible indirect link is AIDS-related or CMV-associated cholangiopathy, which can present as secondary sclerosing cholangitis. This is speculative and is not supported by the supplied data. Primary sclerosing cholangitis is largely immune-mediated, so an antiviral mechanism is not an obvious fit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
@@ -128,6 +128,19 @@ Please refer to the package insert for the full warnings and contraindications.
 - A targeted literature search on cidofovir or antivirals in CMV-associated or secondary cholangiopathy
 - Preclinical or mechanistic evidence for a role in sclerosing cholangitis
 - Route-of-administration compatibility assessment and a renal safety plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for cidofovir is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

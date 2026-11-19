@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, raltegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for raltegravir: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), label version 2026-09-16; accessed 2026-11-19.) Based on known information, raltegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
 
 Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and carries an integrase enzyme that is structurally related to HIV-1 integrase. Inhibiting integrase is therefore biologically plausible. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Whether FIV integrase is susceptible to raltegravir has not been tested in the available data.
 
@@ -126,6 +126,19 @@ The top prediction is supported only by the model score, with no clinical trials
 - Package insert warnings and contraindications from Health Canada, which are currently missing
 - Direct experimental data on raltegravir activity against FIV integrase, if a veterinary direction is of interest
 - A decision on whether to deprioritise this candidate in favour of human-relevant predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

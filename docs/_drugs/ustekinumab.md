@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **dermatitis** (mainly atopic d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ustekinumab is a human monoclonal antibody that blocks the p40 subunit shared by interleukin-12 (IL-12) and interleukin-23 (IL-23). This inhibits Th1 and Th17/Th22 immune pathways.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ustekinumab: "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), label version 2026-11-11; accessed 2026-11-19.) Based on known information, ustekinumab is a human monoclonal antibody that blocks the p40 subunit shared by interleukin-12 (IL-12) and interleukin-23 (IL-23). This inhibits Th1 and Th17/Th22 immune pathways.
 
 These pathways drive inflammation in psoriasis, where ustekinumab's efficacy is established. They are also implicated in the chronic phase of atopic dermatitis, especially the Th22/IL-23 axis. This is the basis for the prediction.
 
@@ -136,6 +136,19 @@ Two completed Phase 2 randomized trials exist in atopic dermatitis, but publishe
 - Critical review of the Phase 2 trial results (NCT01945086 and NCT01806662) for effect size and responder subgroups
 - Evidence that a subgroup (e.g., chronic-phase or Th22/IL-23-high disease) benefits, ideally from a larger controlled trial
 - Review of interaction management, particularly with corticosteroids and anticoagulants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

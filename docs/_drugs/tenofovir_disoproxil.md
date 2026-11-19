@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is feline acquired immunodeficiency synd
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Tenofovir is a nucleotide reverse transcriptase inhibitor: it terminates viral DNA chain elongation, and this is the basis of its use in HIV and hepatitis B.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir disoproxil: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), label version 2025-02-18; accessed 2026-11-19.) Tenofovir is a nucleotide reverse transcriptase inhibitor: it terminates viral DNA chain elongation, and this is the basis of its use in HIV and hepatitis B.
 
 Feline immunodeficiency virus (FIV) and simian immunodeficiency virus (SIV) are both lentiviruses closely related to HIV. Their reverse transcriptases are similar enough that a shared mechanism is plausible. SIV and SHIV (simian-human immunodeficiency virus) infection in macaques are standard animal models of HIV. The macaque studies show partial to substantial protection by tenofovir disoproxil, alone or with emtricitabine.
 
@@ -123,6 +123,19 @@ The predicted indications (feline AIDS and SIV infection) are animal diseases. T
 - Package insert warnings and contraindications from Health Canada, including approved indication text, dosage forms and manufacturers for the licences
 - Confirmation of whether the 2023 FIV study actually evaluated tenofovir, and with what results
 - A decision on whether a veterinary or translational-model indication is within the scope of this repurposing programme. If not, the evaluation should be reframed around human indications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

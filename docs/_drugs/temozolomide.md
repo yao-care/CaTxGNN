@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general knowledge of the drug class, temozolomide is an oral alkylating agent that methylates DNA (O6-guanine, N7-guanine, N3-adenine). This causes cytotoxic lesions and apoptosis in tumour cells, and the drug crosses the blood-brain barrier.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) Based on general knowledge of the drug class, temozolomide is an oral alkylating agent that methylates DNA (O6-guanine, N7-guanine, N3-adenine). This causes cytotoxic lesions and apoptosis in tumour cells, and the drug crosses the blood-brain barrier.
 
 Cauda equina neoplasms are most often myxopapillary ependymomas, which are glial tumours of the central nervous system axis. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the astrocytic and glial brain tumours for which temozolomide is a known use, not biological evidence.
 
@@ -120,6 +120,19 @@ The prediction score is high and the mechanism is plausible, but the only suppor
 - Systematically review reports of temozolomide in spinal or cauda equina ependymoma, including MGMT status
 - Assess the feasibility of a prospective study or registry
 - Define a safety monitoring plan for myelosuppression and hepatic risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

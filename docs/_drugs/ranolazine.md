@@ -54,7 +54,7 @@ Ranolazine is a drug marketed in Canada, and it is known to be used for chronic 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, ranolazine inhibits the late sodium current (INaL) and, to a lesser degree, the rapid delayed rectifier potassium current (IKr). Its efficacy in chronic angina is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ranolazine: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), label version 2025-01-29; accessed 2026-11-19.) Based on general pharmacological knowledge, ranolazine inhibits the late sodium current (INaL) and, to a lesser degree, the rapid delayed rectifier potassium current (IKr). Its efficacy in chronic angina is established.
 
 NSIAD is a rare genetic disorder caused by gain-of-function mutations in the vasopressin V2 receptor gene (AVPR2). The receptor is constitutively active, which leads to unregulated water reabsorption in the kidney collecting duct. A direct link between ranolazine's sodium-channel activity and V2 receptor signalling has not been established. Any connection would be speculative, for example through indirect effects on renal ion transport or cAMP-mediated aquaporin-2 signalling.
 
@@ -99,6 +99,19 @@ The prediction is supported only by a computational score. There are no clinical
 - Preclinical or mechanistic evidence linking late sodium current inhibition to AVPR2 or aquaporin-2 signalling
 - A literature search for any case reports or small studies in NSIAD
 - A review of renal safety and QT risk in the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

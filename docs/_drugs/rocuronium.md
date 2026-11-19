@@ -54,7 +54,7 @@ Rocuronium is a non-depolarizing neuromuscular blocker given by injection. It is
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, rocuronium is a non-depolarizing neuromuscular blocker. It competitively blocks nicotinic acetylcholine receptors at the motor endplate, producing skeletal muscle relaxation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rocuronium: "Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147), label version 2026-10-01; accessed 2026-11-19.) Based on general pharmacology, rocuronium is a non-depolarizing neuromuscular blocker. It competitively blocks nicotinic acetylcholine receptors at the motor endplate, producing skeletal muscle relaxation.
 
 No established mechanism links this action to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, none of which rocuronium is known to act on. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the other predicted indications (migraine with brainstem aura, cauda equina syndrome, irritable bowel syndrome, sciatic neuropathy and others), which also have no supporting trials or literature.
 
@@ -108,6 +108,19 @@ The prediction has no plausible mechanistic basis and is supported only by a non
 - Mechanism of action data (for example from DrugBank)
 - Any mechanistic or clinical evidence linking neuromuscular blockade to migraine
 - Assessment of route and setting compatibility with a migraine treatment context
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

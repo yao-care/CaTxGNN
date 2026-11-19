@@ -62,7 +62,7 @@ The Canadian licence records compiled for this report contain no approved-indica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Lamotrigine is known to block voltage-gated sodium channels and reduce glutamate release. This dampens abnormal, high-frequency neuronal firing, which is the basis of its antiseizure effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lamotrigine: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), label version 2026-10-12; accessed 2026-11-19.) Lamotrigine is known to block voltage-gated sodium channels and reduce glutamate release. This dampens abnormal, high-frequency neuronal firing, which is the basis of its antiseizure effect.
 
 **Trigeminal nerve neoplasm.** The high score most likely reflects semantic closeness between trigeminal nerve disease terms and trigeminal neuralgia, not an antitumour effect. The retrieved papers describe trigeminal neuralgia, including one case caused by a cavernous malformation treated with radiosurgery. Lamotrigine may relieve neuralgic pain, but no antitumour activity has been shown.
 
@@ -157,6 +157,19 @@ Please also refer to the Health Canada package insert for complete warnings and 
 - The Health Canada package insert warnings and contraindications, with a slow-titration plan for rash risk.
 - A review of the drug-interaction burden, especially with opioids and cannabinoids, and of the haematological and liver-related associations.
 - Mechanism of action data, to support the mechanistic link analysis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

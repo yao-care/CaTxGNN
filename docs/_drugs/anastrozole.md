@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for anastrozole is not available in the data compiled for this report. Anastrozole is known as an aromatase inhibitor, a drug class that lowers oestrogen production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anastrozole: "The growth of many cancers of the breast is stimulated or maintained by estrogens. In postmenopausal women, estrogens are mainly derived from the action of the aromatase enzyme, which converts adrenal androgens (primarily androstenedione and testosterone) to estrone and estradiol. […] Anastrozole is a selective non-steroidal aromatase inhibitor." ([DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de), label version 2026-03-02; accessed 2026-11-19.) Anastrozole is known as an aromatase inhibitor, a drug class that lowers oestrogen production.
 
 No established mechanistic link between aromatase inhibition and neuroblastoma has been identified. Neuroblastoma is a paediatric tumour of neural-crest origin and is not classically driven by oestrogen. The high score is a computational prediction only. No trials or publications in the compiled data study anastrozole in neuroblastoma, so the prediction should be treated as a hypothesis to test, not as support for clinical use.
 
@@ -86,6 +86,19 @@ The prediction has a high model score but no supporting clinical trials, no lite
 - Mechanism of action data to assess whether oestrogen or aromatase pathways are relevant to neuroblastoma biology
 - Health Canada package insert warnings and contraindications for the safety review
 - Paediatric safety and dosing considerations, since neuroblastoma mainly affects young children
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for anastrozole is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

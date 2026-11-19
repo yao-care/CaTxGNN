@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and it is mechanistically plausible that it also applies to renovascular hypertension.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nadolol: "Nadolol is a nonselective beta-adrenergic receptor blocking agent. Clinical pharmacology studies have demonstrated beta-blocking activity by showing reduction in heart rate and cardiac output at rest and on exercise, reduction of systolic and diastolic blood pressure at rest and on exercise, inhibition of isoproterenol-induced tachycardia, and reduction of reflex orthostatic tachycardia." ([DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f), label version 2026-09-07; accessed 2026-11-19.) Based on known pharmacology, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and it is mechanistically plausible that it also applies to renovascular hypertension.
 
 Beta-1 blockade reduces renin release from the juxtaglomerular apparatus. Renovascular hypertension is driven largely by the renin-angiotensin system, so this link is reasonable.
 
@@ -127,6 +127,19 @@ The predictions rest on model output alone (L5 for the top indication), with no 
 - Clinical or observational evidence of nadolol in renovascular hypertension, if this indication is pursued
 - Clarification of whether the malignant hypertension predictions add value beyond the existing hypertension indication
 - Verification of the Braddock syndrome disease annotation before any further work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

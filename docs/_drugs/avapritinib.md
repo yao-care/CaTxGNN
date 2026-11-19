@@ -56,7 +56,7 @@ but **no clinical trials and no publications** were found to support this predic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Avapritinib is generally known as an inhibitor of the KIT and PDGFRA kinases.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for avapritinib: "Avapritinib is a tyrosine kinase inhibitor that targets KIT D816V, PDGFRA and PDGFRA D842 mutants as well as multiple KIT exon 11, 11/17 and 17 mutants with half maximal inhibitory concentrations (IC 50s ) less than 25 nM in biochemical assays. Certain mutations in PDGFRA and KIT can result in the autophosphorylation and constitutive activation of these receptors which can contribute to tumor and mast cell proliferation." ([DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9), label version 2026-10-20; accessed 2026-11-19.) Avapritinib is generally known as an inhibitor of the KIT and PDGFRA kinases.
 
 Axial spondylometaphyseal dysplasia is a rare skeletal disorder reported to be linked to CFAP410 (C21orf2). No involvement of KIT or PDGFRA is known, so no mechanistic link can be established from the available data. The TxGNN score reflects a computational prediction only and should not be read as evidence of efficacy. A kinase inhibitor given after birth is also unlikely to correct a structural developmental skeletal condition.
 
@@ -109,6 +109,19 @@ The prediction has no supporting trials or publications (Evidence Level L5), and
 - Detailed mechanism of action data
 - Preclinical or genetic evidence linking KIT/PDGFRA signalling to the disease
 - A safety and risk-benefit assessment for the target population, including the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ayvakit (avapritinib) prescribing information, Blueprint Medicines Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

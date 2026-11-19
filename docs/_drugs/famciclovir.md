@@ -60,7 +60,7 @@ Support is thin: **1 clinical trial** is linked, and it tests a different drug (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, famciclovir is a prodrug of penciclovir. Penciclovir's active triphosphate form inhibits the DNA polymerase of varicella-zoster virus (VZV), which limits viral replication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famciclovir: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761), label version 2026-11-13; accessed 2026-11-19.) Based on known pharmacology, famciclovir is a prodrug of penciclovir. Penciclovir's active triphosphate form inhibits the DNA polymerase of varicella-zoster virus (VZV), which limits viral replication.
 
 The link between the two conditions is that postherpetic neuralgia is the most common complication of herpes zoster. Treating the acute zoster episode early with an antiviral may reduce nerve damage and, in turn, the risk or duration of later neuralgia. The reasoning is plausible but indirect. The only linked trial studies oxycodone, not famciclovir, so there is no direct evidence that famciclovir prevents or treats post-infectious neuralgia.
 
@@ -120,6 +120,19 @@ The TxGNN score is very high, and the mechanism is plausible because famciclovir
 - Approved-indication text for the Canadian authorizations
 
 **Related finding:** Among the other predictions for famciclovir, **chickenpox** has the strongest support (L1). It has two completed Phase 3 studies, one on pediatric pharmacokinetics and safety (NCT00098046) and one on zoster efficacy (NCT01327144). Neither is a chickenpox efficacy trial, so this is worth a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

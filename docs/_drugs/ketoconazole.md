@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but support is still 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. The reasoning below is therefore based on general pharmacological knowledge, not on supplied MOA data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.) The reasoning below is therefore based on general pharmacological knowledge, not on supplied MOA data.
 
 Ketoconazole inhibits fungal CYP51 (lanosterol 14α-demethylase), which gives it its antifungal activity. This includes activity against *Malassezia* (*Pityrosporum*) yeasts. These yeasts are linked to follicular and pustular eruptions that can look like acne. One report describes neonatal *Malassezia* pustulosis, and another describes *Pityrosporum* folliculitis, which is often misdiagnosed as acne vulgaris. Some of the benefit seen in "acne-like" conditions may therefore come from treating a fungal cause.
 
@@ -138,6 +138,19 @@ The evidence is at L4: a model prediction backed by laboratory and mechanistic d
 - Dosage form and approved indication details for each DIN, to confirm topical product availability
 - Evidence separating any benefit from *Malassezia* folliculitis (a fungal mimic of acne) from benefit in true acne vulgaris
 - A safety plan if systemic use is ever considered (liver function, adrenal function, ECG/QT monitoring, and interaction management)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

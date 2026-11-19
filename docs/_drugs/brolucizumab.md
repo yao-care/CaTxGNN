@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, brolucizumab is a single-chain antibody fragment (scFv) that inhibits VEGF-A. It is given by intravitreal injection, and its efficacy in macular degeneration comes from reducing abnormal blood vessel growth and leakage in the retina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brolucizumab: "Brolucizumab is a human VEGF inhibitor. Brolucizumab binds to the three major isoforms of VEGF-A (e.g., VEGF 110, VEGF 121, and VEGF 165 ), thereby preventing interaction with receptors VEGFR-1 and VEGFR-2. By inhibiting VEGF-A, brolucizumab suppresses endothelial cell proliferation, neovascularization, and vascular permeability." ([DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d), label version 2026-10-26; accessed 2026-11-19.) Based on general knowledge, brolucizumab is a single-chain antibody fragment (scFv) that inhibits VEGF-A. It is given by intravitreal injection, and its efficacy in macular degeneration comes from reducing abnormal blood vessel growth and leakage in the retina.
 
 For the predicted indication, no mechanistic link is established. Primary mitochondrial oxidative phosphorylation disorders arise from nuclear DNA defects in respiratory chain subunits or assembly factors. VEGF-A inhibition does not address this pathology. The high score (0.9967) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and because the annotated mechanism is missing, it cannot be cross-checked.
 
@@ -103,6 +103,19 @@ All four predictions are supported only by the TxGNN model (deep learning) score
 - Mechanism of action data from DrugBank, to enable a proper mechanistic-link analysis
 - Any preclinical or clinical evidence linking VEGF-A inhibition to the predicted conditions
 - Route compatibility assessment, since systemic delivery would be needed for most predicted indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Beovu (brolucizumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d1dc1fa-a2d3-46ed-9e9a-c1a036590d3d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

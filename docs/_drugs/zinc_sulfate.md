@@ -60,7 +60,7 @@ One trial of zinc lozenges addressed postoperative sore throat, a related but di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available for this drug. Zinc is generally thought to act locally on mucous membranes, with possible antiviral and anti-inflammatory effects and support of epithelial repair. This is a plausible but unproven rationale for the throat.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zinc sulfate: "Zinc is an essential trace element. Zinc functions as a cofactor of various enzymes including DNA polymerases, RNA polymerases, alcohol dehydrogenase, and alkaline phosphatases. Zinc is a coordinator of protein structural folding, such as folding of “Zinc finger” motif that interacts with a variety of proteins, lipids, and nucleic acids." ([DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757), label version 2026-03-04; accessed 2026-11-19.) Zinc is generally thought to act locally on mucous membranes, with possible antiviral and anti-inflammatory effects and support of epithelial repair. This is a plausible but unproven rationale for the throat.
 
 The high TxGNN score is a computational output and is not clinical evidence. The only randomized placebo-controlled trial in pharyngitis itself tested zinc sulfate for radiation-induced oral mucositis and pharyngitis in head and neck cancer patients (PMID 23720981), and it did not show a benefit. The lozenge trial concerns sore throat after intubation, which is a different cause from infectious pharyngitis. Because no study showing benefit directly addresses the predicted disease, the evidence level is L5.
 
@@ -114,6 +114,18 @@ The model score is very high, but the only randomized trial in pharyngitis itsel
 - A well-designed controlled trial in infectious pharyngitis with a defined zinc formulation and dose
 - Mechanism-of-action data for zinc in the pharynx
 - Package insert warnings and contraindications for the relevant products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zinc sulfate prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49698d00-f44b-4b1f-ae34-6b9067911757) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -60,7 +60,7 @@ The top-scoring prediction, punctate epithelial keratoconjunctivitis, has only a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on what is known, doxycycline is a broad-spectrum tetracycline antibiotic with proven efficacy against many bacterial infections, including chlamydia, gonorrhea, syphilis-related organisms, rickettsial infections and brucellosis. It is also known to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxycycline: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), label version 2026-07-09; accessed 2026-11-19.) Based on what is known, doxycycline is a broad-spectrum tetracycline antibiotic with proven efficacy against many bacterial infections, including chlamydia, gonorrhea, syphilis-related organisms, rickettsial infections and brucellosis. It is also known to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects.
 
 For **punctate epithelial keratoconjunctivitis**, the link is that doxycycline treats chlamydial conjunctivitis and may calm ocular-surface inflammation. The only supporting paper, however, is a 1992 report of two patients whose punctate keratitis persisted after chlamydial conjunctivitis had resolved. It offers no controlled evidence that doxycycline treats the keratitis.
 
@@ -144,6 +144,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - Mechanism of action data
 - A guardrail plan covering antimicrobial resistance, microbiome effects and drug interactions (especially retinoids)
 - For gingivitis, verification of whether the periodontitis evidence applies, and for rank 1, controlled evidence in keratoconjunctivitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

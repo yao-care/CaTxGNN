@@ -60,7 +60,7 @@ The prediction is therefore best treated as a computational signal rather than a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, metronidazole is a nitroimidazole that is activated by reduction of its nitro group in anaerobic bacteria and protozoa, producing DNA-damaging radicals. Its efficacy in anaerobic infections and protozoal diseases such as giardiasis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metronidazole: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), label version 2026-11-02; accessed 2026-11-19.) Based on general pharmacology, metronidazole is a nitroimidazole that is activated by reduction of its nitro group in anaerobic bacteria and protozoa, producing DNA-damaging radicals. Its efficacy in anaerobic infections and protozoal diseases such as giardiasis is well established.
 
 The link to pneumocystosis is weak. Pneumocystis is a fungus and lacks this reductive activation pathway. The retrieved literature consists of general antiparasitic reviews, HIV opportunistic infection overviews and case reports in which metronidazole was given for a coexisting infection such as amoebiasis. None of it shows metronidazole efficacy against Pneumocystis. The high score is probably driven by network proximity to antiprotozoal and anti-infective drugs rather than a true mechanistic fit. The standard treatment cited in the literature is trimethoprim-sulfamethoxazole.
 
@@ -139,11 +139,12 @@ The prediction rests on a model score alone. There are no trials, the biology do
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Codeine is generally known as an opioid analgesic and cough suppressant, but the data compiled for this report do not include a mechanism entry, so no mechanism-based link can be drawn here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), label version 2026-01-16; accessed 2026-11-19.) Codeine is generally known as an opioid analgesic and cough suppressant, but the data compiled for this report do not include a mechanism entry, so no mechanism-based link can be drawn here.
 
 The high score (0.9993) comes from the TxGNN model (deep learning). It may reflect similarities the model learned between "nasal cavity disease" and codeine's existing rhinitis, nasopharyngitis and common cold indications, not biological evidence that codeine treats nasal disease. The only publication is a case report of a rhinolith (nasal stone) formed around a hardened codeine and opium mixture, an incidental or harmful event rather than a therapeutic effect.
 
@@ -132,11 +132,12 @@ The score is very high, but there are no clinical trials, and the only publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Twenty valid single-ingredient licences are on record" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
 
 <!-- review:end log -->
 

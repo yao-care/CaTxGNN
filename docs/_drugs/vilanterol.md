@@ -60,8 +60,7 @@ The data compiled for this report include **30 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on the known pharmacology of the drug class, vilanterol is a selective long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle through cAMP-mediated signalling and produces bronchodilation that lasts about 24 hours, which supports once-daily dosing.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate and vilanterol (a combination product containing vilanterol): "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), label version 2024-11-21; accessed 2026-11-19.) Based on the known pharmacology of the drug class, vilanterol is a selective long-acting beta2-adrenoceptor agonist. It relaxes airway smooth muscle through cAMP-mediated signalling and produces bronchodilation that lasts about 24 hours, which supports once-daily dosing.
 
 The other predicted indications (ranks 2–10) are weaker. Compensatory emphysema, hyperlucent lung, interstitial emphysema, tracheal stenosis, congenital lobar emphysema, tracheal calcification and laryngotracheitis have no trials or literature, and bronchodilation is not expected to address their causes. The high scores likely reflect name similarity to emphysema or COPD. For bronchial neoplasm, the only trial (NCT04536675) tests dual bronchodilators for postoperative lung function in lung cancer patients who also have COPD. That is supportive care, not antitumour activity. The literature retrieved for respiratory malformation is vilanterol safety and QT studies and COPD reports, not studies of that condition.
 
@@ -137,6 +136,19 @@ Several completed Phase 3 RCTs and large pivotal trials (IMPACT, FULFIL, CAPTAIN
 - Mechanism of action data from DrugBank
 - Approved indication text and dosage forms for the five Canadian licences
 - Clarification of which product-specific indications vilanterol already covers, so any true new-indication opportunity can be separated from existing use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

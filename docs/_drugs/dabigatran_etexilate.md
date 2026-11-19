@@ -58,7 +58,7 @@ Dabigatran etexilate is an oral direct thrombin inhibitor marketed in Canada as 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, dabigatran is a direct thrombin inhibitor. Thrombin and PAR signaling could plausibly contribute to liver inflammation and fibrosis, which is a possible bridge to sclerosing cholangitis. This is a hypothesis only and is not supported by the supplied evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dabigatran etexilate: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), label version 2026-11-02; accessed 2026-11-19.) From general pharmacology, dabigatran is a direct thrombin inhibitor. Thrombin and PAR signaling could plausibly contribute to liver inflammation and fibrosis, which is a possible bridge to sclerosing cholangitis. This is a hypothesis only and is not supported by the supplied evidence.
 
 The only linked publication (PMID 36906733) is a drug-interaction pharmacokinetic study of cilofexor, an FXR agonist in development for sclerosing cholangitis. It says nothing about dabigatran's efficacy. The high score of 0.9982 should therefore be read as a model-derived association and not as confirmation.
 
@@ -116,6 +116,19 @@ The prediction score is very high, but there are no clinical trials for dabigatr
 - Mechanism of action data (for example from DrugBank) and a documented link between thrombin signalling and cholestatic liver disease
 - Preclinical evidence (for example thrombin/PAR inhibition in cholangiopathy models) or observational data on dabigatran use in patients with sclerosing cholangitis
 - A bleeding-risk assessment in patients with hepatic impairment or portal hypertension before any clinical study is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

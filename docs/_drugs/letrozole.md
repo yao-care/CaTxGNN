@@ -58,7 +58,7 @@ Letrozole is an aromatase inhibitor that lowers estrogen production. The TxGNN m
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Letrozole is known as an aromatase inhibitor, a drug class that blocks the conversion of androgens to estrogens and is used in hormone-driven breast conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for letrozole: "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406), label version 2026-06-11; accessed 2026-11-19.) Letrozole is known as an aromatase inhibitor, a drug class that blocks the conversion of androgens to estrogens and is used in hormone-driven breast conditions.
 
 Nipple carcinoma is a breast cancer subtype or location. If the tumour is hormone receptor-positive, aromatase inhibition is plausible by extension from other breast cancers. This is only a theoretical link. No trial is specific to this entity, and the available literature is limited to case reports and one neoadjuvant endocrine therapy report in neuroendocrine carcinoma of the breast.
 
@@ -97,7 +97,6 @@ These reports describe related breast conditions. None tests letrozole in nipple
 | 02358514 | APO-LETROZOLE | Not listed | Not listed |
 | 02344815 | SANDOZ LETROZOLE | Not listed | Not listed |
 
-
 ---
 
 ## Safety Considerations
@@ -121,6 +120,18 @@ The prediction score is high (0.9976), but the evidence level is L5. No study ha
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from Health Canada
 - A safety review for bone health and liver function in the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

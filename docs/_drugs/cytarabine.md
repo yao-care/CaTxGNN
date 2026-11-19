@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **small cell lung carcinoma**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, cytarabine is a pyrimidine nucleoside analog that inhibits DNA synthesis in S-phase cells. Its efficacy in acute leukemias is well established, and mechanistically it could be applicable to other rapidly proliferating tumors.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cytarabine: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), label version 2026-10-19; accessed 2026-11-19.) Based on general pharmacology, cytarabine is a pyrimidine nucleoside analog that inhibits DNA synthesis in S-phase cells. Its efficacy in acute leukemias is well established, and mechanistically it could be applicable to other rapidly proliferating tumors.
 
 Small cell lung carcinoma is a fast-growing malignancy, which gives the prediction a plausible biological rationale. However, the retrieved literature mostly concerns non-small cell lung cancer (phase II cytarabine plus cisplatin studies from 1990) and general antimetabolite reviews. No SCLC-specific cytarabine study with a clear result was identified beyond a 1987 report titled "High-dose cytarabine in small cell lung cancer" (no abstract available). Solid tumors are also generally less sensitive to cytarabine than leukemias. The evidence is therefore indirect and historical.
 
@@ -133,6 +133,19 @@ The prediction score is very high, but it is not backed by any registered trial 
 - A focused review of SCLC-specific cytarabine data, including the 1987 high-dose cytarabine report
 - Preclinical or early clinical data in SCLC to support a registered trial
 - Approved indication text, dosage forms and manufacturer details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

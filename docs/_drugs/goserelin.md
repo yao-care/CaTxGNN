@@ -60,7 +60,7 @@ with **1 clinical trial** and **15 publications** currently associated with this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, goserelin is a GnRH agonist. Continuous administration desensitizes pituitary GnRH receptors and suppresses LH and FSH. This lowers ovarian estradiol production and produces a reversible hypogonadal state.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for goserelin: "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3), label version 2026-03-24; accessed 2026-11-19.) Based on known pharmacology, goserelin is a GnRH agonist. Continuous administration desensitizes pituitary GnRH receptors and suppresses LH and FSH. This lowers ovarian estradiol production and produces a reversible hypogonadal state.
 
 This is how it works in endometriosis: lowering estrogen reduces the growth of estrogen-dependent lesions. The same estrogen suppression stops menstruation, so amenorrhea follows directly. That explains why the model scores this link so highly.
 
@@ -140,6 +140,19 @@ The high TxGNN score reflects a pharmacological effect that is already expected:
 - Mechanism of action data from DrugBank
 - Approved indication text for the two Canadian DINs
 - A review of the cardiometabolic contraindications and the antidiabetic interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

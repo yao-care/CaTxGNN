@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary cutaneous B-cell lymp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, vorinostat is an HDAC inhibitor (class I/II). It promotes acetylation of histones and other proteins, which can lead to cell-cycle arrest and apoptosis in lymphoid cancers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vorinostat: "Vorinostat inhibits the enzymatic activity of histone deacetylases HDAC1, HDAC2 and HDAC3 (Class I) and HDAC6 (Class II) at nanomolar concentrations (IC 50 &lt;86 nM). These enzymes catalyze the removal of acetyl groups from the lysine residues of proteins, including histones and transcription factors." ([DailyMed: Zolinza (vorinostat) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd86ee78-2781-468b-930c-3c4677bcc092), label version 2024-11-12; accessed 2026-11-19.) Based on general knowledge of the drug class, vorinostat is an HDAC inhibitor (class I/II). It promotes acetylation of histones and other proteins, which can lead to cell-cycle arrest and apoptosis in lymphoid cancers.
 
 A preclinical study in mantle cell lymphoma, an aggressive B-cell neoplasm, showed that vorinostat induces apoptosis by acetylating the promoters of proapoptotic BH3-only genes. This makes it biologically plausible that vorinostat could act in other B-cell lymphomas.
 
@@ -113,6 +113,18 @@ No trial or publication in the data directly studies primary cutaneous B-cell ly
 - Confirmed mechanism of action data
 - Health Canada package insert warnings and contraindications
 - Review of the glucose-related interactions and the QT, hepatic and haematological risks for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zolinza (vorinostat) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd86ee78-2781-468b-930c-3c4677bcc092) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

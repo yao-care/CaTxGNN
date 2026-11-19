@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are c
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge of the drug class, tranexamic acid is an antifibrinolytic that inhibits plasminogen activation and so reduces fibrinolysis-driven bleeding, including endometrial bleeding. Its marketed use in heavy menstrual bleeding provides a plausible link to menstrual suppression.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-19.) Based on general knowledge of the drug class, tranexamic acid is an antifibrinolytic that inhibits plasminogen activation and so reduces fibrinolysis-driven bleeding, including endometrial bleeding. Its marketed use in heavy menstrual bleeding provides a plausible link to menstrual suppression.
 
 However, amenorrhea is not a direct pharmacological effect of the drug. The high TxGNN score most likely reflects network proximity to abnormal uterine bleeding and menstrual disorders, rather than a demonstrated ability to stop menstruation. The two retrieved publications support reducing menstrual blood loss, not inducing amenorrhea. The mechanistic link should therefore be treated as a hypothesis.
 
@@ -120,6 +120,19 @@ The prediction rests on a high model score and two reviews that address reduced 
 - Clinical evidence showing that tranexamic acid induces or maintains amenorrhea, rather than only reducing blood loss
 - A thrombotic risk assessment for combination with hormonal agents
 - Clarification of the intended clinical goal, for example menstrual suppression in haematology patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials**, and the support consi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled sources. Based on the known drug class, rivastigmine is a cholinesterase inhibitor that blocks the breakdown of acetylcholine by acetylcholinesterase and butyrylcholinesterase. Its use in Alzheimer disease rests on raising acetylcholine levels in the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on the known drug class, rivastigmine is a cholinesterase inhibitor that blocks the breakdown of acetylcholine by acetylcholinesterase and butyrylcholinesterase. Its use in Alzheimer disease rests on raising acetylcholine levels in the brain.
 
 Glaucoma is a disease in which raised intraocular pressure (IOP) damages the optic nerve. In the eye, higher cholinergic tone can make the ciliary muscle contract and improve fluid outflow through the trabecular meshwork, which lowers IOP. This is the same principle behind established cholinergic agents such as pilocarpine, physostigmine and echothiophate. The mechanistic link is therefore inferred from drug class rather than from confirmed mechanism data.
 
@@ -125,11 +125,12 @@ The prediction is biologically plausible and supported by one rabbit study, but 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The compiled data list 20 valid single-ingredient licences, but dosage form and approved indication text are not recorded" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled sources" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

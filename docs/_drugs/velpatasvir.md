@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hepatitis B virus infection**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, velpatasvir is an HCV NS5A inhibitor and is used in fixed-dose combinations with sofosbuvir (Epclusa) and with sofosbuvir plus voxilaprevir (Vosevi). Its efficacy in hepatitis C is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of velpatasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, velpatasvir is an HCV NS5A inhibitor and is used in fixed-dose combinations with sofosbuvir (Epclusa) and with sofosbuvir plus voxilaprevir (Vosevi). Its efficacy in hepatitis C is well established.
 
 Mechanistically, the link to hepatitis B is weak. HBV has no NS5A protein, so velpatasvir has no direct target in this virus. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the two "viral hepatitis" diseases, not biological evidence or a shared drug target.
 
@@ -131,6 +131,19 @@ The prediction score is very high (0.9987), but it appears to reflect network pr
 - A reactivation risk-management plan for HBV co-infected patients
 
 **Other predicted indications:** The remaining nine predictions (hepatitis E, hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease, HIV, simian immunodeficiency virus infection, feline immunodeficiency syndrome and a rare neurodevelopmental disorder) have no direct efficacy evidence and are also rated Hold. For HIV, the available data concern HCV treatment in co-infected patients and drug interactions with antiretrovirals, not HIV treatment.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

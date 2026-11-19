@@ -60,7 +60,7 @@ The mechanistic rationale is weak, and the high score most likely reflects netwo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, PTU inhibits thyroid peroxidase and reduces thyroid hormone synthesis. At high doses it also reduces peripheral conversion of T4 to T3. This underlies its use in hyperthyroidism.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for propylthiouracil: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), label version 2026-08-27; accessed 2026-11-19.) From known pharmacology, PTU inhibits thyroid peroxidase and reduces thyroid hormone synthesis. At high doses it also reduces peripheral conversion of T4 to T3. This underlies its use in hyperthyroidism.
 
 In resistance to thyroid hormone beta (RTH-beta), thyroid hormone levels are high and TSH is not suppressed, because the receptor responds poorly to the hormone. Lowering hormone levels with an antithyroid drug would raise TSH further and risks goiter and over-stimulation of the thyroid. The mechanistic link is therefore weak and may be counterproductive. Case reports in the literature describe patients with RTH who were mistakenly treated with PTU for suspected thyrotoxicosis and whose goiter worsened.
 
@@ -132,6 +132,19 @@ No clinical trials exist, and the literature contains only mouse models and case
 - Detailed mechanism of action data from DrugBank.
 - Approved indication text and dosage forms for the two Canadian licences.
 - For the lower-ranked predictions: neonatal thyrotoxicosis could be explored as a research question with a dedicated pediatric hepatotoxicity risk assessment, and hyperthyroxinemia would need to be split into specific causes before any evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

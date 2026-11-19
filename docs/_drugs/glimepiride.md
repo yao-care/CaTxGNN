@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, glimepiride is a sulfonylurea that closes ATP-sensitive potassium channels in pancreatic beta cells and stimulates insulin release. Its efficacy in type 2 diabetes is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for glimepiride: "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), label version 2024-08-20; accessed 2026-11-19.) Based on general pharmacology, glimepiride is a sulfonylurea that closes ATP-sensitive potassium channels in pancreatic beta cells and stimulates insulin release. Its efficacy in type 2 diabetes is established.
 
 Stiff person syndrome is an autoimmune neurological disorder linked to GABAergic signaling and anti-GAD65 antibodies. It often occurs together with type 1 diabetes. The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct mechanistic rationale for benefit has been established.
 
@@ -105,6 +105,19 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 - Obtain mechanism of action data, and assess whether any plausible link to GABAergic or autoimmune pathways exists
 - Run a systematic literature search for glimepiride or sulfonylureas in stiff person syndrome
 - Consider whether drugs with established evidence in stiff person syndrome are better candidates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

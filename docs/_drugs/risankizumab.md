@@ -60,7 +60,7 @@ The strongest evidence is a completed Phase 2 trial in atopic dermatitis, which 
 
 ## Why is This Prediction Reasonable?
 
-Risankizumab is a humanised IgG monoclonal antibody that targets the p19 subunit of IL-23. Detailed mechanism-of-action data is not available in the data compiled for this report, but this class mechanism is well described in the literature. IL-23 drives Th17 responses, which contribute to psoriasis and some other inflammatory skin diseases.
+Risankizumab is a humanised IgG monoclonal antibody that targets the p19 subunit of IL-23. According to the Mechanism of Action section of the US FDA-approved prescribing information for risankizumab: "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), label version 2026-10-23; accessed 2026-11-19.) This class mechanism is well described in the literature. IL-23 drives Th17 responses, which contribute to psoriasis and some other inflammatory skin diseases.
 
 Psoriasis and dermatitis are both inflammatory skin conditions, which helps explain the model's high score. However, atopic dermatitis, the most common form of dermatitis, is mainly Th2-driven (IL-4/IL-13). The Phase 2 trial of risankizumab in moderate-to-severe atopic dermatitis did not show a clear benefit over placebo.
 
@@ -133,6 +133,19 @@ The only direct evidence is one completed Phase 2 RCT in atopic dermatitis, whic
 - Obtain the package insert (warnings and contraindications) for the Health Canada products, as well as approved-indication and dosage-form details.
 - Obtain detailed mechanism-of-action data.
 - Evaluate the infection risk and interaction profile for any combination use with other immunomodulators.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

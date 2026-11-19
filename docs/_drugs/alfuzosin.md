@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alfuzosin is a uroselective alpha-1 adrenergic antagonist. Its efficacy in BPH is established, but no mechanistic route to the predicted new indication is known.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alfuzosin: "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3), label version 2024-12-05; accessed 2026-11-19.) Based on known information, alfuzosin is a uroselective alpha-1 adrenergic antagonist. Its efficacy in BPH is established, but no mechanistic route to the predicted new indication is known.
 
 Ambras syndrome is a rare genetic disorder caused by chromosomal rearrangements that affect regulation of the TRPS1 gene. No plausible pathway links alpha-1 blockade to this condition. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as a cluster of hypertrichosis and hair-disorder diseases, not biological evidence.
 
@@ -104,6 +104,19 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Package insert warnings and contraindications from Health Canada, to complete safety screening
 - Any preclinical or clinical evidence linking alpha-1 blockade to hair growth or TRPS1-related biology
 - A review of the other ranked predictions for any with a more credible pharmacological rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

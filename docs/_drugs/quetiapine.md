@@ -60,7 +60,7 @@ The best-supported prediction among the top 10 is **trichotillomania**, with **0
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Quetiapine is known as an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors, with additional histamine H1 and alpha-1 adrenergic blockade. This is general pharmacology and was not part of the data compiled here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quetiapine: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), label version 2026-10-08; accessed 2026-11-19.) Quetiapine is known as an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors, with additional histamine H1 and alpha-1 adrenergic blockade. This is general pharmacology and was not part of the data compiled here.
 
 **Retinal dystrophy (rank 1):** No plausible link was identified between quetiapine's receptor pharmacology and the genetic basis of inherited retinal dystrophy. The high score is a computational output only. The other top-10 predictions are also unsupported by any trials or literature. They include rare genetic or developmental conditions such as congenital glycosylation disorders, hydranencephaly, a chromosomal microdeletion syndrome, a polymicrogyria syndrome, several forms of myopia, and a demyelinating neuropathy. An antipsychotic is not expected to modify the underlying pathology of any of these.
 
@@ -140,6 +140,19 @@ The metabolic and sedation risks are relevant for any trichotillomania use, sinc
 - Package insert warnings and contraindications from Health Canada
 - For trichotillomania: a controlled trial, or at least a systematic review of quetiapine use, weighing benefit against metabolic and sedation risks, and clarifying the report of worsened obsessive-compulsive symptoms
 - For retinal dystrophy and the other L5 predictions: a mechanistic rationale before any further investment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The trials include several completed Phase 3 studies of dapsone in Pneumocystis 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled record. Based on established pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase in the folate synthesis pathway, the same target as sulfonamides such as sulfamethoxazole.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dapsone: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), label version 2026-10-01; accessed 2026-11-19.) Based on established pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase in the folate synthesis pathway, the same target as sulfonamides such as sulfamethoxazole.
 
 Pneumocystis jirovecii depends on this folate pathway, so a drug acting there is mechanistically plausible. This fits the very high prediction score and the clinical activity of dapsone in Pneumocystis pneumonia prophylaxis and treatment.
 
@@ -118,6 +118,19 @@ Several completed Phase 3 trials (about 2,000 participants combined) directly st
 - Mechanism of action data confirmed from a primary source
 - G6PD deficiency screening before use, plus monitoring for methemoglobinemia and hemolysis
 - Review of the high drug-interaction burden against the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

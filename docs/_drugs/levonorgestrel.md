@@ -56,7 +56,7 @@ No clinical trials are registered, but one randomized placebo-controlled trial o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Levonorgestrel is a progestin derived from the 19-nortestosterone family. It therefore keeps some residual androgenic activity, a property reviewed in the literature on progestin androgenicity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) Levonorgestrel is a progestin derived from the 19-nortestosterone family. It therefore keeps some residual androgenic activity, a property reviewed in the literature on progestin androgenicity.
 
 The case for acne rests on hormonal control of the sebaceous gland. Acne is driven partly by androgen action on the pilosebaceous unit. In combined hormonal contraceptives, the benefit for acne is mainly credited to the estrogen component, which raises sex hormone-binding globulin and lowers free testosterone. Progestins with anti-androgenic properties, such as chlormadinone acetate and cyproterone, are the ones usually credited with added dermatological benefit. In a review of ethinylestradiol/chlormadinone acetate, that combination was significantly more effective for mild-to-moderate papulopustular acne than ethinylestradiol/levonorgestrel.
 
@@ -107,6 +107,18 @@ The main support is one randomized placebo-controlled trial (L2) of a combinatio
 - Detailed mechanism of action data
 - Review of package insert warnings and contraindications for the intended population
 - Dosage form and approved-indication details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

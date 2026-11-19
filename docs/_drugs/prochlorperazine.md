@@ -56,7 +56,7 @@ The best-supported direction among the predictions is **manic bipolar affective 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors. This is consistent with its use in schizophrenia.
+ChEMBL (EMBL-EBI) records the mechanism of action of prochlorperazine as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors. This is consistent with its use in schizophrenia.
 
 For the top prediction, retinal dystrophy, no mechanistic link is established. The score is very high, but it is a purely computational output. D2 antagonism has no known relevance to inherited retinal degeneration. Phenothiazines also carry ocular adverse effects, so the risk-benefit is unfavourable without supporting evidence.
 
@@ -117,6 +117,19 @@ The top prediction, retinal dystrophy, is a purely computational result with no 
 - Mechanism of action data
 - For manic bipolar affective disorder, a structured review of the evidence against current guideline-endorsed agents, and a decision on whether it is worth pursuing as a research question
 - For the retinal and congenital predictions, preclinical support for a mechanism before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL728 (prochlorperazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL728) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

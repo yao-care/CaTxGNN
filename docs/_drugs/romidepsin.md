@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, romidepsin is a class I histone deacetylase (HDAC) inhibitor. Its efficacy in T-cell lymphoma has been established, and by changing gene expression through epigenetic regulation it may in principle be applicable to other tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for romidepsin: "Romidepsin is a histone deacetylase (HDAC) inhibitor. HDACs catalyze the removal of acetyl groups from acetylated lysine residues in histones, resulting in the modulation of gene expression. HDACs also deacetylate non-histone proteins, such as transcription factors." ([DailyMed: romidepsin prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61894b77-f29c-4a81-ad85-bd3a698233a4), label version 2025-09-04; accessed 2026-11-19.) Based on known information, romidepsin is a class I histone deacetylase (HDAC) inhibitor. Its efficacy in T-cell lymphoma has been established, and by changing gene expression through epigenetic regulation it may in principle be applicable to other tumours.
 
 DFSP is a low-grade skin sarcoma driven by a COL1A1–PDGFB fusion gene. It is quite different from T-cell lymphoma in cell type and biology. The link is only a computational prediction (high TxGNN score). No direct drug-disease connection has been demonstrated. The two retrieved papers describe the establishment of patient-derived DFSP cell lines, which are useful as future test models but do not test romidepsin.
 
@@ -126,6 +126,19 @@ The prediction score is very high (0.9992), but it is not backed by any clinical
 - Health Canada package insert warnings and contraindications, which are required before safety screening
 - A cardiac (QT) and haematological safety plan for any future study, given the interaction and contraindication signals
 - A comparison with other predicted indications such as liposarcoma, where a Phase 2 soft tissue sarcoma trial (NCT00112463) and a mechanistic preclinical study already exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: romidepsin prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=61894b77-f29c-4a81-ad85-bd3a698233a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

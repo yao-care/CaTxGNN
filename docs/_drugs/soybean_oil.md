@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a marketed lipid source used in parenteral nutrition emulsions and as a dietary oil. No established mechanistic link to amenorrhea has been identified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for soybean oil: "Nutrilipid 20% administered intravenously provides biologically utilizable source of calories and essential fatty acids. Fatty acids serve as an important substrate for energy production. The most common mechanism of action for energy production derived from fatty acid metabolism is beta oxidation." ([DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73), label version 2026-07-10; accessed 2026-11-19.) Based on known information, soybean oil is a marketed lipid source used in parenteral nutrition emulsions and as a dietary oil. No established mechanistic link to amenorrhea has been identified.
 
 The TxGNN score (0.9961) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical or literature evidence in the data compiled for this report. Soybean oil is not a recognised treatment for amenorrhea.
 
@@ -117,11 +117,12 @@ The prediction is supported only by a model score, with no clinical trials, no l
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nutrilipid I.V. Fat Emulsion (soybean oil) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=193290b1-a0a1-4054-a22a-de5c9e7a8b73) |
 
 <!-- review:end log -->
 

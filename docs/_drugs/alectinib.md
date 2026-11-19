@@ -56,7 +56,7 @@ The prediction is model output only. Among the ten predicted indications, only l
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), with additional RET activity. Its efficacy in ALK-positive non-small cell lung cancer is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alectinib: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), label version 2026-08-21; accessed 2026-11-19.) Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), with additional RET activity. Its efficacy in ALK-positive non-small cell lung cancer is well established.
 
 No mechanistic link to gingival fibromatosis has been established. No ALK-driven pathology has been described in this condition. The very high TxGNN score comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -136,6 +136,19 @@ No label-based warnings or contraindications were available in the data compiled
 - Health Canada package insert warnings and contraindications, which currently block safety screening
 - Indication text and dosage form for the Canadian licence
 - Preclinical or case-level efficacy data in the predicted indication before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

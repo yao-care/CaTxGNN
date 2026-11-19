@@ -56,7 +56,7 @@ Support is limited: there are **no registered clinical trials** and **3 small ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, minoxidil is an established hair-growth stimulant. Its sulfate metabolite opens potassium channels, which prolongs the anagen (growth) phase of the hair cycle and increases blood flow to the follicle. Its efficacy in common hair loss is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of minoxidil as: Sulfonylurea receptor 2, Kir6.2 opener ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, minoxidil is an established hair-growth stimulant. Its sulfate metabolite opens potassium channels, which prolongs the anagen (growth) phase of the hair cycle and increases blood flow to the follicle. Its efficacy in common hair loss is well established.
 
 Hypotrichosis simplex of the scalp is a rare, inherited disorder (linked to variants in the *CDSN* gene) in which hair density is reduced. Because minoxidil acts on hair-cycle duration and follicle perfusion, it is plausibly relevant to a condition defined by reduced hair growth.
 
@@ -116,6 +116,19 @@ The prediction score is very high and the mechanism is plausible. However, the s
 - Studies or case series that isolate the effect of minoxidil alone (for example, N-of-1 or small controlled designs)
 - A safety plan for oral use in children and in patients with cardiovascular conditions
 - Approved indication text and dosage-form details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The best-supported direction among the model's predictions is **pulmonary hypert
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, ISDN is an organic nitrate that releases nitric oxide, raising cGMP in smooth muscle and causing vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydralazine hydrochloride and isosorbide dinitrate (a combination product containing isosorbide dinitrate): "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), label version 2025-11-30; accessed 2026-11-19.) Based on general pharmacology, ISDN is an organic nitrate that releases nitric oxide, raising cGMP in smooth muscle and causing vasodilation.
 
 For alopecia, one speculative hypothesis is that vasodilation could improve scalp perfusion around hair follicles, a mechanism shared with other vasodilators. No clinical trial or publication was found to support this, so it should be treated as a hypothesis only. The other hair-related predictions (congenital hypotrichosis milia, hypotrichosis simplex of the scalp, diffuse alopecia areata, hypertrichosis) are likewise prediction-only. For several of them, such as genetic hair disorders and autoimmune alopecia areata, the vasodilatory mechanism does not address the underlying cause.
 
@@ -137,6 +137,19 @@ The alopecia prediction has a very high model score but no clinical trials or pu
 - Mechanism of action data from DrugBank
 - The approved indication text for the two Canadian DINs
 - A separate evaluation of pulmonary hypertension as a research question, since it has the most existing literature, though it is limited to small haemodynamic studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -58,7 +58,7 @@ Selumetinib is a MEK1/2 inhibitor originally used for neurofibromatosis. The TxG
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not currently available in the compiled data. Based on known pharmacology, selumetinib is a MEK1/2 inhibitor that blocks the RAS/RAF/MEK/ERK signalling pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selumetinib: "Selumetinib is an inhibitor of mitogen-activated protein kinase kinases 1 and 2 (MEK1/2). MEK1/2 proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway. Both MEK and ERK are critical components of the RAS-regulated RAF-MEK-ERK pathway, which is often activated in different types of cancers." ([DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff), label version 2026-05-26; accessed 2026-11-19.) Based on known pharmacology, selumetinib is a MEK1/2 inhibitor that blocks the RAS/RAF/MEK/ERK signalling pathway.
 
 In neurofibromatosis, loss of NF1 or NF2 leads to hyperactivation of this pathway in Schwann cells, driving nerve sheath tumour growth. Selumetinib is already approved for NF1 plexiform neurofibromas, a closely related nerve sheath tumour. Schwannomas arise from the same cell lineage and share this signalling dependence, particularly in NF2-related schwannomatosis (NF2-SWN). This gives a plausible mechanistic basis for the prediction.
 
@@ -137,6 +137,19 @@ The mechanistic rationale is strong, and selumetinib is already marketed in Cana
 - Package insert warnings and contraindications from Health Canada (needed for safety screening)
 - Mechanism-of-action data from DrugBank
 - A review of Major drug interactions (e.g., strong CYP3A4 inhibitors) for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not currently available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Koselugo (selumetinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

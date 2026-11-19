@@ -60,7 +60,7 @@ but there are **0 clinical trials** and only **1 publication** (a case series on
 
 ## Why is This Prediction Reasonable?
 
-Fusidic acid inhibits bacterial protein synthesis by binding elongation factor G. Its activity is mainly against Gram-positive organisms such as Staphylococcus. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the general understanding of the drug.
+Fusidic acid inhibits bacterial protein synthesis by binding elongation factor G. Its activity is mainly against Gram-positive organisms such as Staphylococcus. ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) This description relies on the general understanding of the drug.
 
 Exposure keratitis is mainly a mechanical or desiccation disorder of the cornea, in which the surface dries out because the eyelids do not close properly. Antibacterial activity would only matter if a secondary infection developed. The one retrieved paper is a case series of ocular Tsukamurella infections. It is not a study of fusidic acid in exposure keratitis. The link between the original indications and this prediction is therefore indirect and speculative.
 
@@ -126,6 +126,19 @@ The prediction score is high, but no clinical trials exist and the single public
 - Detailed mechanism-of-action data
 - Evidence on whether fusidic acid has any role in infected or secondary exposure keratitis, including ophthalmic-use clinical data
 - Review of the other predictions, in particular **otitis externa** (score 0.9984, 5 supporting microbiology papers, mostly canine). It has a more plausible mechanism, as typical pathogens such as *S. aureus* are within fusidic acid's spectrum. However, there are no clinical studies, and it may reflect an existing use rather than a novel one. It may be a better candidate for a research question than exposure keratitis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

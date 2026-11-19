@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** supporting this s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for amcinonide. Based on its drug class, it is a potent (class II) topical corticosteroid. Drugs of this class reduce local inflammation and are widely used for inflammatory and proliferative skin disorders.
+ChEMBL (EMBL-EBI) records the mechanism of action of amcinonide as: Glucocorticoid receptor agonist ([ChEMBL CHEMBL1200732 (amcinonide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200732), CC BY-SA 3.0; accessed 2026-11-19.) Based on its drug class, it is a potent (class II) topical corticosteroid. Drugs of this class reduce local inflammation and are widely used for inflammatory and proliferative skin disorders.
 
 Inverted follicular keratosis is a benign keratinocytic lesion, which is related to other benign keratinocytic conditions where amcinonide-type corticosteroids are used. This similarity is likely what drives the model's prediction.
 
@@ -94,6 +94,19 @@ The prediction score is high (0.9982), but no clinical trial or publication stud
 - Mechanism of action data for amcinonide
 - Health Canada package insert warnings and contraindications
 - Review of the higher-ranked, better-supported lichen planus predictions as alternative candidates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for amcinonide" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200732 (amcinonide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200732) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

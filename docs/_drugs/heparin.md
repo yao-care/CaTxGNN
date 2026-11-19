@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific d
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, heparin enhances antithrombin-mediated inhibition of thrombin and factor Xa, which reduces clot formation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for heparin: "Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)." ([DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e), label version 2026-05-25; accessed 2026-11-19.) Based on general pharmacological knowledge, heparin enhances antithrombin-mediated inhibition of thrombin and factor Xa, which reduces clot formation.
 
 Protein C deficiency removes a natural brake on coagulation, leaving patients prone to thrombosis. Heparin's anticoagulant action could plausibly offset this hypercoagulable state. This is consistent with its existing use in purpura fulminans, a severe manifestation of homozygous or severe protein C deficiency.
 
@@ -103,6 +103,19 @@ The prediction is mechanistically plausible and aligns with heparin's existing u
 - Comparison with standard care (protein C concentrate, warfarin or other anticoagulation)
 - Mechanism of action data and Health Canada package insert warnings and contraindications
 - Review of the bleeding-risk profile and the knowledge-graph contraindications in the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

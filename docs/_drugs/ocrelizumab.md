@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **no publications** that addre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, ocrelizumab is a humanized monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis (relapsing and primary progressive forms) is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ocrelizumab: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), label version 2026-05-14; accessed 2026-11-19.) From general knowledge, ocrelizumab is a humanized monoclonal antibody that selectively depletes CD20-expressing B cells. Its efficacy in multiple sclerosis (relapsing and primary progressive forms) is well established.
 
 The data do not support a direct mechanistic link to HER2-positive breast cancer. This cancer is driven by HER2 signalling and is not a CD20-dependent malignancy. The high TxGNN score (0.9989) is a computational prediction only. Any connection through tumour-infiltrating B cells or the immune microenvironment is speculative.
 
@@ -121,6 +121,19 @@ The prediction rests only on the TxGNN model score. There are no clinical trials
 - Mechanism of action data
 - Preclinical or translational evidence that CD20-positive B cells play a role in HER2-positive breast cancer
 - Literature that addresses ocrelizumab or anti-CD20 therapy in breast cancer
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

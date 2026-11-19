@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tramadol is a centrally acting analgesic (opioid/SNRI class). Its use in osteoarthritis and other joint pain is established, so it may mechanistically offer symptomatic pain relief in other skeletal or joint conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tramadol: "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9), label version 2026-01-23; accessed 2026-11-19.) Based on known information, tramadol is a centrally acting analgesic (opioid/SNRI class). Its use in osteoarthritis and other joint pain is established, so it may mechanistically offer symptomatic pain relief in other skeletal or joint conditions.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia caused by CDMP1/GDF5 mutations. Tramadol has no known effect on this underlying pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At best, any benefit would be limited to symptomatic pain relief.
 
@@ -105,6 +105,19 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - Package insert warnings and contraindications from Health Canada, including approved indication text and dosage forms for the licences
 - Any preclinical or clinical evidence in the predicted indication, or a clearly defined symptomatic-pain use case with a safety plan
 - Review of the safety and interaction profile for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

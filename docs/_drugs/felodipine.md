@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension owing 
 
 ## Why is This Prediction Reasonable?
 
-Felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes arterial smooth muscle and causes vasodilation, which is how it lowers blood pressure. Detailed mechanism-of-action data are not available in the data compiled for this report, so this description comes from its known drug class.
+Felodipine is a dihydropyridine L-type calcium channel blocker. It relaxes arterial smooth muscle and causes vasodilation, which is how it lowers blood pressure. According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-19.) This description comes from its known drug class.
 
 Hypoxic pulmonary vasoconstriction depends on calcium, so blocking calcium channels could in theory reduce pulmonary vascular tone. This gives the prediction a plausible mechanistic link.
 
@@ -133,6 +133,19 @@ The TxGNN score is very high (0.9991), but there are no clinical trials and no p
 - Clinical evidence in pulmonary hypertension due to lung disease or hypoxia, ideally controlled studies with oxygenation and outcome endpoints
 - Mechanism-of-action data and the Canadian package insert warnings and contraindications, to complete safety screening
 - A review of the lower-ranked predictions from the same analysis. **Prinzmetal angina** (L2, Proceed with Guardrails) has the strongest evidence, with several small clinical studies from 1989–1995 including comparisons with nifedipine. **Chronic pulmonary heart disease** (L3) has small hemodynamic studies. Either may be a better candidate for further evaluation than the top-ranked prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ This is a research question, not a clinical recommendation.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ribociclib is a selective CDK4/6 inhibitor. CDK4/6 drives cells through the G1-to-S phase of the cell cycle, and blocking it halts proliferation of cells that depend on this pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ribociclib: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), label version 2026-07-01; accessed 2026-11-19.) Based on known information, ribociclib is a selective CDK4/6 inhibitor. CDK4/6 drives cells through the G1-to-S phase of the cell cycle, and blocking it halts proliferation of cells that depend on this pathway.
 
 This gives a plausible link to myeloid leukemia, where rapidly dividing blasts may rely on the same cell-cycle machinery. A 2020 preclinical study (PMID 32560251) reported that CDK4/6 inhibitors can target pharmacokinetic drug resistance in acute myeloid leukemia cells. This resistance is linked to ABCB1 and ABCG2 transporters and to drug-metabolising enzymes.
 
@@ -130,6 +130,19 @@ The high TxGNN score is supported only by a single in vitro study, with no clini
 - Confirmation of the approved indication text for DIN 02473569
 - Further preclinical work in AML models (cell lines, patient-derived samples), including combinations with standard induction therapy
 - A review of myelosuppression risk specific to leukemia patients before any clinical study is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

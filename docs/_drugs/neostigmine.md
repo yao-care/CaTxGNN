@@ -54,8 +54,7 @@ Neostigmine is a cholinesterase inhibitor originally used to treat myasthenia gr
 
 ## Why is This Prediction Reasonable?
 
-Neostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from general pharmacology.
-
+Neostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis. According to the Mechanism of Action section of the US FDA-approved prescribing information for neostigmine: "Neostigmine methylsulfate is a competitive cholinesterase inhibitor. By reducing the breakdown of acetylcholine, neostigmine methylsulfate induces an increase in acetylcholine in the synaptic cleft which competes for the same binding site as nondepolarizing neuromuscular blocking agents, and reverses the neuromuscular blockade." ([DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90), label version 2023-05-15; accessed 2026-11-19.) This description comes from general pharmacology.
 
 ## Clinical Trial Evidence
 
@@ -113,6 +112,19 @@ The predicted indication has no trial or literature support. It is a subtype of 
 - Mechanism-of-action data from DrugBank
 - For neonatal myasthenia gravis: a dosing and safety evaluation in neonates
 - A review of the major bupropion interaction and the knowledge-graph contraindication signals before any new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

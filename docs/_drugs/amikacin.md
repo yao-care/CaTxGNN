@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amikacin is an aminoglycoside antibiotic that binds the 30S ribosomal subunit and is active against many gram-negative Enterobacterales, including Salmonella. Its efficacy in gram-negative infections is established, so the prediction has some biological plausibility for paratyphoid fever, which is caused by *Salmonella* Paratyphi.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amikacin: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), label version 2026-07-27; accessed 2026-11-19.) Based on known information, amikacin is an aminoglycoside antibiotic that binds the 30S ribosomal subunit and is active against many gram-negative Enterobacterales, including Salmonella. Its efficacy in gram-negative infections is established, so the prediction has some biological plausibility for paratyphoid fever, which is caused by *Salmonella* Paratyphi.
 
 There are important limits. Aminoglycosides penetrate cells poorly, and *Salmonella* Paratyphi is an intracellular pathogen. Aminoglycosides are generally not considered effective for enteric fever in vivo, even when the isolate is susceptible in vitro. For typhoid fever, a related condition, one small study (PMID 2598731) reported a clinical effective rate of 36.4% with amikacin (11 patients) versus 100% with ofloxacin. No amikacin-specific clinical data for paratyphoid fever are available.
 
@@ -125,6 +125,19 @@ The TxGNN score is high, but there are no clinical trials, and the literature is
 - Mechanism of action data from DrugBank
 - Clinical evidence specific to amikacin in paratyphoid or enteric fever, including intracellular activity and comparison with standard therapy
 - A nephrotoxicity, ototoxicity and neuromuscular monitoring plan, given the kidney, neuromuscular and vestibular signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

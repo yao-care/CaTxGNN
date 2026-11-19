@@ -60,8 +60,7 @@ No clinical trials or publications directly support this top-ranked prediction, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, enzalutamide is an androgen receptor (AR) inhibitor. It blocks ligand binding, nuclear translocation and DNA binding of the receptor, and this is the basis of its efficacy in prostate cancer.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enzalutamide: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), label version 2026-07-28; accessed 2026-11-19.) From general pharmacology, enzalutamide is an androgen receptor (AR) inhibitor. It blocks ligand binding, nuclear translocation and DNA binding of the receptor, and this is the basis of its efficacy in prostate cancer.
 
 The other top-ranked predictions are similar. Prostate leiomyoma, fibroma of prostate and benign prostate phyllodes tumor are rare prostatic tumors with no trials or publications. Brenner tumor is an ovarian tumor with no clear link to AR inhibition, and its score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -145,6 +144,19 @@ The top-ranked prediction (prostate leiomyoma) is supported by model score only,
 - Clarification of what "prostate cancer/brain cancer susceptibility" means clinically, and whether any real new-use hypothesis exists
 - Dedicated preclinical or clinical evidence for any candidate beyond prostate cancer, such as benign prostate neoplasms
 - Indication text for the Canadian licence (DIN 02407329) to confirm the approved indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

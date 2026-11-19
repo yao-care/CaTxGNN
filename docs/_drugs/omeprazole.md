@@ -58,7 +58,7 @@ Omeprazole is a proton pump inhibitor originally used for gastric and duodenal u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, omeprazole is a proton pump inhibitor that suppresses gastric acid secretion. Its efficacy in acid-related disorders such as GERD, esophagitis and peptic ulcer is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omeprazole: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), label version 2024-03-19; accessed 2026-11-19.) Based on known information, omeprazole is a proton pump inhibitor that suppresses gastric acid secretion. Its efficacy in acid-related disorders such as GERD, esophagitis and peptic ulcer is established.
 
 There are important limits. Omeprazole does not directly block bile reflux, and studies in Barrett's oesophagus show modest or inconsistent effects on duodenogastric reflux. Rat studies also suggest that acid blockade combined with duodenogastric reflux may promote mucosal growth and gastric carcinogenesis. This is a safety signal that must be resolved before any repurposing recommendation.
 
@@ -138,11 +138,12 @@ Please also refer to the package insert for full warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Fourteen single-ingredient licences are valid in Canada and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
 
 <!-- review:end log -->
 

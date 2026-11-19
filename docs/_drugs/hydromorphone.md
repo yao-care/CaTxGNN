@@ -60,7 +60,7 @@ The best-supported alternative is **headache disorder**, with **1 completed Phas
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Hydromorphone is, however, a well-known mu-opioid agonist with central analgesic effects. For pharyngitis, any plausible benefit would be limited to **symptomatic pain relief**. It has no anti-infective or anti-inflammatory action against the underlying cause.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydromorphone: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d), label version 2026-07-15; accessed 2026-11-19.) Hydromorphone is, however, a well-known mu-opioid agonist with central analgesic effects. For pharyngitis, any plausible benefit would be limited to **symptomatic pain relief**. It has no anti-infective or anti-inflammatory action against the underlying cause.
 
 The link to the original indications (common cold, nasopharyngitis) is that all are upper airway conditions with sore throat as a symptom. The linked trials involve post-tonsillectomy pain, a surgical pain model, so the connection to pharyngitis is indirect. Opioids also suppress cough and may be unsuitable for upper airway inflammation.
 
@@ -155,6 +155,19 @@ Package insert warnings and contraindications for the Canadian products have not
 - Approved indication text, dosage forms and routes for the Canadian licences
 - Pharyngitis-specific clinical evidence, rather than post-surgical pain data
 - A risk-benefit assessment against non-opioid alternatives, with dependence risk, if the migraine direction is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

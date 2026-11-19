@@ -60,7 +60,7 @@ However, **0 clinical trials** and **0 publications** currently support this dir
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rosuvastatin is a statin (an HMG-CoA reductase inhibitor). It lowers LDL cholesterol (LDL-C) by reducing cholesterol synthesis in the liver, and it is well established for hyperlipidemia and familial hypercholesterolemia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Based on known information, rosuvastatin is a statin (an HMG-CoA reductase inhibitor). It lowers LDL cholesterol (LDL-C) by reducing cholesterol synthesis in the liver, and it is well established for hyperlipidemia and familial hypercholesterolemia.
 
 CETP deficiency is also a disorder of lipid metabolism. It raises HDL cholesterol and lowers LDL cholesterol. This shared lipid-metabolism territory is probably why the model scored the pairing so highly.
 
@@ -120,6 +120,19 @@ The prediction has a very high model score (0.9954) but no supporting trials or 
 - Review of the major interactions (fenofibrate, atazanavir) and the myopathy and liver-related contraindication signals, if the project advances.
 
 **Context from other predictions:** HIV infection (L2) has Phase 2 trial evidence. It concerns cardiovascular and metabolic comorbidity and would be an adjunctive use, not treatment of HIV itself.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

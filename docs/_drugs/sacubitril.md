@@ -58,7 +58,7 @@ Sacubitril is a neprilysin inhibitor, marketed in Canada as a single-ingredient 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that breaks down natriuretic peptides. It is marketed together with valsartan, an angiotensin receptor blocker (ARB).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sacubitril and valsartan (a combination product containing sacubitril): "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), label version 2026-10-30; accessed 2026-11-19.) Based on known pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that breaks down natriuretic peptides. It is marketed together with valsartan, an angiotensin receptor blocker (ARB).
 
 For diabetic nephropathy, the rationale is biologically plausible:
 
@@ -146,6 +146,19 @@ Please refer to the package insert for warnings and contraindications.
 - Results or a status update for NCT06501651, and verification of its exact population and endpoints
 - Full-text review of the clinical studies (PMID 37549515, 40416927, and the PARADIGM-HF secondary analysis) to confirm design and renal outcomes
 - Safety considerations specific to diabetic nephropathy patients, such as renal function, potassium, and hypotension monitoring, in light of the identified drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

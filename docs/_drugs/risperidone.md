@@ -60,7 +60,7 @@ Currently there are **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, risperidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. Its efficacy in schizophrenia and bipolar mania is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risperidone: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), label version 2026-10-23; accessed 2026-11-19.) Based on known pharmacology, risperidone is an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. Its efficacy in schizophrenia and bipolar mania is well established.
 
 **The predicted link is weak.** Familial horizontal gaze palsy with progressive scoliosis is a rare genetic disorder of axon guidance, linked to the ROBO3 gene. It does not involve dopaminergic or serotonergic pathology that D2/5-HT2A antagonism would plausibly address. The very high score (0.9976) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -118,6 +118,19 @@ The prediction has no supporting trials or publications and no plausible mechani
 - Complete mechanism of action data and the Health Canada package insert warnings and contraindications
 
 It has two completed Phase 3 trials of adjunctive risperidone in treatment-resistant depression (NCT00095134, n=630; NCT00044681, n=258) and several meta-analyses. It is rated L1 with a "Proceed with Guardrails" recommendation. That candidate partly overlaps with the existing bipolar indication, and it would need monitoring of metabolic effects, prolactin, extrapyramidal symptoms and somnolence. It is worth a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

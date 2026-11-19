@@ -60,7 +60,7 @@ with **no registered clinical trials** but **20 publications** (mostly reviews, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, imipramine inhibits presynaptic reuptake of norepinephrine and, to a lesser extent, serotonin. Enhanced noradrenergic signaling in prefrontal circuits is the same mechanism targeted by approved non-stimulant ADHD drugs such as atomoxetine, which makes the link biologically plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for imipramine: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), label version 2026-11-04; accessed 2026-11-19.) Based on known pharmacology, imipramine inhibits presynaptic reuptake of norepinephrine and, to a lesser extent, serotonin. Enhanced noradrenergic signaling in prefrontal circuits is the same mechanism targeted by approved non-stimulant ADHD drugs such as atomoxetine, which makes the link biologically plausible.
 
 Imipramine is already used for nocturnal enuresis, a condition that frequently co-occurs with ADHD in children, and for anxiety and dysthymic disorders, which are common comorbidities. Several retrieved reviews describe imipramine and desipramine as non-stimulant options when stimulants fail or are not tolerated, and one study examined imipramine in children with ADHD who did not respond to stimulants.
 
@@ -136,6 +136,19 @@ The noradrenergic mechanism is plausible and a few published clinical reports, i
 - **ADHD, inattentive type**: Hold. No trials or subtype-specific literature; the high score likely reflects proximity to the parent ADHD term and should be evaluated under the parent indication.
 - **Obsessive-compulsive disorder**: Research question. A 1985 comparison suggests imipramine is less effective than clomipramine, and SSRIs and clomipramine are already established.
 - **Faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma, benign paroxysmal torticollis of infancy**: Hold. No plausible mechanistic link or direct evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

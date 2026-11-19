@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and only indirect supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fremanezumab is a humanized monoclonal antibody that binds the CGRP ligand. CGRP is a key mediator in the trigeminovascular system, and fremanezumab is used to prevent migraine. The literature reviewed describes CGRP as central to migraine pathophysiology (PMID 30725283, 28642283).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fremanezumab: "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), label version 2026-06-05; accessed 2026-11-19.) Based on known information, fremanezumab is a humanized monoclonal antibody that binds the CGRP ligand. CGRP is a key mediator in the trigeminovascular system, and fremanezumab is used to prevent migraine. The literature reviewed describes CGRP as central to migraine pathophysiology (PMID 30725283, 28642283).
 
 Migraine with brainstem aura is a migraine subtype, so it shares the trigeminovascular and CGRP-mediated pathways of the parent disease. This gives a plausible mechanistic rationale. Observational reports of anti-CGRP antibodies in migraine with aura and in hemiplegic migraine (a related aura subtype) point in the same direction, but they are small or case-level studies.
 
@@ -110,6 +110,19 @@ The prediction is mechanistically plausible because brainstem aura is a migraine
 ---
 
 **Note on the second predicted indication:** The model also predicted atrophoderma vermiculata (score 0.9904). There are no clinical trials or literature for it, and no plausible mechanistic link to CGRP neutralization is evident. It is likely a TxGNN model (deep learning) artifact, and the recommendation is **Hold**.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

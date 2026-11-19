@@ -60,7 +60,7 @@ The best-supported repurposing direction in the compiled data is a related one, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the drug database records. Based on the literature compiled for this report, hydroxyurea inhibits ribonucleotide reductase, which depletes the pool of DNA building blocks (dNTPs) and causes replication stress in dividing cells. This is the basis of its use in cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxyurea: "The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein." ([DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b), label version 2026-02-02; accessed 2026-11-19.) Based on the literature compiled for this report, hydroxyurea inhibits ribonucleotide reductase, which depletes the pool of DNA building blocks (dNTPs) and causes replication stress in dividing cells. This is the basis of its use in cancer.
 
 Several preclinical studies link this mechanism to breast cancer biology. They cover replication stress avoidance, RPA2 hyperphosphorylation-mediated DNA repair, and ATR inhibitor sensitization. One study showed that valproic acid sensitizes breast cancer cells to hydroxyurea. An in-silico study explored hydroxyurea–lipid conjugates for breast cancer.
 
@@ -137,6 +137,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - Detailed mechanism-of-action data from DrugBank
 - For breast cancer: well-designed preclinical validation, then a prospective trial before any clinical consideration
 - For HbSC disease: confirmation in adequately powered prospective trials, myelosuppression monitoring, and selection of patients with severe disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the drug database records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

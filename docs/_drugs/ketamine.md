@@ -60,7 +60,7 @@ with **9 clinical trials** and **20 publications** compiled, including a complet
 
 Ketamine is an NMDA receptor antagonist. Glutamate signalling and central sensitisation are implicated in migraine, cluster headache and other chronic headache disorders, including cortical spreading depression and trigeminovascular pain transmission. Blocking NMDA receptors may reduce central sensitisation and pain amplification, which gives a plausible biological basis for use in acute or refractory headache.
 
-Detailed mechanism-of-action data were not available in the compiled records, so this reasoning rests on ketamine's well-known pharmacology rather than on a curated mechanism entry. Ketamine's analgesic effects at sub-dissociative doses further support the biological plausibility. The high TxGNN score (0.9933) is consistent with this link.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketamine: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), label version 2026-03-27; accessed 2026-11-19.) This reasoning rests on ketamine's well-known pharmacology rather than on a curated mechanism entry. Ketamine's analgesic effects at sub-dissociative doses further support the biological plausibility. The high TxGNN score (0.9933) is consistent with this link.
 
 An important caveat is that the evidence is heterogeneous across headache subtypes (migraine, cluster, tension-type and chronic daily headache), and the trials use different routes (intravenous, intranasal, oral) and comparators.
 
@@ -133,6 +133,19 @@ Several randomised trials, including a completed Phase 3 trial (THINK) and a Pha
 - Selection of a target headache subtype (acute migraine in the ED, cluster headache or chronic daily headache), with the route and dose
 - A cardiovascular, intracranial-pressure and abuse-potential screening plan, along with a review of the opioid, cannabinoid and sympathomimetic interactions
 - Detailed mechanism-of-action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled records, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

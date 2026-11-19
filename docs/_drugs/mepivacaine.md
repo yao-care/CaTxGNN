@@ -56,7 +56,7 @@ but **no clinical trials and no relevant publications** currently support this d
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, mepivacaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels and thereby reduces nerve signal conduction.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for mepivacaine: "Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814), label version 2022-10-01; accessed 2026-11-19.) Based on general pharmacology, mepivacaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels and thereby reduces nerve signal conduction.
 
 A theoretical link to gastroduodenitis, such as reduced visceral pain signalling or local mucosal anaesthesia, is possible but speculative. Blocking sodium channels does not address the underlying causes of gastroduodenal inflammation, such as acid injury, *H. pylori* infection or impaired mucosal defence. No gastrointestinal indication has been established for this injected anaesthetic.
 
@@ -107,6 +107,19 @@ The prediction is supported only by the TxGNN score (evidence level L5). There a
 - A targeted literature search for local anaesthetics in gastroduodenal inflammation or pain
 - An assessment of route compatibility, since no required or available routes have been defined
 - Preclinical or early exploratory evidence before any clinical development is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

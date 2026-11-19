@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **trigeminal ne
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, primidone is an established anticonvulsant (it is partly metabolized to phenobarbital), its efficacy in epilepsy is well recognized, and its action is aimed at reducing neuronal hyperexcitability.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primidone: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), label version 2026-09-10; accessed 2026-11-19.) Based on known information, primidone is an established anticonvulsant (it is partly metabolized to phenobarbital), its efficacy in epilepsy is well recognized, and its action is aimed at reducing neuronal hyperexcitability.
 
 For the top-ranked prediction, trigeminal nerve neoplasm, no mechanistic link to an anticonvulsant is evident. No antineoplastic mechanism is known for primidone, so the high score should be treated as a hypothesis, not as evidence of efficacy. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -133,6 +133,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, rests on a model score alo
 - Any primary evidence, preclinical or clinical, linking primidone to trigeminal nerve neoplasm, or a decision to evaluate the more plausible indications (such as trigeminal neuralgia) instead
 - Approved indication text and dosage forms for the two Canadian DINs
 - A drug-interaction review, particularly for the major interactions with morphine and eliglustat
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

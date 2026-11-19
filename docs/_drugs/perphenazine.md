@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, perphenazine is a phenothiazine-class antipsychotic that acts mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia and in mixed anxiety and depression is established. Nothing in the data compiled for this report suggests a mechanism by which it would help an inherited retinal degeneration.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perphenazine: "Perphenazine has actions at all levels of the central nervous system, particularly the hypothalamus. However, the site and mechanism of action of therapeutic effect are not known." ([DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941), label version 2026-11-11; accessed 2026-11-19.) Based on known information, perphenazine is a phenothiazine-class antipsychotic that acts mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia and in mixed anxiety and depression is established. Nothing in the data compiled for this report suggests a mechanism by which it would help an inherited retinal degeneration.
 
 The only supporting item is a 1964 case report describing pigmentary retinopathy in a patient taking very high doses of **thioridazine**, a different phenothiazine. That is a drug-induced retinal toxicity signal, not a therapeutic one. Phenothiazines as a class carry a known risk of retinal toxicity, so this link raises a safety concern rather than a repurposing rationale.
 
@@ -107,13 +107,25 @@ Currently no related clinical trials registered.
 **Rationale:**
 The retinal dystrophy prediction rests on a single 1964 case report of toxicity from a different drug. There are no trials and no plausible mechanism. The evidence points toward a safety risk rather than a benefit, so the prediction should not advance on current data.
 
-
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess any biological link to retinal disease
 - Package insert warnings and contraindications from Health Canada
 - Any preclinical or clinical evidence specific to perphenazine in retinal dystrophy
 - A dedicated retinal safety assessment, given the phenothiazine class signal
 - For the anxiety indication: modern controlled data on perphenazine alone, plus a safety plan for elderly patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

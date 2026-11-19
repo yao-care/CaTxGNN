@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is a recombinant form of insulin-like growth factor 1 (IGF-1). Its efficacy in growth hormone insensitivity and Laron syndrome, which are conditions of primary IGF-1 deficiency, is established, and it may mechanistically be applicable to other conditions involving growth failure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mecasermin: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), label version 2026-05-18; accessed 2026-11-19.) Based on known information, mecasermin is a recombinant form of insulin-like growth factor 1 (IGF-1). Its efficacy in growth hormone insensitivity and Laron syndrome, which are conditions of primary IGF-1 deficiency, is established, and it may mechanistically be applicable to other conditions involving growth failure.
 
 Monosomy X (Turner syndrome) is characterized by short stature and growth failure, which gives a plausible biological connection to IGF-1 replacement. However, the link is weak. Patients with Turner syndrome usually have adequate GH/IGF-1 signaling and are treated with recombinant growth hormone, whereas the original indications involve a primary IGF-1 deficiency. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or publications were found to verify it.
 
@@ -104,6 +104,19 @@ All five predicted indications are supported only by the model score, with no cl
 - A targeted literature and trial search for IGF-1 in Turner syndrome and in STAT5B-related GH insensitivity
 - Safety assessment of hypoglycaemia and mitogenic risk in the proposed populations, including glucose monitoring when combined with insulin or sulfonylureas
 - Dosage form and approved indication details for the Canadian licence (DIN 02509733)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

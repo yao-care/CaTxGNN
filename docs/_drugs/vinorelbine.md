@@ -60,7 +60,7 @@ The evidence is early-stage: the most relevant data are Phase 2 studies in child
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, vinorelbine is a vinca alkaloid that inhibits microtubule polymerisation. This causes mitotic arrest and apoptosis in rapidly dividing cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vinorelbine: "Vinorelbine is a vinca alkaloid that interferes with microtubule assembly. The antitumor activity of vinorelbine is thought to be due primarily to inhibition of mitosis at metaphase through its interaction with tubulin. Vinorelbine may also interfere with: 1) amino acid, cyclic AMP and glutathione metabolism, 2) calmodulin-dependent Ca++-transport ATPase activity, 3) cellular respiration, and 4) nucleic acid and lipid biosynthesis." ([DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397), label version 2024-08-16; accessed 2026-11-19.) Based on the literature, vinorelbine is a vinca alkaloid that inhibits microtubule polymerisation. This causes mitotic arrest and apoptosis in rapidly dividing cells.
 
 Ewing sarcoma is an aggressive bone and soft tissue tumour with high relapse rates, especially in metastatic disease. Because vinorelbine acts on all rapidly dividing cells, its activity is not limited to lung cancer. Phase 2 studies have reported activity in relapsed or refractory paediatric solid tumours, including sarcomas. A metronomic combination with low-dose cyclophosphamide has shown activity in this setting. A 2026 review also describes the rationale for vinorelbine plus low-dose cyclophosphamide as maintenance therapy in the planned international INTER-EWING-1 trial. Preclinical work suggests synergy with PLK1 inhibitors in Ewing sarcoma cells.
 
@@ -144,6 +144,19 @@ Two Phase 2 trials and Phase 2 publications support vinorelbine, mostly with low
 ### Other Predicted Indications (Brief Note)
 
 Of the other predictions, small cell lung carcinoma has the highest evidence level (L1, with a Phase 3 trial). However, that evidence is in NSCLC, the original indication, and is not a new repurposing signal. The remaining predictions (gingival fibromatosis, lung fibroma, lung hamartoma, benign lung neoplasm, pulmonary blastoma, lung germ cell tumour, pulmonary sulcus neoplasm and lung hilum carcinoma) have no direct supporting evidence or only indirect evidence. Several of them are benign lesions, for which cytotoxic therapy is not appropriate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinorelbine prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

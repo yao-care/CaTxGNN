@@ -59,7 +59,7 @@ The top-ranked TxGNN prediction, pleural empyema, has no supporting evidence at 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, mupirocin is a topical antibiotic that inhibits bacterial isoleucyl-tRNA synthetase, which blocks bacterial protein synthesis. It is mainly active against Gram-positive bacteria, especially *Staphylococcus aureus*.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mupirocin: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), label version 2020-03-20; accessed 2026-11-19.) From general pharmacology, mupirocin is a topical antibiotic that inhibits bacterial isoleucyl-tRNA synthetase, which blocks bacterial protein synthesis. It is mainly active against Gram-positive bacteria, especially *Staphylococcus aureus*.
 
 SSSS is caused by *S. aureus* strains that produce exfoliative toxins. Bullous impetigo, one of mupirocin's original indications, is the localized form of the same toxin-mediated spectrum. SSSS is the severe, widespread end of that spectrum. Because mupirocin already targets the causative organism in the localized disease, it is reasonable to consider it for skin care in SSSS.
 
@@ -130,6 +130,19 @@ Please refer to the Health Canada package insert for full warnings and contraind
 - Local mupirocin resistance surveillance data, given the reported resistant ST121 clone
 - A guardrail protocol for neonates and infants covering application area limits and absorption monitoring
 - Ideally a prospective study or registry comparing systemic antibiotics with and without topical mupirocin in SSSS
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

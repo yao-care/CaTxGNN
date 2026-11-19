@@ -61,7 +61,7 @@ Note: The Health Canada records compiled for this report contain no approved ind
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the evidence reviewed, ezetimibe blocks NPC1L1-mediated cholesterol absorption in the intestine. This lowers LDL cholesterol and complements statins.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ezetimibe: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), label version 2026-10-08; accessed 2026-11-19.) Based on the evidence reviewed, ezetimibe blocks NPC1L1-mediated cholesterol absorption in the intestine. This lowers LDL cholesterol and complements statins.
 
 Hyperlipoproteinemia is a disorder of lipid and lipoprotein levels, and it is essentially the same disease family as the hyperlipidemia for which ezetimibe is already used. The same mechanism applies, so the prediction is reasonable. Phase 3 and Phase 4 trials, including combination studies with statins, fenofibrate and PCSK9 inhibitors, support the use.
 
@@ -152,6 +152,19 @@ Warnings and contraindications from the Canadian package insert are not availabl
 - Review of the knowledge-graph contraindications (liver disease, myopathy, pancreatitis, gallbladder disease) against the label
 - Monitoring plan for statin co-administration, given the moderate interactions with rosuvastatin and simvastatin
 - For the two lower-ranked predictions (CYP7A1 deficiency and CETP deficiency), no further action unless direct clinical or mechanistic evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

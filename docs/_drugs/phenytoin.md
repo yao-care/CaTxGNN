@@ -60,7 +60,7 @@ The more clinically credible direction among the predictions is **trigeminal neu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, phenytoin is a voltage-gated sodium channel blocker that stabilizes hyperexcitable neuronal membranes and limits seizure spread. Its efficacy in epilepsy is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-19.) Based on general pharmacology, phenytoin is a voltage-gated sodium channel blocker that stabilizes hyperexcitable neuronal membranes and limits seizure spread. Its efficacy in epilepsy is well established.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no plausible mechanistic link between sodium channel blockade and tumor control. The two retrieved publications concern trigeminal neuralgia treatment and Sturge-Weber syndrome, not neoplasm. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a probable model artifact.
 
@@ -123,6 +123,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, rests on a very high model
 - Product-level approved indication text and dosage forms for the Canadian DINs
 - A drug interaction and therapeutic drug monitoring plan, given the 100 identified interactions and narrow therapeutic index
 - Prospective or randomized evidence if any acute or rescue use in trigeminal neuralgia is to be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

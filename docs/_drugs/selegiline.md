@@ -60,7 +60,7 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, selegiline irreversibly inhibits MAO-B (and MAO-A at higher oral doses), which slows the breakdown of dopamine and raises its availability in the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selegiline: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), label version 2021-06-01; accessed 2026-11-19.) Based on established pharmacology, selegiline irreversibly inhibits MAO-B (and MAO-A at higher oral doses), which slows the breakdown of dopamine and raises its availability in the brain.
 
 Negative symptoms of schizophrenia (such as reduced motivation, blunted emotion and social withdrawal) are thought to relate to low dopamine activity in the prefrontal cortex. Standard antipsychotics treat positive symptoms (hallucinations, delusions) reasonably well but have limited effect on negative symptoms. Boosting dopamine with selegiline on top of an antipsychotic is therefore a plausible approach. Selegiline's proposed antioxidant and neuroprotective effects also fit the research on oxidative stress in schizophrenia.
 
@@ -125,6 +125,19 @@ The other predictions are weaker. The top-ranked disease (perisylvian polymicrog
 - Published results from the completed trial (NCT00456976) and a critical appraisal of the randomized trials, including the conflicting findings
 - Clinical review of the psychotic-disorder contraindication signal and of interaction management with antipsychotics and antidepressants
 - Dose and formulation clarification (low-dose oral use vs higher doses with non-selective MAO inhibition)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

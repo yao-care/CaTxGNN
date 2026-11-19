@@ -60,7 +60,7 @@ Support is limited: **no registered clinical trials** and **10 publications**, o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Fluoxetine is known as an SSRI, and it blocks the reuptake of serotonin in the brain. Its use in mood, anxiety and obsessive-compulsive conditions is recorded in the knowledge graph. Mechanistically, it may be applicable to schizotypal personality disorder.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Fluoxetine is known as an SSRI, and it blocks the reuptake of serotonin in the brain. Its use in mood, anxiety and obsessive-compulsive conditions is recorded in the knowledge graph. Mechanistically, it may be applicable to schizotypal personality disorder.
 
 Schizotypal personality disorder shares features with those conditions, including affective instability, anxiety, and obsessive or impulsive symptoms. Dampening these through serotonergic modulation is the plausible link. The evidence is old and small. The most direct source is a 1991 non-blind, 12-week study of 22 patients with borderline or schizotypal personality disorder, or both. It reported reduced self-injury and lower symptom-checklist scores regardless of diagnosis. The authors concluded that controlled trials would be useful. It did not separate schizotypal patients from borderline patients.
 
@@ -133,6 +133,19 @@ The model score is very high, but the supporting evidence is one small, uncontro
 - Mechanism-of-action data and a clearer link to schizotypal features.
 - A controlled study (or a systematic review) specific to schizotypal personality disorder, separate from borderline personality disorder.
 - A safety plan for patients with psychotic-spectrum symptoms and for the major drug interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

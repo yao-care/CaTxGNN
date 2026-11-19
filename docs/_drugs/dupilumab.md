@@ -60,7 +60,7 @@ Note that the strongest-scoring evidence in the data compiled for this report po
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the structured drug record. However, the literature compiled for this report consistently describes dupilumab as an antibody that binds the IL-4 receptor alpha subunit (IL-4Rα), blocking signalling of both IL-4 and IL-13, two key drivers of type 2 inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dupilumab: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), label version 2026-04-22; accessed 2026-11-19.) However, the literature compiled for this report consistently describes dupilumab as an antibody that binds the IL-4 receptor alpha subunit (IL-4Rα), blocking signalling of both IL-4 and IL-13, two key drivers of type 2 inflammation.
 
 Atopic dermatitis is a type 2 inflammatory disease, and dupilumab's efficacy there is well established. Some forms of airway disease share this inflammatory pathway. Strong evidence exists for dupilumab in asthma (a long-term extension study and a meta-analysis of randomized trials) and in type 2 (eosinophilic) COPD, where real-world cohorts, including patients with a chronic bronchitis phenotype, report benefit.
 
@@ -133,6 +133,19 @@ The prediction for bronchitis is supported by strong evidence in related disease
 - Mechanism-of-action data in the drug record
 - Approved indication text and dosage forms for the Canadian licences
 - A plan to evaluate interaction risks with other biologics and immunosuppressants
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the structured drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

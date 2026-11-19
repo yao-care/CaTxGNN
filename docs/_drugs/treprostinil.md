@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is pulmonary arteriovenous malformation,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, treprostinil is a prostacyclin analogue that widens pulmonary and systemic blood vessels, inhibits platelet aggregation, and limits smooth muscle proliferation. Its efficacy in PAH has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for treprostinil: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), label version 2026-04-14; accessed 2026-11-19.) Based on known information, treprostinil is a prostacyclin analogue that widens pulmonary and systemic blood vessels, inhibits platelet aggregation, and limits smooth muscle proliferation. Its efficacy in PAH has been established.
 
 CTD-PAH, which occurs mainly in systemic sclerosis and lupus, is a Group 1 PAH subtype. It shares the pulmonary vascular remodeling and vasoconstriction of other PAH forms, so the prostacyclin pathway is mechanistically applicable. The literature includes a subcutaneous treprostinil study in CTD patients (2004) and a 2024 systematic review of CTD-PAH treatment.
 
@@ -144,6 +144,19 @@ Treprostinil's own vasodilatory and antiplatelet effects are consistent with the
 - Detailed mechanism of action data from DrugBank
 - Confirmation of whether CTD-PAH is already covered by the current Canadian label, which would make this an extension of an existing indication rather than a new one
 - A review of the CTD-PAH and CHD-PAH literature for CTD- or CHD-specific outcomes, and a safety monitoring plan for populations at risk (for example shunt physiology and interstitial lung disease)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

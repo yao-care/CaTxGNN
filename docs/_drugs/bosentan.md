@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. The literature describes bosentan as a dual endothelin receptor (ETA/ETB) antagonist. Its efficacy in pulmonary arterial hypertension is established, and mechanistically it may be applicable to inflammatory joint disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bosentan: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), label version 2025-11-17; accessed 2026-11-19.) The literature describes bosentan as a dual endothelin receptor (ETA/ETB) antagonist. Its efficacy in pulmonary arterial hypertension is established, and mechanistically it may be applicable to inflammatory joint disease.
 
 Endothelin-1 contributes to synovial inflammation, vascular dysfunction and the release of inflammatory mediators such as TNF-alpha and LTB4. Endothelin-1 levels are reported to be raised in the blood and synovial membrane of rheumatoid arthritis patients. In a mouse model of collagen-induced arthritis, bosentan reduced disease, apparently through a TNF-alpha-dependent mechanism. Blocking endothelin receptors also modulated inflammation in a zymosan-induced arthritis model.
 
@@ -130,6 +130,19 @@ Among the other predictions, **limited systemic sclerosis** has the strongest su
 - Package insert warnings and contraindications from Health Canada, particularly hepatotoxicity and pregnancy-related risks
 - Human proof-of-concept evidence in rheumatoid arthritis, such as a pilot study or well-designed clinical trial
 - Assessment of how the existing safety profile (liver monitoring, drug interactions) fits the rheumatoid arthritis population, which often takes corticosteroids and other interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

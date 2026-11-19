@@ -56,7 +56,7 @@ A second prediction, **malignant hypertensive renal disease**, has the same scor
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid, and retinoids act mainly through RAR/RXR-mediated gene regulation. Any effect on renovascular hypertension would therefore be speculative. Possible routes include modulation of renin-angiotensin signaling or vascular remodeling, but nothing in the data compiled for this report supports them.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isotretinoin: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), label version 2026-09-20; accessed 2026-11-19.) Isotretinoin is a retinoid, and retinoids act mainly through RAR/RXR-mediated gene regulation. Any effect on renovascular hypertension would therefore be speculative. Possible routes include modulation of renin-angiotensin signaling or vascular remodeling, but nothing in the data compiled for this report supports them.
 
 The original indication recorded here (hypertensive disorder) conflicts with isotretinoin's well-known use in severe acne. The input annotation may be wrong, so the link between the "original" and the predicted indication should not be taken at face value. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -116,6 +116,19 @@ The prediction rests only on a high model score (0.9901), with no clinical trial
 - Health Canada package insert warnings and contraindications, which are required before safety screening can proceed
 - A targeted literature and trial search on retinoids in renovascular hypertension and hypertensive renal disease
 - Preclinical or mechanistic evidence for a plausible link to blood pressure or renal injury pathways
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

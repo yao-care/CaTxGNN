@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, turoctocog alfa is a recombinant, B-domain-truncated FVIII. It replaces the missing clotting factor in hemophilia A, and its efficacy in that setting is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of turoctocog alfa as: Coagulation factor VIII exogenous protein ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, turoctocog alfa is a recombinant, B-domain-truncated FVIII. It replaces the missing clotting factor in hemophilia A, and its efficacy in that setting is established.
 
 Primary release disorder of platelets is a platelet function defect caused by impaired granule secretion. It is not caused by FVIII deficiency. Because FVIII replacement does not address the underlying defect, there is no plausible direct mechanism. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -105,6 +105,19 @@ The prediction has no supporting trials or literature (evidence level L5). Plate
 - A mechanistic and clinical literature review for acquired FVIII deficiency, if it is pursued as a research question
 - Verification of the ambiguous "flood factor deficiency" term against the source ontology
 - Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

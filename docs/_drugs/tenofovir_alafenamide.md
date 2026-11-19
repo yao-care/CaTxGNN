@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers tenofovir diphosphate efficiently to lymphoid cells after oral dosing.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tenofovir alafenamide: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), label version 2025-07-14; accessed 2026-11-19.) Based on known information, TAF is a prodrug of tenofovir, a nucleotide reverse transcriptase inhibitor. It delivers tenofovir diphosphate efficiently to lymphoid cells after oral dosing.
 
 SIV and SHIV are lentiviruses closely related to HIV-1 and use the same reverse transcriptase-dependent replication cycle, so TAF is expected to be active against them. Macaque studies show protection when TAF is given alone or with emtricitabine as pre- or post-exposure prophylaxis. Delivery formats tested include oral dosing, vaginal implants and topical inserts.
 
@@ -122,6 +122,19 @@ The only supporting evidence is preclinical macaque and mouse work, with no regi
 - Warnings and contraindications from the Health Canada package insert
 - Approved indication text and dosage forms for the Canadian authorizations
 - Reframing the question toward a genuinely new human indication, since SIV/SHIV findings only support existing HIV use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

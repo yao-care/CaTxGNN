@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa** (follicul
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triamcinolone is a corticosteroid with established anti-inflammatory and immunosuppressive use across many autoimmune and inflammatory diseases, and mechanistically it may be applicable to inflammatory skin conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for triamcinolone: "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), label version 2026-01-05; accessed 2026-11-19.) Based on known information, triamcinolone is a corticosteroid with established anti-inflammatory and immunosuppressive use across many autoimmune and inflammatory diseases, and mechanistically it may be applicable to inflammatory skin conditions.
 
 Follicular mucinosis involves inflammatory cell infiltration around hair follicles together with mucin deposition. Because of this inflammatory component, intralesional triamcinolone is a plausible option, and corticosteroids are commonly used for localized lesions.
 
@@ -141,11 +141,12 @@ The prediction score is very high (0.9999), but there are no clinical trials, an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

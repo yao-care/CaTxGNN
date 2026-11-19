@@ -58,7 +58,7 @@ with **5 clinical trials** and **6 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, solriamfetol inhibits the reuptake of dopamine and norepinephrine. Stronger catecholamine signalling in prefrontal circuits is the established basis of ADHD treatment, as with methylphenidate and atomoxetine. This mechanism should be verified against primary sources.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for solriamfetol: "The mechanism of action of solriamfetol to improve wakefulness in patients with excessive daytime sleepiness associated with narcolepsy or obstructive sleep apnea is unclear. However, its efficacy could be mediated through its activity as a dopamine and norepinephrine reuptake inhibitor (DNRI)." ([DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab), label version 2026-05-05; accessed 2026-11-19.) Based on general pharmacological knowledge, solriamfetol inhibits the reuptake of dopamine and norepinephrine. Stronger catecholamine signalling in prefrontal circuits is the established basis of ADHD treatment, as with methylphenidate and atomoxetine. This mechanism should be verified against primary sources.
 
 The link is therefore direct and plausible: a drug that raises dopamine and norepinephrine activity targets the same pathways as current ADHD medicines. Solriamfetol also acts on a different profile from classic stimulants, which makes it of interest for people who do not tolerate or respond adequately to existing treatments.
 
@@ -110,6 +110,18 @@ The main prediction is supported by a completed Phase 3 placebo-controlled trial
 - Verified mechanism of action data from primary sources
 - Results from the paediatric Phase 3 trials and the long-term safety study before considering younger populations
 - Cardiovascular and interaction monitoring plan, especially with adrenergic agents and methylene blue
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sunosi (solriamfetol) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=362f206b-73e7-4009-8c34-5a9df55679ab) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

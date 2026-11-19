@@ -56,7 +56,7 @@ Currently there are **no clinical trials and no publications** supporting this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, asenapine is a receptor antagonist acting on serotonin, dopamine, adrenergic and histamine receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for asenapine: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), label version 2025-01-31; accessed 2026-11-19.) Based on known pharmacology, asenapine is a receptor antagonist acting on serotonin, dopamine, adrenergic and histamine receptors.
 
 No plausible mechanistic link to inherited retinal degeneration was identified. The high TxGNN score is a computational result only. Nothing in the data compiled for this report shows that blocking these receptors would affect the causes of inherited retinal dystrophy. The prediction should be treated as a hypothesis, not a supported use.
 
@@ -93,6 +93,18 @@ There are no clinical trials or publications for this disease, and no mechanisti
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - A safety assessment for the target population, particularly given the QT, metabolic and cardiovascular cautions typical of this drug class
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

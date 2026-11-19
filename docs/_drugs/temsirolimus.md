@@ -62,7 +62,7 @@ with **2 clinical trials** (both combination regimens in sarcoma populations) an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, temsirolimus is an mTOR inhibitor. It blocks a central signalling pathway that controls tumour cell growth, proliferation and survival.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for temsirolimus: "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736), label version 2020-03-30; accessed 2026-11-19.) Based on established pharmacology, temsirolimus is an mTOR inhibitor. It blocks a central signalling pathway that controls tumour cell growth, proliferation and survival.
 
 The PI3K/AKT/mTOR pathway is frequently activated in soft tissue sarcomas. Well-differentiated and dedifferentiated liposarcomas, which are often driven by MDM2/CDK4 amplification, commonly show dysregulated mTOR signalling. This gives a plausible biological reason to test mTOR inhibition in liposarcoma.
 
@@ -143,6 +143,19 @@ The mTOR rationale is biologically plausible and the TxGNN score is very high. H
 - Obtain liposarcoma-specific results from NCT00949325 and other sarcoma studies, including subgroup data
 - Search for temsirolimus monotherapy or mTOR-inhibitor data in well-differentiated and dedifferentiated liposarcoma
 - Develop a safety monitoring plan covering metabolic risk (glucose and lipids), interstitial lung disease, and the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

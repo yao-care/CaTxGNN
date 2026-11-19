@@ -56,7 +56,7 @@ SIV infection is an animal-model disease rather than a human clinical indication
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that targets HIV-1 reverse transcriptase, and its efficacy in HIV infection is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nevirapine: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), label version 2026-10-08; accessed 2026-11-19.) Based on known information, nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that targets HIV-1 reverse transcriptase, and its efficacy in HIV infection is established.
 
 SIV is a lentivirus related to HIV, which probably explains the high TxGNN score. However, the published data (for example PMIDs 15040537, 7541200 and 16859727) indicate that the reverse transcriptases of wild-type SIV and HIV-2 are intrinsically resistant to HIV-1-specific NNRTIs. Activity is expected mainly in engineered SIV/SHIV chimeras that carry HIV-1 reverse transcriptase. The score therefore likely reflects structural similarity among lentiviral targets rather than true efficacy against wild-type SIV.
 
@@ -114,6 +114,19 @@ The only supporting evidence is preclinical (in vitro and animal studies), and i
 - Mechanism of action data from DrugBank
 - A decision on whether a research-model indication (SIV or SHIV) is relevant to the repurposing goal; otherwise, consider re-ranking toward predictions with human clinical relevance
 - Direct evidence of nevirapine activity against the target virus, if the veterinary or animal-model direction is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

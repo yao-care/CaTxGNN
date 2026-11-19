@@ -61,7 +61,7 @@ The literature suggests nitroprusside and other NO donors **provoke** migraine-l
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the database. Based on general pharmacology, nitroprusside releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP, relaxing vascular smooth muscle.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nitroprusside: "Sodium nitroprusside interacts with oxyhemoglobin to produce methemoglobin, cyanide, and nitric oxide (NO). NO then reacts with guanylate cyclase in vascular smooth muscle to produce cGMP that reduces intracellular calcium concentrations resulting in relaxation of vascular smooth muscle and consequent dilatation of peripheral arteries and veins." ([DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d), label version 2018-07-20; accessed 2026-11-19.) Based on general pharmacology, nitroprusside releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP, relaxing vascular smooth muscle.
 
 This NO-cGMP pathway, together with CGRP-mediated vasodilation, is clearly involved in migraine biology. Human physiology studies have compared NO and CGRP responses in the peripheral microcirculation of migraine patients and controls, and found endothelial and vascular smooth muscle differences. This is probably why the model links the drug to migraine.
 
@@ -142,6 +142,19 @@ There are no clinical trials for migraine, and the literature is preclinical or 
 - Mechanism of action data
 - Evidence of therapeutic benefit, not provocation, in migraine
 - If a new indication is pursued, consider a closer review of pulmonary hypertension, with a safety plan covering hypotension and cyanide toxicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

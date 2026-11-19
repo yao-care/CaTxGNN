@@ -60,7 +60,7 @@ with **1 registered clinical trial** (a QT-interval safety study, not an efficac
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the database record compiled for this report. Based on the published literature, trabectedin binds the minor groove of DNA and triggers DNA double-strand breaks that depend on transcription-coupled nucleotide excision repair. It also affects the tumour microenvironment by reducing tumour-associated macrophages.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trabectedin: "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), label version 2026-06-29; accessed 2026-11-19.) Based on the published literature, trabectedin binds the minor groove of DNA and triggers DNA double-strand breaks that depend on transcription-coupled nucleotide excision repair. It also affects the tumour microenvironment by reducing tumour-associated macrophages.
 
 Ovarian and breast cancers share a biology of DNA-repair deficiency. Tumours with BRCA1/2 deficiency (homologous recombination deficiency) appear especially sensitive to trabectedin. This gives a plausible rationale in a subset of breast cancers, particularly BRCA-deficient and triple-negative disease. Preclinical work also suggests trabectedin may enhance the antitumour effect of IL-12 in triple-negative breast cancer.
 
@@ -138,6 +138,19 @@ The mechanistic rationale is plausible, particularly for BRCA-deficient and trip
 - Detailed mechanism-of-action data from DrugBank
 - A biomarker-defined target population (for example BRCA1/2 or XPG status)
 - A review of the major and moderate drug interactions, especially clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the database record compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

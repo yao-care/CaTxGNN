@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ephedrine is a sympathomimetic with alpha-adrenergic agonist activity and indirect norepinephrine release. This causes vasoconstriction of the nasal mucosa and decongestion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ephedrine: "Ephedrine sulfate is a sympathomimetic amine that directly acts as an agonist at α- and β-adrenergic receptors and indirectly causes the release of norepinephrine from sympathetic neurons. Pressor effects by direct alpha- and beta-adrenergic receptor activation are mediated by increases in arterial pressures, cardiac output, and peripheral resistance." ([DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f), label version 2024-09-16; accessed 2026-11-19.) Based on known pharmacology, ephedrine is a sympathomimetic with alpha-adrenergic agonist activity and indirect norepinephrine release. This causes vasoconstriction of the nasal mucosa and decongestion.
 
 "Nasal cavity disease" is a broad term that overlaps heavily with ephedrine's existing indications (rhinitis, vasomotor rhinitis, nasopharyngitis). The high TxGNN score (0.999) is consistent with this overlap. Because the term is largely redundant with established uses, it should be viewed as a research question rather than a genuinely new indication.
 
@@ -134,6 +134,19 @@ The prediction is supported only by the model score and two old, low-tier public
 - A more specific disease definition, to separate genuinely new uses from existing rhinitis-related indications
 - Route and formulation compatibility assessment (an injectable product versus nasal or oral delivery)
 - Higher-quality clinical evidence, such as controlled trials of ephedrine alone in a defined nasal condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emerphed Pfs (ephedrine sulfate) prescribing information, Nexus Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14601778-93ac-43ec-b66b-5a942317133f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

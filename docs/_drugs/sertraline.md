@@ -58,7 +58,7 @@ Sertraline is an SSRI antidepressant that has been marketed in Canada for many y
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. It is widely used for mood and anxiety-spectrum conditions. Mechanistically, it could plausibly affect emotional instability, anxiety or depressive symptoms that sometimes accompany personality disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), label version 2023-08-08; accessed 2026-11-19.) Sertraline belongs to the SSRI class, which raises serotonin availability in the brain. It is widely used for mood and anxiety-spectrum conditions. Mechanistically, it could plausibly affect emotional instability, anxiety or depressive symptoms that sometimes accompany personality disorders.
 
 This link is theoretical. Histrionic personality disorder is defined by long-standing patterns of emotionality and attention-seeking, not by a single symptom that an antidepressant is known to treat. No study retrieved for this report examines sertraline in this disorder. Any benefit would most likely come from treating co-occurring depression or anxiety rather than the personality pathology itself. The model score is a hypothesis-generating signal only.
 
@@ -125,6 +125,18 @@ The prediction score is high, but no clinical trial or publication in the compil
 - Mechanism-of-action data and a clear hypothesis for which symptom domain sertraline would target
 - Warnings and contraindications from the Health Canada product monograph
 - A safety plan covering the Major drug interactions above and use in patients with co-occurring psychiatric conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, silodosin is a selective alpha-1A adrenergic receptor antagonist. It acts mainly on the prostate and lower urinary tract, where it relaxes smooth muscle and eases urinary symptoms in BPH.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for silodosin: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), label version 2026-10-30; accessed 2026-11-19.) Based on general pharmacology, silodosin is a selective alpha-1A adrenergic receptor antagonist. It acts mainly on the prostate and lower urinary tract, where it relaxes smooth muscle and eases urinary symptoms in BPH.
 
 The predicted condition, Ambras syndrome, is a rare congenital disorder. It is linked to genomic rearrangements that affect TRPS1 regulation. No established mechanism connects alpha-1A blockade to this pathway or to hair follicle growth control. The very high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -110,6 +110,19 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 - Preclinical studies (for example, cell or animal models) testing the hypothesis
 - Health Canada package insert warnings and contraindications, to support safety screening
 - Review of the safety profile for the target population, which is likely a rare congenital condition, including the major clarithromycin interaction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

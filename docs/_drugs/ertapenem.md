@@ -55,12 +55,11 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, suppor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ertapenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against many Enterobacterales (including ESBL producers), streptococci, methicillin-susceptible staphylococci, and anaerobes.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ertapenem: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), label version 2026-02-04; accessed 2026-11-19.) Based on general knowledge, ertapenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against many Enterobacterales (including ESBL producers), streptococci, methicillin-susceptible staphylococci, and anaerobes.
 
 These pathogens are commonly involved in septic arthritis and bone and joint infections. Ertapenem's original indications (pneumonia, anaerobic infections) already overlap with this pathogen spectrum, so the prediction is an extension of use rather than a novel mechanism. Once-daily dosing also supports outpatient parenteral therapy.
 
 The evidence is indirect, however. It consists of case reports and uncontrolled series, such as septic arthritis treated successfully with ertapenem, and a retrospective cohort of 306 outpatients on long-term ertapenem in which bone and joint infections were among the indications.
-
 
 ## Clinical Trial Evidence
 
@@ -87,7 +86,6 @@ For the second prediction, *Staphylococcus aureus* infection:
 | [31585203](https://pubmed.ncbi.nlm.nih.gov/31585203/) | 2020 | Case report with review | Anaerobe | *Clostridium paraputrificum* septic arthritis and osteomyelitis of the shoulder |
 | [37578166](https://pubmed.ncbi.nlm.nih.gov/37578166/) | 2023 | Case report with review | J Investig Med High Impact Case Rep | *Prevotella bivia* septic arthritis in an immunocompetent adult |
 | [38924836](https://pubmed.ncbi.nlm.nih.gov/38924836/) | 2024 | In vitro study | Diagn Microbiol Infect Dis | Auranofin restores ertapenem susceptibility in carbapenem-resistant *E. coli* |
-
 
 ## Canada Market Information
 
@@ -121,6 +119,19 @@ The bacterial arthritis prediction has a high model score, but the supporting ev
 - Prospective or comparative studies of ertapenem in bone and joint infections
 - Results from NCT04886284 and NCT07148960 for the *S. aureus* combination indication
 - A dose and renal function plan, given the kidney disease and seizure-related flags and the Major bupropion interaction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

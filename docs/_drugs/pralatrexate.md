@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pleural mesothelioma** (the t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pralatrexate is an antifolate that inhibits dihydrofolate reductase (DHFR). It enters cells through the reduced folate carrier (RFC-1) and is efficiently polyglutamylated, which helps it stay inside tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pralatrexate: "Pralatrexate is a folate analog metabolic inhibitor that competitively inhibits dihydrofolate reductase. It is also a competitive inhibitor for polyglutamylation by the enzyme folylpolyglutamyl synthetase. This inhibition results in the depletion of thymidine and other biological molecules the synthesis of which depends on single carbon transfer." ([DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f), label version 2026-09-16; accessed 2026-11-19.) Based on known pharmacology, pralatrexate is an antifolate that inhibits dihydrofolate reductase (DHFR). It enters cells through the reduced folate carrier (RFC-1) and is efficiently polyglutamylated, which helps it stay inside tumour cells.
 
 This is mechanistically close to pemetrexed, the standard antifolate backbone for pleural mesothelioma. Its efficacy in T-cell lymphoma is established, and antifolate activity in mesothelioma is a recognised class effect. A 2007 phase II study of pralatrexate in unresectable malignant pleural mesothelioma and a review of antifolate chemotherapy support the class rationale. Preclinical work cited in the study abstract also reports significant antitumour activity in mesothelioma cell lines and xenografts.
 
@@ -131,6 +131,19 @@ The evidence consists of one single-arm phase II study from 2007 with no reporte
 - Mechanism of action data from DrugBank
 - Comparison against pemetrexed-based and immunotherapy regimens
 - A safety monitoring plan covering myelosuppression, mucositis, renal function and folate/B12 supplementation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

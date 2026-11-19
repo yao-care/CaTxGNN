@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **dermatofibrosarcoma protubera
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor, and its efficacy in HER2-positive breast carcinoma is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lapatinib: "Lapatinib is a 4-anilinoquinazoline kinase inhibitor of the intracellular tyrosine kinase domains of both Epidermal Growth Factor Receptor (EGFR [ErbB1]) and of Human Epidermal Receptor Type 2 (HER2 [ErbB2]) receptors (estimated K i app values of 3nM and 13nM, respectively) with a dissociation half-life of greater than or equal to 300 minutes. Lapatinib inhibits ErbB-driven tumor cell growth in vitro and in various animal models." ([DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c), label version 2026-01-27; accessed 2026-11-19.) Based on general pharmacology, lapatinib is a dual EGFR/HER2 tyrosine kinase inhibitor, and its efficacy in HER2-positive breast carcinoma is established.
 
 A clear mechanistic link to DFSP is not evident. DFSP is typically driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFRB activation. This is a different driver from EGFR/HER2, and the standard targeted therapy is imatinib, a PDGFR inhibitor. Any link for lapatinib would be indirect, for example shared downstream signaling (PI3K/AKT, MAPK) or a possible role for the EGFR pathway in resistance. This remains speculative.
 
@@ -107,6 +107,19 @@ The prediction score is very high, but there are no clinical trials or publicati
 - A literature and trial search for lapatinib in sarcomas or DFSP
 - The Health Canada package insert (warnings, contraindications, approved indication and dosage form), which is needed before safety screening
 - A review of the clinical relevance of the major interactions (loperamide, clarithromycin) and of the QT and hepatic risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tykerb (lapatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee37f88-ec6a-4c30-b8aa-e2c71f93088c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

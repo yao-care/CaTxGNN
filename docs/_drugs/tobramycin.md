@@ -60,7 +60,7 @@ but **no clinical trials** and only **8 publications** (none on exposure keratit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tobramycin is a broad-spectrum aminoglycoside that inhibits bacterial protein synthesis. It is already used topically for ocular bacterial infections, and its efficacy in those infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tobramycin: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), label version 2026-04-15; accessed 2026-11-19.) Based on known information, tobramycin is a broad-spectrum aminoglycoside that inhibits bacterial protein synthesis. It is already used topically for ocular bacterial infections, and its efficacy in those infections is established.
 
 Exposure keratitis occurs when the cornea is not adequately protected (for example, when the eyelids cannot close), leaving it dry and vulnerable to secondary bacterial infection. A topical antibacterial could therefore plausibly help prevent or treat that infection.
 
@@ -154,11 +154,12 @@ The remaining predictions (non-human animal disease, postinfectious vasculitis, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

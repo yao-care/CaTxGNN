@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Cysteamine is known as a cystine-depleting agent with aminothiol (antioxidant) chemistry. It converts lysosomal cystine into a mixed disulfide that can leave the lysosome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cysteamine: "Cysteamine is an aminothiol that participates within lysosomes in a thiol-disulfide interchange reaction converting cystine into cysteine and cysteine-cysteamine mixed disulfide, both of which can exit the lysosome in patients with cystinosis." ([DailyMed: Procysbi (cysteamine bitartrate) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3a3ec28-f746-463a-bb92-3bc8826db09e), label version 2026-06-25; accessed 2026-11-19.) Cysteamine is known as a cystine-depleting agent with aminothiol (antioxidant) chemistry. It converts lysosomal cystine into a mixed disulfide that can leave the lysosome.
 
 Mitochondrial oxidative phosphorylation disorders involve impaired cellular energy production, and redox stress is a common feature. A link between an aminothiol antioxidant and mitochondrial redox stress is therefore plausible. However, this is a hypothesis only: no trials or publications were compiled that study cysteamine in this disease, and the similarity to the original use has not been assessed.
 
@@ -94,6 +94,19 @@ The prediction has a very high model score (0.9993), but no clinical trials or p
 - Preclinical studies (e.g., cell or animal models of nuclear-DNA-related oxidative phosphorylation defects) testing cysteamine's effect on mitochondrial redox stress
 - Health Canada package insert warnings and contraindications, to allow safety screening
 - Assessment of route and formulation compatibility with the target disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Procysbi (cysteamine bitartrate) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3a3ec28-f746-463a-bb92-3bc8826db09e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

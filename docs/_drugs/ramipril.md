@@ -56,7 +56,7 @@ but **no clinical trials and no publications** specific to this indication are c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known pharmacology, ramipril inhibits angiotensin-converting enzyme (ACE) and lowers angiotensin II, a molecule that constricts blood vessels and promotes vascular remodeling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, ramipril inhibits angiotensin-converting enzyme (ACE) and lowers angiotensin II, a molecule that constricts blood vessels and promotes vascular remodeling.
 
 Systemic hypertension and pulmonary hypertension are both disorders of vascular tone and vessel-wall remodeling. Because the renin-angiotensin system may influence the pulmonary circulation as well, ACE inhibition could plausibly affect pulmonary vascular pressure. This link is hypothetical for the predicted indication: no trials or publications were found for it.
 
@@ -133,11 +133,12 @@ The prediction score is very high (0.9993), but the evidence is model-only (L5):
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "with 20 valid single-ingredient licences and no cancelled licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

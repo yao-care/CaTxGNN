@@ -60,7 +60,7 @@ This is a computational prediction with very limited supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fluorouracil is a thymidylate synthase inhibitor and antimetabolite. It disrupts DNA and RNA synthesis in rapidly dividing cells. Its efficacy in several epithelial cancers is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) Based on general knowledge, fluorouracil is a thymidylate synthase inhibitor and antimetabolite. It disrupts DNA and RNA synthesis in rapidly dividing cells. Its efficacy in several epithelial cancers is well established.
 
 Rhabdomyosarcoma is a rapidly proliferating soft tissue sarcoma, mostly seen in children. In principle, an antimetabolite could act against it. The prediction may also partly reflect similarities the TxGNN model (deep learning) learned between related diseases, such as other cancers in which fluorouracil is used, not biological evidence. For example, fluorouracil has an established role in biliary tract and gastrointestinal adenocarcinomas, which may influence the prediction for the bile duct rhabdomyosarcoma entries.
 
@@ -155,11 +155,12 @@ The prediction scores are very high (0.9962 to 0.9975), but no clinical trials e
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient products and" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

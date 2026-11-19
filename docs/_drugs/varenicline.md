@@ -58,7 +58,7 @@ Varenicline is a nicotine receptor partial agonist marketed in Canada, and it is
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, varenicline is a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 receptors. Nicotinic signaling has been loosely linked to trigeminovascular and cortical spreading depression pathways involved in migraine, but this link is speculative.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors." ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.) Based on general pharmacology, varenicline is a partial agonist at α4β2 nicotinic acetylcholine receptors and a full agonist at α7 receptors. Nicotinic signaling has been loosely linked to trigeminovascular and cortical spreading depression pathways involved in migraine, but this link is speculative.
 
 The prediction is not well supported. The only retrieved publication is a cardiac arrest case report, which is a safety signal and not evidence of efficacy in migraine. Headache is also a commonly reported adverse effect of varenicline, so the drug may worsen rather than treat migraine. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -116,6 +116,19 @@ The prediction is supported only by a computational score. There are no clinical
 - Detailed mechanism of action data
 - Preclinical or clinical evidence that nicotinic receptor modulation affects migraine, including whether the headache adverse-effect signal outweighs any potential benefit
 - Review of the psychiatric and cardiovascular contraindication signals for the target migraine population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

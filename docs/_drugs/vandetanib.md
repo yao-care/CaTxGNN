@@ -60,7 +60,7 @@ Four clinical trials (all Phase 1 or 2, two of them terminated early with very f
 
 ## Why is This Prediction Reasonable?
 
-Vandetanib blocks VEGFR2, RET and EGFR. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the target profile reported in the evidence review.
+Vandetanib blocks VEGFR2, RET and EGFR. According to the Mechanism of Action section of the US FDA-approved prescribing information for vandetanib: "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), label version 2026-10-30; accessed 2026-11-19.) This description relies on the target profile reported in the evidence review.
 
 Clear cell renal cell carcinoma is typically driven by loss of the VHL gene. This leads to HIF and VEGF activation and a tumour that depends heavily on new blood vessel growth. Blocking VEGFR2 is therefore biologically plausible. Other VEGFR-targeting kinase inhibitors are already used in kidney cancer, as noted in the reviews listed below.
 
@@ -145,6 +145,18 @@ The evidence level is L3. Only one directly relevant trial was completed (Phase 
 - Detailed mechanism-of-action data
 - A comparison of vandetanib with kinase inhibitors already established in kidney cancer
 - An ECG/QT, liver function and urine protein monitoring plan, plus a review of co-medications for Major interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

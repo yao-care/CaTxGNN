@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, tazarotene is a topical retinoid prodrug converted to tazarotenic acid, which selectively binds retinoic acid receptors RAR-beta and RAR-gamma. This helps normalise keratinocyte differentiation and reduces skin-cell overgrowth and inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tazarotene: "Tazarotene is a retinoid prodrug which is converted to its active form, the carboxylic acid of tazarotene, by deesterification. Tazarotenic acid binds to all three members of the retinoic acid receptor (RAR) family: RARα, RARβ, and RARγ, but shows relative selectivity for RARβ, and RARγ and may modify gene expression." ([DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057), label version 2026-11-04; accessed 2026-11-19.) Based on general knowledge, tazarotene is a topical retinoid prodrug converted to tazarotenic acid, which selectively binds retinoic acid receptors RAR-beta and RAR-gamma. This helps normalise keratinocyte differentiation and reduces skin-cell overgrowth and inflammation.
 
 Psoriasis and seborrheic dermatitis are both scaling, inflammatory skin conditions with some shared features, such as excess growth of the outer skin layer. This is the main reason the prediction is plausible.
 
@@ -108,6 +108,19 @@ The prediction for seborrheic dermatitis relies solely on a model score, with no
 - Search for clinical or preclinical studies of tazarotene in seborrheic dermatitis
 - Review the full text of the two seborrheic keratosis publications to see whether tazarotene data exist, as this is a possible alternative direction
 - Assess tolerability in sensitive facial skin and the photosensitivity-related signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

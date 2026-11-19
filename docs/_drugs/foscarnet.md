@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **autosomal dominant familial h
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, foscarnet is a pyrophosphate analog that blocks viral DNA polymerase, and its established use is against herpesvirus infections such as CMV retinitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for foscarnet: "Foscarnet exerts its antiviral activity by a selective inhibition at the pyrophosphate binding site on virus-specific DNA polymerases at concentrations that do not affect cellular DNA polymerases. Foscarnet does not require activation (phosphorylation) by thymidine kinase or other kinases." ([DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028), label version 2025-12-11; accessed 2026-11-19.) From general pharmacology, foscarnet is a pyrophosphate analog that blocks viral DNA polymerase, and its established use is against herpesvirus infections such as CMV retinitis.
 
 The predicted condition is an ultra-rare genetic disorder caused by COL4A1 mutations. It features tortuous retinal arteries, blood in the urine and joint contractures. It is a defect in collagen IV, not an infection. Foscarnet has no known action on this pathway, so **no plausible biological link was identified**.
 
@@ -135,6 +135,19 @@ The prediction rests on a model score alone (evidence level L5), with no clinica
 - Original approved indication from the Canadian license (currently blank)
 - Preclinical or mechanistic evidence showing a plausible effect in COL4A1-related disease
 - A reassessment of whether the TxGNN score reflects true therapeutic potential or only similarities the model learned between related retinal-phenotype diseases, not biological evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Foscavir (foscarnet sodium) prescribing information, Clinigen Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90e3da4e-3b1f-428b-99ca-e4bed1c80028) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

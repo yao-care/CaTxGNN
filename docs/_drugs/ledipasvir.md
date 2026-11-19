@@ -60,7 +60,7 @@ Support consists of **1 directly relevant Phase 2 trial** (n=21, no control arm)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ledipasvir is an NS5A inhibitor used together with sofosbuvir, and its efficacy in hepatitis C is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of ledipasvir as: Nonstructural protein 5A inhibitor ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, ledipasvir is an NS5A inhibitor used together with sofosbuvir, and its efficacy in hepatitis C is established.
 
 HBV has no known counterpart to HCV NS5A, so an anti-HBV effect is not explained by ledipasvir's original mechanism. The most plausible source of signal is observational: in patients co-infected with HCV and HBV, treatment with ledipasvir/sofosbuvir was associated with a modest reduction in HBV surface antigen (HBsAg). That observation prompted a Phase 2 pilot in HBV mono-infected patients (NCT03312023, published 2023). The data compiled for this report do not show a robust HBV antiviral effect from that study.
 
@@ -130,6 +130,19 @@ For other warnings and contraindications, please refer to the package insert.
 - A controlled study, ideally randomized, in HBV mono-infection
 - A monitoring plan for HBV reactivation
 - The Health Canada package insert, to confirm warnings, contraindications and approved indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

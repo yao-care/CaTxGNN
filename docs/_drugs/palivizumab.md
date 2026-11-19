@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **benign neoplasm of the tongue
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, palivizumab is a humanized monoclonal antibody directed against the RSV F protein, a viral surface protein. Its efficacy in RSV disease is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of palivizumab as: Fusion glycoprotein F0 inhibitor ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, palivizumab is a humanized monoclonal antibody directed against the RSV F protein, a viral surface protein. Its efficacy in RSV disease is established.
 
 A credible mechanistic link to benign tongue neoplasms could not be found. The drug targets a viral antigen and has no known target or pathway in benign tumours of the tongue. The high TxGNN score (0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a computational hypothesis only.
 
@@ -107,6 +107,19 @@ The prediction is supported only by a TxGNN model (deep learning) score, which m
 - Biological evidence that the target or a related pathway is relevant to benign tongue neoplasms, such as preclinical or mechanistic studies
 - Route-of-administration compatibility assessment for the new indication
 - Approved indication text and dosage form details for the Canadian product licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

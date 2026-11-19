@@ -58,7 +58,7 @@ Aminophylline is a methylxanthine drug (an adenosine receptor antagonist and pho
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the data compiled for this report. Based on general pharmacology, aminophylline is a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. It is widely known for bronchodilation and smooth muscle relaxation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aminophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), label version 2026-05-26; accessed 2026-11-19.) Based on general pharmacology, aminophylline is a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. It is widely known for bronchodilation and smooth muscle relaxation.
 
 Adenosine signalling has been implicated in migraine and trigeminovascular activation. A 2023 narrative review (PMID 38059379) argues that migraine may involve impaired brain energy metabolism with high adenosine levels, and that aminophylline may relieve pain, particularly post-dural headache. A case report of hemiplegic migraine triggered by regadenoson (an adenosine A2A agonist) indirectly supports the adenosine link.
 
@@ -140,6 +140,19 @@ The migraine prediction has a high model score (0.9988) and a plausible adenosin
 - A well-designed controlled trial (or at least a prospective pilot) for migraine
 - A cardiovascular and drug-interaction risk plan, given the major interaction with bupropion and the vasospasm and tachycardia signals
 - Separately, if pulmonary hypertension is pursued, controlled efficacy data beyond the small, older haemodynamic studies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

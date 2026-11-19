@@ -55,7 +55,7 @@ This prediction is essentially a restatement of the existing indication rather t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, megestrol acetate is a progestin (a synthetic progesterone-like hormone). Its efficacy in endometrial carcinoma is established, and it is mechanistically expected to act through progesterone receptors, producing antiproliferative and differentiating effects in hormone-sensitive endometrial tissue.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for megestrol acetate: "Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time." ([DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651), label version 2026-04-14; accessed 2026-11-19.) Based on known information, megestrol acetate is a progestin (a synthetic progesterone-like hormone). Its efficacy in endometrial carcinoma is established, and it is mechanistically expected to act through progesterone receptors, producing antiproliferative and differentiating effects in hormone-sensitive endometrial tissue.
 
 It should be understood as confirming the existing use rather than discovering a new one.
 
@@ -110,6 +110,19 @@ The predicted indication is effectively the drug's existing use. A completed Pha
 - Confirmation of the outcome of the Phase 3 trial NCT00005975, which studied megestrol for hot flashes in women treated for breast cancer, so it should not be read as evidence for ovarian cancer efficacy
 - A glucose and adrenal monitoring plan for patients with diabetes or on prolonged high-dose therapy
 - Other predicted indications (for example hereditary breast ovarian cancer syndrome, ovarian clear cell adenocarcinoma, dysgerminoma) lack evidence and are on Hold
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

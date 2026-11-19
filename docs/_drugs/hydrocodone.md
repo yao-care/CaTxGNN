@@ -60,12 +60,11 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Hydrocodone is an opioid with known antitussive activity, and it is already linked to upper respiratory conditions such as rhinitis, pharyngitis, and the common cold. Mechanistically, it may relieve cough or symptoms associated with these conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydrocodone: "Hydrocodone is a full opioid agonist with relative selectivity for the mu-opioid receptor, although it can interact with other opioid receptors at higher doses. The principal therapeutic action of hydrocodone is analgesia." ([DailyMed: Hysingla Er (hydrocodone bitartrate) prescribing information, Knoa Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d23ac2-e776-9f62-3290-c64c2d6eb353), label version 2026-05-29; accessed 2026-11-19.) Hydrocodone is an opioid with known antitussive activity, and it is already linked to upper respiratory conditions such as rhinitis, pharyngitis, and the common cold. Mechanistically, it may relieve cough or symptoms associated with these conditions.
 
 The high prediction score (0.9988) most likely reflects the network proximity of hydrocodone to those approved upper-respiratory indications, rather than a validated treatment effect. Symptom relief in upper-airway inflammation does not support treating structural nasal cavity disease.
 
 The only supporting publication reports that intranasal abuse of hydrocodone-acetaminophen caused necrosis of the nasal cavity and pharynx. This is drug-induced harm to nasal tissue, not therapeutic benefit, so the available evidence points toward a safety concern rather than repurposing potential.
-
 
 ---
 
@@ -127,6 +126,19 @@ The prediction is supported only by a high model score. The single publication i
 - Approved indication text, dosage forms, and routes for the two Canadian authorizations
 - A clear distinction between genuine new uses and extensions of existing labelled indications (especially for acute laryngopharyngitis)
 - A safety and misuse-risk assessment covering dependence, respiratory depression, and interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hysingla Er (hydrocodone bitartrate) prescribing information, Knoa Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d23ac2-e776-9f62-3290-c64c2d6eb353) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

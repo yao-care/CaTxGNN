@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **serous conjunctivitis except 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, loteprednol etabonate is a topical corticosteroid. Its anti-inflammatory efficacy in allergic and inflammatory eye diseases is established, and mechanistically it may be applicable to non-viral serous conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for loteprednol etabonate: "Loteprednol etabonate is a corticosteroid. Corticosteroids have been shown to inhibit the inflammatory response to a variety of inciting agents. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation." ([DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237), label version 2026-03-31; accessed 2026-11-19.) Based on known information, loteprednol etabonate is a topical corticosteroid. Its anti-inflammatory efficacy in allergic and inflammatory eye diseases is established, and mechanistically it may be applicable to non-viral serous conjunctivitis.
 
 The original indications are immune-mediated or allergic inflammation of the conjunctiva and uveal tract. Non-viral serous conjunctivitis shares conjunctival surface inflammation, so an anti-inflammatory drug could plausibly help. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -132,6 +132,19 @@ The prediction score is very high (0.9969), but the evidence level is L5. No tri
 - A targeted literature and trial search for non-viral serous conjunctivitis
 - A clinical review of whether the condition has a real unmet need and how it is defined
 - Consider prioritising **rosacea conjunctivitis** as a research question, given its link to an existing indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

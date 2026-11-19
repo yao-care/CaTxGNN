@@ -56,7 +56,7 @@ It is a TxGNN model (deep learning) result only, which may reflect similarities 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iopromide is an iodinated, non-ionic contrast medium. It is used to make structures visible on imaging, not to treat disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iopromide: "Intravascular injection of iopromide opacifies those vessels where the contrast agent is present, permitting radiographic visualization of the internal structures through attenuation of photons. In imaging of the body, iodinated contrast agents diffuse from the vessels into the extravascular space." ([DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325), label version 2026-03-02; accessed 2026-11-19.) Iopromide is an iodinated, non-ionic contrast medium. It is used to make structures visible on imaging, not to treat disease.
 
 No credible mechanistic link to osteoarthritis was identified. The drug has no known anti-inflammatory or cartilage-protective activity. Use of contrast agents in joint imaging (arthrography) is a diagnostic procedure, not a therapeutic effect.
 
@@ -105,6 +105,19 @@ The prediction rests only on a TxGNN model (deep learning) score. No clinical tr
 - Mechanism of action data
 - Preclinical or mechanistic evidence showing a therapeutic effect in osteoarthritis
 - Route and formulation compatibility assessment for any therapeutic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

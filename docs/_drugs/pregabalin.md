@@ -62,7 +62,7 @@ Currently **2 clinical trials** (one withdrawn Phase 3, one completed Phase 4 th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available in the compiled data. Based on known pharmacology, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels and reduces release of excitatory neurotransmitters such as glutamate. This is the basis of its use in neuropathic pain and fibromyalgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pregabalin: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), label version 2026-03-12; accessed 2026-11-19.) Based on known pharmacology, pregabalin binds the alpha-2-delta subunit of voltage-gated calcium channels and reduces release of excitatory neurotransmitters such as glutamate. This is the basis of its use in neuropathic pain and fibromyalgia.
 
 Migraine shares several features with these conditions, notably central sensitization and excess excitatory neurotransmission. Preclinical studies report that pregabalin raises the threshold for cortical spreading depression, the phenomenon behind migraine aura, and that chronic treatment protects against spreading depolarization in a familial hemiplegic migraine model. These findings provide a plausible mechanistic link.
 
@@ -151,12 +151,13 @@ The package insert warnings are also missing, which blocks safety screening.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clinical data come mostly from small pediatric trials, and the only Phase 3 trial was withdrawn" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-10-31 | Removed: "The only Phase 3 migraine trial was withdrawn, and the supporting clinical evidence is mostly small pediatric trials, so the provisional L1 " | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not currently available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

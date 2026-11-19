@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tadalafil is a PDE5 inhibitor that raises cGMP levels. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanism links it to this rare congenital hypertrichosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tadalafil: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), label version 2026-06-03; accessed 2026-11-19.) Based on known information, tadalafil is a PDE5 inhibitor that raises cGMP levels. Its efficacy in erectile dysfunction and pulmonary hypertension is established, but no mechanism links it to this rare congenital hypertrichosis.
 
 The very high TxGNN score is a computational prediction only. It is probably driven by network proximity to other hair-phenotype diseases rather than by biological evidence. Vasodilation and cGMP signalling could in theory affect hair follicle biology, but this is speculative. Related vasodilators such as minoxidil are associated with hypertrichosis, which suggests an adverse-effect signal rather than a therapeutic one.
 
@@ -126,6 +126,19 @@ The prediction is supported only by a model score, with no clinical trials, no l
 - Health Canada package insert warnings and contraindications, which are required before any safety screening
 - Assessment of whether the hypertrichosis signal reflects a therapeutic effect or an adverse effect
 - If the project looks for a better-supported lead, consider kyphoscoliotic heart disease, which has a partial biological rationale through pulmonary hypertension, though it too has no supporting data yet
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gilteritinib is a dual FLT3/AXL tyrosine kinase inhibitor, and its efficacy in relapsed or refractory FLT3-mutated AML is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gilteritinib: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), label version 2026-10-01; accessed 2026-11-19.) Based on known information, gilteritinib is a dual FLT3/AXL tyrosine kinase inhibitor, and its efficacy in relapsed or refractory FLT3-mutated AML is established.
 
 The link to bulbar polio is weak. Poliomyelitis is a viral infection of motor neurons, including those in the brainstem, and it is mainly prevented by vaccination. No antiviral therapy is established for it. No known mechanism connects FLT3/AXL inhibition to poliovirus infection. One speculative idea is that AXL has been implicated in the entry and replication of some viruses and in the regulation of innate immune responses. However, nothing in the compiled data supports this idea for poliovirus.
 
@@ -123,6 +123,19 @@ The only support for this indication is the model score. There are no clinical t
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Preclinical evidence, such as in vitro poliovirus infection models testing AXL or FLT3 involvement
 - A review of whether the prediction is a TxGNN model (deep learning) artifact
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

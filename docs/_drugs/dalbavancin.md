@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dalbavancin is a lipoglycopeptide antibiotic that inhibits bacterial cell wall synthesis and is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis of its original use.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for dalbavancin: "Dalbavancin is an antibacterial drug. […] Dalbavancin, a semisynthetic lipoglycopeptide, interferes with cell wall synthesis by binding to the D-alanyl-D-alanine terminus of the stem pentapeptide in nascent cell wall peptidoglycan, thus preventing cross-linking. Dalbavancin is bactericidal in vitro against Staphylococcus aureus and Streptococcus pyogenes at concentrations similar to those sustained throughout treatment in humans treated according to the recommended dosage regimen." ([DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c), label version 2025-01-13; accessed 2026-11-19.) Based on general pharmacology, dalbavancin is a lipoglycopeptide antibiotic that inhibits bacterial cell wall synthesis and is active against Gram-positive organisms. Its efficacy in infection-related skin disease is the basis of its original use.
 
 Postinfectious vasculitis is largely immune-mediated rather than an active bacterial infection. Antibacterial activity therefore has no clear direct link to this condition, unless a persistent Gram-positive infection is the trigger. The high TxGNN score most likely comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -110,6 +110,19 @@ The prediction rests only on a model score (L5) with no trials or literature, an
 - Approved indication text, dosage form, and manufacturer details for the Canadian licence
 - For orbital cellulitis: pharmacokinetic review of orbital tissue penetration and case-level literature review
 - Evidence of a persistent Gram-positive trigger if postinfectious vasculitis is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dalvance (dalbavancin) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b4674d8-4d1e-4728-8465-d42ada33fa5c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

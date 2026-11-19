@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known pharmacology, bisoprolol is a beta-1 selective blocker whose efficacy in hypertension is established. Beta-1 blockade lowers heart rate and cardiac output and reduces renin release from the kidney.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for bisoprolol: "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, bisoprolol is a beta-1 selective blocker whose efficacy in hypertension is established. Beta-1 blockade lowers heart rate and cardiac output and reduces renin release from the kidney.
 
 Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. The link to the original indication is therefore plausible: the underlying problem is the same (raised blood pressure), and reduced renin release could in theory help. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -137,6 +137,19 @@ The prediction is supported only by the TxGNN model score (evidence level L5), w
 - A targeted literature search on beta-blockers in malignant or renovascular hypertension and hypertensive nephropathy
 - Clinical evidence in the target population, and a clear role for oral bisoprolol compared with standard acute and long-term therapy
 - Assessment of whether pulmonary hypertension predictions are worth pursuing at all, given the safety concern
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

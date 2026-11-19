@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known pharmacology, nafarelin is a GnRH receptor agonist. After an initial stimulation, it desensitizes the pituitary receptor and suppresses gonadal sex steroids. This explains its use in endometriosis and central precocious puberty.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nafarelin: "Nafarelin acetate is a potent agonistic analog of gonadotropin-releasing hormone (GnRH). At the onset of administration, nafarelin stimulates the release of the pituitary gonadotropins, LH and FSH, resulting in a temporary increase of gonadal steroidogenesis." ([DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6), label version 2026-03-05; accessed 2026-11-19.) Based on known pharmacology, nafarelin is a GnRH receptor agonist. After an initial stimulation, it desensitizes the pituitary receptor and suppresses gonadal sex steroids. This explains its use in endometriosis and central precocious puberty.
 
 Ambras syndrome is a congenital genetic disorder of hair growth with no established hormonal driver. The plausibility of a GnRH-mediated effect is therefore low. The prediction rests on a high model score (0.9987) only.
 
@@ -99,6 +99,19 @@ The prediction score is very high (0.9987), but there are no clinical trials or 
 - Detailed mechanism-of-action data
 - A literature and trial search specific to Ambras syndrome and hypertrichosis
 - Review of whether "central precocious puberty 1" should be mapped to the existing approved indication, as it may be a more practical direction than the lead prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

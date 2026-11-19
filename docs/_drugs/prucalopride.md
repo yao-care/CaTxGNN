@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (l
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prucalopride is a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility, and its efficacy in constipation is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prucalopride: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), label version 2025-07-17; accessed 2026-11-19.) Based on known information, prucalopride is a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility, and its efficacy in constipation is established.
 
 Mechanistically, there is no known pathway connecting 5-HT4 agonism to HDL metabolism, so the prediction does not have a plausible biological explanation at present. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or pharmacological reasoning, and no trials or publications support it.
 
@@ -105,6 +105,19 @@ The prediction rests on a model score alone (L5). There is no mechanistic link, 
 - A credible biological hypothesis linking 5-HT4 agonism to HDL metabolism, with preclinical or observational support
 - Approved indication text and dosage forms for the Canadian licences
 - Optionally, evaluation of the amyloidosis-related GI dysmotility indications as a separate research question, since they have the most plausible (though indirect) rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

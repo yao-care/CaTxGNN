@@ -58,7 +58,7 @@ Benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic act
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic activity. Its reported actions include inhibition of pro-inflammatory cytokines (TNF-alpha, IL-1beta) and membrane-stabilizing effects. This description could not be confirmed from the supplied data.
+ChEMBL (EMBL-EBI) records the mechanism of action of benzydamine as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, benzydamine is a non-steroidal anti-inflammatory agent with local anesthetic activity. Its reported actions include inhibition of pro-inflammatory cytokines (TNF-alpha, IL-1beta) and membrane-stabilizing effects. This description could not be confirmed from the supplied data.
 
 Chronic prostatic inflammation and lower urinary tract symptoms are thought to contribute to BPH. A plausible, but unverified, link therefore exists through anti-inflammatory and analgesic effects. No direct evidence shows that benzydamine affects prostate growth or urinary outflow obstruction. The score of 0.9926 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of efficacy.
 
@@ -108,6 +108,19 @@ The only support for this indication is a score from the TxGNN model (deep learn
 - Route-of-administration compatibility assessment. Benzydamine products are typically topical or oral-rinse, which may not reach prostate tissue, so this needs to be checked.
 - A targeted literature and trial search for benzydamine in BPH or prostatic inflammation
 - Preclinical or mechanistic studies, if no clinical evidence is found
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

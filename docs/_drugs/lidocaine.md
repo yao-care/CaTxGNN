@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lidocaine is generally known as a voltage-gated sodium channel blocker that numbs sensory nerves, and it is used as a local anaesthetic.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lidocaine: "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), label version 2026-02-20; accessed 2026-11-19.) Lidocaine is generally known as a voltage-gated sodium channel blocker that numbs sensory nerves, and it is used as a local anaesthetic.
 
 The link to punctate epithelial keratoconjunctivitis is weak. Any plausible benefit would be symptomatic pain relief, not treatment of the underlying disease. Topical anaesthetics can also damage the corneal epithelium with prolonged use, which argues against a therapeutic role. The very high TxGNN score is a computational prediction only and is not backed by any trial or publication on this disease.
 
@@ -107,6 +107,19 @@ The prediction is supported only by a model score. No trial or publication studi
 - Route and formulation compatibility assessment (ophthalmic use)
 
 **Note on other predictions:** Among the other ranked predictions, only "conjunctival disorder" has substantial material (a completed Phase 4 trial and pterygium surgery studies). These concern procedural anaesthesia, not treatment of conjunctival disease, and the SUNCT/SUNA papers concern a headache syndrome. They may be worth considering as a separate research question, but they do not support the lead prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

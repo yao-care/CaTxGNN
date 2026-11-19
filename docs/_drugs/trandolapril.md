@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trandolapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically, blocking the renin-angiotensin-aldosterone system (RAAS) may be applicable to malignant hypertensive renal disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trandolapril: "Trandolapril is deesterified to the diacid metabolite, trandolaprilat, which is approximately eight times more active as an inhibitor of ACE activity. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34), label version 2025-10-31; accessed 2026-11-19.) Based on known information, trandolapril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension is established, and mechanistically, blocking the renin-angiotensin-aldosterone system (RAAS) may be applicable to malignant hypertensive renal disease.
 
 Malignant hypertensive renal disease is a severe form of hypertension with kidney involvement. Because it is closely related to the original indication, the prediction is biologically plausible. It is better understood as an extension of the existing hypertension use than as true repurposing into a new disease area.
 
@@ -130,6 +130,19 @@ The prediction score is high (0.9992), but evidence is at L5, with no clinical t
 - Literature and clinical evidence specific to malignant hypertensive renal disease
 - Review of renal-risk considerations (renal artery obstruction, kidney disease) and hyperkalaemia-related interactions
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

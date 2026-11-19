@@ -60,7 +60,7 @@ with **3 registered clinical trials** and **20 publications** currently supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, topotecan is a topoisomerase I inhibitor. It causes DNA damage in rapidly dividing cells, and its efficacy in ovarian cancer has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topotecan: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), label version 2023-09-18; accessed 2026-11-19.) Based on known pharmacology, topotecan is a topoisomerase I inhibitor. It causes DNA damage in rapidly dividing cells, and its efficacy in ovarian cancer has been established.
 
 Preclinical work suggests that topoisomerase I inhibition can produce synthetic lethality in MYC-driven cancers through abnormal accumulation of R-loops. This is relevant to MYC-amplified breast cancer subtypes such as triple-negative disease. Topotecan is also a substrate of the BCRP/ABCG2 efflux transporter, which is expressed in breast cancer and may drive drug resistance.
 
@@ -142,6 +142,19 @@ The prediction score is very high, but the supporting clinical evidence for brea
 - Mechanism of action data from DrugBank
 - Clinical data specific to topotecan in breast cancer, particularly triple-negative or MYC-driven subtypes
 - A review of the myelosuppression, pulmonary and renal risks listed above before any further study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

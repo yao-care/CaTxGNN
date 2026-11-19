@@ -60,7 +60,7 @@ The prediction appears to be a TxGNN model (deep learning) artifact rather than 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, iohexol is an inert, non-ionic iodinated contrast agent that is cleared by the kidneys. Its role is diagnostic: it makes structures visible on X-ray and CT imaging.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iohexol: "The iodine atoms in iohexol provide attenuation of X-rays in direct proportion to the concentration of iohexol. Since concentration changes over time, iohexol provides time-dependent image contrast which may assist in visualizing body structures." ([DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f), label version 2026-04-28; accessed 2026-11-19.) Based on known information, iohexol is an inert, non-ionic iodinated contrast agent that is cleared by the kidneys. Its role is diagnostic: it makes structures visible on X-ray and CT imaging.
 
 Iohexol has no known pharmacological activity on sleep or central nervous system pathways. No mechanistic link to insomnia was identified, so the high TxGNN score is unlikely to reflect a real therapeutic signal.
 
@@ -131,6 +131,19 @@ The insomnia prediction has no clinical trials or literature, and iohexol has no
 - Mechanism of action data from DrugBank
 - Health Canada package insert warnings and contraindications, along with approved indication text and dosage forms for the three DINs
 - Any preclinical or clinical evidence for insomnia; without it, the prediction should not advance beyond model-level screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

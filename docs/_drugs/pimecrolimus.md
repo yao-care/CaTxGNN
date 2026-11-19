@@ -56,7 +56,7 @@ with **1 completed Phase 2 clinical trial** and **18 publications** (including 2
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled records. Based on known class information, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines such as IL-2, IL-4, interferon-gamma and TNF-alpha, and it also inhibits mast cell degranulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pimecrolimus: "The mechanism of action of pimecrolimus in atopic dermatitis is not known. While the following have been observed, the clinical significance of these observations in atopic dermatitis is not known. It has been demonstrated that pimecrolimus binds with high affinity to macrophilin-12 (FKBP-12) and inhibits the calcium-dependent phosphatase, calcineurin." ([DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06), label version 2026-04-30; accessed 2026-11-19.) Based on known class information, pimecrolimus is a topical calcineurin inhibitor. It blocks T-cell activation and the release of inflammatory cytokines such as IL-2, IL-4, interferon-gamma and TNF-alpha, and it also inhibits mast cell degranulation.
 
 Atopic dermatitis and seborrheic dermatitis are both chronic, relapsing inflammatory skin diseases. Seborrheic dermatitis involves an inflammatory response to *Malassezia* yeast on the skin in sebum-rich areas, so a non-steroidal topical anti-inflammatory agent is biologically plausible. Calcineurin inhibitors may also have some antifungal activity against *Malassezia*. This is attractive because long-term topical corticosteroid use on the face carries well-known adverse effects.
 
@@ -113,6 +113,19 @@ A completed Phase 2 randomized, double-blind trial (n=113) and two systematic re
 - Approved indication text, dosage form and manufacturer for the Canadian DIN
 - Severity grading of the 100 flagged drug interactions
 - A long-term safety monitoring plan, especially for facial and chronic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimecrolimus prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6601e43e-ce7d-446a-8568-8e7b24b86f06) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

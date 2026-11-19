@@ -59,8 +59,7 @@ The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, eletriptan is a selective 5-HT1B/1D receptor agonist. Its affinity for the 5-HT1D receptor is about 6-fold greater than sumatriptan's, and for the 5-HT1B receptor about 3-fold greater. This class acts on the trigeminovascular pathway that drives migraine headache.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-19.) Based on the published literature, eletriptan is a selective 5-HT1B/1D receptor agonist. Its affinity for the 5-HT1D receptor is about 6-fold greater than sumatriptan's, and for the 5-HT1B receptor about 3-fold greater. This class acts on the trigeminovascular pathway that drives migraine headache.
 
 There are two cautions:
 - One randomised trial (PMID 15469451) found **no effect** when eletriptan 80 mg was taken during the aura phase of migraine.
@@ -141,6 +140,19 @@ Moderate-level interactions include aprepitant, morphine, cimetidine, clotrimazo
 - A cardiovascular and cerebrovascular risk assessment and a patient-selection plan before any prospective study
 
 **Other predictions (all Hold, evidence level L5):** The other three predictions have no supporting trials or literature and no plausible mechanistic link beyond a speculative one for sciatic neuropathy. They are atrophoderma vermiculata (0.9994), ulerythema ophryogenesis (0.9989) and sciatic neuropathy (0.9903).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

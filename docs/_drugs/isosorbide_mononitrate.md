@@ -58,7 +58,7 @@ Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is mark
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, isosorbide mononitrate is an organic nitrate that releases nitric oxide, activates soluble guanylate cyclase and raises cGMP, which causes vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isosorbide mononitrate: "Isosorbide mononitrate extended-release tablet are an oral extended-release formulation of ISMN, the major active metabolite of isosorbide dinitrate; most of the clinical activity of the dinitrate is attributable to the mononitrate. The principal pharmacological action of ISMN and all organic nitrates in general is relaxation of vascular smooth muscle, producing dilatation of peripheral arteries and veins, especially the latter." ([DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158), label version 2026-11-10; accessed 2026-11-19.) Based on general pharmacology, isosorbide mononitrate is an organic nitrate that releases nitric oxide, activates soluble guanylate cyclase and raises cGMP, which causes vasodilation.
 
 The link to hypertrichosis is weak. Nitrates are not known to cause excess hair growth. A minoxidil-like vasodilation argument is sometimes raised for hair growth, but minoxidil acts mainly through potassium channel opening, and there is no direct evidence for isosorbide mononitrate. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -119,6 +119,19 @@ The prediction rests on model score alone, with no clinical trials, no literatur
 - Mechanism of action data
 - Any preclinical or clinical evidence linking NO donors to hair follicle biology, if this indication is to be pursued
 - Consider redirecting evaluation to pulmonary arterial hypertension as a research question only, with a review of nitrate tolerance, hypotension risk, and the guideline position against organic nitrates in PAH
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

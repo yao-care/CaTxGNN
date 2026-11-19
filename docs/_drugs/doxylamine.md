@@ -56,7 +56,7 @@ No clinical trials or publications were found for this prediction, so it rests o
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Doxylamine is an H1-receptor antihistamine with anticholinergic (drying) properties. Both actions could plausibly reduce nasal symptoms such as runny nose and sneezing.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (a combination product containing doxylamine): "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), label version 2026-08-24; accessed 2026-11-19.) Doxylamine is an H1-receptor antihistamine with anticholinergic (drying) properties. Both actions could plausibly reduce nasal symptoms such as runny nose and sneezing.
 
 "Nasal cavity disease" is a broad category. The prediction is probably driven by its closeness to nasal conditions already linked to this drug, not by a new mechanism. The term is too nonspecific to define a clear repurposing hypothesis, and no study in the compiled data addresses it directly.
 
@@ -93,6 +93,19 @@ The prediction is model-only (L5), with no clinical trials or publications on na
 - Mechanism-of-action data
 - Health Canada package insert warnings and contraindications, reviewed before any safety screening
 - Review of the major potassium-salt interactions and of additive anticholinergic and sedative effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

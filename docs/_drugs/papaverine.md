@@ -60,7 +60,7 @@ but the support is thin: **1 clinical trial** (an observational registry, not a 
 
 ## Why is This Prediction Reasonable?
 
-Papaverine is a non-selective smooth muscle vasodilator. It is thought to act by inhibiting phosphodiesterase, which raises cAMP and cGMP in vascular smooth muscle. Detailed mechanism of action data are not available in the data compiled for this report, so this description relies on general pharmacological knowledge.
+Papaverine is a non-selective smooth muscle vasodilator. It is thought to act by inhibiting phosphodiesterase, which raises cAMP and cGMP in vascular smooth muscle. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for papaverine: "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e), label version 2026-07-27; accessed 2026-11-19.) This description relies on general pharmacological knowledge.
 
 The original indications (peripheral and cerebral ischemia) and the predicted "ischemic disease" are closely related. Both involve reduced blood flow, and vasodilation to relieve spasm and improve perfusion is a sensible approach. The literature describes papaverine used as an intra-arterial infusion for non-occlusive mesenteric ischemia, as a vasodilator in neurointerventional procedures for vasospasm, and as a pharmacologic stress agent for measuring coronary flow reserve.
 
@@ -126,6 +126,19 @@ The TxGNN score is very high (0.9991), but the supporting evidence is weak. The 
 - Controlled clinical data for that specific indication
 - Review of the cardiovascular drug interactions and the knowledge graph contraindications
 - Confirmation of dosage form, route and approved indication for the Canadian product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

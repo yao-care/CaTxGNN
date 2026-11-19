@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, levomilnacipran is an SNRI. Its efficacy in major depressive disorder in adults is established, and it works by blocking reuptake of serotonin and norepinephrine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levomilnacipran: "The exact mechanism of the antidepressant action of levomilnacipran is unknown, but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system, through inhibition of reuptake at serotonin and norepinephrine transporters. Non-clinical studies have shown that levomilnacipran is a potent and selective serotonin and norepinephrine reuptake inhibitor (SNRI)." ([DailyMed: Fetzima (levomilnacipran hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f371258d-91b3-4b6a-ac99-434a1964c3af), label version 2024-04-30; accessed 2026-11-19.) Based on general knowledge, levomilnacipran is an SNRI. Its efficacy in major depressive disorder in adults is established, and it works by blocking reuptake of serotonin and norepinephrine.
 
 For the top-ranked prediction, the mechanistic link is weak. Benign paroxysmal torticollis of infancy is a pediatric, migraine-related disorder often associated with CACNA1A (calcium channel) variants. Nothing in the data connects reuptake inhibition to this condition, and levomilnacipran is approved only for adults. The high score (0.9953) is therefore a computational signal only.
 
@@ -70,7 +70,6 @@ Currently no related clinical trials registered for benign paroxysmal torticolli
 ## Literature Evidence
 
 Currently no related literature available for benign paroxysmal torticollis of infancy.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -110,6 +109,19 @@ The top prediction has only a model score (evidence level L5), with no trials, n
 - Approved indication text, dosage forms and manufacturer details for the Canadian licences
 - Indication-specific preclinical or clinical evidence, particularly for agoraphobia, since a sound hypothesis would also need to be distinct from the existing anxiety disorder indication
 - A paediatric safety assessment if benign paroxysmal torticollis of infancy remains a target
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fetzima (levomilnacipran hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f371258d-91b3-4b6a-ac99-434a1964c3af) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

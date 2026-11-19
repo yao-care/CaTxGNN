@@ -56,7 +56,7 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sulindac is a cyclooxygenase (COX) inhibitor NSAID, its efficacy in inflammatory musculoskeletal conditions is established, and it is used to relieve pain and inflammation in joints and soft tissues.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulindac as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL15770 (sulindac): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15770), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, sulindac is a cyclooxygenase (COX) inhibitor NSAID, its efficacy in inflammatory musculoskeletal conditions is established, and it is used to relieve pain and inflammation in joints and soft tissues.
 
 For the predicted condition, however, the rationale is weak. Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene. This gene is part of the BMP/GDF5 signalling pathway, which sulindac does not target. No established mechanistic link exists between COX inhibition and correction of this defect.
 
@@ -107,6 +107,19 @@ The prediction is computational only (L5), with no clinical trials or publicatio
 - Health Canada package insert warnings and contraindications, which is a blocking gap for safety screening
 - A clear definition of the intended use. If it is only symptomatic joint pain relief, this is already within the NSAID class and is not a new indication.
 - Consideration of other predicted indications only if supporting clinical evidence emerges. The current evidence there is also lacking.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL15770 (sulindac): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15770) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

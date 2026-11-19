@@ -58,7 +58,7 @@ Chloroprocaine is a short-acting ester-type local anesthetic. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on its drug class, chloroprocaine is an ester-type local anesthetic that blocks voltage-gated sodium channels and thereby prevents nerve conduction.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chloroprocaine: "Chloroprocaine, like other local anesthetics, blocks the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination and conduction velocity of affected nerve fibers." ([DailyMed: Nesacaine (chloroprocaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a844e68a-1462-40e4-be5e-f56214906eb9), label version 2022-09-01; accessed 2026-11-19.) Based on its drug class, chloroprocaine is an ester-type local anesthetic that blocks voltage-gated sodium channels and thereby prevents nerve conduction.
 
 The high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it does not indicate therapeutic potential. Intrathecal or epidural local anesthetics, including chloroprocaine, have been implicated in causing CES. Proposed causes include direct neurotoxicity to nerve roots from high local concentrations, poor distribution in the sacral thecal sac, and preservative or antioxidant effects (such as sodium bisulfite in older formulations).
 
@@ -118,6 +118,19 @@ Package insert warnings and contraindications were not available in the compiled
 - Obtain the Health Canada package insert (warnings, contraindications, approved indication and dosage form) to complete safety screening.
 - Obtain mechanism of action data from DrugBank.
 - Consider reviewing other predicted indications that are therapeutically plausible.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nesacaine (chloroprocaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a844e68a-1462-40e4-be5e-f56214906eb9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this is a m
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, natalizumab is a monoclonal antibody that blocks alpha-4 integrin and so inhibits leukocyte trafficking into inflamed tissue. Its efficacy in multiple sclerosis and Crohn's disease is established, and mechanistically it might dampen leukocyte-driven inflammation in the airways.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for natalizumab: "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), label version 2026-10-09; accessed 2026-11-19.) Based on known information, natalizumab is a monoclonal antibody that blocks alpha-4 integrin and so inhibits leukocyte trafficking into inflamed tissue. Its efficacy in multiple sclerosis and Crohn's disease is established, and mechanistically it might dampen leukocyte-driven inflammation in the airways.
 
 The link to bronchitis is theoretical. The high TxGNN score (0.9904) is a prediction only, and no trials or literature were found to support it. Natalizumab's immunosuppressive effect may also raise the risk of respiratory infections, so the net direction of effect is unclear.
 
@@ -121,6 +121,19 @@ Label warnings and contraindications were not available for this report; please 
 - Direct preclinical or clinical evidence for bronchitis, including whether the effect on respiratory infection risk is beneficial or harmful
 - For psoriasis, a clearer determination of the direction of effect, since case reports of induced or worsened disease conflict with one small case series showing improvement
 - Approved indication text and dosage form for the Canadian licence (DIN 02286386)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

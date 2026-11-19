@@ -56,7 +56,7 @@ The prediction therefore remains at the model-prediction stage.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, cetirizine blocks histamine H1 receptors, which are present on nerve endings, smooth muscle and glandular cells in the nose. A review of H1-antagonist action (Baroody and Naclerio) notes that this blockade is the main mechanism of antihistamines in allergic disease, and that additional anti-allergic effects may also contribute.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetirizine: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), label version 2026-09-22; accessed 2026-11-19.) Based on general pharmacology, cetirizine blocks histamine H1 receptors, which are present on nerve endings, smooth muscle and glandular cells in the nose. A review of H1-antagonist action (Baroody and Naclerio) notes that this blockade is the main mechanism of antihistamines in allergic disease, and that additional anti-allergic effects may also contribute.
 
 "Nasal cavity disease" is a very broad term. It largely overlaps with allergic and vasomotor rhinitis, where histamine-driven symptoms are plausible targets. The supporting evidence is indirect and non-specific, so this prediction offers no clearly distinct repurposing signal beyond uses already covered by existing products.
 
@@ -108,6 +108,19 @@ No clinical trial or publication directly studies cetirizine in nasal cavity dis
 - Package insert warnings and contraindications from Health Canada
 - A more specific target condition than "nasal cavity disease", with a directly relevant clinical study
 - A defined formulation and route of administration for the new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

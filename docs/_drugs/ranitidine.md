@@ -54,7 +54,7 @@ Ranitidine is an H2-receptor antagonist that reduces stomach acid. The TxGNN mod
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Ranitidine is known as an H2-receptor blocker, a class that lowers gastric acid output.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ranitidine: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), label version 2026-09-24; accessed 2026-11-19.) Ranitidine is known as an H2-receptor blocker, a class that lowers gastric acid output.
 
 Acid suppression is sometimes used as supportive care around a perforated ulcer, but the main treatment is surgical repair or non-operative management with antibiotics and gastric decompression. Ranitidine cannot close a perforation. The literature retrieved is indirect: reviews of long-term H2-blocker ulcer maintenance and NSAID-related stomach injury, plus a randomized trial of non-operative treatment (PMID 2927479) in which ranitidine was not the tested intervention. One placebo-controlled randomized trial (PMID 7861219) tested ranitidine to prevent postoperative gastroduodenal bleeding and perforation in high-risk neurosurgical patients, which is a different clinical question from treating an existing perforation. No study directly tests ranitidine for this condition.
 
@@ -105,6 +105,18 @@ The prediction score is high, but no study tests ranitidine as treatment of pept
 - Mechanism-of-action data
 - Package insert warnings and contraindications from Health Canada
 - A review of the major drug interactions for the intended patient group
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

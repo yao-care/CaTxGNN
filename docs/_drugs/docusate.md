@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **Plummer-Vinson syndrome**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for docusate are not available in the data compiled for this report. Docusate is generally understood as a surfactant stool softener, and it has no known effect on iron status.
+ChEMBL (EMBL-EBI) records the mechanism of action of docusate as: Surfactant laxative ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; accessed 2026-11-19.) Docusate is generally understood as a surfactant stool softener, and it has no known effect on iron status.
 
 Plummer-Vinson syndrome is characterised by iron deficiency anemia, dysphagia and oesophageal webs. The model's high score most likely reflects shared anemia-related connections rather than a biological mechanism. Docusate does not treat iron deficiency, dysphagia or oesophageal webs, and the standard of care (iron replacement, with endoscopic dilation of webs when needed) is unrelated to docusate's pharmacology. No plausible mechanistic rationale can be established from the available data.
 
@@ -100,6 +100,19 @@ The prediction rests only on a model score. No trials or publications study docu
 - Mechanism-of-action data for docusate
 - Package insert warnings and contraindications from Health Canada
 - Any preclinical or clinical study directly addressing docusate in Plummer-Vinson syndrome
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for docusate are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

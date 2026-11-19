@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **stroke disorder**, with **no reg
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dronedarone is a class III antiarrhythmic with multichannel-blocking properties. It is structurally related to amiodarone but is non-iodinated. Its efficacy in atrial fibrillation has been established, and the literature describes it as slowing heart rate and restoring or maintaining sinus rhythm.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.) Based on known information, dronedarone is a class III antiarrhythmic with multichannel-blocking properties. It is structurally related to amiodarone but is non-iodinated. Its efficacy in atrial fibrillation has been established, and the literature describes it as slowing heart rate and restoring or maintaining sinus rhythm.
 
 The relationship between the two conditions is indirect. AF is a major cause of cardioembolic stroke, so any stroke benefit is most likely to come from rhythm or rate control and reduced AF burden, not from a direct neuroprotective action. A post hoc analysis of the ATHENA trial suggested a lower stroke risk with dronedarone in paroxysmal or persistent AF. One laboratory study also reported anticoagulant and antiplatelet effects that are independent of its antiarrhythmic action. Preclinical reviews describe pleiotropic effects on ischemia/reperfusion injury in heart and brain.
 
@@ -121,6 +121,19 @@ The TxGNN score is high, but the supporting evidence is indirect: AF management 
 - Stroke-specific analysis of ATHENA and similar data, or a prospective study with stroke as the primary outcome
 - Evaluation of the interaction with direct oral anticoagulants in AF patients at risk of stroke
 - Defined target populations that exclude permanent AF and decompensated heart failure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

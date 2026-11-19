@@ -60,7 +60,7 @@ The only top-10 prediction with solid trial support is polyarticular juvenile id
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tocilizumab is a humanized monoclonal antibody that blocks the interleukin-6 receptor. Its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established, and mechanistically it may be applicable to inflammatory spine and joint disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tocilizumab: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), label version 2026-10-20; accessed 2026-11-19.) Based on known information, tocilizumab is a humanized monoclonal antibody that blocks the interleukin-6 receptor. Its efficacy in rheumatoid arthritis and juvenile idiopathic arthritis is established, and mechanistically it may be applicable to inflammatory spine and joint disease.
 
 IL-6 contributes to systemic inflammation and bone turnover, so blocking it is biologically plausible in axial spondyloarthritis. However, the two Phase 3 trials in ankylosing spondylitis were terminated and did not establish clinical efficacy. TNF and IL-17 inhibitors remain the standard of care. The prediction is therefore best treated as a hypothesis, not a validated new use.
 
@@ -146,6 +146,19 @@ Please refer to the package insert for full warnings and contraindications.
 - Health Canada package insert warnings and contraindications (not yet available, which blocks safety screening)
 - Mechanism of action data
 - For pJIA: a monitoring plan covering TB screening, liver enzymes, neutrophils and platelets, and lipids
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

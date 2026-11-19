@@ -60,7 +60,7 @@ but there are **0 clinical trials** and only **1 publication** (a veterinary stu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI), and its efficacy in HIV-1 infection is established. Mechanistically, it may be applicable to feline immunodeficiency virus.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for emtricitabine: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), label version 2026-11-06; accessed 2026-11-19.) Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI), and its efficacy in HIV-1 infection is established. Mechanistically, it may be applicable to feline immunodeficiency virus.
 
 FIV is a lentivirus related to HIV. It causes progressive immune dysfunction in cats, much like HIV in humans, and it also depends on reverse transcriptase to replicate. NRTI activity against it is therefore biologically plausible.
 
@@ -141,6 +141,19 @@ The top prediction (FIV) is veterinary and rests on a single study of unverified
 - Verification of the FIV study's design and outcomes, and a decision on whether a veterinary indication is within scope
 - A plausible biological rationale for the neurodevelopmental disorder prediction, or its removal as a likely false positive
 - If a human indication is the goal, a review of other predicted indications beyond these top three
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

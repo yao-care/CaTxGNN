@@ -60,7 +60,7 @@ The prediction appears to reflect similarity within the lysosomal storage diseas
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, imiglucerase is a recombinant form of human glucocerebrosidase. It breaks down glucosylceramide, which builds up in Gaucher disease, and its efficacy in that condition is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imiglucerase: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), label version 2026-08-27; accessed 2026-11-19.) Based on known information, imiglucerase is a recombinant form of human glucocerebrosidase. It breaks down glucosylceramide, which builds up in Gaucher disease, and its efficacy in that condition is established.
 
 Hurler syndrome (MPS I) and Gaucher disease are both lysosomal storage disorders treated with enzyme replacement therapy (ERT). However, Hurler syndrome is caused by a deficiency of alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans (dermatan and heparan sulfate). Glucocerebrosidase does not act on these substrates, so there is no substrate overlap. The only link is the shared ERT class.
 
@@ -120,6 +120,19 @@ The other top-10 predictions are also supported by weak or no evidence (mostly L
 - Scheie syndrome has the same limitations as Hurler syndrome.
 - Cholesteryl ester storage disease and Wolman disease are caused by LIPA deficiency, for which sebelipase alfa is the appropriate ERT.
 - This is not a new repurposing signal.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

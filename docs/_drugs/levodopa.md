@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levodopa is converted to dopamine in the brain and replaces the dopamine lost in Parkinson disease and related parkinsonian disorders. In Canada it is marketed mainly in combination with carbidopa.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levodopa: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), label version 2026-07-20; accessed 2026-11-19.) Based on known information, levodopa is converted to dopamine in the brain and replaces the dopamine lost in Parkinson disease and related parkinsonian disorders. In Canada it is marketed mainly in combination with carbidopa.
 
 Rasmussen encephalitis is a rare, chronic, unilateral neuroinflammatory disease, most likely driven by T-cell-mediated cytotoxicity. It causes progressive hemispheric atrophy, intractable focal epilepsy, hemiparesis and cognitive decline. No direct mechanistic link to levodopa has been established. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, such as movement-disorder or basal ganglia phenotypes, or features resembling hemiparkinsonism-hemiatrophy syndrome, which is among levodopa's listed original indications.
 
@@ -114,6 +114,19 @@ The only support is a high model prediction score. There are no registered trial
 - A literature review for any reports of levodopa use in Rasmussen encephalitis or hemiparkinsonism-hemiatrophy
 - A clear clinical rationale for the target use, such as symptomatic management of secondary parkinsonism, rather than disease modification
 - Assessment of seizure risk in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

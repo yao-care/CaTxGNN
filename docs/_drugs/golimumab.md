@@ -66,8 +66,7 @@ The TxGNN model's top prediction is **hypermobility of coccyx** (0.9967), but di
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From the published literature, golimumab is a fully human monoclonal antibody that neutralises TNF-alpha, both soluble and transmembrane forms. Its efficacy in rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis is established.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for golimumab: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), label version 2026-11-02; accessed 2026-11-19.) From the published literature, golimumab is a fully human monoclonal antibody that neutralises TNF-alpha, both soluble and transmembrane forms. Its efficacy in rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis is established.
 
 Among the other predictions:
 - **Inflammatory spondylopathy** and **polyarticular juvenile rheumatoid arthritis** are mechanistically well supported, since TNF-alpha drives both axial and synovial inflammation. They are largely on-label or closely adjacent to approved uses, so they are better viewed as confirmation of existing use than as true repurposing.
@@ -77,11 +76,9 @@ Among the other predictions:
 
 ## Clinical Trial Evidence
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients having shoulder arthroplasty. Does not evaluate golimumab for vasculitis. |
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -98,7 +95,6 @@ Among the other predictions:
 
 Only the 10 most relevant trials are shown; further golimumab and anti-TNF studies in spondyloarthritis are registered.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT01230827](https://clinicaltrials.gov/study/NCT01230827) | Phase 3 | Terminated | 173 | Double-blind randomised-withdrawal trial of subcutaneous golimumab in active polyarticular JIA |
@@ -109,7 +105,6 @@ Hypermobility of coccyx and Kummell disease: currently no related clinical trial
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -122,7 +117,6 @@ Hypermobility of coccyx and Kummell disease: currently no related clinical trial
 
 None of these studies tests golimumab in rheumatoid vasculitis. They are indirect or cautionary.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [36270657](https://pubmed.ncbi.nlm.nih.gov/36270657/) | 2023 | Systematic review | Ann Rheum Dis | Efficacy and safety of biological DMARDs in axial spondyloarthritis (2022 ASAS-EULAR update) |
@@ -133,7 +127,6 @@ None of these studies tests golimumab in rheumatoid vasculitis. They are indirec
 | [28530020](https://pubmed.ncbi.nlm.nih.gov/28530020/) | 2017 | Review | BioDrugs | Golimumab in inflammatory arthritis |
 | [18155297](https://pubmed.ncbi.nlm.nih.gov/18155297/) | 2008 | Review | Pharmacol Ther | Mechanisms of action of TNF antagonists |
 | [20065639](https://pubmed.ncbi.nlm.nih.gov/20065639/) | 2009 | Review | mAbs | Golimumab drug profile; approved in the US and Canada in 2009 |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -189,6 +182,19 @@ Please refer to the package insert for warnings and contraindications.
 - Canadian licence details (dosage forms and approved indications) to confirm which predicted indications are already on-label.
 - For rheumatoid vasculitis, case series or a pilot study that addresses the risk of anti-TNF-induced vasculitis.
 - For the two "Proceed with Guardrails" indications, a safety monitoring plan, with particular attention to infection risk, corticosteroid co-medication and paediatric use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **elevated plasma zinc**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Norgestimate is generally known as a progestin (a prodrug of levonorgestrel and norelgestromin) used in combined oral contraceptives. Its listed indications are hormonal in nature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norgestimate and ethinyl estradiol (a combination product containing norgestimate): "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923), label version 2026-10-12; accessed 2026-11-19.) Norgestimate is generally known as a progestin (a prodrug of levonorgestrel and norelgestromin) used in combined oral contraceptives. Its listed indications are hormonal in nature.
 
 No established mechanistic link to elevated plasma zinc could be identified from the data compiled for this report. Hormonal contraceptives have been discussed in the wider literature as altering circulating zinc and copper levels, but nothing in the compiled data supports this.
 
@@ -142,11 +142,12 @@ The prediction rests solely on a model score, with no clinical trials, no litera
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
 
 <!-- review:end log -->
 

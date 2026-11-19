@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leuprolide is a GnRH agonist. After an initial stimulation phase it suppresses gonadal sex hormones, and this effect underlies its use in endometriosis and precocious puberty.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leuprolide: "Leuprolide acetate, a gonadotropin releasing hormone (GnRH) agonist, acts as an inhibitor of gonadotropin secretion when given continuously in therapeutic doses. Animal and human studies indicate that after an initial stimulation, chronic administration of leuprolide acetate results in suppression of testicular and ovarian steroidogenesis." ([DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f), label version 2026-04-30; accessed 2026-11-19.) Based on known information, leuprolide is a GnRH agonist. After an initial stimulation phase it suppresses gonadal sex hormones, and this effect underlies its use in endometriosis and precocious puberty.
 
 Sex-hormone changes could plausibly influence joint tissue or pain, which is one possible way to connect the original indications to osteoarthritis. However, this link is speculative. Suppressing sex hormones (as in androgen-deprivation therapy) is more commonly associated with bone loss than with joint benefit. The high model score should therefore be treated as a hypothesis only, not as evidence of efficacy.
 
@@ -118,6 +118,19 @@ The prediction score is very high, but no clinical trials support it, the only r
 - A literature review of sex hormones and GnRH agonists in osteoarthritis, including preclinical studies
 - Health Canada package insert warnings and contraindications, plus approved indication text and dosage forms for each DIN
 - Review of the cardiometabolic and bone-density safety signals for a chronic joint condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ Evidence is very limited: **no registered clinical trials** and **1 publication*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available for this report. Based on known information, guaifenesin is an expectorant that thins and loosens airway mucus. Its use in rhinitis and nasopharyngitis has been established, and mechanistically it may help with mucus-related nasal symptoms.
+ChEMBL (EMBL-EBI) records the mechanism of action of guaifenesin as: Unknown ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, guaifenesin is an expectorant that thins and loosens airway mucus. Its use in rhinitis and nasopharyngitis has been established, and mechanistically it may help with mucus-related nasal symptoms.
 
 Nasal cavity disease is a broad category that includes the rhinitis conditions already listed as original indications. The very high TxGNN score (0.9998) probably reflects this overlap and is not an independent repurposing signal. In other words, the prediction is largely a restatement of existing uses rather than a new therapeutic discovery.
 
@@ -109,6 +109,19 @@ The predicted indication largely overlaps with guaifenesin's existing rhinitis-r
 - Clarification of which specific nasal cavity conditions are meant, beyond those already covered by existing indications
 - Controlled clinical evidence, or a targeted literature search, for the predicted indication
 - Dosage form, route and approved indication details for the Canadian products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

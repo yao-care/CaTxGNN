@@ -60,7 +60,7 @@ The top-ranked predictions are computational only. The most biologically plausib
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acetic acid is a topical antiseptic and acidifier with antibacterial activity. Its use in otitis externa is consistent with lowering local pH and inhibiting microbial growth.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetic acid: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), label version 2026-03-18; accessed 2026-11-19.) Based on known information, acetic acid is a topical antiseptic and acidifier with antibacterial activity. Its use in otitis externa is consistent with lowering local pH and inhibiting microbial growth.
 
 For the top prediction, post-bacterial disorder, no plausible mechanism is apparent. Post-infectious conditions are typically immune-mediated rather than ongoing infections, so a topical antiseptic is unlikely to address them. The same holds for the other high-scoring predictions: postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infection-related hemolytic uremic syndrome and drug-induced osteoporosis. All have TxGNN scores of 0.9967 or higher, but the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -141,6 +141,19 @@ The top predictions have high model scores but no trials, no publications, and n
 - Confirmation of which licensed Canadian products are relevant, and their routes and dosage forms
 - For tinea corporis: in vitro susceptibility testing against dermatophytes, then a modern controlled trial with defined concentrations and skin-tolerability monitoring
 - Deprioritising the immune-mediated and systemic predictions unless a mechanistic rationale emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

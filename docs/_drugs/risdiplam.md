@@ -54,7 +54,7 @@ Risdiplam is an SMN2 splicing modifier that is marketed in Canada under the bran
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, risdiplam is an SMN2 splicing modifier used in spinal muscular atrophy, where it increases production of functional SMN protein.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for risdiplam: "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), label version 2026-11-02; accessed 2026-11-19.) Based on known information, risdiplam is an SMN2 splicing modifier used in spinal muscular atrophy, where it increases production of functional SMN protein.
 
 No mechanistic pathway linking SMN2 splicing modulation to acne is supported by the available data. The score of 0.9945 is a computational prediction only and has no clinical or literature backing. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any hypothesis would need independent preclinical validation first.
 
@@ -103,6 +103,19 @@ The prediction rests entirely on a model score. There are no clinical trials, no
 - Approved indication text and dosage form for the two Canadian licences
 - Preclinical evidence of a biological link between SMN2 splicing modulation and acne
 - Route compatibility assessment, since acne would likely require a different route of administration than the current product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

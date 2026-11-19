@@ -54,7 +54,7 @@ Adapalene is a topical retinoid used on the skin. The TxGNN model predicts it ma
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for adapalene are not available in the data compiled for this report. From general pharmacology, adapalene is a topical retinoid that selectively binds retinoic acid receptors (RAR-β and RAR-γ) and modulates keratinocyte differentiation and inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adapalene: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), label version 2023-12-27; accessed 2026-11-19.) From general pharmacology, adapalene is a topical retinoid that selectively binds retinoic acid receptors (RAR-β and RAR-γ) and modulates keratinocyte differentiation and inflammation.
 
 Elevated plasma zinc (hyperzincemia) is a biochemical state, typically caused by excess zinc intake, certain genetic variants, or altered zinc-binding protein levels. No known pathway links RAR signalling to systemic zinc homeostasis in a way that would support therapeutic use. The high score of 0.9951 most likely reflects network proximity in the model (for example shared zinc- or retinoid-related gene and protein associations) rather than biological or clinical validity. Adapalene is also applied topically with low systemic absorption, so an effect on plasma zinc is improbable. The prediction should be treated as a weak, unvalidated hypothesis.
 
@@ -88,6 +88,19 @@ The prediction has a high model score but no supporting clinical trials or liter
 - Mechanism-of-action data and a plausible biological pathway
 - Package insert warnings and contraindications from Health Canada
 - Evidence on systemic absorption and route compatibility for a systemic condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for adapalene are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, chlorpromazine is a long-established antipsychotic (a dopamine D2 receptor antagonist), and its efficacy in schizophrenia and other psychotic disorders is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlorpromazine: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), label version 2026-11-10; accessed 2026-11-19.) Based on known information, chlorpromazine is a long-established antipsychotic (a dopamine D2 receptor antagonist), and its efficacy in schizophrenia and other psychotic disorders is well established.
 
 For the predicted indication, a plausible therapeutic link is hard to find. The only publication is a 1967 report of phototoxic reactions to high-dose chlorpromazine and thioridazine. Chlorpromazine is also known to cause ocular effects, including lens and corneal deposits and pigmentary retinopathy at high doses. These are adverse-effect signals, not evidence of benefit. The high TxGNN score most likely reflects network proximity to retinal-related genes or pathways rather than a real therapeutic effect. The safety signal argues against use in retinal disease.
 
@@ -105,6 +105,19 @@ The predicted indication rests on a model score alone. The only publication repo
 - An ocular safety assessment, covering retinopathy and phototoxicity
 
 **Other predictions in the list:** The other eight highest-scoring predictions (for example X-linked and syndromic myopia, hydranencephaly, and congenital glycosylation and metabolic disorders) have no trials or literature and no supported mechanism, so they remain at **Hold**. The tenth prediction, early-onset schizophrenia, is an extension of an existing indication to a younger population. It is supported only by observational and pharmacogenetic studies (L3), and newer atypical antipsychotics are generally preferred in this group. It is better treated as a research question than as a repurposing candidate.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

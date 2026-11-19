@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **strongyloidiasis**, with **0 clinic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, brodalumab is an IL-17 receptor A (IL-17RA) antagonist. It blocks signaling by IL-17 family cytokines.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for brodalumab: "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25. IL-17RA is a protein expressed on the cell surface and is a required component of receptor complexes utilized by multiple IL-17 family cytokines." ([DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688), label version 2026-05-28; accessed 2026-11-19.) Based on general pharmacology, brodalumab is an IL-17 receptor A (IL-17RA) antagonist. It blocks signaling by IL-17 family cytokines.
 
 There is no clear mechanistic link to strongyloidiasis. IL-17 signaling contributes to antiparasitic and mucosal host defense, so blocking it could plausibly **increase** infection risk rather than reduce it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be treated as a therapeutic signal.
 
@@ -107,6 +107,19 @@ The strongyloidiasis prediction rests only on a score from the TxGNN model (deep
 - Mechanism of action data confirmed from DrugBank
 - Any direct preclinical or clinical evidence of benefit for the predicted indication
 - A review of the immune-mediated ocular candidates (e.g., uveitis-type conditions) with narrower disease definitions, taking the paradoxical-reaction and uveitis signals into account
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -62,7 +62,7 @@ The approved-indication text was not available in the Canadian license data comp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From the pharmacology generally described in the literature, topiramate reduces neuronal excitability by blocking voltage-gated sodium channels, enhancing GABA-A activity, antagonizing AMPA/kainate glutamate receptors, and weakly inhibiting carbonic anhydrase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topiramate: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), label version 2026-10-05; accessed 2026-11-19.) From the pharmacology generally described in the literature, topiramate reduces neuronal excitability by blocking voltage-gated sodium channels, enhancing GABA-A activity, antagonizing AMPA/kainate glutamate receptors, and weakly inhibiting carbonic anhydrase.
 
 **For the top prediction (trigeminal nerve neoplasm):** none of these mechanisms offers a plausible route to controlling a tumor. The high score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, topiramate might relieve symptoms such as trigeminal neuralgia, which is a different condition.
 
@@ -146,11 +146,12 @@ Topiramate's known adverse effects reported in the retrieved literature include 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "There are 20 valid single-ingredient licences in total, and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

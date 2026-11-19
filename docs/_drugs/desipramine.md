@@ -60,7 +60,7 @@ The TxGNN model predicts it may be useful for **attention deficit hyperactivity 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Desipramine is, however, a tricyclic antidepressant known for strong norepinephrine reuptake inhibition. Boosting noradrenergic signalling in prefrontal circuits plausibly supports attention. This is the same general mechanism as atomoxetine, a non-stimulant norepinephrine reuptake inhibitor used for ADHD. It fits the high model score.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desipramine: "Available evidence suggests that many depressions have a biochemical basis in the form of a relative deficiency of neurotransmitters such as norepinephrine and serotonin. Norepinephrine deficiency may be associated with relatively low urinary 3-methoxy-4-hydroxyphenyl glycol (MHPG) levels, while serotonin deficiencies may be associated with low spinal fluid levels of 5-hydroxyindoleacetic acid." ([DailyMed: Norpramin (desipramine hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b562ea-9f21-4e4a-b3ed-0590b2892f6a), label version 2025-07-03; accessed 2026-11-19.) Desipramine is, however, a tricyclic antidepressant known for strong norepinephrine reuptake inhibition. Boosting noradrenergic signalling in prefrontal circuits plausibly supports attention. This is the same general mechanism as atomoxetine, a non-stimulant norepinephrine reuptake inhibitor used for ADHD. It fits the high model score.
 
 This is a mechanistic argument only. No trial or publication specific to the inattentive subtype was retrieved. The plausibility therefore remains unverified, and the evidence level is L5.
 
@@ -114,6 +114,19 @@ The mechanism is plausible and the model score is high. However, there are no tr
 - Mechanism-of-action data
 - Package insert warnings and contraindications from Health Canada
 - A cardiac safety assessment, including paediatric risk, and a CYP2D6 interaction management plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norpramin (desipramine hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b562ea-9f21-4e4a-b3ed-0590b2892f6a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

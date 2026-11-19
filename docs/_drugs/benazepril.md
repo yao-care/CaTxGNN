@@ -56,7 +56,7 @@ Currently there are **no clinical trials and no publications** supporting this p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on its drug class, benazepril is an ACE inhibitor, which blocks the renin-angiotensin-aldosterone system (RAAS). This lowers blood pressure and can reduce pressure inside the kidney's filtering units (glomeruli) and protein loss in urine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for benazepril: "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), label version 2025-09-30; accessed 2026-11-19.) Based on its drug class, benazepril is an ACE inhibitor, which blocks the renin-angiotensin-aldosterone system (RAAS). This lowers blood pressure and can reduce pressure inside the kidney's filtering units (glomeruli) and protein loss in urine.
 
 Malignant hypertensive renal disease is kidney damage caused by severely elevated, rapidly progressive blood pressure. Because the main driver is high blood pressure acting on the kidney, RAAS blockade is mechanistically plausible. However, this looks more like an extension of blood pressure control than a distinct new repurposing signal. No study in the data compiled for this report directly examines benazepril in this disease, so the high score cannot be confirmed.
 
@@ -96,6 +96,19 @@ The prediction has a high model score, but no clinical trial or publication stud
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - Review of renal safety (e.g. kidney function and potassium monitoring) in patients with severe hypertension and kidney injury
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

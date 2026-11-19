@@ -58,7 +58,7 @@ with **15 clinical trials** and **20 publications** compiled for this direction.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, ribavirin is a guanosine nucleoside analogue with broad antiviral activity. Its proposed actions include inhibiting IMPDH, depleting GTP pools, and modulating the immune response.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ribavirin: "Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction." ([DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c), label version 2024-02-06; accessed 2026-11-19.) Based on general pharmacology, ribavirin is a guanosine nucleoside analogue with broad antiviral activity. Its proposed actions include inhibiting IMPDH, depleting GTP pools, and modulating the immune response.
 
 Hepatitis B is a DNA virus, so direct antiviral activity is limited. Any benefit in chronic hepatitis B appears to come mainly from immunomodulation when ribavirin is combined with interferon. In HBV/HCV co-infection, ribavirin acts on the HCV component. Current hepatitis B standards of care, nucleos(t)ide analogues and peginterferon, are superior, and ribavirin is not recommended as monotherapy.
 
@@ -135,6 +135,19 @@ The TxGNN score is high, and one Phase 3 trial tested ribavirin plus peginterfer
 - Verification of the severity of the listed drug interactions
 
 **Other predicted indications:** The remaining nine predictions (for example idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, hepatic porphyria and the IgG4-related conditions) have no supporting trials and no plausible mechanism. For hepatic porphyria, the literature suggests ribavirin may trigger porphyria cutanea tarda rather than treat it. All are rated Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

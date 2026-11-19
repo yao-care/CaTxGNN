@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist used intravenously to increase cardiac contractility. It has no known action on hair follicle biology.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dobutamine: "Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine." ([DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead), label version 2023-09-08; accessed 2026-11-19.) Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist used intravenously to increase cardiac contractility. It has no known action on hair follicle biology.
 
 The one retrieved paper describes heart failure in a cat caused by minoxidil intoxication, in which dobutamine was used to treat hypotension. It documents an adverse cardiac effect of a hair-growth drug, not a therapeutic use of dobutamine for alopecia.
 
@@ -113,6 +113,19 @@ The prediction rests on model score alone. There are no clinical trials and no s
 - Mechanism of action data (for example from DrugBank) to test any biological link to hair follicles
 - Any preclinical or clinical evidence that dobutamine affects hair growth
 - An assessment of whether a systemic IV inotrope is compatible with any realistic route for alopecia treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

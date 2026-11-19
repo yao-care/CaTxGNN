@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **Choroideremia**, but this rests on 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology records, trametinib inhibits **MEK1 (MAP2K1)** and **MEK2 (MAP2K2)** in the MAPK pathway. It is used for BRAF V600-mutant melanoma, and in combination with dabrafenib for other BRAF V600E-mutant cancers such as anaplastic thyroid cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trametinib: "Trametinib is a reversible inhibitor of mitogen-activated extracellular signal-regulated kinase 1 (MEK1) and MEK2 activation and of MEK1 and MEK2 kinase activity. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1), label version 2026-05-07; accessed 2026-11-19.) From the pharmacology records, trametinib inhibits **MEK1 (MAP2K1)** and **MEK2 (MAP2K2)** in the MAPK pathway. It is used for BRAF V600-mutant melanoma, and in combination with dabrafenib for other BRAF V600E-mutant cancers such as anaplastic thyroid cancer.
 
 **Choroideremia (rank 1):** This is an X-linked retinal degeneration caused by loss of function of the CHM gene, which impairs Rab prenylation. No clear mechanistic link to MEK inhibition is evident. The high score is a model output only, and the prediction should be treated with scepticism.
 
@@ -157,6 +157,19 @@ Package insert warnings and contraindications were not available, so please refe
 - Trials or studies that isolate trametinib's effect in specific non-cutaneous melanoma subtypes, stratified by mutation (BRAF, NRAS, NF1, GNAQ/GNA11)
 - Any preclinical or mechanistic evidence for MEK inhibition in choroideremia, before this prediction is pursued further
 - Approved indication text for the Canadian MEKINIST licences, to confirm the label scope
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mekinist (trametinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0002ad27-779d-42ab-83b5-bc65453412a1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

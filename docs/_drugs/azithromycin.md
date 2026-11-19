@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **polyclonal hyperviscosity syndr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Azithromycin is a macrolide antibiotic with antibacterial activity and reported immunomodulatory properties.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for azithromycin: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), label version 2026-09-09; accessed 2026-11-19.) Azithromycin is a macrolide antibiotic with antibacterial activity and reported immunomodulatory properties.
 
 Polyclonal hyperviscosity syndrome is a condition of increased blood viscosity caused by elevated immunoglobulins from a polyclonal gammopathy. No plausible mechanistic link between azithromycin and this condition is established in the data compiled for this report. The high score (0.9981) is a model output and is not supported by any trial or publication. The prediction should be treated as a hypothesis only.
 
@@ -96,6 +96,19 @@ The prediction rests only on a model score. No clinical trial or publication stu
 - Mechanism of action data and a credible biological rationale linking azithromycin to hyperviscosity from polyclonal gammopathy
 - Preclinical or clinical studies that directly address this disease
 - Review of the Canadian package insert for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

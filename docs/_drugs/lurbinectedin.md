@@ -64,7 +64,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Lurbinectedin is generally described as an alkylating-type agent that binds DNA and inhibits oncogenic transcription. This could plausibly be relevant to neuroendocrine tumours, which is the closest link to the predicted indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lurbinectedin: "Lurbinectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae), label version 2026-09-30; accessed 2026-11-19.) Lurbinectedin is generally described as an alkylating-type agent that binds DNA and inhibits oncogenic transcription. This could plausibly be relevant to neuroendocrine tumours, which is the closest link to the predicted indication.
 
 That link is speculative. Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, MEN1 and RET-related forms), and no direct connection to this drug has been shown. The original indication is also not recorded in the Canadian licence data, so the relationship between the original and new indication cannot be assessed.
 
@@ -128,11 +128,12 @@ The prediction rests on a model score alone (Evidence Level L5), with no clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae) |
 
 <!-- review:end log -->
 

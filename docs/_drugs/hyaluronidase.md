@@ -59,7 +59,7 @@ This prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Hyaluronidase is an enzyme that breaks down hyaluronan, a component of connective tissue. It is commonly used to help other injected drugs spread through tissue. No therapeutic mechanism linking it to esotropia has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hyaluronidase: "Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci." ([DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658), label version 2024-11-11; accessed 2026-11-19.) Hyaluronidase is an enzyme that breaks down hyaluronan, a component of connective tissue. It is commonly used to help other injected drugs spread through tissue. No therapeutic mechanism linking it to esotropia has been established.
 
 The only linked report (PMID 16934027) describes persistent double vision and strabismus after cataract surgery under local anesthesia. Hyaluronidase is sometimes added to the anesthetic block in that setting. This points to a possible adverse-effect association, such as local anesthetic toxicity to the eye muscles or spread of the anesthetic. It does not show a treatment benefit.
 
@@ -132,11 +132,12 @@ The prediction rests only on a model score. There are no clinical trials, and th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
 
 <!-- review:end log -->
 

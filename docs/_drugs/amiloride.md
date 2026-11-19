@@ -54,7 +54,7 @@ Amiloride is a potassium-sparing diuretic marketed in Canada. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Amiloride is generally known to block the epithelial sodium channel (ENaC) in the distal nephron. This reduces sodium reabsorption and potassium loss. That kidney-level sodium handling is the most plausible link to a blood-pressure-related kidney condition.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) Amiloride is generally known to block the epithelial sodium channel (ENaC) in the distal nephron. This reduces sodium reabsorption and potassium loss. That kidney-level sodium handling is the most plausible link to a blood-pressure-related kidney condition.
 
 The link is weak for this indication. Malignant hypertension with kidney involvement needs rapid, controlled blood pressure reduction, and amiloride is not a typical choice for that. Impaired kidney function also raises the risk of hyperkalaemia with a potassium-sparing agent, which is a significant safety concern. The high score is best read as a computational association, not as evidence of benefit.
 
@@ -113,11 +113,12 @@ The prediction has a high model score but no supporting trials or publications, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
 
 <!-- review:end log -->
 

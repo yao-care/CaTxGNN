@@ -56,7 +56,7 @@ No clinical trials or publications were retrieved for this prediction, so it res
 
 ## Why is This Prediction Reasonable?
 
-Cetuximab blocks the epidermal growth factor receptor (EGFR) and prevents ligand binding, which interrupts tumour-promoting downstream signalling. Detailed mechanism-of-action text is not available in the data compiled for this report, but the target (EGFR) is documented.
+Cetuximab blocks the epidermal growth factor receptor (EGFR) and prevents ligand binding, which interrupts tumour-promoting downstream signalling. According to the Mechanism of Action section of the US FDA-approved prescribing information for cetuximab: "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), label version 2026-04-16; accessed 2026-11-19.) The target (EGFR) is documented.
 
 The link to this prediction is weak. Paediatric bronchial carcinoids are neuroendocrine tumours that are usually not driven by EGFR, and no EGFR dependence has been established for them. The high model score therefore should be read as a computational signal only, not as a mechanistic or clinical finding.
 
@@ -102,6 +102,19 @@ The prediction has no supporting trials or publications, and EGFR blockade has n
 - Preclinical or clinical studies that directly address this disease
 - Package insert warnings and contraindications from Health Canada, and detailed mechanism-of-action data
 - A safety assessment for the paediatric population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

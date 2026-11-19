@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, trihexyphenidyl is a central muscarinic antagonist with a preference for the M1 receptor. It modulates the balance between cholinergic and dopaminergic signalling in the striatum, which is why it relieves tremor, rigidity and dystonia.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for trihexyphenidyl: "Trihexyphenidyl Hydrochloride is the substituted piperidine salt, 3-(1-piperidyl)- 1-phenylcyclohexyl-1-propanol hydrochloride, which exerts a direct inhibitory effect upon the parasympathetic nervous system. It also has a relaxing effect on smooth musculature; exerted both directly upon the muscle tissue itself and indirectly through an inhibitory effect upon the parasympathetic nervous system." ([DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af), label version 2026-07-23; accessed 2026-11-19.) Based on known pharmacology, trihexyphenidyl is a central muscarinic antagonist with a preference for the M1 receptor. It modulates the balance between cholinergic and dopaminergic signalling in the striatum, which is why it relieves tremor, rigidity and dystonia.
 
 ADHD involves dopaminergic and noradrenergic dysregulation in frontostriatal circuits, so a theoretical link to a drug that acts on striatal neurotransmitter balance exists. This is the likely basis of the model's prediction.
 
@@ -108,6 +108,19 @@ The prediction for ADHD has no clinical trial support and only one tangentially 
 - Detailed mechanism of action data (for example from DrugBank)
 - Targeted literature review of anticholinergic effects on attention and cognition in ADHD and in children
 - If any repurposing direction is pursued, consider the PLA2G6-associated dystonia-parkinsonism indication as a better-justified research question, since it overlaps with the drug's existing symptomatic uses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

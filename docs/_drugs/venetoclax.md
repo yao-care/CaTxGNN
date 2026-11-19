@@ -60,7 +60,7 @@ No clinical trials or publications are currently linked to this specific subtype
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, venetoclax is a selective BCL-2 inhibitor. It restores apoptosis in cells that depend on BCL-2 for survival.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for venetoclax: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), label version 2026-05-20; accessed 2026-11-19.) Based on known information, venetoclax is a selective BCL-2 inhibitor. It restores apoptosis in cells that depend on BCL-2 for survival.
 
 The predicted indication is a molecular subtype (IGHV-mutated) of CLL/SLL, a disease in which BCL-2 overexpression is a central feature. Venetoclax is already marketed in Canada, and the analysis of this prediction notes that it is established for CLL/SLL in general. This supports a strong mechanistic rationale.
 
@@ -137,6 +137,19 @@ The predicted indication has a plausible BCL-2-based mechanism and sits within a
 - Canadian package insert text (indications, warnings and contraindications) to confirm current labelled use
 - Detailed mechanism of action data (MOA)
 - A drug-interaction management plan, especially for strong CYP3A inhibitors, and a monitoring plan for tumour lysis syndrome and myelosuppression
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ This is effectively an on-label use rather than true repurposing, so the predict
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, insulin glulisine is a rapid-acting human insulin analogue that activates the insulin receptor to lower blood glucose. Its efficacy in diabetes mellitus has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin glulisine: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), label version 2025-11-25; accessed 2026-11-19.) Based on known information, insulin glulisine is a rapid-acting human insulin analogue that activates the insulin receptor to lower blood glucose. Its efficacy in diabetes mellitus has been established.
 
 Type 1 diabetes is characterised by absolute insulin deficiency, so mealtime insulin replacement is mechanistically well suited. Insulin glulisine is already a core therapy for diabetes mellitus, which means the type 1 diabetes prediction is concordant with the known pharmacology and is an on-label use rather than a new repurposing direction.
 
@@ -141,6 +141,19 @@ Several completed Phase 3 trials and randomised studies, along with systematic r
 - Approved indication text and dosage form for the three Canadian DINs
 - A review of the moderate-severity interactions, particularly with other glucose-lowering agents, beta-blockers and corticosteroids, to define monitoring guardrails
 - The other nine predicted indications (rank 2–10) should stay on Hold. Pancreatic agenesis is the only one with a plausible rationale (insulin replacement), and would need dedicated neonatal safety and dosing evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

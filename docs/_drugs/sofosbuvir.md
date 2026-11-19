@@ -60,7 +60,7 @@ Direct support is thin: one small, single-arm Phase 2 trial of ledipasvir/sofosb
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Sofosbuvir is known as a prodrug of a nucleotide analogue that inhibits a viral RNA-dependent RNA polymerase.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) Sofosbuvir is known as a prodrug of a nucleotide analogue that inhibits a viral RNA-dependent RNA polymerase.
 
 The link to hepatitis B is indirect. Hepatitis B virus is a DNA virus that replicates through reverse transcription, so sofosbuvir has no direct target in it. The rationale rests on clinical observations. In patients with both hepatitis B and C, ledipasvir/sofosbuvir was associated with a modest drop in hepatitis B surface antigen (HBsAg). This led investigators to test the combination in people with hepatitis B alone (PMID 36045503). That study was small, open-label and single-arm, and the effect cannot be attributed to sofosbuvir alone, because ledipasvir was given together with it.
 
@@ -134,6 +134,18 @@ The only direct evidence in hepatitis B is a small, single-arm Phase 2 study of 
 - Mechanism of action data, to explain any effect on HBsAg
 - A safety plan for hepatitis B reactivation, including screening and monitoring
 - Review of the package insert warnings and contraindications, which are not in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

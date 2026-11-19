@@ -60,7 +60,7 @@ The evidence is weak and indirect: the likely role is as transplant-related immu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the compiled data. Based on known pharmacology, mycophenolic acid inhibits inosine monophosphate dehydrogenase (IMPDH), an enzyme needed for de novo guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolic acid: "Mycophenolic acid (MPA), an immunosuppressant, is an uncompetitive and reversible inhibitor of inosine monophosphate dehydrogenase (IMPDH), and therefore inhibits the de novo pathway of guanosine nucleotide synthesis without incorporation to DNA. T- and B-lymphocytes are critically dependent for their proliferation on de novo synthesis of purines, whereas other cell types can utilize salvage pathways." ([DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53), label version 2026-07-29; accessed 2026-11-19.) Based on known pharmacology, mycophenolic acid inhibits inosine monophosphate dehydrogenase (IMPDH), an enzyme needed for de novo guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes.
 
 In hemoglobinopathies such as thalassemia, this mechanism is relevant mainly in allogeneic hematopoietic stem cell transplantation, where immunosuppression helps prevent graft-versus-host disease (GVHD). It does not act on the underlying red cell defect. A 2025 publication on off-label mycophenolate mofetil (the prodrug of mycophenolic acid) dosing in children with thalassemia undergoing transplantation suggests this use occurs in practice.
 
@@ -126,6 +126,19 @@ The evidence for hemoglobinopathy is indirect. The only trial tests a different 
 - Licence indication text, to establish the original approved indication
 - Clinical studies of mycophenolate-containing GVHD prophylaxis regimens specifically in thalassemia or other hemoglobinopathy transplants
 - A decision on whether the question should be framed as a transplant-immunosuppression use rather than treatment of hemoglobinopathy itself
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

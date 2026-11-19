@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Fosaprepitant is known to be a prodrug of aprepitant, which blocks the NK1 receptor (the receptor for substance P). This is general pharmacological knowledge and is not confirmed by the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosaprepitant: "Fosaprepitant is a prodrug of aprepitant and accordingly, its antiemetic effects are attributable to aprepitant. Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK-1) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors, the targets of existing therapies for chemotherapy-induced nausea and vomiting (CINV)." ([DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169), label version 2026-07-29; accessed 2026-11-19.) Fosaprepitant is known to be a prodrug of aprepitant, which blocks the NK1 receptor (the receptor for substance P). This is general pharmacological knowledge and is not confirmed by the compiled data.
 
 The link to NSIAD is weak. NK1/substance P signaling has been discussed in relation to central fluid regulation, but nothing in the data supports a mechanism in this disease. NSIAD is driven by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which act downstream of vasopressin release. An NK1 antagonist would not be expected to correct that defect directly. The high score is therefore best treated as a hypothesis-generating output of the model, not as evidence of efficacy.
 
@@ -132,6 +132,19 @@ The prediction rests on a computational score alone (L5). There are no trials or
 - A mechanistic rationale or preclinical data linking NK1 antagonism to NSIAD
 - Consideration of retinitis as a possible alternative research question, starting with verification of the ocular study design and its relevance
 - Review of the two Major interactions (eliglustat, naloxegol) and the hepatic-failure signal for any target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Navitrux (fosaprepitant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a41b7c3a-1376-43a7-b5b9-6ba2eba1e169) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

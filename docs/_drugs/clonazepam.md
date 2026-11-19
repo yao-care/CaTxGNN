@@ -56,7 +56,7 @@ No clinical trials are registered in the data compiled for this report, but **20
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Clonazepam belongs to the benzodiazepine class, which enhances GABA-A receptor-mediated inhibition. This may reduce the sensory-motor hyperexcitability and sleep fragmentation associated with restless legs syndrome (RLS) and periodic limb movements.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clonazepam: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), label version 2025-12-01; accessed 2026-11-19.) Clonazepam belongs to the benzodiazepine class, which enhances GABA-A receptor-mediated inhibition. This may reduce the sensory-motor hyperexcitability and sleep fragmentation associated with restless legs syndrome (RLS) and periodic limb movements.
 
 The literature shows long-standing clinical use of clonazepam in RLS. A small 1984 randomized double-blind crossover trial versus placebo (6 patients) reported improved subjective sleep quality and leg dysaesthesia. A placebo-controlled sleep laboratory study of 1 mg clonazepam (2001) and a 2024 historical overview of benzodiazepines in RLS also address this use.
 
@@ -109,6 +109,19 @@ Clonazepam has long-standing clinical use in restless legs syndrome, supported b
 - Health Canada package insert warnings and contraindications
 - Mechanism-of-action data from DrugBank
 - A plan for positioning clonazepam against first-line RLS therapies, with dependence and fall-risk monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

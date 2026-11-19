@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **antithrombin 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, exemestane is a steroidal aromatase inhibitor that blocks the conversion of androgens to estrogens and lowers circulating estrogen. It is used in hormone-receptor-positive breast cancer in postmenopausal women.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for exemestane: "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3), label version 2025-12-24; accessed 2026-11-19.) Based on known information, exemestane is a steroidal aromatase inhibitor that blocks the conversion of androgens to estrogens and lowers circulating estrogen. It is used in hormone-receptor-positive breast cancer in postmenopausal women.
 
 Antithrombin deficiency type 2 is an inherited defect of the *SERPINC1* gene that impairs the function of antithrombin. No plausible mechanistic path from aromatase inhibition to correcting this defect is evident. Lowering estrogen might marginally reduce estrogen-driven thrombotic risk, but this is speculative. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -125,6 +125,19 @@ The prediction rests only on a TxGNN model (deep learning) score of 0.9983. Ther
 - Mechanism-of-action data for exemestane
 - Approved indication text, dosage forms and manufacturers for the three Canadian licences
 - Preclinical or mechanistic studies linking aromatase inhibition to antithrombin function, or a re-ranking of predictions toward indications with direct evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

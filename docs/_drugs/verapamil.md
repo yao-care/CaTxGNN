@@ -60,7 +60,7 @@ This is a model-only prediction and should be treated with caution.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, verapamil is an L-type calcium channel blocker. Its efficacy in hypertension and in supraventricular and ventricular arrhythmias is established, and it slows conduction through the atrioventricular (AV) node.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for verapamil: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), label version 2026-10-30; accessed 2026-11-19.) Based on known information, verapamil is an L-type calcium channel blocker. Its efficacy in hypertension and in supraventricular and ventricular arrhythmias is established, and it slows conduction through the atrioventricular (AV) node.
 
 Mechanistically, however, the prediction is hard to justify. Bundle branch block is a conduction defect in the His-Purkinje system. Slowing conduction would not be expected to treat it and could make conduction disease worse. The high score (0.9962) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The disease term is also flagged as obsolete, so the prediction has doubtful clinical meaning.
 
@@ -130,6 +130,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - Clarification of the obsolete disease term and mapping to a current diagnosis.
 - Expert cardiology review of whether any clinical rationale exists.
 - If pursuing another prediction, a targeted literature search and clinical evidence specific to verapamil.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

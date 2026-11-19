@@ -56,7 +56,7 @@ but the support is limited: **2 related clinical trials** (both multi-drug regim
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, daunorubicin is an anthracycline that intercalates into DNA and inhibits topoisomerase II. This is a plausible mechanism against lymphoid malignancies, and its efficacy in acute leukaemia is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for daunorubicin: "Daunorubicin has antimitotic and cytotoxic activity through a number of proposed mechanisms of action. Daunorubicin forms complexes with DNA by intercalation between base pairs. It inhibits topoisomerase II activity by stabilizing the DNA-topoisomerase II complex, preventing the religation portion of the ligation-religation reaction that topoisomerase II catalyzes." ([DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f), label version 2025-05-21; accessed 2026-11-19.) Based on known pharmacology, daunorubicin is an anthracycline that intercalates into DNA and inhibits topoisomerase II. This is a plausible mechanism against lymphoid malignancies, and its efficacy in acute leukaemia is well established.
 
 Leukaemia and lymphoma are both haematological cancers, and anthracyclines are widely used across them. Two caveats weaken the prediction, however. First, the supporting trials are multi-drug regimens in non-Hodgkin lymphoma, so daunorubicin's own contribution cannot be isolated. Second, the anthracycline in the standard Hodgkin regimen (ABVD) is doxorubicin, not daunorubicin.
 
@@ -125,6 +125,19 @@ The TxGNN score is very high, but the supporting evidence is indirect. The two t
 - Mechanism of action data to support the mechanistic link
 - Comparative evidence of daunorubicin versus doxorubicin in Hodgkin lymphoma regimens
 - A cardiac and haematological safety monitoring plan, given the cumulative anthracycline exposure typical of Hodgkin regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: daunorubicin hydrochloride prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff6b9bd4-8a9f-400f-a0b9-70e25fa8a28f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **disease of orbital region**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the compiled data. Nystatin belongs to the polyene antifungal class. Polyenes bind ergosterol in fungal cell membranes, which disrupts the membrane and kills the fungus.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nystatin: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), label version 2026-02-06; accessed 2026-11-19.) Nystatin belongs to the polyene antifungal class. Polyenes bind ergosterol in fungal cell membranes, which disrupts the membrane and kills the fungus.
 
 No plausible mechanistic link between this antifungal action and orbital disease was identified. Orbital disease covers many non-fungal conditions, such as inflammatory, vascular and neoplastic problems. Nystatin has no recognised effect on these. The high score (0.9990) is a model output only and is not backed by any study of nystatin in the orbit.
 
@@ -101,6 +101,18 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Published or registered studies that directly examine nystatin in orbital disease
 - Package insert warnings and contraindications for the Canadian products
 - Severity classification of the listed drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

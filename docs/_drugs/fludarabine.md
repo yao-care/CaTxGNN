@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **plasma cell myeloma**, with *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, fludarabine is a purine nucleoside analog that inhibits DNA synthesis and induces apoptosis in lymphoid cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fludarabine: "Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase." ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), label version 2026-09-20; accessed 2026-11-19.) Based on known pharmacology, fludarabine is a purine nucleoside analog that inhibits DNA synthesis and induces apoptosis in lymphoid cells.
 
 In myeloma, it is used mainly in two ways:
 - **Lymphodepletion** (usually with cyclophosphamide) before BCMA-directed CAR-T therapy.
@@ -158,6 +158,19 @@ Fludarabine is already an established component of lymphodepletion for BCMA CAR-
 - **Myelodysplastic syndrome** (score 0.9975, L1, Proceed with Guardrails): supported by randomized evidence for treosulfan vs busulfan, each combined with fludarabine, in older patients with AML/MDS (PMID 31606445, 35617104).
 - **Unclassified myelodysplastic syndrome** (L3, research question): a single non-randomized phase II study (PMID 21659356).
 - **Hyperthyroidism, diabetic nephropathy, and several rare genetic disorders**: no plausible mechanistic link and no supporting evidence. Hold, since these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

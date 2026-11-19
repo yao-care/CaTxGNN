@@ -60,7 +60,7 @@ The most evidence-backed signal among the top 10 predictions is for **Cystic Neo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, niraparib is a PARP1/2 inhibitor. It acts through synthetic lethality in tumours with homologous recombination deficiency (HRD), and its efficacy in ovarian and peritoneal cancers is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for niraparib: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), label version 2026-07-28; accessed 2026-11-19.) Based on general knowledge, niraparib is a PARP1/2 inhibitor. It acts through synthetic lethality in tumours with homologous recombination deficiency (HRD), and its efficacy in ovarian and peritoneal cancers is established.
 
 For epiglottis neoplasm, nothing in the compiled data supports this mechanism. The score of 0.9999 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials, publications or similarity analysis with the original indications back it up. The prediction should therefore be treated as a hypothesis, not as evidence of benefit.
 
@@ -159,11 +159,12 @@ The top-ranked prediction, epiglottis neoplasm, rests on a TxGNN model (deep lea
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

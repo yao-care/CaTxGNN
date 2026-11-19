@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **insomnia**, but there are **n
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Chlordiazepoxide is a benzodiazepine, a class that enhances GABA-A receptor signalling and produces sedative-hypnotic effects. This is a plausible mechanism for insomnia.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlordiazepoxide: "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937), label version 2026-11-05; accessed 2026-11-19.) Chlordiazepoxide is a benzodiazepine, a class that enhances GABA-A receptor signalling and produces sedative-hypnotic effects. This is a plausible mechanism for insomnia.
 
 Anxiety and insomnia commonly occur together, and benzodiazepine hypnotics are an established class for sleep problems. However, the evidence here is indirect: class-level reviews and anxiety-focused studies. No chlordiazepoxide-specific insomnia trial was found. Its long half-life and active metabolites, together with safety concerns in older adults (Beers-type potentially inappropriate medication), limit its suitability.
 
@@ -116,6 +116,19 @@ The high TxGNN score is supported only by indirect, class-level literature. Ther
 - Mechanism of action data
 - Direct evidence of chlordiazepoxide for insomnia (for example, a randomized trial or a systematic review against other benzodiazepine hypnotics)
 - A risk-benefit assessment for older adults and for long-term use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

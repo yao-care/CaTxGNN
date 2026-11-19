@@ -67,7 +67,7 @@ The one linked paper studies an embolization procedure with a different agent, s
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ioversol is an iodinated contrast agent, a class used to enhance imaging rather than to treat disease. It has no known pharmacological anti-osteoarthritis activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ioversol: "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74), label version 2025-12-29; accessed 2026-11-19.) Ioversol is an iodinated contrast agent, a class used to enhance imaging rather than to treat disease. It has no known pharmacological anti-osteoarthritis activity.
 
 The only linked publication (PMID 38102013, the LipioJoint-1 trial) studied genicular artery embolization for knee osteoarthritis using an ethiodized oil emulsion (Lipiodol). That paper does not study ioversol as a treatment. Contrast agents such as ioversol may be used incidentally to guide angiography during such procedures, so the link is procedural and indirect.
 
@@ -130,11 +130,12 @@ The prediction rests on a model score alone. The only linked study used a differ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "marketed in Canada under the brand name OPTIRAY" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
 
 <!-- review:end log -->
 

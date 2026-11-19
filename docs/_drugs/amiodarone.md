@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **catecholaminergic polymorphic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, amiodarone blocks potassium, sodium and calcium channels and also has beta-adrenergic antagonism. These effects are plausibly relevant to ventricular arrhythmias triggered by adrenergic stimulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amiodarone: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), label version 2025-11-05; accessed 2026-11-19.) From general pharmacology, amiodarone blocks potassium, sodium and calcium channels and also has beta-adrenergic antagonism. These effects are plausibly relevant to ventricular arrhythmias triggered by adrenergic stimulation.
 
 However, the mechanistic fit is weak. The core defect in catecholaminergic polymorphic ventricular tachycardia is calcium leak linked to RYR2 or CASQ2 gene variants. The therapies supported by guidelines are beta-blockers, flecainide and cardiac sympathetic denervation. Amiodarone is generally considered ineffective or inferior in this condition. The high model score should therefore be read as a hypothesis, not as evidence of benefit.
 
@@ -114,6 +114,18 @@ No study tests amiodarone in catecholaminergic polymorphic ventricular tachycard
 - Mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - A safety plan covering QT prolongation, thyroid, lung and liver toxicity, and drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

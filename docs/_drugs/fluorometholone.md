@@ -60,7 +60,7 @@ Among the other predictions, the more biologically plausible ones are punctate e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, fluorometholone acts on the glucocorticoid receptor (NR3C1). It suppresses inflammatory mediators and immune activity, which is why it is used for inflammatory eye conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fluorometholone: "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and probably delay or slow healing. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] In clinical studies of documented steroid-responders, fluorometholone demonstrated a significantly longer average time to produce a rise in intraocular pressure than dexamethasone phosphate; however, in a small percentage of individuals, a significant rise in intraocular pressure occurred within one week." ([DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01), label version 2026-08-12; accessed 2026-11-19.) Based on known pharmacology, fluorometholone acts on the glucocorticoid receptor (NR3C1). It suppresses inflammatory mediators and immune activity, which is why it is used for inflammatory eye conditions.
 
 For postinfectious vasculitis, there is a theoretical link, because immune-mediated vasculitis involves inflammation that corticosteroids can dampen. However, fluorometholone is an ophthalmic product with limited systemic exposure, so it is unlikely to treat a systemic vascular disease. The high TxGNN score is a computational prediction only.
 
@@ -125,6 +125,19 @@ The prediction for postinfectious vasculitis has no supporting trials or literat
 - Dosage form and route information for the Canadian products
 - Any clinical or preclinical studies of fluorometholone or topical corticosteroids in the predicted indication
 - A review of whether the ophthalmic route could reach the target tissue, and a separate assessment of the eye-related predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

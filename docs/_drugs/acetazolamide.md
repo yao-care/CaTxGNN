@@ -56,7 +56,7 @@ There are **no clinical trials** and **no publications** that directly study thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for acetazolamide. Acetazolamide belongs to the carbonic anhydrase inhibitor class, which alters acid-base balance and ion handling in tissues.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetazolamide: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), label version 2026-11-10; accessed 2026-11-19.) Acetazolamide belongs to the carbonic anhydrase inhibitor class, which alters acid-base balance and ion handling in tissues.
 
 A possible link to exercise-induced malignant hyperthermia, a disorder of muscle physiology, is that these effects might influence muscle ion handling. This idea is speculative. Nothing in the data compiled for this report supports it, and the score of 0.9995 is a model output only.
 
@@ -98,6 +98,19 @@ The prediction has a very high model score but no trials, no literature and no i
 - Mechanism of action data for acetazolamide
 - Preclinical or mechanistic studies linking carbonic anhydrase inhibition to exercise-induced malignant hyperthermia
 - Warnings and contraindications from the Health Canada package insert, to complete the safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for acetazolamide" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

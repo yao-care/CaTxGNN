@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mitomycin is a DNA cross-linking cytotoxic agent. Its efficacy in pancreatic adenocarcinoma is the basis for this prediction, and mechanistically it may be applicable to related pancreatic tumours.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for mitomycin: "Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed." ([DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e), label version 2025-03-12; accessed 2026-11-19.) Based on known information, mitomycin is a DNA cross-linking cytotoxic agent. Its efficacy in pancreatic adenocarcinoma is the basis for this prediction, and mechanistically it may be applicable to related pancreatic tumours.
 
 Osteoclastic giant cell tumor of the pancreas is a rare variant of undifferentiated pancreatic carcinoma. Because it arises in the same organ and shares some biology with ductal adenocarcinoma, a shared sensitivity to cytotoxic agents is plausible. However, this link is untested: no trials or publications were found for this disease.
 
@@ -121,6 +121,19 @@ The prediction is supported only by the TxGNN model score (0.9986) and a general
 - Health Canada package insert warnings, contraindications, approved indications and dosage forms for the three DINs
 - A review of whether the predicted disease differs enough from pancreatic adenocarcinoma to justify a separate indication
 - A safety monitoring plan covering myelosuppression, kidney function and haemolytic-uremic syndrome
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

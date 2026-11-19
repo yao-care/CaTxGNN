@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **1 publication** linked to this p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cyclosporine is a calcineurin inhibitor that blocks NFAT-dependent T-cell activation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclosporine: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), label version 2026-09-10; accessed 2026-11-19.) From general pharmacology, cyclosporine is a calcineurin inhibitor that blocks NFAT-dependent T-cell activation.
 
 In chronic granulomatous disease (CGD), the immune system shows dysregulated, excessive inflammation, so suppressing T-cell activity could theoretically dampen this inflammation. This remains a hypothesis only.
 
@@ -103,6 +103,19 @@ The prediction has a high model score but no clinical trials and no study of cyc
 - Preclinical or case-level evidence of cyclosporine's effect in CGD
 - Review of the Health Canada package insert for warnings and contraindications
 - A safety assessment for a population with CGD that is prone to infection, given the immunosuppression and the interaction profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The best-supported candidate further down the list is **renal osteodystrophy** (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cholecalciferol is a pro-hormone: it is converted in the liver to 25-hydroxyvitamin D and in the kidney to the active form, calcitriol. Calcitriol supports calcium and phosphorus absorption and bone mineralisation.
+ChEMBL (EMBL-EBI) records the mechanism of action of cholecalciferol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; accessed 2026-11-19.) Cholecalciferol is a pro-hormone: it is converted in the liver to 25-hydroxyvitamin D and in the kidney to the active form, calcitriol. Calcitriol supports calcium and phosphorus absorption and bone mineralisation.
 
 For the top-ranked prediction, **no mechanistic link is established**. Acromesomelic dysplasias are rare, genetically determined skeletal disorders, typically involving growth plate signalling pathways such as NPR2 or GDF5. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Cholecalciferol is unlikely to correct a primary genetic defect in growth plate signalling. The very high score (0.9978) therefore should not be read as clinical support.
 
@@ -140,11 +140,12 @@ The top-ranked prediction, acromesomelic dysplasia (Campailla Martinelli type), 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Removed: "Twenty valid single-ingredient licences are recorded" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

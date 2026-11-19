@@ -62,7 +62,7 @@ The prediction is purely computational and has no clinical corroboration.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, estrone is a weak estrogen and a precursor/metabolite of estradiol. Estrogens can modestly influence circulating trace metals, for example through changes in binding proteins such as albumin and ceruloplasmin.
+ChEMBL (EMBL-EBI) records the mechanism of action of estrone as: Estrogen receptor alpha agonist ([ChEMBL CHEMBL1405 (estrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1405), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, estrone is a weak estrogen and a precursor/metabolite of estradiol. Estrogens can modestly influence circulating trace metals, for example through changes in binding proteins such as albumin and ceruloplasmin.
 
 However, there is no evidence that estrone raises, lowers or treats elevated plasma zinc. The high TxGNN score (0.9981) is a network-based prediction without clinical support. In addition, elevated plasma zinc is a laboratory finding rather than a treatable clinical condition, which further limits its therapeutic relevance.
 
@@ -123,6 +123,19 @@ The prediction rests on a model score alone (Evidence Level L5). There are no cl
 - Clear justification that the predicted indication is a clinically meaningful treatment target
 - Preclinical or clinical evidence linking estrone to the predicted indication
 - Route compatibility assessment (the Canadian product is a vaginal cream)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1405 (estrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1405) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

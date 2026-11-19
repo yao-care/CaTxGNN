@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus inf
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, entecavir is a guanosine nucleoside analogue. Inside cells it is converted to its triphosphate form, which competes with the natural nucleotide dGTP and blocks the HBV polymerase.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for entecavir: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), label version 2019-11-06; accessed 2026-11-19.) Based on established pharmacology, entecavir is a guanosine nucleoside analogue. Inside cells it is converted to its triphosphate form, which competes with the natural nucleotide dGTP and blocks the HBV polymerase.
 
 Hepatitis B and C are both chronic viral liver infections, so the similarity the model learned between them is understandable. The mechanisms differ, though. HCV replicates with its own RNA-dependent RNA polymerase (NS5B), and entecavir has no known direct activity against it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of an antiviral effect on HCV.
 
@@ -122,6 +122,19 @@ Please also refer to the package insert for full safety information.
 - Detailed mechanism of action data to support or refute a link to HCV.
 - If the co-infection use is of interest, a separate evaluation framed as HBV reactivation prophylaxis during HCV DAA therapy, not HCV treatment.
 - The package insert warnings and contraindications from Health Canada, which were missing from the data compiled for this report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

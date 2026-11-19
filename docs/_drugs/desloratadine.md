@@ -60,7 +60,7 @@ The data compiled for this report contain **no clinical trials** and **2 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for desloratadine are not available in the data compiled for this report. Desloratadine belongs to the H1 antihistamine class. Blocking H1 receptors reduces histamine-driven nasal symptoms such as rhinorrhea, sneezing and itching. This gives a plausible mechanistic link to disorders of the nasal cavity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desloratadine: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), label version 2025-10-23; accessed 2026-11-19.) Desloratadine belongs to the H1 antihistamine class. Blocking H1 receptors reduces histamine-driven nasal symptoms such as rhinorrhea, sneezing and itching. This gives a plausible mechanistic link to disorders of the nasal cavity.
 
 "Nasal cavity disease" is a very broad term, so the prediction is not specific. Many conditions under this label are not histamine-driven, and an antihistamine would be expected to help only the histamine-mediated ones.
 
@@ -131,11 +131,12 @@ The predicted label is broad and non-specific, and no clinical trials exist for 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data for desloratadine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
 
 <!-- review:end log -->
 

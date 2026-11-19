@@ -62,7 +62,7 @@ The prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory, immunosuppressive and antiproliferative effects. Its efficacy in inflammatory skin disease is established, and mechanistically it may be applicable to alopecia mucinosa.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinonide: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of Fluocinonide Cream USP, 0.1% in corticosteroid responsive dermatoses is unknown." ([DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f), label version 2023-01-11; accessed 2026-11-19.) Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory, immunosuppressive and antiproliferative effects. Its efficacy in inflammatory skin disease is established, and mechanistically it may be applicable to alopecia mucinosa.
 
 Alopecia mucinosa (follicular mucinosis) is an inflammatory disorder of the hair follicle. Topical corticosteroids are used empirically in clinical practice, so the link is biologically plausible. However, the only support in the data compiled for this report is the high TxGNN score (0.9961). No trials or publications were provided, so the prediction remains a hypothesis.
 
@@ -146,6 +146,19 @@ The prediction for alopecia mucinosa is supported only by a model score (L5), wi
 - Confirmation of whether fluocinonide was the intervention in NCT04207931
 - Dosage form and approved indication details for the Canadian licences
 - Assessment of route compatibility and of systemic absorption risk for scalp use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

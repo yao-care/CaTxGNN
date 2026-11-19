@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on the drug's known class, capmatinib is a selective inhibitor of the MET receptor tyrosine kinase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for capmatinib: "Capmatinib is a kinase inhibitor that targets MET, including the mutant variant produced by exon 14 skipping. MET exon 14 skipping results in a protein with a missing regulatory domain that reduces its negative regulation leading to increased downstream MET signaling." ([DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d), label version 2026-10-26; accessed 2026-11-19.) Based on the drug's known class, capmatinib is a selective inhibitor of the MET receptor tyrosine kinase.
 
 MET signaling has been implicated in synovial inflammation and angiogenesis in rheumatoid arthritis, so a biologically plausible link exists. However, it is unproven. The only linked publication is a general review of FDA-approved kinase inhibitors, and it contains no RA-specific data. The high TxGNN score reflects a computational prediction, not clinical or experimental confirmation.
 
@@ -129,6 +129,18 @@ The prediction rests on a model score alone. There are no clinical trials, and t
 ---
 
 ### Other Predictions (for reference)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tabrecta (capmatinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=455892c3-d144-4ba8-9ab4-79cabff9876d) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

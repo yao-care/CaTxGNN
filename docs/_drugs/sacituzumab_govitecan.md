@@ -58,7 +58,7 @@ Sacituzumab govitecan (marketed in Canada as TRODELVY) is a Trop-2-directed anti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general knowledge of the drug, sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate. It delivers SN-38, the active metabolite of irinotecan and a topoisomerase I inhibitor, to Trop-2-expressing cells. Its use is in oncology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sacituzumab govitecan: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), label version 2026-06-24; accessed 2026-11-19.) From general knowledge of the drug, sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate. It delivers SN-38, the active metabolite of irinotecan and a topoisomerase I inhibitor, to Trop-2-expressing cells. Its use is in oncology.
 
 **No credible mechanistic link to the predicted indication could be established.** Drug-induced osteoporosis is a bone-loss condition, typically caused by agents such as glucocorticoids. Nothing in the drug's mechanism suggests bone-protective or bone-forming effects. A cytotoxic ADC would be expected to carry bone-marrow and general toxicity risk rather than bone benefit. The high TxGNN score (0.9978; model rank 4900) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without supporting evidence, the prediction is biologically implausible.
 
@@ -123,6 +123,19 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 - Original approved indication and mechanism of action data from Health Canada and DrugBank
 - Any preclinical or mechanistic evidence linking Trop-2 or topoisomerase I inhibition to bone metabolism
 - A review of whether the other predicted indications offer a more plausible lead; none currently shows supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

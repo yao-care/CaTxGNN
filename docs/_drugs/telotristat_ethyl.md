@@ -58,7 +58,7 @@ Telotristat ethyl was originally used to treat diarrheal disease. The TxGNN mode
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, telotristat ethyl inhibits tryptophan hydroxylase (TPH), the enzyme that makes serotonin, and so lowers serotonin produced outside the brain. This is the likely basis for its effect on diarrhoea caused by excess serotonin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for telotristat ethyl: "Telotristat, the active metabolite of telotristat ethyl, is an inhibitor of tryptophan hydroxylase, which mediates the rate limiting step in serotonin biosynthesis. The in vitro inhibitory potency of telotristat towards tryptophan hydroxylase is 29 times higher than that of telotristat ethyl." ([DailyMed: Xermelo (telotristat ethyl) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4ac9d62-887c-4c8f-b04d-a5f31cec7c86), label version 2026-08-06; accessed 2026-11-19.) Based on general pharmacological knowledge, telotristat ethyl inhibits tryptophan hydroxylase (TPH), the enzyme that makes serotonin, and so lowers serotonin produced outside the brain. This is the likely basis for its effect on diarrhoea caused by excess serotonin.
 
 Cauda equina syndrome is a compressive neurological condition, in which the bundle of nerve roots at the base of the spinal cord is squeezed. No established link exists between lowering peripheral serotonin and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -117,6 +117,19 @@ The prediction rests only on a model score, with no trials, no publications and 
 - Confirmed mechanism of action data from DrugBank
 - A literature and trial search that shows a plausible biological link to cauda equina syndrome
 - Review of whether other predictions with better-grounded mechanisms (for example, those involving autonomic regulation) merit evaluation instead
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xermelo (telotristat ethyl) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4ac9d62-887c-4c8f-b04d-a5f31cec7c86) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

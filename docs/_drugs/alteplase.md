@@ -56,7 +56,7 @@ This prediction rests on the model score alone: there are **no clinical trials**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for alteplase are not available in the data compiled for this report. Alteplase is generally understood to act by converting plasminogen to plasmin, which breaks down fibrin in blood clots.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for alteplase: "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9), label version 2026-01-20; accessed 2026-11-19.) Alteplase is generally understood to act by converting plasminogen to plasmin, which breaks down fibrin in blood clots.
 
 Heparin cofactor 2 deficiency is an inherited thrombophilia, meaning a tendency to form abnormal clots. In principle, an acute clot in an affected patient could be dissolved by a fibrinolytic drug such as alteplase. That is the only reasoning offered for this prediction, and it comes from the model score rather than from any study.
 
@@ -112,11 +112,12 @@ The prediction has a high model score but no clinical trials or publications for
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data for alteplase are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
 
 <!-- review:end log -->
 

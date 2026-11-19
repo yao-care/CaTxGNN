@@ -58,7 +58,7 @@ Mexiletine is a class IB antiarrhythmic sodium channel blocker marketed in Canad
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, mexiletine is a class IB antiarrhythmic that blocks voltage-gated sodium channels. It is also used in practice for neuropathic pain and myotonia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mexiletine: "Mexiletine hydrochloride is a local anesthetic, antiarrhythmic agent, structurally similar to lidocaine, but orally active. In animal studies, mexiletine has been shown to be effective in the suppression of induced ventricular arrhythmias, including those induced by glycoside toxicity and coronary artery ligation." ([DailyMed: mexiletine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c09f68fa-759e-4772-9f6b-11005d8f83d5), label version 2026-03-31; accessed 2026-11-19.) Based on known pharmacology, mexiletine is a class IB antiarrhythmic that blocks voltage-gated sodium channels. It is also used in practice for neuropathic pain and myotonia.
 
 The link to headache is plausible because sodium channel blockade may reduce neuronal hyperexcitability and dampen trigeminal-autonomic and central sensitization pathways. Related drugs (lidocaine and mexiletine) have been reported in trigeminal autonomic cephalalgias and refractory chronic daily headache.
 
@@ -121,6 +121,19 @@ Please refer to the package insert for full warnings and contraindications.
 - Mechanism of action data and the Health Canada package insert (warnings, contraindications, approved indications)
 - A controlled study, or a systematic review of existing headache reports, defining the target subtype (for example SUNCT/SUNA or refractory chronic daily headache rather than migraine in general)
 - A cardiac safety monitoring plan (ECG, conduction disease screening) and a review of the interaction burden, including the major interaction with bupropion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mexiletine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c09f68fa-759e-4772-9f6b-11005d8f83d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

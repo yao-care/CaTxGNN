@@ -60,7 +60,7 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Piroxicam is an NSAID, and its efficacy in rheumatoid arthritis and osteoarthritis is established. It is understood to act by inhibiting COX-1 and COX-2, which reduces prostaglandin-driven inflammation and pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for piroxicam: "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4), label version 2026-09-29; accessed 2026-11-19.) Piroxicam is an NSAID, and its efficacy in rheumatoid arthritis and osteoarthritis is established. It is understood to act by inhibiting COX-1 and COX-2, which reduces prostaglandin-driven inflammation and pain.
 
 The predicted condition is a rare developmental syndrome affecting the eye and skeleton. No plausible link to COX inhibition was identified. The high score most likely reflects the model's network proximity to other skeletal and arthropathy terms, not a biological rationale. It should be treated as a computational signal only.
 
@@ -118,6 +118,19 @@ The prediction has no supporting trials or publications (Evidence Level L5). The
 - A mechanistic hypothesis connecting piroxicam to this syndrome's biology, plus any preclinical data.
 - Detailed mechanism of action data (MOA) and the Health Canada package insert warnings and contraindications.
 - Consideration of a better-supported alternative. Among the model's lower-ranked predictions, **juvenile idiopathic arthritis** (rank 10, score 0.9993) has an L3 evidence level. It includes a multicentre double-blind crossover trial of piroxicam versus naproxen in 47 children ([PMID 3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/), 1986), a randomized comparison in 26 patients ([PMID 2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/), 1987) and a paediatric pharmacokinetic study ([PMID 1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/), 1991). This evidence is old, symptomatic only and of limited quality, and current juvenile idiopathic arthritis care relies mainly on DMARDs and biologics. It could still be a more realistic research question than the top-ranked prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

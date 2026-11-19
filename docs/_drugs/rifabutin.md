@@ -58,7 +58,7 @@ Rifabutin is a rifamycin-class antimycobacterial agent. The TxGNN model predicts
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available in the data compiled for this report. Rifabutin belongs to the rifamycin class of antibacterials. Rifamycins as a class inhibit bacterial RNA polymerase, and rifabutin is also a CYP3A4 inducer and substrate.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifabutin: "Rifabutin inhibits DNA-dependent RNA polymerase in susceptible strains of Escherichia coli and Bacillus subtilis but not in mammalian cells. In resistant strains of E. coli, rifabutin, like rifampin, did not inhibit this enzyme." ([DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589), label version 2026-09-01; accessed 2026-11-19.) Rifabutin belongs to the rifamycin class of antibacterials. Rifamycins as a class inhibit bacterial RNA polymerase, and rifabutin is also a CYP3A4 inducer and substrate.
 
 Rifabutin is not an antiretroviral and has no known antiviral mechanism. Its link to HIV comes from its use in HIV-associated opportunistic infections, such as disseminated *Mycobacterium avium* complex (MAC) disease and tuberculosis co-infection. It is often considered in place of rifampicin because it has a weaker enzyme-inducing effect on many antiretrovirals. The trials and publications reflect this: they study mycobacterial disease or drug interactions in people with HIV, not HIV infection as the target of treatment.
 
@@ -136,6 +136,18 @@ No trial or publication studies rifabutin as a treatment for HIV infection itsel
 - Mechanism of action data
 - Package insert warnings and contraindications for Canada
 - A drug interaction and haematological monitoring plan for use with antiretroviral regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

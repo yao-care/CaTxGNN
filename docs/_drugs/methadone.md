@@ -56,7 +56,7 @@ Support is limited: **no registered clinical trials** and a single small, dated 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on the known pharmacology, methadone is a mu-opioid receptor agonist with NMDA receptor antagonist activity. Opioid modulation of dopaminergic and striatal circuits is a plausible route to tic suppression.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methadone: "Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe." ([DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05), label version 2026-08-04; accessed 2026-11-19.) Based on the known pharmacology, methadone is a mu-opioid receptor agonist with NMDA receptor antagonist activity. Opioid modulation of dopaminergic and striatal circuits is a plausible route to tic suppression.
 
 A 1992 report (PMID 1728167) describes methadone treatment of Tourette's disorder. A 2007 preclinical paper (PMID 17102981) links atypical opiates to 5-HT2A/C receptor-mediated behaviours relevant to obsessive-compulsive disorder and Tourette syndrome, and notes that opiate drugs have been reported as effective in treatment-refractory cases.
 
@@ -107,6 +107,18 @@ The only direct support for Tourette syndrome is a single small 1992 clinical re
 - Package insert warnings and contraindications from Health Canada
 - A risk–benefit assessment addressing dependence, QT prolongation and respiratory risks, particularly in younger patients
 - A well-designed controlled study before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

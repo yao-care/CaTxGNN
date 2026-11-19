@@ -56,7 +56,7 @@ This looks like a model-based association rather than a true therapeutic signal.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, insulin human is a recombinant replacement hormone whose efficacy in diabetes is well established. It lowers blood glucose by replacing deficient insulin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin human: "Regulation of glucose metabolism is the primary activity of insulins, including HUMULIN R U-500. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c), label version 2026-07-01; accessed 2026-11-19.) Based on known information, insulin human is a recombinant replacement hormone whose efficacy in diabetes is well established. It lowers blood glucose by replacing deficient insulin.
 
 Autoimmune oophoritis often occurs alongside autoimmune polyglandular syndromes, which include type 1 diabetes. The model score most likely reflects this shared autoimmune background. Insulin treats the diabetic component, but it has no known effect on the ovarian autoimmune process itself. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -107,6 +107,19 @@ The prediction rests on a model score alone (L5), with no clinical trials or lit
 - Indication text and dosage forms for the two Canadian authorizations
 - Targeted literature and trial searches on insulin in autoimmune oophoritis, to rule out a comorbidity artifact
 - If any lead is pursued, pancreatic agenesis is the only prediction where insulin has a clear role. It is best treated as an extension of the existing indication, not new repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Humulin R U-500 Kwikpen (insulin human) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60e8dd0-1d48-4dc9-87fd-e14675255e8c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

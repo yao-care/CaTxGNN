@@ -73,7 +73,7 @@ Other predictions and their evidence levels:
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, lactulose is a non-absorbable disaccharide that acts in the gut as an osmotic laxative. It acidifies the colon and traps ammonia, which is why it works in hepatic encephalopathy and constipation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for lactulose: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), label version 2024-12-18; accessed 2026-11-19.) Based on known information, lactulose is a non-absorbable disaccharide that acts in the gut as an osmotic laxative. It acidifies the colon and traps ammonia, which is why it works in hepatic encephalopathy and constipation.
 
 In obstructive jaundice, bile salts are absent from the gut. This promotes bacterial overgrowth, a leaky intestinal barrier and endotoxaemia, which in turn contribute to kidney dysfunction and infections after surgery. Lactulose has been reported to reduce gut endotoxin absorption and to help restore barrier function. That gives a plausible gut-mediated link to its existing liver and bowel uses.
 
@@ -173,6 +173,19 @@ Several of these are QT-prolonging drugs or drugs affecting electrolytes. Lactul
 - A check of whether more recent studies (the existing evidence is mostly from 1986–2005) support lactulose in current perioperative care for obstructive jaundice
 - Review of the diabetes-related and galactosemia contraindication signals before any use in affected patients
 - No further work is warranted on acute urate nephropathy, nephrolithiasis or exercise-induced malignant hyperthermia without a supporting mechanistic rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

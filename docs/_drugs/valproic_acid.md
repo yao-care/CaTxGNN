@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this report. Based on general knowledge, valproic acid is a broad-spectrum antiseizure drug with proven efficacy in epilepsy. It is thought to act by enhancing GABA-mediated inhibition and modulating ion channels. It is also known to inhibit histone deacetylases (HDACs), which has prompted interest in possible antineoplastic effects. This has mainly been discussed in glioma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for valproic acid: "Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)." ([DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f), label version 2025-05-23; accessed 2026-11-19.) Based on general knowledge, valproic acid is a broad-spectrum antiseizure drug with proven efficacy in epilepsy. It is thought to act by enhancing GABA-mediated inhibition and modulating ion channels. It is also known to inhibit histone deacetylases (HDACs), which has prompted interest in possible antineoplastic effects. This has mainly been discussed in glioma.
 
 The link to a trigeminal nerve neoplasm is speculative. The only retrieved paper concerns Sturge-Weber syndrome, a neurocutaneous vascular disorder, not a tumour of the trigeminal nerve. The HDAC-inhibition argument has not been demonstrated for trigeminal tumours. In practice, any benefit would most plausibly be limited to controlling seizures that accompany a brain or nerve tumour, not to treating the tumour itself. The very high model score is therefore not supported by clinical data.
 
@@ -120,6 +120,19 @@ The prediction rests on model output alone. There are no registered trials, and 
 - Health Canada package insert warnings and contraindications, which are required for safety screening
 
 **Note on other predictions for this drug:** The data compiled for this report also includes other predicted indications that are far better supported. The strongest is **visual epilepsy**, with evidence level L1 and a "Proceed with Guardrails" recommendation. It rests on the childhood absence epilepsy RCT and on guideline-level reviews, and is closer to an extension of the existing indication than to true repurposing. If a repurposing candidate is needed for this drug, that indication is a better starting point than trigeminal nerve neoplasm.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

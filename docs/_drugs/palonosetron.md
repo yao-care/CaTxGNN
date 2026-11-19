@@ -54,7 +54,7 @@ Palonosetron is a 5-HT3 receptor antagonist (an antiemetic) with marketed produc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, palonosetron is a 5-HT3 receptor antagonist. Serotonin signalling is implicated in migraine, so a theoretical link exists, and the high TxGNN score reflects proximity to migraine in the knowledge network.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for palonosetron: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), label version 2025-04-29; accessed 2026-11-19.) Based on general pharmacology, palonosetron is a 5-HT3 receptor antagonist. Serotonin signalling is implicated in migraine, so a theoretical link exists, and the high TxGNN score reflects proximity to migraine in the knowledge network.
 
 This reasoning has important limits. The score reflects network proximity, not clinical proof. The only clinical literature reports palonosetron-induced migraine-type headache. Headache is a recognised adverse effect of the 5-HT3 antagonist class. Taken together, the available evidence suggests a possible adverse effect rather than a treatment benefit.
 
@@ -108,6 +108,19 @@ The high TxGNN score is not backed by any clinical trial. The only clinical repo
 - Preclinical or clinical evidence that 5-HT3 antagonism relieves or prevents migraine, and a review of the safety signal for headache
 - A QT and drug-interaction risk assessment, especially with triptans and other QT-prolonging drugs
 - Route and dosage form compatibility review for a migraine use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

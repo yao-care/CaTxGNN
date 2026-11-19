@@ -60,7 +60,7 @@ The evidence for this specific prediction is weak, so this report also notes the
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tamoxifen is an estrogen receptor antagonist in breast tissue, and its efficacy in hormone-receptor-positive breast cancer is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tamoxifen: "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), label version 2021-11-29; accessed 2026-11-19.) Based on known information, tamoxifen is an estrogen receptor antagonist in breast tissue, and its efficacy in hormone-receptor-positive breast cancer is well established.
 
 Mammary Paget disease is usually accompanied by an underlying ductal carcinoma in situ (DCIS) or invasive breast carcinoma, many of which are hormone-receptor-driven. Estrogen receptor blockade is therefore plausibly relevant. However, this is largely an extension of the existing breast cancer indication rather than true repurposing. No dedicated tamoxifen trial exists for Paget disease.
 
@@ -155,6 +155,19 @@ The lead prediction rests on case reports, case series and recurrence studies, w
 - Hormone receptor (ER) status confirmation of Paget disease and its underlying carcinoma, ideally in a prospective or registry study
 - For DCIS, a restriction to ER-positive disease, consideration of low-dose regimens, and monitoring for endometrial cancer and thromboembolism
 - A CYP2D6 and drug interaction review before use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

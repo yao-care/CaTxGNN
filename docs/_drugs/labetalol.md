@@ -60,7 +60,7 @@ but there are currently **no clinical trials** and **no publications specific to
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, labetalol is a combined alpha-1 and non-selective beta-adrenergic blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for labetalol: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), label version 2025-12-19; accessed 2026-11-19.) Based on known information, labetalol is a combined alpha-1 and non-selective beta-adrenergic blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
 Malignant hypertensive renal disease is kidney damage caused by severely elevated blood pressure. Lowering blood pressure is therefore a plausible way to help. Labetalol is already used for severe hypertension and hypertensive emergencies.
 
@@ -137,11 +137,12 @@ Please also refer to the Health Canada package insert for official warnings and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eleven valid single-ingredient licences are listed in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
 
 <!-- review:end log -->
 

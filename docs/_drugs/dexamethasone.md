@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Dexamethasone is a corticosteroid, and glucocorticoids are generally used to dampen inflammatory and immune responses.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexamethasone: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), label version 2026-01-09; accessed 2026-11-19.) Dexamethasone is a corticosteroid, and glucocorticoids are generally used to dampen inflammatory and immune responses.
 
 The high model score (0.9999) appears to reflect a shared hair-loss (alopecia) phenotype and proximity to related hair disorders in the model's network. Any anti-inflammatory rationale for alopecia mucinosa is speculative, because no trials or literature were found that study this disease with dexamethasone. The prediction should therefore be regarded as a hypothesis only.
 
@@ -89,6 +89,18 @@ The prediction rests on model output alone. No clinical trial or publication dir
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for the relevant formulation
 - Assessment of the route of administration (topical, intralesional or systemic) suitable for the skin condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

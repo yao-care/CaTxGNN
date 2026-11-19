@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **HER2-positive breast carcinom
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, polatuzumab vedotin is an antibody-drug conjugate that targets CD79b and delivers the microtubule-disrupting payload monomethyl auristatin E (MMAE). CD79b is a B-cell receptor component found on mature B cells and B-cell malignancies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for polatuzumab vedotin: "Polatuzumab vedotin-piiq is a CD79b-directed antibody-drug conjugate with activity against dividing B cells. The small molecule, MMAE, is an anti-mitotic agent covalently attached to the antibody via a cleavable linker. The monoclonal antibody binds to CD79b, a B-cell specific surface protein, which is a component of the B-cell receptor." ([DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc), label version 2026-08-24; accessed 2026-11-19.) Based on general knowledge, polatuzumab vedotin is an antibody-drug conjugate that targets CD79b and delivers the microtubule-disrupting payload monomethyl auristatin E (MMAE). CD79b is a B-cell receptor component found on mature B cells and B-cell malignancies.
 
 The link to HER2-positive breast carcinoma is weak. CD79b is not a recognized target in this cancer, and no connection to HER2 signaling or to CD79b expression in breast tumors is established. The high score (0.9934) is a TxGNN model (deep learning) prediction. It may reflect the shared MMAE payload class, which other antibody-drug conjugates use, or general network proximity to microtubule-targeting agents used in breast cancer. A high score does not by itself indicate a mechanistic basis.
 
@@ -107,6 +107,19 @@ The prediction has no supporting clinical trials or publications (Evidence Level
 - Evidence of CD79b or other relevant target expression in HER2-positive breast tumors
 - Preclinical studies of polatuzumab vedotin in HER2-positive breast cancer models
 - Approved indication text for each DIN, to confirm the original indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polivy (polatuzumab vedotin) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=20a16ab2-f338-4abb-9dcd-254bd949a2bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

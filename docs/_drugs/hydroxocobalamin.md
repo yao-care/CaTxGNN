@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydroxocobalamin is a vitamin B12 form. Its efficacy in B12 deficiency and cyanide poisoning (by binding cyanide) is established. However, no established mechanistic link to esophageal varices has been identified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxocobalamin: "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), label version 2023-04-27; accessed 2026-11-19.) Based on known information, hydroxocobalamin is a vitamin B12 form. Its efficacy in B12 deficiency and cyanide poisoning (by binding cyanide) is established. However, no established mechanistic link to esophageal varices has been identified.
 
 One speculative hypothesis is that hydroxocobalamin scavenges nitric oxide (NO), which could theoretically reduce splanchnic vasodilation and portal hypertension, the underlying driver of varices. **No evidence in the data compiled for this report supports this idea.** The same NO-scavenging effect could also raise systemic blood pressure, which would need a separate safety evaluation.
 
@@ -117,6 +117,19 @@ The prediction rests on a TxGNN model (deep learning) score alone (Evidence Leve
 - Literature and trial searches targeting portal hypertension and variceal disease
 - Separate evaluation of blood pressure risk in patients with portal hypertension
 - Review of the severity of the "Unknown" and Moderate interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

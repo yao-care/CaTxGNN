@@ -55,7 +55,7 @@ with **7 clinical trials** and **20 publications** currently supporting this dir
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on the analysis compiled for this report, pemetrexed is a multitargeted antifolate. It inhibits thymidylate synthase, dihydrofolate reductase (DHFR) and glycinamide ribonucleotide formyltransferase (GARFT). This blocks folate-dependent nucleotide synthesis in rapidly dividing cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pemetrexed: "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), label version 2026-06-18; accessed 2026-11-19.) Based on the analysis compiled for this report, pemetrexed is a multitargeted antifolate. It inhibits thymidylate synthase, dihydrofolate reductase (DHFR) and glycinamide ribonucleotide formyltransferase (GARFT). This blocks folate-dependent nucleotide synthesis in rapidly dividing cells.
 
 Peritoneal and pleural mesothelioma share the same histology and much of the same biology. Pemetrexed plus platinum is the established standard for pleural mesothelioma, so extending it to the peritoneal site is mechanistically plausible. Peritoneal disease is rare, so few trials are specific to it. Current systemic therapy recommendations are largely extrapolated from pleural mesothelioma studies, and pemetrexed-platinum is among the recommended first-line options.
 
@@ -139,6 +139,19 @@ Pemetrexed-platinum is the established standard for pleural mesothelioma. It is 
 - **Established indications:** pleural mesothelioma, including its epithelioid, sarcomatoid and biphasic subtypes, is already labelled. Those results confirm the drug's activity rather than representing true repurposing.
 - **Research question:** pericardial mesothelioma has only case reports and one pooled review.
 - **Hold:** pleural adenomatoid tumour, well-differentiated papillary mesothelioma, lymphohistiocytoid mesothelioma and iminoglycinuria. These are benign or indolent conditions, or have no mechanistic or clinical support.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the source record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

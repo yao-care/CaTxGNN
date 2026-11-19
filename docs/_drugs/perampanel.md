@@ -60,10 +60,9 @@ Currently **0 clinical trials** and **20 publications** are linked to this predi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the structured drug record. The published literature describes perampanel as a selective, noncompetitive AMPA-receptor antagonist. It reduces glutamate-driven excitation at postsynaptic membranes, and it is the first approved antiepileptic drug to work this way. It is approved in Canada as adjunctive therapy for partial-onset seizures in adults.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perampanel: "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), label version 2022-12-28; accessed 2026-11-19.) The published literature describes perampanel as a selective, noncompetitive AMPA-receptor antagonist. It reduces glutamate-driven excitation at postsynaptic membranes, and it is the first approved antiepileptic drug to work this way. It is approved in Canada as adjunctive therapy for partial-onset seizures in adults.
 
 Visual (photosensitive or occipital) epilepsy is a seizure syndrome in which the visual cortex is hyperexcitable. This kind of glutamate-mediated excitability is the same one perampanel dampens in its approved indication. The prediction is therefore biologically plausible.
-
 
 ---
 
@@ -125,13 +124,25 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction score is very high (0.9979), but evidence stays at L4, which is not enough to move forward.
 
-
 **To proceed, the following is needed:**
 - Case series, registry data or a pilot trial of perampanel in visual or photosensitive epilepsy
 - Mechanism-of-action data in the drug record, and a defined mechanistic link to visual-cortex hyperexcitability
 - Health Canada product monograph warnings and contraindications, to support a safety screen
 - Approved indication text and dosage-form details for the Canadian licenses
 - A plan for monitoring psychiatric and behavioural adverse effects, and for managing the CNS-depressant interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the structured drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

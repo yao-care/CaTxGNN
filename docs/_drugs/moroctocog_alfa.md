@@ -56,7 +56,7 @@ The prediction rests on model output alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, moroctocog alfa is a recombinant factor VIII that replaces the missing clotting factor in hemophilia A, and its efficacy there is the basis for its marketed use.
+ChEMBL (EMBL-EBI) records the mechanism of action of moroctocog alfa as: Coagulation factor VIII exogenous protein ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, moroctocog alfa is a recombinant factor VIII that replaces the missing clotting factor in hemophilia A, and its efficacy there is the basis for its marketed use.
 
 The predicted new indication is a primary platelet function defect, in which platelets fail to release their granule contents properly. Factor VIII activity in these patients is normally intact, so factor VIII replacement does not address the underlying defect. The very high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -112,6 +112,19 @@ The prediction is supported only by a TxGNN model (deep learning) score, with no
 - Clarification of the ambiguous "flood factor deficiency" entry
 - Any clinical or preclinical evidence for factor VIII in the predicted conditions, with priority on acquired coagulation factor deficiency
 - Route-of-administration compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

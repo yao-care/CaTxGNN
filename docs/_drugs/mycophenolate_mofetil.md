@@ -54,7 +54,7 @@ Mycophenolate mofetil (MMF) is an immunosuppressant marketed in Canada under man
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for MMF were not available in the compiled data. The following rationale comes from the repurposing analysis. Its active form, mycophenolic acid, inhibits inosine monophosphate dehydrogenase (IMPDH), which depletes intracellular guanosine nucleotide pools. This has two effects relevant to HIV:
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolate mofetil: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), label version 2026-07-31; accessed 2026-11-19.) The following rationale comes from the repurposing analysis. Its active form, mycophenolic acid, inhibits inosine monophosphate dehydrogenase (IMPDH), which depletes intracellular guanosine nucleotide pools. This has two effects relevant to HIV:
 
 - It limits T-cell proliferation, and HIV disease progression is linked to chronic immune activation.
 - It can lower HIV replication and potentiate nucleoside analogues such as abacavir and didanosine by shifting dNTP pool ratios.
@@ -142,6 +142,19 @@ The mechanism is plausible and there is early clinical work, but the only direct
 - A safety plan for infection risk and myelosuppression in HIV-infected patients
 
 **Other predictions:** Multiple sclerosis (score 0.9954, L2) has the most developed supporting evidence after HIV, including small Phase 2 MMF trials and a Cochrane review, but efficacy remains uncertain. Hemosiderosis has only indirect review-level support (L4). The other predictions (a rare neurodevelopmental disorder, Paget disease of bone, simian and feline immunodeficiency, Heiner syndrome, African iron overload, neonatal hemochromatosis) rest on model scores alone (L5) and should be held.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for MMF were not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

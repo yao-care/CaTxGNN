@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **neurotic disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, vilazodone combines serotonin reuptake inhibition with 5-HT1A partial agonism. This profile is plausibly relevant to the anxiety and depressive symptoms seen in neurotic disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vilazodone: "The mechanism of action of vilazodone in the treatment of major depressive disorder is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through selective inhibition of serotonin reuptake. Vilazodone is also a partial agonist at serotonergic 5-HT 1A receptors; however, the net result of this action on serotonergic transmission and its role in vilazodone’s antidepressant effect are unknown." ([DailyMed: Viibryd (vilazodone hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c55ccfb-c4cf-11df-851a-0800200c9a66), label version 2023-10-01; accessed 2026-11-19.) Based on known pharmacology, vilazodone combines serotonin reuptake inhibition with 5-HT1A partial agonism. This profile is plausibly relevant to the anxiety and depressive symptoms seen in neurotic disorders.
 
 Neurotic disorder is a broad category that overlaps heavily with anxiety disorder, so the prediction is mechanistically understandable. For the same reason, it adds little as a new repurposing target. The high score (0.9975) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No supporting trials or literature are cited.
 
@@ -105,6 +105,19 @@ The prediction is supported only by the TxGNN score. No trial or publication dir
 - Mechanism of action data from DrugBank
 - A clearer definition of neurotic disorder and of how it differs from the recorded anxiety disorder indication
 - A targeted literature and trial search for vilazodone in anxiety-spectrum conditions, especially obsessive-compulsive disorder, which is the most mechanistically plausible secondary candidate
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viibryd (vilazodone hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c55ccfb-c4cf-11df-851a-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

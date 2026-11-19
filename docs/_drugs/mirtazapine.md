@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mirtazapine is an antidepressant that is generally described as acting through alpha-2 adrenergic, 5-HT2/5-HT3 and H1 receptor antagonism. Its efficacy in depressive disorders is established, but the data compiled for this report do not confirm this mechanism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mirtazapine: "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), label version 2025-08-06; accessed 2026-11-19.) Based on known information, mirtazapine is an antidepressant that is generally described as acting through alpha-2 adrenergic, 5-HT2/5-HT3 and H1 receptor antagonism. Its efficacy in depressive disorders is established, but the data compiled for this report do not confirm this mechanism.
 
 Ohdo syndrome (including KAT6B-related variants) is a rare genetic disorder of chromatin regulation, marked by intellectual disability and craniofacial features. No biological pathway connecting mirtazapine's receptor targets to the cause of this condition can be established from the available evidence. At most, any benefit would be symptomatic (for example sleep, appetite, mood or behaviour) and not disease-modifying.
 
@@ -129,6 +129,19 @@ The prediction is based only on a model score, with no clinical trials, no publi
 - Preclinical or clinical evidence, such as case reports or symptom-focused studies, in Ohdo syndrome
 - Review of the three predictions for independence, since ranks 1 and 2 likely refer to the same condition
 - Dosage form and approved indication details for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

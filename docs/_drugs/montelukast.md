@@ -60,7 +60,7 @@ The data compiled for this report include **17 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Montelukast is known as a cysteinyl leukotriene (CysLT1) receptor antagonist. Blocking this receptor may reduce airway inflammation, mucus production and bronchial hyperreactivity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for montelukast: "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), label version 2025-04-30; accessed 2026-11-19.) Montelukast is known as a cysteinyl leukotriene (CysLT1) receptor antagonist. Blocking this receptor may reduce airway inflammation, mucus production and bronchial hyperreactivity.
 
 Leukotrienes are released during viral airway infection, such as RSV bronchiolitis, and are also implicated in the fibro-inflammatory process of bronchiolitis obliterans after transplantation. Preclinical rat data support this second link.
 
@@ -136,6 +136,18 @@ Montelukast has a plausible leukotriene-based mechanism and is widely marketed i
 - Review of the results of the larger placebo-controlled trials (for example NCT00076973) and the Cochrane review for efficacy conclusions
 - Mechanism of action data and package insert warnings and contraindications
 - A focused controlled study in a well-defined bronchitis population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

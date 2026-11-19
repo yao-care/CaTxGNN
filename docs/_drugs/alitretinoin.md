@@ -60,7 +60,7 @@ This is a model-only prediction, and no mechanistic link has been identified.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on the pharmacology data compiled for this report, alitretinoin is a pan-agonist of retinoid receptors. It acts on RARα, RARβ and RARγ, as well as RXRα, RXRβ and RXRγ. It is also linked to vitamin K epoxide reductase (VKORC1) in the data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alitretinoin: "Alitretinoin (9-cis-retinoic acid) is a naturally occurring endogenous retinoid that binds to and activates all known intracellular retinoid receptor subtypes (RARα, RARβ, RARγ, RXRα, RXRβ and RXRγ). Once activated these receptors function as transcription factors that regulate the expression of genes that control the process of cellular differentiation and proliferation in both normal and neoplastic cells." ([DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555), label version 2025-11-25; accessed 2026-11-19.) Based on the pharmacology data compiled for this report, alitretinoin is a pan-agonist of retinoid receptors. It acts on RARα, RARβ and RARγ, as well as RXRα, RXRβ and RXRγ. It is also linked to vitamin K epoxide reductase (VKORC1) in the data.
 
 Amenorrhea is a hormonal or structural reproductive disorder, and alitretinoin has no established role in treating it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Retinoids are also strongly teratogenic, so use in women of reproductive age is a serious safety concern.
 
@@ -130,6 +130,19 @@ The amenorrhea prediction rests on a TxGNN model (deep learning) score alone (L5
 - Indication text, dosage forms and manufacturer details for the two HANZEMA DINs
 - Any preclinical or clinical evidence for amenorrhea; if none exists, consider deprioritising this candidate
 - If the team wants to pursue another candidate, a focused literature search on alitretinoin in acne, plus a pregnancy-prevention risk assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

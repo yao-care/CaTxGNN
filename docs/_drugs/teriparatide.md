@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **duodenal ulcer**, but **no clinical
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that teriparatide is a peptide ligand of the **PTH1 receptor** and also acts at the **PTH2 receptor**. It is a PTH(1-34) analog that stimulates osteoblast activity and bone formation, which underlies its established use in osteoporosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for teriparatide: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), label version 2026-08-31; accessed 2026-11-19.) Pharmacology records show that teriparatide is a peptide ligand of the **PTH1 receptor** and also acts at the **PTH2 receptor**. It is a PTH(1-34) analog that stimulates osteoblast activity and bone formation, which underlies its established use in osteoporosis.
 
 **Duodenal ulcer (top prediction).** No mechanistic link between a bone-anabolic PTH analog and duodenal ulcer healing is supported by the data. The high score is a model output only. The other top-ranked predictions have the same problem: esophageal malformation, duodenal obstruction, duodenogastric reflux, esophageal disease, an inborn error of ketone metabolism and a retinal disease. None has a plausible mechanistic rationale or supporting evidence. The two papers retrieved for "esophageal disease" cover osteoporosis drug adverse events and worsening calcinosis cutis under teriparatide. They look like incidental keyword matches rather than support. Worth syndrome is a high-bone-mass disorder, so anabolic bone stimulation would be mechanistically counterproductive. The disease identity should also be verified, because the name is ambiguous.
 
@@ -145,11 +145,12 @@ Official package insert warnings and contraindications were not available for th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All four licences are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

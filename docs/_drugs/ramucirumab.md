@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **uterine ligament adenocarcino
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ramucirumab is generally described as a VEGFR2 antagonist, a class of anti-angiogenic drugs. Its efficacy has been established in gastric, lung and liver cancers, and mechanistically it may be applicable to other adenocarcinomas that depend on new blood vessel growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramucirumab: "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), label version 2026-06-09; accessed 2026-11-19.) Ramucirumab is generally described as a VEGFR2 antagonist, a class of anti-angiogenic drugs. Its efficacy has been established in gastric, lung and liver cancers, and mechanistically it may be applicable to other adenocarcinomas that depend on new blood vessel growth.
 
 The high score most likely reflects similarities the TxGNN model (deep learning) learned between the new indication and already-approved adenocarcinoma indications (gastric, lung), not biological evidence or any disease-specific data. No drug-specific data exist for this rare tumor, so the mechanistic link remains a hypothesis.
 
@@ -120,6 +120,19 @@ The prediction has a very high model score (0.9995), but there are no clinical t
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada, and the approved indication text for the licence
 - Assessment of whether this rare tumour can realistically support a clinical study, or whether a more common gynaecological indication such as endocervical carcinoma should be prioritised
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but **no clinical trials or publications** were found in the data compiled for t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Avelumab is an antibody that blocks PD-L1, a checkpoint inhibitor, and its use in cutaneous neuroendocrine carcinoma is established. Mechanistically, it may be applicable to human herpesvirus 8-related tumors. This reasoning comes from general knowledge, not from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for avelumab: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118), label version 2026-09-22; accessed 2026-11-19.) Avelumab is an antibody that blocks PD-L1, a checkpoint inhibitor, and its use in cutaneous neuroendocrine carcinoma is established. Mechanistically, it may be applicable to human herpesvirus 8-related tumors. This reasoning comes from general knowledge, not from the supplied data.
 
 Tumors driven by herpesvirus 8 (for example, Kaposi sarcoma) can express PD-L1. Blocking PD-L1 could restore T-cell antitumour activity. This link is plausible but has not been verified against the record.
 
@@ -102,6 +102,19 @@ The TxGNN score is very high (0.9997), but no clinical trials or literature supp
 - Targeted literature and trial searches for HHV-8-related tumors, such as Kaposi sarcoma, including PD-L1 expression data
 - For the urothelial subsite predictions, a review of whether existing urothelial carcinoma trials included these subsites
 - Review of the three Major drug interactions (lenalidomide, pomalidomide, thalidomide) before any combination use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

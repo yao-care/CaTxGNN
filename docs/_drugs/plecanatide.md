@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled record. Based on known pharmacology, plecanatide is a peptide agonist of guanylate cyclase-C (GUCY2C). It acts locally on intestinal epithelium, raising cGMP, and is minimally absorbed into the bloodstream.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for plecanatide: "Plecanatide is a structural analog of human uroguanylin, and similarly to uroguanylin, plecanatide functions as a guanylate cyclase-C (GC-C) agonist. Both plecanatide and its active metabolite bind to GC-C and act locally on the luminal surface of the intestinal epithelium." ([DailyMed: Trulance Immediate Release (plecanatide) prescribing information, Salix Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe2895bf-71a6-493a-b0ca-e06b2dfefc82), label version 2024-04-04; accessed 2026-11-19.) Based on known pharmacology, plecanatide is a peptide agonist of guanylate cyclase-C (GUCY2C). It acts locally on intestinal epithelium, raising cGMP, and is minimally absorbed into the bloodstream.
 
 On review, the predicted link is weak. Hair follicle biology is not known to depend on GC-C signalling, and the drug's gut-restricted action makes a systemic effect on hair growth unlikely. The very high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or literature back it up.
 
@@ -110,6 +110,19 @@ The prediction is supported only by a TxGNN model (deep learning) score. There a
 - A credible biological rationale linking GC-C/cGMP signalling to hair follicle biology, supported by preclinical evidence
 - Any clinical or observational signal (such as case reports of altered hair growth) before further investment
 - Review of other candidate indications that fit the gastrointestinal mechanism better
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trulance Immediate Release (plecanatide) prescribing information, Salix Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe2895bf-71a6-493a-b0ca-e06b2dfefc82) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

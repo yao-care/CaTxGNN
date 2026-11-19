@@ -59,7 +59,7 @@ There are currently **no registered clinical trials** and **18 publications** on
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, frovatriptan is a second-generation triptan that acts as a 5-HT1B/1D receptor agonist. It is thought to work by constricting cranial blood vessels and inhibiting the release of trigeminal neuropeptides. It has a long elimination half-life (about 26 hours) and a relatively low rate of headache recurrence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for frovatriptan: "Frovatriptan binds with high affinity to 5-HT 1B/1D receptors. The therapeutic activity of frovatriptan succinate is thought to be due to the agonist effects at the 5-HT 1B/1D receptors on intracranial blood vessels (including the arterio-venous anastomoses) and sensory nerves of the trigeminal system which result in cranial vessel constriction and inhibition of pro-inflammatory neuropeptide release." ([DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd), label version 2026-06-27; accessed 2026-11-19.) Based on the published literature, frovatriptan is a second-generation triptan that acts as a 5-HT1B/1D receptor agonist. It is thought to work by constricting cranial blood vessels and inhibiting the release of trigeminal neuropeptides. It has a long elimination half-life (about 26 hours) and a relatively low rate of headache recurrence.
 
 Migraine with brainstem aura is a subtype of migraine with aura, so the pharmacology overlaps with frovatriptan's approved use. Several studies support frovatriptan in migraine with aura in general, including a pooled analysis and a subgroup analysis against zolmitriptan. However, no data specific to the brainstem aura subtype were found.
 
@@ -148,11 +148,12 @@ Frovatriptan is well established in migraine with or without aura, and the mecha
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All six are single-ingredient products and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd) |
 
 <!-- review:end log -->
 

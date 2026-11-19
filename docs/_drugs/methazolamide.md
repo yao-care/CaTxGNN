@@ -60,7 +60,7 @@ but currently there are **0 clinical trials** and **0 publications** specific to
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, methazolamide is a carbonic anhydrase inhibitor. It lowers intraocular pressure (IOP) by reducing aqueous humour secretion, and its efficacy in open-angle and angle-closure glaucoma is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for methazolamide: "Methazolamide is a potent inhibitor of carbonic anhydrase." ([DailyMed: methazolamide prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=879a3c78-24dd-41f9-8fce-5f3166b0e2f4), label version 2026-09-28; accessed 2026-11-19.) Based on known information, methazolamide is a carbonic anhydrase inhibitor. It lowers intraocular pressure (IOP) by reducing aqueous humour secretion, and its efficacy in open-angle and angle-closure glaucoma is established.
 
 Primary hereditary glaucoma (for example, forms related to MYOC or CYP1B1) shares the same final pathway of elevated IOP. Mechanistically, lowering aqueous humour production could therefore be applicable.
 
@@ -120,6 +120,19 @@ The mechanism is plausible, but the prediction is essentially an extension of th
 
 - **Congestive heart failure** (TxGNN score 0.9943, evidence level L4, research question only): there are no clinical trials. The supporting literature is historical diuretic reviews and preclinical studies, including a mouse model of diabetic cardiomyopathy and cardiomyocyte hypertrophy studies. Modern heart failure practice uses other diuretic classes, and the risks include metabolic acidosis and the large interaction burden.
 - **Acute pulmonary heart disease** (TxGNN score 0.9928, evidence level L5, Hold): this is a model-only prediction with no trials or literature, and nothing in the available data supports a rationale.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methazolamide prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=879a3c78-24dd-41f9-8fce-5f3166b0e2f4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

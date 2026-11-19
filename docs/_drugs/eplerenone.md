@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **14 publicat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eplerenone is a selective mineralocorticoid receptor (MR) antagonist. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension driven by hypoxia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eplerenone: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), label version 2025-06-23; accessed 2026-11-19.) Based on known information, eplerenone is a selective mineralocorticoid receptor (MR) antagonist. Its efficacy in hypertension is established, and mechanistically it may be applicable to pulmonary hypertension driven by hypoxia.
 
 Preclinical studies link chronic intermittent hypoxia to MR activation, renal fibrosis and atrial remodelling, and eplerenone attenuated these effects in rodent models. Laboratory work also suggests hypoxia raises aldosterone production in pulmonary artery endothelial cells and promotes pulmonary vascular fibrosis. In rat models of pulmonary arterial hypertension, MR antagonists, including eplerenone, improved pulmonary vascular remodelling. A small clinical study in patients with obstructive sleep apnoea and resistant hypertension also suggests eplerenone may reduce apnoea severity and arterial stiffness.
 
@@ -131,6 +131,19 @@ Evidence for pulmonary hypertension is indirect, consisting mainly of animal and
 - Mechanism of action data compiled in a structured form
 - Package insert warnings and contraindications from Health Canada, including approved indication text and dosage forms for each DIN
 - A safety plan covering hyperkalaemia, renal impairment, and the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

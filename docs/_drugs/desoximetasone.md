@@ -60,7 +60,7 @@ with **no registered clinical trials** and **1 publication** (a randomized, doub
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, desoximetasone is a topical corticosteroid. Its pharmacology record lists the glucocorticoid receptor (NR3C1) as its target. Drugs of this class have anti-inflammatory and immunosuppressive activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desoximetasone: "Corticosteroids play a role in cellular signaling, immune function, inflammation and protein regulation; however, the precise mechanism of action in psoriasis is unknown." ([DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c), label version 2025-07-02; accessed 2026-11-19.) Based on known information, desoximetasone is a topical corticosteroid. Its pharmacology record lists the glucocorticoid receptor (NR3C1) as its target. Drugs of this class have anti-inflammatory and immunosuppressive activity.
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which immune cells attack the hair follicle. Topical corticosteroids are an established treatment class for it, because they suppress the inflammation around the follicle. The drug's original indications (eczema, dermatitis, lupus erythematosus and others) are also inflammatory or immune-driven skin diseases. This makes the prediction mechanistically consistent. Note that this link rests on the general class mechanism, not on drug-specific mechanism data.
 
@@ -116,6 +116,19 @@ One randomized, double-blind, placebo-controlled trial of desoximetasone 0.25% c
 - Confirmation that the available strengths and formulations suit scalp or hair-bearing skin
 - Drug-specific mechanism of action data
 - A monitoring plan for local adverse effects such as skin atrophy, and for systemic absorption with prolonged use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Topicort (desoximetasone) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e417856a-b760-4626-bc34-8e4bc62c026c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

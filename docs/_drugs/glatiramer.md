@@ -54,7 +54,7 @@ Glatiramer is an immunomodulating drug marketed in Canada (as COPAXONE and relat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, glatiramer is an immunomodulator, a random amino acid copolymer that shifts T-cell responses toward Th2/regulatory phenotypes and competes with myelin antigens for MHC presentation. This is the basis of its use in multiple sclerosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for glatiramer: "The mechanism(s) by which glatiramer acetate exerts its effects in patients with MS are not fully understood. However, glatiramer acetate is thought to act by modifying immune processes that are believed to be responsible for the pathogenesis of MS." ([DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716), label version 2026-10-26; accessed 2026-11-19.) Based on general pharmacological knowledge, glatiramer is an immunomodulator, a random amino acid copolymer that shifts T-cell responses toward Th2/regulatory phenotypes and competes with myelin antigens for MHC presentation. This is the basis of its use in multiple sclerosis.
 
 For hemoglobinopathy, however, **no credible mechanistic link was identified**. Hemoglobinopathies are inherited disorders of globin chain synthesis or structure and are not primarily immune-mediated. The only linked paper discusses immune disorders after natalizumab discontinuation in a patient with MS who also had beta thalassemia; it does not address treating hemoglobinopathy. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it has no clinical support.
 
@@ -96,6 +96,19 @@ The prediction is model-only (L5). There are no registered trials, the single li
 - Approved indication text, dosage forms and route information for the Canadian licenses
 - Preclinical or mechanistic evidence that glatiramer has any effect in hemoglobinopathy
 - A review of the Major interaction with natalizumab before any use alongside it
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

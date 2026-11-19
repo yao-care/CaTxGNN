@@ -60,7 +60,7 @@ but **0 clinical trials** and **0 publications** currently support this predicti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Baricitinib is generally known as a JAK1/JAK2 inhibitor, and its efficacy in rheumatoid arthritis, an immune-mediated inflammatory disease, is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for baricitinib: "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), label version 2026-10-09; accessed 2026-11-19.) Baricitinib is generally known as a JAK1/JAK2 inhibitor, and its efficacy in rheumatoid arthritis, an immune-mediated inflammatory disease, is established.
 
 The predicted condition is a rare congenital malformation syndrome involving eye defects (coloboma and microphthalmia) and skeletal shortening (rhizomelic dysplasia). Nothing in the compiled data connects JAK-STAT inhibition to the biology of this condition. Because it is a developmental disorder, an anti-inflammatory mechanism seems biologically implausible without further evidence.
 
@@ -115,6 +115,19 @@ The prediction is supported only by a model score, with no clinical trials or li
 - Preclinical or case-level evidence in the predicted condition
 - Health Canada package insert warnings and contraindications, which are needed before any safety screening
 - Approved indication and dosage form details for the two OLUMIANT DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

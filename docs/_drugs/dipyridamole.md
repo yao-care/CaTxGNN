@@ -56,7 +56,7 @@ There are currently **no clinical trials** and **no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Dipyridamole is generally known to raise adenosine levels and to inhibit platelet aggregation, but these properties are not documented in the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dipyridamole: "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5), label version 2026-04-29; accessed 2026-11-19.) Dipyridamole is generally known to raise adenosine levels and to inhibit platelet aggregation, but these properties are not documented in the data compiled for this report.
 
 The predicted condition is a rare inherited disorder of the heart's sinus node (HCN4-related channelopathy). No mechanistic link has been established. Dipyridamole's adenosine-enhancing effects could in theory influence sinus node function, but increased adenosine activity may worsen slow heart rhythms. This is therefore a potential safety concern rather than a likely benefit. The high TxGNN score has no clinical or literature support behind it.
 
@@ -96,6 +96,18 @@ The prediction has a high model score but no supporting clinical trials or publi
 - Package insert warnings and contraindications from Health Canada
 - Preclinical or genetic-model evidence linking dipyridamole to HCN4-related sinus node dysfunction
 - A cardiac safety assessment, particularly for bradyarrhythmia
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

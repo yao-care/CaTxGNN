@@ -56,7 +56,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for carvedilol is not available in the data compiled for this report. Based on general pharmacology, carvedilol lowers blood pressure by blocking beta and alpha-1 adrenergic receptors. It also has antioxidant activity, which could in theory help protect the kidney from the injury caused by severely raised blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carvedilol: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), label version 2026-07-31; accessed 2026-11-19.) Based on general pharmacology, carvedilol lowers blood pressure by blocking beta and alpha-1 adrenergic receptors. It also has antioxidant activity, which could in theory help protect the kidney from the injury caused by severely raised blood pressure.
 
 The link to malignant hypertensive renal disease is therefore plausible only at a theoretical level. Malignant hypertension with kidney involvement is an acute emergency that is usually managed with intravenously administered agents. An oral beta-blocker is not a typical first-line choice. No study in the compiled data examines carvedilol in this condition, and the score of 0.9955 is a model output, not clinical evidence.
 
@@ -109,6 +109,19 @@ The prediction has a high model score but no supporting clinical trial or public
 - Package insert warnings and contraindications from Health Canada
 - A literature review and any clinical or preclinical studies of carvedilol in hypertensive kidney injury
 - Clinical input on whether an oral beta-blocker has a role in this acute setting
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for carvedilol is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

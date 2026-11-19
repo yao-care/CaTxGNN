@@ -60,7 +60,7 @@ The mechanistic reasoning argues against the prediction, so it is best treated a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, febuxostat is a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricemia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for febuxostat: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), label version 2025-12-24; accessed 2026-11-19.) Based on known pharmacology, febuxostat is a non-purine selective xanthine oxidase inhibitor that lowers serum uric acid, and its efficacy in hyperuricemia is established.
 
 Renal hypouricemia is the opposite problem. Serum uric acid is already low because the kidney reabsorbs urate poorly (for example, loss of function in URAT1/SLC22A12 or GLUT9/SLC2A9). Lowering urate further has no mechanistic therapeutic rationale and could be harmful. The high TxGNN score most likely reflects a network association with uric acid metabolism rather than a true treatment signal, which may be a directionality error.
 
@@ -141,6 +141,19 @@ The predicted indication, renal hypouricemia, is mechanistically contradictory b
 - Official Health Canada package insert warnings and contraindications
 - Mechanism of action data
 - If a related direction is pursued, consider the HPRT-deficiency spectrum (partial HPRT deficiency, Lesch-Nyhan syndrome) as a better-supported research question. Both rest on case reports only, and xanthine stone risk and pediatric safety would need evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

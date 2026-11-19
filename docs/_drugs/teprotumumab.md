@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, teprotumumab is an antibody that inhibits the insulin-like growth factor 1 receptor (IGF-1R), and it is established for thyroid eye disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for teprotumumab: "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), label version 2026-09-28; accessed 2026-11-19.) Based on known information, teprotumumab is an antibody that inhibits the insulin-like growth factor 1 receptor (IGF-1R), and it is established for thyroid eye disease.
 
 Monosomy X (Turner syndrome) is associated with short stature and altered growth-axis signalling, so a loose connection to the IGF-1 pathway is conceivable. However, IGF-1R blockade would be expected to worsen rather than improve growth deficits. Standard care for Turner syndrome is growth hormone and estrogen replacement, which works in the opposite direction.
 
@@ -118,6 +118,19 @@ The prediction rests on model output alone, with no clinical trials or publicati
 - Detailed mechanism of action data (for example from DrugBank)
 - Preclinical or mechanistic studies showing a plausible benefit of IGF-1R blockade in monosomy X
 - Specific approved indication text for the Canadian product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

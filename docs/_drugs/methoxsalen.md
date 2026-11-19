@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** directly suppor
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, methoxsalen is a psoralen photosensitizer. When activated by UVA light (PUVA), or in extracorporeal photopheresis, it is understood to form DNA crosslinks and induce apoptosis in malignant T-cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of methoxsalen as: DNA inhibitor ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, methoxsalen is a psoralen photosensitizer. When activated by UVA light (PUVA), or in extracorporeal photopheresis, it is understood to form DNA crosslinks and induce apoptosis in malignant T-cells.
 
 Localized pagetoid reticulosis is a variant of mycosis fungoides, which is itself a primary cutaneous T-cell lymphoma. The predicted indication is therefore biologically very close to the drug's existing use, and this is largely an extension of the existing label rather than a truly new repurposing.
 
@@ -130,6 +130,19 @@ The predicted indication is mechanistically close to the approved use, but no tr
 - Approved indication text and dosage form for UVADEX, to confirm whether the existing label already covers this use
 - Route and device compatibility assessment (PUVA versus extracorporeal photopheresis)
 - A review of carcinogenic risk (skin cancer) and the photosensitizing drug interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

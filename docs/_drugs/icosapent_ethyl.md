@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hemoglobinopathy**, but **no 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, icosapent ethyl is an EPA ethyl ester, its efficacy in lowering triglycerides in hypertriglyceridemia is established, and mechanistically it may be applicable to hemoglobinopathy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for icosapent ethyl: "Studies suggest that EPA reduces hepatic very low-density lipoprotein triglycerides (VLDL-TG) synthesis and/or secretion and enhances TG clearance from circulating VLDL particles. Potential mechanisms of action include increased β-oxidation; inhibition of acyl-CoA:1,2-diacylglycerol acyltransferase (DGAT); decreased lipogenesis in the liver; and increased plasma lipoprotein lipase activity." ([DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924), label version 2026-08-10; accessed 2026-11-19.) Based on known information, icosapent ethyl is an EPA ethyl ester, its efficacy in lowering triglycerides in hypertriglyceridemia is established, and mechanistically it may be applicable to hemoglobinopathy.
 
 A plausible but unverified rationale is that EPA has anti-inflammatory, antioxidant and membrane-stabilizing effects, and may reduce triglyceride-rich lipoprotein levels and endothelial activation. These effects could theoretically be relevant to the vaso-occlusive and inflammatory processes seen in hemoglobinopathies such as sickle cell disease.
 
@@ -91,6 +91,19 @@ The prediction is supported only by a model score (Evidence Level L5). No clinic
 - Health Canada package insert warnings and contraindications, to allow a safety screening
 - A systematic search for clinical and preclinical evidence of EPA in hemoglobinopathies (e.g., sickle cell disease, thalassaemia)
 - Clarification of which hemoglobinopathy subtype is the target, and the dosage form and route needed for that population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Icosapent (icosapent ethyl) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cc28828d-beab-45cc-a3b6-151c5fee3924) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

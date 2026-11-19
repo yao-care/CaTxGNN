@@ -61,7 +61,7 @@ A second prediction, **primary release disorder of platelets** (score 0.9925), w
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, reslizumab is an anti-IL-5 monoclonal antibody that reduces eosinophils by blocking IL-5 signalling. This is consistent with its use in eosinophil-driven lung disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for reslizumab: "Reslizumab is an interleukin-5 antagonist (IgG4, kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Reslizumab binds to IL-5 with a dissociation constant of 81 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil surface." ([DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33), label version 2020-02-29; accessed 2026-11-19.) Based on general knowledge, reslizumab is an anti-IL-5 monoclonal antibody that reduces eosinophils by blocking IL-5 signalling. This is consistent with its use in eosinophil-driven lung disease.
 
 For the predicted new indication, the mechanistic link is weak. Immune-mediated thrombocytopenia (such as ITP) is driven mainly by autoantibody-mediated platelet destruction and impaired platelet production. No established connection to IL-5 or eosinophils has been identified. A speculative link might exist through Th2/eosinophil-associated immune dysregulation, but no data in this report supports it.
 
@@ -114,6 +114,19 @@ Both predictions rest only on model scores, with no clinical trials and no suppo
 - Literature or preclinical evidence linking IL-5/eosinophil biology to immune thrombocytopenia
 - Approved indication text and dosage form for the Canadian license (DIN 02456419)
 - Route-of-administration compatibility assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cinqair (reslizumab) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=053b9158-2a5b-48b9-bf47-5fa78a35ec33) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

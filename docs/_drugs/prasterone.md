@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Prasterone is the pharmaceutical form of dehydroepiandrosterone (DHEA), a steroid hormone precursor. It is approved in the US for moderate to severe dyspareunia due to vulvar and vaginal atrophy. Pharmacology data also list the glycine receptor as one of its targets.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for prasterone: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), label version 2026-07-17; accessed 2026-11-19.) Prasterone is the pharmaceutical form of dehydroepiandrosterone (DHEA), a steroid hormone precursor. It is approved in the US for moderate to severe dyspareunia due to vulvar and vaginal atrophy. Pharmacology data also list the glycine receptor as one of its targets.
 
 Heparin cofactor II deficiency is a rare inherited disorder of a serpin (SERPIND1) involved in blood clotting regulation. No documented mechanistic connection exists between prasterone and this protein. The high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -98,6 +98,19 @@ The prediction is supported only by the model score. There are no clinical trial
 - Any preclinical or clinical evidence linking DHEA to SERPIND1/heparin cofactor II function
 - Review of thrombotic risk with hormonal therapy in patients with inherited coagulation disorders
 - Dosage form, route and approved indication details for the Canadian product, to assess route compatibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

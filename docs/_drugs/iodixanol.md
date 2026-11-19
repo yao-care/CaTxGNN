@@ -54,7 +54,7 @@ Iodixanol is an iodinated, iso-osmolar radiographic contrast agent, marketed in 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Iodixanol is known as an iodinated, iso-osmolar contrast agent. It has no known disease-modifying pharmacology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iodixanol: "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), label version 2026-10-16; accessed 2026-11-19.) Iodixanol is known as an iodinated, iso-osmolar contrast agent. It has no known disease-modifying pharmacology.
 
 The literature links iodixanol to osteoarthritis only as an imaging and research tool. The studies cover contrast-enhanced CT of cartilage, diffusion of solutes and nanoparticles across cartilage and the bone–cartilage interface, and compatibility of iodine contrast agents with platelet-rich plasma. None shows a therapeutic effect.
 
@@ -103,6 +103,19 @@ The prediction rests on model output alone. The available studies use iodixanol 
 - Mechanism of action data
 - Health Canada package insert warnings, contraindications and approved indication text
 - A review of route and formulation compatibility, since the available products are injectable contrast preparations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ No clinical trials are registered, and the retrieved publications are case repor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. In general, ampicillin is a beta-lactam antibiotic with activity against organisms such as *Haemophilus influenzae* and streptococci.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ampicillin: "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1), label version 2026-07-27; accessed 2026-11-19.) In general, ampicillin is a beta-lactam antibiotic with activity against organisms such as *Haemophilus influenzae* and streptococci.
 
 These organisms can cause bacterial infections of the larynx and epiglottis, so an antibacterial link is plausible. However, the link is limited. Most laryngitis and croup cases are viral and do not respond to ampicillin. The retrieved literature addresses neighbouring conditions (acute epiglottitis, laryngeal abscess, deep neck infection) rather than laryngitis treated with ampicillin. The high model score should therefore be read as a hypothesis, not as proof of benefit.
 
@@ -110,6 +110,18 @@ The evidence level is L5. No study tests ampicillin in laryngitis, and most lary
 - Mechanism of action data
 - Health Canada package insert warnings and contraindications
 - Indication text for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

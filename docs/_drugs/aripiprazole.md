@@ -54,7 +54,7 @@ Aripiprazole is an atypical antipsychotic that acts as a dopamine D2/D3 and sero
 
 ## Why is This Prediction Reasonable?
 
-Aripiprazole is a partial agonist at dopamine D2/D3 and serotonin 5-HT1A receptors and an antagonist at 5-HT2A receptors. Rather than fully blocking or fully stimulating these receptors, it adjusts dopaminergic and serotonergic activity up or down depending on the existing tone. Formal mechanism-of-action data were not available in the data compiled for this report, so this description reflects the established pharmacology summarized in the repurposing rationale.
+Aripiprazole is a partial agonist at dopamine D2/D3 and serotonin 5-HT1A receptors and an antagonist at 5-HT2A receptors. Rather than fully blocking or fully stimulating these receptors, it adjusts dopaminergic and serotonergic activity up or down depending on the existing tone. According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-19.) This description reflects the established pharmacology summarized in the repurposing rationale.
 
 Major depressive disorder often responds only partially to serotonergic antidepressants. Adding a drug that modulates dopamine and serotonin signalling in mood circuits is a plausible way to improve response. This is the logic behind the adjunctive-treatment trials listed below, and the reviews and network meta-analyses in the literature table discuss atypical antipsychotics, including aripiprazole, as augmentation options in treatment-resistant depression.
 
@@ -128,6 +128,19 @@ Several completed, large, double-blind, placebo-controlled Phase 3 trials direct
 - Formal mechanism-of-action data
 - Review of the Major-level interaction with bupropion and of the metabolic and cardiovascular contraindication signals
 - Confirmation of the approved indications on the Canadian licences, since no indication text is recorded
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Formal mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

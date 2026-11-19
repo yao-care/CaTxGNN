@@ -56,7 +56,7 @@ The prediction rests on model output alone and has a weak mechanistic basis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cerliponase alfa is a recombinant form of the lysosomal enzyme TPP1, and it is used to replace the deficient enzyme in CLN2 disease. It is given by the intracerebroventricular route so that it can reach the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cerliponase alfa: "CLN2 disease is a neurodegenerative disease caused by deficiency of the lysosomal enzyme tripeptidyl peptidase-1 (TPP1), which catabolizes polypeptides in the CNS. TPP1 has no known substrate specificity. […] Cerliponase alfa (rhTTP1), a proenzyme, is taken up by target cells in the CNS and is translocated to the lysosomes through the Cation Independent Mannose-6-Phosphate Receptor (CI-MPR, also known as M6P/IGF2 receptor)." ([DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047), label version 2024-08-05; accessed 2026-11-19.) Based on known information, cerliponase alfa is a recombinant form of the lysosomal enzyme TPP1, and it is used to replace the deficient enzyme in CLN2 disease. It is given by the intracerebroventricular route so that it can reach the brain.
 
 Scheie syndrome is the attenuated form of mucopolysaccharidosis I (MPS I). It is caused by a deficiency of a different lysosomal enzyme, alpha-L-iduronidase. TPP1 does not break down glycosaminoglycans, so there is no direct enzyme or substrate match. The high score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence. The intracerebroventricular route could in theory address central nervous system involvement, but this has not been tested.
 
@@ -99,6 +99,19 @@ The Scheie syndrome prediction has a high model score but no clinical or publish
 - Preclinical evidence that TPP1 can affect glycosaminoglycan accumulation or CNS pathology in MPS I models
 - An assessment of route compatibility and of how the intracerebroventricular route would apply to the proposed indication
 - A comparison with existing MPS I treatments (enzyme replacement therapy and haematopoietic stem cell transplantation) to define any unmet need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

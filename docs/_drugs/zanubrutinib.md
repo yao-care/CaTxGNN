@@ -60,7 +60,7 @@ Only **1 clinical trial** (Phase 1, where zanubrutinib is a combination partner)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zanubrutinib is a next-generation Bruton tyrosine kinase (BTK) inhibitor. Its efficacy in B-cell malignancies has been established, and the data compiled for this report suggest that it may be mechanistically relevant to other blood cancers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zanubrutinib: "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), label version 2026-09-04; accessed 2026-11-19.) Based on known information, zanubrutinib is a next-generation Bruton tyrosine kinase (BTK) inhibitor. Its efficacy in B-cell malignancies has been established, and the data compiled for this report suggest that it may be mechanistically relevant to other blood cancers.
 
 The link to myeloid leukemia is indirect. BTK is expressed in some myeloid cells and AML blasts and may contribute to survival signaling. However, there is no direct clinical evidence of benefit. The publications compiled for this report concern chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL), Waldenström macroglobulinemia and BTK inhibitor safety. These are all B-cell diseases, not myeloid leukemia. The high score (0.9965) should be read as a model prediction, not as proof of efficacy.
 
@@ -136,6 +136,19 @@ The prediction rests mainly on the model score. The only linked trial is a Phase
 - Verification of the actual cohort composition of NCT05665530
 - Package insert warnings and contraindications from Health Canada, which are required before safety screening
 - Approved indication and dosage form details for the two Canadian DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

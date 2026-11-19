@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but this 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Dexlansoprazole belongs to the proton pump inhibitor class, which reduces stomach acid production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexlansoprazole: "Dexlansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase at the secretory surface of the gastric parietal cell. Because this enzyme is regarded as the acid (proton) pump within the parietal cell, dexlansoprazole has been characterized as a gastric proton-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65), label version 2026-11-04; accessed 2026-11-19.) Dexlansoprazole belongs to the proton pump inhibitor class, which reduces stomach acid production.
 
 Gastroduodenitis is inflammation of the stomach and duodenal lining. Because acid can aggravate mucosal inflammation, suppressing acid may relieve symptoms of acid-related inflammation. This is a plausible but unconfirmed link: no clinical trials or publications were found that study this disease directly, so the prediction is not yet backed by actual evidence.
 
@@ -91,6 +91,19 @@ The prediction score is very high (0.9998), but there are no clinical trials or 
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - Review of the major interactions (acalabrutinib, atazanavir) for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dexlansoprazole Delayed Release (dexlansoprazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55c550b4-eb8b-4e69-9c09-fa5125a52e65) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

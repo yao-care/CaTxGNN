@@ -56,7 +56,7 @@ but **no clinical trials and no publications** were found in the data compiled f
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Avatrombopag belongs to the class of oral TPO-R (c-Mpl) agonists, which stimulate megakaryocyte proliferation and thereby increase platelet production.
+ChEMBL (EMBL-EBI) records the mechanism of action of avatrombopag as: Thrombopoietin receptor agonist ([ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883), CC BY-SA 3.0; accessed 2026-11-19.) Avatrombopag belongs to the class of oral TPO-R (c-Mpl) agonists, which stimulate megakaryocyte proliferation and thereby increase platelet production.
 
 A hereditary macrothrombocytopenia with low platelet counts could plausibly respond if the underlying defect lies in thrombopoiesis rather than in platelet destruction or a structural defect of the megakaryocyte. The mitral valve component would not be expected to respond to this drug.
 
@@ -95,6 +95,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Package insert warnings and contraindications from Health Canada
 - Detailed mechanism of action data
 - A review of the interactions rated Major and a safety plan for patients on those drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2103883 (avatrombopag): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2103883) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

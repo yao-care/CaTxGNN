@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. From the literature, larotrectinib is a selective inhibitor of the TRK receptors (NTRK1/2/3). It is used as a tumour-agnostic therapy for cancers driven by NTRK gene fusions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for larotrectinib: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), label version 2026-05-22; accessed 2026-11-19.) From the literature, larotrectinib is a selective inhibitor of the TRK receptors (NTRK1/2/3). It is used as a tumour-agnostic therapy for cancers driven by NTRK gene fusions.
 
 The link to multiple endocrine neoplasia is indirect. MEN-associated tumours, such as medullary thyroid carcinoma, are driven mainly by **RET** alterations rather than NTRK. The supporting literature discusses kinase-inhibitor therapy in advanced thyroid cancer and resistance mechanisms in RET-driven cancers. The NCI-MATCH trial assigns patients by molecular alteration, including NTRK fusions, and not by MEN diagnosis. Benefit would therefore be expected only in the rare patients whose tumours carry an NTRK fusion.
 
@@ -131,6 +131,19 @@ The MEN prediction rests on a high model score and indirect evidence only. The o
 - Detailed mechanism-of-action data
 - Evidence on how often NTRK fusions occur in MEN-associated tumours, and MEN-specific case or cohort data
 - A drug-interaction management plan, particularly for strong CYP3A4 inhibitors such as clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

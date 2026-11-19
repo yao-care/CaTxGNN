@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ivermectin is not available in the data compiled for this report. Ivermectin is known as an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. These channels are not a recognised target in *Candida*, so no mechanistic link to vulvovaginal candidiasis is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ivermectin: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), label version 2024-09-20; accessed 2026-11-19.) Ivermectin is known as an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. These channels are not a recognised target in *Candida*, so no mechanistic link to vulvovaginal candidiasis is established.
 
 The original indications (strongyloidiasis, onchocerciasis) are parasitic infections, while the predicted indication is a fungal infection. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions are also mostly Candida-related or vulvovaginal conditions (for example esophageal candidiasis, vulvovaginitis, congenital candidiasis, invasive candidiasis), and none has supporting clinical data. This pattern suggests a model-level association rather than a real pharmacological signal.
 
@@ -102,6 +102,19 @@ The prediction is supported only by the model score. There are no clinical trial
 - Evidence of in vitro or preclinical antifungal activity against *Candida* species
 - Clarification of the target indication, including formulation and route, since route compatibility has not been assessed
 - A re-run of the literature search with relevant queries to exclude retrieval mismatches
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for ivermectin is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

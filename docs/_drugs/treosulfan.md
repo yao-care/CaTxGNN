@@ -60,10 +60,9 @@ The prediction is model output only, and the available data do not support a pla
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Treosulfan is generally understood to be a bifunctional alkylating agent. It is a prodrug that converts into epoxide species, which damage DNA and cause cytotoxicity, and it is used for conditioning before stem cell transplantation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for treosulfan: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), label version 2025-01-31; accessed 2026-11-19.) Treosulfan is generally understood to be a bifunctional alkylating agent. It is a prodrug that converts into epoxide species, which damage DNA and cause cytotoxicity, and it is used for conditioning before stem cell transplantation.
 
 Based on the data provided, **no mechanistic link supports this prediction**. Diabetic cataract mainly involves polyol pathway activation and oxidative stress in the lens. DNA alkylation and cytotoxicity have no recognized benefit for lens opacity, and alkylating agents may themselves carry ocular toxicity or cataract risk. The high score (0.9901) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 ---
 
@@ -121,6 +120,19 @@ The prediction rests only on a model score, with no clinical trials, literature,
 - Preclinical or observational evidence of any effect on lens opacity
 - Review of the Canadian license data (dosage forms and approved indications are missing)
 - A route and formulation assessment for any ocular use, which has not yet been done
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

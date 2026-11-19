@@ -61,7 +61,7 @@ Note: the Canadian licence records compiled for this report contain no approved-
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general knowledge, rufinamide is an antiseizure medication that is widely understood to prolong the inactive state of voltage-gated sodium channels. It is approved for Lennox-Gastaut syndrome, a severe childhood epileptic encephalopathy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rufinamide: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), label version 2022-12-15; accessed 2026-11-19.) Based on general knowledge, rufinamide is an antiseizure medication that is widely understood to prolong the inactive state of voltage-gated sodium channels. It is approved for Lennox-Gastaut syndrome, a severe childhood epileptic encephalopathy.
 
 FIRES is also a severe, treatment-resistant epileptic encephalopathy. However, neuroinflammation is thought to play a major role in it, so a sodium-channel mechanism alone gives only a plausible but unproven link. It is not clinical evidence.
 
@@ -129,6 +129,19 @@ The prediction is supported only by the TxGNN model score (evidence level L5), w
 - A literature and trial search for rufinamide in FIRES and other refractory epileptic encephalopathies
 - A review of the relevance of the knowledge-graph contraindications (liver disease, leukopenia) to the target population
 - Dosage form and approved-indication details for the Canadian licences, to assess route compatibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

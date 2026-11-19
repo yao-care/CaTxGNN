@@ -60,7 +60,7 @@ but only **1 clinical trial** (indirect, on endoscopic visualization) and a body
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, metoclopramide acts as a dopamine D2 antagonist and a 5-HT4 agonist. It enhances gastric emptying and upper gastrointestinal motility. This is the basis of its use in reflux disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) Based on known pharmacology, metoclopramide acts as a dopamine D2 antagonist and a 5-HT4 agonist. It enhances gastric emptying and upper gastrointestinal motility. This is the basis of its use in reflux disease.
 
 A prokinetic could plausibly reduce gastric stasis and bile or alkaline reflux, which can aggravate mucosal injury. However, metoclopramide does not suppress acid and has no established ulcer-healing effect, so any benefit in gastric ulcer would be indirect. The very high TxGNN score most likely reflects the drug's close network association with other upper gastrointestinal conditions (reflux disease, esophagitis) rather than ulcer-specific efficacy.
 
@@ -148,6 +148,19 @@ The TxGNN score is very high (0.9990), but the only clinical trial concerns endo
 - Clinical studies that directly assess ulcer healing or ulcer outcomes, not only endoscopic visualization
 - Clarification of the knowledge-graph contraindication for active peptic ulcer disease
 - A closer look at gastroduodenitis as an alternative candidate, since it has the strongest mechanistic link (antroduodenal motility) among the predictions, though efficacy for the inflammatory condition itself remains unproven
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

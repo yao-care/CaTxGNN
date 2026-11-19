@@ -60,7 +60,7 @@ The only supporting material is **2 loosely related clinical trials** and **seve
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Salmeterol belongs to the long-acting beta2-agonist class. These drugs relax airway smooth muscle and may also influence ciliary beat frequency and mucociliary clearance.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salmeterol: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), label version 2022-10-10; accessed 2026-11-19.) Salmeterol belongs to the long-acting beta2-agonist class. These drugs relax airway smooth muscle and may also influence ciliary beat frequency and mucociliary clearance.
 
 "Respiratory malformation" is a heterogeneous category with no single, direct mechanistic rationale for salmeterol. Any plausible link is indirect. Some conditions with abnormal ciliary function or impaired airway clearance, such as primary ciliary dyskinesia and cystic fibrosis, might respond to agents that modulate ciliary activity. This evidence is not specific to malformation. The high TxGNN score should therefore be treated as a hypothesis-generating signal, not as proof of benefit.
 
@@ -130,6 +130,18 @@ The prediction score is high, but no trial or publication studies respiratory ma
 - Preclinical or clinical studies directly in the target condition.
 - Review of the Health Canada package insert for warnings and contraindications.
 - Assessment of formulation and route suitability for the target population, including paediatric use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -60,7 +60,7 @@ The strongest supporting signal in the data is actually for a different predicti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, isoprenaline is a non-selective beta-1/beta-2 adrenergic agonist. Its efficacy in cardiac conditions (heart rate and conduction support) is established, and mechanistically it could influence nasal mucosal blood vessels and secretions through adrenergic pathways.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isoprenaline: "Isoproterenol is a potent nonselective beta-adrenergic agonist with very low affinity for alpha‑adrenergic receptors." ([DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b), label version 2026-11-12; accessed 2026-11-19.) Based on known pharmacology, isoprenaline is a non-selective beta-1/beta-2 adrenergic agonist. Its efficacy in cardiac conditions (heart rate and conduction support) is established, and mechanistically it could influence nasal mucosal blood vessels and secretions through adrenergic pathways.
 
 However, this link is only theoretical. The single paper retrieved for this prediction is a case report of coronary artery spasm and ventricular tachycardia during surgery, in which epinephrine-soaked nasal packing was used. It has no bearing on treating nasal disease. The high score of 0.9995 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the listed cold and nasopharyngitis indications, not biological evidence.
 
@@ -143,6 +143,19 @@ The nasal cavity disease prediction has a very high model score but no clinical 
 - Any direct preclinical or clinical evidence for isoprenaline in nasal disease
 - Evaluation of whether a non-systemic route (topical or inhaled) is feasible, since only injectable products are currently licensed in Canada
 - A comparison against selective beta-2 agonists if bronchial disease is pursued as a research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isoproterenol hydrochloride prescribing information, KVK-Tech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=051acbc2-7bf8-4059-e063-6394a90a115b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

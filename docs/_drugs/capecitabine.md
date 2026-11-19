@@ -55,7 +55,7 @@ Capecitabine is an oral fluoropyrimidine chemotherapy drug. The TxGNN model pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, capecitabine belongs to the fluoropyrimidine class of cytotoxic drugs and is widely understood to act as an oral precursor of 5-fluorouracil.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for capecitabine: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), label version 2026-02-05; accessed 2026-11-19.) Based on general knowledge, capecitabine belongs to the fluoropyrimidine class of cytotoxic drugs and is widely understood to act as an oral precursor of 5-fluorouracil.
 
 The predicted disease is a gastric adenocarcinoma syndrome. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the gastric cancers already linked to the drug, not biological evidence. This is a similarity-based inference. No study in the compiled data tests capecitabine in this specific condition. Note that the predicted disease also involves proximal gastric polyposis, a hereditary or polyp-related setting that is not the same as ordinary sporadic gastric cancer.
 
@@ -113,6 +113,19 @@ The prediction score is high, but no clinical trial or publication in the compil
 - Obtain Health Canada package-insert warnings, contraindications and approved-indication text for the 11 licences.
 - Obtain mechanism-of-action data (for example from DrugBank) to support the mechanistic link.
 - Define a safety plan for the flagged conditions, especially dihydropyrimidine dehydrogenase deficiency, myelosuppression, and hepatic and renal impairment.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ It is supported by **12 clinical trials** and **20 publications**. However, this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the available evidence, trastuzumab binds the extracellular domain of HER2, blocks HER2 signalling and mediates antibody-dependent cellular cytotoxicity (ADCC).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trastuzumab: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), label version 2026-06-26; accessed 2026-11-19.) From the available evidence, trastuzumab binds the extracellular domain of HER2, blocks HER2 signalling and mediates antibody-dependent cellular cytotoxicity (ADCC).
 
 HER2-positive tumours are often also progesterone-receptor (PR) positive, so this prediction largely overlaps with the approved HER2-positive breast cancer use. The evidence applies to HER2-positive disease with PR positivity. It does not support use in PR-positive/HER2-negative disease, where benefit is limited to HER2-low settings with the different agent trastuzumab deruxtecan.
 
@@ -167,11 +167,12 @@ The strongest support is a completed Phase 3 adjuvant trial (n=3270) plus random
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

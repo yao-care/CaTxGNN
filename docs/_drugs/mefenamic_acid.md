@@ -54,7 +54,7 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks pro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on what is known about the drug class, mefenamic acid inhibits cyclooxygenase (COX) and so reduces prostaglandin synthesis. Prostaglandins contribute to vasodilation, sensitization of trigeminovascular pain fibres and neurogenic inflammation, which are processes involved in headache.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mefenamic acid: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), label version 2026-04-20; accessed 2026-11-19.) Based on what is known about the drug class, mefenamic acid inhibits cyclooxygenase (COX) and so reduces prostaglandin synthesis. Prostaglandins contribute to vasodilation, sensitization of trigeminovascular pain fibres and neurogenic inflammation, which are processes involved in headache.
 
 Headache disorder is a broad category. The supporting studies are mostly in migraine, with the strongest signal in menstrually related migraine, where perimenstrual prostaglandin surges are a plausible driver. Three double-blind randomized trials support this: one against acetaminophen (1983, 40 patients), one against propranolol and placebo for prophylaxis (1986, 29 patients), and one against placebo in menstrual migraine (2000, 24 patients). These trials are small and old, there is no phase 3 programme, and no headache-specific trials are registered. Long-term use also carries a risk of enteropathy and medication-overuse headache.
 
@@ -102,6 +102,18 @@ Small randomized double-blind trials in migraine support efficacy, which gives a
 - Detailed mechanism-of-action data
 - Larger, modern controlled trials in a defined headache population (for example menstrually related migraine)
 - A plan to limit treatment duration and monitor gastrointestinal and renal safety
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

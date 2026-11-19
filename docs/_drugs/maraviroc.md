@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, maraviroc is a CCR5 antagonist, a class that blocks the chemokine receptor CCR5 on immune cells. This is the mechanism behind its use in HIV infection, but the Canadian licence records here do not state its approved indication.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for maraviroc: "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), label version 2023-11-10; accessed 2026-11-19.) Based on general knowledge, maraviroc is a CCR5 antagonist, a class that blocks the chemokine receptor CCR5 on immune cells. This is the mechanism behind its use in HIV infection, but the Canadian licence records here do not state its approved indication.
 
 For multiple endocrine neoplasia (MEN), the analysis found **no direct mechanistic link**. MEN is driven mainly by MEN1 and RET alterations, and nothing in the data shows that CCR5 plays a role in these pathways. The high TxGNN score is a computational prediction only and should not be read as evidence of efficacy.
 
@@ -113,6 +113,19 @@ The prediction has no clinical trials or literature behind it (evidence level L5
 - Mechanism of action data from DrugBank
 - A defined mechanistic hypothesis linking CCR5 to MEN pathogenesis, or a switch in focus to a better-supported candidate such as HER2-positive breast carcinoma (preclinical CCL5–CCR5 evidence)
 - Preclinical or early exploratory studies before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

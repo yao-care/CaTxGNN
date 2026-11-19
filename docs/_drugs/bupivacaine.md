@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** supporting this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Bupivacaine is generally known as an amide local anesthetic that blocks voltage-gated sodium channels and thereby interrupts nerve conduction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bupivacaine: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), label version 2026-11-09; accessed 2026-11-19.) Bupivacaine is generally known as an amide local anesthetic that blocks voltage-gated sodium channels and thereby interrupts nerve conduction.
 
 Acrodermatitis chronica atrophicans is the late skin manifestation of Borrelia infection, and its treatment relies on antibiotics. The only plausible role for bupivacaine is symptomatic relief of neuropathic pain, which is speculative. The high score reflects a model-based association, not a demonstrated mechanism, and no study cited here addresses this disease directly.
 
@@ -111,11 +111,12 @@ The prediction has no supporting trials or publications, and the proposed mechan
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

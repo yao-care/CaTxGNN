@@ -60,7 +60,7 @@ There are **0 clinical trials** and **2 publications**, and neither publication 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Memantine is generally described as a non-competitive NMDA receptor antagonist. Under that mechanism, the glutamate/NMDA receptor pathway is the plausible link to pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for memantine: "Persistent activation of central nervous system N-methyl-D-aspartate (NMDA) receptors by the excitatory amino acid glutamate has been hypothesized to contribute to the symptomatology of Alzheimer’s disease. Memantine is postulated to exert its therapeutic effect through its action as a low to moderate affinity uncompetitive (open-channel) NMDA receptor antagonist which binds preferentially to the NMDA receptor-operated cation channels." ([DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e), label version 2026-11-11; accessed 2026-11-19.) Memantine is generally described as a non-competitive NMDA receptor antagonist. Under that mechanism, the glutamate/NMDA receptor pathway is the plausible link to pulmonary hypertension.
 
 One preclinical publication notes that the glutamate/NMDA receptor axis has been implicated in acute lung injury, pulmonary arterial hypertension and diabetes. This suggests NMDA receptors in the pulmonary vasculature as a possible target. The link is plausible but unproven. No study in the compiled data tests memantine itself in pulmonary hypertension.
 
@@ -129,11 +129,12 @@ By comparison, another predicted indication for memantine, **migraine disorder**
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Ten valid single-ingredient licenses are listed (none cancelled)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
 
 <!-- review:end log -->
 

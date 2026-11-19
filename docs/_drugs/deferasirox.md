@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **2 publicati
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, deferasirox is an iron chelator. Its efficacy in managing iron overload in beta-thalassemia is established, and mechanistically it may be relevant to HIV because iron status can influence viral replication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferasirox: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), label version 2026-01-28; accessed 2026-11-19.) Based on known information, deferasirox is an iron chelator. Its efficacy in managing iron overload in beta-thalassemia is established, and mechanistically it may be relevant to HIV because iron status can influence viral replication.
 
 The main supporting study is a 2021 preclinical paper (PMID 34550543). It reports that iron inside endolysosomes restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression. This links iron homeostasis to HIV-1 transcription.
 
@@ -128,6 +128,19 @@ The prediction score is very high, but evidence is limited to one preclinical me
 - Health Canada package insert warnings and contraindications for safety screening
 - Review of interactions with antiretroviral regimens, which were not covered in the interaction data reviewed
 - Evaluation of the other predicted indications (chronic hepatitis C, a rare neurodevelopmental disorder, obsolete familial combined hyperlipidemia, dermatofibrosarcoma protuberans), which currently have even weaker or only indirect support
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

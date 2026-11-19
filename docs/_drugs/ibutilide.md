@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ibutilide is generally described as a class III antiarrhythmic. It prolongs cardiac repolarization by blocking the delayed rectifier potassium current (IKr/hERG) and promoting a slow inward sodium current. The licence data do not state an original indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ibutilide: "CORVERT Injection prolongs action potential duration in isolated adult cardiac myocytes and increases both atrial and ventricular refractoriness in vivo, ie, class III electrophysiologic effects. Voltage clamp studies indicate that CORVERT, at nanomolar concentrations, delays repolarization by activation of a slow, inward current (predominantly sodium), rather than by blocking outward potassium currents, which is the mechanism by which most other class III antiarrhythmics act." ([DailyMed: Corvert (ibutilide fumarate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d717ed-022d-4459-b5e6-098c2a8b7427), label version 2024-01-25; accessed 2026-11-19.) Ibutilide is generally described as a class III antiarrhythmic. It prolongs cardiac repolarization by blocking the delayed rectifier potassium current (IKr/hERG) and promoting a slow inward sodium current. The licence data do not state an original indication.
 
 No known pathway links IKr blockade to the inflammatory, autoimmune, or synovial processes of rheumatoid arthritis. The high TxGNN score reflects a model-based prediction that may capture network-level associations rather than biological causality. Any link, such as ion-channel modulation in immune cells or synoviocytes, would be speculative and is not supported by the available evidence.
 
@@ -115,6 +115,19 @@ The prediction rests only on a model score. There are no clinical trials or publ
 - Detailed mechanism of action data, for example from DrugBank
 - Preclinical or mechanistic evidence for ion-channel involvement in rheumatoid arthritis
 - A risk-benefit assessment of the torsades de pointes risk and the QT-prolonging drug interactions for any non-acute use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corvert (ibutilide fumarate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d717ed-022d-4459-b5e6-098c2a8b7427) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

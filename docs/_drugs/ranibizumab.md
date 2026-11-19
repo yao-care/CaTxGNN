@@ -55,7 +55,7 @@ This is largely an extension within the drug's existing disease family rather th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, ranibizumab is an anti-VEGF antibody fragment. VEGF drives retinal vascular permeability and neovascularization in diabetic retinopathy, and elevated serum and vitreous VEGF levels have been documented in this disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ranibizumab: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), label version 2026-11-05; accessed 2026-11-19.) Based on known information, ranibizumab is an anti-VEGF antibody fragment. VEGF drives retinal vascular permeability and neovascularization in diabetic retinopathy, and elevated serum and vitreous VEGF levels have been documented in this disease.
 
 Neutralizing VEGF is mechanistically coherent with the regression of retinopathy severity seen in the literature. The predicted indication is also closely aligned with the drug's existing indications (diabetic retinopathy and diabetic macular edema), so it is mainly an extension within an established disease family.
 
@@ -112,6 +112,19 @@ The mechanism is coherent and the literature includes RCT-derived analyses (RIDE
 ## Other Predicted Indications (Not Recommended at This Time)
 
 The other nine predictions all have a **Hold** recommendation. They are mainly cataract subtypes (immature, mature, tetanic, type 2 diabetes-associated, craniostenosis, cortical, nuclear senile and senile cataract), plus hemorrhagic disease of the newborn. Cataract is a lens opacification process and is not primarily VEGF-driven, and the retrieved literature covers ranibizumab in other retinal conditions rather than cataract treatment. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. For hemorrhagic disease of the newborn, the matched trials concern a different disease (hereditary hemorrhagic telangiectasia and chorioretinal neovascular diseases), and anti-VEGF therapy could theoretically worsen bleeding risk in neonates.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

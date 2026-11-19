@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, with a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, imipenem is a carbapenem that kills bacteria by blocking cell wall synthesis.
+ChEMBL (EMBL-EBI) records the mechanism of action of imipenem as: Bacterial penicillin-binding protein inhibitor ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, imipenem is a carbapenem that kills bacteria by blocking cell wall synthesis.
 
 Diffuse scleroderma is an autoimmune, fibrotic disease. It is not driven by a bacterial infection, and no mechanistic link between an antibacterial's mode of action and the disease process is supported. The very high TxGNN score is a computational prediction only. Without trials or literature, it should not be read as evidence of benefit.
 
@@ -107,11 +107,12 @@ The score for diffuse scleroderma is high, but there are no clinical trials or p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "are single-ingredient products and both" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ with **43 clinical trials** and **20 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. From the published literature, clofarabine is a second-generation purine nucleoside analogue designed to combine the best qualities of fludarabine and cladribine. It inhibits ribonucleotide reductase and DNA polymerase, which depletes the pool of deoxynucleoside triphosphates needed for DNA replication, and it induces apoptosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clofarabine: "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), label version 2026-08-24; accessed 2026-11-19.) From the published literature, clofarabine is a second-generation purine nucleoside analogue designed to combine the best qualities of fludarabine and cladribine. It inhibits ribonucleotide reductase and DNA polymerase, which depletes the pool of deoxynucleoside triphosphates needed for DNA replication, and it induces apoptosis.
 
 These effects act on rapidly dividing leukemic blasts, regardless of whether they are lymphoid or myeloid in origin. This makes it mechanistically reasonable that a drug developed for lymphoblastic leukemia would also act on myeloid blasts. Clofarabine is already used in combination regimens for acute myeloid leukemia (AML) and high-risk myelodysplastic syndromes, and a completed Phase 3 trial tested it directly in AML.
 
@@ -128,6 +128,19 @@ Two completed Phase 3 randomized trials (727 and 326 participants) tested clofar
 - Detailed mechanism-of-action data from DrugBank
 - Analysis of the Phase 3 trial outcomes (survival and remission rates) to confirm benefit over standard therapy
 - A monitoring plan for myelosuppression, kidney and liver function, and interacting drugs, especially in older patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the source record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

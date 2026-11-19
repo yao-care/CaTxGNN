@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Hypertrichosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lanreotide is a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5 to suppress growth hormone (GH) and IGF-1 secretion. Its efficacy in acromegaly is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lanreotide: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), label version 2024-10-11; accessed 2026-11-19.) Based on general knowledge, lanreotide is a somatostatin analogue that acts mainly through somatostatin receptors SSTR2 and SSTR5 to suppress growth hormone (GH) and IGF-1 secretion. Its efficacy in acromegaly is established.
 
 The link to hypertrichosis is weak. Hypertrichosis is not a recognized GH/IGF-1-driven condition. Acromegaly can cause excess hair growth as a secondary feature, but that is an indirect association and not evidence that lanreotide would benefit hypertrichosis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trial or literature record supports it.
 
@@ -110,6 +110,19 @@ The prediction has a high model score but no supporting clinical trials or publi
 - A literature and trial search for any link between somatostatin analogues and hypertrichosis or hair growth
 - Route and formulation compatibility assessment for the predicted indication
 - A review of the metabolic and gallbladder risks, particularly for glucose-lowering drug combinations, if development is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

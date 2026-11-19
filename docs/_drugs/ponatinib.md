@@ -60,7 +60,7 @@ A second prediction, **liposarcoma**, has **0 clinical trials** and **1 preclini
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ponatinib is a multi-targeted tyrosine kinase inhibitor (targeting BCR-ABL, FGFR, PDGFR, VEGFR, SRC and KIT). Its efficacy in BCR-ABL1-positive chronic myelogenous leukemia has been established, and mechanistically it may be applicable to conditions driven by kinase signaling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ponatinib: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), label version 2026-08-14; accessed 2026-11-19.) Based on known information, ponatinib is a multi-targeted tyrosine kinase inhibitor (targeting BCR-ABL, FGFR, PDGFR, VEGFR, SRC and KIT). Its efficacy in BCR-ABL1-positive chronic myelogenous leukemia has been established, and mechanistically it may be applicable to conditions driven by kinase signaling.
 
 For **gingival fibromatosis**, the only support is the high TxGNN score (0.9904). Kinase signaling in fibroblast proliferation and extracellular matrix deposition could plausibly relate to fibrotic overgrowth, but this link is speculative and not backed by clinical or literature evidence. Gingival fibromatosis is a rare and mostly benign condition, and ponatinib's cardiovascular and vascular occlusive toxicity would be hard to justify for it.
 
@@ -131,6 +131,19 @@ The gingival fibromatosis prediction rests only on a model score, with no clinic
 - Preclinical evidence (e.g., fibroblast or cell-line studies) for gingival fibromatosis
 - Approved indication text and dosage form for DIN 02437333
 - A risk-benefit assessment of cardiovascular and vascular occlusive toxicity for the proposed indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

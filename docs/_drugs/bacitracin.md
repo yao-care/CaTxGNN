@@ -56,7 +56,7 @@ but **no clinical trials and no publications** directly studying this disease we
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Bacitracin is generally known as a polypeptide antibiotic that inhibits bacterial cell wall synthesis and is most active against Gram-positive organisms. It is used in topical products, mainly ointments.
+ChEMBL (EMBL-EBI) records the mechanism of action of bacitracin as: C55-isoprenyl pyrophosphate inhibitor ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; accessed 2026-11-19.) Bacitracin is generally known as a polypeptide antibiotic that inhibits bacterial cell wall synthesis and is most active against Gram-positive organisms. It is used in topical products, mainly ointments.
 
 The prediction is plausibly an extension of bacitracin's use in superficial eye infections. However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious (for example toxic), and a Gram-positive-directed antibiotic would be expected to offer limited benefit in those cases. The score is high (0.9999918937683104 before rounding), but a score is a model output and not evidence of clinical benefit. No study supports this specific use.
 
@@ -113,11 +113,12 @@ The prediction has no supporting trials or publications, and the likely causes o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
 
 <!-- review:end log -->
 

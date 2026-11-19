@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** retrieved for thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Calcitriol is, however, the biologically active form of vitamin D (1,25-dihydroxyvitamin D3). It acts through the vitamin D receptor to regulate calcium and phosphate handling. A biological link to vitamin D deficiency is therefore plausible, and this is likely why the model scores the prediction so highly.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for calcitriol: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), label version 2026-10-15; accessed 2026-11-19.) Calcitriol is, however, the biologically active form of vitamin D (1,25-dihydroxyvitamin D3). It acts through the vitamin D receptor to regulate calcium and phosphate handling. A biological link to vitamin D deficiency is therefore plausible, and this is likely why the model scores the prediction so highly.
 
 Three points weaken the case:
 - The disease term is flagged as **obsolete** in the disease vocabulary, so it may not correspond to a clearly defined current clinical condition.
@@ -119,11 +119,12 @@ The score is very high, but the prediction has no supporting trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eight single-ingredient licences are currently valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
 
 <!-- review:end log -->
 

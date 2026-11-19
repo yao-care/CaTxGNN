@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **polyclonal hy
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin belongs to the beta-lactam class of antibacterials, which act by inhibiting bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), label version 2026-11-13; accessed 2026-11-19.) Amoxicillin belongs to the beta-lactam class of antibacterials, which act by inhibiting bacterial cell wall synthesis. Its efficacy in bacterial infections is well established.
 
 Polyclonal hyperviscosity syndrome is driven by elevated serum immunoglobulins and is not an infectious process. No plausible mechanistic link to amoxicillin was identified. The high score (0.9963) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -117,6 +117,19 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 - Any preclinical or clinical evidence specific to this indication.
 - Health Canada package insert warnings and contraindications, which are needed before safety screening.
 - If the team wants to pursue something related to this drug, a better candidate than this top-ranked prediction is **septicemic plague**. Pursuing it would require susceptibility-guided preclinical confirmation first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model's top-scoring prediction is acne (0.9920), but it has no support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mebendazole is a benzimidazole anthelmintic that inhibits tubulin polymerization in helminths. This impairs microtubule-dependent glucose uptake in the parasite.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mebendazole: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), label version 2021-10-05; accessed 2026-11-19.) Based on known information, mebendazole is a benzimidazole anthelmintic that inhibits tubulin polymerization in helminths. This impairs microtubule-dependent glucose uptake in the parasite.
 
 Cestode larvae are susceptible to the same tubulin-targeting mechanism that acts against intestinal worms. Mebendazole and albendazole are the benzimidazoles used as parasitostatic chemotherapy for this disease. The WHO treatment guidelines and several reviews describe this use.
 
@@ -130,6 +130,19 @@ The Health Canada package insert warnings and contraindications were not availab
 - Verification of study designs and outcomes for the key publications, which were classified from titles and abstracts
 - A comparison with albendazole as the preferred agent, plus a plan for liver function monitoring and for managing the interactions with antiepileptics and other drugs
 - Confirmation of whether the Canadian label covers echinococcosis, since the current licence data list no indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

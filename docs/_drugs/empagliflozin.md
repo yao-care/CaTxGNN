@@ -60,7 +60,7 @@ There are currently **no clinical trials and no publications** supporting this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for empagliflozin is not available in the data compiled for this report. Based on general knowledge, empagliflozin is an SGLT2 inhibitor that lowers renal glucose reabsorption.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for empagliflozin: "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), label version 2026-11-10; accessed 2026-11-19.) Based on general knowledge, empagliflozin is an SGLT2 inhibitor that lowers renal glucose reabsorption.
 
 Classic stiff person syndrome is an autoimmune neurological disorder characterized by anti-GAD65 antibodies and impaired GABAergic signaling. One plausible link is a shared association with autoimmune diabetes (GAD65 autoimmunity). However, this is an inference from the model's data patterns, not a demonstrated pharmacological mechanism. No evidence shows that SGLT2 inhibition affects the neurological features of this disease.
 
@@ -116,6 +116,19 @@ The prediction rests only on a high model score, with no clinical trials or publ
 - Mechanism-of-action data for empagliflozin
 - Package insert warnings and contraindications from Health Canada, for safety screening
 - Review of the safety profile in patients with autoimmune neurological disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for empagliflozin is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

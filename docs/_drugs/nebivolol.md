@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nebivolol is a highly selective beta-1 blocker that also promotes nitric oxide-mediated vasodilation. Its efficacy in hypertension is established, and mechanistically it may be relevant to hypertensive end-organ damage.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nebivolol: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), label version 2024-08-01; accessed 2026-11-19.) Based on known information, nebivolol is a highly selective beta-1 blocker that also promotes nitric oxide-mediated vasodilation. Its efficacy in hypertension is established, and mechanistically it may be relevant to hypertensive end-organ damage.
 
 Malignant hypertensive renal disease is a severe kidney complication of extreme blood pressure elevation, so it is closely related to the original indication. Blood pressure control and endothelial protection are plausible links. However, the connection rests on nebivolol's approved antihypertensive use, not on direct evidence in this kidney condition.
 
@@ -139,6 +139,19 @@ The prediction score is high (0.9942), but there are no clinical trials and no d
 - A targeted literature search and trial registry review for nebivolol in malignant hypertensive nephropathy
 - Clinical data on nebivolol in severe or malignant hypertension with renal involvement
 - Safety assessment for patients with the contraindicated conditions listed above, particularly bradyarrhythmias, hepatic impairment, and diabetes
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

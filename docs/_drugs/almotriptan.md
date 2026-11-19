@@ -54,7 +54,7 @@ Almotriptan is a triptan-class medicine that acts on serotonin receptors. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Almotriptan belongs to the triptan class, which acts as an agonist at 5-HT1B/1D serotonin receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for almotriptan: "Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites." ([DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645), label version 2025-12-31; accessed 2026-11-19.) Almotriptan belongs to the triptan class, which acts as an agonist at 5-HT1B/1D serotonin receptors.
 
 Atrophoderma vermiculata is a rare follicular keratotic skin disorder with atrophic, inflammatory changes on the cheeks. No plausible mechanistic link was identified between 5-HT1B/1D agonism and this condition. The high score appears to reflect shared neighbourhood patterns in the model rather than biological support, so the prediction should be treated with caution.
 
@@ -85,6 +85,19 @@ The prediction rests on a model score alone. No clinical trials or publications 
 - Mechanism-of-action data and a biological rationale for skin involvement
 - Health Canada package insert warnings and contraindications for the safety screen
 - Assessment of route compatibility (oral formulation vs. a likely dermatological need)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ Other predictions with some literature (for example lung hilum carcinoma and lun
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lorlatinib is a brain-penetrant, third-generation inhibitor of the ALK and ROS1 kinases. Its efficacy in ALK-positive NSCLC is well established, notably in the Phase 3 CROWN trial against crizotinib.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lorlatinib: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), label version 2026-06-26; accessed 2026-11-19.) Based on known information, lorlatinib is a brain-penetrant, third-generation inhibitor of the ALK and ROS1 kinases. Its efficacy in ALK-positive NSCLC is well established, notably in the Phase 3 CROWN trial against crizotinib.
 
 For the top-ranked prediction, the connection is weak. No plausible link between ALK/ROS1 inhibition and fibromatosis, gingival has been identified, and no trials or literature were found. The score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to the next several predictions: fibroma of lung (score 0.9975) and hamartoma of lung (0.9975) are not ALK-driven, and their high scores probably reflect similarities the model learned between these diseases and the lung cancer indication, not biological evidence.
 
@@ -147,6 +147,19 @@ The gingival fibromatosis prediction has a very high model score (0.9981) but no
 - Approved indication text, dosage forms and manufacturer details for the two Canadian DINs
 - Preclinical or early clinical evidence in the target disease, if the hypothesis is pursued
 - A separate review of neuroblastoma and other ALK-driven tumours, where the literature shows a real mechanistic link, if a genuine repurposing direction is wanted
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

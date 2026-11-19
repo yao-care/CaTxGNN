@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, norelgestromin is the active progestin metabolite of norgestimate and is delivered through a transdermal patch, usually combined with ethinyl estradiol. As a progestin, it suppresses the hypothalamic-pituitary-ovarian axis and causes changes in the endometrium.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norelgestromin and ethinyl estradiol (a combination product containing norelgestromin): "NGMN is the active progestin largely responsible for the progestational activity that occurs in women following application of norelgestromin and ethinyl estradiol transdermal system." ([DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02), label version 2026-04-16; accessed 2026-11-19.) Based on known information, norelgestromin is the active progestin metabolite of norgestimate and is delivered through a transdermal patch, usually combined with ethinyl estradiol. As a progestin, it suppresses the hypothalamic-pituitary-ovarian axis and causes changes in the endometrium.
 
 Progestins are mechanistically plausible for some forms of amenorrhea, for example inducing withdrawal bleeding in estrogen-primed patients or protecting the endometrium. This link is inferred from the drug class and the model score, and it has not been verified for this specific drug.
 
@@ -100,6 +100,19 @@ The prediction is supported only by the TxGNN model score (L5), with no register
 - Original indication and dosage form details from the licence record
 - A literature and trial search to separate therapeutic use in amenorrhea from amenorrhea as a side effect
 - Assessment of whether the transdermal patch route suits the target patient group
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

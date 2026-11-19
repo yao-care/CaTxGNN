@@ -60,7 +60,7 @@ but there are **no registered clinical trials** and only **1 publication** (a di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, captopril belongs to the ACE inhibitor class. It reduces angiotensin II-mediated vasoconstriction and aldosterone release, and its efficacy in hypertension and diabetic nephropathy is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for captopril: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), label version 2026-11-11; accessed 2026-11-19.) Based on known information, captopril belongs to the ACE inhibitor class. It reduces angiotensin II-mediated vasoconstriction and aldosterone release, and its efficacy in hypertension and diabetic nephropathy is established.
 
 Malignant hypertension with renal involvement is a condition in which activation of the renin-angiotensin-aldosterone system (RAAS) is a key driver. This makes ACE inhibition mechanistically plausible. However, this predicted indication largely overlaps with captopril's existing hypertension and kidney-related use. It is better viewed as an extension of an existing indication than as a distinct repurposing opportunity.
 
@@ -125,6 +125,19 @@ The prediction score is high (0.9928) and the mechanism is plausible, but there 
 - Therapeutic clinical evidence (trials or cohort studies) in malignant hypertension with renal involvement
 - A clear determination of whether this indication is already covered by existing labeling
 - A renal safety plan, including renal artery stenosis screening, renal function and potassium monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

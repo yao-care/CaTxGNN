@@ -60,7 +60,7 @@ Among the other predicted indications, only manic bipolar affective disorder has
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fosphenytoin is a prodrug of phenytoin, a voltage-gated sodium channel blocker, and its efficacy in seizure control is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosphenytoin: "Fosphenytoin is a prodrug of phenytoin and accordingly, its anticonvulsant effects are attributable to phenytoin. The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Cerebyx (fosphenytoin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4c36fad-0ba2-4cd4-9c5e-dcf843f38a5a), label version 2025-08-28; accessed 2026-11-19.) Fosphenytoin is a prodrug of phenytoin, a voltage-gated sodium channel blocker, and its efficacy in seizure control is established.
 
 For conjunctivitis, there is no clear mechanistic link. Conjunctivitis is typically infectious or allergic/inflammatory, and sodium channel blockade has no established role in it. The high score (0.9936) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Phenytoin is also associated with hypersensitivity reactions, which could plausibly worsen ocular inflammatory conditions.
 
@@ -134,6 +134,19 @@ The conjunctivitis prediction rests on the model score alone. There are no trial
 - Full-text review of PMID 12716241 to confirm study design and results if the mania direction is pursued
 - Route compatibility assessment, since fosphenytoin is given intravenously and chronic or ocular conditions may need other routes
 - Any preclinical or clinical evidence supporting a role in conjunctivitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cerebyx (fosphenytoin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4c36fad-0ba2-4cd4-9c5e-dcf843f38a5a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

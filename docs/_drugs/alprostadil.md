@@ -60,7 +60,7 @@ This is largely an extension within its existing approved indication class rathe
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, alprostadil is a prostaglandin E1 that relaxes the smooth muscle of the ductus arteriosus. This keeps the duct open, which increases pulmonary or systemic blood flow in newborns whose circulation depends on it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprostadil: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), label version 2024-05-13; accessed 2026-11-19.) Based on known information, alprostadil is a prostaglandin E1 that relaxes the smooth muscle of the ductus arteriosus. This keeps the duct open, which increases pulmonary or systemic blood flow in newborns whose circulation depends on it.
 
 Aortic coarctation is already among the original indications. Other aortic malformations, such as interrupted aortic arch, also depend on ductal patency to supply the body's circulation before surgery. Because the mechanism is shared, the high prediction score is biologically plausible.
 
@@ -120,6 +120,19 @@ For aortic malformations that depend on ductal patency, the mechanism matches th
 - Review of the literature to confirm relevance of each publication, and a search for controlled studies in interrupted aortic arch and similar lesions
 - A safety monitoring plan for neonates, covering apnoea, gastric outlet obstruction and electrolyte disturbance during prolonged infusion
 - Clarification of which formulation applies: the Prostin VR product is the likely one for neonatal ductal use, while Caverject is an erectile dysfunction product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

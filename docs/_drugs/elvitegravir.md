@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency sy
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, elvitegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (a combination product containing elvitegravir): "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), label version 2025-02-04; accessed 2026-11-19.) Based on known information, elvitegravir is an HIV-1 integrase strand transfer inhibitor. It blocks the step in which viral DNA is inserted into the host genome, and its efficacy in HIV infection is established.
 
 **Feline AIDS (rank 1).** The feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1 and also encodes an integrase enzyme, so activity is biologically plausible. However, there are no trials, no literature, and no laboratory data on FIV. The high score is a computational prediction from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the disease's similarity to HIV/AIDS, not biological evidence. Differences between the FIV and HIV-1 integrase sequences could reduce susceptibility, and this has not been tested.
 
@@ -115,6 +115,19 @@ The top-ranked prediction (feline AIDS) rests on a model score alone, and the ne
 - For feline AIDS: laboratory data on elvitegravir activity against FIV integrase
 - For SIV: a defined research purpose, such as use as a model for HIV prevention, rather than a therapeutic indication
 - Indication text and dosage forms for the two Canadian authorisations (GENVOYA and STRIBILD)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

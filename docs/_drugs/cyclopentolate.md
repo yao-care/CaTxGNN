@@ -58,7 +58,7 @@ Two other predictions were also generated: obsolete neurogenic bladder (0.9940) 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, cyclopentolate is a topical muscarinic antagonist (anticholinergic) used for cycloplegia and mydriasis. Its efficacy in the eye is established, and mechanistically the same receptor blockade may be applicable to conditions where muscarinic signalling drives symptoms.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclopentolate: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), label version 2024-06-25; accessed 2026-11-19.) Based on known information, cyclopentolate is a topical muscarinic antagonist (anticholinergic) used for cycloplegia and mydriasis. Its efficacy in the eye is established, and mechanistically the same receptor blockade may be applicable to conditions where muscarinic signalling drives symptoms.
 
 The proposed link to cauda equina syndrome is through neurogenic bladder dysfunction, a major feature of the condition. Antimuscarinic agents reduce detrusor overactivity and are used for neurogenic bladder. However, the primary treatment for cauda equina syndrome is urgent surgical decompression, so any drug role would be limited to symptom management. Cyclopentolate is formulated as an ophthalmic solution with no established systemic use for this purpose, and the mechanism is inferred rather than demonstrated.
 
@@ -110,6 +110,19 @@ All three predictions are supported only by the model score and class-level mech
 - Preclinical or pharmacokinetic evidence on systemic exposure and feasibility of a non-ophthalmic route
 - Comparative rationale against established antimuscarinics for the predicted indications
 - Route compatibility assessment, since no available or required routes have been defined
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

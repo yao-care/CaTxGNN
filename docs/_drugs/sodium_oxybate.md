@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **insomnia**, with **3 register
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sodium oxybate (gamma-hydroxybutyrate, GHB) acts as an agonist at GABA-B and GHB receptors. Its efficacy in narcolepsy has been established, and it may be mechanistically applicable to insomnia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sodium oxybate: "Xyrem is a CNS depressant. The mechanism of action of Xyrem in the treatment of narcolepsy is unknown. Sodium oxybate is the sodium salt of gamma-hydroxybutyrate (GHB), an endogenous compound and metabolite of the neurotransmitter GABA." ([DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca), label version 2025-07-01; accessed 2026-11-19.) Based on known information, sodium oxybate (gamma-hydroxybutyrate, GHB) acts as an agonist at GABA-B and GHB receptors. Its efficacy in narcolepsy has been established, and it may be mechanistically applicable to insomnia.
 
 Sodium oxybate increases slow-wave sleep and consolidates sleep architecture. It is established in narcolepsy, where nighttime sleep is fragmented. Because insomnia involves difficulty initiating or maintaining sleep, this effect is plausibly relevant. A randomized Phase 2 trial has compared it directly with zolpidem in chronic insomnia.
 
@@ -128,6 +128,19 @@ The only direct evidence is one small Phase 2 trial (n=48) against zolpidem, wit
 - Mechanism of action data
 - A risk-benefit and abuse-mitigation assessment for a non-orphan population
 - Other predicted indications (sleep disorder of initiating and maintaining sleep, restless legs syndrome, and others) have little or no supporting evidence. Restless legs syndrome even shows a possible harm signal, so these are not recommended for pursuit.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xyrem (sodium oxybate) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=926eb076-a4a8-45e4-91ef-411f0aa4f3ca) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

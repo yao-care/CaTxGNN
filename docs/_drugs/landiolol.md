@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **lingual-facial-buccal dyskine
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology reference data show that landiolol binds the beta-1 adrenoceptor with about 250-fold selectivity over the beta-2 adrenoceptor. It is given intravenously for short-term control of heart rate in acute care.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for landiolol: "RAPIBLYK is a selective beta-1-adrenoreceptor antagonist that inhibits the positive chronotropic effects of the catecholamines, epinephrine and norepinephrine, on the heart, where beta-1-receptors are predominantly located. Landiolol does not exhibit any membrane-stabilizing activity or intrinsic sympathomimetic activity at the approved recommended dosage in vitro." ([DailyMed: Rapiblyk (landiolol) prescribing information, AOP Orphan Pharmaceuticals GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27e7f20f-78a4-f1a9-e063-6394a90ae465), label version 2026-10-19; accessed 2026-11-19.) Pharmacology reference data show that landiolol binds the beta-1 adrenoceptor with about 250-fold selectivity over the beta-2 adrenoceptor. It is given intravenously for short-term control of heart rate in acute care.
 
 The link to the predicted indication is weak. Beta-blockers, mainly the non-selective and brain-penetrant propranolol, have been used for some hyperkinetic movement disorders such as tremor and akathisia. There is no established link between beta-1-selective blockade and orofacial dyskinesia. Landiolol is hydrophilic and crosses the blood-brain barrier poorly, so central effects are unlikely.
 
@@ -118,6 +118,19 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 - Original indication text from the Canadian licence
 - A literature and trial search for beta-blockers in dyskinesia and related movement disorders
 - A route-of-administration compatibility assessment, since landiolol is available only as an IV formulation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rapiblyk (landiolol) prescribing information, AOP Orphan Pharmaceuticals GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27e7f20f-78a4-f1a9-e063-6394a90ae465) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

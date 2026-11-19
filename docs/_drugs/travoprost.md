@@ -56,7 +56,7 @@ The top-ranked prediction therefore sits at the lowest evidence level (L5).
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, travoprost is a prostaglandin F2-alpha analog applied to the eye. It lowers intraocular pressure in glaucoma and ocular hypertension, and its efficacy in those conditions is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known information, travoprost is a prostaglandin F2-alpha analog applied to the eye. It lowers intraocular pressure in glaucoma and ocular hypertension, and its efficacy in those conditions is well established.
 
 For visceral calciphylaxis, no trials or publications connect travoprost to the disease. Any link would be speculative, for example prostaglandin receptor-mediated vasodilation or microvascular effects, and the data do not support it. The TxGNN model (deep learning) gives a prediction score of 1.0000, but several other top-ranked predictions are also implausible. These include thoracic outlet syndromes, which are mechanical compression disorders. This suggests the score may reflect similarities the model learned between related diseases, not biological evidence or a verified pharmacological rationale.
 
@@ -141,11 +141,12 @@ The prediction for visceral calciphylaxis rests on the model score alone. No tri
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Removed: "and 6 of the 6 licenses are valid, with none cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **3 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, rotigotine is a dopamine receptor agonist with highest affinity at D3, D2 and D1 receptors, and it also has some activity at 5-HT1A and alpha2B adrenergic receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rotigotine: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, rotigotine is a dopamine receptor agonist with highest affinity at D3, D2 and D1 receptors, and it also has some activity at 5-HT1A and alpha2B adrenergic receptors.
 
 ADHD is associated with dopaminergic and noradrenergic dysregulation, so a link exists, but it is indirect. Restless legs syndrome, one of rotigotine's original indications, is often seen together with ADHD in children and shares a dopaminergic basis. A 2021 study of how the dopamine D4 receptor and the alpha2A adrenoceptor interact also relates to ADHD receptor biology.
 
@@ -132,6 +132,19 @@ The ADHD prediction rests on a high model score and an indirect dopaminergic lin
 - Approved indication text and dosage form for the Canadian NEUPRO authorizations
 
 **Note on other predictions:** The other nine predicted indications are weaker. Schizophrenia (rank 2, Hold) is largely opposed to rotigotine's mechanism, since dopamine agonists can worsen psychosis. The remaining eight (ranks 3–10) have no supporting trials or literature and are model predictions only (L5).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

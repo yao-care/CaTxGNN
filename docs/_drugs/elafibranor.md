@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Pharmacology data identifies elafibranor as a dual agonist of PPARα and PPARδ (PPARβ/δ). In the liver it is converted to its main active metabolite, GFT-1007. Preclinical work showed reduced hepatic fat accumulation, inflammation and fibrosis. The NASH programme was stopped in mid-2020 after an interim futility analysis. The drug was then repositioned for PBC, approved by the FDA in June 2024 and authorised by the EMA in September 2024.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for elafibranor: "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), label version 2026-08-11; accessed 2026-11-19.) Pharmacology data identifies elafibranor as a dual agonist of PPARα and PPARδ (PPARβ/δ). In the liver it is converted to its main active metabolite, GFT-1007. Preclinical work showed reduced hepatic fat accumulation, inflammation and fibrosis. The NASH programme was stopped in mid-2020 after an interim futility analysis. The drug was then repositioned for PBC, approved by the FDA in June 2024 and authorised by the EMA in September 2024.
 
 The link between this profile and amenorrhea is speculative. PPAR signalling has theoretical connections to ovarian steroidogenesis, insulin sensitivity and metabolic regulation, which might matter in metabolic forms of amenorrhea such as PCOS-related amenorrhea. No trial, publication or mechanistic data in the compiled material supports this pathway. A high TxGNN model (deep learning) score is a hypothesis-generating signal, not clinical evidence.
 
@@ -93,6 +93,19 @@ The only support for amenorrhea is a high model prediction score (0.9986). There
 - A literature and trial search on PPARα/δ agonism and amenorrhea, or on the related conditions (such as PCOS)
 - Preclinical or mechanistic evidence for an effect on the reproductive endocrine axis
 - Assessment of the clinical need in amenorrhea, the target population, and route and formulation compatibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

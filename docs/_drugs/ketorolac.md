@@ -60,7 +60,7 @@ with **17 clinical trials** and **18 publications** currently supporting this di
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established NSAID pharmacology, ketorolac is a non-selective COX-1/COX-2 inhibitor. By blocking prostaglandin synthesis, it reduces peripheral and central sensitization and neurogenic inflammation, which contribute to migraine and tension-type headache pain.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ketorolac: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), label version 2026-11-13; accessed 2026-11-19.) Based on established NSAID pharmacology, ketorolac is a non-selective COX-1/COX-2 inhibitor. By blocking prostaglandin synthesis, it reduces peripheral and central sensitization and neurogenic inflammation, which contribute to migraine and tension-type headache pain.
 
 Its original indications are inflammatory eye conditions, where reducing prostaglandin-driven inflammation is the benefit. The same anti-inflammatory and analgesic action is plausible for headache pain. This link rests on general NSAID pharmacology, not on the supplied data, but it is consistent with the clinical evidence below. Parenteral ketorolac is already used in emergency departments for acute migraine.
 
@@ -161,11 +161,12 @@ Several completed Phase 3/4 trials, meta-analyses and guidelines support parente
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "The 14 valid single-ingredient licences are listed below (up to 5 shown)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

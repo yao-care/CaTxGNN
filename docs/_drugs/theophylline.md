@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, theophylline is a nonselective phosphodiesterase (PDE) inhibitor and an adenosine receptor antagonist. PDE inhibition raises cAMP in platelets, which could plausibly reduce platelet aggregation. This is the likely basis for the high model score.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) From general pharmacology, theophylline is a nonselective phosphodiesterase (PDE) inhibitor and an adenosine receptor antagonist. PDE inhibition raises cAMP in platelets, which could plausibly reduce platelet aggregation. This is the likely basis for the high model score.
 
 The link to the original airway indications is weak. Asthma and thrombosis are different disease areas, and the data compiled for this report show no established similarity between them. The mechanism also works in two directions: adenosine receptor antagonism could counteract the antiplatelet effect of adenosine. No retrieved literature shows a clinical antithrombotic benefit from theophylline.
 
@@ -111,6 +111,19 @@ The high model score is not backed by any trial or study that directly examines 
 - Mechanism of action data and the Health Canada package insert warnings and contraindications
 - Preclinical or clinical evidence that theophylline reduces thrombus formation or platelet aggregation at tolerated doses
 - A safety assessment covering the narrow therapeutic window and the drug interaction burden in patients likely to take anticoagulants or antiplatelet agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

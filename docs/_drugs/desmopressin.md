@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available in the data compiled for this report. Based on general pharmacology, desmopressin acts on the V2 receptor and triggers release of von Willebrand factor (vWF) and factor VIII from endothelial stores.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desmopressin: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), label version 2022-09-28; accessed 2026-11-19.) Based on general pharmacology, desmopressin acts on the V2 receptor and triggers release of von Willebrand factor (vWF) and factor VIII from endothelial stores.
 
 Prothrombin (factor II) is not part of this pathway. Desmopressin does not raise prothrombin levels, so there is no clear mechanistic rationale for this prediction. The single article linked to it is a 1993 general review of congenital bleeding disorders, not a study of prothrombin deficiency. The high score most likely reflects the closeness of coagulation disorders in the model's training data rather than a true therapeutic link. No study directly addresses this disease, so the evidence level is L5.
 
@@ -100,6 +100,19 @@ Desmopressin works through vWF and factor VIII release and has no known effect o
 - Direct clinical or preclinical studies in congenital prothrombin deficiency
 - Mechanism-of-action data and package insert warnings and contraindications from Health Canada
 - A review of the interaction profile, especially with corticosteroids, before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general knowledge, bismuth subsalicylate has antimicrobial and anti-secretory activity against enteric pathogens, including Salmonella. This makes the prediction biologically plausible, since paratyphoid fever is caused by Salmonella Paratyphi.
+ChEMBL (EMBL-EBI) records the mechanism of action of bismuth subsalicylate as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, bismuth subsalicylate has antimicrobial and anti-secretory activity against enteric pathogens, including Salmonella. This makes the prediction biologically plausible, since paratyphoid fever is caused by Salmonella Paratyphi.
 
 However, there are no trials or publications specific to paratyphoid fever. The high score most likely reflects the model's closeness to other Salmonella-related and diarrhoeal conditions rather than direct evidence. Paratyphoid fever is a systemic infection that normally requires antibiotics, and a luminal, minimally absorbed agent is unlikely to treat systemic disease on its own.
 
@@ -100,6 +100,19 @@ The prediction for paratyphoid fever has a very high model score but no supporti
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - A clear rationale for how a minimally absorbed agent could affect systemic disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

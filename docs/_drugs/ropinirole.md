@@ -60,7 +60,7 @@ with **no registered clinical trials** but **8 publications** currently supporti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ropinirole is a D2/D3 dopamine receptor agonist. Its efficacy in restless legs syndrome and Parkinson disease is established, and mechanistically it may be applicable to ADHD, which is associated with dopaminergic dysregulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropinirole: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), label version 2026-11-06; accessed 2026-11-19.) Based on known information, ropinirole is a D2/D3 dopamine receptor agonist. Its efficacy in restless legs syndrome and Parkinson disease is established, and mechanistically it may be applicable to ADHD, which is associated with dopaminergic dysregulation.
 
 ADHD and restless legs syndrome frequently occur together. The literature suggests they may share dopaminergic and iron-metabolism pathways. A 2005 review examined this association and discussed the potential value of treatments common to both conditions. A pediatric case report described a 6-year-old boy with ADHD and sleep disruption from probable restless legs. He responded poorly to methylphenidate, but ropinirole improved both his ADHD symptoms and his sleep.
 
@@ -129,6 +129,19 @@ The TxGNN score is very high, and the ADHD–restless legs overlap, a pediatric 
 - A check of the drug interaction list against typical ADHD co-medications, such as stimulants
 
 The other nine predictions have no supporting trials, and most have no literature at all. The faciodigitogenital syndrome, polymicrogyria, retinal dystrophy, X-linked myopia, glycosylation disorder, glycine encephalopathy, and Charcot-Marie-Tooth predictions should remain on Hold. Schizophrenia also remains on Hold because the evidence is preclinical or indirect, and a dopamine agonist could worsen psychosis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

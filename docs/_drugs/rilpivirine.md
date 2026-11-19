@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rilpivirine is an NNRTI that inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it is marketed alone and in combination products in Canada.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rilpivirine: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), label version 2025-08-28; accessed 2026-11-19.) Based on known information, rilpivirine is an NNRTI that inhibits HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and it is marketed alone and in combination products in Canada.
 
 Simian immunodeficiency virus (SIV) and chimeric SHIV infections in macaques are the standard preclinical surrogates for HIV. A prediction here is therefore expected, but it supports the original indication rather than a genuinely new one. SIV is naturally resistant to NNRTIs, so these models use SHIV carrying HIV reverse transcriptase. The macaque studies of long-acting rilpivirine with cabotegravir report sustained virologic suppression, remission after early treatment, and a low frequency of resistant variants. This is preclinical animal evidence, not a human repurposing indication.
 
@@ -127,6 +127,19 @@ The top prediction is an animal model of HIV, the disease rilpivirine already tr
 - Package insert warnings and contraindications from Health Canada, which are currently missing and block safety screening
 - Product details (dosage form and approved indication text) for the Canadian licences
 - A dedicated analysis of QT prolongation risk and the major interactions with acid-reducing agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

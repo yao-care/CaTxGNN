@@ -60,7 +60,7 @@ Among the ten predicted indications, the strongest evidence is for **urinary tra
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. Its efficacy in serious Gram-negative and Gram-positive infections is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for meropenem: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), label version 2026-11-02; accessed 2026-11-19.) Based on known pharmacology, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. Its efficacy in serious Gram-negative and Gram-positive infections is established.
 
 Bacterial arthritis (septic arthritis) is caused by organisms that meropenem often covers, including Enterobacterales and some streptococci. The supporting literature is indirect:
 - Melioidosis cohorts with osteoarticular involvement, where all isolates were meropenem-susceptible
@@ -186,11 +186,12 @@ Meropenem is mostly the comparator in these trials, so arm-specific results shou
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->
 

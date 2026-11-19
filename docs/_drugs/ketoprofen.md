@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ketoprofen is a non-selective COX inhibitor (NSAID) with established anti-inflammatory and analgesic effects in arthritis and related joint conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ketoprofen: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d), label version 2026-01-07; accessed 2026-11-19.) Based on known information, ketoprofen is a non-selective COX inhibitor (NSAID) with established anti-inflammatory and analgesic effects in arthritis and related joint conditions.
 
 The predicted disease is a rare skeletal dysplasia caused by loss-of-function variants in the CDMP1/GDF5 gene, which disrupts BMP/GDF5 signaling in bone and cartilage development. COX inhibition has no evident link to this pathway. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, ketoprofen might offer symptomatic pain relief, and no data support even that.
 
@@ -104,6 +104,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Mechanism of action data from DrugBank
 - A targeted literature and trial search for ketoprofen in the predicted indication
 - A re-prioritisation to review the more plausible candidates (spondyloarthropathy and LACC1-related juvenile arthritis) as research questions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

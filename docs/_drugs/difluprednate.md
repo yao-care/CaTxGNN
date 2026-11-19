@@ -55,7 +55,7 @@ The TxGNN model's top-ranked prediction is **familial adrenal hypoplasia with ab
 
 ## Why is This Prediction Reasonable?
 
-Difluprednate is a corticosteroid prodrug. Its active metabolite, difluoroprednisolone butyrate, binds the glucocorticoid receptor (NR3C1) with high affinity (reported Ki 0.78 nM). Detailed mechanism-of-action text is not available in the data compiled for this report, but the receptor target is clear from its structure and pharmacology.
+Difluprednate is a corticosteroid prodrug. Its active metabolite, difluoroprednisolone butyrate, binds the glucocorticoid receptor (NR3C1) with high affinity (reported Ki 0.78 nM). According to the Mechanism of Action section of the US FDA-approved prescribing information for difluprednate: "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and may delay or slow healing. They inhibit edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] Difluprednate is structurally similar to other corticosteroids." ([DailyMed: Durezol (difluprednate) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa), label version 2026-08-18; accessed 2026-11-19.) The receptor target is clear from its structure and pharmacology.
 
 The predicted disease is a congenital condition involving adrenal and gonadotropin deficiency. The only plausible link is glucocorticoid-pathway similarity. Difluprednate is a topical ophthalmic emulsion with limited systemic exposure, so it is not a suitable replacement therapy for adrenal hypoplasia. The high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -111,6 +111,19 @@ The top-ranked prediction rests on model score alone, with no trials or publicat
 - For seborrheic dermatitis: a comparison against existing topical steroids and a route/formulation compatibility assessment
 - For iris disease: clarification of whether it differs from the current labelled use, plus clinical (not only rabbit) data
 - Route compatibility assessment for any candidate, since the available formulation is ophthalmic
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durezol (difluprednate) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

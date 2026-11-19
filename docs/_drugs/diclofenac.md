@@ -58,7 +58,7 @@ Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for actinic ker
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, diclofenac is an NSAID that reduces prostaglandin-driven inflammation and pain. Its efficacy in inflammatory joint disease and actinic keratosis is established, but it is not mechanistically expected to apply to hypotrichosis simplex of the scalp.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), label version 2026-09-24; accessed 2026-11-19.) Based on known information, diclofenac is an NSAID that reduces prostaglandin-driven inflammation and pain. Its efficacy in inflammatory joint disease and actinic keratosis is established, but it is not mechanistically expected to apply to hypotrichosis simplex of the scalp.
 
 Hypotrichosis simplex of the scalp is a rare inherited disorder of the hair follicle. A structural or genetic defect of this kind is not expected to respond to an anti-inflammatory drug, and no plausible link to diclofenac's mechanism has been identified. The very high score (0.9969) most likely reflects closeness between terms in the model's network rather than a biological rationale. Treat this prediction as a computational signal only, not as evidence of efficacy.
 
@@ -133,11 +133,12 @@ The prediction for hypotrichosis simplex of the scalp has no trial or literature
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Diclofenac has 20 valid single-ingredient authorizations in Canada and none are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

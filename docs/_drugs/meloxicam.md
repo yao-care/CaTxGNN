@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, meloxicam is a COX-2-preferential NSAID that reduces prostaglandin synthesis. Its efficacy in inflammatory and degenerative joint disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for meloxicam: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), label version 2026-09-25; accessed 2026-11-19.) Based on known information, meloxicam is a COX-2-preferential NSAID that reduces prostaglandin synthesis. Its efficacy in inflammatory and degenerative joint disease is established.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare skeletal dysplasia caused by CDMP1/GDF5 mutations. Meloxicam does not address this genetic defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic mechanism. At most, meloxicam could provide symptomatic pain relief for joint complaints, which is not disease modification.
 
@@ -103,6 +103,19 @@ The prediction rests on model output alone, with no trials, no literature, and n
 - Mechanism of action data from DrugBank
 - Evidence that meloxicam affects the GDF5/CDMP1 pathway or clinical outcomes in this disorder, if any exists
 - Consider prioritising the closer-to-label predictions (RF-positive polyarticular JIA, spondyloarthropathy, rheumatoid nodulosis) as research questions, since they lie within the established class use of NSAIDs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

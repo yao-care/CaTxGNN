@@ -57,7 +57,7 @@ The evidence is therefore model prediction only (L5). The data compiled for this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, durvalumab is a PD-L1 immune checkpoint inhibitor. Blocking PD-L1 may restore anti-tumour T-cell activity in cancers with immune infiltration.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for durvalumab: "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), label version 2026-08-31; accessed 2026-11-19.) Based on general knowledge, durvalumab is a PD-L1 immune checkpoint inhibitor. Blocking PD-L1 may restore anti-tumour T-cell activity in cancers with immune infiltration.
 
 The link between the original indication (transitional cell carcinoma) and the predicted one (uterine ligament adenocarcinoma) is a shared checkpoint-blockade rationale. Plausibly, PD-L1 blockade could apply to gynaecologic adenocarcinomas with immune infiltration, but this is speculative. No study in the compiled data addresses this disease, and the mechanism cannot be verified from the data provided.
 
@@ -124,6 +124,19 @@ No clinical trial or publication directly studies durvalumab in uterine ligament
 - Health Canada package insert warnings and contraindications, which are required before safety screening
 - Approved indication text and dosage form for the IMFINZI licence
 - Consideration of endocervical carcinoma as a better-supported alternative direction, since a Phase 1 trial with durvalumab exists there, though it is early-stage and small (n=20)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

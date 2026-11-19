@@ -56,7 +56,7 @@ The mechanistic rationale is weak, because release disorders are defects of plat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From general pharmacology, romiplostim is a peptide agonist of the thrombopoietin receptor (MPL). It stimulates megakaryocyte proliferation and platelet production, and it is used to raise platelet counts in chronic immune thrombocytopenia (ITP).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for romiplostim: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), label version 2026-06-23; accessed 2026-11-19.) From general pharmacology, romiplostim is a peptide agonist of the thrombopoietin receptor (MPL). It stimulates megakaryocyte proliferation and platelet production, and it is used to raise platelet counts in chronic immune thrombocytopenia (ITP).
 
 The prediction is hard to justify mechanistically. Primary release disorders are qualitative platelet defects in granule secretion, and platelet counts are usually normal. Raising platelet number is not expected to correct defective secretion. The only linked paper (PMID 25682608) studies autoantibody inhibition of proplatelet formation in ITP, not release disorders, so it gives only indirect context. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -125,6 +125,19 @@ The top prediction rests on a computational score alone. There are no trials, an
 - Mechanism of action data
 - Approved indication text and dosage forms for the Canadian licences
 - Direct evidence in the predicted indication. If the team wishes to pursue a lead, FNAIT or selected inherited thrombocytopenia subtypes are more plausible than release disorders. Those would need targeted literature review and fetal/neonatal safety data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

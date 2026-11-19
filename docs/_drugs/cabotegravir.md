@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Cabotegravir is generally known as an HIV-1 integrase strand transfer inhibitor, and its activity is specific to the viral integrase enzyme.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cabotegravir: "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), label version 2025-04-11; accessed 2026-11-19.) Cabotegravir is generally known as an HIV-1 integrase strand transfer inhibitor, and its activity is specific to the viral integrase enzyme.
 
 No established mechanism links cabotegravir to rheumatoid arthritis or to immune and inflammatory pathways. The high TxGNN score reflects a TxGNN model (deep learning) prediction only, so any biological connection is speculative and unsupported by trials or literature.
 
@@ -132,11 +132,12 @@ The prediction rests only on a TxGNN score, with no clinical trials, no literatu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
 
 <!-- review:end log -->
 

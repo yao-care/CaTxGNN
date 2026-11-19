@@ -59,7 +59,7 @@ This is an anatomical subtype of an already-approved indication, so it is not tr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tenecteplase is a fibrin-specific tissue plasminogen activator. It converts plasminogen to plasmin on the fibrin surface, which breaks down the fibrin mesh of a clot and can reopen a blocked coronary artery.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tenecteplase: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), label version 2025-12-15; accessed 2026-11-19.) Based on known pharmacology, tenecteplase is a fibrin-specific tissue plasminogen activator. It converts plasminogen to plasmin on the fibrin surface, which breaks down the fibrin mesh of a clot and can reopen a blocked coronary artery.
 
 Posterolateral myocardial infarction is an anatomical subtype of acute myocardial infarction, which is already an established indication. The mechanism therefore applies directly. Posteroinferior and septal infarction follow the same logic: a coronary clot blocks the artery that supplies that region of the heart muscle.
 
@@ -78,7 +78,6 @@ Currently no related clinical trials registered for this predicted indication.
 Currently no related literature available for posterolateral myocardial infarction.
 
 Other predicted indications do have some literature, summarized below.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -132,6 +131,19 @@ Please refer to the package insert for warnings and contraindications.
 - Mechanism of action data from DrugBank
 - Confirmation of whether the existing STEMI label already covers MI by infarct location, which would make a separate indication unnecessary
 - For coronary stenosis, review of the intracoronary tenecteplase studies as a possible off-label or procedural research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, loxapine is a dibenzoxazepine antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. This mechanism is consistent with controlling mania and agitation. This mechanistic reasoning is inferred from class knowledge, not from the supplied data.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for loxapine: "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), label version 2026-11-03; accessed 2026-11-19.) Based on general knowledge of the drug class, loxapine is a dibenzoxazepine antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors. This mechanism is consistent with controlling mania and agitation. This mechanistic reasoning is inferred from class knowledge, not from the supplied data.
 
 Bipolar disorder is already among loxapine's original indications, so the predicted indication (the manic phase of bipolar disorder) is closely related to what the drug is already used for. The literature also describes inhaled loxapine (Adasuve) as approved in the USA and EU for acute agitation associated with bipolar I disorder or schizophrenia. Two Phase III randomised controlled trials of this formulation are discussed in the literature, but they are not registered in the data compiled here.
 
@@ -113,6 +113,19 @@ Loxapine is already used in bipolar disorder and is mechanistically consistent w
 - Dosage form, route and approved indication details for the four Canadian DINs, and confirmation of whether an inhaled formulation is authorised in Canada
 - Primary RCT data for mania specifically, as distinct from agitation
 - A safety monitoring plan covering the knowledge-graph contraindications and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

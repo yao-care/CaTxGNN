@@ -59,7 +59,7 @@ Much of this predicted indication overlaps with the existing approved use rather
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, laronidase is a recombinant form of alpha-L-iduronidase, the enzyme that breaks down the glycosaminoglycans dermatan sulfate and heparan sulfate. Its efficacy in MPS I is established, and it is mechanistically plausible that it could act on tissues affected by the same substrate accumulation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for laronidase: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), label version 2026-09-11; accessed 2026-11-19.) Based on known information, laronidase is a recombinant form of alpha-L-iduronidase, the enzyme that breaks down the glycosaminoglycans dermatan sulfate and heparan sulfate. Its efficacy in MPS I is established, and it is mechanistically plausible that it could act on tissues affected by the same substrate accumulation.
 
 Skeletal involvement (dysostosis multiplex) is a recognised manifestation of MPS I itself. This predicted "new" indication therefore largely overlaps with the existing label. The high TxGNN score most likely reflects that overlap rather than true repurposing.
 
@@ -118,6 +118,19 @@ The predicted indication largely overlaps with the already approved MPS I use, s
 ### Note on the Second Predicted Indication (Sanfilippo Syndrome)
 
 Sanfilippo syndrome (MPS III) was also predicted, with a TxGNN score of 0.9922. It is not recommended for pursuit (**Hold**, evidence level L4). MPS III results from deficiencies in different enzymes, not alpha-L-iduronidase, and intravenous enzyme replacement does not cross the blood-brain barrier effectively, while MPS III is mainly a neurological disease. The retrieved literature, including a randomised placebo-controlled Phase 3 trial of laronidase, concerns MPS I only. Those results must not be credited to Sanfilippo syndrome.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

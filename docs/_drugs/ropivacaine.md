@@ -56,7 +56,7 @@ with **2 clinical trials** and **3 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels. This is a general characterisation rather than something drawn from the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropivacaine: "Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential." ([DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792), label version 2026-07-17; accessed 2026-11-19.) Based on general pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels. This is a general characterisation rather than something drawn from the compiled data.
 
 In migraine, local anaesthetics are used as procedural treatments, such as sphenopalatine ganglion blocks, stellate ganglion blocks and trigger point injections. These may interrupt peripheral and parasympathetic pain signalling. They may also reduce trigeminovascular activation and central sensitisation. The mechanism is plausible and clinically actionable as a locally administered therapy.
 
@@ -119,6 +119,19 @@ The mechanism is plausible and the migraine nerve-block approach has some clinic
 - A larger randomised, controlled trial specific to ropivacaine in migraine, with a defined technique, target and population
 - Confirmation of route and formulation compatibility, since this use relies on regional nerve block or injection procedures
 - Review of the knowledge-graph contraindications and key interactions for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

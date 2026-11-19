@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **duodenal obstruction**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on the known class mechanism, esomeprazole is a PPI. It blocks the H+/K+ ATPase (proton pump) in gastric parietal cells and so suppresses stomach acid. Its efficacy in acid-related disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for esomeprazole: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), label version 2025-12-19; accessed 2026-11-19.) Based on the known class mechanism, esomeprazole is a PPI. It blocks the H+/K+ ATPase (proton pump) in gastric parietal cells and so suppresses stomach acid. Its efficacy in acid-related disease is well established.
 
 The high model score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -116,6 +116,19 @@ Another predicted indication in the same data, duodenal ulcer, has much stronger
 - Health Canada package insert warnings and contraindications
 - Clinical studies of esomeprazole in duodenogastric (bile) reflux, ideally with symptom and mucosal-injury endpoints
 - A comparison against therapies that target bile reflux itself
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

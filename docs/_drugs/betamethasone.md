@@ -62,7 +62,7 @@ Evidence is thin: **no clinical trials** and **1 publication**, a 1964 case seri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Betamethasone is a corticosteroid, a class with broad anti-inflammatory and immunosuppressive activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for betamethasone: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), label version 2026-04-22; accessed 2026-11-19.) Betamethasone is a corticosteroid, a class with broad anti-inflammatory and immunosuppressive activity.
 
 Follicular mucinosis (alopecia mucinosa) involves mucin deposition in hair follicles with perifollicular inflammation. An anti-inflammatory corticosteroid is therefore a plausible fit. This is a reasoned hypothesis, not a demonstrated effect. The only supporting source is a 1964 case series with a therapy review, and no modern studies are available.
 
@@ -111,11 +111,12 @@ The prediction score is high, but the only evidence is a single 1964 case series
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Removed: "with 20 valid single-ingredient licences in Canada, mostly topical brands" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
 
 <!-- review:end log -->
 

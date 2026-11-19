@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **trichomonal vulvovaginitis** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, terconazole is a triazole antifungal. It inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for terconazole: "Terconazole is an antifungal agent. […] Terconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane Activity in vitro Terconazole exhibits fungicidal activity in vitro against Candida albicans." ([DailyMed: Terconazole Vaginal Cream 0.8% (terconazole) prescribing information, E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f59448bd-f730-46d2-a785-c2d6205579ff), label version 2026-01-28; accessed 2026-11-19.) Based on known pharmacology, terconazole is a triazole antifungal. It inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane.
 
 This mechanism does not carry over well to trichomonal infection. *Trichomonas vaginalis* is a protozoan, and it lacks ergosterol-dependent membrane biology comparable to fungi. No plausible mechanistic link to terconazole was identified. The very high TxGNN score most likely reflects the drug's closeness to other genital-tract infection conditions in the model's network, not a true pharmacological effect. Standard therapy for this infection is a nitroimidazole (metronidazole or tinidazole).
 
@@ -96,6 +96,18 @@ The prediction rests on a model score alone. No clinical trials or direct studie
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from Health Canada, which are needed for safety screening
 - Preclinical or early clinical evidence directly addressing this condition before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Terconazole Vaginal Cream 0.8% (terconazole) prescribing information, E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f59448bd-f730-46d2-a785-c2d6205579ff) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

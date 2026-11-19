@@ -53,10 +53,9 @@ This prediction is largely label-concordant: the predicted disease is essentiall
 | Number of DINs | 1 (marketed: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available from DrugBank. From the analysis in the compiled data, pegaspargase is a PEGylated L-asparaginase that depletes circulating asparagine. Lymphoblasts have low asparagine synthetase activity and depend on asparagine from the blood, so depleting it selectively kills these cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegaspargase: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), label version 2024-10-07; accessed 2026-11-19.) From the analysis in the compiled data, pegaspargase is a PEGylated L-asparaginase that depletes circulating asparagine. Lymphoblasts have low asparagine synthetase activity and depend on asparagine from the blood, so depleting it selectively kills these cells.
 
 The predicted disease (precursor B/T-cell lymphoblastic leukemia and lymphoblastic lymphoma) is the same disease family as the original ALL indication. Asparaginase-containing regimens are already a standard part of treatment, so the prediction is consistent with established use rather than a new direction.
 
@@ -136,6 +135,19 @@ Multiple completed Phase 3 trials and a large body of literature support asparag
 - Health Canada approved indication text, dosage form, and manufacturer for DIN 02461900
 - A toxicity monitoring and management plan, especially for adults aged 40 or older, patients with obesity, and patients with prior hypersensitivity
 - Separate evaluation of extranodal NK/T-cell lymphoma, rather than the Hodgkin lymphoma prediction, if pursuing lymphoma expansion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available from DrugBank" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

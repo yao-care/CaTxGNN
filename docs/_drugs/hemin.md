@@ -60,7 +60,7 @@ This is a model-only signal and should be treated as a hypothesis, not as eviden
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hemin supplies heme and is known to induce heme oxygenase-1. Its efficacy in acute intermittent porphyria is established, because replenishing heme suppresses the overactive heme-synthesis pathway in that disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hemin: "Heme acts to limit the hepatic and/or marrow synthesis of porphyrin. This action is likely due to the inhibition of δ-aminolevulinic acid synthetase, the enzyme which limits the rate of the porphyrin/heme biosynthetic pathway." ([DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691), label version 2026-02-26; accessed 2026-11-19.) Based on known information, hemin supplies heme and is known to induce heme oxygenase-1. Its efficacy in acute intermittent porphyria is established, because replenishing heme suppresses the overactive heme-synthesis pathway in that disease.
 
 No established link between hemin and platelet disorders such as immune thrombocytopenia (ITP) or thrombotic thrombocytopenic purpura (TTP) is documented in the data compiled for this report. The very high TxGNN model (deep learning) score (0.9979) is not corroborated by any trial or publication. It comes from the model and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -114,6 +114,19 @@ The prediction rests on a model score alone, with no trials, no relevant literat
 - The Health Canada product monograph (warnings, contraindications, approved indication, dosage form) for PANHEMATIN
 - A safety review of thrombosis and bleeding risk, and of the interactions with antiplatelet and anticoagulant drugs
 - Preclinical or early exploratory evidence before any clinical trial is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

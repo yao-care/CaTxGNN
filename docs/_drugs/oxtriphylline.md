@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacology, oxtriphylline is a choline salt of theophylline. Theophylline is a methylxanthine that works as a non-selective phosphodiesterase inhibitor and an adenosine receptor antagonist.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxtriphylline as: Phosphodiesterase 4 inhibitor; Phosphodiesterase 3 inhibitor; Adenosine receptor antagonist ([ChEMBL CHEMBL1200434 (oxtriphylline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200434), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, oxtriphylline is a choline salt of theophylline. Theophylline is a methylxanthine that works as a non-selective phosphodiesterase inhibitor and an adenosine receptor antagonist.
 
 A possible link to migraine runs through these two actions. Adenosine is implicated in activation of the trigeminovascular system and in cerebral vasodilation. Changes in cAMP/cGMP signalling can also affect vascular tone. Caffeine, another methylxanthine, is already used as an analgesic adjuvant in migraine therapy, which gives some indirect biological plausibility.
 
@@ -106,6 +106,19 @@ The prediction is based only on the TxGNN model score. No clinical trials or pub
 - A systematic literature search on methylxanthines (theophylline, caffeine) in migraine, including the risk of drug-induced headache
 - A review of the major drug interactions (bupropion, deferasirox, iodinated contrast agents) for a migraine patient population
 - Preclinical or early clinical evidence for the drug–migraine pair before moving past the model-prediction stage
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200434 (oxtriphylline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200434) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

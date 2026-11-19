@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **eye disease** (a broad label)
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the compiled data. Based on the literature, nepafenac is a prodrug that ocular tissue enzymes convert to amfenac, a COX-1/COX-2 inhibitor. By reducing prostaglandin synthesis, it lowers intraocular inflammation, pain, and breakdown of the blood-retinal barrier.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nepafenac: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), label version 2026-04-01; accessed 2026-11-19.) Based on the literature, nepafenac is a prodrug that ocular tissue enzymes convert to amfenac, a COX-1/COX-2 inhibitor. By reducing prostaglandin synthesis, it lowers intraocular inflammation, pain, and breakdown of the blood-retinal barrier.
 
 "Eye disease" is a very broad label and is already largely covered by existing ophthalmic use, namely inflammation and pain after cataract surgery. The strongest evidence is for post-cataract-surgery use and for preventing macular edema, including in diabetic patients. The prediction is not specific to any single disease entity.
 
@@ -138,6 +138,19 @@ Multiple completed Phase 3 trials (several with more than 800 participants) supp
 - Define a specific target condition rather than the broad "eye disease" label
 - Establish a corneal-safety monitoring plan, especially for patients with keratitis, dry eye, corneal ulcer or diabetes
 - Keep the weakly supported predictions (optic papillitis, vitreous detachment and the dermatologic or rare-disease predictions) on Hold pending any clinical evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

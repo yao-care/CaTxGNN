@@ -72,7 +72,7 @@ For comparison, the other top-10 predictions:
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tranylcypromine is an irreversible, non-selective MAOI. Raising monoamine neurotransmitter levels is its established route to antidepressant and anxiolytic effects, and its efficacy in depression is well documented.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranylcypromine: "The mechanism of action of PARNATE as an antidepressant is not fully understood, but is presumed to be linked to potentiation of monoamine neurotransmitter activity in the central nervous system (CNS) resulting from its irreversible inhibition of the enzyme monoamine oxidase (MAO)." ([DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27), label version 2025-07-02; accessed 2026-11-19.) Based on known information, tranylcypromine is an irreversible, non-selective MAOI. Raising monoamine neurotransmitter levels is its established route to antidepressant and anxiolytic effects, and its efficacy in depression is well documented.
 
 **Top-ranked prediction (benign paroxysmal torticollis of infancy):** This is a childhood disorder related to the migraine spectrum and often linked to channelopathy genes. No plausible connection to MAO inhibition is established in the data. MAOIs also carry significant safety concerns in infants. The high score is a purely computational result.
 
@@ -144,6 +144,19 @@ Package insert warnings and contraindications were not available for this report
 - Mechanism of action data (a DrugBank query).
 - For mood and anxiety indications: tranylcypromine-specific controlled trials, and a guardrail plan covering the dietary tyramine restriction, screening for serotonergic and sympathomimetic co-medications, and blood pressure monitoring for hypertensive crisis.
 - For the rare disease predictions: preclinical or mechanistic evidence (for the Ohdo syndromes, LSD1/epigenetic data) before any clinical consideration.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Parnate (tranylcypromine sulfate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b72d8187-dfcc-4ea0-b5e9-c0be95b69a27) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

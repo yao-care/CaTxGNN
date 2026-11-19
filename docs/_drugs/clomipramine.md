@@ -60,7 +60,7 @@ with **8 clinical trials** and **20 publications** currently linked to this dire
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, clomipramine is a potent serotonin reuptake inhibitor, and its metabolite desmethylclomipramine adds noradrenergic activity. This serotonergic and noradrenergic modulation underlies efficacy across anxiety-spectrum conditions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomipramine: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), label version 2024-11-26; accessed 2026-11-19.) Based on known information, clomipramine is a potent serotonin reuptake inhibitor, and its metabolite desmethylclomipramine adds noradrenergic activity. This serotonergic and noradrenergic modulation underlies efficacy across anxiety-spectrum conditions.
 
 OCD has long been grouped with anxiety disorders, and the literature describes it as sharing features of both anxiety and affective disorders. Clomipramine's efficacy in OCD is well established. For panic disorder and agoraphobia, support comes from network meta-analyses, guidelines, and older controlled studies, in which clomipramine served as a reference drug.
 
@@ -134,6 +134,19 @@ Clomipramine is already marketed in Canada, and its serotonergic mechanism is we
 - Detailed mechanism of action data
 - Controlled trials of clomipramine in a defined anxiety disorder (such as panic disorder), rather than OCD
 - A safety plan covering cardiac monitoring (ECG), seizure risk, anticholinergic effects, overdose risk, and the high drug interaction burden
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

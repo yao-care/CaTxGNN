@@ -60,7 +60,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, benzatropine is an anticholinergic (muscarinic antagonist) used for parkinsonism and dystonia, and its efficacy in these movement disorders is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for benzatropine: "Benztropine mesylate possesses both anticholinergic and antihistaminic effects, although only the former have been established as therapeutically significant in the management of parkinsonism. In the isolated guinea pig ileum, the anticholinergic activity of this drug is about equal to that of atropine; however, when administered orally to unanesthetized cats, it is only about half as active as atropine." ([DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6), label version 2026-11-11; accessed 2026-11-19.) Based on known information, benzatropine is an anticholinergic (muscarinic antagonist) used for parkinsonism and dystonia, and its efficacy in these movement disorders is established.
 
 PLA2G6-associated neurodegeneration includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism. These conditions involve basal ganglia dysfunction with dystonia and parkinsonism. This overlaps with the motor features benzatropine is already used to treat, so it could plausibly offer **symptomatic relief**.
 
@@ -115,6 +115,19 @@ The prediction is supported only by the TxGNN score (L5). There are no clinical 
 - A literature and trial search on anticholinergic treatment of dystonia-parkinsonism in PLA2G6-associated neurodegeneration
 - Approved indication text and dosage forms for the Canadian products
 - A benefit-risk assessment of anticholinergic burden, especially in paediatric patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: benztropine mesylate prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01688e6f-7b22-41bf-9a85-1c88d90f99b6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

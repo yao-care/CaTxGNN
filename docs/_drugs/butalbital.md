@@ -58,7 +58,7 @@ Butalbital is a barbiturate marketed in Canada only in fixed-dose combination pr
 
 ## Why is This Prediction Reasonable?
 
-Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A receptors, prolonging chloride channel opening and strengthening inhibitory neurotransmission. This is a plausible anticonvulsant mechanism, shared with phenobarbital. Detailed mechanism of action data for butalbital itself is not available in the data compiled for this report, so this reasoning relies on class-level knowledge.
+Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A receptors, prolonging chloride channel opening and strengthening inhibitory neurotransmission. This is a plausible anticonvulsant mechanism, shared with phenobarbital. According to the Mechanism of Action section of the US FDA-approved prescribing information for butalbital, aspirin, caffeine and codeine phosphate (a combination product containing butalbital): "Butalbital, a barbiturate, is a GABA A receptor agonist and may inhibit excitatory AMPA receptors." ([DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f), label version 2026-05-27; accessed 2026-11-19.) This reasoning relies on class-level knowledge.
 
 The link between the original and predicted indications is weak. Butalbital is used in combination with acetaminophen or aspirin and caffeine (sometimes with codeine) for headache, and it has no established antiepileptic indication. The very high TxGNN score most likely reflects its similarity to anticonvulsant barbiturates rather than direct evidence. None of the retrieved literature evaluates butalbital as a treatment for visual (photosensitive) epilepsy.
 
@@ -130,6 +130,19 @@ The prediction rests on the TxGNN model alone (Evidence Level L5), with no clini
 - Detailed mechanism of action data, for example from DrugBank
 - Preclinical or clinical evidence that butalbital suppresses photosensitive or other reflex seizures
 - A risk-benefit analysis of dependence and withdrawal seizures against existing antiseizure therapies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for butalbital itself is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, liothyronine is the active form of thyroid hormone (triiodothyronine). Its efficacy in replacing thyroid hormone in hypothyroidism is well established, and mechanistically it might be relevant to renal hypodysplasia/aplasia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for liothyronine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), label version 2026-05-18; accessed 2026-11-19.) Based on known information, liothyronine is the active form of thyroid hormone (triiodothyronine). Its efficacy in replacing thyroid hormone in hypothyroidism is well established, and mechanistically it might be relevant to renal hypodysplasia/aplasia.
 
 Thyroid hormone is known to play a role in organ development, including the kidney, which is the only biological link suggested by the data compiled for this report. However, no trial or publication supports this link. The very high TxGNN score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or demonstrated clinical benefit.
 
@@ -114,6 +114,19 @@ The prediction is supported only by the TxGNN model (deep learning) score (Evide
 - Preclinical or epidemiological evidence linking thyroid hormone signalling to renal development or renal agenesis
 - Indication text, dosage forms and manufacturers for the Canadian licences
 - A review of whether another predicted indication with more indirect evidence deserves priority over this one
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **fibroblastic neoplasm** (the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, eribulin is a microtubule dynamics inhibitor (an antimitotic cytotoxic agent). Its efficacy in liposarcoma has been established, and it has activity in other soft tissue sarcomas.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eribulin: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), label version 2025-11-07; accessed 2026-11-19.) Based on known information, eribulin is a microtubule dynamics inhibitor (an antimitotic cytotoxic agent). Its efficacy in liposarcoma has been established, and it has activity in other soft tissue sarcomas.
 
 Fibroblastic neoplasms include solitary fibrous tumour (SFT), fibrosarcoma and myxofibrosarcoma. These are mesenchymal tumours closely related to liposarcoma, so a class-level rationale exists for an anti-tubulin agent.
 
@@ -139,6 +139,19 @@ Eribulin has a plausible class-level link to fibroblastic neoplasms, and one com
 - Health Canada product monograph warnings, contraindications and approved indication text (currently missing, and blocking safety screening)
 - Mechanism of action data from DrugBank
 - A safety plan covering QT prolongation, myelosuppression and peripheral neuropathy, and review of the major interactions (dolasetron, cisapride)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

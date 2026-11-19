@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **autosomal recessive severe co
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activation, and its efficacy in PNH, a complement-mediated hemolytic disease, is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ravulizumab: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), label version 2026-10-29; accessed 2026-11-19.) Based on known information, ravulizumab is a long-acting inhibitor of complement component C5. It blocks terminal complement activation, and its efficacy in PNH, a complement-mediated hemolytic disease, is established.
 
 G6PC3 deficiency is a metabolic and neutrophil-function disorder with no established complement-driven pathology. The link to PNH is therefore weak. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, with no supporting mechanistic or clinical data. In this case, the high score should be read as a model signal, not as biological evidence.
 
@@ -99,6 +99,19 @@ The prediction has no clinical trials, no literature, and no plausible mechanist
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Approved indication text and dosage form details for the two DINs
 - Preclinical or clinical data in neutropenia models, plus a risk assessment for meningococcal infection and other infections
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

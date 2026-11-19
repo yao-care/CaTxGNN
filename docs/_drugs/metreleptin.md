@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, metreleptin is a recombinant analog of leptin that replaces deficient leptin in lipodystrophy, and its use in that condition is established. Mechanistically, there is no clear link to familial generalized lentiginosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metreleptin: "Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting. In patients with generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to metabolic abnormalities including insulin resistance. […] MYALEPT (metreleptin) for injection exerts its function by binding to and activating the human leptin receptor (ObR), which belongs to the Class I cytokine family of receptors that signals through the JAK/STAT transduction pathway." ([DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc), label version 2024-03-25; accessed 2026-11-19.) Based on known information, metreleptin is a recombinant analog of leptin that replaces deficient leptin in lipodystrophy, and its use in that condition is established. Mechanistically, there is no clear link to familial generalized lentiginosis.
 
 Lentiginosis is a pigmentary disorder, and leptin signaling has no established role in it. The very high TxGNN score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as lipodystrophy-related syndromes, not biological evidence. The prediction should therefore be treated as a hypothesis-generating signal only.
 
@@ -105,6 +105,19 @@ The prediction is model-only (L5), with no clinical trials or publications. No p
 - Approved indication text and dosage form for the Canadian authorizations
 - A biological rationale connecting leptin signaling to the predicted disease, supported by preclinical or observational evidence
 - For the oncology-related predictions, a specific assessment of the theoretical risk from pro-proliferative leptin signaling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

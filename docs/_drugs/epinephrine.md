@@ -56,7 +56,7 @@ This is largely an extension or reclassification of existing uses rather than a 
 
 ## Why is This Prediction Reasonable?
 
-Epinephrine is a non-selective adrenergic agonist. Stimulating beta-2 receptors relaxes bronchial smooth muscle and causes bronchodilation. Stimulating alpha-1 receptors constricts blood vessels and reduces mucosal swelling in the airway. Detailed mechanism-of-action data was not available in the data compiled for this report, so this description is based on the established pharmacology of the drug.
+Epinephrine is a non-selective adrenergic agonist. Stimulating beta-2 receptors relaxes bronchial smooth muscle and causes bronchodilation. Stimulating alpha-1 receptors constricts blood vessels and reduces mucosal swelling in the airway. According to the Mechanism of Action section of the US FDA-approved prescribing information for epinephrine: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), label version 2026-09-18; accessed 2026-11-19.) This description is based on the established pharmacology of the drug.
 
 Obstructive lung disease is the umbrella category that includes asthma, chronic obstructive pulmonary disease (COPD), bronchitis and bronchiectasis. Epinephrine is already associated with asthma, bronchitis and bronchiectasis, so this prediction mostly restates or broadens existing uses.
 
@@ -145,11 +145,12 @@ Package insert warnings and contraindications from Health Canada were not availa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Twenty single-ingredient licences are valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ but only **2 clinical trials** (both general pediatric pharmacokinetic studies) 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fosfomycin inhibits the bacterial enzyme MurA, an early step in cell wall synthesis, and has broad Gram-negative and Gram-positive activity. This could plausibly cover pathogens found in pelvic or uterine infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fosfomycin: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), label version 2025-11-04; accessed 2026-11-19.) Based on general knowledge, fosfomycin inhibits the bacterial enzyme MurA, an early step in cell wall synthesis, and has broad Gram-negative and Gram-positive activity. This could plausibly cover pathogens found in pelvic or uterine infections.
 
 Uterine inflammatory disease is bacterial in many cases. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. However, no study retrieved tests fosfomycin in uterine or pelvic infection, so the link is a hypothesis only.
 
@@ -121,6 +121,19 @@ The prediction score is high, but no retrieved trial or publication studies fosf
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - Confirmation of formulations and routes, since the dosage forms are not listed in the licence records
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

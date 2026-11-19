@@ -60,7 +60,7 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Methocarbamol is known as a centrally acting muscle relaxant, and it is used for painful muscle spasm and back pain. Beyond that, its precise mechanism cannot be assessed from the data compiled for this report.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for methocarbamol: "The mechanism of action of methocarbamol in humans has not been established, but may be due to general CNS depression. It has no direct action on the contractile mechanism of striated muscle, the motor end plate or the nerve fiber." ([DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522), label version 2026-11-06; accessed 2026-11-19.) Methocarbamol is known as a centrally acting muscle relaxant, and it is used for painful muscle spasm and back pain. Beyond that, its precise mechanism cannot be assessed from the data compiled for this report.
 
 Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots and is usually a surgical emergency. A muscle relaxant might ease spasm and pain linked to back conditions, but it would not treat the compression that causes the syndrome. The mechanistic link is therefore weak, and the high score most likely reflects network associations rather than biological evidence.
 
@@ -137,11 +137,12 @@ The prediction rests solely on a model score, with no trials or supporting publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522) |
 
 <!-- review:end log -->
 

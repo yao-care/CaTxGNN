@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pseudo-von Willebrand disease
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Defibrotide is generally described as an endothelial-protective agent that reduces endothelial activation and prothrombotic signalling and enhances fibrinolysis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for defibrotide: "The mechanism of action of defibrotide sodium has not been fully elucidated. In vitro, defibrotide sodium enhances the enzymatic activity of plasmin to hydrolyze fibrin clots. Studies evaluating the pharmacological effects of defibrotide sodium on endothelial cells (ECs) were conducted primarily in the human microvascular endothelial cell line." ([DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec), label version 2025-07-01; accessed 2026-11-19.) Defibrotide is generally described as an endothelial-protective agent that reduces endothelial activation and prothrombotic signalling and enhances fibrinolysis.
 
 Pseudo-von Willebrand disease (platelet-type von Willebrand disease) is a bleeding disorder caused by a gain-of-function change in platelet glycoprotein Ib-alpha. A mechanistic link between defibrotide and this platelet receptor abnormality is not supported by the available data. The high model score is therefore a computational signal only.
 
@@ -104,6 +104,19 @@ The prediction has no supporting trials or literature, no plausible mechanistic 
 - Detailed mechanism of action data
 - Any preclinical or clinical study directly addressing this disease
 - A bleeding-risk assessment before any consideration of use in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

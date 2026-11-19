@@ -54,7 +54,7 @@ Propofol is an intravenous anaesthetic agent marketed in Canada under four activ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, propofol is a positive allosteric modulator of the GABA-A receptor. This is the basis of its sedative-hypnotic effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propofol: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), label version 2025-09-11; accessed 2026-11-19.) Based on known pharmacology, propofol is a positive allosteric modulator of the GABA-A receptor. This is the basis of its sedative-hypnotic effect.
 
 For migraine, there are two plausible links. Preclinical work shows that propofol hemisuccinate suppresses cortical spreading depression (PMID 22390898), the neural correlate of migraine aura and a possible trigger of migraine pain. Propofol may also modulate trigeminovascular nociceptive signalling.
 
@@ -125,6 +125,18 @@ A completed Phase 2/3 trial in pediatric migraine, several randomized ED trials,
 | Prinzmetal angina | L5 | Hold | The literature consists of case reports of coronary spasm during anaesthesia, which is a possible safety signal and not a benefit. |
 | Nephrogenic syndrome of inappropriate antidiuresis | L5 | Hold | Computational prediction only, with no supporting studies. |
 | Tourette syndrome | L4 | Hold | Evidence covers only sedation during deep brain stimulation surgery. No therapeutic effect on tics is shown. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

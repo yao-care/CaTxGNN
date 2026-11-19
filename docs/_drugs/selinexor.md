@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Selinexor is generally known as an inhibitor of XPO1 (exportin-1), a selective inhibitor of nuclear export. This general knowledge has not been verified against the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selinexor: "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), label version 2026-05-12; accessed 2026-11-19.) Selinexor is generally known as an inhibitor of XPO1 (exportin-1), a selective inhibitor of nuclear export. This general knowledge has not been verified against the data compiled for this report.
 
 A possible but unverified link is that XPO1 inhibition changes the nuclear retention of tumour suppressors and signalling regulators (for example in the NF-kB and Wnt pathways). These pathways are involved in bone remodelling, so in theory they could affect osteoclast and osteoblast activity. The data give no indication of whether the effect would be protective or harmful.
 
@@ -108,6 +108,19 @@ The prediction has a high model score (0.9922) but no clinical trials, no litera
 - Preclinical or literature evidence on the effect of XPO1 inhibition on bone metabolism, including whether the effect is protective or harmful
 - Review of the full list of 81 drug interactions
 - Confirmation of the original indication, dosage form and manufacturer for the XPOVIO licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

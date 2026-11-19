@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, fluconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis and impairing fungal cell membranes. Its efficacy in candidiasis and cryptococcal infection is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluconazole: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), label version 2026-04-02; accessed 2026-11-19.) Based on general pharmacology, fluconazole is an azole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), blocking ergosterol synthesis and impairing fungal cell membranes. Its efficacy in candidiasis and cryptococcal infection is well established.
 
 Punctate epithelial keratoconjunctivitis is often not caused by fungi. Common causes include viral infection (such as adenovirus), toxic injury, and immune-mediated processes, so a direct antifungal mechanism is not clearly relevant. Possible links include fungal keratitis, fungal colonization of the ocular surface, or a secondary anti-inflammatory effect, but none of these is supported by the data compiled for this report.
 
@@ -106,6 +106,19 @@ The only support for this prediction is a high model score (0.9924), with no cli
 - Mechanism of action data from DrugBank
 - Route and formulation compatibility assessment, since an ocular indication may need a topical or ophthalmic route
 - Review of QT-prolongation risk and the interaction profile for any new patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

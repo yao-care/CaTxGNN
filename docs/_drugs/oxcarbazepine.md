@@ -60,7 +60,7 @@ The strongest signal in this prediction set is not for visual epilepsy but for *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxcarbazepine acts mainly through its active metabolite (MHD) by blocking voltage-gated sodium channels, and its efficacy in focal seizures is established. Visual (photosensitive or occipital) epilepsy is a focal or reflex seizure phenotype, so a mechanistic link through the existing focal-epilepsy indication is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxcarbazepine: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), label version 2026-10-28; accessed 2026-11-19.) Based on known information, oxcarbazepine acts mainly through its active metabolite (MHD) by blocking voltage-gated sodium channels, and its efficacy in focal seizures is established. Visual (photosensitive or occipital) epilepsy is a focal or reflex seizure phenotype, so a mechanistic link through the existing focal-epilepsy indication is plausible.
 
 However, the retrieved literature consists of general antiseizure medication reviews and guidelines. The high TxGNN score probably reflects overlap with the approved epilepsy indication, and may reflect similarities the model learned between related diseases, rather than independent evidence for restless legs syndrome.
 
@@ -142,6 +142,19 @@ The prediction for restless legs syndrome rests on the model score and a plausib
 - Targeted literature search for oxcarbazepine in visual, photosensitive and occipital epilepsy
 - Consideration of a formal research question for restless legs syndrome, where case-level evidence is most specific
 - Dosage form and approved indication details for the six Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

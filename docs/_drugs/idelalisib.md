@@ -60,7 +60,7 @@ Support so far is limited to **5 early-phase clinical trials** and **20 publicat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. The published literature describes idelalisib as the first-in-class inhibitor of PI3Kδ (phosphatidylinositol 3-kinase delta). This enzyme sits in the B-cell receptor signalling pathway and supports the survival and growth of malignant B cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for idelalisib: "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), label version 2026-09-10; accessed 2026-11-19.) The published literature describes idelalisib as the first-in-class inhibitor of PI3Kδ (phosphatidylinositol 3-kinase delta). This enzyme sits in the B-cell receptor signalling pathway and supports the survival and growth of malignant B cells.
 
 MCL is a B-cell non-Hodgkin lymphoma. Reviews and laboratory studies indicate that it relies on B-cell receptor and PI3K signalling. This is the same biology that underlies idelalisib's activity in CLL/SLL and follicular lymphoma, and it explains why the model ranks MCL highly.
 
@@ -151,6 +151,19 @@ The biological rationale for MCL is reasonable. However, the clinical evidence c
 - Detailed mechanism-of-action data, with attention to the reported resistance in MCL and the combination strategies that might overcome it.
 - A comparison against existing MCL therapies, such as BTK inhibitors, to define any unmet need for idelalisib.
 - A risk-management plan for hepatic, gastrointestinal, pulmonary, infectious and cutaneous toxicities and for drug interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

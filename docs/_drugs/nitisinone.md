@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis** (sco
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From general knowledge, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in the tyrosine breakdown pathway. Blocking it prevents the build-up of toxic upstream metabolites such as succinylacetone.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitisinone: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), label version 2026-10-21; accessed 2026-11-19.) From general knowledge, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD), an enzyme in the tyrosine breakdown pathway. Blocking it prevents the build-up of toxic upstream metabolites such as succinylacetone.
 
 In hereditary tyrosinemia type 1, these toxic metabolites are thought to cause kidney tubular damage (a Fanconi-type proximal tubulopathy). Nitisinone may therefore improve this *secondary* tubular dysfunction. However, this is not a mechanism for primary renal tubular acidosis, and no direct link has been established. The very high TxGNN score is a computational prediction only and should not be read as evidence of efficacy.
 
@@ -101,6 +101,19 @@ The prediction rests on model score alone (L5), with no trials or literature. Th
 - Preclinical or clinical evidence in renal tubular acidosis, or clear separation of primary from secondary forms
 - A defined target population and a safety plan that accounts for kidney and blood-count signals
 - Approved indication text and dosage forms for the Canadian licences
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Indomethacin is generally understood to be a COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain, which is why it works in arthritis and other inflammatory joint conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for indomethacin: "Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da), label version 2024-12-16; accessed 2026-11-19.) Indomethacin is generally understood to be a COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain, which is why it works in arthritis and other inflammatory joint conditions.
 
 For this prediction, a reasonable mechanistic link could **not** be identified. Brachydactyly-syndactyly syndrome is a rare congenital skeletal malformation of the fingers and toes. It arises from abnormal limb development, not from ongoing inflammation. COX inhibition is not expected to correct a developmental defect.
 
@@ -129,6 +129,19 @@ The prediction has the highest model score but no clinical, literature or mechan
 - Preclinical or case-level evidence of any benefit
 - Mechanism of action data and label-based warnings and contraindications for the Canadian products
 - Consideration of other candidates from the same prediction list. The most evidence-supported is **juvenile idiopathic arthritis** (TxGNN score 0.9984, Evidence Level L3, with a double-blind crossover trial against ketoprofen and several reviews). It is recommended as *Proceed with Guardrails*, but it largely extends existing arthritis use rather than being a new repurposing. Guardrails would be pediatric dosing, GI, renal and bleeding risk, and the availability of safer NSAIDs, DMARDs and biologics.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

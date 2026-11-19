@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, norepinephrine acts on adrenergic receptors (mainly alpha-adrenergic, with some beta effects) and is a potent vasopressor. The reviews retrieved describe adrenergic signalling and sympathetic innervation as part of how airway tone and inflammation are regulated in asthma and COPD, which gives a plausible but indirect biological link.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norepinephrine: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), label version 2026-10-27; accessed 2026-11-19.) Based on general pharmacology, norepinephrine acts on adrenergic receptors (mainly alpha-adrenergic, with some beta effects) and is a potent vasopressor. The reviews retrieved describe adrenergic signalling and sympathetic innervation as part of how airway tone and inflammation are regulated in asthma and COPD, which gives a plausible but indirect biological link.
 
 The predicted indication is also close to the drug's original indications. Asthma, bronchitis, emphysema and bronchiectasis are all obstructive airway conditions, so this is nearer to an on-label-adjacent use than a true repurposing.
 
@@ -135,6 +135,19 @@ The TxGNN score is very high, but no clinical study tests norepinephrine for obs
 - Detailed mechanism of action data
 - Clinical evidence (at least a well-designed Phase 2 study) showing benefit in obstructive airway disease
 - A safety and route assessment for non-vasopressor, airway-targeted use, including cardiovascular risk mitigation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

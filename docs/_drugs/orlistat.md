@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, orlistat is a gastric and pancreatic lipase inhibitor that reduces dietary fat absorption by roughly 30%.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for orlistat: "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), label version 2026-09-30; accessed 2026-11-19.) Based on general pharmacological knowledge, orlistat is a gastric and pancreatic lipase inhibitor that reduces dietary fat absorption by roughly 30%.
 
 Fat-soluble vitamins (A, D, E, K) are absorbed together with dietary fat. In theory, lowering fat absorption could reduce their uptake and so reduce body load in fat-soluble hypervitaminosis, such as vitamin A or D excess.
 
@@ -98,6 +98,19 @@ The prediction is supported only by a model score (L5), with no clinical trials 
 - A literature and clinical-trial search on orlistat and fat-soluble vitamin excess (for example, vitamin A or D toxicity)
 - Evaluation of whether reduced absorption offers a clinically meaningful benefit over simply stopping the supplement
 - Route and formulation compatibility assessment, and the approved indication text and dosage form for the Canadian licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but the data compiled for this report contain **no clinical trials** and **no pu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general class knowledge, cyproheptadine is a first-generation H1 antihistamine, and blocking histamine receptors is relevant to conditions that involve nasal inflammation and congestion.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyproheptadine: "Cyproheptadine is a serotonin and histamine antagonist with anticholinergic and sedative effects. Antiserotonin and antihistamine drugs appear to compete with serotonin and histamine, respectively, for receptor sites." ([DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8), label version 2025-10-21; accessed 2026-11-19.) Based on general class knowledge, cyproheptadine is a first-generation H1 antihistamine, and blocking histamine receptors is relevant to conditions that involve nasal inflammation and congestion.
 
 "Nasal cavity disease" is a broad, non-specific term. It covers many conditions, including allergic and vasomotor problems of the nose, which are close to the conditions this drug is already used for. The prediction therefore adds no new, specific disease entity. With no trials or publications in the data, the link rests on the model score and class pharmacology only, and should be treated as a hypothesis.
 
@@ -97,6 +97,19 @@ The only support is a high model score. No trial or publication directly studies
 - Mechanism of action data
 - Health Canada package insert warnings and contraindications for the safety review
 - Confirmation of dosage forms and routes for the marketed products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

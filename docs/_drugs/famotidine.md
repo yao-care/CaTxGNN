@@ -58,7 +58,7 @@ Famotidine is a histamine H2-receptor antagonist originally used for gastric and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, famotidine is an H2-receptor antagonist that reduces gastric acid secretion. Its efficacy in gastric and duodenal ulcers is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famotidine: "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def), label version 2024-06-01; accessed 2026-11-19.) From general knowledge, famotidine is an H2-receptor antagonist that reduces gastric acid secretion. Its efficacy in gastric and duodenal ulcers is well established.
 
 Several other predictions follow the same pattern. Peptic ulcer disease, gastroduodenitis, and active peptic ulcer disease overlap with existing labelled uses. Duodenal obstruction, peptic ulcer perforation, abnormality of glucagon secretion, and acne have no clear mechanistic link or are mainly surgical or unsupported conditions.
 
@@ -145,11 +145,12 @@ Package insert warnings and contraindications were not available, so please refe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNAP) enzyme replacement. It breaks down inorganic pyrophosphate (PPi), pyridoxal-5'-phosphate (PLP) and phosphoethanolamine, which supports bone mineralization in hypophosphatasia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for asfotase alfa: "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031), label version 2025-12-12; accessed 2026-11-19.) Based on known information, asfotase alfa is a recombinant tissue-nonspecific alkaline phosphatase (TNAP) enzyme replacement. It breaks down inorganic pyrophosphate (PPi), pyridoxal-5'-phosphate (PLP) and phosphoethanolamine, which supports bone mineralization in hypophosphatasia.
 
 Mitochondrial oxidative phosphorylation disorders arise from defects in cellular energy metabolism. The TNAP mechanism does not address these defects, so no clear mechanistic link was identified. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis, not as evidence of efficacy.
 
@@ -107,6 +107,19 @@ The prediction has no supporting clinical trials or publications, and the mechan
 - A plausible biological rationale linking TNAP replacement to mitochondrial OXPHOS disorders, such as preclinical or mechanistic studies
 - Any clinical or observational evidence (trials, case reports) in the predicted indication
 - Route and dosage-form compatibility assessment for the new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but the support is limited to **4 preclinical publications** (animal and cell st
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cilazapril is an ACE inhibitor: it blocks angiotensin-converting enzyme, reducing angiotensin II formation and the vasoconstriction it causes. Its efficacy in hypertension is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of cilazapril as: Angiotensin-converting enzyme inhibitor ([ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, cilazapril is an ACE inhibitor: it blocks angiotensin-converting enzyme, reducing angiotensin II formation and the vasoconstriction it causes. Its efficacy in hypertension is established.
 
 Hypoxic pulmonary hypertension involves pulmonary arterial ACE activity, angiotensin II-mediated vasoconstriction, and remodelling of the pulmonary vessel wall. This gives a plausible biological link to the drug's original use, since both conditions involve the renin-angiotensin system and vascular tone.
 
@@ -122,11 +122,12 @@ The prediction score is high, but the evidence is limited to four animal or in v
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
 
 <!-- review:end log -->
 

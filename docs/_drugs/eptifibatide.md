@@ -60,7 +60,7 @@ This report therefore focuses on hemoglobinopathy, the only prediction with huma
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known pharmacology, eptifibatide is a synthetic peptide that blocks the GP IIb/IIIa (αIIbβ3) receptor on platelets and so prevents platelet aggregation. This is why it works in acute coronary syndrome, where platelet-rich clots block coronary arteries.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eptifibatide: "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), label version 2026-10-02; accessed 2026-11-19.) Based on known pharmacology, eptifibatide is a synthetic peptide that blocks the GP IIb/IIIa (αIIbβ3) receptor on platelets and so prevents platelet aggregation. This is why it works in acute coronary syndrome, where platelet-rich clots block coronary arteries.
 
 In sickle cell disease, platelet activation, adhesion, thrombosis and inflammation are thought to contribute to microvascular occlusion and painful crises. Researchers have therefore proposed that blocking platelet aggregation could reduce these episodes. Early human studies examined safety, pain episodes and inflammatory markers, and an in vitro microvascular model supports the mechanism.
 
@@ -126,6 +126,19 @@ Hemoglobinopathy (sickle cell disease) is the most credible prediction, with a p
 - A larger, adequately powered randomized trial in sickle cell disease, with a bleeding-risk assessment
 - Review of the existing pilot study results to judge efficacy signals
 - For the other predictions (rheumatoid arthritis, other sickle cell genotypes, breast carcinoma), any clinical or genotype-specific evidence before further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

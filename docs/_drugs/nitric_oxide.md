@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **malformation syndrome with od
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitric oxide is known as a vasodilator that acts through the cGMP signalling pathway, and its efficacy in pulmonary hypertension of the newborn is established. Mechanistically, however, nothing in the data compiled for this report shows that this action is relevant to a malformation syndrome affecting the teeth and periodontal tissues.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitric oxide: "Nitric oxide relaxes vascular smooth muscle by binding to the heme moiety of cytosolic guanylate cyclase, activating guanylate cyclase and increasing intracellular levels of cyclic guanosine 3',5'-monophosphate, which then leads to vasodilation. When inhaled, nitric oxide selectively dilates the pulmonary vasculature, and because of efficient scavenging by hemoglobin, has minimal effect on the systemic vasculature." ([DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a), label version 2025-12-12; accessed 2026-11-19.) Nitric oxide is known as a vasodilator that acts through the cGMP signalling pathway, and its efficacy in pulmonary hypertension of the newborn is established. Mechanistically, however, nothing in the data compiled for this report shows that this action is relevant to a malformation syndrome affecting the teeth and periodontal tissues.
 
 The 20 retrieved papers concern the biology of periodontitis. They cover gingival fibroblasts, inflammation induced by bacterial lipopolysaccharide, herbal extracts, and the way oral bacteria produce nitrite. The only link to nitric oxide is a generic one through inflammatory and NO-signalling pathways. None of the papers tests nitric oxide as a treatment for a developmental malformation syndrome.
 
@@ -127,6 +127,19 @@ The prediction rests only on the model score. There are no registered trials, an
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening
 - Preclinical or case-level evidence showing that NO-pathway modulation affects the dental or periodontal features of this syndrome
 - Consideration of better-supported predictions in the same data set. In particular, **pulmonary arterial hypertension** has 28 registered trials and an L2 evidence level, and **pulmonary arterial hypertension associated with congenital heart disease** has an L3 level. Both are closer to nitric oxide's established use and are more suitable candidates for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inomax (nitric oxide) prescribing information, INO Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=762b51be-1893-4cd1-9511-e645fc420d3a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

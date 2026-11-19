@@ -56,7 +56,7 @@ but the support so far consists only of **3 preclinical publications** in macaqu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lopinavir is an HIV-1 protease inhibitor, and its efficacy in HIV infection is established. SIV is a closely related lentivirus with a structurally similar protease, so antiviral activity is biologically plausible.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, lopinavir is an HIV-1 protease inhibitor, and its efficacy in HIV infection is established. SIV is a closely related lentivirus with a structurally similar protease, so antiviral activity is biologically plausible.
 
 The literature found is preclinical, from macaque studies. These include quadruple antiretroviral therapy with rapid viral decay, a chimeric virus (SHIV) carrying an HIV-1 protease gene for testing protease inhibitors, and oral HAART that included lopinavir/ritonavir. This is essentially an extension of the original antiviral indication to an animal model, not a new human therapeutic indication. The high score (0.9990) mainly reflects similarity to the approved HIV indication rather than independent evidence.
 
@@ -110,6 +110,19 @@ The only support is preclinical macaque data, and SIV infection is an animal-mod
 - Approved indication text for the three Canadian DINs
 - A defined human or clinically relevant use case, since SIV and feline AIDS are animal indications
 - Review of cardiac, hepatic and metabolic risks and the interaction profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

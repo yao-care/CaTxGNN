@@ -60,7 +60,7 @@ This prediction rests on the model alone, with **0 clinical trials** and **0 pub
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Alfacalcidol is a pre-activated (1-alpha-hydroxylated) vitamin D analog. It is converted in the liver to calcitriol, the active form of vitamin D. It regulates calcium and phosphate balance and bone mineralization.
+ChEMBL (EMBL-EBI) records the mechanism of action of alfacalcidol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0; accessed 2026-11-19.) Alfacalcidol is a pre-activated (1-alpha-hydroxylated) vitamin D analog. It is converted in the liver to calcitriol, the active form of vitamin D. It regulates calcium and phosphate balance and bone mineralization.
 
 A link to a skeletal disorder such as craniofacial conodysplasia is biologically plausible, but it is speculative and unvalidated. No study in the data compiled for this report examines this disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -114,6 +114,19 @@ The prediction is supported only by the TxGNN model score, with no clinical tria
 - A literature and registry search for any direct study of vitamin D analogs in craniofacial conodysplasia
 - A mechanistic rationale linking vitamin D signalling to the pathology of this dysplasia
 - If the renal tubular acidosis prediction is pursued, a separate evaluation of RTA-associated osteomalacia, with monitoring for hypercalciuria and nephrocalcinosis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

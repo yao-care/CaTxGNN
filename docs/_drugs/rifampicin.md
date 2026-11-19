@@ -56,7 +56,7 @@ The TxGNN model predicts it may be effective for **conjunctivitis**.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, rifampicin is a broad-spectrum antibacterial agent that inhibits bacterial RNA polymerase. Its efficacy in pulmonary tuberculosis is well established, and mechanistically it may be applicable to bacterial conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is a broad-spectrum antibacterial agent that inhibits bacterial RNA polymerase. Its efficacy in pulmonary tuberculosis is well established, and mechanistically it may be applicable to bacterial conjunctivitis.
 
 The literature indicates activity against Gram-positive bacteria (such as *Staphylococcus*), *Chlamydia* and some other ocular pathogens, which makes antibacterial use in infectious conjunctivitis plausible. Topical rifampicin has been studied mainly in trachoma and chlamydial eye infection. A 1975 controlled trial in Tunisia compared 1% rifampicin ointment, 1% tetracycline ointment and boric acid ointment in trachoma. A 1977 open trial in London (63 patients) found that a 6 to 7 week course of 1% rifampicin eye ointment gave about 90% clinical and microbiological cure in chlamydial eye infection, whereas 3 weeks was not enough.
 
@@ -109,6 +109,19 @@ Rifampicin's antibacterial activity makes a role in infectious conjunctivitis pl
 - A topical or ophthalmic formulation and route-compatibility assessment, because the marketed ROFACT products have no listed dosage form or indication
 - Defining the target pathogen subgroup (for example chlamydial or trachoma-type conjunctivitis) and confirming the unmet need against current first-line therapy
 - Controlled efficacy data in the chosen subgroup, plus a review of ocular tolerability
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

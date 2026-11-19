@@ -60,7 +60,7 @@ No clinical trials are registered for this use. The supporting literature is **6
 
 ## Why is This Prediction Reasonable?
 
-Vinblastine binds tubulin and blocks microtubule assembly. This arrests cells in mitosis, so it acts mainly on rapidly dividing cells. Detailed mechanism-of-action data are not available in the data compiled for this report, so this description reflects the established pharmacology of vinca alkaloids.
+Vinblastine binds tubulin and blocks microtubule assembly. This arrests cells in mitosis, so it acts mainly on rapidly dividing cells. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) This description reflects the established pharmacology of vinca alkaloids.
 
 Rhabdomyosarcoma is a highly proliferative sarcoma, mostly seen in children, so an antimitotic drug is mechanistically plausible. Related vinca alkaloids, such as vincristine and vinorelbine, are already used in rhabdomyosarcoma protocols. Preclinical work in rhabdomyosarcoma xenografts has also examined why vinca alkaloids act selectively on tumours. Another preclinical study found that blocking PLK1 together with microtubule-destabilizing drugs kills rhabdomyosarcoma cells synergistically.
 
@@ -130,6 +130,18 @@ The evidence level is L4. It rests on case reports where vinblastine was given w
 - Confirmed mechanism-of-action data
 - Systematic review of rhabdomyosarcoma regimens that contain vinblastine, including outcomes and toxicity
 - Evidence that vinblastine adds benefit beyond the vinca alkaloids already used, for example from a prospective study or a registered trial
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

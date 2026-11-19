@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is vulvar inverted follicular keratosis,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clobetasol propionate is a synthetic glucocorticoid that acts on the glucocorticoid receptor (NR3C1). Its anti-inflammatory and immunosuppressive effects are well established in inflammatory skin disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol propionate: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) Clobetasol propionate is a synthetic glucocorticoid that acts on the glucocorticoid receptor (NR3C1). Its anti-inflammatory and immunosuppressive effects are well established in inflammatory skin disease.
 
 Exanthem is a broad term for inflammatory skin eruptions. The glucocorticoid mechanism fits this kind of inflammation, and this is the rationale behind the prediction. However, the trials listed under this term mostly concern **oral lichen planus** and **vulvar lichen sclerosus**. These are inflammatory mucocutaneous diseases, not true exanthems. The mapping to the predicted indication is therefore only partial.
 
@@ -157,11 +157,12 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Twenty valid single-ingredient licences are held; the first five are shown" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 
 <!-- review:end log -->
 

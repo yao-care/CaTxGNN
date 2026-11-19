@@ -56,7 +56,7 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Desonide is a low-potency topical corticosteroid with anti-inflammatory activity. Vocal cord polyps are often associated with chronic inflammation and edema, so a glucocorticoid effect is plausible in principle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desonide: "The mechanism of action of desonide is unknown." ([DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96), label version 2020-07-31; accessed 2026-11-19.) Desonide is a low-potency topical corticosteroid with anti-inflammatory activity. Vocal cord polyps are often associated with chronic inflammation and edema, so a glucocorticoid effect is plausible in principle.
 
 However, the available desonide formulations are topical dermatologic products (cream, ointment, lotion) and are not suited to delivery to the larynx. The link rests on the TxGNN prediction alone, with no clinical or literature support, and should be regarded as a hypothesis only.
 
@@ -91,6 +91,19 @@ No clinical trials or publications support this prediction, the mechanism of act
 - Mechanism of action data
 - Any preclinical or clinical studies of corticosteroids in vocal cord polyps
 - An assessment of a suitable delivery route and formulation for the larynx
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

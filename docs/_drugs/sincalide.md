@@ -56,7 +56,7 @@ The prediction rests on computation alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sincalide is a synthetic CCK octapeptide that acts on CCK receptors in the gastrointestinal tract to stimulate gallbladder contraction and pancreatic secretion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sincalide: "When injected intravenously, sincalide stimulates gallbladder contraction and reduction in size. The evacuation of bile that results is similar to that which occurs physiologically in response to endogenous cholecystokinin." ([DailyMed: Kinevac (sincalide) prescribing information, Bracco Diagnostics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1408aabb-6982-48e5-ae9f-504ec43b0003), label version 2023-10-18; accessed 2026-11-19.) Based on known pharmacology, sincalide is a synthetic CCK octapeptide that acts on CCK receptors in the gastrointestinal tract to stimulate gallbladder contraction and pancreatic secretion.
 
 No mechanistic link to the predicted indication has been identified. Malignant catarrh (malignant catarrhal fever) is a viral disease of ruminants, and no CCK-receptor-mediated pathway is known to bear on its pathogenesis. The prediction is purely computational, with no supporting trial or literature data.
 
@@ -95,6 +95,19 @@ The prediction has no clinical trial or literature support (L5, model prediction
 - Mechanism of action data (for example from DrugBank)
 - A credible biological rationale for the predicted indication, and confirmation that the disease is relevant to human medicine
 - Any preclinical or clinical evidence supporting the prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kinevac (sincalide) prescribing information, Bracco Diagnostics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1408aabb-6982-48e5-ae9f-504ec43b0003) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -54,7 +54,7 @@ Pegfilgrastim is a long-acting, PEGylated form of granulocyte colony-stimulating
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, pegfilgrastim is a PEGylated G-CSF that stimulates the production of neutrophils, and it belongs to the class of hematopoietic growth factors. Its use in reducing neutropenia is established, but the data compiled for this report do not list an original indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pegfilgrastim: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), label version 2026-10-29; accessed 2026-11-19.) Based on general knowledge, pegfilgrastim is a PEGylated G-CSF that stimulates the production of neutrophils, and it belongs to the class of hematopoietic growth factors. Its use in reducing neutropenia is established, but the data compiled for this report do not list an original indication.
 
 A speculative link to diabetic retinopathy is that G-CSF may mobilize bone marrow-derived endothelial progenitor cells, which could in theory contribute to repair of damaged retinal blood vessels. The effect could also go the other way: increased neutrophil and progenitor-cell activity might promote inflammation and abnormal new vessel growth, which are harmful in the diabetic retina. The direction of effect is therefore uncertain, and nothing in the available data resolves it.
 
@@ -104,6 +104,19 @@ The prediction is supported only by a high model score (L5). There are no clinic
 - A literature and trial search on G-CSF, endothelial progenitor cells and diabetic retinopathy, including retinal safety in diabetic patients
 - Preclinical or mechanistic studies to establish whether the effect on the diabetic retina would be protective or harmful
 - Assessment of route compatibility (the current formulations are systemic, whereas retinal disease may call for other delivery routes)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

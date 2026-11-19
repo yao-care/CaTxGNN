@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **HIV infectious disease**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tezacaftor is a CFTR corrector that helps the F508del-CFTR protein fold and traffic to the cell surface. It is marketed in combination with ivacaftor (Symdeko) and in triple combinations (Trikafta, Alyftrek) for cystic fibrosis patients with specific gene mutations.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vanzacaftor, tezacaftor, and deutivacaftor (a combination product containing tezacaftor): "Vanzacaftor and tezacaftor bind to different sites on the CFTR protein and have an additive effect in facilitating the cellular processing and trafficking of select mutant forms of CFTR (including F508del- CFTR) to increase the amount of CFTR protein delivered to the cell surface compared to either molecule alone. The combined effect of vanzacaftor, tezacaftor and deutivacaftor is increased quantity and function of CFTR at the cell surface, resulting in increased CFTR activity as measured both by CFTR-mediated chloride transport in vitro and by sweat chloride in patients with CF." ([DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20), label version 2026-08-26; accessed 2026-11-19.) Based on known information, tezacaftor is a CFTR corrector that helps the F508del-CFTR protein fold and traffic to the cell surface. It is marketed in combination with ivacaftor (Symdeko) and in triple combinations (Trikafta, Alyftrek) for cystic fibrosis patients with specific gene mutations.
 
 No established mechanistic link between CFTR correction and HIV pathogenesis is supported by the available data. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the prediction should be treated as speculative.
 
@@ -102,6 +102,19 @@ The HIV prediction is based on a model score alone (L5), with no registered clin
 - Preclinical evidence, such as in vitro antiviral activity of tezacaftor against HIV
 - A review of whether the HIV, SIV and feline immunodeficiency predictions are one correlated signal
 - Approved indication text and dosage forms for the Canadian licenses, which are currently missing
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alyftrek (vanzacaftor, tezacaftor, and deutivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e635909-c6fd-4f0d-ae77-cdff03653a20) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

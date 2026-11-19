@@ -57,7 +57,7 @@ Most of this evidence reflects use in the already-approved HER2-positive populat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the rationale compiled, pertuzumab binds a specific region (subdomain II) of HER2 and prevents HER2 from pairing with HER3. This pairing normally drives the PI3K/AKT and MAPK growth signalling pathways, so blocking it dampens tumour growth signals.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pertuzumab: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), label version 2026-04-30; accessed 2026-11-19.) Based on the rationale compiled, pertuzumab binds a specific region (subdomain II) of HER2 and prevents HER2 from pairing with HER3. This pairing normally drives the PI3K/AKT and MAPK growth signalling pathways, so blocking it dampens tumour growth signals.
 
 In breast cancer, many HER2-positive tumours also carry hormone receptors (ER and/or PR). Laboratory and clinical work suggests that the HER2 and hormone-receptor pathways communicate with each other. This is why pertuzumab is combined with trastuzumab and endocrine therapy in studies such as WSG-TP-II and PERTAIN.
 
@@ -137,11 +137,12 @@ The evidence is strong for pertuzumab in HER2-positive breast cancer (Phase 3 an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->
 

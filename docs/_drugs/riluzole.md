@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **bilateral parasagittal pariet
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, riluzole modulates glutamate signaling and voltage-gated sodium channels. This is the basis of its use in ALS, where excitotoxicity in motor neurons is thought to play a role.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for riluzole: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), label version 2026-07-27; accessed 2026-11-19.) Based on general knowledge, riluzole modulates glutamate signaling and voltage-gated sodium channels. This is the basis of its use in ALS, where excitotoxicity in motor neurons is thought to play a role.
 
 The link to polymicrogyria is speculative. Cortical malformations are often associated with epilepsy and abnormal neuronal excitability, so a modulator of glutamate and sodium channels could theoretically be relevant. No data supplied here support this link, and the very high score (0.9999) should be read as a model output only, not as evidence of efficacy.
 
@@ -122,6 +122,19 @@ The prediction rests on a model score only, with no clinical trials or literatur
 - Preclinical or clinical evidence in cortical malformation or malformation-associated epilepsy
 - Given the knowledge-graph liver and haematological contraindication associations, a monitoring plan for liver function and blood counts
 - Consideration of the motor neuron predictions (e.g., lower motor neuron syndrome, ALS type 22) as more plausible alternatives, each needing disease-specific evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

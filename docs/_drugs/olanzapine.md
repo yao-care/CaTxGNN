@@ -60,7 +60,7 @@ The next two predictions, agoraphobia and dysthymic disorder, have limited indir
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, olanzapine is an antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. Its pharmacology is generally attributed to dopamine and serotonin receptor antagonism, but this could not be verified from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Based on known information, olanzapine is an antipsychotic whose efficacy in schizophrenia and bipolar disorder is established. Its pharmacology is generally attributed to dopamine and serotonin receptor antagonism, but this could not be verified from the data compiled for this report.
 
 Benign paroxysmal torticollis of infancy is a rare, self-limiting pediatric episodic disorder. It is related to the migraine spectrum and to CACNA1A channelopathies. No established mechanistic link to olanzapine's receptor pharmacology was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related neurological or movement phenotypes, not biological evidence or a true pharmacological rationale.
 
@@ -96,7 +96,6 @@ For reference, the literature found for the two next-ranked predictions is shown
 | [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohort | J Affect Disord | Impact of comorbid anxiety disorders, including agoraphobia, on 24-month outcomes in bipolar I disorder |
 | [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Letter | Am J Psychiatry | Olanzapine and panic attacks |
 | [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Case report | Pharmacopsychiatry | Remission of panic disorder after olanzapine plus paroxetine |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -150,6 +149,19 @@ The TxGNN score is very high (0.9954), but there are no trials or publications f
 - For agoraphobia: a controlled trial of olanzapine augmentation in panic disorder with agoraphobia, compared against first-line SSRIs and CBT
 - For dysthymic disorder: a dysthymia-specific randomised trial of olanzapine, with long-term metabolic monitoring
 - For the top-ranked prediction: expert review to determine whether any biological rationale exists, given the CACNA1A channelopathy and migraine-spectrum background
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

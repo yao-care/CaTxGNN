@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trichotillomania** (compulsiv
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, pimozide is a diphenylbutylpiperidine antipsychotic that blocks dopamine D2 receptors. Its efficacy in Tourette syndrome, a condition marked by repetitive, involuntary behaviours, is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for pimozide: "Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity." ([DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280), label version 2026-08-12; accessed 2026-11-19.) Based on known information, pimozide is a diphenylbutylpiperidine antipsychotic that blocks dopamine D2 receptors. Its efficacy in Tourette syndrome, a condition marked by repetitive, involuntary behaviours, is established.
 
 Trichotillomania, Tourette syndrome and obsessive-compulsive disorder share overlapping features and treatment responses. Dopaminergic dysregulation is implicated in compulsive and repetitive behaviours. A 1992 report (PMID 1532960) described low-dose pimozide added to serotonin reuptake inhibitors (SRIs) in trichotillomania. A later case series with risperidone (a related drug class) in SRI-resistant trichotillomania also reported benefit. This fits the rationale for antipsychotic augmentation in SRI-resistant compulsive disorders.
 
@@ -122,6 +122,19 @@ The prediction score is very high, but supporting evidence is limited to small, 
 - A comparison against alternatives with better safety profiles, such as other antipsychotics used in SRI-resistant cases
 
 **Other TxGNN predictions (for context):** Manic bipolar affective disorder (score 0.9999) has the next-strongest literature base, mostly older small studies from 1976–1988, including double-blind comparisons with chlorpromazine, but modern agents have superseded pimozide there. The remaining predictions (insomnia, major affective disorder, ADHD, and rarer conditions) have indirect or no supporting evidence and are on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

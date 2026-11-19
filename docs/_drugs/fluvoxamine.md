@@ -54,7 +54,7 @@ Fluvoxamine is a selective serotonin reuptake inhibitor (SSRI) marketed in Canad
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Fluvoxamine belongs to the SSRI class, which acts by blocking serotonin reuptake. Serotonergic modulation might plausibly influence some personality traits such as social withdrawal and emotional restriction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluvoxamine: "The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo." ([DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c), label version 2026-10-26; accessed 2026-11-19.) Fluvoxamine belongs to the SSRI class, which acts by blocking serotonin reuptake. Serotonergic modulation might plausibly influence some personality traits such as social withdrawal and emotional restriction.
 
 However, this is a hypothesis only. The one linked paper (PMID 10929788) studied personality disorders and traits in people with body dysmorphic disorder. Some of its participants took part in a fluvoxamine treatment study, but the paper did not test fluvoxamine as a treatment for schizoid personality disorder.
 
@@ -100,6 +100,18 @@ The prediction rests on a model score alone. No trial or published study has tes
 - Mechanism-of-action data linking serotonergic modulation to the core features of this disorder
 - Package insert warnings and contraindications from Health Canada
 - A co-medication screening plan, given the large number of drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

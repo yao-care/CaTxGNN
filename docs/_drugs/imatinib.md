@@ -60,7 +60,7 @@ Evidence is therefore weak for the top prediction, and the stronger signal in th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, imatinib inhibits the tyrosine kinases BCR-ABL, KIT and PDGFR. Its efficacy in GIST (KIT/PDGFRA-driven) and in dermatofibrosarcoma protuberans (COL1A1-PDGFB fusion driving constitutive PDGFRB activation) is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Based on known pharmacology, imatinib inhibits the tyrosine kinases BCR-ABL, KIT and PDGFR. Its efficacy in GIST (KIT/PDGFRA-driven) and in dermatofibrosarcoma protuberans (COL1A1-PDGFB fusion driving constitutive PDGFRB activation) is established.
 
 The link to heart fibrosarcoma is by analogy only: both are fibroblastic or mesenchymal tumours, and imatinib might work if the tumour depends on PDGFB/PDGFR signalling. No cardiac-specific data exist in the dataset. The single linked paper is a 2008 drug-bulletin commentary on new imatinib indications.
 
@@ -170,6 +170,19 @@ The top prediction, heart fibrosarcoma (0.9994), has no registered trials and on
 - Evidence of PDGFB/PDGFR or KIT pathway dependence in cardiac or conventional fibrosarcoma
 - Cardiac safety assessment, given the cardiac-related contraindication signals and the cardiac site of the predicted tumour
 - Review of the drug interaction profile for likely co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

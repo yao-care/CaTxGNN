@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **nasal cavity disease**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Caffeine is generally known as a methylxanthine that blocks adenosine receptors and inhibits phosphodiesterase. These actions could in principle influence inflammation and airway tone.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for caffeine: "Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic. Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized." ([DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a), label version 2026-07-29; accessed 2026-11-19.) Caffeine is generally known as a methylxanthine that blocks adenosine receptors and inhibits phosphodiesterase. These actions could in principle influence inflammation and airway tone.
 
 One indirect line of reasoning involves bitter taste receptors (TAS2Rs), which are found in the human airway and nasal epithelium. They respond to caffeine-like compounds and may affect ciliary beating and innate defence. A nasal caffeine gel has been studied in a preclinical formulation study, but for cognition after sleep deprivation, not for nasal disease.
 
@@ -105,6 +105,19 @@ The prediction score is very high, but no clinical trial or publication directly
 - Preclinical or clinical studies of caffeine in nasal or upper-airway disease, such as the effect of bitter taste receptors on nasal epithelium
 - Review of the package insert warnings and contraindications, including cardiovascular and stimulant effects
 - Evaluation of a suitable route and formulation, since no route compatibility data are available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: caffeine citrate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f38c395-0093-4afd-89ec-f96e5dc0934a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

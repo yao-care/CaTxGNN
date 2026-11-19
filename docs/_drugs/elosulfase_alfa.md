@@ -60,7 +60,7 @@ The score reflects network proximity within the MPS disease family, not demonstr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, elosulfase alfa replaces the enzyme N-acetylgalactosamine-6-sulfatase (GALNS), which breaks down keratan sulfate and chondroitin-6-sulfate. Its efficacy in MPS IVA is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for elosulfase alfa: "Mucopolysaccharidoses comprise a group of lysosomal storage disorders caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis IVA (MPS IVA, Morquio A Syndrome) is characterized by the absence or marked reduction in N -acetylgalactosamine-6-sulfatase activity. […] Elosulfase alfa uptake by cells into lysosomes is mediated by the binding of mannose-6-phosphate-terminated oligosaccharide chains of elosulfase alfa to mannose-6-phosphate receptors." ([DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc), label version 2025-10-30; accessed 2026-11-19.) Based on known information, elosulfase alfa replaces the enzyme N-acetylgalactosamine-6-sulfatase (GALNS), which breaks down keratan sulfate and chondroitin-6-sulfate. Its efficacy in MPS IVA is established.
 
 Scheie syndrome (attenuated MPS I) is caused by a deficiency of a different enzyme, alpha-L-iduronidase. This leads to accumulation of dermatan sulfate and heparan sulfate, not the substrates that elosulfase alfa acts on. The two diseases therefore have different enzyme defects and different substrates. The only shared feature is that both are lysosomal storage disorders treated by enzyme replacement.
 
@@ -118,6 +118,19 @@ The Scheie syndrome prediction has no clinical trials or publications behind it 
 - Detailed mechanism-of-action data
 - Preclinical evidence on whether GALNS replacement has any effect on dermatan sulfate or heparan sulfate accumulation
 - Any clinical or literature evidence of elosulfase alfa use in MPS I; established MPS I enzyme therapy (alpha-L-iduronidase replacement) should be the comparator
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

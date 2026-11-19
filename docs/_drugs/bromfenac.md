@@ -60,7 +60,7 @@ The broad "eye disease" label largely overlaps with its established use, so the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, bromfenac is an NSAID that inhibits cyclooxygenase (COX-1/COX-2) and reduces prostaglandin E2 synthesis. This mechanism is directly relevant to ocular inflammation, post-cataract pain, cystoid macular oedema, and ocular surface inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bromfenac: "Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2." ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), label version 2026-06-15; accessed 2026-11-19.) Based on known pharmacology, bromfenac is an NSAID that inhibits cyclooxygenase (COX-1/COX-2) and reduces prostaglandin E2 synthesis. This mechanism is directly relevant to ocular inflammation, post-cataract pain, cystoid macular oedema, and ocular surface inflammation.
 
 Because bromfenac is already used as an ophthalmic solution for postoperative inflammation, "eye disease" is mostly a broad umbrella over established use. The repurposing value lies in more specific sub-indications:
 
@@ -145,6 +145,19 @@ Phase 3 trials are completed in dry eye disease and in postoperative ocular infl
 - Mechanism of action data from DrugBank
 - A narrower target indication (for example dry eye disease or add-on therapy in diabetic macular oedema) with confirmed drug attribution for the ambiguous trials
 - A monitoring plan for corneal adverse events in patients with ocular surface disease or dry eye, and a review of the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

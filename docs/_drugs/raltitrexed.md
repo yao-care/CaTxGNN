@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, raltitrexed is an antifolate that targets thymidylate synthase (TYMS), an enzyme required for DNA synthesis. Its efficacy in colorectal cancer and malignant mesothelioma is established, and it works by suppressing rapidly dividing cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of raltitrexed as: Thymidylate synthase inhibitor ([ChEMBL CHEMBL225071 (raltitrexed): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL225071), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, raltitrexed is an antifolate that targets thymidylate synthase (TYMS), an enzyme required for DNA synthesis. Its efficacy in colorectal cancer and malignant mesothelioma is established, and it works by suppressing rapidly dividing cells.
 
 The link to sclerosing cholangitis is weak. Sclerosing cholangitis is an immune-mediated, fibroinflammatory disease of the bile ducts, and there is no established rationale for cytotoxic antifolate therapy in it. The very high score from the TxGNN model (deep learning), 0.9997, may reflect similarities the model learned between related diseases, not biological evidence, and it does not indicate demonstrated benefit.
 
@@ -106,6 +106,19 @@ The prediction is supported only by the TxGNN model score, with no clinical tria
 - Preclinical or mechanistic studies linking thymidylate synthase inhibition to biliary inflammation or fibrosis
 - Approved indication text for the Canadian licence (DIN 02229566)
 - A risk-benefit assessment for a non-malignant condition, given the myelosuppression risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL225071 (raltitrexed): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL225071) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

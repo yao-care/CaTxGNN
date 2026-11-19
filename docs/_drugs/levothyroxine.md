@@ -61,7 +61,7 @@ It is a model-only prediction and should be treated with caution.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Levothyroxine is a synthetic form of the thyroid hormone thyroxine. It is used for hypothyroidism, myxedema, goitre, Hashimoto thyroiditis and several thyroid cancers. These uses are not confirmed here by label text.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levothyroxine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), label version 2026-11-06; accessed 2026-11-19.) Levothyroxine is a synthetic form of the thyroid hormone thyroxine. It is used for hypothyroidism, myxedema, goitre, Hashimoto thyroiditis and several thyroid cancers. These uses are not confirmed here by label text.
 
 Thyroid hormone plays a role in kidney development and maturation, so a biological link is conceivable. However, renal hypodysplasia/aplasia is a structural congenital malformation that arises in utero. Postnatal levothyroxine is unlikely to reverse it.
 
@@ -124,6 +124,19 @@ The prediction rests only on a TxGNN model (deep learning) score, with no clinic
 - Health Canada package insert warnings and contraindications
 - Indication text, dosage form and route information for the Canadian licences
 - Safety analysis for the target population (fetal, neonatal or paediatric) before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

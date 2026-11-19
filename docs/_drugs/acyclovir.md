@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is punctate epithelial keratoconjunctivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, acyclovir is a nucleoside analogue that is activated by viral thymidine kinase and inhibits viral DNA polymerase. Its efficacy in herpesvirus infections is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acyclovir: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), label version 2026-06-26; accessed 2026-11-19.) Based on general knowledge, acyclovir is a nucleoside analogue that is activated by viral thymidine kinase and inhibits viral DNA polymerase. Its efficacy in herpesvirus infections is well established.
 
 **Top-ranked prediction (punctate epithelial keratoconjunctivitis):** Any benefit would depend on a herpesvirus cause. The only two papers retrieved concern microsporidial keratoconjunctivitis and drug-induced corneal lipidosis in AIDS, neither of which is herpesvirus-driven. The very high model score is not supported by clinical data.
 
@@ -180,11 +180,12 @@ Please refer to the package insert for key warnings and label contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

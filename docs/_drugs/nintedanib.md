@@ -60,7 +60,7 @@ but at present there are **0 clinical trials** and only **1 publication** (an in
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, nintedanib is a triple angiokinase inhibitor that blocks VEGFR1-3, FGFR1-3 and PDGFR-alpha/beta. Its efficacy in pulmonary fibrosis and lung cancer is established, and it may be mechanistically applicable to DFSP.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nintedanib: "Nintedanib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs) and non-receptor tyrosine kinases (nRTKs). Nintedanib inhibits the following RTKs: platelet-derived growth factor receptor (PDGFR) α and β, fibroblast growth factor receptor (FGFR) 1-3, vascular endothelial growth factor receptor (VEGFR) 1-3, colony stimulating factor 1 receptor (CSF1R), and Fms-like tyrosine kinase-3 (FLT-3)." ([DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa), label version 2026-04-21; accessed 2026-11-19.) Based on known pharmacology, nintedanib is a triple angiokinase inhibitor that blocks VEGFR1-3, FGFR1-3 and PDGFR-alpha/beta. Its efficacy in pulmonary fibrosis and lung cancer is established, and it may be mechanistically applicable to DFSP.
 
 DFSP is driven by the COL1A1-PDGFB fusion gene. This fusion produces constitutive PDGFB autocrine activation of PDGFR-beta. Because nintedanib inhibits PDGFR, it plausibly targets this pathway. Its antifibrotic and antiangiogenic activity adds a general biological rationale.
 
@@ -134,6 +134,19 @@ The prediction has a plausible mechanism through PDGFR inhibition in COL1A1-PDGF
 - Preclinical data (for example, DFSP cell lines or imatinib-resistant models) or case series with nintedanib
 - A defined clinical niche, such as imatinib-resistant or unresectable DFSP
 - Review of the bleeding-risk interactions with antithrombotic drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nintedanib Capsules, 100 Mg And 150 Mg (nintedanib) prescribing information, EXELAN PHARMACEUTICALS INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60d8104e-cb6c-4f4f-8159-95ed57346ffa) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

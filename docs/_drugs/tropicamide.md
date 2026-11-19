@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on known information, tropicamide is a muscarinic antagonist (anticholinergic). Pharmacology records list it as acting on the M2, M3, M4 and M5 muscarinic receptors. It is used as a short-acting mydriatic to allow better examination of the lens, vitreous humor and retina.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for tropicamide: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), label version 2023-02-15; accessed 2026-11-19.) Based on known information, tropicamide is a muscarinic antagonist (anticholinergic). Pharmacology records list it as acting on the M2, M3, M4 and M5 muscarinic receptors. It is used as a short-acting mydriatic to allow better examination of the lens, vitreous humor and retina.
 
 Cauda equina syndrome often causes bladder and bowel dysfunction. Anticholinergic drugs can reduce detrusor (bladder muscle) overactivity, which gives a theoretical, class-level link between tropicamide and the symptoms of this condition. This link is inferred from the drug class, not from tropicamide-specific data.
 
@@ -108,6 +108,19 @@ The prediction rests only on a model score (Evidence Level L5) and class-level p
 - Evidence that a formulation with suitable systemic or local exposure for the new indication is feasible
 - Preclinical or clinical data showing tropicamide itself has activity in the predicted indication
 - Review of the knowledge-graph contraindication links against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

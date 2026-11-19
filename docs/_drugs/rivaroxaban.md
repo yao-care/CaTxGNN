@@ -58,7 +58,7 @@ Rivaroxaban is an oral Factor Xa inhibitor (anticoagulant) marketed in Canada. T
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, rivaroxaban is a direct Factor Xa inhibitor, and its anticoagulant effect is well established. The Canadian licence records do not list the approved indications.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivaroxaban: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), label version 2026-09-10; accessed 2026-11-19.) Based on general knowledge, rivaroxaban is a direct Factor Xa inhibitor, and its anticoagulant effect is well established. The Canadian licence records do not list the approved indications.
 
 A possible link to rheumatoid arthritis is the crosstalk between coagulation and inflammation. Factor Xa and thrombin signal through PAR receptors, and thrombin generation is altered in autoimmune conditions (PMID 34175144). This is a hypothesis only. No evidence shows that Factor Xa inhibition changes rheumatoid arthritis disease activity or outcomes.
 
@@ -129,6 +129,18 @@ The TxGNN score is very high (0.9957), but there are no clinical trials, no stud
 | 2 | Gout | 0.9951 | L5 | No trials; the literature is about drug interactions and a case report, with no credible mechanism. Likely a network-proximity artifact. Hold. |
 | 3 | HIV infectious disease | 0.9917 | L4 | One unrelated Phase 2 VTE cohort study; the literature concerns safe co-prescribing. Ritonavir- or cobicistat-boosted antiretrovirals raise rivaroxaban exposure and bleeding risk. This is an interaction issue, not a repurposing signal. Hold. |
 | 4 | Brachydactyly-syndactyly syndrome | 0.9910 | L5 | No trials, no literature and no plausible mechanism. Hold. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

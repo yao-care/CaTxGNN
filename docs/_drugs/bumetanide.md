@@ -62,7 +62,7 @@ Bumetanide is a loop diuretic that inhibits the Na-K-2Cl cotransporter (NKCC2) i
 
 Acute pulmonary heart disease (acute cor pulmonale, for example after a massive pulmonary embolism) involves right ventricular pressure overload and dilation, with systemic venous congestion. Decongestive diuresis is therefore mechanistically plausible as supportive care for right-sided volume overload.
 
-There are important limits. Bumetanide does not treat the underlying cause (obstruction of the pulmonary vessels or raised pulmonary vascular resistance). Aggressive diuresis can also lower right ventricular preload and cardiac output when the right ventricle depends on preload, which creates a risk. The high score most likely reflects the drug's close relationship to heart failure treatment rather than disease-specific evidence. Detailed mechanism-of-action data were not available in the data compiled for this report.
+There are important limits. Bumetanide does not treat the underlying cause (obstruction of the pulmonary vessels or raised pulmonary vascular resistance). Aggressive diuresis can also lower right ventricular preload and cardiac output when the right ventricle depends on preload, which creates a risk. The high score most likely reflects the drug's close relationship to heart failure treatment rather than disease-specific evidence. According to the Mechanism of Action section of the US FDA-approved prescribing information for bumetanide: "Bumetanide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone." ([DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f), label version 2026-08-27; accessed 2026-11-19.)
 
 ---
 
@@ -115,6 +115,18 @@ The mechanism is plausible for right-sided volume overload, but no study tests b
 - Package insert warnings and contraindications from Health Canada
 - Detailed mechanism-of-action data
 - A haemodynamic safety assessment for patients with preload-dependent right ventricular failure
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

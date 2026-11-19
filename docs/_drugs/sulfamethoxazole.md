@@ -56,7 +56,7 @@ Evidence is limited to **0 clinical trials** and **1 publication** (a susceptibi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on general knowledge, sulfamethoxazole inhibits bacterial dihydropteroate synthase, which blocks folate synthesis. This is a plausible antibacterial mechanism against the pathogens that cause bacterial conjunctivitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfamethoxazole as: Bacterial dihydropteroate synthase inhibitor ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, sulfamethoxazole inhibits bacterial dihydropteroate synthase, which blocks folate synthesis. This is a plausible antibacterial mechanism against the pathogens that cause bacterial conjunctivitis.
 
 Conjunctivitis already appears among the drug's original indications, so the high TxGNN score (0.9963) most likely reflects this existing association and the drug's antibacterial class. It should not be read as new, independent evidence.
 
@@ -109,6 +109,19 @@ Conjunctivitis is already an original indication, so this is not a true repurpos
 - Mechanism of action data confirmed from DrugBank
 - Clinical efficacy evidence, ideally comparative trials, in bacterial conjunctivitis
 - Confirmation of whether an ophthalmic or topical route is relevant, since the licensed products are listed without dosage form details
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

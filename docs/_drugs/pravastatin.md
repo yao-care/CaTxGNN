@@ -60,8 +60,7 @@ but the data compiled for this report contain **1 clinical trial** (which tests 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, pravastatin inhibits HMG-CoA reductase, which reduces cholesterol synthesis in the liver and upregulates hepatic LDL receptors, increasing LDL clearance from the blood.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pravastatin: "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), label version 2026-10-23; accessed 2026-11-19.) Based on general pharmacology, pravastatin inhibits HMG-CoA reductase, which reduces cholesterol synthesis in the liver and upregulates hepatic LDL receptors, increasing LDL clearance from the blood.
 
 This is also an extension of an existing lipid-lowering use rather than true repurposing.
 
@@ -131,6 +130,19 @@ The only trial listed tests alirocumab, not pravastatin, and the literature cons
 ---
 
 **Note on other predictions:** HIV-associated dyslipidemia (L2) is a research question with small trials. The remaining predictions have little or no supporting evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

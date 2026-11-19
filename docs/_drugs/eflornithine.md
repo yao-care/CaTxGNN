@@ -56,7 +56,7 @@ Of the ten predictions generated, only bovine trypanosomiasis has any supporting
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, eflornithine irreversibly inhibits ornithine decarboxylase (ODC), the first enzyme in polyamine synthesis. This is the basis of its use in late-stage Gambian human African trypanosomiasis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eflornithine: "Eflornithine is an irreversible inhibitor of the enzyme ornithine decarboxylase (ODC), the first and rate-limiting enzyme in the biosynthesis of polyamines and a transcriptional target of MYCN. Polyamines are involved in differentiation and proliferation of mammalian cells and are important for neoplastic transformation." ([DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5), label version 2026-03-26; accessed 2026-11-19.) Based on known pharmacology, eflornithine irreversibly inhibits ornithine decarboxylase (ODC), the first enzyme in polyamine synthesis. This is the basis of its use in late-stage Gambian human African trypanosomiasis.
 
 For esotropia, however, no clear mechanistic link was identified. No known pathway connects polyamine depletion to the pathophysiology of strabismus. The high TxGNN score reflects a network-based prediction, not clinical or literature evidence, and should be read with caution.
 
@@ -106,6 +106,19 @@ The esotropia prediction rests only on a network score. It has no clinical, lite
 - Detailed mechanism of action data from DrugBank
 - A plausible mechanistic hypothesis linking polyamine/ODC inhibition to esotropia, supported by preclinical data
 - If pursuing bovine trypanosomiasis, direct veterinary efficacy studies against the relevant Trypanosoma species
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iwilfin (eflornithine hydrochloride) prescribing information, USWM, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6716d8cc-66e6-4cee-935c-ccb85ed984f5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

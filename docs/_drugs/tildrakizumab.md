@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **severe nonproliferative diabe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the compiled data. Based on known information, tildrakizumab is an antibody that blocks the p19 subunit of IL-23, a cytokine that drives the IL-23/IL-17 inflammatory axis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tildrakizumab: "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), label version 2026-11-02; accessed 2026-11-19.) Based on known information, tildrakizumab is an antibody that blocks the p19 subunit of IL-23, a cytokine that drives the IL-23/IL-17 inflammatory axis.
 
 Chronic inflammation and cytokine signalling have been proposed to contribute to retinal microvascular damage in diabetic retinopathy. This offers a possible link to IL-23 blockade. The link is speculative, because nothing in the data connects IL-23 inhibition to retinopathy outcomes. The high TxGNN score is a computational prediction without clinical corroboration.
 
@@ -101,6 +101,19 @@ The prediction is supported only by a model score, with no clinical trials, no l
 - Preclinical or literature evidence linking IL-23/IL-17 signalling to diabetic retinopathy
 - An assessment of route of delivery and ocular penetration (systemic versus intravitreal)
 - A comparison against current standard treatments for diabetic retinopathy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

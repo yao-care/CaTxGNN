@@ -64,7 +64,7 @@ with **2 clinical trials** (one large Phase 3 trial still ongoing) and **2 publi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ticagrelor is a reversible, direct-acting P2Y12 receptor antagonist. It blocks ADP-mediated platelet activation and aggregation, which reduces clot formation on ruptured or diseased arterial plaque.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ticagrelor: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), label version 2026-05-07; accessed 2026-11-19.) Based on known pharmacology, ticagrelor is a reversible, direct-acting P2Y12 receptor antagonist. It blocks ADP-mediated platelet activation and aggregation, which reduces clot formation on ruptured or diseased arterial plaque.
 
 Acute coronary syndrome and intracranial arteriosclerosis share the same underlying process: atherosclerotic plaque with platelet-driven thrombosis. Ticagrelor acts faster and more consistently than clopidogrel, particularly in people who carry CYP2C19 loss-of-function variants and respond poorly to clopidogrel. This gives a biologically sound reason to test it in symptomatic intracranial atherosclerotic stenosis and stroke prevention.
 
@@ -139,6 +139,19 @@ Ticagrelor has a plausible mechanism and a very high model score for intracrania
 ---
 
 *Other predicted indications (Monckeberg arteriosclerosis, priapism, May-Thurner syndrome, livedo reticularis, mesenteric vascular occlusion, vascular ectasia, angiodysplasia, fibrocartilaginous embolism) have little or no supporting evidence and are on Hold. Angiodysplasia is better treated as a bleeding-safety concern than as a therapeutic indication. "Ischemic disease" (rank 4) is largely an extension of the already approved coronary indication, supported by multiple large randomised trials, and is a candidate for Proceed with Guardrails (bleeding risk, patient selection, regimen duration).*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

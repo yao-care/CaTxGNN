@@ -55,7 +55,7 @@ The TxGNN model predicts they may be relevant for **migraine disorder**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for conjugated estrogens are not available in the data compiled for this report. Based on general knowledge, they are a mixture of estrogens that act on estrogen receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for conjugated estrogens: "Endogenous estrogens are largely responsible for the development and maintenance of the female reproductive system and secondary sexual characteristics. Although circulating estrogens exist in a dynamic equilibrium of metabolic interconversions, estradiol is the principal intracellular human estrogen and is substantially more potent than its metabolites, estrone and estriol, at the receptor level. […] Thus, estrone and the sulfate-conjugated form, estrone sulfate, are the most abundant circulating estrogens in postmenopausal women." ([DailyMed: Premarin Vaginal (conjugated estrogens) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96609623-528e-4aba-cabe-7254aed816d5), label version 2025-05-30; accessed 2026-11-19.) Based on general knowledge, they are a mixture of estrogens that act on estrogen receptors.
 
 Menstrual and perimenopausal migraine is linked to fluctuations in estrogen levels, so stabilising estrogen exposure could in theory change migraine frequency. The clinical literature, however, shows inconsistent effects. Oral conjugated estrogens and cyclic regimens have worsened migraine in some postmenopausal women, while transdermal, continuous regimens tend to be better tolerated. The effect therefore depends on formulation and regimen. Migraine with aura also carries a higher risk of ischaemic stroke, and estrogen adds to that concern.
 
@@ -106,6 +106,18 @@ The prediction rests on the model alone (evidence level L5). No study tests conj
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - A stroke and thrombosis risk assessment for migraine populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for conjugated estrogens are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Premarin Vaginal (conjugated estrogens) prescribing information, Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96609623-528e-4aba-cabe-7254aed816d5) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

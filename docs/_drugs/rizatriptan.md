@@ -56,8 +56,7 @@ but there are currently **no registered clinical trials** and only **general mig
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, rizatriptan is a selective 5-HT1B/1D receptor agonist (a triptan) with proven efficacy in acute migraine, and it may be mechanistically applicable to related migraine subtypes.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rizatriptan: "Rizatriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Rizatriptan presumably exerts its therapeutic effects in the treatment of migraine headache by binding to 5-HT 1B/1D receptors located on intracranial blood vessels and sensory nerves of the trigeminal system." ([DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce), label version 2025-11-26; accessed 2026-11-19.) Based on general knowledge, rizatriptan is a selective 5-HT1B/1D receptor agonist (a triptan) with proven efficacy in acute migraine, and it may be mechanistically applicable to related migraine subtypes.
 
 Two caveats apply. First, the literature found covers general migraine, migraine with aura, menstrual, vestibular and pediatric migraine, but not brainstem aura specifically. Second, triptans have historically carried cautionary labelling in hemiplegic and basilar-type migraine because of a theoretical vasoconstrictive risk. Safety in this subtype needs explicit review before any recommendation.
 
@@ -116,6 +115,19 @@ The mechanistic link to a closely related migraine subtype is plausible and the 
 - Detailed mechanism of action data
 - Subtype-specific evidence (case series, observational studies or trials) in migraine with brainstem aura
 - Explicit safety assessment of triptan use in brainstem-aura and basilar-type migraine, including vascular risk screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

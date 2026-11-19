@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **heparin cofactor 2 deficiency**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, warfarin is a vitamin K antagonist. It reduces the production of vitamin K-dependent clotting factors II, VII, IX and X, and its efficacy in thrombotic disease is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, warfarin is a vitamin K antagonist. It reduces the production of vitamin K-dependent clotting factors II, VII, IX and X, and its efficacy in thrombotic disease is well established.
 
 Heparin cofactor II deficiency is an inherited condition that predisposes people to blood clots. Because warfarin works as a long-term antithrombotic, it is a plausible option for this kind of inherited thrombophilia. However, this is an extension of warfarin's existing thrombosis use, not an independent repurposing signal.
 
@@ -135,6 +135,19 @@ For heparin cofactor 2 deficiency, evidence is limited to three old case reports
 - Comparison against current standard anticoagulant options, including direct oral anticoagulants
 - A monitoring plan covering INR, bleeding risk and key drug interactions
 - Indication text for the Canadian licences, to confirm the approved scope
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

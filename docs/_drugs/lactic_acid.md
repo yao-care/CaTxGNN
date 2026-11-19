@@ -62,7 +62,7 @@ The evidence is model prediction only. The score comes from the TxGNN model (dee
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lactic acid is a naturally occurring metabolite. In Canada it is marketed in three products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.
+ChEMBL (EMBL-EBI) records the mechanism of action of lactic acid as: pH lowering agent ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; accessed 2026-11-19.) Lactic acid is a naturally occurring metabolite. In Canada it is marketed in three products with the brand names PRISMOCAL and PRISMASOL, but the data compiled for this report do not describe their approved use.
 
 <!-- review:begin ca-lic-20261106-lactic_acid-2 -->
 
@@ -115,12 +115,13 @@ The prediction rests on a model score alone, with no trials, no relevant literat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 
 <!-- review:end log -->
 

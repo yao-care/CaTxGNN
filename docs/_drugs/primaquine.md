@@ -60,7 +60,7 @@ The prediction is purely computational and no plausible biological rationale has
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, primaquine is an 8-aminoquinoline antiprotozoal. Its efficacy against liver-stage parasites (hypnozoites) and gametocytes in malaria is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primaquine: "Primaquine phosphate is an 8-aminoquinoline antimalarial drug. The mechanism of action has not been fully established. The major assumptions are an inhibition of the mitochondrial system of dormant parasites, and an oxidative stress generated through reactive metabolites in infected cells." ([DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59), label version 2026-02-11; accessed 2026-11-19.) Based on known information, primaquine is an 8-aminoquinoline antiprotozoal. Its efficacy against liver-stage parasites (hypnozoites) and gametocytes in malaria is well established.
 
 Myiasis is a different kind of disease. It is an infestation by dipteran fly larvae, not a protozoal infection. Standard management is larval removal (occlusion or surgical extraction), wound debridement, and occasionally ivermectin or albendazole. Primaquine has no known larvicidal activity.
 
@@ -118,6 +118,19 @@ For context, the other predictions in the same analysis are better supported. Pr
 - Mechanism of action data for primaquine, to support a mechanistic-link analysis
 - Package insert warnings and contraindications from Health Canada
 - A review of the similarities the TxGNN model (deep learning) learned between related diseases that drive the score, to check whether the score is simply inherited from the parent disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

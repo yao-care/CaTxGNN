@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **multiple endocrine neoplasia** (sco
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase (RdRp). Its established use is in viral disease, with the literature centred on COVID-19.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for remdesivir: "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), label version 2026-07-29; accessed 2026-11-19.) Based on general knowledge, remdesivir is a nucleotide analog prodrug that inhibits viral RNA-dependent RNA polymerase (RdRp). Its established use is in viral disease, with the literature centred on COVID-19.
 
 The predicted indication, multiple endocrine neoplasia, is a hereditary tumor syndrome (for example MEN1 or RET mutations) with no viral cause. **No mechanistic link could be identified.** The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -134,6 +134,19 @@ The top prediction, multiple endocrine neoplasia, has no clinical trials, no lit
 - Mechanism of action data (for example from DrugBank)
 - Preclinical or mechanistic evidence linking remdesivir to endocrine tumour biology, if this prediction is to be pursued
 - Prioritisation of the CMV and HIV predictions for literature review. HIV evidence is currently limited to a pharmacokinetic interaction study, and CMV evidence to co-infection reports in COVID-19.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

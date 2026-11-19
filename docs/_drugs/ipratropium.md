@@ -55,7 +55,7 @@ This prediction largely overlaps with the existing COPD use, so it is closer to 
 
 ## Why is This Prediction Reasonable?
 
-Ipratropium is a muscarinic receptor antagonist. It blocks muscarinic receptors on airway smooth muscle, which reduces cholinergic (vagal) bronchoconstriction and mucus secretion. Detailed mechanism-of-action data was not available in the data compiled for this report, but the published reviews describe this as the established mechanism.
+Ipratropium is a muscarinic receptor antagonist. It blocks muscarinic receptors on airway smooth muscle, which reduces cholinergic (vagal) bronchoconstriction and mucus secretion. According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) The published reviews describe this as the established mechanism.
 
 COPD is itself a form of obstructive lung disease. The predicted indication therefore sits within the drug's existing use rather than outside it. Asthma, acute exacerbations and COPD all involve airway narrowing that is partly driven by cholinergic tone, which is why anticholinergics are used alone or combined with salbutamol (a beta-agonist).
 
@@ -150,11 +150,12 @@ Several large, completed Phase 3 trials, including one with 1,118 COPD participa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

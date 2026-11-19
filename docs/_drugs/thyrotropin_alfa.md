@@ -60,7 +60,7 @@ The prediction rests on the TxGNN model (deep learning) score alone, which may r
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Thyrotropin alfa is a recombinant form of human TSH, so it would be expected to act by stimulating the TSH receptor on thyroid tissue. The indication text for its Canadian license is also empty, so the original indication cannot be confirmed from the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for thyrotropin alfa: "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), label version 2023-02-24; accessed 2026-11-19.) Thyrotropin alfa is a recombinant form of human TSH, so it would be expected to act by stimulating the TSH receptor on thyroid tissue. The indication text for its Canadian license is also empty, so the original indication cannot be confirmed from the data compiled for this report.
 
 No established mechanism links TSH receptor stimulation to migraine. The very high TxGNN score (0.9998, rank 691) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not clinical or mechanistic evidence. The lack of any trial or publication means the prediction is a hypothesis only.
 
@@ -119,6 +119,19 @@ The prediction is supported only by a model score, with no clinical trials, publ
 - Mechanism of action data, for example from DrugBank
 - A literature and trial search to find any link between thyroid or TSH signalling and migraine
 - A mechanistic rationale for why TSH receptor agonism could help migraine, which is currently absent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

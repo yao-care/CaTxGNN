@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Salicylic acid is generally proposed to act through inhibition of COX enzymes and modulation of inflammatory signalling (such as NF-kB). However, public bioactivity data confirming a primary molecular target are lacking.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for salicylic acid: "Although the exact mode of action for salicylic acid in the treatment of warts is unknown, its activity appears to be associated with its keratolytic action, which results in mechanical removal of epidermal cells infected with wart viruses." ([DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b), label version 2025-10-15; accessed 2026-11-19.) Salicylic acid is generally proposed to act through inhibition of COX enzymes and modulation of inflammatory signalling (such as NF-kB). However, public bioactivity data confirming a primary molecular target are lacking.
 
 Papillary conjunctivitis is an allergic or inflammatory eye condition. Salicylic acid is already linked to inflammatory and allergic conditions such as allergic rhinitis, which gives a possible shared inflammatory basis for the prediction. This link is inferred only.
 
@@ -116,11 +116,12 @@ The prediction for papillary conjunctivitis has a high model score (0.9988) but 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "None are cancelled" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->
 

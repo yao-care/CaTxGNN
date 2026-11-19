@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge (not the data compiled for this report), trimethoprim is an antibacterial that inhibits bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including conjunctivitis and blepharoconjunctivitis, is established, and it is used in ophthalmic solutions, typically combined with polymyxin B.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Based on general pharmacological knowledge (not the data compiled for this report), trimethoprim is an antibacterial that inhibits bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including conjunctivitis and blepharoconjunctivitis, is established, and it is used in ophthalmic solutions, typically combined with polymyxin B.
 
 The prediction is plausible mainly because punctate epithelial keratoconjunctivitis is close to the ocular indications already linked to the drug. There is an important caveat: this condition is often viral or immune-mediated (for example adenoviral), so an antibacterial mechanism may not address the main cause. The score is high, but it is a model prediction with no supporting studies for this indication.
 
@@ -122,11 +122,12 @@ The TxGNN score is very high (0.9957), but this is a model prediction with no re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

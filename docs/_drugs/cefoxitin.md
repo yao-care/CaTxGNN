@@ -54,7 +54,7 @@ Cefoxitin is a cephamycin-class injectable antibiotic that is marketed in Canada
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on what is known, cefoxitin is a cephamycin with stability against many beta-lactamases. It is active against *Staphylococcus aureus*, *Streptococcus* species and anaerobes, which are organisms that can be involved in middle ear infections.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cefoxitin: "Cefoxitin is an antibacterial drug. […] Cefoxitin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefoxitin has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864), label version 2019-07-29; accessed 2026-11-19.) Based on what is known, cefoxitin is a cephamycin with stability against many beta-lactamases. It is active against *Staphylococcus aureus*, *Streptococcus* species and anaerobes, which are organisms that can be involved in middle ear infections.
 
 The prediction is plausible in terms of pathogen overlap, but it is not supported by clinical data. The only publication retrieved is a review of methicillin-resistant *S. aureus* (MRSA), and MRSA is intrinsically resistant to cefoxitin. That paper therefore gives no support for treatment efficacy. The high score is a model prediction only.
 
@@ -94,6 +94,19 @@ The prediction has no supporting clinical trial and only one indirect publicatio
 - Clinical or microbiological studies that directly test cefoxitin in otitis media, including local susceptibility data for the relevant pathogens
 - Health Canada package insert warnings and contraindications
 - Mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

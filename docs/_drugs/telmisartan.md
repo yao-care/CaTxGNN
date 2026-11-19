@@ -60,7 +60,7 @@ Among the other top-10 predictions, the best-supported is **intracerebral hemorr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, telmisartan blocks the angiotensin II type 1 (AT1) receptor and is also a partial PPAR-gamma agonist. These actions could plausibly improve endothelial function and reduce vasospasm, which is relevant to Prinzmetal (vasospastic) angina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for telmisartan: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the reninangiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Telmisartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10), label version 2026-11-02; accessed 2026-11-19.) Based on known pharmacology, telmisartan blocks the angiotensin II type 1 (AT1) receptor and is also a partial PPAR-gamma agonist. These actions could plausibly improve endothelial function and reduce vasospasm, which is relevant to Prinzmetal (vasospastic) angina.
 
 This link is a hypothesis only. No trials or literature were found for Prinzmetal angina, so the prediction rests on the model score and mechanistic plausibility.
 
@@ -145,6 +145,19 @@ The top-ranked prediction, Prinzmetal angina, rests on a model score and mechani
 - Health Canada package insert warnings and contraindications, to complete the safety screening
 - Renal and potassium safety monitoring plans for any new-indication population
 - Approved indication text and dosage forms for the Canadian DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

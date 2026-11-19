@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **choroideremia** (a rare inher
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Ipilimumab is known to block CTLA-4, which enhances T-cell priming and activation. This is the basis of its use in melanoma, where it helps the immune system attack tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipilimumab: "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), label version 2026-08-20; accessed 2026-11-19.) Ipilimumab is known to block CTLA-4, which enhances T-cell priming and activation. This is the basis of its use in melanoma, where it helps the immune system attack tumour cells.
 
 Choroideremia is a different kind of disease. It is an X-linked inherited retinal degeneration caused by loss of function of the *CHM* gene (REP1 protein). It is not driven by tumor immune evasion, so there is no plausible biological reason why CTLA-4 blockade would help. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -124,6 +124,18 @@ The prediction score is very high, but there are no trials or publications for c
 - Package insert warnings and contraindications, particularly for ocular adverse events
 - Detailed mechanism of action data
 - Confirmation that the high score is not a TxGNN model (deep learning) artefact
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** in the data
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, minocycline is a tetracycline-class antibiotic. Its efficacy in bacterial infections and acne is established, and mechanistically it may be applicable to inflammatory conditions of the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for minocycline: "The mechanism of action of ARESTIN as an adjunct to scaling and root planing procedures for reduction of pocket depth in patients with adult periodontitis is unknown." ([DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb), label version 2024-05-31; accessed 2026-11-19.) Based on known information, minocycline is a tetracycline-class antibiotic. Its efficacy in bacterial infections and acne is established, and mechanistically it may be applicable to inflammatory conditions of the ocular surface.
 
 The plausible mechanisms below come from general knowledge of the drug, not from the data compiled for this report. They include anti-inflammatory activity (inhibition of matrix metalloproteinase-9 and reduced cytokine production) and antimicrobial activity against bacteria on the ocular surface. Tetracycline-class drugs are already used for ocular surface inflammation, which makes the prediction biologically plausible.
 
@@ -102,6 +102,19 @@ The prediction has a high model score (0.9963) but no supporting clinical trials
 - Approved indication text and dosage forms for the three DINs
 - Assessment of route compatibility, since no ocular formulation is identified in the Canadian licence data
 - A review of the knowledge-graph contraindications (for example intracranial hypertension) against the planned patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

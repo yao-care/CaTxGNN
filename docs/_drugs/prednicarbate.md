@@ -60,7 +60,7 @@ but **no clinical trials and no publications** were found to support this direct
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, prednicarbate is a topical mid-potency corticosteroid. Its efficacy in inflammatory dermatoses is established, and it is expected to act through glucocorticoid receptor-mediated anti-inflammatory effects.
+ChEMBL (EMBL-EBI) records the mechanism of action of prednicarbate as: Glucocorticoid receptor agonist ([ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, prednicarbate is a topical mid-potency corticosteroid. Its efficacy in inflammatory dermatoses is established, and it is expected to act through glucocorticoid receptor-mediated anti-inflammatory effects.
 
 Seborrheic keratosis is one of its listed original indications. Inverted follicular keratosis is a benign epithelial lesion related to seborrheic keratosis, which likely explains the high TxGNN score. The link rests on disease similarity alone.
 
@@ -124,6 +124,19 @@ The prediction for vulvar inverted follicular keratosis is supported only by mod
 - Dosage form, route and approved indication details for the Canadian product, to check route compatibility.
 - A literature and trial search for the predicted indications. Hypertrophic lichen planus and the lichen planus variants are the most biologically plausible candidates to prioritize.
 - A vulvar-specific safety assessment covering mucosal absorption and skin atrophy, if that site is pursued.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

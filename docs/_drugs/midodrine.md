@@ -56,7 +56,7 @@ This predicted indication largely overlaps with the drug's existing use, so it i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 agonist. It causes arterial and venous vasoconstriction and raises blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for midodrine: "Midodrine hydrochloride forms an active metabolite, desglymidodrine, that is an alpha 1 -agonist, and exerts its actions via activation of the alpha-adrenergic receptors of the arteriolar and venous vasculature, producing an increase in vascular tone and elevation of blood pressure. Desglymidodrine does not stimulate cardiac beta-adrenergic receptors." ([DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba), label version 2026-11-12; accessed 2026-11-19.) Based on known information, midodrine is a prodrug whose active metabolite, desglymidodrine, is a peripheral alpha-1 agonist. It causes arterial and venous vasoconstriction and raises blood pressure.
 
 Its efficacy in orthostatic hypotension is established, and the same blood-pressure-raising effect is mechanistically applicable to other hypotensive states, such as hypotension secondary to spinal cord injury or other conditions. A 1989 review in *Drugs* describes midodrine's use in orthostatic hypotension and secondary hypotensive disorders.
 
@@ -116,6 +116,19 @@ The mechanism is direct and consistent with midodrine's established use. A compl
 - A safety monitoring plan covering supine hypertension, bradycardia and urinary retention
 
 **Other predictions:** The other nine predictions have no meaningful evidence and are on Hold. These are variably protease-sensitive prionopathy, faciodigitogenital syndrome, ADHD (two entries), sinoatrial node disease, monogenic obesity, specific developmental disorder, obsolete hypertelorism and sinoatrial block. Most appear to be TxGNN model (deep learning) artifacts. For the two sinoatrial conditions, midodrine's reflex bradycardia is a safety concern rather than a therapeutic opportunity.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

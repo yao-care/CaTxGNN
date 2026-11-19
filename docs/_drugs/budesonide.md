@@ -60,7 +60,7 @@ The 20 publications retrieved are mostly indirect: contact allergy to corticoste
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. Its efficacy in inflammatory conditions of the gut and airways is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for budesonide: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), label version 2026-06-10; accessed 2026-11-19.) Based on known pharmacology, budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. Its efficacy in inflammatory conditions of the gut and airways is established.
 
 Atopic eczema is a Th2-driven inflammatory skin disease, so a corticosteroid mechanism is biologically plausible. Topical corticosteroids are already a mainstay of atopic dermatitis care.
 
@@ -152,6 +152,19 @@ The prediction score is very high, but it is not supported by any clinical trial
 - Evidence from controlled clinical studies of a dermal budesonide formulation in atopic eczema
 - A review of route and formulation compatibility, since the licensed Canadian products are not topical dermal preparations
 - Consideration of bronchitis as a better-supported alternative, once the disease definition is clarified (classical or eosinophilic bronchitis versus bronchiolitis obliterans)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

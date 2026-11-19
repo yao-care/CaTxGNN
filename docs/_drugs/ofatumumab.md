@@ -57,7 +57,7 @@ Several completed Phase 2 trials directly study follicular lymphoma, but no comp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on the mechanistic rationale compiled, ofatumumab is a fully human anti-CD20 monoclonal antibody. It binds a distinct epitope on CD20 (the small and large extracellular loops) and kills cells through complement-dependent cytotoxicity and antibody-dependent cellular cytotoxicity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ofatumumab: "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), label version 2026-04-01; accessed 2026-11-19.) Based on the mechanistic rationale compiled, ofatumumab is a fully human anti-CD20 monoclonal antibody. It binds a distinct epitope on CD20 (the small and large extracellular loops) and kills cells through complement-dependent cytotoxicity and antibody-dependent cellular cytotoxicity.
 
 Follicular lymphoma is a CD20-positive B-cell malignancy, so the drug's target is directly present in the disease. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the leukemia and lymphoma conditions linked to ofatumumab, not biological evidence. Activity in rituximab-refractory disease is plausible because of the different epitope and stronger complement activation.
 
@@ -120,6 +120,19 @@ Multiple completed Phase 2 trials, including randomised studies, directly examin
 - Obtain mechanism-of-action data from DrugBank
 - Confirm that the licensed Canadian product (KESIMPTA) is relevant to the dose, formulation and route used in oncology trials, since its licence record lists no indication or dosage form
 - Define a safety monitoring plan, including infection and immunosuppression risk given the interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

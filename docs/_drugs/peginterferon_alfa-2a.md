@@ -58,7 +58,7 @@ Peginterferon alfa-2a is an antiviral, immune-modulating drug originally used fo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, peginterferon alfa-2a is a pegylated interferon with antiviral and immunomodulatory activity. It induces interferon-stimulated genes and enhances HBV-specific T cell and NK cell responses.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for peginterferon alfa-2a: "Pegylated recombinant human interferon alfa-2a is an inducer of the innate antiviral immune response. […] The biological activity of PEGASYS is derived from its recombinant human interferon α-2a moiety. Peginterferon α-2a binds to the human type 1 interferon receptor leading to receptor dimerization. Receptor dimerization activates multiple intracellular signal transduction pathways initially mediated by the JAK/STAT pathway." ([DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916), label version 2026-10-16; accessed 2026-11-19.) Based on known information, peginterferon alfa-2a is a pegylated interferon with antiviral and immunomodulatory activity. It induces interferon-stimulated genes and enhances HBV-specific T cell and NK cell responses.
 
 Its efficacy in chronic hepatitis C is established, and chronic hepatitis B is also listed among its original indications. Both are chronic hepatotropic viral infections in which host immune control matters, so the mechanism applies to hepatitis B. The high TxGNN score agrees with the large body of clinical evidence. Cytokine-profiling studies (for example PMID 32548156) further support the mechanism by identifying biomarkers that predict response.
 
@@ -129,6 +129,19 @@ Many Phase 3 and Phase 4 trials plus randomized trials and meta-analyses support
 - A review of the major drug interactions and a monitoring plan for neuropsychiatric and cardiac effects
 
 **Other predictions in this analysis:** Hepatitis E virus infection has only indirect evidence (all listed trials are in HBV) and should be treated as a research question. Hepatitis A, animal viral hepatitis, Omsk hemorrhagic fever, Kyasanur forest disease and the cardiac predictions (heart conduction disease, heart neoplasm, heart valve disease, ventricular septal anomaly) are supported only by model scores or by non-efficacy data, and are recommended to be **held**.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pegasys (peginterferon alfa-2a) prescribing information, pharmaand GmbH](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

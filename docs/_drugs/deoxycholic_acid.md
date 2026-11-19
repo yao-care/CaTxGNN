@@ -55,7 +55,7 @@ The TxGNN model gives its highest-ranked predictions to two rare COL4A1-related 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Deoxycholic acid is a secondary bile acid with known cytolytic, membrane-disrupting activity. Because the original indication is not recorded in the compiled data, the link between its established use and the predicted indications cannot be assessed.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deoxycholic acid: "KYBELLA is a cytolytic drug, which when injected into submental fat - in patients with moderate to severe convexity or fullness associated with submental fat - physically destroys the cell membrane causing lysis." ([DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553), label version 2026-09-11; accessed 2026-11-19.) Deoxycholic acid is a secondary bile acid with known cytolytic, membrane-disrupting activity. Because the original indication is not recorded in the compiled data, the link between its established use and the predicted indications cannot be assessed.
 
 **Rank 1 and rank 2 predictions (COL4A1-related disorders).** The top prediction is a rare monogenic disorder of the vascular basement membrane (collagen IV), and rank 2 (brain small vessel disease 1 with or without ocular anomalies) is also COL4A1-related. No known pathway connects deoxycholic acid to this pathology. The two high scores (both 0.9949) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -105,6 +105,19 @@ The top two predictions have no supporting studies and no plausible mechanism. T
 - Studies directly testing deoxycholic acid, or its FXR/TGR5 signalling, in diabetic kidney disease models
 - A safety assessment of systemic exposure, given the drug's cytolytic activity and its route of administration
 - Route compatibility assessment for the predicted indications (currently pending)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kybella (deoxycholic acid) prescribing information, Kythera Biopharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fe431ed4-ea6f-4e99-b4bc-ec25ae7b8553) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The term "obsolete" marks a deprecated disease label, so this prediction may be 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. In general, adenosine is known to slow conduction through the atrioventricular (AV) node and is used diagnostically and therapeutically in rhythm disturbances involving rapid heart rates.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adenosine: "Adenosine Injection slows conduction time through the A-V node, can interrupt the reentry pathways through the A-V node, and can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardia (PSVT), including PSVT associated with Wolff-Parkinson-White Syndrome. Adenosine Injection is antagonized competitively by methylxanthines such as caffeine and theophylline, and potentiated by blockers of nucleoside transport such as dipyridamole." ([DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30), label version 2026-08-31; accessed 2026-11-19.) In general, adenosine is known to slow conduction through the atrioventricular (AV) node and is used diagnostically and therapeutically in rhythm disturbances involving rapid heart rates.
 
 The model gives this prediction a very high score (0.9994), but the score reflects a computational pattern only. No clinical trial or publication was found that studies adenosine in bundle branch block. Because the disease term is flagged as obsolete, the prediction may reflect a deprecated ontology entry. No direct therapeutic rationale is evident, and a drug that slows cardiac conduction could even worsen conduction disturbances. The mechanistic link is therefore weak and should not be treated as support for use.
 
@@ -93,6 +93,19 @@ The prediction rests on a model score alone, with no supporting trials or public
 - A clear mechanistic rationale and preclinical or clinical evidence in the relevant condition
 - Package insert warnings and contraindications from Health Canada for safety screening
 - Mechanism of action data for adenosine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

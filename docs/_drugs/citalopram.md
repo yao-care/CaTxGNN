@@ -56,7 +56,7 @@ supported by **4 registered clinical trials** (only indirectly related to citalo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for citalopram is not available in the data compiled for this report. Based on general pharmacological knowledge, citalopram is a highly selective serotonin reuptake inhibitor. Serotonergic dysregulation in cortico-striato-thalamo-cortical circuits is central to the pathophysiology of obsessive-compulsive disorder (OCD), and SSRIs are first-line pharmacotherapy for it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.) Based on general pharmacological knowledge, citalopram is a highly selective serotonin reuptake inhibitor. Serotonergic dysregulation in cortico-striato-thalamo-cortical circuits is central to the pathophysiology of obsessive-compulsive disorder (OCD), and SSRIs are first-line pharmacotherapy for it.
 
 Depression and anxiety, which citalopram is used for, share this serotonergic mechanism and frequently co-occur with OCD. This makes the prediction mechanistically plausible. The supporting evidence is small: one randomized single-blind comparison of three SSRIs, plus several open-label studies. No placebo-controlled Phase 3 trial of citalopram in OCD was found in the data.
 
@@ -115,6 +115,18 @@ Citalopram is mechanistically plausible for OCD and has a very high TxGNN score 
 - Package insert warnings and contraindications from Health Canada
 - Detailed mechanism-of-action data
 - A cardiac (QT) monitoring plan and a review of interacting medicines, given the QT-related conditions and major interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for citalopram is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

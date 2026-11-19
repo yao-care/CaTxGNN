@@ -56,7 +56,7 @@ Mechanistically, the prediction appears implausible and potentially harmful, so 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sotalol combines beta-adrenergic blockade with class III antiarrhythmic action (potassium-channel inhibition that prolongs repolarization). Its efficacy in atrial fibrillation is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sotalol: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), label version 2024-12-16; accessed 2026-11-19.) Based on known pharmacology, sotalol combines beta-adrenergic blockade with class III antiarrhythmic action (potassium-channel inhibition that prolongs repolarization). Its efficacy in atrial fibrillation is established.
 
 The predicted condition, sick sinus syndrome 2, is linked to HCN4 variants that cause sinus node dysfunction. Sotalol's beta-blockade and prolonged repolarization are expected to slow the heart rate and **worsen** bradycardia and sinus node dysfunction. The knowledge graph itself lists sick sinus syndrome (including the familial form) as a contraindication for sotalol.
 
@@ -124,6 +124,19 @@ The TxGNN score is very high, but there are no trials or publications for sick s
 - Reconciliation of the prediction with the sick sinus syndrome contraindication, and expert review of whether it is a graph artifact
 - Exclusion or merging of the obsolete stroke susceptibility entry with the stroke disorder entry
 - Dosage form and approved-indication details for the four Canadian authorizations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

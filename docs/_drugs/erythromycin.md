@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **punctate epithelial keratoconjun
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, erythromycin is a macrolide that blocks bacterial protein synthesis and also has anti-inflammatory and immunomodulatory effects. An ophthalmic ointment containing erythromycin is among the Canadian products, so activity against the bacterial and inflammatory parts of surface eye disease is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on general knowledge, erythromycin is a macrolide that blocks bacterial protein synthesis and also has anti-inflammatory and immunomodulatory effects. An ophthalmic ointment containing erythromycin is among the Canadian products, so activity against the bacterial and inflammatory parts of surface eye disease is plausible.
 
 The only supporting paper is a pediatric review of chronic blepharokeratoconjunctivitis. It is a related condition, not punctate epithelial keratoconjunctivitis itself, so the evidence is indirect. The very high score probably reflects closeness to existing eye-infection uses rather than independent proof of benefit. No study in the data directly examines this disease, so the evidence level is L5.
 
@@ -98,6 +98,18 @@ The prediction score is very high, but no clinical trial and no study directly o
 - Mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - Approved indication text for the Canadian licences, especially the ophthalmic ointment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

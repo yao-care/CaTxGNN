@@ -60,7 +60,7 @@ Note that type 1 diabetes falls within the drug's existing diabetes indication, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, insulin degludec is a basal insulin analogue that binds the insulin receptor and replaces the insulin that people with type 1 diabetes can no longer produce. Published reviews describe it as having a long half-life (about 25 hours) and a duration of action beyond 42 hours, giving a flat and stable glucose-lowering profile.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin degludec: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), label version 2024-02-22; accessed 2026-11-19.) Based on known pharmacology, insulin degludec is a basal insulin analogue that binds the insulin receptor and replaces the insulin that people with type 1 diabetes can no longer produce. Published reviews describe it as having a long half-life (about 25 hours) and a duration of action beyond 42 hours, giving a flat and stable glucose-lowering profile.
 
 Type 1 diabetes is a form of diabetes mellitus, so the prediction lines up with the drug's established use. The high TxGNN score is consistent with this. It should be read as confirmation of an existing indication, not as true repurposing.
 
@@ -142,6 +142,19 @@ Several completed Phase 3 trials, plus randomised trials, meta-analyses and a Co
 - Mechanism of action data from DrugBank
 - A safety monitoring plan, especially for hypoglycaemia, and attention to the interacting drugs listed above
 - For the five other predicted conditions: no action unless supporting clinical or mechanistic evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

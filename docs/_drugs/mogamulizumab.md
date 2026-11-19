@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mogamulizumab is an anti-CCR4 monoclonal antibody. It is understood to work through antibody-dependent cellular cytotoxicity, depleting CCR4-positive cells, including effector regulatory T cells (Tregs).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mogamulizumab: "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), label version 2026-03-02; accessed 2026-11-19.) Based on known information, mogamulizumab is an anti-CCR4 monoclonal antibody. It is understood to work through antibody-dependent cellular cytotoxicity, depleting CCR4-positive cells, including effector regulatory T cells (Tregs).
 
 The possible link to urothelial carcinoma is that Treg depletion in the tumour microenvironment could enhance anti-tumour immunity. This is a hypothesis only. Whether urothelial tumours express CCR4 or contain a CCR4+ Treg-rich environment has not been established in the available data.
 
@@ -102,6 +102,19 @@ The prediction is supported only by the TxGNN model score. No clinical trials or
 - Preclinical evidence of CCR4 expression and CCR4+ Treg infiltration in urothelial tumours
 - Any early-phase trial or literature evidence in urothelial carcinoma
 - Approved indication text and dosage form for the Canadian licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

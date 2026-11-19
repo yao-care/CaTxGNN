@@ -60,7 +60,7 @@ The evidence is model prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, phentolamine is a non-selective alpha-adrenergic antagonist that causes vasodilation. Its efficacy in pheochromocytoma-related hypertensive crises and in peripheral vascular disease is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phentolamine: "Phentolamine Mesylate for Injection, USP produces an alpha-adrenergic block of relatively short duration. It also has direct, but less marked, positive inotropic and chronotropic effects on cardiac muscle and vasodilator effects on vascular smooth muscle." ([DailyMed: phentolamine mesylate prescribing information, Precision Dose Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e146c7ee-d2fa-433c-8768-0945e4ff0990), label version 2024-08-19; accessed 2026-11-19.) Based on known pharmacology, phentolamine is a non-selective alpha-adrenergic antagonist that causes vasodilation. Its efficacy in pheochromocytoma-related hypertensive crises and in peripheral vascular disease is well established.
 
 Visceral calciphylaxis (calcific uremic arteriolopathy) involves microvascular occlusion and ischaemia. This gives a theoretical link to a vasodilator. However, the disease is driven mainly by mineral metabolism disturbance, vascular calcification and thrombosis, so alpha-blockade is not a recognised mechanism for treating it. The high model score is not matched by any trial or publication, and the prediction should be treated as a hypothesis only.
 
@@ -120,6 +120,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - Preclinical or case-level evidence of phentolamine in calcific uremic arteriolopathy
 - An assessment of hypotension risk in patients with renal failure
 - Confirmation of the approved indications and dosage forms for the two Canadian DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: phentolamine mesylate prescribing information, Precision Dose Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e146c7ee-d2fa-433c-8768-0945e4ff0990) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

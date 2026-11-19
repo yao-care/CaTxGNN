@@ -60,7 +60,7 @@ but **no clinical trials and no directly relevant publications** currently suppo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, cladribine is a purine nucleoside analog. It is activated by deoxycytidine kinase (dCK), causing DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes. This explains its established use in lymphoid malignancies and its role in multiple sclerosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cladribine: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), label version 2026-05-27; accessed 2026-11-19.) Based on general knowledge, cladribine is a purine nucleoside analog. It is activated by deoxycytidine kinase (dCK), causing DNA strand breaks and apoptosis, mainly in lymphocytes and monocytes. This explains its established use in lymphoid malignancies and its role in multiple sclerosis.
 
 The link to the predicted indication is weak. Rhabdomyosarcoma is a solid mesenchymal tumor, not a lymphoid cancer, and no cladribine-specific mechanism has been established for it. The six highest-ranked predictions are all rhabdomyosarcoma-related (embryonal subtypes at the vagina, bile duct, and prostate, plus the parent disease). Their TxGNN model (deep learning) scores (0.9974–0.9977) may reflect similarities the model learned between related diseases, not biological evidence, so they should not be read as independent confirmations. Before any clinical consideration, preclinical validation would be needed, such as in vitro sensitivity and dCK expression in rhabdomyosarcoma cells.
 
@@ -129,6 +129,19 @@ The prediction is supported only by a model score, with 0 clinical trials and no
 - Health Canada package insert warnings and contraindications, and the approved indication text for each DIN
 - A literature search focused on cladribine in paediatric solid tumours and rhabdomyosarcoma
 - A benefit-risk assessment that accounts for myelosuppression and the major drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

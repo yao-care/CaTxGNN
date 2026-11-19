@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **respiratory malformation**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Formoterol is generally known as a long-acting beta2-adrenergic agonist, which relaxes bronchial smooth muscle and widens the airways.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for formoterol: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), label version 2025-12-10; accessed 2026-11-19.) Formoterol is generally known as a long-acting beta2-adrenergic agonist, which relaxes bronchial smooth muscle and widens the airways.
 
 That mechanism is symptomatic. It offers no plausible route for correcting structural congenital malformations of the respiratory tract. The high score of 0.9992 most likely reflects the model linking the drug to the broader category of respiratory disease rather than a real biological connection to this condition.
 
@@ -125,6 +125,18 @@ The prediction rests only on a model score. There are no clinical trials, no pub
 - Package insert warnings and contraindications from Health Canada
 - Any direct preclinical or clinical evidence in respiratory malformation
 - A clear biological rationale linking beta2-adrenergic agonism to this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

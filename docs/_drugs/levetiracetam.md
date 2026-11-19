@@ -58,7 +58,7 @@ Levetiracetam is an antiseizure medication, originally used to treat partial epi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data were not available in the data compiled for this report. Based on the literature retrieved, levetiracetam binds synaptic vesicle protein 2A (SV2A) and modulates presynaptic neurotransmitter release. This reduces neuronal hyperexcitability and explains its established activity against partial seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levetiracetam: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), label version 2026-11-11; accessed 2026-11-19.) Based on the literature retrieved, levetiracetam binds synaptic vesicle protein 2A (SV2A) and modulates presynaptic neurotransmitter release. This reduces neuronal hyperexcitability and explains its established activity against partial seizures.
 
 Partial epilepsy and status epilepticus are closely related. Status epilepticus is a prolonged seizure state in which the normal mechanisms that stop a seizure fail. A drug that dampens excessive neurotransmitter release can plausibly help stop such seizures, particularly when benzodiazepines have not worked.
 
@@ -161,11 +161,12 @@ Package insert warnings and contraindications were not available. Please refer t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "There are 20 valid single-ingredient authorizations" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

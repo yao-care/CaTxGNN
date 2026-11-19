@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but **no clinic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Butamben is generally understood as a local anesthetic that blocks voltage-gated sodium channels in nerve membranes.
+ChEMBL (EMBL-EBI) records the mechanism of action of butamben as: Transient receptor potential cation channel subfamily V member 4 inhibitor; Transient receptor potential cation channel subfamily A member 1 inhibitor ([ChEMBL CHEMBL127516 (butamben): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL127516), CC BY-SA 3.0; accessed 2026-11-19.) Butamben is generally understood as a local anesthetic that blocks voltage-gated sodium channels in nerve membranes.
 
 A theoretical link to bronchitis would be dampening of airway sensory nerve activity, which drives the cough reflex. This is speculative: no data were compiled showing that butamben has been tested for this purpose, and the route of administration needed for airway delivery has not been assessed. The high score reflects a computational prediction only and should not be read as evidence of benefit.
 
@@ -92,6 +92,19 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 - Mechanism of action data for butamben
 - Preclinical or clinical evidence that directly studies butamben in bronchitis
 - An assessment of whether a suitable route of administration exists for airway use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL127516 (butamben): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL127516) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

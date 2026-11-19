@@ -60,7 +60,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, panitumumab is an anti-EGFR (epidermal growth factor receptor) monoclonal antibody. Its efficacy in metastatic colorectal cancer is established, and mechanistically it may influence bone biology.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for panitumumab: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), label version 2026-06-23; accessed 2026-11-19.) Based on general knowledge, panitumumab is an anti-EGFR (epidermal growth factor receptor) monoclonal antibody. Its efficacy in metastatic colorectal cancer is established, and mechanistically it may influence bone biology.
 
 EGFR signaling takes part in osteoblast differentiation and bone remodeling, so EGFR blockade could change bone turnover. The direction of the effect is unclear: blockade could impair osteoblast function, or it could reduce osteoclast-supporting signals. Panitumumab is also known to cause hypomagnesemia and hypocalcemia, which could harm bone health rather than help it.
 
@@ -127,6 +127,19 @@ The prediction rests only on a computational score, with no supporting clinical 
 - Preclinical or mechanistic studies of EGFR blockade on bone turnover
 - A literature search for any clinical or observational data on anti-EGFR antibodies and bone density or fracture outcomes
 - Review of the Canadian approved indication text for the two VECTIBIX DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

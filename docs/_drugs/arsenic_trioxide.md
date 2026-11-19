@@ -56,7 +56,7 @@ At present, **no clinical trials and no publications** in the compiled data addr
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this drug is not available in the compiled data. Arsenic trioxide is generally described as an agent that induces cancer-cell death and affects cell differentiation. Whether this applies to this particular subtype is not established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for arsenic trioxide: "The mechanism of action of TRISENOX is not completely understood. Arsenic trioxide causes morphological changes and DNA fragmentation characteristic of apoptosis in NB4 human promyelocytic leukemia cells in vitro. Arsenic trioxide also causes damage or degradation of the fusion protein promyelocytic leukemia (PML)-retinoic acid receptor (RAR)-alpha." ([DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741), label version 2022-06-30; accessed 2026-11-19.) Arsenic trioxide is generally described as an agent that induces cancer-cell death and affects cell differentiation. Whether this applies to this particular subtype is not established.
 
 The predicted condition is a subtype within the broader family of myelodysplastic syndromes, which are disorders of blood-cell production in the bone marrow. Any argument for benefit is therefore indirect and works only through that broader category. No trial or publication in the compiled data is linked to this specific term. The high model score is a computational signal, not evidence of clinical benefit.
 
@@ -128,6 +128,19 @@ The model score is very high (0.9993), but no clinical trial or publication in t
 - Mechanism-of-action data to support the biological link
 - Package insert warnings and contraindications from Health Canada
 - A cardiac and electrolyte monitoring plan, including review of QT-prolonging co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for this drug is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trisenox (arsenic trioxide) prescribing information, Cephalon, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=101fc347-d0ad-4aee-8b06-9feb187fd741) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

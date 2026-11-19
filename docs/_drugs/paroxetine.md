@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Paroxetine is generally known as a selective serotonin reuptake inhibitor (SSRI), and its efficacy in depression and anxiety disorders is well established. However, this general knowledge was not part of the compiled data and cannot be linked to the biology of Ohdo syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paroxetine: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), label version 2026-09-30; accessed 2026-11-19.) Paroxetine is generally known as a selective serotonin reuptake inhibitor (SSRI), and its efficacy in depression and anxiety disorders is well established. However, this general knowledge was not part of the compiled data and cannot be linked to the biology of Ohdo syndrome.
 
 Ohdo syndrome and its variants (for example, the Say-Barber-Biesecker-Young-Simpson variant, associated with KAT6B variants) are rare neurodevelopmental disorders involving chromatin regulation, intellectual disability and characteristic facial features. No plausible pathway connecting serotonin reuptake inhibition to the underlying genetic defect has been identified from the available evidence.
 
@@ -110,6 +110,19 @@ The prediction rests solely on a model score. There are no clinical trials, no l
 - Health Canada package insert warnings and contraindications for safety screening
 - Approved indication text and dosage form details for the Canadian licenses
 - Assessment of route compatibility and the suitability of the safety profile for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

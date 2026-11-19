@@ -54,7 +54,7 @@ Olsalazine is a dimer of 5-aminosalicylic acid (5-ASA), an anti-inflammatory age
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, olsalazine is a 5-ASA dimer that colonic bacteria cleave into two active molecules. Its anti-inflammatory effects (local COX and lipoxygenase inhibition, NF-kB and PPAR-gamma modulation) act mainly on the gut lining, and very little of the drug is absorbed into the bloodstream.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olsalazine: "Upon reaching the colon, colonic bacteria convert olsalazine into 5‑aminosalicylic acid (5-ASA or mesalazine). The mechanism of action of 5-ASA (mesalamine) is not fully understood, but appears to be a topical anti-inflammatory effect on colonic epithelial cells." ([DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f), label version 2026-05-15; accessed 2026-11-19.) Based on general pharmacology, olsalazine is a 5-ASA dimer that colonic bacteria cleave into two active molecules. Its anti-inflammatory effects (local COX and lipoxygenase inhibition, NF-kB and PPAR-gamma modulation) act mainly on the gut lining, and very little of the drug is absorbed into the bloodstream.
 
 The review found no plausible mechanistic link between this action and myelodysplastic syndrome, a clonal bone marrow disorder. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top predictions point the same way:
 
@@ -113,6 +113,19 @@ The prediction rests only on the TxGNN model (deep learning), whose score may re
 - Preclinical or mechanistic evidence linking 5-ASA to haematopoietic or myelodysplastic biology
 - A literature and trial search specific to olsalazine or 5-ASA in myelodysplastic syndrome
 - A review of the haematological safety signals associated with 5-ASA-class drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

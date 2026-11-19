@@ -60,7 +60,7 @@ It is a computational signal only and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From the published literature, crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. It is approved for ALK-rearranged and ROS1-rearranged non-small cell lung cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for crizotinib: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), label version 2026-10-29; accessed 2026-11-19.) From the published literature, crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases ALK, ROS1 and c-MET. It is approved for ALK-rearranged and ROS1-rearranged non-small cell lung cancer.
 
 Gingival fibromatosis is a benign overgrowth of gum connective tissue. It is not an ALK-, ROS1- or MET-driven malignancy, and the data show no plausible link between these targets and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and it has no clinical or literature support. The prediction should be regarded as speculative.
 
@@ -125,6 +125,19 @@ Please refer to the package insert for warnings and contraindications, as these 
 - Preclinical evidence (for example fibroblast or gingival tissue models) showing a biological effect of crizotinib
 - A risk-benefit assessment for a benign indication, including route and formulation considerations
 - Consideration of other predictions with some indirect evidence, such as lung germ cell tumor, as alternative candidates for further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

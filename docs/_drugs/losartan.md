@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and only **1 publication** (a 2019
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, losartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension and diabetic nephropathy is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for losartan: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), label version 2026-09-15; accessed 2026-11-19.) Based on known information, losartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension and diabetic nephropathy is established, and mechanistically it may be applicable to malignant hypertensive renal disease.
 
 Malignant hypertensive kidney injury is closely tied to over-activation of the renin-angiotensin system. A 2019 rat study of malignant hypertensive nephrosclerosis implicated angiotensin II and NF-κB signalling in the pathology. Blocking the AT1 receptor is therefore biologically plausible.
 
@@ -119,6 +119,18 @@ The TxGNN score is very high (0.9973), and the mechanism is biologically plausib
 | 6 | Prinzmetal angina | 0.9945 | L5 | Hold | Prediction only; calcium channel blockers and nitrates are the mainstay |
 | 7 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9939 | L5 | Hold | Prediction only |
 | 8 | Brain small vessel disease 1 with or without ocular anomalies | 0.9937 | L5 | Research Question | Indirect evidence (TREAT-SVDs trial of blood-pressure-lowering agents, ARB reviews in Marfan syndrome, mouse studies); no trial matched to this disease |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

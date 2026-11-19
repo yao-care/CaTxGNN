@@ -60,7 +60,7 @@ The data compiled for this report also list two other predictions (congenital me
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, methylene blue is a redox-active dye. It is reduced to leucomethylene blue, which converts methemoglobin back to functional haemoglobin. This explains its original use. It is also known to affect nitric oxide signalling and to have antimicrobial and photosensitizing properties, but none of this is documented in the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylene blue: "Methylene blue is a water soluble thiazine dye that promotes a non-enyzmatic redox conversion of metHb to hemoglobin. In situ, methylene blue is first converted to leucomethylene blue (LMB) via NADPH reductase. It is the LMB molecule which then reduces the ferric iron of metHb to the ferrous state of normal hemoglobin." ([DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232), label version 2025-05-28; accessed 2026-11-19.) Based on general pharmacology, methylene blue is a redox-active dye. It is reduced to leucomethylene blue, which converts methemoglobin back to functional haemoglobin. This explains its original use. It is also known to affect nitric oxide signalling and to have antimicrobial and photosensitizing properties, but none of this is documented in the data compiled for this report.
 
 No plausible mechanistic link to bronchitis is supported by the available data. The retrieved literature mentions methylene blue only as a diagnostic stain (for example, in bronchoscopy) or is unrelated (plant essential oils, biosensors, beta-blockers, an endocarditis case). The very high score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -133,11 +133,12 @@ The bronchitis prediction rests on a model score alone. There are no clinical tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232) |
 
 <!-- review:end log -->
 

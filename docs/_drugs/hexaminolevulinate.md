@@ -62,7 +62,7 @@ Note: the top-ranked TxGNN prediction is bronchitis (0.9906), but it has no clin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, HAL is a precursor of protoporphyrin IX (PpIX). Neoplastic tissue accumulates PpIX preferentially, and under blue light it emits red fluorescence. This is the same principle behind its marketed use in bladder cancer imaging.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hexaminolevulinate: "Hexaminolevulinate is an ester of the heme precursor, aminolevulinic acid. After bladder instillation, hexaminolevulinate enters the bladder mucosa and is proposed to enter the intracellular space of mucosal cells where it is used as a precursor in the formation of the photoactive intermediate protoporphyrin IX (PpIX) and other photoactive porphyrins (PAPs)." ([DailyMed: Cysview (hexaminolevulinate hydrochloride) prescribing information, Photocure Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5aeed40d-6841-4adf-8940-f51d439fdfa3), label version 2026-06-03; accessed 2026-11-19.) Based on known information, HAL is a precursor of protoporphyrin IX (PpIX). Neoplastic tissue accumulates PpIX preferentially, and under blue light it emits red fluorescence. This is the same principle behind its marketed use in bladder cancer imaging.
 
 Colonic epithelium is a different tissue, but the same mechanism may apply. Neoplastic and pre-malignant colonic lesions can accumulate PpIX, so fluorescence colonoscopy could help detect lesions that white light misses. Laboratory work also shows that HAL-based photodynamic therapy induces apoptosis in a human colon carcinoma cell line, which hints at a possible therapeutic role.
 
@@ -120,6 +120,19 @@ Please refer to the package insert for other safety information, including warni
 - Confirmation of the approved indication and dosage form for CYSVIEW (DIN 02436639)
 - Assessment of route compatibility: the colonic studies used oral or local (enema) administration, while the marketed product is used for bladder imaging
 - Larger confirmatory studies with a defined diagnostic endpoint, and a safety review of the Valrubicin interaction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cysview (hexaminolevulinate hydrochloride) prescribing information, Photocure Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5aeed40d-6841-4adf-8940-f51d439fdfa3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

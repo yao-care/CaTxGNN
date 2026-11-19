@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this is 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluticasone furoate is a potent glucocorticoid receptor agonist with anti-inflammatory activity. Its efficacy in asthma and allergic rhinitis is established, and mechanistically it may be applicable to atopic eczema.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone furoate: "Fluticasone furoate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone furoate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is approximately 29.9 times that of dexamethasone and 1.7 times that of fluticasone propionate." ([DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440), label version 2025-03-06; accessed 2026-11-19.) Based on known information, fluticasone furoate is a potent glucocorticoid receptor agonist with anti-inflammatory activity. Its efficacy in asthma and allergic rhinitis is established, and mechanistically it may be applicable to atopic eczema.
 
 Asthma, allergic rhinitis and atopic eczema are all allergic (atopic) conditions that often occur together. Topical corticosteroids are a standard class of treatment for eczema, so the prediction is biologically plausible.
 
@@ -107,6 +107,19 @@ The prediction rests on a model score and class-level plausibility only (Evidenc
 - Comparison with existing topical corticosteroids to show added value
 
 **Note on other predicted indications:** Of the other seven predictions, bronchitis has the most indirect support (a COPD triple-therapy RCT, a chronic cough cohort study with fluticasone furoate, and an asthma RCT). It is best treated as a research question rather than a candidate for development. The remaining predictions have no supporting trials or literature.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluticasone Furoate Ellipta (fluticasone furoate) prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3e797fc-2636-49a0-b89e-5246b18ee440) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

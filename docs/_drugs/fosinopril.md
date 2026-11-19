@@ -60,7 +60,7 @@ but there are currently **0 clinical trials** and **0 directly relevant publicat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, fosinopril belongs to the ACE inhibitor class. These drugs lower angiotensin II and therefore blood pressure, and its efficacy in hypertension is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fosinopril: "In animals and humans, fosinopril sodium is hydrolyzed by esterases to the pharmacologically active form, fosinoprilat, a specific competitive inhibitor of angiotensin-converting enzyme (ACE). ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35), label version 2023-11-27; accessed 2026-11-19.) Based on known information, fosinopril belongs to the ACE inhibitor class. These drugs lower angiotensin II and therefore blood pressure, and its efficacy in hypertension is established.
 
 Renovascular hypertension depends heavily on the renin-angiotensin system, so blocking this pathway is mechanistically plausible. The high TxGNN score most likely reflects the close similarity between this disease and the approved hypertension indication, not new clinical evidence.
 
@@ -142,6 +142,19 @@ The prediction rests only on the model score, with no clinical trials and no sup
 - A targeted literature search on ACE inhibitors in renovascular and malignant hypertension, including renal safety in renal artery stenosis
 - An assessment of whether the existing approved hypertension indication already covers severe or malignant forms
 - A review of the biological plausibility of the lower-ranked predictions (pulmonary hypertension and Braddock syndrome) before any research question is framed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

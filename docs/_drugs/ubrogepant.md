@@ -56,7 +56,7 @@ No clinical trials are registered for this subtype, but **18 publications** on u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, ubrogepant is a small-molecule, highly selective CGRP receptor antagonist. CGRP is a key mediator of pain signalling in the trigeminovascular system during migraine attacks.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ubrogepant: "Ubrogepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3), label version 2026-09-29; accessed 2026-11-19.) Based on the published literature, ubrogepant is a small-molecule, highly selective CGRP receptor antagonist. CGRP is a key mediator of pain signalling in the trigeminovascular system during migraine attacks.
 
 Migraine with brainstem aura is a migraine subtype that shares this trigeminovascular and CGRP-mediated pathophysiology with the approved indication. The mechanistic rationale is therefore reasonable. Unlike triptans, gepants do not act through vasoconstriction, so that concern is not a barrier here.
 
@@ -116,6 +116,19 @@ The mechanistic link to the approved migraine indication is plausible, but there
 - A dedicated study or registry in this subtype, if the clinical need is confirmed
 
 **Other predictions (not recommended for follow-up):** Atrophoderma vermiculata (score 0.9940) and ulerythema ophryogenesis (score 0.9923) have no clinical trials, no literature and no clear mechanistic link to CGRP antagonism. Both remain at L5 (model prediction only) and are on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ubrelvy (ubrogepant) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=36106b14-d410-4faf-a361-2871de8198c3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

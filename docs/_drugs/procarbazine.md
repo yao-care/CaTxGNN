@@ -56,7 +56,7 @@ with **2 related clinical trials** (neither directly testing procarbazine) and *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, procarbazine is an oral alkylating-type agent with activity against lymphoma. Its efficacy in Hodgkin lymphoma is established, and mechanistically it may be applicable to follicular lymphoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for procarbazine: "The precise mode of cytotoxic action of procarbazine has not been clearly defined. After metabolic activation, procarbazine may inhibit the transmethylation of methyl groups of methionine into transfer RNA (t-RNA). The unavailability of t-RNA prevents protein synthesis, and consequently prevents DNA and RNA synthesis." ([DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756), label version 2026-10-09; accessed 2026-11-19.) Based on known information, procarbazine is an oral alkylating-type agent with activity against lymphoma. Its efficacy in Hodgkin lymphoma is established, and mechanistically it may be applicable to follicular lymphoma.
 
 Hodgkin lymphoma and follicular lymphoma are both lymphoid malignancies, and procarbazine's cytotoxic activity against lymphoid cells provides biological plausibility. Procarbazine has also been used historically in non-Hodgkin lymphoma. One report describes two patients with relapsed or refractory follicular lymphoma who achieved a complete and durable remission with a prolonged course of daily procarbazine (PMID 16690522). A low-dose oral metronomic regimen containing procarbazine (PEP-C) has also been tested in relapsed or refractory lymphoma.
 
@@ -127,6 +127,19 @@ The evidence consists of small case reports, older chemotherapy-combination stud
 - Identification of the regimen and histology in NCT00003113, and a review of PEP-C outcomes in follicular lymphoma
 - Comparison against current anti-CD20-based standards to define any niche salvage role
 - A safety-monitoring and drug-interaction management plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Matulane (procarbazine hydrochloride) prescribing information, Leadiant Biosciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1aa75a3a-18c9-49e1-91a6-293d0b7da756) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **urinary tract infection** (ma
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known class mechanism, micafungin is an echinocandin that inhibits 1,3-beta-D-glucan synthase and disrupts fungal cell wall synthesis in Candida species. This is an inference from the drug class, not from the compiled data.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.) Based on the known class mechanism, micafungin is an echinocandin that inhibits 1,3-beta-D-glucan synthase and disrupts fungal cell wall synthesis in Candida species. This is an inference from the drug class, not from the compiled data.
 
 Its efficacy in invasive Candida infections is established. Candida urinary tract infection (candiduria) is caused by the same genus, so antifungal activity is mechanistically plausible.
 
@@ -141,11 +141,12 @@ The evidence consists mostly of small cohort studies, case series, and case repo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Eight valid single-ingredient licences are on record in total; the first five are listed here" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

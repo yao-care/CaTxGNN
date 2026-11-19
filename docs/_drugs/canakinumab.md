@@ -60,7 +60,7 @@ The TxGNN model predicts it may be effective for **hepatic infarction**.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, canakinumab is a monoclonal antibody directed at the IL-1β pathway. Its efficacy in autoinflammatory diseases is established, and mechanistically it may be applicable to inflammation-driven conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for canakinumab: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), label version 2026-06-08; accessed 2026-11-19.) Based on known information, canakinumab is a monoclonal antibody directed at the IL-1β pathway. Its efficacy in autoinflammatory diseases is established, and mechanistically it may be applicable to inflammation-driven conditions.
 
 The only link to hepatic infarction is speculative. IL-1β-driven inflammation may contribute to ischemic tissue injury, and blocking it could dampen that injury. Nothing in the data compiled for this report tests this idea. The high score is a model output, not evidence of benefit.
 
@@ -116,6 +116,19 @@ The prediction rests on the model score alone, with no trials, no publications a
 - Preclinical or case-level evidence of canakinumab effect in hepatic infarction
 - Package insert warnings and contraindications from Health Canada, for safety screening
 - A review of the other predictions, since several have more support. For example, the autosomal dominant familial Mediterranean fever prediction (rank 6) has three completed Phase 3 trials and several systematic reviews. However, it overlaps with an already listed indication and is therefore largely confirmatory.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

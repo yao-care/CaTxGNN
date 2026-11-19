@@ -60,7 +60,7 @@ There are **no registered clinical trials** and **2 publications** in this area;
 
 ## Why is This Prediction Reasonable?
 
-Clobazam is a 1,5-benzodiazepine that enhances GABA-A receptor signalling. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the drug's known class behaviour. Enhancing inhibitory GABA signalling is a reasonable approach for prolonged, repetitive seizures such as those seen in refractory status epilepticus.
+Clobazam is a 1,5-benzodiazepine that enhances GABA-A receptor signalling. According to the Mechanism of Action section of the US FDA-approved prescribing information for clobazam: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), label version 2026-10-16; accessed 2026-11-19.) This description relies on the drug's known class behaviour. Enhancing inhibitory GABA signalling is a reasonable approach for prolonged, repetitive seizures such as those seen in refractory status epilepticus.
 
 Febrile infection-related epilepsy syndrome (FIRES) is a type of new-onset refractory status epilepticus in previously healthy children. Benzodiazepines are used as part of the acute seizure management, which gives a class-level reason why clobazam might fit. However, FIRES is thought to be driven largely by neuroinflammation and usually resists standard antiseizure drugs, so a GABAergic mechanism alone is unlikely to be enough.
 
@@ -112,6 +112,19 @@ The prediction score is high, but no clinical trial or publication tests clobaza
 - Detailed mechanism-of-action data and a mechanistic rationale that addresses neuroinflammation
 - Health Canada package insert warnings and contraindications
 - A safety plan covering sedation, tolerance, and the drug interactions listed above (particularly with opioids and CYP-metabolised drugs)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

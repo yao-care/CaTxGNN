@@ -56,7 +56,7 @@ The supporting evidence is mostly early-phase: **9 clinical trials** (only 2 dir
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled drug record. Based on established pharmacology, irinotecan is a topoisomerase I inhibitor. Its active metabolite, SN-38, causes DNA damage and apoptosis in rapidly dividing cells. This mechanism is not specific to one tumour type, so activity in breast carcinoma is biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irinotecan: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), label version 2026-05-12; accessed 2026-11-19.) Based on established pharmacology, irinotecan is a topoisomerase I inhibitor. Its active metabolite, SN-38, causes DNA damage and apoptosis in rapidly dividing cells. This mechanism is not specific to one tumour type, so activity in breast carcinoma is biologically plausible.
 
 The strongest indirect support comes from sacituzumab govitecan, an anti-Trop-2 antibody-drug conjugate that carries SN-38 as its payload. It has Phase 3 evidence in HR+/HER2- and triple-negative metastatic breast cancer. This validates SN-38 as a payload in breast cancer, but it does not show that free irinotecan works. Delivery, exposure and toxicity differ between the two.
 
@@ -148,11 +148,12 @@ The mechanism is plausible and the TxGNN score is high. However, direct evidence
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Nine valid single-ingredient DINs are listed in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alirocumab is a fully human antibody that binds PCSK9 (proprotein convertase subtilisin/kexin type 9). Blocking PCSK9 increases the number of LDL receptors available on liver cells and lowers circulating LDL cholesterol. Its efficacy in lipid lowering is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alirocumab: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), label version 2026-07-16; accessed 2026-11-19.) Based on known information, alirocumab is a fully human antibody that binds PCSK9 (proprotein convertase subtilisin/kexin type 9). Blocking PCSK9 increases the number of LDL receptors available on liver cells and lowers circulating LDL cholesterol. Its efficacy in lipid lowering is established.
 
 The link to the predicted indication is weak. X-linked ichthyosis is a skin disorder associated with cholesterol sulfate accumulation. No supported pathway connecting PCSK9 inhibition to this condition is evident from the available data. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it should not be read as evidence of benefit.
 
@@ -94,6 +94,19 @@ The prediction rests on a model score alone. There are no trials or publications
 - Mechanism of action data and Health Canada package insert warnings and contraindications, to support safety screening
 - Route compatibility assessment, since this is a skin disease and alirocumab is a systemic injectable
 - Comparison with other predicted indications. For example, xanthomatosis has indirect, case-level literature and a plausible LDL-lowering rationale, and "cholesterol catabolic process disease" has review-level literature, though that largely overlaps with alirocumab's existing lipid-lowering use.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

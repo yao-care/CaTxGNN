@@ -60,10 +60,9 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled drug record. Dinutuximab is known to be a monoclonal antibody against GD2, a ganglioside found on the surface of neuroblastoma cells. Its efficacy in neuroblastoma rests on targeting GD2-expressing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dinutuximab: "Dinutuximab binds to the glycolipid GD2. This glycolipid is expressed on neuroblastoma cells and on normal cells of neuroectodermal origin, including the central nervous system and peripheral nerves. Dinutuximab binds to cell surface GD2 and induces cell lysis of GD2-expressing cells through antibody-dependent cell-mediated cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC)." ([DailyMed: Unituxin (dinutuximab) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d66bdf0d-9d65-45de-ae5b-a58617c27492), label version 2026-07-06; accessed 2026-11-19.) Dinutuximab is known to be a monoclonal antibody against GD2, a ganglioside found on the surface of neuroblastoma cells. Its efficacy in neuroblastoma rests on targeting GD2-expressing tumour cells.
 
 **No mechanistic link is apparent for this prediction.** The predicted condition is a rare developmental and immunodeficiency syndrome with no known GD2-driven disease process. The high TxGNN score (0.9942) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support it. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
-
 
 The other two candidates, retroperitoneal neoplasm and BCR-ABL1-positive chronic myelogenous leukaemia, have no supporting trials or publications. The leukaemia prediction has no credible mechanistic rationale, because the disease is driven by the BCR-ABL1 fusion kinase rather than GD2.
 
@@ -135,6 +134,19 @@ The prediction has a high model score but no clinical trials, no literature, and
 - The Health Canada package insert warnings and contraindications, which are needed before any safety screening
 - Detailed mechanism-of-action data from DrugBank
 - Consideration of ganglioneuroblastoma as a more plausible lead, which would first require confirming the design and subgroup data of the neuroblastoma-family study (COG ANBL1221)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Unituxin (dinutuximab) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d66bdf0d-9d65-45de-ae5b-a58617c27492) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

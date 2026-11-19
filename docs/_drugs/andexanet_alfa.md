@@ -65,7 +65,7 @@ The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** wi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. From known pharmacology, andexanet alfa is a catalytically inactive recombinant FXa decoy. It binds and sequesters direct FXa inhibitors (and the antithrombin-heparin complex), restoring normal FXa activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for andexanet alfa: "Coagulation factor Xa (recombinant), inactivated-zhzo exerts its procoagulant effect by binding and sequestering the FXa inhibitors, rivaroxaban and apixaban. Another observed procoagulant effect of the ANDEXXA protein is its ability to bind to, and inhibit the activity of, Tissue Factor Pathway Inhibitor (TFPI)." ([DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c), label version 2025-05-23; accessed 2026-11-19.) From known pharmacology, andexanet alfa is a catalytically inactive recombinant FXa decoy. It binds and sequesters direct FXa inhibitors (and the antithrombin-heparin complex), restoring normal FXa activity.
 
 Glanzmann thrombasthenia is an inherited platelet disorder caused by deficiency or dysfunction of integrin αIIbβ3 (GPIIb/IIIa), which impairs platelet aggregation. Andexanet alfa acts on the coagulation cascade, not on platelet aggregation, so **no plausible mechanistic link** was identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -132,11 +132,12 @@ The prediction for Glanzmann thrombasthenia is supported only by a score from th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "marketed in Canada as ONDEXXYA" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Andexxa (andexanet alfa) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c) |
 
 <!-- review:end log -->
 

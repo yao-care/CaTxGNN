@@ -56,7 +56,7 @@ The TxGNN model predicts it may be relevant to **atrophoderma vermiculata**, wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Aspirin is generally known to irreversibly inhibit cyclooxygenase enzymes, which reduces prostaglandin and thromboxane production. This gives it anti-inflammatory, analgesic and antiplatelet effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aspirin and extended - release dipyridamole (a combination product containing acetylsalicylic acid): "Aspirin Aspirin inhibits platelet aggregation by irreversible inhibition of platelet cyclooxygenase and thus inhibits the generation of thromboxane A 2, a powerful inducer of platelet aggregation and vasoconstriction." ([DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1), label version 2026-08-19; accessed 2026-11-19.) Aspirin is generally known to irreversibly inhibit cyclooxygenase enzymes, which reduces prostaglandin and thromboxane production. This gives it anti-inflammatory, analgesic and antiplatelet effects.
 
 Atrophoderma vermiculata is a rare follicular atrophic skin condition. The data compiled for this report shows no clear mechanistic link between aspirin's known pharmacology and this disease. The high score is a computational network-based prediction only. Without trials, literature or a plausible mechanism, it should be treated as a hypothesis, not as a supported repurposing opportunity.
 
@@ -98,6 +98,19 @@ The prediction score is high (0.9959), but there are no clinical trials or publi
 - A systematic literature search for case reports or preclinical studies in this disease
 - Package insert warnings and contraindications from Health Canada for a safety review
 - Dermatology expert review of whether the prediction is clinically meaningful
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aspirin And Extended - Release Dipyridamole Capsules, 25 Mg / 200 Mg (aspirin and extended - release dipyridamole) prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6e652e1-b2e4-47ba-bed2-c5e902f8b8f1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

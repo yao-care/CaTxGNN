@@ -60,7 +60,7 @@ Most of the trials, however, test a sublingual formulation in fibromyalgia, so d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, cyclobenzaprine is a centrally acting muscle relaxant structurally related to tricyclic antidepressants. It is thought to act mainly in the brainstem to reduce tonic somatic motor activity. It also has 5-HT2 antagonist, antihistaminic and anticholinergic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclobenzaprine: "The mechanism of action of cyclobenzaprine for the treatment of fibromyalgia in adults is unknown. In in vitro pharmacology studies, cyclobenzaprine demonstrated functional antagonism of 5-HT 2A, α 1 -adrenergic, H 1 -histaminergic, and M 1 -muscarinic acetylcholine receptors." ([DailyMed: Tonmya (cyclobenzaprine hydrochloride) prescribing information, Tonix Medicines, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa59588-ce9b-48cf-8c5f-725a448f8571), label version 2026-08-14; accessed 2026-11-19.) Based on general pharmacology, cyclobenzaprine is a centrally acting muscle relaxant structurally related to tricyclic antidepressants. It is thought to act mainly in the brainstem to reduce tonic somatic motor activity. It also has 5-HT2 antagonist, antihistaminic and anticholinergic effects.
 
 Myofascial pain syndrome involves painful muscle trigger points and muscle tension. A drug that reduces muscle hypertonicity and spasm is therefore biologically plausible for this condition. The high TxGNN score (0.9909) is consistent with this link, but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not clinical validation.
 
@@ -140,6 +140,19 @@ For label warnings and contraindications, please refer to the package insert.
 ---
 
 *Note on other predictions:* neuralgia (score 0.9908) has no registered trials and only indirect literature (evidence level L4), and papillary conjunctivitis (score 0.9908) has no trials or literature (evidence level L5). Both are on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tonmya (cyclobenzaprine hydrochloride) prescribing information, Tonix Medicines, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa59588-ce9b-48cf-8c5f-725a448f8571) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

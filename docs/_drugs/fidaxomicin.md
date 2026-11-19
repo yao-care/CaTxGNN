@@ -56,7 +56,7 @@ but **no clinical trials and no directly relevant publications** currently suppo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, fidaxomicin is a narrow-spectrum macrocyclic antibiotic that inhibits bacterial RNA polymerase. It has in vitro activity against some Gram-positive organisms, including *Staphylococcus aureus*. Its efficacy in *C. difficile* colitis is established, and this Gram-positive activity is the likely basis of the model's prediction.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fidaxomicin: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), label version 2024-10-16; accessed 2026-11-19.) Based on known information, fidaxomicin is a narrow-spectrum macrocyclic antibiotic that inhibits bacterial RNA polymerase. It has in vitro activity against some Gram-positive organisms, including *Staphylococcus aureus*. Its efficacy in *C. difficile* colitis is established, and this Gram-positive activity is the likely basis of the model's prediction.
 
 The link to the new indication is weak. Staphylococcal scalded skin syndrome is driven by exfoliative toxins from *S. aureus* and is normally managed with systemic anti-staphylococcal agents. Fidaxomicin is barely absorbed into the bloodstream, so it is unlikely to reach effective concentrations in skin tissue. The prediction therefore has some theoretical support (Gram-positive activity) but a major practical barrier (exposure).
 
@@ -109,6 +109,19 @@ The prediction score is high (0.9971), but it is supported only by the model. Th
 - Evidence of tissue exposure or a new formulation (e.g., topical) that could reach the site of infection
 - Preclinical or clinical data on fidaxomicin activity against *S. aureus* in skin infection models
 - Route compatibility assessment between the available oral product and the route required for the new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

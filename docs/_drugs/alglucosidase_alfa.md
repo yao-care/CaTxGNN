@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, alglucosidase alfa is a recombinant form of acid alpha-glucosidase (GAA). It breaks down glycogen inside lysosomes, and its use in glycogen storage disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alglucosidase alfa: "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), label version 2025-01-10; accessed 2026-11-19.) Based on known information, alglucosidase alfa is a recombinant form of acid alpha-glucosidase (GAA). It breaks down glycogen inside lysosomes, and its use in glycogen storage disease is established.
 
 Adult polyglucosan body disease (APBD) is caused by deficiency of the glycogen branching enzyme (GBE1). This leads to buildup of poorly branched, insoluble polyglucosan in neural tissue. The only plausible link is that both conditions involve abnormal glycogen metabolism.
 
@@ -97,6 +97,19 @@ The prediction rests only on model scoring (L5). The mechanism does not address 
 - Health Canada package insert warnings and contraindications
 - Route and formulation compatibility assessment for the proposed indication
 - A literature and trial search specific to APBD
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

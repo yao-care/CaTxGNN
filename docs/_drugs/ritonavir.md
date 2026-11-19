@@ -56,7 +56,7 @@ The prediction is best viewed as a model-level extension of the existing HIV ind
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ritonavir is an HIV protease inhibitor and a strong CYP3A4 inhibitor. It is used both as an antiviral and as a pharmacokinetic booster in combination products (for example, with lopinavir in Kaletra, and with nirmatrelvir in Paxlovid).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ritonavir: "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), label version 2026-07-23; accessed 2026-11-19.) Based on general knowledge, ritonavir is an HIV protease inhibitor and a strong CYP3A4 inhibitor. It is used both as an antiviral and as a pharmacokinetic booster in combination products (for example, with lopinavir in Kaletra, and with nirmatrelvir in Paxlovid).
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV-1, and its protease is structurally similar. A protease inhibitor could therefore plausibly act on it. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as HIV/AIDS, which is already an original indication, not biological evidence.
 
@@ -140,11 +140,12 @@ Please refer to the package insert for warnings and complete safety information.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Seven valid licences are on record (all single-ingredient entries); the five main ones are shown above" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

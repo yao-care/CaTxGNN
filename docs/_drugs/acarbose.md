@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acarbose is an alpha-glucosidase inhibitor that acts locally in the gut, and its efficacy in type 2 diabetes mellitus is established. It slows carbohydrate digestion and so reduces the rise in blood sugar after meals.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acarbose: "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a), label version 2026-08-11; accessed 2026-11-19.) Based on known information, acarbose is an alpha-glucosidase inhibitor that acts locally in the gut, and its efficacy in type 2 diabetes mellitus is established. It slows carbohydrate digestion and so reduces the rise in blood sugar after meals.
 
 The link to focal stiff limb syndrome is weak. This is a rare neurological condition closely related to stiff person syndrome, which is typically autoimmune (often anti-GAD) and frequently occurs alongside diabetes. The model's high score most likely reflects network proximity to diabetes-associated autoimmune neurological conditions, not a pharmacological relationship. Acarbose has no known effect on GABAergic signalling or on the autoimmune process, so the prediction should be treated as a hypothesis only.
 
@@ -104,6 +104,19 @@ The prediction is supported only by the TxGNN score, with no clinical trials or 
 - Any clinical or preclinical evidence linking acarbose to focal stiff limb syndrome or stiff person spectrum disorders
 - Indication and dosage form details for the two Canadian DINs
 - Reassessment of whether other predicted indications have better support
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

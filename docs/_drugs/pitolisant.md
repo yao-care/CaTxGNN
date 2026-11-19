@@ -60,7 +60,7 @@ The prediction is mechanistically questionable, because pitolisant is a wake-pro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From the literature, pitolisant is a selective histamine H3 receptor antagonist/inverse agonist. By blocking the H3 autoreceptor, it increases histamine release in the brain and promotes wakefulness. That is why it works for excessive daytime sleepiness in narcolepsy.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pitolisant: "The mechanism of action of pitolisant in excessive daytime sleepiness (EDS) or cataplexy in patients 6 years and older with narcolepsy is unclear. However, its efficacy could be mediated through its activity as an antagonist/inverse agonist at histamine-3 (H3) receptors." ([DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e), label version 2026-02-13; accessed 2026-11-19.) From the literature, pitolisant is a selective histamine H3 receptor antagonist/inverse agonist. By blocking the H3 autoreceptor, it increases histamine release in the brain and promotes wakefulness. That is why it works for excessive daytime sleepiness in narcolepsy.
 
 The relationship between the original and predicted indications is weak. Both are sleep-wake disorders, which is likely why the TxGNN model (deep learning) links them. However, they call for opposite pharmacological effects. Narcolepsy treatment needs more arousal, while insomnia treatment needs less. Enhancing histaminergic signaling would more plausibly worsen insomnia, and insomnia is a recognized side effect of pitolisant. The high score (0.9971) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is not a true therapeutic rationale. Any benefit would probably be limited to indirect situations, such as residual daytime sleepiness in related sleep disorders.
 
@@ -126,6 +126,19 @@ The prediction has no clinical trial support and no insomnia-specific literature
 **Other predicted indications (for reference):**
 - **Attention deficit-hyperactivity disorder (score 0.9936, L4, research question):** H3 antagonism increases release of histamine, acetylcholine, norepinephrine and dopamine in the prefrontal cortex, which is a plausible basis for improving attention. Support is limited to preclinical and review-level literature, with no ADHD-specific pitolisant trials. Pediatric narcolepsy data show tolerability in children. This is a reasonable hypothesis worth a dedicated study.
 - **Faciodigitogenital syndrome (score 0.9929, L5, Hold):** This rare X-linked developmental disorder (caused by FGD1 mutations) has no plausible link to H3 receptor modulation. There are no trials or literature, so this is likely a prediction artifact.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Wakix (pitolisant hydrochloride) prescribing information, Harmony Biosciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8daa5562-824e-476c-9652-26ceef3d4b0e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ However, **no clinical trials and no publications** were found for this disease,
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on general pharmacology, salbutamol activates beta-2 adrenergic receptors. Preclinical work on beta-2 agonists has suggested anti-inflammatory and mast-cell-stabilizing effects in conjunctival tissue, which could in theory be relevant to an allergic eye condition such as papillary conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for salbutamol: "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), label version 2024-12-20; accessed 2026-11-19.) Based on general pharmacology, salbutamol activates beta-2 adrenergic receptors. Preclinical work on beta-2 agonists has suggested anti-inflammatory and mast-cell-stabilizing effects in conjunctival tissue, which could in theory be relevant to an allergic eye condition such as papillary conjunctivitis.
 
 This link is speculative. No clinical trial or publication retrieved for this report studies salbutamol in papillary conjunctivitis, so the prediction cannot be considered supported beyond the model score. Because there is no direct study of this disease, the evidence level is L5.
 
@@ -98,6 +98,18 @@ The TxGNN score is very high, but there are no clinical trials or publications o
 - Mechanism of action data
 - Assessment of whether an ocular route of administration is feasible, since the current Canadian products are inhaled or injectable
 - Review of package insert warnings and contraindications, including cardiovascular and metabolic cautions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

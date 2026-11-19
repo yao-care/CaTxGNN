@@ -60,7 +60,7 @@ but this is a model prediction only: **0 clinical trials** and **0 publications*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Tetrabenazine is generally known as a reversible VMAT2 inhibitor that depletes monoamines in the central nervous system. This is general pharmacology and not drawn from the compiled data. Its use has been established in hyperkinetic movement disorders, including Huntington disease and related syndromes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tetrabenazine: "The precise mechanism by which XENAZINE (tetrabenazine) exerts its anti-chorea effects is unknown but is believed to be related to its effect as a reversible depletor of monoamines (such as dopamine, serotonin, norepinephrine, and histamine) from nerve terminals. Tetrabenazine reversibly inhibits the human vesicular monoamine transporter type 2 (VMAT2) (K i ≈ 100 nM), resulting in decreased uptake of monoamines into synaptic vesicles and depletion of monoamine stores." ([DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda), label version 2026-11-06; accessed 2026-11-19.) Tetrabenazine is generally known as a reversible VMAT2 inhibitor that depletes monoamines in the central nervous system. This is general pharmacology and not drawn from the compiled data. Its use has been established in hyperkinetic movement disorders, including Huntington disease and related syndromes.
 
 No mechanistic link to the predicted indication has been established. Polycystic kidney and liver disease is a disorder of cyst formation linked to ciliary dysfunction. Nothing in the available data connects monoamine depletion through VMAT2 inhibition to this pathology. The high TxGNN score (0.9990) reflects a prediction from the TxGNN model (deep learning) and has not been corroborated by any trial or publication.
 
@@ -125,6 +125,19 @@ The prediction rests only on a computational score. There are no clinical trials
 - Health Canada package insert warnings and contraindications for safety screening
 - Preclinical evidence (cell or animal models of polycystic kidney disease) before any clinical consideration
 - A review of the other ranked predictions, none of which currently has supporting evidence either
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

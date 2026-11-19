@@ -60,7 +60,7 @@ This report covers Tourette syndrome as the prediction with the strongest eviden
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, clonidine is an alpha-2 adrenergic agonist. It reduces noradrenergic tone, which is the basis of its use in hypertension and ADHD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clonidine: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), label version 2026-08-12; accessed 2026-11-19.) Based on known information, clonidine is an alpha-2 adrenergic agonist. It reduces noradrenergic tone, which is the basis of its use in hypertension and ADHD.
 
 Tourette syndrome is a neurodevelopmental tic disorder that frequently occurs together with ADHD. Reduced noradrenergic activity in prefrontal-striatal circuits is thought to ease both tics and ADHD symptoms. Clonidine is already named as a treatment option in the 2022 European clinical guidelines for tic disorders, and a 2023 network meta-analysis supports its use. Because the original ADHD indication overlaps closely with Tourette syndrome, this is a practical label-expansion candidate.
 
@@ -151,6 +151,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - A review of clonidine's place in Tourette syndrome treatment from the guideline and meta-analysis, including comparison with approved alternatives
 - Approved indication text and dosage forms for the Canadian authorizations, to confirm whether a label expansion would be needed
 - A safety monitoring plan for blood pressure, heart rate and sedation, especially in children, and for patients with diabetes or cardiac conduction disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

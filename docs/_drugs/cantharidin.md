@@ -58,7 +58,7 @@ Cantharidin is a natural-product vesicant (blistering agent) that is used topica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for the original indication is not currently available. Based on the pharmacology data compiled for this report, cantharidin inhibits protein phosphatase 2A (PPP2CA) and protein phosphatase 1 (PPP1CA). Inhibition of these enzymes is thought to disrupt cell-to-cell connections in the skin, which produces blistering. The same pathway has been linked to its anticancer activity in laboratory reports.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cantharidin: "The mechanism of action of cantharidin in the treatment of molluscum contagiosum is unknown." ([DailyMed: Ycanth (cantharidin) prescribing information, Verrica Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7c9bdeaa-9822-4c69-a719-ea4a8643f59c), label version 2024-11-13; accessed 2026-11-19.) Based on the pharmacology data compiled for this report, cantharidin inhibits protein phosphatase 2A (PPP2CA) and protein phosphatase 1 (PPP1CA). Inhibition of these enzymes is thought to disrupt cell-to-cell connections in the skin, which produces blistering. The same pathway has been linked to its anticancer activity in laboratory reports.
 
 No plausible link has been established between these mechanisms and amenorrhea. Nothing in the data connects cantharidin to the hypothalamic-pituitary-ovarian axis or to uterine and endometrial physiology. Systemic cantharidin is also highly toxic, with renal, gastrointestinal and genitourinary irritation, which is a serious concern for any systemic use.
 
@@ -107,6 +107,19 @@ The prediction is supported only by a model score. There are no clinical trials 
 - Mechanism of action data from DrugBank
 - A literature search and a preclinical rationale linking PP2A/PP1 inhibition to reproductive physiology
 - A route and dosage form compatibility assessment, since the available product's route is unknown and systemic exposure carries toxicity risk
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for the original indication is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ycanth (cantharidin) prescribing information, Verrica Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7c9bdeaa-9822-4c69-a719-ea4a8643f59c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

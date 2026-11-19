@@ -57,7 +57,7 @@ The original indications are not listed in the Canadian license records compiled
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on the analysis in the data, cabozantinib inhibits MET, VEGFR2 and AXL. These kinases drive angiogenesis and tumour progression, and they are implicated in soft tissue sarcomas.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cabozantinib: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), label version 2025-10-19; accessed 2026-11-19.) Based on the analysis in the data, cabozantinib inhibits MET, VEGFR2 and AXL. These kinases drive angiogenesis and tumour progression, and they are implicated in soft tissue sarcomas.
 
 Cabozantinib's activity in renal cell carcinoma is well established. Liposarcoma is a soft tissue sarcoma subtype, so a mechanistic link is plausible. However, the available data are not specific to liposarcoma, and efficacy in this subtype remains unknown.
 
@@ -123,6 +123,19 @@ The same prediction list contains candidates with stronger evidence than liposar
 - **Unclassified renal cell carcinoma** (L2, Proceed with Guardrails): Several Phase 2 trials (e.g., NCT04413123, NCT03635892, NCT03541902) and published Phase 2 results (PMID 35298296, 38782695) in non-clear cell RCC support activity. Unclassified RCC is a heterogeneous subgroup and no Phase 3 evidence exists.
 - **Renal carcinoma** (L1, Proceed with Guardrails): This is the approved indication family. Phase 3 trials (METEOR, CheckMate 9ER, CONTACT-03, COSMIC-313) support benefit, so it is on-label use rather than true repurposing.
 - **Low-evidence predictions** (ovarian myxoid liposarcoma, RCC associated with neuroblastoma, amyotrophic lateral sclerosis, polymicrogyria, angiolipoma): No trials or literature were found, and the recommendation is Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

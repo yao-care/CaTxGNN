@@ -59,7 +59,7 @@ but **no clinical trials and no publications** currently support this specific p
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, lisinopril belongs to the ACE inhibitor class. Its efficacy in hypertension and myocardial infarction is established, and ACE inhibition is known to reduce remodeling after a heart attack.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisinopril: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), label version 2025-12-16; accessed 2026-11-19.) Based on known information, lisinopril belongs to the ACE inhibitor class. Its efficacy in hypertension and myocardial infarction is established, and ACE inhibition is known to reduce remodeling after a heart attack.
 
 Posteroinferior myocardial infarction is an anatomical subtype of myocardial infarction, which is already an existing indication. The high TxGNN score therefore mostly reflects overlap with the current label, not a genuinely new use.
 
@@ -68,7 +68,6 @@ Other top predictions follow a similar pattern. Posterolateral and septal myocar
 ---
 
 ## Clinical Trial Evidence
-
 
 ---
 
@@ -91,7 +90,6 @@ No related literature is available for posteroinferior myocardial infarction. Th
 | [17047621](https://pubmed.ncbi.nlm.nih.gov/17047621/) | 2006 | Clinical study (small, design unconfirmed) | Kardiologiia | Lisinopril 10 mg/day attenuated pulmonary hypertension and improved right ventricular function in heart failure patients with ischemic heart disease and COPD |
 | [14524095](https://pubmed.ncbi.nlm.nih.gov/14524095/) | 2003 | Clinical study (small, design unconfirmed) | Probl Tuberk Bolezn Legk | Lisinopril treatment in chronic cor pulmonale (no abstract available) |
 | [26895877](https://pubmed.ncbi.nlm.nih.gov/26895877/) | 2016 | Review/Commentary | Eur J Pediatr | Argues that ACE inhibitors, beta-blockers and mineralocorticoid antagonists should be used in children with chronic heart failure despite limited data |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -139,6 +137,19 @@ The top predictions are mostly anatomical subtypes of conditions where lisinopri
 - Confirmation of whether the subtype predictions are already covered by the existing myocardial infarction and hypertension labels, which would make them non-incremental
 - For chronic pulmonary heart disease, retrieval and appraisal of the full text of PMID 14524095 and 17047621 to confirm study design and size, followed by a controlled trial if the signal holds
 - No further work is suggested for Braddock syndrome or the COL4A1-related familial hematuria syndrome, where no mechanistic link or evidence was found
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

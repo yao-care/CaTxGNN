@@ -55,10 +55,9 @@ The TxGNN model gives its top prediction as **Polyclonal Hyperviscosity Syndrome
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for moxifloxacin: "Moxifloxacin Tablet is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of moxifloxacin results from inhibition of the topoisomerase II (DNA gyrase) and topoisomerase IV required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5), label version 2026-11-06; accessed 2026-11-19.) Moxifloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is well established.
 
 For the top-ranked prediction, polyclonal hyperviscosity syndrome, no plausible mechanistic link was identified. An antibacterial has no known effect on serum viscosity or immunoglobulin levels, so the high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same applies to most other top predictions, such as hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological disease, and hematopoietic and lymphoid neoplasm. All have no or only indirect evidence.
-
 
 ## Clinical Trial Evidence
 
@@ -123,6 +122,19 @@ The top-ranked predictions, including polyclonal hyperviscosity syndrome, are su
 - Mechanism of action data from DrugBank
 - For bubonic plague: confirmation of whether the current Canadian label already covers plague, and review of human clinical or guideline evidence
 - For all other predictions: de-prioritise unless independent clinical evidence appears
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

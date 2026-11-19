@@ -58,7 +58,7 @@ Triheptanoin is a medium odd-chain triglyceride (C7) that supplies heptanoate as
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, triheptanoin supplies heptanoate, which is converted to propionyl-CoA and then succinyl-CoA. This replenishes intermediates of the TCA cycle (anaplerosis). It is marketed for long-chain fatty acid oxidation disorders, where cells have difficulty producing energy from long-chain fats.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for triheptanoin: "Triheptanoin is a medium-chain triglyceride consisting of three odd-chain 7-carbon length fatty acids (heptanoate) that provide a source of calories and fatty acids to bypass the long-chain FAOD enzyme deficiencies for energy production and replacement." ([DailyMed: Dojolvi (triheptanoin) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cfeb8bd-143e-4dd7-bc34-b0bcda02460d), label version 2025-06-10; accessed 2026-11-19.) Based on known information, triheptanoin supplies heptanoate, which is converted to propionyl-CoA and then succinyl-CoA. This replenishes intermediates of the TCA cycle (anaplerosis). It is marketed for long-chain fatty acid oxidation disorders, where cells have difficulty producing energy from long-chain fats.
 
 The link to the predicted indication is weak. No plausible pathway was identified that connects anaplerotic energy-substrate supply to cataract associated with craniosynostosis. The score of 0.9998 is a TxGNN model (deep learning) prediction. It likely reflects shared network neighbours across the cataract disease family rather than a specific mechanism.
 
@@ -122,6 +122,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no c
 - The Health Canada package insert, to review the approved indication, warnings and contraindications
 - A literature and trial search focused on cataract and metabolic substrate therapy, to confirm whether any supporting evidence exists
 - A clinical review of the Major interaction with orlistat
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dojolvi (triheptanoin) prescribing information, Ultragenyx Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cfeb8bd-143e-4dd7-bc34-b0bcda02460d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

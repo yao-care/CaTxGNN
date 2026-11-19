@@ -65,7 +65,7 @@ For the second-ranked prediction, retroperitoneal neoplasm (score 0.9923): no cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, vincristine is a vinca alkaloid that binds tubulin, inhibits microtubule assembly and arrests dividing cells in metaphase. This makes it active against rapidly proliferating cells, including lymphoid cells and many tumours.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vincristine: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), label version 2026-02-17; accessed 2026-11-19.) From general pharmacology, vincristine is a vinca alkaloid that binds tubulin, inhibits microtubule assembly and arrests dividing cells in metaphase. This makes it active against rapidly proliferating cells, including lymphoid cells and many tumours.
 
 **Vertebral anomalies and variable endocrine and T-cell dysfunction.** The only loose link is the T-cell component, since vincristine is cytotoxic to lymphoid cells. The condition is a rare congenital developmental and endocrine syndrome, and there is no clear rationale for cytotoxic therapy in it. Any mechanistic argument would be speculative. The high score reflects the model's pattern matching, not demonstrated biology.
 
@@ -152,6 +152,19 @@ Label warnings and contraindications from the Health Canada package insert were 
 - For retroperitoneal neoplasm, a defined histology-specific question (for example, a specific sarcoma subtype) with systematic review of vincristine-containing regimens
 - Expert review of whether the top-ranked rare syndrome prediction has any biological basis
 - A safety monitoring plan covering hepatic impairment, neuropathy, leukopenia and key drug interactions (especially strong CYP3A inhibitors such as clarithromycin)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

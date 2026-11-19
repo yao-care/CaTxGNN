@@ -60,7 +60,7 @@ Currently there are **no registered clinical trials** and **3 publications** (on
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pyridostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pyridostigmine: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), label version 2022-09-07; accessed 2026-11-19.) Based on known information, pyridostigmine is a reversible acetylcholinesterase inhibitor. By slowing the breakdown of acetylcholine, it raises acetylcholine levels at the neuromuscular junction. This is the established symptomatic mechanism in myasthenia gravis.
 
 Thymic hyperplasia is a common feature of myasthenia gravis with acetylcholine receptor (AChR) antibodies. The predicted indication is therefore a subtype of the approved indication, so this is not true repurposing. The supporting literature is observational: a case of MuSK-positive MG with thymic hyperplasia and a cohort on thymectomy outcomes. None tests pyridostigmine specifically in this subgroup.
 
@@ -120,6 +120,19 @@ Pyridostigmine is already marketed in Canada and is a standard symptomatic treat
 - Dosage form and approved indication details for the four Canadian licences
 - Review of the knowledge-graph contraindications (asthma, urinary tract obstruction, kidney disease) in the target patient group
 - Attention to MuSK-positive MG, where cholinesterase inhibitors may respond poorly or worsen symptoms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

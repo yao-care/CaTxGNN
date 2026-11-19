@@ -56,7 +56,7 @@ This is a computational prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled records. Based on the available description, sotatercept is an activin receptor type IIA-Fc fusion protein. It traps activin and related TGF-beta superfamily ligands, such as activins and GDF8/11.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sotatercept: "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), label version 2026-09-21; accessed 2026-11-19.) Based on the available description, sotatercept is an activin receptor type IIA-Fc fusion protein. It traps activin and related TGF-beta superfamily ligands, such as activins and GDF8/11.
 
 Activin signaling has been implicated in the regulation of blood cell formation, which is the only loose biological connection to acute lymphoblastic leukemia (ALL). However, the data compiled for this report show no direct mechanistic or clinical link to ALL. The high TxGNN score is a computational prediction from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -114,6 +114,19 @@ The prediction rests only on a computational score, with no clinical trials, no 
 - Preclinical or mechanistic studies supporting an activin-pathway role in ALL
 - If prioritizing among the predictions, a focused literature and trial review for drug-induced osteoporosis, the most mechanistically coherent candidate
 - Assessment of dosage form and route compatibility with any proposed new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

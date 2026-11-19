@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, but 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase. Its efficacy in EGFR-mutant non-small cell lung cancer is established, and mechanistically it may be applicable to conditions driven by EGFR signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for gefitinib: "The epidermal growth factor receptor (EGFR) is expressed on the cell surface of both normal and cancer cells and plays a role in the processes of cell growth and proliferation. Some EGFR activating mutations (exon 19 deletion or exon 21 point mutation L858R) within NSCLC cells have been identified as contributing to the promotion of tumor cell growth, blocking of apoptosis, increasing the production of angiogenic factors and facilitating the processes of metastasis. […] Gefitinib reversibly inhibits the kinase activity of wild-type and certain activating mutations of EGFR, preventing autophosphorylation of tyrosine residues associated with the receptor, thereby inhibiting further downstream signaling and blocking EGFR-dependent proliferation." ([DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41), label version 2023-02-28; accessed 2026-11-19.) Based on known information, gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase. Its efficacy in EGFR-mutant non-small cell lung cancer is established, and mechanistically it may be applicable to conditions driven by EGFR signalling.
 
 A plausible but unproven link is EGFR-driven fibroblast proliferation in gingival fibromatosis. Nothing in the compiled data supports this. The high score (rank 2721 in the model's ordering) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The relationship to the original indication has not been assessed.
 
@@ -126,11 +126,12 @@ The prediction rests solely on a score from the TxGNN model (deep learning), whi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "All five authorisations are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Iressa (gefitinib) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=827d60e8-7e07-41b7-c28b-49ef1c4a5a41) |
 
 <!-- review:end log -->
 

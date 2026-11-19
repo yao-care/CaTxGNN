@@ -68,7 +68,7 @@ The TxGNN model's top-ranked prediction is faciodigitogenital syndrome (score 1.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacological knowledge, methylphenidate blocks the dopamine and norepinephrine transporters (DAT/NET), increasing these neurotransmitters in the brain. A longitudinal PET study in adults with ADHD (PMID 41128391) supports this effect on transporter binding.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylphenidate: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), label version 2026-10-21; accessed 2026-11-19.) Based on general pharmacological knowledge, methylphenidate blocks the dopamine and norepinephrine transporters (DAT/NET), increasing these neurotransmitters in the brain. A longitudinal PET study in adults with ADHD (PMID 41128391) supports this effect on transporter binding.
 
 **Specific developmental disorder:** This category is closely related to ADHD, which is already an approved use. The retrieved papers are almost entirely about ADHD, so the prediction may largely reflect a relabeling of the existing indication rather than true repurposing. No evidence was found for other specific developmental conditions, such as learning disabilities or developmental coordination disorder.
 
@@ -159,6 +159,19 @@ Please refer to the package insert for official warnings and contraindications.
 - Clarification of which conditions fall under "specific developmental disorder" and whether they differ from the approved ADHD indication
 - For dysthymic disorder: controlled trial evidence in patients with dysthymia who do not have ADHD
 - A cardiovascular, psychiatric and substance-abuse risk assessment given the contraindication-related conditions and the major interaction with bupropion
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ The related literature (14 publications, no registered clinical trials) addresse
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Atomoxetine is known as a selective norepinephrine reuptake inhibitor, which is how it is used in ADHD, and this mechanism could in principle be relevant to neurodevelopmental conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atomoxetine: "The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies." ([DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb), label version 2026-06-30; accessed 2026-11-19.) Atomoxetine is known as a selective norepinephrine reuptake inhibitor, which is how it is used in ADHD, and this mechanism could in principle be relevant to neurodevelopmental conditions.
 
 ADHD often co-occurs with learning disabilities and autism spectrum conditions. The literature shows that atomoxetine can improve ADHD symptoms in these groups, for example a meta-analysis of three placebo-controlled trials in 241 children with autism. However, this reflects its effect on ADHD symptoms, not a distinct effect on the developmental disorder itself. The very high score most likely reflects the close network relationship between this condition and ADHD. The prediction should therefore be treated as a research question, not as demonstrated efficacy.
 
@@ -106,6 +106,18 @@ No study tests atomoxetine in a specific developmental disorder itself. The link
 - Studies or trials that directly assess atomoxetine in the specific developmental disorder, with outcomes beyond ADHD symptoms
 - Mechanism of action data
 - Package insert warnings and contraindications from Health Canada
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

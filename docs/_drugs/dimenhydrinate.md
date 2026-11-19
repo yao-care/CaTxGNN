@@ -57,7 +57,7 @@ The Canadian licence records compiled for this report contain no approved-indica
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1-antihistamine, and the antihistamine component is responsible for much of the drug's known pharmacology.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dimenhydrinate: "While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function." ([DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c), label version 2025-01-15; accessed 2026-11-19.) Based on known information, dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1-antihistamine, and the antihistamine component is responsible for much of the drug's known pharmacology.
 
 Urticaria is driven by mast cell degranulation and histamine release, and H1-antihistamines are standard therapy for it. This shared H1-antagonist pharmacology explains the very high TxGNN score (0.9974). The link between the original indications (motion sickness, vertigo) and urticaria is therefore the same active moiety acting on the H1 receptor, not a shared disease process.
 
@@ -117,6 +117,19 @@ The mechanistic link through diphenhydramine is plausible, but no clinical trial
 - A comparison against second-generation antihistamines, including sedation and anticholinergic burden
 - Health Canada package insert warnings and contraindications, which are currently blocking safety screening
 - Detailed mechanism of action data (MOA)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

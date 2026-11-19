@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster. It has no intrinsic antiviral activity. It raises blood levels of co-administered antiretrovirals that are CYP3A substrates. Its role in HIV treatment is therefore supportive, not directly antiviral.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cobicistat: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), label version 2026-02-10; accessed 2026-11-19.) Based on known information, cobicistat is a CYP3A inhibitor used as a pharmacokinetic booster. It has no intrinsic antiviral activity. It raises blood levels of co-administered antiretrovirals that are CYP3A substrates. Its role in HIV treatment is therefore supportive, not directly antiviral.
 
 Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV, so a conceptual link to the approved HIV indication exists. The high score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any benefit would depend on pairing cobicistat with a suitable antiretroviral, and SIV is mainly a veterinary or preclinical-model indication rather than a human therapeutic target.
 
@@ -107,6 +107,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Independent mechanistic or preclinical evidence for any predicted indication
 - For SIV or feline indications, species-specific pharmacokinetic validation and a defined co-administered antiretroviral
 - A review of the high-scoring rare neurodevelopmental prediction for biological plausibility before any further work
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

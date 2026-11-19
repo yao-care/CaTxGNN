@@ -56,7 +56,7 @@ but currently only **0 registered clinical trials** and **1 publication** (a sma
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, doxazosin is a selective alpha-1 adrenergic receptor antagonist. Its efficacy in hypertension and BPH is well established, and it works by relaxing vascular and prostatic smooth muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxazosin: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), label version 2023-10-15; accessed 2026-11-19.) Based on general pharmacology, doxazosin is a selective alpha-1 adrenergic receptor antagonist. Its efficacy in hypertension and BPH is well established, and it works by relaxing vascular and prostatic smooth muscle.
 
 Adrenergic signalling influences cerebrovascular tone and sympathetic activity, both of which are hypothesised to play a role in migraine. This offers a plausible but indirect rationale for migraine prophylaxis.
 
@@ -112,6 +112,19 @@ The evidence consists of one small, 1997 uncontrolled report and a model predict
 - Official mechanism of action data
 - Health Canada package insert warnings and contraindications, as well as approved indication text and dosage forms for each DIN
 - A tolerability and orthostatic hypotension risk assessment for migraine populations, who are often younger and normotensive
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

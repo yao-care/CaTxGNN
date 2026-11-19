@@ -60,7 +60,7 @@ Among the top 10 predictions, only septicemic plague has a biologically coherent
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ofloxacin is a fluoroquinolone, a class known to inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in a range of bacterial infections is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ofloxacin: "Ofloxacin exerts its antibacterial activity by inhibiting DNA gyrase, a bacterial topoisomerase. DNA gyrase is an essential enzyme which controls DNA topology and assists in DNA replication, repair, deactivation, and transcription." ([DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de), label version 2026-10-23; accessed 2026-11-19.) Ofloxacin is a fluoroquinolone, a class known to inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in a range of bacterial infections is established.
 
 Plague is caused by *Yersinia pestis*, a Gram-negative bacterium that is susceptible to this mechanism. The extension from the original indications to plague is therefore a broadening of the antibacterial spectrum rather than a new mechanism. Laboratory studies show ofloxacin is highly active against *Y. pestis* isolates, and mouse studies show activity in experimental plague.
 
@@ -148,6 +148,19 @@ The highest-scoring predictions are unsupported by any trial or literature and h
 - Confirmation of the dosage form and route for the Canadian licence, and whether a systemic formulation is available
 - Comparison with current plague guidelines, in which other fluoroquinolones and agents are already established, and any human clinical data
 - Review of the QT, tendon, neuropathy, and drug interaction signals for the intended population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

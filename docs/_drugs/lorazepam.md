@@ -60,7 +60,7 @@ Among the other top predictions, only insomnia has a meaningful body of literatu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It produces anxiolytic, sedative and anticonvulsant effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lorazepam: "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), label version 2025-10-08; accessed 2026-11-19.) Based on general pharmacology, lorazepam is a positive allosteric modulator of the GABA-A receptor. It produces anxiolytic, sedative and anticonvulsant effects.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, no identifiable mechanistic link exists to lorazepam's original indications. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Lorazepam has no known antitumor activity. Any use would be limited to symptomatic supportive care, such as managing anxiety or seizures, and would not modify the disease.
 
@@ -154,11 +154,12 @@ The top-ranked prediction, trigeminal nerve neoplasm, has only a model score beh
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Lorazepam has 19 valid single-ingredient authorizations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Gadodiamide is a gadolinium-based contrast agent used in magnetic resonance imag
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, gadodiamide is a gadolinium-based contrast agent. It enhances MRI images and has no recognised therapeutic anti-inflammatory activity.
+ChEMBL (EMBL-EBI) records the mechanism of action of gadodiamide as: Diagnostic agent ([ChEMBL CHEMBL1200346 (gadodiamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200346), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, gadodiamide is a gadolinium-based contrast agent. It enhances MRI images and has no recognised therapeutic anti-inflammatory activity.
 
 The three publications found (2001–2002) used gadodiamide-enhanced MRI to visualize synovitis, bone marrow edema and bone erosions in patients with rheumatoid arthritis and other inflammatory joint diseases. This is a **diagnostic** use, not a therapeutic one. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At present there is no sound mechanistic reason to consider gadodiamide a treatment for rheumatoid arthritis.
 
@@ -96,6 +96,19 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 - Health Canada package insert warnings and contraindications, needed for any safety screening
 - Approved indication and dosage form details for the Canadian licence
 - Preclinical or clinical evidence of a therapeutic effect, not just diagnostic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200346 (gadodiamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200346) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

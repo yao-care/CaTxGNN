@@ -56,7 +56,7 @@ Evidence is therefore limited to preclinical and mechanistic support.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, diazoxide opens ATP-sensitive potassium (KATP) channels. In the pancreas, this suppresses insulin release, which explains its use in hyperinsulinemic hypoglycemia. The same channel-opening action is the proposed reason for its well-known side effect of excess hair growth (hypertrichosis).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diazoxide: "PROGLYCEM produces a dose-related increase in blood glucose, due primarily to an inhibition of insulin release from the pancreas, and also to an extrapancreatic effect. The hyperglycemic effect of PROGLYCEM begins within an hour and generally lasts no more than 8 hours in the presence of normal renal function." ([DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2), label version 2026-10-06; accessed 2026-11-19.) Based on known information, diazoxide opens ATP-sensitive potassium (KATP) channels. In the pancreas, this suppresses insulin release, which explains its use in hyperinsulinemic hypoglycemia. The same channel-opening action is the proposed reason for its well-known side effect of excess hair growth (hypertrichosis).
 
 This is the basis for the hair-related predictions. Minoxidil, a related vasodilator that also acts through KATP channels, is established as a hair-growth treatment. Topical diazoxide produced hair regrowth in the bald scalps of macaques, an animal model of androgenetic alopecia. The link is therefore plausible for hair-loss conditions in which stimulating follicle growth could help.
 
@@ -122,6 +122,19 @@ Please refer to the package insert for the official warnings and contraindicatio
 - Human data on topical diazoxide for androgenetic alopecia, including dose, formulation, and local and systemic safety
 - Assessment of a topical formulation, since systemic diazoxide has significant adverse effects
 - Confirmation of the approved indication and dosage form for the Canadian product (PROGLYCEM)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

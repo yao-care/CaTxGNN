@@ -62,8 +62,7 @@ It is supported by **6 clinical trials** and **20 publications**. The highest-sc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From the published literature, sonidegib is an oral Smoothened (SMO) receptor antagonist that blocks the Hedgehog signalling pathway. This pathway is abnormally activated in most basal cell carcinomas, which explains the drug's efficacy in advanced disease.
-
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sonidegib: "Sonidegib is an inhibitor of the Hh pathway. Sonidegib binds to and inhibits Smoothened, a transmembrane protein involved in Hh signal transduction." ([DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc), label version 2024-12-31; accessed 2026-11-19.) From the published literature, sonidegib is an oral Smoothened (SMO) receptor antagonist that blocks the Hedgehog signalling pathway. This pathway is abnormally activated in most basal cell carcinomas, which explains the drug's efficacy in advanced disease.
 
 **Medulloblastoma (rank 1):** The SHH subgroup of medulloblastoma, including the desmoplastic/nodular variant, is driven by Hedgehog signalling, so the link is biologically plausible. However, there are no trials or publications, and the high score is a computational prediction only. Sonidegib carries a known risk of premature growth plate closure in children, which matters because this tumour mainly affects children.
 
@@ -74,7 +73,6 @@ Several other predictions (annular epidermolytic ichthyosis, epidermolysis bullo
 ---
 
 ## Clinical Trial Evidence
-
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -140,7 +138,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-
 **Rationale:**
 - Medulloblastoma and the remaining predictions are computational signals only, with no trials or literature. Xeroderma pigmentosum is supported by a single case report that concerns BCC in an XP patient.
 
@@ -150,6 +147,19 @@ Please refer to the package insert for full warnings and contraindications.
 - Obtain detailed mechanism-of-action data.
 - For medulloblastoma, preclinical or early clinical evidence and a paediatric safety assessment (growth plate effects) before any further consideration.
 - For xeroderma pigmentosum, additional evidence beyond the single case report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Odomzo (sonidegib) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=028312dc-d155-4fd5-8abd-6bb9f011d3cc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -58,7 +58,7 @@ Miglustat is an oral drug originally used for Gaucher disease and Niemann-Pick d
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Pharmacology data do show that miglustat targets UDP-glucose ceramide glucosyltransferase (glucosylceramide synthase, gene *UGCG*). By inhibiting this enzyme, it reduces the production of glucosylceramide-based glycosphingolipids. This is the basis for its use in Gaucher disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for miglustat: "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), label version 2025-12-17; accessed 2026-11-19.) Pharmacology data do show that miglustat targets UDP-glucose ceramide glucosyltransferase (glucosylceramide synthase, gene *UGCG*). By inhibiting this enzyme, it reduces the production of glucosylceramide-based glycosphingolipids. This is the basis for its use in Gaucher disease.
 
 The original indications are lysosomal storage disorders, where lipids build up because they cannot be broken down. Ichthyosis syndromes affect the skin barrier, which depends on ceramides and related lipids. A link through glycosphingolipid or ceramide metabolism is conceivable. Reducing glucosylceramide synthesis could in principle influence the lipid balance in the skin.
 
@@ -113,6 +113,19 @@ The prediction for this condition has the highest model score but no supporting 
 - Route and formulation compatibility assessment (oral drug versus skin-targeted disease)
 
 **Additional observation:** Among the other predictions, **Tay-Sachs disease** (rank 7, score 0.9975) has considerably more support. It has 4 registered trials, including small Phase 2 and Phase 3 pharmacokinetic and safety studies and two terminated studies. It also has a randomized controlled study in late-onset Tay-Sachs (PMID 19346952) and a 2023 systematic review of GM2 gangliosidosis (PMID 37209042). This evidence is graded L2 and the stage is "Research Question". The trials are small and clear clinical benefit is not shown, so efficacy outcomes should be confirmed from the full publications. If the aim is to prioritize candidates, Tay-Sachs is the more evidence-supported direction and would merit its own report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

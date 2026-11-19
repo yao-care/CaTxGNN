@@ -76,7 +76,7 @@ The rest of this report focuses on Ewing sarcoma, with supporting notes on rhabd
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, etoposide is a topoisomerase II poison: it stabilises DNA breaks and causes double-strand DNA damage in rapidly dividing cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established, and mechanistically it may be applicable to other chemosensitive, fast-growing tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Based on known pharmacology, etoposide is a topoisomerase II poison: it stabilises DNA breaks and causes double-strand DNA damage in rapidly dividing cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established, and mechanistically it may be applicable to other chemosensitive, fast-growing tumours.
 
 Ewing sarcoma is a highly chemosensitive paediatric and young-adult bone and soft tissue cancer. Etoposide is already part of its standard backbone, alternating with ifosfamide (IE) and vincristine/doxorubicin/cyclophosphamide (VDC). A randomised trial showed that adding ifosfamide and etoposide to standard chemotherapy improved outcomes in newly diagnosed non-metastatic disease (Grier 2003). A mechanistic study also notes that Ewing sarcoma is highly sensitive to genotoxic agents such as etoposide.
 
@@ -168,6 +168,19 @@ Please refer to the package insert warnings and precautions for details.
 - Confirmation of the exact regimen, risk stratification and age-appropriate dosing
 - A plan for monitoring myelosuppression and secondary malignancy, with supportive care and a drug interaction review
 - Dosage form and route information for the Canadian products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

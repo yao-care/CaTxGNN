@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but the sup
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, isoniazid is an anti-mycobacterial agent whose efficacy in pulmonary tuberculosis is established, and mechanistically it may be applicable only to a narrow form of conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isoniazid: "Isoniazid inhibits the synthesis of mycoloic acids, an essential component of the bacterial cell wall. At therapeutic levels isoniazid is bactericidal against actively growing intracellular and extracellular Mycobacterium tuberculosis organisms." ([DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b), label version 2026-09-04; accessed 2026-11-19.) Based on known information, isoniazid is an anti-mycobacterial agent whose efficacy in pulmonary tuberculosis is established, and mechanistically it may be applicable only to a narrow form of conjunctivitis.
 
 The plausible link is limited to conjunctivitis or phlyctenular keratoconjunctivitis of tuberculous origin. In these cases, treating the underlying *Mycobacterium tuberculosis* infection, or the hypersensitivity reaction to tubercular antigens, may settle the eye inflammation. Isoniazid has no established activity against common bacterial, viral or allergic conjunctivitis.
 
@@ -131,6 +131,19 @@ The prediction has no registered clinical trials and no randomized evidence. The
 - Review the 1965 prophylaxis study and the ocular tuberculosis literature in full text
 - Assess route compatibility (for example, whether any topical ocular use is realistic), as this has not been evaluated
 - Review hepatotoxicity, neuropathy and the interaction profile before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

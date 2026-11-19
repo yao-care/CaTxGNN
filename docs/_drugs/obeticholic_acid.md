@@ -54,7 +54,7 @@ Obeticholic acid is a farnesoid X receptor (FXR) agonist marketed in Canada as O
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, obeticholic acid is a potent FXR agonist. FXR activation has been linked to anti-inflammatory effects, including suppression of NF-κB signaling and lower production of pro-inflammatory cytokines such as TNF-α and IL-6. These pathways are also central to rheumatoid arthritis (RA), a chronic autoimmune disease with synovial inflammation, oxidative stress and joint damage.
+ChEMBL (EMBL-EBI) records the mechanism of action of obeticholic acid as: Bile acid receptor FXR agonist ([ChEMBL CHEMBL566315 (obeticholic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566315), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, obeticholic acid is a potent FXR agonist. FXR activation has been linked to anti-inflammatory effects, including suppression of NF-κB signaling and lower production of pro-inflammatory cytokines such as TNF-α and IL-6. These pathways are also central to rheumatoid arthritis (RA), a chronic autoimmune disease with synovial inflammation, oxidative stress and joint damage.
 
 The strongest supporting signal is a 2026 study in rats. In a complete Freund's adjuvant-induced arthritis model, obeticholic acid attenuated arthritis through FXR-mediated modulation of the TGF-β/TAK1/MKK3/p38 MAPK pathway, inflammation and oxidative stress. This is a single animal model and has not been confirmed in humans.
 
@@ -103,6 +103,19 @@ The prediction score is high, but the evidence is limited to one preclinical rat
 - Confirmation of the anti-arthritic effect in additional animal models
 - A hepatic safety assessment for combination with methotrexate and leflunomide
 - Early-phase human data before any clinical consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL566315 (obeticholic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566315) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

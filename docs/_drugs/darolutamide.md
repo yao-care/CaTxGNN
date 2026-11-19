@@ -58,7 +58,7 @@ Darolutamide is a non-steroidal androgen receptor antagonist marketed in Canada 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, darolutamide is a non-steroidal androgen receptor antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for darolutamide: "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e), label version 2026-09-28; accessed 2026-11-19.) Based on known information, darolutamide is a non-steroidal androgen receptor antagonist.
 
 Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway. There is no clear mechanistic link between androgen receptor blockade and this pathway. The high TxGNN score (0.9911) reflects a network-based prediction only, with no supporting trials or literature, so it should not be read as evidence of efficacy.
 
@@ -84,7 +84,6 @@ For reference, the trials linked to the second-ranked prediction (multiple endoc
 ## Literature Evidence
 
 Currently no related literature available for homozygous familial hypercholesterolemia.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -138,6 +137,19 @@ The top prediction has no trials or literature behind it and no plausible mechan
 - Approved indication text, dosage form, and manufacturer for the Canadian license
 - Preclinical or mechanistic evidence linking androgen receptor signaling to LDL receptor or cholesterol metabolism, before any clinical study is considered
 - An assessment of whether the lower-ranked predictions (such as multiple endocrine neoplasia) reflect true biology or classification artifacts
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

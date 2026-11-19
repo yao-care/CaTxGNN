@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **peptic ulcer perforation**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, cimetidine is an H2-receptor antagonist that reduces gastric acid secretion. Acid suppression addresses the underlying ulcer disease, and this is the likely reason the model links the drug to ulcer perforation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cimetidine: "Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion." ([DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43), label version 2026-07-15; accessed 2026-11-19.) Based on known information, cimetidine is an H2-receptor antagonist that reduces gastric acid secretion. Acid suppression addresses the underlying ulcer disease, and this is the likely reason the model links the drug to ulcer perforation.
 
 However, perforation is an acute surgical emergency, not a condition that acid suppression alone treats. Several supplied reports describe perforation occurring while patients were on cimetidine (PMIDs 3967139, 6743974) or after it was withdrawn (PMID 922364). A hospital review found only a 10% fall in perforations after cimetidine became available, versus a 45% fall in elective ulcer operations (PMID 7082957). The score therefore most likely reflects the link to ulcer disease in general, not a demonstrated benefit for perforation. The evidence signals possible treatment failure rather than protection.
 
@@ -106,6 +106,19 @@ No trial or publication directly shows that cimetidine treats peptic ulcer perfo
 - Package insert warnings and contraindications from Health Canada
 - Mechanism of action data
 - Controlled studies, if any, that examine cimetidine as an adjunct in perforated ulcer or in preventing perforation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

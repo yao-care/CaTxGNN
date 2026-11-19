@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **cecum villous adenoma**, but 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is marketed only in combination with trifluridine, a cytotoxic nucleoside analogue, for metastatic colorectal cancer. Tipiracil prevents rapid breakdown of trifluridine, which raises its exposure and antitumour activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trifluridine and tipiracil (a combination product containing tipiracil): "LONSURF consists of a thymidine-based nucleoside analog, trifluridine, and the thymidine phosphorylase inhibitor, tipiracil, at a molar ratio 1:0.5 (weight ratio, 1:0.471). Inclusion of tipiracil increases trifluridine exposure by inhibiting its metabolism by thymidine phosphorylase." ([DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85), label version 2025-11-05; accessed 2026-11-19.) Based on known information, tipiracil is a thymidine phosphorylase inhibitor. It is marketed only in combination with trifluridine, a cytotoxic nucleoside analogue, for metastatic colorectal cancer. Tipiracil prevents rapid breakdown of trifluridine, which raises its exposure and antitumour activity.
 
 A villous adenoma of the cecum is anatomically and histologically related to colorectal neoplasia, which probably explains the high model score. However, it is a benign, premalignant lesion. There is no evidence that a cytotoxic combination would be appropriate for it, and the mechanism has not been documented for this indication. The prediction should be treated as a hypothesis only.
 
@@ -149,6 +149,19 @@ The prediction for cecum villous adenoma is supported by model score only (L5), 
 - Preclinical or early clinical data for the predicted indication
 - A risk-benefit assessment of cytotoxic treatment for a benign lesion
 - Approved indication text and dosage form details for the two DINs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lonsurf (trifluridine and tipiracil) prescribing information, Taiho Pharmaceutical Co., Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5beed22-d71d-4c0d-8dca-2c7317d65d85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

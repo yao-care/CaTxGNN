@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **colobomatous microphthalmia-rhizome
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available. Based on known information, azathioprine is a thiopurine immunosuppressant. It is converted to 6-mercaptopurine and then to thioguanine nucleotides, which inhibit purine synthesis and suppress lymphocyte function. Its efficacy in rheumatoid arthritis, an immune-mediated condition, is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, azathioprine is a thiopurine immunosuppressant. It is converted to 6-mercaptopurine and then to thioguanine nucleotides, which inhibit purine synthesis and suppress lymphocyte function. Its efficacy in rheumatoid arthritis, an immune-mediated condition, is established.
 
 **For the top-ranked prediction, there is no identifiable mechanistic link.** Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare developmental malformation syndrome, and immunosuppression has no plausible relevance to its pathogenesis. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The next-ranked prediction, brachydactyly-syndactyly syndrome (a congenital limb malformation), has the same problem.
 
@@ -69,7 +69,6 @@ Other high-scoring predictions share this weakness:
 - **WHIM syndrome** and **chronic granulomatous disease variants**: these are immunodeficiencies. Azathioprine's myelosuppression and infection risk make the mechanistic direction likely unfavourable.
 - **Osteoarthritis**: it is mainly degenerative, and azathioprine's role in rheumatoid arthritis does not transfer to it.
 - **Acromesomelic dysplasia, Hunter-Thompson type**: this is a genetic skeletal dysplasia with no plausible link.
-
 
 ---
 
@@ -151,6 +150,19 @@ The top prediction has a very high model score but no clinical trials, no litera
 - Health Canada package insert warnings and contraindications, which are currently missing and block safety screening.
 - Approved indication text, dosage forms and manufacturers for the three Canadian licences.
 - If the goal is a genuine repurposing candidate, re-run the evaluation focused on predictions with a plausible mechanism, and clarify whether established uses such as IBD or UC count as new indications.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

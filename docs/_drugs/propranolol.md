@@ -56,7 +56,7 @@ The data compiled for this report show somewhat more (indirect) literature for t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, propranolol is a non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions such as hypertension, arrhythmia and hypertrophic cardiomyopathy is established, and it also has anti-proliferative and anti-angiogenic effects in vascular tumours such as hemangioma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propranolol: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), label version 2026-08-27; accessed 2026-11-19.) Based on known information, propranolol is a non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions such as hypertension, arrhythmia and hypertrophic cardiomyopathy is established, and it also has anti-proliferative and anti-angiogenic effects in vascular tumours such as hemangioma.
 
 For the top-ranked prediction, no plausible mechanistic link is established. Tateyama-type distal myopathy is a rare skeletal muscle disorder, and beta-adrenergic blockade has no known pathophysiological connection to it. The high score (0.994) should therefore be treated as a model output, not as evidence of benefit. The knowledge graph also lists myopathy, muscular disease and skeletal muscle disease as contraindications for propranolol, which points in the opposite direction.
 
@@ -84,7 +84,6 @@ Indirect literature exists for lower-ranked predictions. For cirrhotic cardiomyo
 | [38738176](https://pubmed.ncbi.nlm.nih.gov/38738176/) | 2024 | Clinical/cohort study | Frontiers in Pharmacology | Propranolol may correct prolonged QT intervals in patients with cirrhosis |
 | [35763518](https://pubmed.ncbi.nlm.nih.gov/35763518/) | 2022 | Clinical study | PLoS One | Beta-blocker cardiovascular effects are blunted in cirrhosis; effect varies with disease severity |
 | [32446716](https://pubmed.ncbi.nlm.nih.gov/32446716/) | 2020 | Clinical/observational | Journal of Hepatology | Non-selective beta-blockers may impair circulatory and renal function in refractory ascites |
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -129,6 +128,19 @@ The top-ranked prediction rests on model score alone (L5), with no trials, no li
 - Approved indication text, dosage forms and manufacturers for the Canadian licences
 - For distal myopathy, Tateyama type: any preclinical or clinical rationale; otherwise deprioritise
 - For cirrhotic cardiomyopathy: a controlled study clarifying benefit-risk (QT correction versus circulatory and renal harm), which may be a more productive research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

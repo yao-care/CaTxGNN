@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **headache disorder**, the high
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Dexmedetomidine is known as a highly selective alpha-2 adrenergic agonist. By acting on the central nervous system, it reduces sympathetic tone and produces sedation and analgesia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexmedetomidine: "PRECEDEX is a relatively selective centrally acting alpha 2 -adrenergic agonist with sedative properties. Alpha 2 selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg)." ([DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6), label version 2026-06-17; accessed 2026-11-19.) Dexmedetomidine is known as a highly selective alpha-2 adrenergic agonist. By acting on the central nervous system, it reduces sympathetic tone and produces sedation and analgesia.
 
 For headache, the proposed rationale is that alpha-2 agonism dampens central pain transmission and neuronal hyperexcitability. It may also reduce cerebral blood flow through cerebrovascular vasoconstriction, which is relevant to PDPH, a condition linked to intracranial hypotension after cerebrospinal fluid leakage.
 
@@ -130,6 +130,19 @@ Several completed trials, including one Phase 3 trial, two RCT publications and 
 - Assessment of route compatibility, since the trials used nebulized dosing while licensed products are injectables
 - Larger, placebo-controlled, multicentre trials, and safety monitoring for hypotension and bradycardia in the target populations
 - Results from NCT07769255 before any move on migraine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

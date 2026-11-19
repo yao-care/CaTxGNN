@@ -60,7 +60,7 @@ The one clinical report available actually describes bronchitis as an adverse ef
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Benzyl alcohol is known as an antimicrobial and bacteriostatic preservative and a mild local anaesthetic, and it has been used in topical products. Mechanistically, antimicrobial properties could plausibly be relevant to respiratory infection, but this is speculative.
+ChEMBL (EMBL-EBI) records the mechanism of action of benzyl alcohol as: Unknown ([ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720), CC BY-SA 3.0; accessed 2026-11-19.) Benzyl alcohol is known as an antimicrobial and bacteriostatic preservative and a mild local anaesthetic, and it has been used in topical products. Mechanistically, antimicrobial properties could plausibly be relevant to respiratory infection, but this is speculative.
 
 The link between dermatitis and bronchitis is weak. Both involve inflammation, but they affect different organ systems, and no evidence supports a shared mechanism for this drug. The prediction rests almost entirely on the model's high score.
 
@@ -120,6 +120,19 @@ The prediction rests only on a high model score. There are no registered trials,
 - Package insert warnings and contraindications from Health Canada
 - Evidence of therapeutic benefit in bronchitis (preclinical or clinical), and a resolution of the inhalation safety signal
 - Assessment of route compatibility, since current Canadian products are topical and bronchitis would likely require a different route
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL720 (benzyl alcohol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL720) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

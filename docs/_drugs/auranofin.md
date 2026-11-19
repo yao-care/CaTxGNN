@@ -60,7 +60,7 @@ This prediction currently has **no clinical trials** and **no publications** beh
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Auranofin is a gold-containing drug whose efficacy in rheumatoid arthritis is established. In general terms it is known to modulate inflammatory pathways, but this is not supported by the data compiled here.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for auranofin: "The mechanism of action of RIDAURA (auranofin) is not understood. In patients with adult rheumatoid arthritis, RIDAURA may modify disease activity as manifested by synovitis and associated symptoms, and reflected by laboratory parameters such as ESR." ([DailyMed: Ridaura (auranofin) prescribing information, Sebela Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43ba3de1-ab2e-06f6-e054-00144ff8d46c), label version 2025-11-08; accessed 2026-11-19.) Auranofin is a gold-containing drug whose efficacy in rheumatoid arthritis is established. In general terms it is known to modulate inflammatory pathways, but this is not supported by the data compiled here.
 
 No mechanistic link to the predicted condition could be established. The only support is the high TxGNN TxGNN model (deep learning) score (0.9956). The predicted disease is a rare congenital disorder with eye and skeletal malformations. It is very different from an adult inflammatory joint disease, and no pharmacological reason is apparent for an anti-rheumatic drug to help with a developmental condition.
 
@@ -122,6 +122,19 @@ The prediction is supported only by a model score, with no clinical trials, no l
 - A biological rationale linking auranofin to the genetic or developmental pathways of the predicted disease
 - Preclinical or mechanistic studies, since no human evidence currently exists
 - A review of whether a drug with this safety profile is suitable for the rare, likely paediatric population affected
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ridaura (auranofin) prescribing information, Sebela Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43ba3de1-ab2e-06f6-e054-00144ff8d46c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

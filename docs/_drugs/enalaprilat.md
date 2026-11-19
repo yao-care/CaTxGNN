@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, enalaprilat is the active diacid metabolite of enalapril and inhibits angiotensin-converting enzyme (ACE). This lowers angiotensin II production and is the basis for its blood-pressure-lowering effect in hypertension and heart failure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enalaprilat: "Intravenous enalaprilat, or oral enalapril, after hydrolysis to enalaprilat, inhibits ACE in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: enalaprilat prescribing information, Dr. Reddys Laboratories Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d398da1-020c-ccb1-a775-ce8e0b29d621), label version 2024-06-07; accessed 2026-11-19.) Based on general pharmacology, enalaprilat is the active diacid metabolite of enalapril and inhibits angiotensin-converting enzyme (ACE). This lowers angiotensin II production and is the basis for its blood-pressure-lowering effect in hypertension and heart failure.
 
 A possible link to glaucoma is that ACE inhibition could reduce local ocular renin-angiotensin system activity. This might influence aqueous humor dynamics and intraocular pressure, or ocular blood flow and optic nerve perfusion. These ideas are hypotheses and have not been tested for this drug in primary hereditary glaucoma.
 
@@ -96,6 +96,19 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Package insert warnings and contraindications from Health Canada for safety screening
 - A feasible route or formulation (for example, topical ocular) and a route compatibility assessment
 - Assessment of safety in patients with a history of angioedema, including hereditary forms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: enalaprilat prescribing information, Dr. Reddys Laboratories Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d398da1-020c-ccb1-a775-ce8e0b29d621) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

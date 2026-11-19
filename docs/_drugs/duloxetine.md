@@ -60,7 +60,7 @@ This report covers OCD as the lead candidate, and the other top predictions are 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, duloxetine is an SNRI. It blocks reuptake of both serotonin and norepinephrine, and it is established in depression and generalized anxiety disorder.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for duloxetine: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), label version 2026-08-20; accessed 2026-11-19.) Based on known information, duloxetine is an SNRI. It blocks reuptake of both serotonin and norepinephrine, and it is established in depression and generalized anxiety disorder.
 
 Serotonin reuptake inhibition is the core mechanism of OCD drug treatment, and SSRIs and clomipramine are the standard options. Duloxetine's serotonin transporter inhibition, together with its noradrenergic activity, gives a plausible link between its original anxiety and depression indications and OCD. OCD and anxiety disorders also commonly occur together with depression.
 
@@ -152,6 +152,19 @@ The following comes from knowledge-graph contraindication links and an interacti
 - Results from NCT00464698 and a critical appraisal of PMID 27811556, including its sample size and design
 - A larger randomised, controlled trial of duloxetine in OCD, ideally against first-line SSRIs
 - A safety monitoring plan covering the serotonergic drug interactions and the listed contraindicated conditions, especially bipolar disorder, liver disease and hypertension
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

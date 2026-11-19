@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** currently support this direc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its established uses (motion sickness, gastrointestinal spasm, ocular cycloplegia) all rely on blocking acetylcholine receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for scopolamine: "Scopolamine, a belladonna alkaloid, is an anticholinergic. Scopolamine acts: i) as a competitive inhibitor at postganglionic muscarinic receptor sites of the parasympathetic nervous system, and ii) on smooth muscles that respond to acetylcholine but lack cholinergic innervation." ([DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88), label version 2025-06-10; accessed 2026-11-19.) Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its established uses (motion sickness, gastrointestinal spasm, ocular cycloplegia) all rely on blocking acetylcholine receptors.
 
 Cauda equina syndrome often causes bladder dysfunction, such as urinary retention or overflow incontinence. Antimuscarinics act on bladder detrusor muscarinic receptors, which is the likely source of the model's association. However, the link is weak. Antimuscarinics would be expected to worsen urinary retention, and they do not address the underlying cause, which is nerve root compression requiring urgent surgical decompression. The prediction is a model score only, with no supporting clinical data.
 
@@ -126,6 +126,19 @@ All predictions rest on model scores alone (Evidence Level L5), with no clinical
 - A targeted literature and trial search for scopolamine in neurogenic bladder, the most plausible of the predicted indications
 - A review of whether the obsolete ontology term can be mapped to a current disease definition
 - Assessment of route compatibility, since only injectable products are authorised in Canada
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluphenazine is a phenothiazine-class antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in psychotic disorders is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fluphenazine: "Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown." ([DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12), label version 2026-07-03; accessed 2026-11-19.) Based on known information, fluphenazine is a phenothiazine-class antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in psychotic disorders is well established.
 
 Inherited retinal dystrophy is a genetically driven degenerative eye condition, and it is pharmacologically distant from psychosis. The data compiled for this report show no plausible mechanistic link between D2 antagonism and retinal degeneration. The very high score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis only.
 
@@ -125,6 +125,19 @@ The prediction rests on the TxGNN model (deep learning) score alone, which may r
 - Route and dosage-form compatibility assessment for an ocular or retinal indication
 
 **Note:** Among the model's other predictions for fluphenazine, **manic bipolar affective disorder** (score 0.9998) is the most biologically coherent. It has indirect literature support, mainly reviews of long-acting injectable antipsychotics, and is classed as L4 and a research question. It would be a more reasonable candidate for further evaluation than the retinal prediction, though no fluphenazine-specific bipolar RCT or registered trial is available.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

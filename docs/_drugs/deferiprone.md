@@ -60,7 +60,7 @@ but there are currently **0 registered clinical trials** and only **2 publicatio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, deferiprone is an oral iron chelator whose efficacy in iron overload from thalassemia and related disorders is established, and mechanistically it may be applicable to porphyrias in which iron plays a role.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferiprone: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), label version 2026-01-28; accessed 2026-11-19.) Based on known information, deferiprone is an oral iron chelator whose efficacy in iron overload from thalassemia and related disorders is established, and mechanistically it may be applicable to porphyrias in which iron plays a role.
 
 In some porphyrias, excess iron and iron-driven oxidative stress worsen the build-up of porphyrins. Lowering labile iron could therefore reduce porphyrin accumulation. A 2007 mouse study of a porphyria cutanea tarda-type model and a 2020 report in congenital erythropoietic porphyria are consistent with this idea.
 
@@ -124,6 +124,19 @@ The prediction score is high, but there are no clinical trials and the literatur
   - Primitive portal vein thrombosis, idiopathic copper-associated cirrhosis, early-onset familial noncirrhotic portal hypertension, hepatoportal sclerosis and hepatopulmonary syndrome have no plausible link to iron chelation.
   - Pyruvate kinase deficiency and hereditary pyropoikilocytosis have a plausible but untested rationale based on iron overload from chronic hemolysis.
   - Beta-thalassemia with other manifestations largely overlaps with an existing indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

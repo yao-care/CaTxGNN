@@ -60,7 +60,7 @@ Type 1 diabetes is an established, on-label use of this drug, so this result con
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on published reviews, insulin detemir is a soluble, long-acting human insulin analogue. A 14-carbon fatty acid (myristic acid) is attached to the molecule, which lets it bind reversibly to albumin. This gives slow absorption and a prolonged, more predictable glucose-lowering effect of up to 24 hours. It acts through the insulin receptor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for insulin detemir: "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), label version 2024-10-09; accessed 2026-11-19.) Based on published reviews, insulin detemir is a soluble, long-acting human insulin analogue. A 14-carbon fatty acid (myristic acid) is attached to the molecule, which lets it bind reversibly to albumin. This gives slow absorption and a prolonged, more predictable glucose-lowering effect of up to 24 hours. It acts through the insulin receptor.
 
 Type 1 diabetes is a disease of insulin deficiency, so basal insulin replacement is the standard of care. The original indication (diabetes mellitus) already covers this condition. The high TxGNN score is consistent with the drug's known pharmacology, but it should be read as confirmation of existing use, not as a new repurposing claim.
 
@@ -154,11 +154,12 @@ Several completed Phase 3 trials and multiple systematic reviews and meta-analys
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "and the drug is marketed in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
 
 <!-- review:end log -->
 

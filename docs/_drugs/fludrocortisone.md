@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, fludrocortisone is a mineralocorticoid with some glucocorticoid activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fludrocortisone: "Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone." ([DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2), label version 2026-06-24; accessed 2026-11-19.) Based on general pharmacology, fludrocortisone is a mineralocorticoid with some glucocorticoid activity.
 
 Systemic and topical corticosteroids have a role in managing cutaneous T-cell lymphoma, which is the only plausible link to this prediction. However, fludrocortisone is not an established agent for this disease. The very high TxGNN score is a computational output only. No trials or literature support it, and no specific mechanistic link could be identified from the available data.
 
@@ -105,6 +105,19 @@ The prediction for primary cutaneous T-cell lymphoma rests only on a model score
 - Approved indication text for the two Canadian licences
 - For primary cutaneous T-cell lymphoma, preclinical or mechanistic evidence showing a rationale for fludrocortisone over established corticosteroids
 - If the ocular direction is pursued, a specific condition (for example geographic atrophy) instead of the broad "eye disease" category, and a route-of-administration assessment, since the early clinical study used intravitreal injection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

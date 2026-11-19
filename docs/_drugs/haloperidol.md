@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Haloperidol is a dopamine D2 receptor antagonist. Detailed mechanism of action data was not available in the data compiled for this report, so this description rests on the drug's well-established pharmacology. Its efficacy in psychotic disorders, schizophrenia and Tourette syndrome is long established.
+Haloperidol is a dopamine D2 receptor antagonist. According to the Mechanism of Action section of the US FDA-approved prescribing information for haloperidol: "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), label version 2026-11-03; accessed 2026-11-19.) This description rests on the drug's well-established pharmacology. Its efficacy in psychotic disorders, schizophrenia and Tourette syndrome is long established.
 
 For this prediction, **no mechanistic link could be identified**. Congenital disorders of glycosylation with defective fucosylation involve problems in fucose metabolism or transport (for example, GDP-fucose transport). Dopamine receptor blockade has no known connection to these pathways. The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The similarity between the original and predicted indications has not been assessed.
 
@@ -121,6 +121,19 @@ It is supported by a completed Phase 3 haloperidol- and placebo-controlled olanz
 - Any mechanistic or preclinical evidence linking dopamine signalling to fucosylation pathways
 - Detailed mechanism of action data and the full Health Canada package insert warnings and contraindications
 - A disease-specific safety assessment, including QTc, neurological and haematological monitoring
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

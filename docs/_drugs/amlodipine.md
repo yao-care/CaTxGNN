@@ -60,7 +60,7 @@ There are currently **0 clinical trials** and **0 publications** that directly s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available in the data compiled for this report. Amlodipine is generally known as a dihydropyridine calcium channel blocker. It relaxes vascular smooth muscle, lowers peripheral vascular resistance and reduces blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amlodipine: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), label version 2026-09-28; accessed 2026-11-19.) Amlodipine is generally known as a dihydropyridine calcium channel blocker. It relaxes vascular smooth muscle, lowers peripheral vascular resistance and reduces blood pressure.
 
 Brain stem infarction is an ischemic stroke affecting the brain stem. Blood pressure control is a central part of stroke prevention, so a link through vasodilation and blood pressure lowering is plausible. However, this link is a reasoning step, not direct evidence. No trial or publication in the compiled data examines amlodipine in brain stem infarction. Whether it would help, for example by preventing a first or recurrent event or by protecting brain tissue, has not been tested for this specific condition.
 
@@ -122,6 +122,19 @@ The prediction score is very high (0.9994), but no clinical trial or publication
 - Mechanism-of-action data and a clear rationale for any benefit beyond blood pressure lowering
 - Package insert warnings and contraindications, including hypotension risk in acute ischemic stroke
 - Preclinical or observational evidence specific to this condition before any clinical study is designed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

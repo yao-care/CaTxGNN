@@ -21,11 +21,12 @@
   "items_current": 3840
  },
  "reviews": {
-  "records": 166,
-  "pages": 154,
-  "public_pages_with_records": 144,
+  "records": 913,
+  "pages": 801,
+  "public_pages_with_records": 791,
   "by_action": {
-   "correct": 166
+   "correct": 166,
+   "mechanism": 747
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "punctate epithelial keratoconjunctivitis"
   },
   {
@@ -48,7 +49,7 @@
    "l": "L4",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "obsessive-compulsive disorder"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 0,
+   "r": 1,
    "i": "allergic urticaria"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "vulvar inverted follicular keratosis"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "migraine with brainstem aura"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "feline acquired immunodeficiency syndrome"
   }
  ],
@@ -122,7 +123,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Glanzmann thrombasthenia"
   },
   {
@@ -140,7 +141,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "Tourette syndrome"
   },
   {
@@ -158,7 +159,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "autoimmune oophoritis"
   },
   {
@@ -167,7 +168,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "osteoarthritis"
   },
   {
@@ -176,7 +177,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "lingual-facial-buccal dyskinesia"
   },
   {
@@ -185,7 +186,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "multiple endocrine neoplasia"
   },
   {
@@ -194,7 +195,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "benign neoplasm of tongue"
   },
   {
@@ -224,7 +225,7 @@
    "l": "L5",
    "lt": 3,
    "lv": 3,
-   "r": 2,
+   "r": 3,
    "i": "atypical coarctation of aorta"
   },
   {
@@ -233,7 +234,7 @@
    "l": "L5",
    "lt": 0,
    "lv": 17,
-   "r": 2,
+   "r": 3,
    "i": "retinal dystrophy with or without extraocular anomalies"
   },
   {
@@ -242,17 +243,8 @@
    "l": "L5",
    "lt": 0,
    "lv": 19,
-   "r": 2,
+   "r": 3,
    "i": "duodenal obstruction"
-  },
-  {
-   "t": "Pheniramine",
-   "u": "/drugs/pheniramine/",
-   "l": "L5",
-   "lt": 9,
-   "lv": 7,
-   "r": 2,
-   "i": "nasal cavity disease"
   },
   {
    "t": "Pregabalin",
@@ -260,7 +252,7 @@
    "l": "L5",
    "lt": 0,
    "lv": 20,
-   "r": 2,
+   "r": 3,
    "i": "tendinitis"
   },
   {
@@ -269,8 +261,17 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "punctate epithelial keratoconjunctivitis"
+  },
+  {
+   "t": "Alteplase",
+   "u": "/drugs/alteplase/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 2,
+   "i": "heparin cofactor 2 deficiency"
   }
  ],
  "example": {
@@ -279,7 +280,7 @@
   "l": "L1",
   "lt": 14,
   "lv": 11,
-  "r": 1,
+  "r": 2,
   "i": "headache disorder"
  },
  "recent_reviews": [

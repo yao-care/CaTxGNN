@@ -60,7 +60,7 @@ It is a model prediction only and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Dexrazoxane is known as an iron-chelating agent and topoisomerase II inhibitor. This is general pharmacological knowledge, not part of the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dexrazoxane: "The mechanism by which dexrazoxane exerts its cytoprotective activity is not fully understood. Dexrazoxane is a cyclic derivative of EDTA that penetrates cell membranes. Results of laboratory studies suggest that dexrazoxane is converted intracellularly to a ring-opened chelating agent that interferes with iron-mediated free radical generation thought to be responsible, in part, for anthracycline-induced cardiomyopathy." ([DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68), label version 2025-07-31; accessed 2026-11-19.) Dexrazoxane is known as an iron-chelating agent and topoisomerase II inhibitor. This is general pharmacological knowledge, not part of the data compiled for this report.
 
 A speculative link to sclerosing cholangitis is that iron chelation and topoisomerase II inhibition could influence oxidative stress and inflammation in cholestatic bile duct injury. No trial, publication, or mechanistic study in the compiled data supports this idea. The high score should not be read as proof of efficacy.
 
@@ -124,6 +124,19 @@ The sclerosing cholangitis prediction rests on a model score alone (L5), with no
 - Preclinical validation before any clinical study, if the hypothesis is pursued
 - Review of the renal impairment and meningitis signals from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, together with the live vaccine interactions, before any new-use study
 - Optionally, follow-up on cystitis (chemotherapy-induced or interstitial) as a lower-ranked but better-supported research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dexrazoxane prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7c01089-85f5-40aa-b679-f53a425b4d68) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

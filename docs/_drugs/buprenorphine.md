@@ -60,7 +60,7 @@ This is a model prediction with very weak supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, buprenorphine is an opioid used in the treatment of opioid dependence, and its efficacy in that setting is established. Whether it is mechanistically applicable to acute intermittent porphyria is not supported by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for buprenorphine: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), label version 2026-07-27; accessed 2026-11-19.) Based on known information, buprenorphine is an opioid used in the treatment of opioid dependence, and its efficacy in that setting is established. Whether it is mechanistically applicable to acute intermittent porphyria is not supported by the data compiled for this report.
 
 The only publication found is a 1993 case report on anaesthetic management of a patient who had porphyria. It describes which drugs were chosen around surgery, not treatment of the disease itself. No credible mechanistic link between buprenorphine and correcting the disease was identified. The high score (0.9941) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Buprenorphine's safety in porphyria (porphyrinogenic potential) would need its own evaluation, and it is not a therapeutic indication.
 
@@ -143,11 +143,12 @@ The prediction rests on a model score alone. The single publication is a periope
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->
 

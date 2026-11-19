@@ -60,7 +60,7 @@ None of the trials is a completed Phase 2/3 randomised study, so the evidence is
 
 ## Why is This Prediction Reasonable?
 
-Ifosfamide is a prodrug. Liver cytochrome P450 enzymes convert it to isophosphoramide mustard, which cross-links DNA and triggers cell death in rapidly dividing cells. Detailed mechanism-of-action data are not available in the compiled drug record, but this activation pathway is well described in the literature.
+Ifosfamide is a prodrug. Liver cytochrome P450 enzymes convert it to isophosphoramide mustard, which cross-links DNA and triggers cell death in rapidly dividing cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.) This activation pathway is well described in the literature.
 
 Breast cancer cells divide rapidly, so DNA-damaging agents are mechanistically applicable. Ifosfamide is an analogue of cyclophosphamide, which is already used in breast cancer regimens. Several older Phase 2 studies tested ifosfamide alone or combined with vinorelbine, mitoxantrone, etoposide or paclitaxel in metastatic breast cancer. A review reports single-agent response rates of 7–30% in pretreated patients, with higher rates in combinations.
 
@@ -147,6 +147,19 @@ Health Canada package insert warnings and contraindications were not captured in
 - A systematic review or pooled analysis of ifosfamide combinations in metastatic breast cancer, especially metaplastic and anthracycline-resistant subtypes
 - Updated status of the Phase 2 trial NCT00026078 and any newer comparative trials
 - A monitoring and guardrail plan covering mesna, renal, neurological and marrow monitoring, and cumulative-dose and secondary-malignancy limits
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled drug record, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

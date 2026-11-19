@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, leucovorin is a reduced folate that bypasses dihydrofolate reductase and supports one-carbon metabolism, purine and thymidine synthesis, and homocysteine remethylation. Its efficacy in megaloblastic anemia is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leucovorin: "High-Dose Methotrexate Therapy Leucovorin is a mixture of the diastereoisomers of the 5-formyl derivative of tetrahydrofolic acid (THF). The biologically active compound of the mixture is the (-)- l isomer, known as Citrovorum factor or (-)-folinic acid." ([DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2), label version 2026-03-12; accessed 2026-11-19.) Based on known information, leucovorin is a reduced folate that bypasses dihydrofolate reductase and supports one-carbon metabolism, purine and thymidine synthesis, and homocysteine remethylation. Its efficacy in megaloblastic anemia is established.
 
 Primary hyperoxaluria, however, arises from inherited defects in glyoxylate metabolism (AGXT, GRHPR, HOGA1) that cause oxalate overproduction. Folate-dependent pathways are not known to be central to this process, so **no direct mechanistic link is established**. A speculative connection might involve folate or B-vitamin cofactor roles in glyoxylate or one-carbon metabolism, or hyperhomocysteinemia associated with oxalate-related kidney impairment, but no supporting data is available.
 
@@ -108,6 +108,19 @@ Both predictions rest on model output alone (L5), with no clinical trials or lit
 - Literature and trial searches for folate/folinic acid in primary hyperoxaluria and in B12-malabsorption disorders
 - Mechanistic evidence for folate or one-carbon metabolism involvement in glyoxylate/oxalate handling
 - Route and formulation compatibility assessment for the proposed indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vykoura (leucovorin calcium) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d122b875-435e-4e00-b945-7a0546df95c2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

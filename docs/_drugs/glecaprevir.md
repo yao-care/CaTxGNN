@@ -60,7 +60,7 @@ The evidence therefore supports the drug's original HCV use, even in HIV-coinfec
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, glecaprevir is an NS3/4A protease inhibitor used with pibrentasvir (an NS5A inhibitor) for HCV, and its efficacy in HCV is well established.
+ChEMBL (EMBL-EBI) records the mechanism of action of glecaprevir as: Hepatitis C virus serine protease, NS3/NS4A inhibitor ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, glecaprevir is an NS3/4A protease inhibitor used with pibrentasvir (an NS5A inhibitor) for HCV, and its efficacy in HCV is well established.
 
 The prediction is not supported mechanistically. Glecaprevir has no known direct anti-HIV activity. HIV uses an aspartyl protease, which is structurally and mechanistically different from the HCV NS3/4A serine protease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -155,6 +155,19 @@ The high prediction score comes from the TxGNN model (deep learning) and may ref
 - A clear decision on whether the real opportunity is HCV treatment in HIV-coinfected populations, which is already within the approved HCV use, rather than a new HIV indication
 
 **Other predictions reviewed:** The other nine predictions (such as hepatitis B, hepatitis E, hepatitis A, Omsk hemorrhagic fever and Kyasanur forest disease) have no direct supporting evidence and are also placed on Hold. The hepatitis A entry lists many glecaprevir/pibrentasvir trials, but they are HCV studies with no hepatitis A endpoint and should not be counted as evidence. For hepatitis B, HBV reactivation during HCV antiviral therapy is a safety risk, not a benefit.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

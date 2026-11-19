@@ -60,7 +60,7 @@ However, **no clinical trials and no publications** were found in the data compi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Rasagiline is generally known as a MAO-B inhibitor, which raises dopaminergic tone. This is the basis of its use in Parkinson disease, and this general knowledge is not drawn from the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rasagiline: "AZILECT is a selective, irreversible MAO-B inhibitor indicated for the treatment of idiopathic Parkinson’s disease. The results of a clinical trial designed to examine the effects of AZILECT on blood pressure when it is administered with increasing doses of tyramine indicates the functional selectivity can be incomplete when healthy subjects ingest large amounts of tyramine while receiving recommended doses of AZILECT. […] In ex vivo animal studies in brain, liver, and intestinal tissues, rasagiline was shown to be a potent, irreversible monoamine oxidase type B (MAO-B) selective inhibitor." ([DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60), label version 2020-06-30; accessed 2026-11-19.) Rasagiline is generally known as a MAO-B inhibitor, which raises dopaminergic tone. This is the basis of its use in Parkinson disease, and this general knowledge is not drawn from the compiled data.
 
 PLAN includes infantile neuroaxonal dystrophy and PLA2G6-related dystonia-parkinsonism (PARK14). The parkinsonian features of PARK14 overlap with rasagiline's established indication, so a symptomatic dopaminergic benefit is plausible. Rasagiline has also been proposed to have neuroprotective and anti-apoptotic properties in preclinical models.
 
@@ -128,6 +128,19 @@ The prediction score is high, but there are no clinical trials or publications f
 - Compare PLAN with the original indications to determine whether any benefit would be symptomatic only (for example, parkinsonian features) or disease-modifying
 - Assess route and formulation compatibility, and the suitability of rasagiline for paediatric patients, since dosage form and route data are currently missing
 - Review the interaction with the major-level drugs (bupropion, morphine) and the knowledge-graph contraindications for a target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Azilect (rasagiline mesylate) prescribing information, Teva Neuroscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a40d0e73-3f9f-4b01-979d-402c9cdaeb60) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

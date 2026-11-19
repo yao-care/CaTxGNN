@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that acts against HIV-1. Its efficacy in HIV infection and AIDS is established, and the prediction is that it may be applicable to a related lentiviral disease.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for doravirine: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), label version 2026-07-09; accessed 2026-11-19.) Based on known information, doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) that acts against HIV-1. Its efficacy in HIV infection and AIDS is established, and the prediction is that it may be applicable to a related lentiviral disease.
 
 Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, so a mechanism targeting reverse transcriptase is conceivable. However, NNRTIs are generally poorly active against FIV because its reverse transcriptase differs structurally from that of HIV-1. No supporting data were available to resolve this question.
 
@@ -109,6 +109,19 @@ The prediction is supported only by the TxGNN model score (evidence level L5), w
 - Preclinical data on doravirine activity against FIV or SIV reverse transcriptase
 - Clarification of whether a veterinary or animal-model indication is relevant to the intended repurposing programme
 - A review of the major interactions (dexamethasone, lumacaftor) if the drug is developed further
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

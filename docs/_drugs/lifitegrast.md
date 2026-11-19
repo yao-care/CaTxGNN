@@ -60,7 +60,7 @@ Among the other predictions, only diabetic retinopathy has any related literatur
 
 ## Why is This Prediction Reasonable?
 
-Lifitegrast is an LFA-1 (integrin alpha-L, ITGAL) antagonist. In laboratory assays it blocks T-cell adhesion to ICAM-1 (IC50 about 3 nM in Jurkat cells and 9 nM in HuT 78 cells) and reduces the release of inflammatory mediators. It was designed for minimal systemic exposure, so that it acts mainly at the site of application. Note that the formal mechanism-of-action field was not available in the data compiled for this report. The mechanism described here comes from pharmacology data on the drug's target.
+Lifitegrast is an LFA-1 (integrin alpha-L, ITGAL) antagonist. In laboratory assays it blocks T-cell adhesion to ICAM-1 (IC50 about 3 nM in Jurkat cells and 9 nM in HuT 78 cells) and reduces the release of inflammatory mediators. It was designed for minimal systemic exposure, so that it acts mainly at the site of application. According to the Mechanism of Action section of the US FDA-approved prescribing information for lifitegrast: "Lifitegrast binds to the integrin LFA-1, a cell surface protein found on leukocytes and blocks the interaction of LFA-1 with its cognate ligand intercellular adhesion molecule-1 (ICAM-1). ICAM-1 may be overexpressed in corneal and conjunctival tissues in DED." ([DailyMed: Xiidra (lifitegrast) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8589d376-ac10-4ddb-9c53-2e0c8d5675c4), label version 2025-08-18; accessed 2026-11-19.) The mechanism described here comes from pharmacology data on the drug's target.
 
 Dry eye disease is driven partly by T-cell-mediated inflammation on the ocular surface. Fibromatoses such as Peyronie's disease involve fibroblast proliferation and chronic inflammation. A link through inflammation is therefore conceivable, but it is speculative. No preclinical or clinical data were found to support it.
 
@@ -118,6 +118,19 @@ The prediction for penile fibromatosis has a very high model score (0.9959) but 
 - Preclinical proof of concept, for example LFA-1 antagonism in fibroblast or fibrosis models, or in a retinal inflammation model (the most plausible follow-up, for diabetic retinopathy)
 - Assessment of a suitable route and formulation for the target tissue, since route compatibility has not yet been evaluated
 - Pediatric safety data if infantile digital fibromatosis is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Note that the formal mechanism-of-action field was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xiidra (lifitegrast) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8589d376-ac10-4ddb-9c53-2e0c8d5675c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

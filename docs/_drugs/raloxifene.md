@@ -56,7 +56,7 @@ with **0 clinical trials** and **0 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator (SERM) that acts on bone, lipid metabolism and breast/uterine tissue. Its efficacy in postmenopausal osteoporosis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for raloxifene: "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), label version 2026-02-11; accessed 2026-11-19.) Based on known information, raloxifene is a selective estrogen receptor modulator (SERM) that acts on bone, lipid metabolism and breast/uterine tissue. Its efficacy in postmenopausal osteoporosis is established.
 
 For duodenal ulcer, no clear mechanistic link has been identified. Duodenal ulcer is driven mainly by *H. pylori* infection, NSAID use and acid hypersecretion, and no recognized estrogen-receptor pathway connects raloxifene to these processes. The very high TxGNN score (0.9972) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any clinical trial or publication in the data compiled for this report.
 
@@ -106,6 +106,19 @@ The prediction for duodenal ulcer rests only on a score from the TxGNN model (de
 - A targeted literature search on raloxifene in peptic or duodenal ulcer disease, and on HDL effects if hypoalphalipoproteinemia is to be considered
 - Dosage form and approved-indication details for the three Canadian DINs
 - Severity classification of the drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

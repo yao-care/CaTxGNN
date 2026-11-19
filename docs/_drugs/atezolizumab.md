@@ -59,7 +59,7 @@ Atezolizumab is an antibody drug whose relation to transitional cell carcinoma i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Atezolizumab is generally known as an anti-PD-L1 antibody (this comes from general knowledge, not from the compiled data). Blocking PD-L1 can release the immune system's attack on tumours that express it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atezolizumab: "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), label version 2026-10-13; accessed 2026-11-19.) Atezolizumab is generally known as an anti-PD-L1 antibody (this comes from general knowledge, not from the compiled data). Blocking PD-L1 can release the immune system's attack on tumours that express it.
 
 A possible link is PD-L1 expression in such tumors, but nothing in the compiled data supports this for uterine ligament adenocarcinoma, a gynecologic adenocarcinoma. The very high score of 0.9993 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a computational prediction only.
 
@@ -124,6 +124,19 @@ The top-ranked prediction, uterine ligament adenocarcinoma, rests on a model sco
 - Obtain mechanism of action data from DrugBank.
 - Search for studies on PD-L1 expression and checkpoint blockade in uterine ligament adenocarcinoma.
 - Obtain efficacy results from the cervical cancer trials (NCT02921269, NCT03738228) and consider whether endocervical carcinoma is a better-supported candidate to assess first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

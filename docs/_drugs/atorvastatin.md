@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **HIV infectious disease**. The da
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Atorvastatin belongs to the statin class. It lowers LDL cholesterol and triglycerides. Statins also have anti-inflammatory effects that may reduce monocyte and macrophage activation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atorvastatin: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), label version 2024-04-15; accessed 2026-11-19.) Atorvastatin belongs to the statin class. It lowers LDL cholesterol and triglycerides. Statins also have anti-inflammatory effects that may reduce monocyte and macrophage activation.
 
 People with HIV often develop high lipids, especially when taking antiretroviral therapy (ART) with protease inhibitors. They also have persistent immune activation and a higher cardiovascular risk. Atorvastatin could plausibly help with all three. Several trials test this, looking at immune activation, monocyte activation and plaque inflammation in people with HIV.
 
@@ -125,6 +125,19 @@ For warnings and contraindications, please refer to the package insert.
 - Results from larger, adequately powered trials with immune activation, cardiovascular or viral endpoints (for example the 320-participant trial NCT03037372).
 - Package insert warnings and contraindications from Health Canada, and mechanism-of-action data.
 - A dosing and monitoring plan for use with boosted protease inhibitors or cobicistat (dose caps, muscle symptom and liver monitoring).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

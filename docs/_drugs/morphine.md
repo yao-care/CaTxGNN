@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **myofascial pain syndrome**, but 
 
 ## Why is This Prediction Reasonable?
 
-Morphine acts as an agonist at the mu-opioid receptor and provides general analgesia. Detailed mechanism-of-action data were not available in the data compiled for this report, so this link rests on the drug's known class pharmacology.
+Morphine acts as an agonist at the mu-opioid receptor and provides general analgesia. According to the Mechanism of Action section of the US FDA-approved prescribing information for morphine: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), label version 2026-08-14; accessed 2026-11-19.) This link rests on the drug's known class pharmacology.
 
 Myofascial pain is a musculoskeletal pain condition, so a general analgesic link is plausible. However, the retrieved literature is mostly indirect. It covers opioid use in temporomandibular joint dysfunction, post-surgical analgesia and adjunct infiltration comparisons. Opioids are generally not a recommended first-line approach for myofascial pain. No myofascial-specific morphine study was identified, so the high model score has not been confirmed by direct evidence.
 
@@ -125,6 +125,18 @@ The evidence level is L5. No study tests morphine in myofascial pain syndrome, a
 - Detailed mechanism-of-action data
 - A risk assessment covering dependence, respiratory depression and opioid-induced hyperalgesia in a chronic musculoskeletal pain population
 - The package insert warnings and contraindications from Health Canada
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

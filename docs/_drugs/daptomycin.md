@@ -56,7 +56,7 @@ This prediction is best viewed as a model-generated hypothesis with little direc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, daptomycin is a cyclic lipopeptide that disrupts the membranes of Gram-positive bacteria. Its antibacterial efficacy is established, but this mechanism does not directly apply to non-infectious osteoarthritis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for daptomycin: "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), label version 2022-01-25; accessed 2026-11-19.) Based on general knowledge, daptomycin is a cyclic lipopeptide that disrupts the membranes of Gram-positive bacteria. Its antibacterial efficacy is established, but this mechanism does not directly apply to non-infectious osteoarthritis.
 
 The retrieved literature explains why the score is likely high. The articles cover **osteoarticular and prosthetic joint infections** (for example *Staphylococcus* and *Corynebacterium*), where daptomycin has been used. They do not address degenerative osteoarthritis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a true disease-modifying effect.
 
@@ -117,6 +117,19 @@ The osteoarthritis prediction is not supported by direct evidence. The literatur
 - Mechanism of action data
 - If pursuing the rheumatoid arthritis lead: confirmatory preclinical work, then a safety assessment for chronic systemic use, particularly muscle toxicity and creatine phosphokinase monitoring
 - Dedicated evidence that daptomycin acts on non-infectious osteoarthritis, which is currently absent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

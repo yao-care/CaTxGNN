@@ -60,7 +60,7 @@ Evidence is limited to model prediction and indirect literature.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, misoprostol is a prostaglandin E1 analogue that causes uterine contraction and cervical ripening.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac sodium and misoprostol (a combination product containing misoprostol): "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), label version 2026-08-31; accessed 2026-11-19.) Based on known pharmacology, misoprostol is a prostaglandin E1 analogue that causes uterine contraction and cervical ripening.
 
 This supports a plausible effect on pregnancy-related causes of absent menses, such as retained products of conception or missed abortion. It does not address the endocrine or structural causes of primary or secondary amenorrhea, such as hypothalamic, pituitary or ovarian disorders, or Asherman syndrome.
 
@@ -129,6 +129,19 @@ The only support is a high model score (0.9964) with an indirect mechanistic lin
 - Mechanism of action data from DrugBank
 - Clinical or observational studies that directly evaluate misoprostol in a defined amenorrhea population (e.g., retained products of conception, or intrauterine adhesions)
 - A clear definition of which amenorrhea subtype is being targeted, and a reproductive safety risk assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

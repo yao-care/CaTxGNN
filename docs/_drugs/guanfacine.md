@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, guanfacine is an alpha-2A adrenergic agonist. It strengthens prefrontal cortex signalling and is established in ADHD and hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for guanfacine: "Guanfacine is a central alpha 2A -adrenergic receptor agonist. Guanfacine is not a central nervous system (CNS) stimulant. The mechanism of action of guanfacine in ADHD is not known." ([DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769), label version 2026-10-15; accessed 2026-11-19.) Based on known pharmacology, guanfacine is an alpha-2A adrenergic agonist. It strengthens prefrontal cortex signalling and is established in ADHD and hypertension.
 
 Faciodigitogenital syndrome is an X-linked developmental disorder caused by FGD1 mutations. No plausible pharmacological link to alpha-2A adrenergic agonism has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a model artifact until proven otherwise.
 
@@ -115,6 +115,19 @@ The prediction has a very high model score but no trials, no literature and no p
 - Any preclinical or clinical data in faciodigitogenital syndrome
 
 **Note on other predictions:** The data compiled for this report includes a much better-supported prediction for guanfacine, **Tourette syndrome**. It has one completed Phase 3 randomized, placebo-controlled trial (NCT00004376, n=35), one completed Phase 4 study (NCT01547000, n=34), and European guideline and systematic review coverage. It was rated L1 with a recommendation of Proceed with Guardrails. Those guardrails are monitoring of blood pressure and heart rate, watching for sedation, and avoiding abrupt discontinuation. If the goal is to find a viable repurposing direction for guanfacine, a separate report on Tourette syndrome is recommended.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

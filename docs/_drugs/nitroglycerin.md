@@ -60,7 +60,7 @@ with **3 clinical trials** (none of them a completed Phase 2/3 RCT) and **20 pub
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, nitroglycerin releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP in vascular smooth muscle, producing vasodilation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Based on known pharmacology, nitroglycerin releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP in vascular smooth muscle, producing vasodilation.
 
 This NO–cGMP pathway is the same one targeted by established pulmonary vasodilators. Delivering nitroglycerin by inhalation or nebulization may lower pulmonary vascular resistance with less systemic effect. The most relevant settings are acute vasoreactivity testing and perioperative care. Evidence for long-term, disease-modifying benefit is lacking.
 
@@ -155,11 +155,12 @@ The NO–cGMP mechanism is biologically plausible, and there are small hemodynam
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
 
 <!-- review:end log -->
 

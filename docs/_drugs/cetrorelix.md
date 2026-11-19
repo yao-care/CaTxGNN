@@ -56,7 +56,7 @@ This prediction is based on model output only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, cetrorelix blocks the GnRH1 receptor (encoded by *GNRHR*). This suppresses LH and FSH release and lowers downstream sex-steroid (androgen and estrogen) production.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-19.) Based on known pharmacology, cetrorelix blocks the GnRH1 receptor (encoded by *GNRHR*). This suppresses LH and FSH release and lowers downstream sex-steroid (androgen and estrogen) production.
 
 In theory, lowering androgens could reduce androgen-driven hair growth (hirsutism). However, hypertrichosis is generally not androgen-dependent. It is often genetic or drug-induced, so the mechanistic link is speculative. The very high TxGNN score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -98,6 +98,19 @@ The prediction rests only on a computational score, with no clinical trials or l
 - Detailed mechanism-of-action data (for example from DrugBank)
 - Literature and trial searches for hypertrichosis, and separately for central precocious puberty, the most plausible candidate
 - Assessment of route and formulation suitability, including pediatric suitability if central precocious puberty is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

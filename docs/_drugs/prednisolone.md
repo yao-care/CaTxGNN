@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, prednisolone is a glucocorticoid whose efficacy in autoimmune and inflammatory disease is well established, and mechanistically it may be applicable to alopecia areata.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known information, prednisolone is a glucocorticoid whose efficacy in autoimmune and inflammatory disease is well established, and mechanistically it may be applicable to alopecia areata.
 
 Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with a collapse of the follicle's immune privilege. Glucocorticoids suppress T-cell activation and pro-inflammatory cytokines, which directly addresses this pathology. One included study also reports changes in serum and tissue TNF-α levels as a possible mechanism of oral pulse steroids in this disease.
 
@@ -132,6 +132,18 @@ Evidence for alopecia areata includes a network meta-analysis, systematic review
 | Alopecia mucinosa | L5 | Hold | Only a cyclosporine case report; no prednisolone data |
 | Folliculitis decalvans | L4 | Hold | Only a triple-therapy case report |
 | Telogen effluvium, hereditary hypotrichosis with recurrent skin vesicles, alopecia antibody deficiency, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome, atrichia with papular lesions, prolapse of lacrimal gland | L5 | Hold | Computational prediction only, with no plausible mechanistic link |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

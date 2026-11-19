@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, verteporfin is a photosensitizer activated by non-thermal red light. Once activated, it generates reactive oxygen species and causes local blockage of blood vessels, which is how it treats abnormal vessel growth in macular degeneration.
+ChEMBL (EMBL-EBI) records the mechanism of action of verteporfin as: DNA inhibitor ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0; accessed 2026-11-19.) Based on general knowledge, verteporfin is a photosensitizer activated by non-thermal red light. Once activated, it generates reactive oxygen species and causes local blockage of blood vessels, which is how it treats abnormal vessel growth in macular degeneration.
 
 The link to the predicted indication comes only from the TxGNN model (deep learning), with a score of 0.9949. The score may reflect similarities the model learned between related diseases, not biological evidence. Nothing in the compiled data connects verteporfin's action to disorders of mitochondrial energy production caused by nuclear DNA defects. Preclinical work outside the compiled data suggests verteporfin may inhibit YAP-TEAD signaling, but no evidence here ties this to the predicted disease.
 
@@ -116,6 +116,19 @@ The prediction rests on a model score alone, with no clinical trials, no literat
 - Preclinical evidence on whether verteporfin has any beneficial or harmful effect in models of nuclear-DNA-driven oxidative phosphorylation disorders
 - A route and administration compatibility assessment, since verteporfin requires intravenous infusion followed by light activation in the eye
 - A safety review of oxidative stress risk in mitochondrial disease, and of the porphyria and liver or gallbladder disease contraindication signals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

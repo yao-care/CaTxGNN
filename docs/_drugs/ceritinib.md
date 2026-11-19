@@ -56,7 +56,7 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ceritinib is a kinase inhibitor targeting ALK and ROS1, and its efficacy in ALK-rearranged non-small cell lung cancer has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ceritinib: "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), label version 2026-10-28; accessed 2026-11-19.) Based on known information, ceritinib is a kinase inhibitor targeting ALK and ROS1, and its efficacy in ALK-rearranged non-small cell lung cancer has been established.
 
 No mechanistic link has been identified between ALK/ROS1 inhibition and gingival fibromatosis, which is a benign overgrowth of gum tissue. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The prediction should be treated as a hypothesis only.
 
@@ -114,6 +114,19 @@ The prediction rests only on a score from the TxGNN model (deep learning), which
 - Health Canada package insert warnings and contraindications
 - A benefit-risk assessment, given the safety profile in a benign condition
 - Evaluation of whether the lung-tumour predictions (hilum carcinoma, pulmonary sulcus neoplasm) are already covered by the approved NSCLC indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

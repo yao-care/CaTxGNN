@@ -54,7 +54,7 @@ Fentanyl is a potent mu-opioid receptor agonist marketed in Canada in injectable
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is generally known as a mu-opioid receptor agonist used for pain relief and anaesthesia. Opioids can influence vasopressin release and produce antidiuretic effects, which may be the reason the model links fentanyl to antidiuresis-related conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fentanyl: "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), label version 2026-10-23; accessed 2026-11-19.) Fentanyl is generally known as a mu-opioid receptor agonist used for pain relief and anaesthesia. Opioids can influence vasopressin release and produce antidiuretic effects, which may be the reason the model links fentanyl to antidiuresis-related conditions.
 
 However, nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2) in the kidney. It occurs independently of vasopressin secretion, so an opioid acting on vasopressin release has no clear therapeutic role. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Opioid-associated antidiuresis could also worsen hyponatremia, which is a possible safety concern.
 
@@ -108,6 +108,19 @@ Both predictions (nephrogenic SIAD and Tourette syndrome) are supported only by 
 - Preclinical or mechanistic evidence supporting a therapeutic role in the predicted indications.
 - A documented risk-benefit rationale, particularly regarding hyponatraemia (nephrogenic SIAD) and abuse and respiratory risks (Tourette syndrome).
 - Assessment of route and formulation compatibility with the proposed indication.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

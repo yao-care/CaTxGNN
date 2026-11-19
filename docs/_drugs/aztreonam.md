@@ -56,7 +56,7 @@ but **no clinical trials and no publications** support this prediction, and no p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Aztreonam is generally known as a monobactam that inhibits penicillin-binding protein 3 in aerobic Gram-negative bacteria, which is an antibacterial action.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aztreonam: "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), label version 2024-06-03; accessed 2026-11-19.) Aztreonam is generally known as a monobactam that inhibits penicillin-binding protein 3 in aerobic Gram-negative bacteria, which is an antibacterial action.
 
 Polyclonal hyperviscosity syndrome is a protein/immunoglobulin disorder rather than an infection. No plausible mechanistic link to aztreonam's antibacterial activity was identified. The high TxGNN score appears to be a model artifact rather than a signal supported by clinical or literature evidence, so the prediction should be treated with strong caution.
 
@@ -92,6 +92,19 @@ The prediction has no supporting trials or publications, and aztreonam's antibac
 - A plausible mechanistic rationale
 - Health Canada package insert warnings and contraindications for safety screening
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

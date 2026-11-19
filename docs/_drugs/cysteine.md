@@ -56,7 +56,7 @@ Currently there are **no registered clinical trials**, and the **19 publications
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, cysteine is a sulfur-containing amino acid with a reactive thiol group. It is a precursor of glutathione and of hydrogen sulfide/persulfide donors, and its derivative N-acetylcysteine is used as a mucolytic and antioxidant in respiratory disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cysteine: "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), label version 2026-04-09; accessed 2026-11-19.) Based on known information, cysteine is a sulfur-containing amino acid with a reactive thiol group. It is a precursor of glutathione and of hydrogen sulfide/persulfide donors, and its derivative N-acetylcysteine is used as a mucolytic and antioxidant in respiratory disease.
 
 Excess reactive oxygen species (ROS) are thought to drive a vicious cycle of inflammation in dry eye, including ROS/NLRP3 inflammasome activation in the lacrimal gland and ocular surface. An antioxidant, thiol-based mechanism could therefore plausibly be relevant. The thiol group is also the basis of thiolated polymers (thiomers, e.g., thiolated chitosan), which improve mucoadhesion and residence time on the ocular surface.
 
@@ -109,6 +109,19 @@ The prediction score is very high, but no clinical trials exist, and the literat
 - Mechanism of action data for cysteine
 - Preclinical studies testing cysteine itself, or a defined ophthalmic formulation, in dry eye models
 - A feasibility assessment of an ophthalmic route, since the marketed product (PRIMENE 10%) appears to be a parenteral amino acid solution and no ocular route is currently available
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

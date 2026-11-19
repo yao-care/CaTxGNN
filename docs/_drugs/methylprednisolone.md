@@ -60,7 +60,7 @@ The TxGNN model predicts it may be effective for **alopecia mucinosa**, with a s
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, methylprednisolone is a glucocorticoid, a class that suppresses inflammatory and immune activity. Mechanistically it may be applicable to inflammatory skin and hair-follicle conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylprednisolone: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), label version 2026-07-01; accessed 2026-11-19.) Based on general knowledge, methylprednisolone is a glucocorticoid, a class that suppresses inflammatory and immune activity. Mechanistically it may be applicable to inflammatory skin and hair-follicle conditions.
 
 For alopecia mucinosa (also called follicular mucinosis), a plausible rationale is an anti-inflammatory effect on the inflammatory infiltrate around the hair follicle. The data compiled for this report do not test or confirm this idea.
 
@@ -130,11 +130,12 @@ The prediction score is very high, but no clinical trials or publications addres
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
 
 <!-- review:end log -->
 

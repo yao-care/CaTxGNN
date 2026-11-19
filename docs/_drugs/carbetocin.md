@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **isotretinoin-like syndrome**, b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Carbetocin is known to act as an agonist at the oxytocin receptor (OXTR), and its clinical use is to prevent postpartum haemorrhage due to uterine atony. An intranasal formulation has also been under development for hyperphagia in Prader-Willi syndrome.
+ChEMBL (EMBL-EBI) records the mechanism of action of carbetocin as: Oxytocin receptor agonist ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0; accessed 2026-11-19.) Carbetocin is known to act as an agonist at the oxytocin receptor (OXTR), and its clinical use is to prevent postpartum haemorrhage due to uterine atony. An intranasal formulation has also been under development for hyperphagia in Prader-Willi syndrome.
 
 Isotretinoin-like syndrome is a congenital malformation condition resembling retinoic-acid embryopathy. No plausible rationale for oxytocin receptor agonism as a treatment for it can be drawn from the available data. The high model score (0.9915) is a computational output only, and it has not been corroborated by any trial or publication. The link should therefore be regarded as speculative.
 
@@ -94,6 +94,19 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Preclinical or clinical studies that directly address this disease
 - Package insert warnings and contraindications from Health Canada for a safety review
 - Confirmation of the routes of administration and dosage forms for the licensed products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

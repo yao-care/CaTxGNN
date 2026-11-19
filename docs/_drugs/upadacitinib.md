@@ -60,7 +60,7 @@ This prediction currently has **no supporting clinical trials or publications**,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, upadacitinib is a selective JAK1 inhibitor that blocks cytokine signaling through the JAK-STAT pathway. This explains its efficacy in rheumatoid arthritis and other autoimmune and inflammatory diseases.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for upadacitinib: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), label version 2026-06-30; accessed 2026-11-19.) Based on known information, upadacitinib is a selective JAK1 inhibitor that blocks cytokine signaling through the JAK-STAT pathway. This explains its efficacy in rheumatoid arthritis and other autoimmune and inflammatory diseases.
 
 The predicted indication is a rare developmental disorder involving ocular coloboma and microphthalmia together with skeletal rhizomelic dysplasia. Such conditions are presumed to be genetic and structural. No clear link to JAK1-mediated inflammatory signaling is evident. Developmental malformations are also not expected to respond to an immunomodulator in postnatal patients.
 
@@ -117,6 +117,19 @@ The only support for this prediction is a high model score. There are no clinica
 - Any preclinical or genetic evidence connecting JAK-STAT signaling to the pathology of this syndrome
 - Approved indication text and dosage form details for the Canadian DINs
 - Consideration of other candidate indications with stronger biological plausibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

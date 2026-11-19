@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Letermovir is a CMV-specific antiviral, and its efficacy in CMV infection is the basis for its approval. Its known mechanism is inhibition of the viral terminase complex (pUL56/pUL51/pUL89).
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for letermovir: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), label version 2026-01-14; accessed 2026-11-19.) Letermovir is a CMV-specific antiviral, and its efficacy in CMV infection is the basis for its approval. Its known mechanism is inhibition of the viral terminase complex (pUL56/pUL51/pUL89).
 
 This target is not present in fungi such as *Candida* species, so no plausible link to antifungal activity is supported. The very high TxGNN score (0.9988) is a computational prediction only. It is probably driven by network-level associations, for example letermovir's many drug interactions and its co-prescription with azole antifungals in transplant patients. It should not be read as biological evidence.
 
@@ -100,6 +100,19 @@ The prediction is supported only by a model score. No clinical trials or publica
 - A literature and trial search for evidence of benefit in vulvovaginal candidiasis
 - Assessment of route compatibility and dosage forms for a vulvovaginal indication
 - Review of the interaction profile, especially the major interactions, for the likely patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

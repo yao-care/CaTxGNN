@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **infectious otitis media**, but *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Cefazolin is known to be a first-generation cephalosporin that binds penicillin-binding proteins and blocks bacterial cell wall synthesis. It is active against streptococci and methicillin-susceptible *Staphylococcus aureus*, which can cause otitis media.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for cefazolin: "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), label version 2026-08-31; accessed 2026-11-19.) Cefazolin is known to be a first-generation cephalosporin that binds penicillin-binding proteins and blocks bacterial cell wall synthesis. It is active against streptococci and methicillin-susceptible *Staphylococcus aureus*, which can cause otitis media.
 
 The mechanistic link is only partial. Cefazolin has limited activity against the most common otitis pathogens, *Haemophilus influenzae* and *Moraxella catarrhalis*. This weakens the rationale compared with agents designed to cover those organisms.
 
@@ -113,11 +113,12 @@ The prediction score is high, but there are no registered trials and no publishe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Sixteen single-ingredient licences are valid; this table lists five of them" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
 
 <!-- review:end log -->
 

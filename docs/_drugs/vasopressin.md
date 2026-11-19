@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for vasopressin in the data compiled for this report. Based on general pharmacology, vasopressin and its analogue desmopressin (DDAVP) act through V2 receptors to release stored factor VIII and von Willebrand factor from endothelial cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vasopressin: "Vasopressin causes vasoconstriction by binding to V 1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V 2 receptors which are coupled to adenyl cyclase." ([DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8), label version 2026-04-21; accessed 2026-11-19.) Based on general pharmacology, vasopressin and its analogue desmopressin (DDAVP) act through V2 receptors to release stored factor VIII and von Willebrand factor from endothelial cells.
 
 That mechanism is relevant to factor VIII and combined factor V/VIII deficiencies, **not** to prothrombin (factor II) deficiency. No documented mechanism raises prothrombin levels. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a hypothesis with weak mechanistic support.
 
@@ -117,6 +117,19 @@ The prediction rests on a model score alone. There are no clinical trials, the s
 - Mechanism of action data, and evidence of any effect on prothrombin levels
 - Preclinical or clinical evidence specific to congenital prothrombin deficiency
 - A review of the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for vasopressin in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

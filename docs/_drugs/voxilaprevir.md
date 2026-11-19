@@ -56,7 +56,7 @@ The 9 publications retrieved all concern HCV retreatment, resistance, pricing, o
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, voxilaprevir is an HCV NS3/4A protease inhibitor. It is marketed as part of the fixed-dose combination sofosbuvir/velpatasvir/voxilaprevir, which is used mainly to retreat patients who failed earlier direct-acting antiviral therapy.
+ChEMBL (EMBL-EBI) records the mechanism of action of voxilaprevir as: Hepatitis C virus serine protease, NS3/NS4A inhibitor ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, voxilaprevir is an HCV NS3/4A protease inhibitor. It is marketed as part of the fixed-dose combination sofosbuvir/velpatasvir/voxilaprevir, which is used mainly to retreat patients who failed earlier direct-acting antiviral therapy.
 
 The mechanistic link to hepatitis B is weak. HBV has no NS3/4A protease counterpart. It replicates through a reverse transcriptase/polymerase and follows a different replication cycle. The high score (0.9984) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -106,6 +106,19 @@ The prediction rests on model output alone (Evidence Level L5). There are no HBV
 - Package insert warnings and contraindications from Health Canada, which are required before safety screening
 - In vitro evidence that voxilaprevir has any anti-HBV activity
 - Review of the Canadian product listing, since dosage form and approved indication text are missing
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

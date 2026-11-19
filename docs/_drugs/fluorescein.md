@@ -60,7 +60,7 @@ The literature retrieved for other top predictions describes fluorescein only as
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in retinal angiography and for staining the ocular surface. It has no known vasodilatory or anti-vasospastic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorescein: "Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green." ([DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0), label version 2026-02-26; accessed 2026-11-19.) Fluorescein is a diagnostic fluorescent dye used in retinal angiography and for staining the ocular surface. It has no known vasodilatory or anti-vasospastic activity.
 
 No plausible mechanistic link to Prinzmetal angina has been identified. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it is not backed by clinical or literature evidence. Other top-ranked predictions (antithrombin deficiency type 2, factor 5 excess, heparin cofactor 2 deficiency, partial deletion of chromosome 16p, beta-thalassemia) likewise have no identified mechanism.
 
@@ -110,6 +110,19 @@ The Prinzmetal angina prediction rests on a model score alone (L5), with no tria
 - Package insert warnings and contraindications from Health Canada, plus approved indication text and dosage forms for each DIN
 - Any preclinical or clinical evidence of therapeutic (not diagnostic) activity
 - Confirmation that a diagnostic dye can be developed for systemic therapeutic use, including route and dose compatibility
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

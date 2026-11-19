@@ -56,7 +56,7 @@ The prediction is a model output only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Calaspargase pegol is a PEGylated form of asparaginase. Asparaginase products break down circulating asparagine, which starves cells that depend on it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for calaspargase pegol: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ASPARLAS is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Asparlas (calaspargase pegol) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6585bd0d-bd78-4341-9e87-0f7664821f05), label version 2024-10-08; accessed 2026-11-19.) Calaspargase pegol is a PEGylated form of asparaginase. Asparaginase products break down circulating asparagine, which starves cells that depend on it.
 
 No plausible mechanistic link to insomnia was identified. Insomnia is better understood as a non-specific central nervous system effect seen in the context of chemotherapy regimens, not as a therapeutic target for this drug. The high score of 0.9980 is a model-based output and is not supported by any trial or publication, so it should not be read as evidence of benefit.
 
@@ -103,6 +103,19 @@ The insomnia prediction rests only on a model score, with no clinical trials, no
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from Health Canada
 - A clear rationale for why a drug for leukemia would treat a sleep disorder, since none is currently apparent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asparlas (calaspargase pegol) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6585bd0d-bd78-4341-9e87-0f7664821f05) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ yet **no clinical trials and no publications** currently support this direction,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source database. Based on general coagulation biology, anti-inhibitor coagulant complex is an activated prothrombin complex concentrate. It contains vitamin K-dependent factors (II, VII, IX and X, including activated forms) that promote thrombin generation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anti-inhibitor coagulant complex: "The mechanism of action of FEIBA is still the subject of scientific discussion. FEIBA contains multiple components, mainly non-activated factors II, IX, X and mainly activated factor VII. These factors can interact with plasma coagulation factors and platelets to increase the impaired thrombin generation of hemophilia patients with inhibitors, leading to hemostasis." ([DailyMed: Feiba (anti-inhibitor coagulant complex) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=752604e5-4ea2-44f4-83ed-1569373f6412), label version 2025-11-27; accessed 2026-11-19.) Based on general coagulation biology, anti-inhibitor coagulant complex is an activated prothrombin complex concentrate. It contains vitamin K-dependent factors (II, VII, IX and X, including activated forms) that promote thrombin generation.
 
 Glanzmann thrombasthenia is a platelet disorder in which platelets cannot aggregate because the GPIIb/IIIa receptor is defective or missing. A product that boosts thrombin generation may bypass this defect and help control bleeding. This is plausible mainly for patients who do not respond to platelet transfusion or who have developed anti-platelet antibodies.
 
@@ -94,6 +94,19 @@ The prediction has a plausible mechanistic basis, but there are no clinical tria
 - A literature search for case reports or off-label use of bypassing agents in Glanzmann thrombasthenia and platelet release disorders
 - A comparison with standard management (platelet transfusion, recombinant factor VIIa, antifibrinolytics, desmopressin)
 - A thrombotic risk-benefit assessment, including the interaction risks listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the source database" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Feiba (anti-inhibitor coagulant complex) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=752604e5-4ea2-44f4-83ed-1569373f6412) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

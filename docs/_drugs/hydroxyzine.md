@@ -59,8 +59,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydroxyzine is a first-generation H1-receptor inverse agonist. Histamine released from mast cells drives the wheal-and-flare reaction in allergic urticaria, so blocking H1 receptors is a direct mechanistic fit.
-
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for hydroxyzine: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), label version 2026-11-12; accessed 2026-11-19.) Based on known pharmacology, hydroxyzine is a first-generation H1-receptor inverse agonist. Histamine released from mast cells drives the wheal-and-flare reaction in allergic urticaria, so blocking H1 receptors is a direct mechanistic fit.
 
 Current guidance, including a Canadian position statement, favours newer-generation antihistamines as first-line therapy for urticaria and allergic rhinitis because of the sedation, cognitive impairment and other side effects of first-generation drugs such as hydroxyzine.
 
@@ -141,6 +140,18 @@ The mechanism fits well and urticaria is already an original indication, but the
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
 | 2 | Rosacea conjunctivitis | 0.9970 | L5 | No trials or literature. Antihistamines are not standard therapy, so the link is speculative. Hold. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

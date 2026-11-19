@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for cyanocobalamin is not available in the data compiled for this report. What is known is that it is a form of vitamin B12, a water-soluble B vitamin that acts as a cofactor in human metabolism.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyanocobalamin: "CLINICAL PHAMRACOLOGY Vitamin B12 is essential to growth, cell reproduction, hematopoiesis, and nucleoprotein and myelin synthesis." ([DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d), label version 2025-12-08; accessed 2026-11-19.) What is known is that it is a form of vitamin B12, a water-soluble B vitamin that acts as a cofactor in human metabolism.
 
 A possible indirect link is that B12 and biotin are both water-soluble B vitamins that act as cofactors in related pathways. Adenosylcobalamin is needed by methylmalonyl-CoA mutase, while biotin is needed by propionyl-CoA carboxylase, and both enzymes work in propionate metabolism. This link is speculative.
 
@@ -103,6 +103,19 @@ The prediction is supported only by a model score. No clinical trial or publicat
 - Mechanism-of-action data for cyanocobalamin
 - Warnings and contraindications from the Health Canada package inserts
 - Clarification of which biotin-related disorders are meant, and whether they have any unmet need beyond biotin therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for cyanocobalamin is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

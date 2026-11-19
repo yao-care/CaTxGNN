@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, nabumetone is a COX-2-preferential NSAID, and its efficacy in arthritis-related pain and inflammation is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of nabumetone as: Cyclooxygenase-2 inhibitor ([ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, nabumetone is a COX-2-preferential NSAID, and its efficacy in arthritis-related pain and inflammation is established.
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by mutations in the CDMP1/GDF5 gene, which disrupt BMP/GDF5 signalling during cartilage formation. No plausible mechanism links COX inhibition to correcting this defect. The high score most likely reflects the model's network proximity to other skeletal and joint conditions rather than a therapeutic rationale.
 
@@ -97,6 +97,19 @@ The prediction has no clinical or literature support and no plausible mechanism.
 - Approved indication text and dosage form for the Canadian licence (DIN 02238639)
 - A targeted literature search on nabumetone in spondyloarthropathy, the only prediction with class-level plausibility, which could be evaluated as a research question
 - Any preclinical evidence that would link NSAID pharmacology to GDF5/BMP pathway biology, if this specific prediction is to be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

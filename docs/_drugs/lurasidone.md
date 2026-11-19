@@ -54,7 +54,7 @@ Lurasidone is an atypical antipsychotic originally used to treat bipolar disorde
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data compiled for this report is not available. Lurasidone is known to be an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile plausibly supports antimanic activity, but it should be confirmed against a primary source.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lurasidone: "The mechanism of action of lurasidone in the treatment of schizophrenia and bipolar depression is unclear. However, its efficacy in schizophrenia and bipolar depression could be mediated through a combination of central dopamine D 2 and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8), label version 2025-01-31; accessed 2026-11-19.) Lurasidone is known to be an atypical antipsychotic that antagonises D2, 5-HT2A and 5-HT7 receptors and is a partial agonist at 5-HT1A. This profile plausibly supports antimanic activity, but it should be confirmed against a primary source.
 
 The other eight predicted indications (for example hydranencephaly, several myopia subtypes and Charcot-Marie-Tooth disease type 1G) have similarly high TxGNN model (deep learning) scores (between 0.9992 and 0.9995), but no clinical trials or literature and no plausible mechanistic link. These scores may reflect similarities the model learned between related diseases, not biological evidence. They remain model predictions only and are not recommended for follow-up at this stage.
 
@@ -139,12 +139,13 @@ Evidence for acute mania is therefore insufficient to recommend advancing. The h
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature address" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-05 | Removed: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data compiled for this report is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->
 

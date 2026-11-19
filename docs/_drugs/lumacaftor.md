@@ -60,10 +60,9 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, lumacaftor is a CFTR corrector that improves the folding and trafficking of F508del-CFTR protein, and its use in cystic fibrosis is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lumacaftor and ivacaftor (a combination product containing lumacaftor): "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), label version 2026-03-24; accessed 2026-11-19.) Based on general knowledge, lumacaftor is a CFTR corrector that improves the folding and trafficking of F508del-CFTR protein, and its use in cystic fibrosis is established.
 
 Leprosy is a chronic infection caused by *Mycobacterium leprae*, and no plausible CFTR-related pathway is evident. The high TxGNN score (0.9944) is a computational prediction from the TxGNN model (deep learning) only. It may reflect similarities the model learned between related diseases, not biological evidence, and the prediction is not supported by any trial or publication.
-
 
 ---
 
@@ -113,6 +112,19 @@ The prediction rests only on a TxGNN score, with no clinical trials, no publicat
 - Preclinical or in vitro evidence (e.g., activity against *M. leprae* or relevant host pathways)
 - Health Canada package insert warnings and contraindications, to enable safety screening
 - A review of the interaction profile in the context of standard leprosy regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

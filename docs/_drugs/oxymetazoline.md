@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **5 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxymetazoline is a topical alpha-adrenergic agonist. Pharmacology data show it binds alpha-1 (A, B, D) and alpha-2 (A, B, C) adrenoceptors, as well as the serotonin receptors 5-HT1B, 5-HT1D and 5-HT2C. Through alpha-adrenergic vasoconstriction of nasal mucosal vessels, it reduces congestion and improves nasal airflow.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxymetazoline: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), label version 2026-07-13; accessed 2026-11-19.) Based on known information, oxymetazoline is a topical alpha-adrenergic agonist. Pharmacology data show it binds alpha-1 (A, B, D) and alpha-2 (A, B, C) adrenoceptors, as well as the serotonin receptors 5-HT1B, 5-HT1D and 5-HT2C. Through alpha-adrenergic vasoconstriction of nasal mucosal vessels, it reduces congestion and improves nasal airflow.
 
 The original indications (common cold, pharyngitis) involve upper-airway mucosal congestion, and "nasal cavity disease" is a very broad category in the same anatomical region. Nasal congestion relief is already the marketed use of oxymetazoline, so the high TxGNN score (0.9996) mostly reflects overlap with existing use rather than a truly new indication. The repurposing novelty is therefore limited. Conditions with a vascular or congestive component (rhinitis, sinusitis) are the most plausible extensions.
 
@@ -122,6 +122,19 @@ The prediction has a very high model score, but there are no clinical trials, an
 - Mechanism of action data and Health Canada package insert warnings and contraindications (currently missing, which blocks safety screening)
 - Approved indication text, dosage form and manufacturer details for the Canadian licences
 - A safety plan covering cardiovascular disease, hypertension, glaucoma and MAOI co-use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hairy cell leukemia**, but th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the compiled data. Based on known information, interferon beta-1b is a type I interferon. Its efficacy in relapsing-remitting MS is established, and it acts as an immune modulator.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for interferon beta-1b: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), label version 2026-03-03; accessed 2026-11-19.) Based on known information, interferon beta-1b is a type I interferon. Its efficacy in relapsing-remitting MS is established, and it acts as an immune modulator.
 
 The link to hairy cell leukemia comes from the interferon class. Interferon alpha was historically used to treat this leukemia. Interferon beta-1b signals through the same IFNAR receptor pathway, so antiproliferative and immunomodulatory effects are plausible.
 
@@ -111,6 +111,19 @@ For context, the model's second-ranked prediction, autoimmune disease of the cen
 - A comparison against current standard therapies (purine analogs, BRAF inhibitors) to establish unmet need
 - Mechanism of action data
 - Warnings and contraindications from the Health Canada package insert, for safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for this drug in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

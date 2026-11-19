@@ -54,7 +54,7 @@ Fomepizole is an alcohol dehydrogenase inhibitor, and the Canadian license recor
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, fomepizole is a competitive inhibitor of alcohol dehydrogenase. It is used to block the conversion of methanol and ethylene glycol into their toxic metabolites.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fomepizole: "Fomepizole is a competitive inhibitor of alcohol dehydrogenase. Alcohol dehydrogenase catalyzes the oxidation of ethanol to acetaldehyde. Alcohol dehydrogenase also catalyzes the initial steps in the metabolism of ethylene glycol and methanol to their toxic metabolites." ([DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a), label version 2023-10-26; accessed 2026-11-19.) Based on general pharmacological knowledge, fomepizole is a competitive inhibitor of alcohol dehydrogenase. It is used to block the conversion of methanol and ethylene glycol into their toxic metabolites.
 
 A possible link to sclerosing cholangitis is that blocking alcohol dehydrogenase might change oxidative or aldehyde stress in the liver and bile ducts. This is speculative, and nothing in the compiled data supports it. The high score (0.9928) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. A high prediction score alone is not enough to conclude biological relevance.
 
@@ -93,6 +93,19 @@ The only support is a model prediction score. There are no clinical trials or pu
 - Literature and clinical trial searches on fomepizole in hepatobiliary or cholestatic disease, plus preclinical evidence if available.
 - Approved indication text, dosage forms and route information for the two Canadian licenses.
 - Review of the hepatobiliary safety signals and the ethanol interaction before any further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

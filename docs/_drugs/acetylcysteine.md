@@ -62,7 +62,7 @@ The strongest support is in thrombotic microangiopathy (transplant-associated TM
 
 ## Why is This Prediction Reasonable?
 
-Acetylcysteine is a thiol compound. It reduces disulfide bonds, which is the basis of its mucolytic action in the airway. Detailed mechanism-of-action data are not available in the compiled drug record, but the following mechanistic reasoning is supported by the literature compiled for this report.
+Acetylcysteine is a thiol compound. It reduces disulfide bonds, which is the basis of its mucolytic action in the airway. According to the Mechanism of Action section of the US FDA-approved prescribing information for acetylcysteine: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), label version 2025-04-30; accessed 2026-11-19.) The following mechanistic reasoning is supported by the literature compiled for this report.
 
 In thrombotic thrombocytopenic purpura (TTP), ultra-large von Willebrand factor (VWF) multimers form platelet-rich clots in small vessels. By reducing disulfide bonds in these multimers, acetylcysteine may lower their platelet-binding and prothrombotic activity. It is also an antioxidant that may limit endothelial oxidative stress. This is supported by preclinical mouse and baboon TTP models (PMID 28011677).
 
@@ -135,6 +135,19 @@ A completed Phase 3 trial and a follow-up Phase 2/3 trial in transplant-associat
 ---
 
 *Other predicted indications (closed-angle glaucoma, nasal cavity disease, dry eye syndrome, pharyngitis, acute laryngopharyngitis, tracheal disease, transient ischemic attack, laryngotracheitis, angle-closure glaucoma) are outside the scope of this report. Dry eye syndrome has some clinical evidence (topical chitosan-N-acetylcysteine trials and RCTs) and may merit a separate evaluation.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the compiled drug record, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

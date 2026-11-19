@@ -60,7 +60,7 @@ Amenorrhea appears in that literature as an expected on-treatment effect of mens
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, elagolix is a GnRH receptor antagonist. It suppresses pituitary release of LH and FSH, which lowers ovarian production of estradiol and progesterone. This hypoestrogenic state reduces endometrial proliferation and is the basis of its benefit in endometriosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for elagolix: "ORILISSA is a GnRH receptor antagonist that inhibits endogenous GnRH signaling by binding competitively to GnRH receptors in the pituitary gland. Administration of ORILISSA results in dose-dependent suppression of luteinizing hormone (LH) and follicle-stimulating hormone (FSH), leading to decreased blood concentrations of the ovarian sex hormones, estradiol and progesterone." ([DailyMed: Orilissa (elagolix) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66), label version 2025-12-19; accessed 2026-11-19.) Based on general pharmacology, elagolix is a GnRH receptor antagonist. It suppresses pituitary release of LH and FSH, which lowers ovarian production of estradiol and progesterone. This hypoestrogenic state reduces endometrial proliferation and is the basis of its benefit in endometriosis.
 
 The same mechanism commonly leads to markedly reduced menstrual bleeding or amenorrhea. This overlap probably explains the very high model score. However, amenorrhea here is a pharmacodynamic effect of the drug, not a condition it would treat. Elagolix would be expected to cause or worsen amenorrhea of hypoestrogenic origin. The prediction is therefore mechanistically understandable but does not support a valid therapeutic use.
 
@@ -118,6 +118,19 @@ The high score probably reflects the drug's menstrual-suppressing effect rather 
 - Mechanism of action data from DrugBank
 - Health Canada package insert warnings, contraindications, and approved indication text
 - Bone-density and liver-safety risk assessment for any new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orilissa (elagolix) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a86757b3-09c5-fd3b-1223-244e94f50a66) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

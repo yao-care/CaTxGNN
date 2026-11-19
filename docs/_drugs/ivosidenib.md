@@ -56,7 +56,7 @@ The prediction rests on the model score alone and has no identified biological s
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, ivosidenib inhibits the mutant IDH1 enzyme and lowers 2-hydroxyglutarate in IDH1-mutated tumours. Its efficacy in IDH1-mutated AML is the basis for its original indication.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ivosidenib: "Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods." ([DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d), label version 2025-12-22; accessed 2026-11-19.) From general knowledge, ivosidenib inhibits the mutant IDH1 enzyme and lowers 2-hydroxyglutarate in IDH1-mutated tumours. Its efficacy in IDH1-mutated AML is the basis for its original indication.
 
 Bulbar polio is a viral infection of motor neurons caused by poliovirus. It is not a tumour and has no known link to IDH1 mutation or 2-hydroxyglutarate metabolism. No plausible mechanistic link between ivosidenib and this disease could be identified. The very high TxGNN score (0.9931) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and no trials or literature corroborate it.
 
@@ -111,6 +111,19 @@ The prediction for bulbar polio has no clinical trials, no literature, and no pl
 - Health Canada package insert warnings and contraindications, which are required before any safety screening
 - Any biological or preclinical evidence linking mutant IDH1 inhibition to poliovirus infection (none currently identified)
 - For the therapy-related AML/MDS subtypes (alkylating agent- and radiation-related): subtype-specific clinical data and IDH1 mutation stratification, as a separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

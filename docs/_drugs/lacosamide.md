@@ -56,7 +56,7 @@ Support is limited: **0 registered clinical trials** and a small set of observat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for lacosamide was not available in the data compiled for this report. Lacosamide is known to enhance slow inactivation of voltage-gated sodium channels, and it may also modulate CRMP2 (collapsin response mediator protein 2). Both actions could reduce neuronal hyperexcitability.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lacosamide: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), label version 2026-09-09; accessed 2026-11-19.) Lacosamide is known to enhance slow inactivation of voltage-gated sodium channels, and it may also modulate CRMP2 (collapsin response mediator protein 2). Both actions could reduce neuronal hyperexcitability.
 
 Several antiseizure drugs that act on sodium channels, such as lamotrigine and carbamazepine, are already used as mood stabilisers. This is the main reason the prediction is plausible. Epilepsy and bipolar disorder also frequently co-occur, and one report describes mood stabilisation with lacosamide in a patient with a mood disorder, PTSD and fronto-temporal epilepsy.
 
@@ -126,11 +126,12 @@ The high TxGNN score is backed only by one small retrospective study, one open-l
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Lacosamide has 20 valid single-ingredient licences in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data for lacosamide was not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

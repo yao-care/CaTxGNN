@@ -56,7 +56,7 @@ The data compiled for this report include **6 clinical trials** (2 rated as high
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacological knowledge, bupropion inhibits the reuptake of norepinephrine and dopamine. It has no meaningful serotonergic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bupropion: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), label version 2026-11-11; accessed 2026-11-19.) Based on general pharmacological knowledge, bupropion inhibits the reuptake of norepinephrine and dopamine. It has no meaningful serotonergic activity.
 
 These are the same catecholamine pathways targeted by established ADHD treatments such as methylphenidate, amphetamines and atomoxetine. Enhancing noradrenergic and dopaminergic signalling is thought to improve attention and executive function. This gives a plausible mechanistic link between bupropion and ADHD. Reviews in the evidence set also list bupropion among the non-stimulant options for adults who do not respond to, or cannot tolerate, stimulants.
 
@@ -129,11 +129,12 @@ One completed Phase 3 placebo-controlled trial in adults with ADHD (NCT00048360)
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
 
 <!-- review:end log -->
 

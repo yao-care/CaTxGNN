@@ -58,7 +58,7 @@ Milrinone is an injectable PDE3 inhibitor used for congestive heart failure. The
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action text is not available in the data compiled for this report. The pharmacology data shows that milrinone acts on phosphodiesterases, mainly PDE3A and PDE3B, with additional recorded activity at PDE2A and PDE5A. PDE3 inhibition raises cyclic AMP (cAMP). In the heart this strengthens contraction, and in vascular smooth muscle it causes vasodilation and lowers preload and afterload.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for milrinone: "Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines." ([DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964), label version 2021-08-25; accessed 2026-11-19.) The pharmacology data shows that milrinone acts on phosphodiesterases, mainly PDE3A and PDE3B, with additional recorded activity at PDE2A and PDE5A. PDE3 inhibition raises cyclic AMP (cAMP). In the heart this strengthens contraction, and in vascular smooth muscle it causes vasodilation and lowers preload and afterload.
 
 The link to alopecia is weak and speculative. The only plausible argument is that vasodilation might improve scalp or hair follicle blood flow, similar to the proposed role of minoxidil. Nothing in the data shows milrinone reaching hair follicles or influencing hair growth.
 
@@ -112,6 +112,19 @@ For context, other predictions for milrinone in the same run have far more suppo
 - A plausible non-systemic route, such as a topical formulation, since the available products are injections
 - Package insert warnings and contraindications from Health Canada to complete the safety screening
 - Detailed mechanism-of-action data (MOA) to support the mechanistic-link analysis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action text is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

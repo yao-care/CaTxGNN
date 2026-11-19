@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nelarabine is a prodrug of ara-G, a deoxyguanosine analogue. Ara-G is converted intracellularly to ara-GTP, which is incorporated into DNA and causes selective cytotoxicity in lymphocytes, especially T cells. This mechanism has not been independently verified here.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nelarabine: "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), label version 2025-03-31; accessed 2026-11-19.) Based on known pharmacology, nelarabine is a prodrug of ara-G, a deoxyguanosine analogue. Ara-G is converted intracellularly to ara-GTP, which is incorporated into DNA and causes selective cytotoxicity in lymphocytes, especially T cells. This mechanism has not been independently verified here.
 
 Relapsing-remitting multiple sclerosis is driven largely by autoreactive T cells (and B cells). A drug that depletes lymphocytes is therefore conceptually relevant. Cladribine, another purine analogue, is already approved for MS, which gives this idea some precedent.
 
@@ -115,6 +115,19 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Preclinical or mechanistic evidence in MS models, such as experimental autoimmune encephalomyelitis
 - A neurotoxicity risk-benefit assessment specific to demyelinating disease
 - Approved indication text and dosage form details for the Canadian licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

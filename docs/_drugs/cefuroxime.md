@@ -56,7 +56,7 @@ The prediction is a computational signal only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Cefuroxime belongs to the cephalosporin class of beta-lactam antibiotics, which block bacterial cell-wall synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cefuroxime: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), label version 2025-03-27; accessed 2026-11-19.) Cefuroxime belongs to the cephalosporin class of beta-lactam antibiotics, which block bacterial cell-wall synthesis.
 
 For hyperamylasemia (elevated serum amylase), no plausible mechanistic link to this action has been identified. Nothing about cell-wall synthesis inhibition connects to amylase regulation. It should be treated as a hypothesis-generating signal, not as a rationale for use.
 
@@ -97,6 +97,18 @@ The prediction has a high model score but no supporting trials or publications a
 - Mechanism-of-action data and a biological rationale connecting cefuroxime to amylase regulation
 - Any clinical or preclinical study that directly examines hyperamylasemia
 - Review of the Health Canada package insert for warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

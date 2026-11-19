@@ -56,7 +56,7 @@ but there are **0 clinical trials** and only **1 publication**, and that publica
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, rifaximin is a minimally absorbed, gut-targeted antibiotic. Its efficacy in hepatic encephalopathy is established, and it acts by reducing bacteria in the gut.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rifaximin: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), label version 2025-08-27; accessed 2026-11-19.) Based on known information, rifaximin is a minimally absorbed, gut-targeted antibiotic. Its efficacy in hepatic encephalopathy is established, and it acts by reducing bacteria in the gut.
 
 A mechanistic link to oral candidiasis is weak. Candidiasis is a fungal infection, and rifaximin has no known antifungal activity. The one available publication (PMID 34180023) suggests the opposite of a therapeutic effect: rifaximin use was associated with micafungin-resistant Candida infections in patients receiving allogeneic stem cell transplants. This may reflect selection pressure or disruption of the microbiome. The high TxGNN score is therefore not supported by a plausible mechanism or by clinical evidence of benefit.
 
@@ -101,6 +101,19 @@ The prediction score is very high, but the evidence is thin and points the wrong
 - In vitro or preclinical data showing any antifungal or anti-candidal effect
 - Prospective or controlled studies, which should include monitoring of Candida colonisation and resistance
 - Route and formulation compatibility assessment, since rifaximin is minimally absorbed and oral candidiasis is a local mucosal infection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

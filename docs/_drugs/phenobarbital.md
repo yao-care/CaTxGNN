@@ -62,7 +62,7 @@ The more credible repurposing directions are reflex-type seizure disorders (for 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From general pharmacology, phenobarbital is a barbiturate anticonvulsant that enhances GABA-A receptor-mediated inhibition. This is the basis of its use in epilepsy.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenobarbital: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), label version 2026-10-23; accessed 2026-11-19.) From general pharmacology, phenobarbital is a barbiturate anticonvulsant that enhances GABA-A receptor-mediated inhibition. This is the basis of its use in epilepsy.
 
 **For trigeminal nerve neoplasm (the top-ranked prediction):** the prediction is not mechanistically credible. Phenobarbital has no known antineoplastic or tumour-directed effect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only retrieved paper is about Sturge-Weber syndrome and does not concern this tumour.
 
@@ -169,6 +169,19 @@ Please refer to the package insert for label warnings and contraindications, whi
 - Re-ranking of the candidates so that reflex seizure syndromes and trigeminal neuralgia are prioritized over trigeminal nerve neoplasm
 - A targeted literature review for phenobarbital in reflex epilepsies and trigeminal neuralgia, including comparison against first-line agents
 - A safety plan covering CYP-mediated interactions (particularly with opioids and carbamazepine) and neurodevelopmental risks in young patients
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

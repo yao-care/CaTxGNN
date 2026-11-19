@@ -60,7 +60,7 @@ This prediction mostly reflects an animal model of HIV-1 therapy rather than a t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, efavirenz is an NNRTI that binds HIV-1 reverse transcriptase (RT) and blocks viral replication. Its efficacy in HIV infection is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Based on known information, efavirenz is an NNRTI that binds HIV-1 reverse transcriptase (RT) and blocks viral replication. Its efficacy in HIV infection is established.
 
 Wild-type SIV is intrinsically resistant to NNRTIs, so efavirenz would not be expected to work against it. However, the chimeric virus RT-SHIV, which carries HIV-1 RT inside an SIV backbone, is susceptible to efavirenz. In macaques infected with RT-SHIV, efavirenz (alone or in combination with lamivudine and tenofovir) suppressed viral replication. The mechanism is therefore the same as in the approved HIV indication. The "new indication" is essentially a research model for studying HIV-1 therapy, not a new human use.
 
@@ -126,6 +126,19 @@ The predicted indication is supported only by animal and laboratory work using a
 - Detailed mechanism of action data
 - Health Canada package insert warnings and contraindications for formal safety screening
 - Other predicted indications are weaker: feline acquired immunodeficiency syndrome has only one in vitro structural study (Hold), and the neurodevelopmental disorder prediction has no supporting evidence (Hold)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -58,7 +58,7 @@ Human immunoglobulin G (IgG) is a plasma-derived antibody product marketed in Ca
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, human IgG products act through immunomodulation, Fc receptor blockade and complement inhibition, and are used as replacement or immunomodulatory therapy. A speculative link to diabetic retinopathy would be modulation of inflammation or autoimmunity in the diabetic retina, but nothing in the data compiled for this report supports it.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for human immunoglobulin g: "ASCENIV is a replacement therapy for patients with primary humoral immunodeficiency (PI). ASCENIV provides a broad spectrum of opsonizing and neutralizing IgG antibodies against bacterial and viral pathogens and their toxins." ([DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2), label version 2026-09-29; accessed 2026-11-19.) Based on general knowledge, human IgG products act through immunomodulation, Fc receptor blockade and complement inhibition, and are used as replacement or immunomodulatory therapy. A speculative link to diabetic retinopathy would be modulation of inflammation or autoimmunity in the diabetic retina, but nothing in the data compiled for this report supports it.
 
 The high score (0.9975) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The model also predicts closely related conditions, including diabetic retinopathy (0.9963) and drug-induced osteoporosis (0.9937). These scores are near-identical, which suggests a shared signal learned by the model rather than independent evidence.
 
@@ -110,6 +110,19 @@ The prediction rests only on a TxGNN model (deep learning) score, with no clinic
 - Obtain mechanism of action data (for example from DrugBank) and assess any link to diabetic retinal inflammation
 - Run a systematic search of PubMed and trial registries for IgG in diabetic retinopathy
 - Confirm the original approved indications and the available routes of administration (intravenous or subcutaneous) against what a retinal indication would require
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asceniv (human immunoglobulin g) prescribing information, ADMA Biologics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d74f4360-3b51-496c-96fb-84c3976958d2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

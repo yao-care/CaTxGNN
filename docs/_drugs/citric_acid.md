@@ -56,7 +56,7 @@ No clinical trials are registered for this prediction, and no published study te
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for citric acid are not available in the data compiled for this report. Citric acid is a weak organic acid that acts as a buffer and a calcium chelator. This chelation is the basis of its use in anticoagulant citrate solutions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sodium picosulfate, magnesium oxide, and anhydrous citric acid (a combination product containing citric acid): "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), label version 2026-04-15; accessed 2026-11-19.) Citric acid is a weak organic acid that acts as a buffer and a calcium chelator. This chelation is the basis of its use in anticoagulant citrate solutions.
 
 A plausible, but unproven, link to stomach disease is that citric acid influences gastric acidity and mucosal conditions. This is speculation and has not been tested in a therapeutic study.
 
@@ -120,11 +120,12 @@ The prediction score is high (0.9974), but no clinical trial exists and no publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Detailed mechanism-of-action data for citric acid are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Chlorpheniramine is a first-generation H1 antihistamine. Blocking H1 receptors reduces histamine-driven responses in the nasal mucosa, such as runny nose, sneezing and increased vascular permeability. This is the plausible link to nasal conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine phosphate and chlorpheniramine maleate (a combination product containing chlorpheniramine): "Chlorpheniramine Chlorpheniramine is a propylamine derivative antihistamine (H 1 -receptor antagonist) of the alkylamine class that also possesses anticholinergic and sedative activity." ([DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180), label version 2024-01-10; accessed 2026-11-19.) Chlorpheniramine is a first-generation H1 antihistamine. Blocking H1 receptors reduces histamine-driven responses in the nasal mucosa, such as runny nose, sneezing and increased vascular permeability. This is the plausible link to nasal conditions.
 
 However, "nasal cavity disease" is a very broad term and does not define a specific repurposing question. Much of what it covers (allergic and vasomotor rhinitis) overlaps with uses chlorpheniramine already has, so it adds little as a new indication.
 
@@ -123,6 +123,19 @@ The prediction score is high (0.9953), but the supporting studies are animal and
 - Mechanism-of-action data for chlorpheniramine
 - Package insert warnings and contraindications from Health Canada
 - Review of the Major interactions (potassium salts) and the anticholinergic and CNS-depressant interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

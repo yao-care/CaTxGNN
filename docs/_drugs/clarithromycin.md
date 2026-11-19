@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, clarithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ear and sinus infections is established, but no mechanism is known that would make it applicable to hyperamylasemia.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clarithromycin: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), label version 2026-11-12; accessed 2026-11-19.) Based on known information, clarithromycin is a macrolide antibiotic, its efficacy in bacterial respiratory, ear and sinus infections is established, but no mechanism is known that would make it applicable to hyperamylasemia.
 
 The only retrieved publication describes a patient with *Mycobacterium abscessus* lung infection who also had primary macroamylasemia. Clarithromycin was most likely used to treat the infection, not the raised amylase. Macrolides have also occasionally been associated with pancreatic enzyme changes or pancreatitis, so a therapeutic role is not supported. The high score (0.9935) is a computational prediction only and should not be read as clinical support.
 
@@ -114,6 +114,19 @@ The prediction rests on a model score alone. There are no registered trials, and
 - Health Canada package insert warnings and contraindications (a blocking gap for safety screening)
 - Controlled or observational studies of clarithromycin's effect on amylase levels
 - Review of the other predicted indications. Punctate epithelial keratoconjunctivitis (score 0.9911, one 2024 observational study, Research Question) has a more plausible link through the anti-inflammatory effects of macrolides, but it still needs confirmation that clarithromycin itself was evaluated.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

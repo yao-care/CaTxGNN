@@ -59,7 +59,7 @@ Among the other predictions, **liposarcoma** has the most mature evidence (6 tri
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, pazopanib is a multi-targeted inhibitor of VEGFR, PDGFR and c-KIT. Its efficacy in clear cell renal cell carcinoma and advanced soft tissue sarcoma has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pazopanib: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), label version 2025-12-16; accessed 2026-11-19.) Based on known information, pazopanib is a multi-targeted inhibitor of VEGFR, PDGFR and c-KIT. Its efficacy in clear cell renal cell carcinoma and advanced soft tissue sarcoma has been established.
 
 Non-clear-cell and unclassified renal cell carcinoma often remain dependent on the VEGF pathway. The anti-angiogenic activity of pazopanib may therefore carry over to these subtypes. The supporting evidence comes from retrospective and real-world cohorts and one single-arm multicenter Phase 2 study. No Phase 3 RCT exists for this population.
 
@@ -70,7 +70,6 @@ The other predicted indications follow similar logic:
 ---
 
 ## Clinical Trial Evidence
-
 
 For the next best-supported prediction, **liposarcoma**, the main trials are:
 
@@ -90,7 +89,6 @@ For **fibroblastic neoplasm**, [NCT02066285](https://clinicaltrials.gov/study/NC
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -168,6 +166,19 @@ Package insert warnings and contraindications were not available in the compiled
 - Prospective data, ideally a registered trial, in unclassified or non-clear-cell RCC
 - A safety monitoring plan for blood pressure, QT interval, liver function and acid-suppressant interactions
 - A review of the liposarcoma subtype-specific Phase 2 results and of the Canadian reimbursement context
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, naproxen belongs to the NSAID class, which reduces inflammation and pain by inhibiting prostaglandin synthesis. Its established use is in symptomatic relief of inflammatory and degenerative joint and soft-tissue conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for naproxen: "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893), label version 2026-01-08; accessed 2026-11-19.) Based on general pharmacological knowledge, naproxen belongs to the NSAID class, which reduces inflammation and pain by inhibiting prostaglandin synthesis. Its established use is in symptomatic relief of inflammatory and degenerative joint and soft-tissue conditions.
 
 Brachydactyly-syndactyly syndromes are congenital limb malformations of developmental and genetic origin. Blocking prostaglandin production is not expected to change the underlying cause of such conditions. No mechanistic link is supported by the available data.
 
@@ -131,6 +131,19 @@ The prediction rests on a model score alone, with no clinical trials, no literat
 - Health Canada package insert warnings and contraindications, to allow safety screening
 - Route and dosage-form compatibility assessment
 - Review of whether the other predicted indications offer a more plausible repurposing path
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

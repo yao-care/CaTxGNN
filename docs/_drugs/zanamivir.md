@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but **no cl
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Zanamivir is known to be a viral neuraminidase inhibitor, and its efficacy in influenza is established. However, the mechanism does not readily extend to pyelonephritis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for zanamivir: "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), label version 2026-07-23; accessed 2026-11-19.) Zanamivir is known to be a viral neuraminidase inhibitor, and its efficacy in influenza is established. However, the mechanism does not readily extend to pyelonephritis.
 
 Pyelonephritis is mainly a bacterial infection of the upper urinary tract, most often caused by *E. coli*. Some bacteria produce neuraminidase-like enzymes (sialidases), but zanamivir has no established antibacterial activity. Its poor systemic bioavailability (inhaled or intravenous use only) further limits plausibility.
 
@@ -117,6 +117,19 @@ Evidence is limited to a model prediction (L5). There are no clinical trials or 
 - Evidence of antibacterial or relevant host-directed activity (preclinical studies)
 - Route and formulation compatibility assessment, since zanamivir is available only by inhalation or intravenous use
 - Health Canada product monograph warnings and contraindications, to complete safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

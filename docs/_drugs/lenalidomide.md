@@ -64,7 +64,7 @@ Lenalidomide is a cereblon E3 ligase modulator. It binds cereblon and promotes d
 
 Lenalidomide is already used in MDS and plasma cell myeloma. MDS is a myeloid neoplasm that often progresses to AML, so the biology is shared. Early trials in AML and high-risk MDS include relapsed/refractory disease, post-remission maintenance, and combinations with azacitidine or standard chemotherapy.
 
-Detailed mechanism-of-action data were not available in the data compiled for this report, so the above reflects established pharmacology. The link is plausible, but clinical proof in AML is still limited.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) The above reflects established pharmacology. The link is plausible, but clinical proof in AML is still limited.
 
 ---
 
@@ -171,6 +171,19 @@ Package-insert warnings and contraindications were not available. Please refer t
 - Aregenerative anemia (L3): indirect evidence only; the retrieved literature is mostly myeloma and lymphoma.
 - Refractory cytopenia of childhood (L3, Hold): only a pediatric Phase 1 study in solid tumors/MDS, which offers dosing and safety data but no efficacy data.
 - Severe congenital hypochromic anemia with ringed sideroblasts (L5, Hold): no trials or literature and no established mechanistic link.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From general pharmacology, bempedoic acid inhibits ACL, an enzyme upstream of HMG-CoA reductase in hepatic cholesterol synthesis, and thereby lowers LDL cholesterol.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bempedoic acid: "Bempedoic acid is an adenosine triphosphate-citrate lyase (ACL) inhibitor that lowers LDL-C by inhibition of cholesterol synthesis in the liver. ACL is an enzyme upstream of 3-hydroxy-3-methyl-glutaryl-coenzyme A (HMG-CoA) reductase in the cholesterol biosynthesis pathway." ([DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9), label version 2026-06-25; accessed 2026-11-19.) From general pharmacology, bempedoic acid inhibits ACL, an enzyme upstream of HMG-CoA reductase in hepatic cholesterol synthesis, and thereby lowers LDL cholesterol.
 
 No clear mechanistic link to hyperthyroidism has been identified. Thyroid hormone status influences lipid metabolism, but that does not imply that an ACL inhibitor would treat excess thyroid hormone production. The high score is a model-based prediction only and is not backed by any trial or publication. The prediction should be treated as a hypothesis, not as evidence of benefit.
 
@@ -94,6 +94,19 @@ The prediction rests only on a model score. No clinical trials or publications a
 - Any clinical or observational data on bempedoic acid in thyroid disease
 - Package insert warnings and contraindications from Health Canada
 - Detailed mechanism-of-action data and a review of the interaction profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexletol (bempedoic acid) prescribing information, Esperion Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=88d06d89-a3da-40b4-b273-8f4f7d56c4c9) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

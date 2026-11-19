@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **Tourette synd
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Procainamide is generally known as a class Ia sodium channel blocker used for heart rhythm disorders. It has no known action on the dopaminergic or cortico-striatal circuitry implicated in Tourette syndrome.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for procainamide: "Procainamide (PA) increases the effective refractory period of the atria, and to a lesser extent the bundle of His-Purkinje system and ventricles of the heart. It reduces impulse conduction velocity in the atria, His-Purkinje fibers, and ventricular muscle, but has variable effects on the atrioventricular (A-V) node, a direct slowing action and a weaker vagolytic effect which may speed A-V conduction slightly." ([DailyMed: procainamide hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ec3b767-66bb-4634-877e-71f70d501da0), label version 2026-08-31; accessed 2026-11-19.) Procainamide is generally known as a class Ia sodium channel blocker used for heart rhythm disorders. It has no known action on the dopaminergic or cortico-striatal circuitry implicated in Tourette syndrome.
 
 No plausible mechanistic bridge between the original use (arrhythmia) and the predicted use (a neurodevelopmental tic disorder) is evident. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; no trials or literature support it. The prediction should be treated as a weak hypothesis only.
 
@@ -123,6 +123,19 @@ Other predictions in the data compiled for this report also have no clinical tri
 - **Prinzmetal angina** (0.9944): L4. The papers cover arrhythmias complicating variant angina, and class Ia agents may provoke torsades de pointes.
 - **Rheumatoid arthritis** (0.9912): L4. The literature shows procainamide *inducing* autoimmunity (drug-induced lupus), which is a safety signal rather than support.
 - **Methemoglobinemia, alpha type** (0.9940), **methemoglobinemia** (0.9933), **methemoglobin reductase deficiency** (0.9920), **nephrogenic syndrome of inappropriate antidiuresis** (0.9927), **trichotillomania** (0.9926), and **resistance to thyroid hormone (THRB mutation)** (0.9922): L5, with no plausible mechanism or evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: procainamide hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ec3b767-66bb-4634-877e-71f70d501da0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

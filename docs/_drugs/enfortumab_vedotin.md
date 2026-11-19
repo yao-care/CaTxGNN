@@ -59,12 +59,11 @@ The TxGNN model's top prediction is **leprosy**, but there are **0 clinical tria
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Enfortumab vedotin is known to be a Nectin-4-directed ADC: the antibody delivers the MMAE cytotoxic payload to Nectin-4-expressing cells, where it disrupts microtubules and kills them.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enfortumab vedotin: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), label version 2026-08-04; accessed 2026-11-19.) Enfortumab vedotin is known to be a Nectin-4-directed ADC: the antibody delivers the MMAE cytotoxic payload to Nectin-4-expressing cells, where it disrupts microtubules and kills them.
 
 **Leprosy (rank 1):** There is no identifiable mechanistic link. Leprosy is a *Mycobacterium leprae* infection, and a cytotoxic ADC has no known role in treating it. The high score appears to be a TxGNN model (deep learning) artifact. The same conclusion applies to the other top-ranked predictions with no evidence: multiple endocrine neoplasia, cerebral infarction, HIV infection, homozygous familial hypercholesterolemia, and the two veterinary diseases (infectious bovine rhinotracheitis and malignant catarrh).
 
 **Cytomegalovirus infection and candidiasis (ranks 3-4):** The only publications are an adverse-event case report (severe ulcerative esophagitis after enfortumab vedotin plus pembrolizumab) and a pharmacovigilance study of ADC risk signals. These are safety observations, not efficacy evidence, and the drug has no known antiviral or antifungal activity.
-
 
 ---
 
@@ -81,7 +80,6 @@ No clinical trials are registered for the top-ranked prediction, leprosy.
 ## Literature Evidence
 
 No publications were found for leprosy. For the other predictions, the relevant items are below.
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -142,6 +140,19 @@ The top-ranked predictions, including leprosy, have no clinical or literature su
 - Approved indication text and dosage form for the two PADCEV DINs
 - Mechanism of action data from DrugBank
 - For any other prediction: target expression data and a plausible mechanistic rationale before further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ The high score appears to be a TxGNN model (deep learning) artifact rather than 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, loperamide is a peripheral mu-opioid receptor agonist that acts on the myenteric neurons of the gut to slow motility. This is how it reduces diarrhoea.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.) Based on general pharmacological knowledge, loperamide is a peripheral mu-opioid receptor agonist that acts on the myenteric neurons of the gut to slow motility. This is how it reduces diarrhoea.
 
 That mechanism has no plausible connection to an infectious condition of the ocular surface. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as diarrhea- and infection-related conditions, not biological evidence. Opioid receptors exist in ocular tissue, but nothing shows a therapeutic effect in conjunctival disease.
 
@@ -135,11 +135,12 @@ The prediction rests only on a model score. It has no mechanistic link, no clini
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient , and none is a combination product" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

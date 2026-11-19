@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **acquired coagulation factor d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. From the available pharmacology information, emicizumab is a bispecific antibody that binds activated factor IX (KD about 1.52 µM) and factor X (KD about 0.98 µM). It brings them together and mimics the cofactor function of activated factor VIII.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for emicizumab: "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), label version 2025-07-11; accessed 2026-11-19.) From the available pharmacology information, emicizumab is a bispecific antibody that binds activated factor IX (KD about 1.52 µM) and factor X (KD about 0.98 µM). It brings them together and mimics the cofactor function of activated factor VIII.
 
 In acquired hemophilia A, autoantibodies neutralise the patient's own factor VIII, causing severe bleeding. Because emicizumab replaces factor VIII function through a different structure, these autoantibodies do not neutralise it. This gives a direct mechanistic rationale that follows from its original use in congenital hemophilia A with inhibitors.
 
@@ -147,6 +147,18 @@ Prospective phase 2 and phase 3 studies, a real-world cohort and consensus recom
 | Thrombotic thrombocytopenic purpura | 0.9961 | L5 | **Safety concern:** the problem is thrombosis, and emicizumab promotes coagulation; likely a spurious association |
 | Fetal and neonatal alloimmune thrombocytopenia | 0.9952 | L5 | Does not address the immune mechanism; no evidence |
 | "Flood factor deficiency" | 0.9940 | L5 | Ambiguous name, possibly a data error; verify against the source ontology |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 
