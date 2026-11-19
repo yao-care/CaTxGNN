@@ -1,0 +1,572 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 932,
+ "level_counts": {
+  "L1": 12,
+  "L2": 41,
+  "L3": 36,
+  "L4": 62,
+  "L5": 729
+ },
+ "level_na": 52,
+ "public_pages": 932,
+ "licence_snapshot": "ca_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 809,
+  "drugs_with_current": 797,
+  "drugs_none_current": 12,
+  "drugs_without_data": 123,
+  "drugs_partial": 0,
+  "items_total": 3996,
+  "items_current": 3840
+ },
+ "reviews": {
+  "records": 166,
+  "pages": 154,
+  "public_pages_with_records": 144,
+  "by_action": {
+   "correct": 166
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 932,
+  "clinical_use_definition": 5099
+ },
+ "top_licensed": [
+  {
+   "t": "Acyclovir",
+   "u": "/drugs/acyclovir/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "punctate epithelial keratoconjunctivitis"
+  },
+  {
+   "t": "Desvenlafaxine",
+   "u": "/drugs/desvenlafaxine/",
+   "l": "L4",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "obsessive-compulsive disorder"
+  },
+  {
+   "t": "Dimenhydrinate",
+   "u": "/drugs/dimenhydrinate/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "allergic urticaria"
+  },
+  {
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "familial visceral myopathy"
+  },
+  {
+   "t": "Clobetasol Propionate",
+   "u": "/drugs/clobetasol-propionate/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 19,
+   "r": 1,
+   "i": "vulvar inverted follicular keratosis"
+  },
+  {
+   "t": "Clopidogrel",
+   "u": "/drugs/clopidogrel/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 0,
+   "i": "migraine with brainstem aura"
+  },
+  {
+   "t": "Gramicidin D",
+   "u": "/drugs/gramicidin-d/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 19,
+   "r": 1,
+   "i": "postinfectious vasculitis"
+  },
+  {
+   "t": "Lamivudine",
+   "u": "/drugs/lamivudine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 19,
+   "r": 0,
+   "i": "feline acquired immunodeficiency syndrome"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Alimemazine",
+   "u": "/drugs/alimemazine/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "IgE responsiveness, atopic"
+  },
+  {
+   "t": "Andexanet Alfa",
+   "u": "/drugs/andexanet-alfa/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Glanzmann thrombasthenia"
+  },
+  {
+   "t": "Brompheniramine",
+   "u": "/drugs/brompheniramine/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Disopyramide",
+   "u": "/drugs/disopyramide/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Tourette syndrome"
+  },
+  {
+   "t": "Etafedrine",
+   "u": "/drugs/etafedrine/",
+   "l": "L3",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "bronchitis"
+  },
+  {
+   "t": "Insulin Detemir",
+   "u": "/drugs/insulin-detemir/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "autoimmune oophoritis"
+  },
+  {
+   "t": "Ioversol",
+   "u": "/drugs/ioversol/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 1,
+   "i": "osteoarthritis"
+  },
+  {
+   "t": "Landiolol",
+   "u": "/drugs/landiolol/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "lingual-facial-buccal dyskinesia"
+  },
+  {
+   "t": "Lurbinectedin",
+   "u": "/drugs/lurbinectedin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "multiple endocrine neoplasia"
+  },
+  {
+   "t": "Palivizumab",
+   "u": "/drugs/palivizumab/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 0,
+   "i": "benign neoplasm of tongue"
+  },
+  {
+   "t": "Piperonyl Butoxide",
+   "u": "/drugs/piperonyl-butoxide/",
+   "l": "N/A",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Streptomycin",
+   "u": "/drugs/streptomycin/",
+   "l": "L4",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "conjunctivitis"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Lactic Acid",
+   "u": "/drugs/lactic-acid/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 2,
+   "i": "atypical coarctation of aorta"
+  },
+  {
+   "t": "Lurasidone",
+   "u": "/drugs/lurasidone/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 17,
+   "r": 2,
+   "i": "retinal dystrophy with or without extraocular anomalies"
+  },
+  {
+   "t": "Pantoprazole",
+   "u": "/drugs/pantoprazole/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 19,
+   "r": 2,
+   "i": "duodenal obstruction"
+  },
+  {
+   "t": "Pheniramine",
+   "u": "/drugs/pheniramine/",
+   "l": "L5",
+   "lt": 9,
+   "lv": 7,
+   "r": 2,
+   "i": "nasal cavity disease"
+  },
+  {
+   "t": "Pregabalin",
+   "u": "/drugs/pregabalin/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 20,
+   "r": 2,
+   "i": "tendinitis"
+  },
+  {
+   "t": "Acyclovir",
+   "u": "/drugs/acyclovir/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "punctate epithelial keratoconjunctivitis"
+  }
+ ],
+ "example": {
+  "t": "Ketorolac",
+  "u": "/drugs/ketorolac/",
+  "l": "L1",
+  "lt": 14,
+  "lv": 11,
+  "r": 1,
+  "i": "headache disorder"
+ },
+ "recent_reviews": [
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Removed: \"and 6 of the 6 licenses are valid, with none cancelled\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sennosides",
+   "u": "/drugs/sennosides/",
+   "s": "Removed: \"All five licences are currently valid\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "Removed: \"under 20 valid single-ingredient licences\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Leflunomide",
+   "u": "/drugs/leflunomide/",
+   "s": "Removed: \"with 18 valid single-ingredient licences, none cancelled\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "Removed: \"with 20 valid single-ingredient licences in Canada, mostly topical brands\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Cholecalciferol",
+   "u": "/drugs/cholecalciferol/",
+   "s": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Zinc Acetate",
+   "u": "/drugs/zinc-acetate/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trolamine Salicylate",
+   "u": "/drugs/trolamine-salicylate/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tetryzoline",
+   "u": "/drugs/tetryzoline/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tetracaine",
+   "u": "/drugs/tetracaine/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tamsulosin",
+   "u": "/drugs/tamsulosin/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Soybean Oil",
+   "u": "/drugs/soybean-oil/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Sodium Sulfate",
+   "u": "/drugs/sodium-sulfate/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Sodium Citrate",
+   "u": "/drugs/sodium-citrate/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Removed: \"and 6 of the 6 licenses are valid, with none cancelled\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sennosides",
+   "u": "/drugs/sennosides/",
+   "s": "Removed: \"All five licences are currently valid\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pseudoephedrine",
+   "u": "/drugs/pseudoephedrine/",
+   "s": "Removed: \"under 20 valid single-ingredient licences\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Leflunomide",
+   "u": "/drugs/leflunomide/",
+   "s": "Removed: \"with 18 valid single-ingredient licences, none cancelled\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "Removed: \"with 20 valid single-ingredient licences in Canada, mostly topical brands\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Cholecalciferol",
+   "u": "/drugs/cholecalciferol/",
+   "s": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Zinc Acetate",
+   "u": "/drugs/zinc-acetate/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vitamin E",
+   "u": "/drugs/vitamin-e/",
+   "s": "Removed: \"single-ingredient\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "files": {
+  "search_index": 932,
+  "drugs_json": 932
+ },
+ "by_level": {
+  "L1": {
+   "n": 12,
+   "current": 12
+  },
+  "L2": {
+   "n": 41,
+   "current": 41
+  },
+  "L3": {
+   "n": 36,
+   "current": 35
+  },
+  "L4": {
+   "n": 62,
+   "current": 61
+  },
+  "L5": {
+   "n": 729,
+   "current": 721
+  }
+ },
+ "cross": {
+  "unique_pairs": 73,
+  "unique_examples": [
+   {
+    "t": "Etafedrine",
+    "u": "/drugs/etafedrine/",
+    "i": "bronchitis"
+   },
+   {
+    "t": "Anti-Inhibitor Coagulant Complex",
+    "u": "/drugs/anti-inhibitor-coagulant-complex/",
+    "i": "Glanzmann thrombasthenia"
+   },
+   {
+    "t": "Butalbital",
+    "u": "/drugs/butalbital/",
+    "i": "visual epilepsy"
+   },
+   {
+    "t": "Butamben",
+    "u": "/drugs/butamben/",
+    "i": "bronchitis"
+   },
+   {
+    "t": "Carbon Monoxide",
+    "u": "/drugs/carbon-monoxide/",
+    "i": "sclerosing cholangitis"
+   },
+   {
+    "t": "Gramicidin D",
+    "u": "/drugs/gramicidin-d/",
+    "i": "postinfectious vasculitis"
+   },
+   {
+    "t": "Methotrimeprazine",
+    "u": "/drugs/methotrimeprazine/",
+    "i": "manic bipolar affective disorder"
+   },
+   {
+    "t": "Monopotassium Phosphate",
+    "u": "/drugs/monopotassium-phosphate/",
+    "i": "renal tubular acidosis"
+   },
+   {
+    "t": "Oxtriphylline",
+    "u": "/drugs/oxtriphylline/",
+    "i": "migraine disorder"
+   },
+   {
+    "t": "Romidepsin",
+    "u": "/drugs/romidepsin/",
+    "i": "dermatofibrosarcoma protuberans"
+   },
+   {
+    "t": "Thyroid Porcine",
+    "u": "/drugs/thyroid-porcine/",
+    "i": "migraine disorder"
+   },
+   {
+    "t": "Vilazodone",
+    "u": "/drugs/vilazodone/",
+    "i": "schizotypal personality disorder"
+   }
+  ]
+ }
+}
