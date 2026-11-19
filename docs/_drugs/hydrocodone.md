@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-05
 description: "Hydrocodone: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "hydrocodone"
+drugbank_id: DB00956
 predicted_indications: ["nasal cavity disease"]
 ---
 
