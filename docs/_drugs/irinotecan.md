@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). In Canada: 9 DINs (6 marketed, 2 dormant)"

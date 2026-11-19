@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Canada: 19 DINs (17 marketed, 2 dormant)"

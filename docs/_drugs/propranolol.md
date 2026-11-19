@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In Canada: 13 DINs (13 marketed)"

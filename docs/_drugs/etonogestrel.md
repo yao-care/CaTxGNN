@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel: predicted new indication Amenorrhea (disease) (evidence level L5). In Canada: 3 DINs (3 marketed)"

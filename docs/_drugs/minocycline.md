@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: 3 DINs (3 marketed)"

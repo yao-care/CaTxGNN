@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 849
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Siltuximab"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
 description: "Siltuximab: predicted new indication Extracutaneous mastocytoma (evidence level L5). In Canada: 2 DINs (2 marketed)"

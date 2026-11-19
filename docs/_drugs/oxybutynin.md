@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In Canada: 6 DINs (5 marketed, 1 dormant)"

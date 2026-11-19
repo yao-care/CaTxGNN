@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L4). In Canada: 2 DINs (2 marketed)"

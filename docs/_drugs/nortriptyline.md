@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 669
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "NORTRIPTYLINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). In Canada: 2 DINs (2 marketed)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Canada: 4 DINs (4 marketed)"

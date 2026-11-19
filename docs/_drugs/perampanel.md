@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Canada: 12 DINs (12 marketed)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 59
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Anakinra"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 description: "Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). In Canada: 1 DIN (1 marketed)"

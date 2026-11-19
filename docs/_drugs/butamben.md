@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUTAMBEN"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "cauda equina syndrome", "hydroa vacciniforme, familial", "diabetic retinopathy"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Butamben: predicted new indication Bronchitis (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 

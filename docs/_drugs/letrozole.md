@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). In Canada: 20 DINs (18 marketed, 2 dormant)"

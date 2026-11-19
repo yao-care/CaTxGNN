@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ADENOSINE"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 

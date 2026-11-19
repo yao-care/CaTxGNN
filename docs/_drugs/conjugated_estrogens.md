@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Conjugated estrogens"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
 description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"

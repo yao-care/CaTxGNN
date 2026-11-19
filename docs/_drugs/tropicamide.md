@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 953
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). In Canada: 4 DINs (4 marketed)"

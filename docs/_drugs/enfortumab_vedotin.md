@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "infectious bovine rhinotracheitis", "malignant catarrh"]
 description: "Enfortumab Vedotin: predicted new indication Leprosy (evidence level L5). In Canada: 2 DINs (2 marketed)"

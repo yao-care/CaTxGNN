@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "FLUOCINOLONE ACETONIDE"
 predicted_indications: ["lichen planus pemphigoides"]
 description: "Fluocinolone Acetonide: predicted new indication Lichen planus pemphigoides (evidence level L5). In Canada: 3 DINs (3 marketed)"

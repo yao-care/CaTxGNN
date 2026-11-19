@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CAFFEINE"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 

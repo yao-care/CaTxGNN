@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "ICATIBANT"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In Canada: 2 DINs (2 marketed)"

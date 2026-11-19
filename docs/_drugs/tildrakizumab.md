@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 914
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
 description: "Tildrakizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In Canada: 2 DINs (2 marketed)"

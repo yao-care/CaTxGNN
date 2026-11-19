@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ALMOTRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 

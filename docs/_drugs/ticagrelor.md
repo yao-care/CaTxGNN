@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 913
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). In Canada: 12 DINs (12 marketed)"

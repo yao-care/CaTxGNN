@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Benazepril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 

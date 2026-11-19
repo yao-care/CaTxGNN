@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "NELARABINE"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). In Canada: 1 DIN (1 marketed)"

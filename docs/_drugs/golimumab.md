@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In Canada: 5 DINs (5 marketed)"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cysteamine"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "exocrine pancreatic insufficiency", "free sialic acid storage disease", "Hurler syndrome", "Steel syndrome", "Gaucher disease", "autosomal ichthyosis syndrome with fatal disease course", "glycogen storage disease due to GLUT2 deficiency"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Cysteamine: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 

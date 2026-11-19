@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In Canada: at least 20 DINs"

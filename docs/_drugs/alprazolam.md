@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 40
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In Canada: 13 DINs (13 marketed)"

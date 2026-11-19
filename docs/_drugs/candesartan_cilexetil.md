@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 

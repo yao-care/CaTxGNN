@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 440
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "GOSERELIN"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: predicted new indication Amenorrhea (disease) (evidence level L2). In Canada: 2 DINs (2 marketed)"

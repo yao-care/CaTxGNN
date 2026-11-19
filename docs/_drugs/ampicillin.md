@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). In Canada: 17 DINs (17 marketed)"

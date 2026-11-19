@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In Canada: at least 20 DINs"
 ---
 

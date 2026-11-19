@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). In Canada: 2 DINs (2 marketed)"

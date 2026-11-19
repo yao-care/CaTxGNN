@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 596
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). In Canada: 19 DINs (19 marketed)"

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). In Canada: 7 DINs (7 marketed)"

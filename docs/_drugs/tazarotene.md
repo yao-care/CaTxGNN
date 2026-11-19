@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 883
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "TAZAROTENE"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). In Canada: 2 DINs (2 marketed)"

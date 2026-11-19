@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In Canada: 13 DINs (11 marketed, 2 dormant)"

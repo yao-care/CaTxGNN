@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 661
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Nitroprusside: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the licence data compiled for this report"
 monitor_inn: "nitroprusside"
 drugbank_id: DB00325

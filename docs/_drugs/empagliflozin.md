@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Empagliflozin: predicted new indication classic stiff person syndrome (evidence level L5). In Canada: 8 DINs (8 marketed)"
 ---
 

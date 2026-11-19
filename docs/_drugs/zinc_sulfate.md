@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 993
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). In Canada: 14 DINs (14 marketed)"

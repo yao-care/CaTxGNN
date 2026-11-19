@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 963
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Canada: 16 DINs (15 marketed, 1 dormant)"

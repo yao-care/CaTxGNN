@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 733
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "PHENYTOIN"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Canada: 8 DINs (7 marketed, 1 dormant)"
