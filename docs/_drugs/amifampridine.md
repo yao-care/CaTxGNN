@@ -54,7 +54,7 @@ Amifampridine is a potassium channel blocker that is marketed in Canada. The TxG
 
 ## Why is This Prediction Reasonable?
 
-Amifampridine blocks voltage-gated potassium channels. This prolongs depolarization at the nerve terminal and increases neurotransmitter release at the neuromuscular junction. According to the Mechanism of Action section of the US FDA-approved prescribing information for amifampridine: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), label version 2026-04-16; accessed 2026-11-19.) This description reflects the general, known pharmacology of the drug class.
+Amifampridine blocks voltage-gated potassium channels. This prolongs depolarization at the nerve terminal and increases neurotransmitter release at the neuromuscular junction. This description reflects the general, known pharmacology of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for amifampridine: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), label version 2026-04-16; accessed 2026-11-19.)
 
 No clear link has been established between this mechanism and the pathophysiology of glaucoma, which involves intraocular pressure and loss of retinal ganglion cells. The high TxGNN score is a computational output only. It is not supported by any trial, publication or mechanistic study in the data compiled here. The prediction should be regarded as a hypothesis that requires independent biological justification before any further investment.
 
@@ -105,7 +105,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
+| 2026-11-20 | "Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects the general, known pharmacology of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
 
 <!-- review:end log -->
 

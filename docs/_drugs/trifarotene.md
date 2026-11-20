@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 945
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Trifarotene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne (acne vulgaris)"
 monitor_inn: "Trifarotene"
 predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"]
@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **zinc, elevate
 
 ## Why is This Prediction Reasonable?
 
-Trifarotene is a selective retinoic acid receptor gamma (RARγ) agonist. The data compiled for this report also list activity at RARα and RARβ. It is applied to the skin as a 0.005% cream. Its high metabolic instability suggests limited systemic exposure. Detailed mechanism-of-action data are not otherwise available in the compiled data.
+Trifarotene is a selective retinoic acid receptor gamma (RARγ) agonist. The data compiled for this report also list activity at RARα and RARβ. It is applied to the skin as a 0.005% cream. Its high metabolic instability suggests limited systemic exposure. According to the Mechanism of Action section of the US FDA-approved prescribing information for trifarotene: "Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR. Stimulation of RAR results in modulation of target genes which are associated with various processes, including cell differentiation and mediation of inflammation." ([DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc), label version 2024-09-16; accessed 2026-11-20.)
 
 Its acne use makes mechanistic sense: retinoids normalise keratinocyte differentiation in the hair follicle. No plausible mechanistic link to elevated plasma zinc was identified, and a topical agent with minimal systemic exposure is an unlikely way to change a blood mineral level. The prediction should be regarded as a statistical output of the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, and not a mechanistically supported hypothesis.
 
@@ -110,6 +110,19 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 - Detailed mechanism-of-action data
 - A biological rationale connecting RAR agonism to zinc homeostasis, plus preclinical or observational evidence
 - Consideration of alternative candidates closer to the original indication (e.g., the acne component of PAPA syndrome), which would still require clinical evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

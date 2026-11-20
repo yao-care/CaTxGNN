@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, but
 
 ## Why is This Prediction Reasonable?
 
-Prasugrel is a P2Y12 antagonist that inhibits platelet aggregation. Platelet activation and microvascular thrombosis are thought to contribute to pulmonary vascular remodelling, so a theoretical link to pulmonary hypertension exists. According to the Mechanism of Action section of the US FDA-approved prescribing information for prasugrel: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), label version 2022-09-07; accessed 2026-11-19.) This reasoning rests on the drug's known class.
+Prasugrel is a P2Y12 antagonist that inhibits platelet aggregation. Platelet activation and microvascular thrombosis are thought to contribute to pulmonary vascular remodelling, so a theoretical link to pulmonary hypertension exists. This reasoning rests on the drug's known class. According to the Mechanism of Action section of the US FDA-approved prescribing information for prasugrel: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), label version 2022-09-07; accessed 2026-11-19.)
 
 Prasugrel's benefit is established in acute coronary syndrome, where it prevents platelet-driven clot formation. The new indication is a vascular disease in which thrombosis may play a role. The link is plausible in principle, but no clinical evidence supports this use. The high TxGNN score is a computational prediction only.
 
@@ -123,7 +123,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
+| 2026-11-20 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so this reasoning rests on the drug's known class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

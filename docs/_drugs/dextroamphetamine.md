@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dextroamphetamine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome", "trichotillomania"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Dextroamphetamine: predicted new indication faciodigitogenital syndrome (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -56,7 +56,7 @@ The prediction rests on model output alone.
 
 ## Why is This Prediction Reasonable?
 
-Dextroamphetamine releases catecholamines and inhibits their reuptake (through TAAR1, VMAT2 and the dopamine transporter). Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.
+Dextroamphetamine releases catecholamines and inhibits their reuptake (through TAAR1, VMAT2 and the dopamine transporter). According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dextroamphetamine: "Amphetamines are noncatecholamine, sympathomimetic amines with CNS stimulant activity. Peripheral actions include elevations of systolic and diastolic blood pressures and weak bronchodilator and respiratory stimulant action." ([DailyMed: Dextroamphetamine Sulfate Extended-Release (dextroamphetamine sulfate) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69c40af8-3710-46bf-bd3d-137fe5eea23e), label version 2025-12-08; accessed 2026-11-20.)
 
 Faciodigitogenital syndrome (Aarskog-Scott syndrome, FGD1-related) can include ADHD-like behavioural features. A stimulant could in principle ease those symptoms. This is an inference only: it would be symptom management, not disease modification, and no study in the data compiled for this report tests it.
 
@@ -97,6 +97,19 @@ The prediction has a very high model score (0.9999) but no trials or literature 
 - Package insert warnings and contraindications from Health Canada
 - Detailed mechanism-of-action data
 - A cardiovascular and psychiatric safety assessment for this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dextroamphetamine Sulfate Extended-Release (dextroamphetamine sulfate) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69c40af8-3710-46bf-bd3d-137fe5eea23e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

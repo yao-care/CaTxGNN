@@ -58,7 +58,7 @@ Butalbital is a barbiturate marketed in Canada only in fixed-dose combination pr
 
 ## Why is This Prediction Reasonable?
 
-Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A receptors, prolonging chloride channel opening and strengthening inhibitory neurotransmission. This is a plausible anticonvulsant mechanism, shared with phenobarbital. According to the Mechanism of Action section of the US FDA-approved prescribing information for butalbital, aspirin, caffeine and codeine phosphate (a combination product containing butalbital): "Butalbital, a barbiturate, is a GABA A receptor agonist and may inhibit excitatory AMPA receptors." ([DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f), label version 2026-05-27; accessed 2026-11-19.) This reasoning relies on class-level knowledge.
+Butalbital is a barbiturate. Barbiturates enhance the effect of GABA at GABA-A receptors, prolonging chloride channel opening and strengthening inhibitory neurotransmission. This is a plausible anticonvulsant mechanism, shared with phenobarbital. This reasoning relies on class-level knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for butalbital, aspirin, caffeine and codeine phosphate (a combination product containing butalbital): "Butalbital, a barbiturate, is a GABA A receptor agonist and may inhibit excitatory AMPA receptors." ([DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f), label version 2026-05-27; accessed 2026-11-19.)
 
 The link between the original and predicted indications is weak. Butalbital is used in combination with acetaminophen or aspirin and caffeine (sometimes with codeine) for headache, and it has no established antiepileptic indication. The very high TxGNN score most likely reflects its similarity to anticonvulsant barbiturates rather than direct evidence. None of the retrieved literature evaluates butalbital as a treatment for visual (photosensitive) epilepsy.
 
@@ -139,7 +139,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism of action data for butalbital itself is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f) |
+| 2026-11-20 | "Detailed mechanism of action data for butalbital itself is not available in the data compiled for this report, so this reasoning relies on class-level knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: butalbital, aspirin, caffeine and codeine phosphate prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95a33c9b-79a6-47c7-8433-fc217950b88f) |
 
 <!-- review:end log -->
 

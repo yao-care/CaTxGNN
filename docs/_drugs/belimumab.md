@@ -56,7 +56,7 @@ The prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Belimumab neutralizes soluble BLyS (BAFF). This reduces B-cell survival and autoantibody production. According to the Mechanism of Action section of the US FDA-approved prescribing information for belimumab: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), label version 2026-10-30; accessed 2026-11-19.) This description relies on the drug's known class.
+Belimumab neutralizes soluble BLyS (BAFF). This reduces B-cell survival and autoantibody production. This description relies on the drug's known class. According to the Mechanism of Action section of the US FDA-approved prescribing information for belimumab: "BENLYSTA is a BLyS-specific inhibitor that blocks the binding of soluble BLyS, a B-cell survival factor, to its receptors on B cells. BENLYSTA does not bind B cells directly, but by binding BLyS, BENLYSTA inhibits the survival of B cells, including autoreactive B cells, and reduces the differentiation of B cells into immunoglobulin-producing plasma cells." ([DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3), label version 2026-10-30; accessed 2026-11-19.)
 
 Primary platelet release disorders are typically inherited, qualitative platelet function defects, involving granule secretion or signaling abnormalities. They are not primarily driven by B cells or autoantibodies. No plausible mechanistic link between BAFF inhibition and this condition was identified. The very high score (0.9996) is a model output only, and no trial or publication supports it. The prediction should be treated as a hypothesis, not as a finding.
 
@@ -110,7 +110,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
+| 2026-11-20 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so this description relies on the drug's known class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Benlysta (belimumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2fa3c528-1777-4628-8a55-a69dae2381a3) |
 
 <!-- review:end log -->
 

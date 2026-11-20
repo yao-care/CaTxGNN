@@ -60,7 +60,7 @@ Support is thin: there are **0 registered clinical trials** and **20 publication
 
 ## Why is This Prediction Reasonable?
 
-According to the Mechanism of Action section of the US FDA-approved prescribing information for progesterone: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), label version 2026-10-05; accessed 2026-11-19.) The rationale below therefore rests on the published literature on the disease itself.
+The rationale below therefore rests on the published literature on the disease itself. According to the Mechanism of Action section of the US FDA-approved prescribing information for progesterone: "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), label version 2026-10-05; accessed 2026-11-19.)
 
 Fibrocystic breast changes are the most common benign breast condition. They are thought to arise from excessive cell proliferation in response to the monthly shifts in estrogen and progesterone. One review (Vorherr, 1986) describes the pathophysiology as estrogen predominance with progesterone deficiency, driving hyperproliferation of connective tissue and then of epithelium. A study of 50 women with the condition and 40 controls examined the estradiol-to-progesterone (E2/P) ratio in the late luteal phase, supporting the idea that hormone balance matters.
 
@@ -147,7 +147,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
-| 2026-11-19 | "Detailed mechanism-of-action data for progesterone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+| 2026-11-20 | "Detailed mechanism-of-action data for progesterone is not available in the data compiled for this report. The rationale below therefore rests on the published literature on the disease itself" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
 
 <!-- review:end log -->
 

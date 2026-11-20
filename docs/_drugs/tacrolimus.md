@@ -66,7 +66,7 @@ Tacrolimus inhibits calcineurin. This blocks activation of T cells and the relea
 
 Seborrheic dermatitis is a chronic, relapsing inflammatory skin disease of the face and scalp. The host immune response to *Malassezia* yeast is thought to be a core driver. Atopic dermatitis and seborrheic dermatitis therefore share an immunoinflammatory mechanism, which makes the prediction biologically plausible.
 
-Published reviews describe topical calcineurin inhibitors as a steroid-sparing alternative in seborrheic dermatitis. The long-term adverse effects of corticosteroids limit their use. According to the Mechanism of Action section of the US FDA-approved prescribing information for tacrolimus: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), label version 2025-02-26; accessed 2026-11-19.) This reasoning rests on the known pharmacology of calcineurin inhibitors.
+Published reviews describe topical calcineurin inhibitors as a steroid-sparing alternative in seborrheic dermatitis. The long-term adverse effects of corticosteroids limit their use. This reasoning rests on the known pharmacology of calcineurin inhibitors. According to the Mechanism of Action section of the US FDA-approved prescribing information for tacrolimus: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), label version 2025-02-26; accessed 2026-11-19.)
 
 ---
 
@@ -150,7 +150,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data from DrugBank were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+| 2026-11-20 | "Detailed mechanism-of-action data from DrugBank were not available in the data compiled for this report, so this reasoning rests on the known pharmacology of calcineurin inhibitors" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

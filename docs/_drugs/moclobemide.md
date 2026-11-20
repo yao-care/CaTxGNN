@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 626
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 
 ## Why is This Prediction Reasonable?
 
-Moclobemide selectively and reversibly inhibits monoamine oxidase A (MAO-A). This slows the breakdown of serotonin, norepinephrine and dopamine and raises their levels in the synapse. Detailed mechanism data were not available in the compiled record. The mechanism described here comes from the pharmacology target data (MAO-A and MAO-B) and general pharmacology.
+Moclobemide selectively and reversibly inhibits monoamine oxidase A (MAO-A). This slows the breakdown of serotonin, norepinephrine and dopamine and raises their levels in the synapse. The mechanism described here comes from the pharmacology target data (MAO-A and MAO-B) and general pharmacology. ChEMBL (EMBL-EBI) records the mechanism of action of moclobemide as: Monoamine oxidase A inhibitor ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0; accessed 2026-11-20.)
 
 Agoraphobia usually occurs together with panic disorder and belongs to the same family of anxiety disorders as moclobemide's existing indications. Monoaminergic drugs are already used for panic disorder and social anxiety. The published studies below tested moclobemide in panic disorder with or without agoraphobia and in social phobia. This biological and clinical closeness fits the very high TxGNN score.
 
@@ -123,6 +123,19 @@ Two randomised controlled trials in panic disorder with or without agoraphobia, 
 - Trial data specific to agoraphobia, or a pooled analysis of the existing panic disorder with agoraphobia trials
 - A review of the full text of the two RCTs to confirm outcomes and the agoraphobia subgroup
 - Interaction and dietary guidance for MAO inhibitors from the package insert
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism data were not available in the compiled record. The mechanism described here comes from the pharmacology target data (MAO-A and MAO-B) and general pharmacology" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -54,7 +54,7 @@ Clindamycin is a lincosamide antibiotic that blocks bacterial protein synthesis.
 
 ## Why is This Prediction Reasonable?
 
-Clindamycin binds the 50S ribosomal subunit of bacteria and stops protein synthesis. It is active mainly against gram-positive organisms and anaerobes. Detailed mechanism data were not available in the data compiled for this report, so this description reflects the general known class action.
+Clindamycin binds the 50S ribosomal subunit of bacteria and stops protein synthesis. It is active mainly against gram-positive organisms and anaerobes. This description reflects the general known class action. According to the Mechanism of Action section of the US FDA-approved prescribing information for clindamycin: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), label version 2026-09-16; accessed 2026-11-20.)
 
 The link to punctate epithelial keratoconjunctivitis is weak. This condition is often viral or non-infectious (for example adenoviral, toxic, or dry-eye related), and an antibacterial has no clear role in these forms. A rationale exists only if a bacterial component is present, such as staphylococcal blepharokeratoconjunctivitis. The prediction is therefore a computational signal, not a mechanism-based expectation. Topical ocular clindamycin is also not an established formulation.
 
@@ -107,11 +107,12 @@ The score is very high (0.9997), but there are no trials or publications on this
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Health Canada records show 20 valid single-ingredient licences, and the list may be partial" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-20 | "Detailed mechanism data were not available in the data compiled for this report, so this description reflects the general known class action" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->
 

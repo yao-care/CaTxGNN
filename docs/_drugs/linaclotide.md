@@ -58,7 +58,7 @@ Linaclotide is a guanylate cyclase-C (GC-C) agonist. It raises cGMP levels in th
 
 The link to the new indication is weak. Cauda equina syndrome is a neurological emergency caused by compression of the nerve roots at the base of the spine, and the standard treatment is surgical decompression. Linaclotide is barely absorbed into the bloodstream, so there is no established way it could act on compressed nerve roots. The high TxGNN score probably reflects the model's network proximity to bowel and bladder dysfunction features, not a real therapeutic mechanism. At most, linaclotide might be considered for secondary neurogenic bowel symptoms, which is a different indication.
 
-According to the Mechanism of Action section of the US FDA-approved prescribing information for linaclotide: "Linaclotide is structurally related to human guanylin and uroguanylin and functions as a guanylate cyclase-C (GC-C) agonist. Both linaclotide and its active metabolite bind to GC-C and act locally on the luminal surface of the intestinal epithelium." ([DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f), label version 2026-10-10; accessed 2026-11-19.) The reasoning above relies on general pharmacological knowledge.
+The reasoning above relies on general pharmacological knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for linaclotide: "Linaclotide is structurally related to human guanylin and uroguanylin and functions as a guanylate cyclase-C (GC-C) agonist. Both linaclotide and its active metabolite bind to GC-C and act locally on the luminal surface of the intestinal epithelium." ([DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f), label version 2026-10-10; accessed 2026-11-19.)
 
 The TxGNN model (deep learning) also lists Clostridium difficile colitis and neurocirculatory asthenia as associations. These come from the model and may reflect similarities the model learned between related diseases, not biological evidence. They are not approved uses.
 
@@ -115,7 +115,7 @@ Below is the review log for this page. A statement that mechanism-of-action data
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f) |
+| 2026-11-20 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so the reasoning above relies on general pharmacological knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Linzess (linaclotide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d09771d-69da-4c9d-92b6-74374ffa130f) |
 
 <!-- review:end log -->
 

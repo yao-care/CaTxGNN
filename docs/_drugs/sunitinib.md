@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 875
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (nonpapillary…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -56,7 +56,7 @@ with **2 completed Phase 2 clinical trials** and **8 publications** (including o
 
 ## Why is This Prediction Reasonable?
 
-Sunitinib blocks several receptor tyrosine kinases, including VEGFR, PDGFR, KIT, FLT3 and RET. These drive tumour angiogenesis and cell proliferation. Detailed mechanism of action data is not otherwise available in the data compiled for this report, so this description comes from the repurposing analysis.
+Sunitinib blocks several receptor tyrosine kinases, including VEGFR, PDGFR, KIT, FLT3 and RET. These drive tumour angiogenesis and cell proliferation. This description comes from the repurposing analysis. According to the Mechanism of Action section of the US FDA-approved prescribing information for sunitinib: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), label version 2026-02-20; accessed 2026-11-20.)
 
 Renal cell carcinoma and GIST are both tumours in which these pathways play a major role. Soft tissue sarcomas, including liposarcoma, also depend on angiogenesis and growth-factor signalling, which gives a plausible reason why a drug that works in these cancers could have some activity in liposarcoma.
 
@@ -142,6 +142,19 @@ Official package insert warnings and contraindications were not available, so pl
 - **Dermatofibrosarcoma protuberans** (L3): a mechanistically sound option after imatinib failure, supported by a retrospective series and case reports.
 - **Renal carcinoma** (L1): strong Phase 3 evidence, but it overlaps the already-approved indication and is not a true repurposing finding.
 - **Hold:** ovarian myxoid liposarcoma, renal cell carcinoma associated with neuroblastoma, angiolipoma and heart fibrosarcoma, which have little or no disease-specific evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available in the data compiled for this report, so this description comes from the repurposing analysis" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

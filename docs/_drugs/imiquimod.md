@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -60,7 +60,7 @@ with **2 clinical trials** and **9 publications** currently supporting this dire
 
 ## Why is This Prediction Reasonable?
 
-Imiquimod is a Toll-like receptor 7 (TLR7) agonist. When applied to the skin, it induces local release of type I interferon and pro-inflammatory cytokines, which in turn activates innate and adaptive anti-tumour and antiviral immunity. Detailed mechanism-of-action data were not otherwise available in the compiled data, so this description comes from the mechanistic rationale in the evidence review.
+Imiquimod is a Toll-like receptor 7 (TLR7) agonist. When applied to the skin, it induces local release of type I interferon and pro-inflammatory cytokines, which in turn activates innate and adaptive anti-tumour and antiviral immunity. This description comes from the mechanistic rationale in the evidence review. According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-20.)
 
 Many of imiquimod's known uses are already pre-malignant or HPV-driven epithelial lesions. Actinic keratosis, for example, is a pre-malignant skin lesion and one of its original indications. The same immune mechanism plausibly applies to related intraepithelial neoplasias, namely vulval (VIN), cervical (CIN), and anal canal (AIN) intraepithelial neoplasia. Cochrane reviews of VIN and AIN, reviews of topical treatment for non-melanoma skin cancer, and case reports support this use.
 
@@ -134,6 +134,19 @@ The mechanism is well understood and is already validated clinically in actinic 
 - Adequately powered randomised trials in the chosen lesion types, since the existing trials are small or terminated.
 - Review of safety signals, including the autoimmune and photosensitivity-related contraindications flagged by the knowledge graph, and the reported cases of malignant conversion and skin reactions.
 - Confirmation of the approved indications, dosage forms, and routes for the four Canadian products.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data were not otherwise available in the compiled data, so this description comes from the mechanistic rationale in the evidence review" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

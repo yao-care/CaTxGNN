@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 922
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-20
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -60,7 +60,7 @@ with **no registered clinical trials** but **20 publications** (including 2 Phas
 
 ## Why is This Prediction Reasonable?
 
-Tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, vasopressin-driven cAMP signalling in renal tubular cells promotes cyst growth and fluid secretion. Blocking the V2 receptor lowers cAMP and slows cyst expansion. (The data compiled for this report does not include a formal mechanism-of-action entry; this description comes from the repurposing rationale and the published literature.)
+Tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, vasopressin-driven cAMP signalling in renal tubular cells promotes cyst growth and fluid secretion. Blocking the V2 receptor lowers cAMP and slows cyst expansion. According to the Mechanism of Action section of the US FDA-approved prescribing information for tolvaptan: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), label version 2026-09-30; accessed 2026-11-20.)
 
 Polycystic kidney disease is already among tolvaptan's original indications, so this prediction is largely on-label rather than true repurposing. The specific PKD3 subtype (GANAB-related) has not been tested directly. The evidence comes from ADPKD (PKD1/PKD2) and is extrapolated through the shared cystogenic cAMP pathway. Tolvaptan's effect on polycystic liver disease is not established.
 
@@ -132,6 +132,19 @@ Two Phase 3 RCT publications (TEMPO 3:4 and REPRISE) and a Cochrane review suppo
 ### Other Predicted Indications (Brief Note)
 
 The remaining nine predictions (renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, thoracic malformation, Joubert syndrome with renal defect, nephronophthisis-spastic quadriparesia syndrome, hypertrichosis disorders, odontal/periodontal malformation syndrome, and Dandy-Walker syndrome) have no trials and little or no relevant literature. Most are rated **Hold**, and Joubert syndrome with renal defect is flagged as a research question needing preclinical work first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "(The data compiled for this report does not include a formal mechanism-of-action entry; this description comes from the repurposing rationale and the published literature.)" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
