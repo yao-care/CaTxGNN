@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "ATORVASTATIN"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In Canada: at least 20 DINs"
 ---
 
@@ -93,15 +93,38 @@ The evidence supports managing HIV-associated dyslipidemia and cardiovascular an
 
 ## Canada Market Information
 
-Health Canada records show 20 valid licences for single-ingredient atorvastatin products, and none are cancelled. The records may be partial. Five examples:
+Health Canada records show 20 valid licences for single-ingredient atorvastatin products, and none are cancelled. The records may be partial.
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02230714 | LIPITOR | Valid |
-| 02295261 | APO-ATORVASTATIN | Valid |
-| 02310929 | TEVA-ATORVASTATIN | Valid |
-| 02392976 | MYLAN-ATORVASTATIN | Valid |
-| 02457768 | ACH-ATORVASTATIN CALCIUM | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02230714 | LIPITOR | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02295261 | APO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02295288 | APO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02310929 | TEVA-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02346494 | ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02346508 | ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02346516 | ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02392968 | MYLAN-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02392976 | MYLAN-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02407272 | AURO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02407280 | AURO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02411377 | ATORVASTATIN-40 | ATORVASTATIN (ATORVASTATIN CALCIUM PROPYLENE GLYCOL SOLVATE) | Marketed |
+| 02454041 | MAR-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02457768 | ACH-ATORVASTATIN CALCIUM | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02457784 | ACH-ATORVASTATIN CALCIUM | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02471191 | M-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02476525 | NRA-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02479508 | MINT-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02481197 | BIO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+| 02481200 | BIO-ATORVASTATIN | ATORVASTATIN (ATORVASTATIN CALCIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "EMPAGLIFLOZIN"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Empagliflozin: predicted new indication classic stiff person syndrome (evidence level L5). In Canada: 8 DINs (8 marketed)"
 ---
 
@@ -82,15 +82,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02443945 | JARDIANCE | Not recorded | Not recorded |
-| 02443937 | JARDIANCE | Not recorded | Not recorded |
-| 02456591 | SYNJARDY | Not recorded | Not recorded |
-| 02456575 | SYNJARDY | Not recorded | Not recorded |
-| 02456605 | SYNJARDY | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-Eight licences are listed in the data, all currently valid. Only the first five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02443937 | JARDIANCE | EMPAGLIFLOZIN | Marketed |
+| 02443945 | JARDIANCE | EMPAGLIFLOZIN | Marketed |
+| 02456575 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+| 02456583 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+| 02456591 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+| 02456605 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+| 02456613 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+| 02456621 | SYNJARDY | EMPAGLIFLOZIN; METFORMIN HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight licences are listed in the data, all currently valid.
 
 ---
 

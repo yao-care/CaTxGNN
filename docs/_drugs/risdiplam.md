@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 814
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risdiplam: predicted new indication Acne (disease) (evidence level L5). Approved use: Spinal muscular atrophy"
 monitor_inn: "Risdiplam"
 predicted_indications: ["acne (disease)"]
@@ -68,10 +68,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02560747 | EVRYSDI | Not specified | Not specified |
-| 02514931 | EVRYSDI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02514931 | EVRYSDI | RISDIPLAM | Marketed |
+| 02560747 | EVRYSDI | RISDIPLAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Other Predicted Indications (for Reference)
 

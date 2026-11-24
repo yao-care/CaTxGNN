@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alglucosidase Alfa: predicted new indication Adult polyglucosan body disease (evidence level L5). Approved use: Glycogen storage disease (Pompe disease)"
 monitor_inn: "ALGLUCOSIDASE ALFA"
 predicted_indications: ["adult polyglucosan body disease", "congenital entropion", "congenital ectropion", "congenital Horner syndrome (disease)", "ptosis-vocal cord paralysis syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "epiblepharon", "ptosis-strabismus-ectopic pupils syndrome"]
@@ -76,9 +76,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02284863 | MYOZYME | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02284863 | MYOZYME | ALGLUCOSIDASE ALFA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

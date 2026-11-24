@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ATENOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -75,15 +75,38 @@ Other predicted indications were also screened. Pulmonary hypertension owing to 
 
 ## Canada Market Information
 
-Health Canada records show atenolol single-ingredient products as valid and marketed. No dosage form or indication text was available in the records. Only the first 5 of at least 20 licences are listed below, and the full list may be partial.
+Health Canada records show atenolol single-ingredient products as valid and marketed. No dosage form or indication text was available in the records.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02266660 | TEVA-ATENOLOL | Not stated | Not stated |
-| 02171805 | TEVA-ATENOLOL | Not stated | Not stated |
-| 02466465 | ATENOLOL | Not stated | Not stated |
-| 02541564 | ATENOLOL | Not stated | Not stated |
-| 02277379 | RIVA-ATENOLOL | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00773689 | APO-ATENOL TAB 50MG | ATENOLOL | Marketed |
+| 02171791 | TEVA-ATENOLOL | ATENOLOL | Marketed |
+| 02171805 | TEVA-ATENOLOL | ATENOLOL | Marketed |
+| 02237600 | PMS-ATENOLOL | ATENOLOL | Marketed |
+| 02237601 | PMS-ATENOLOL | ATENOLOL | Marketed |
+| 02238316 | ATENOLOL | ATENOLOL | Marketed |
+| 02238318 | ATENOLOL | ATENOLOL | Marketed |
+| 02246581 | PMS-ATENOLOL | ATENOLOL | Marketed |
+| 02266660 | TEVA-ATENOLOL | ATENOLOL | Marketed |
+| 02267985 | TARO-ATENOLOL | ATENOLOL | Marketed |
+| 02267993 | TARO-ATENOLOL | ATENOLOL | Marketed |
+| 02367572 | JAMP-ATENOLOL | ATENOLOL | Marketed |
+| 02368021 | MINT-ATENOL | ATENOLOL | Marketed |
+| 02373963 | TARO-ATENOLOL | ATENOLOL | Marketed |
+| 02541564 | ATENOLOL | ATENOLOL | Marketed |
+| 02242093 | RIVA-ATENOLOL | ATENOLOL | Dormant |
+| 02242094 | RIVA-ATENOLOL | ATENOLOL | Dormant |
+| 02277379 | RIVA-ATENOLOL | ATENOLOL | Dormant |
+| 02466465 | ATENOLOL | ATENOLOL | Cancelled post market |
+| 02466473 | ATENOLOL | ATENOLOL | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

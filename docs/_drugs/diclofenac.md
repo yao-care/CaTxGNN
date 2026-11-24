@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diclofenac: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Actinic keratosis"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and approved indication text were not available for these products. Five main authorizations are listed below.
+Dosage form and approved indication text were not available for these products.
 
 <!-- review:begin ca-lic-20261105-diclofenac-1 -->
 
@@ -88,13 +88,36 @@ Dosage form and approved indication text were not available for these products. 
 
 <!-- review:end ca-lic-20261105-diclofenac-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 00632724 | VOLTAREN |
-| 02338580 | VOLTAREN EMULGEL JOINT PAIN REGULAR STRENGTH |
-| 02247265 | PENNSAID |
-| 02381680 | CAMBIA |
-| 01940414 | VOLTAREN OPHTHA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00632724 | VOLTAREN | DICLOFENAC SODIUM | Marketed |
+| 00808547 | TEVA-DICLOFENAC EC | DICLOFENAC SODIUM | Marketed |
+| 00839175 | APO-DICLO | DICLOFENAC SODIUM | Marketed |
+| 00881635 | VOLTAREN RAPIDE | DICLOFENAC POTASSIUM | Marketed |
+| 02091194 | APO-DICLO SR | DICLOFENAC SODIUM | Marketed |
+| 02158582 | TEVA-DICLOFENAC SR | DICLOFENAC SODIUM | Marketed |
+| 02162814 | APO-DICLO SR | DICLOFENAC SODIUM | Marketed |
+| 02247265 | PENNSAID | DICLOFENAC SODIUM | Marketed |
+| 02261774 | SANDOZ DICLOFENAC RAPIDE | DICLOFENAC POTASSIUM | Marketed |
+| 02261928 | SANDOZ-DICLOFENAC | DICLOFENAC SODIUM | Marketed |
+| 02302616 | PMS-DICLOFENAC | DICLOFENAC SODIUM | Marketed |
+| 02302624 | PMS-DICLOFENAC | DICLOFENAC SODIUM | Marketed |
+| 02338580 | VOLTAREN EMULGEL JOINT PAIN REGULAR STRENGTH | DICLOFENAC DIETHYLAMINE | Marketed |
+| 02381680 | CAMBIA | DICLOFENAC POTASSIUM | Marketed |
+| 02420988 | TARO-DICLOFENAC | DICLOFENAC SODIUM | Marketed |
+| 02465035 | VOLTAREN EMULGEL BACK & MUSCLE PAIN | DICLOFENAC DIETHYLAMINE | Marketed |
+| 02465043 | VOLTAREN EMULGEL JOINT PAIN EXTRA STRENGTH | DICLOFENAC DIETHYLAMINE | Marketed |
+| 02534525 | JAMP DICLOFENAC | DICLOFENAC SODIUM | Marketed |
+| 01940414 | VOLTAREN OPHTHA | DICLOFENAC SODIUM | Cancelled post market |
+| 02454807 | SANDOZ DICLOFENAC OPHTHA | DICLOFENAC SODIUM | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The product names suggest oral, topical gel and ophthalmic formulations are all on the market.
 

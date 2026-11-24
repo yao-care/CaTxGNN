@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 780
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "PROPYLTHIOURACIL"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -95,10 +95,16 @@ None of these studies evaluates PTU as a treatment for RTH.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02523019 | PROPYLTHIOURACIL TABLETS | Not listed | Not listed |
-| 02521059 | HALYCIL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02521059 | HALYCIL | PROPYLTHIOURACIL | Marketed |
+| 02523019 | PROPYLTHIOURACIL TABLETS | PROPYLTHIOURACIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

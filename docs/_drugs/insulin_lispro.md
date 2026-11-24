@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Lispro: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "INSULIN LISPRO"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
@@ -95,13 +95,26 @@ No literature is available for the top predicted indication, autoimmune oophorit
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02403412 | HUMALOG (KWIKPEN) | Not listed | Not listed |
-| 02469898 | ADMELOG | Not listed | Not listed |
-| 02469901 | ADMELOG | Not listed | Not listed |
-| 02439611 | HUMALOG 200 UNITS/ML KWIKPEN | Not listed | Not listed |
-| 02469871 | ADMELOG SOLOSTAR | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02229704 | HUMALOG | INSULIN LISPRO | Marketed |
+| 02229705 | HUMALOG (CARTRIDGE) | INSULIN LISPRO | Marketed |
+| 02240294 | HUMALOG MIX 25 (CARTRIDGE) | INSULIN LISPRO; INSULIN LISPRO PROTAMINE SUSPENSION | Marketed |
+| 02240297 | HUMALOG MIX 50 (CARTRIDGE) | INSULIN LISPRO; INSULIN LISPRO PROTAMINE SUSPENSION | Marketed |
+| 02403412 | HUMALOG (KWIKPEN) | INSULIN LISPRO | Marketed |
+| 02403420 | HUMALOG MIX 25 (KWIKPEN) | INSULIN LISPRO; INSULIN LISPRO PROTAMINE SUSPENSION | Marketed |
+| 02403439 | HUMALOG MIX 50 (KWIKPEN) | INSULIN LISPRO; INSULIN LISPRO PROTAMINE SUSPENSION | Marketed |
+| 02439611 | HUMALOG 200 UNITS/ML KWIKPEN | INSULIN LISPRO | Marketed |
+| 02469871 | ADMELOG SOLOSTAR | INSULIN LISPRO | Marketed |
+| 02469898 | ADMELOG | INSULIN LISPRO | Marketed |
+| 02469901 | ADMELOG | INSULIN LISPRO | Marketed |
+| 02470152 | HUMALOG | INSULIN LISPRO | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 12 licences are valid products (none cancelled). Other products include HUMALOG cartridges and HUMALOG MIX 25 and MIX 50 formulations.
 

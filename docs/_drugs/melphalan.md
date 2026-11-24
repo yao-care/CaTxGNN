@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -93,12 +93,18 @@ Caveats: the TxGNN score is very high, but the model score alone does not show c
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00004715 | ALKERAN | Not specified | Not specified |
-| 02087286 | ALKERAN | Not specified | Not specified |
-| 02480026 | TARO-MELPHALAN | Not specified | Not specified |
-| 02473348 | MELPHALAN FOR INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00004715 | ALKERAN | MELPHALAN | Marketed |
+| 02087286 | ALKERAN | BUFFER SOLUTION; MELPHALAN (MELPHALAN HYDROCHLORIDE) | Marketed |
+| 02473348 | MELPHALAN FOR INJECTION | BUFFER SOLUTION; MELPHALAN (MELPHALAN HYDROCHLORIDE) | Marketed |
+| 02480026 | TARO-MELPHALAN | BUFFER SOLUTION; MELPHALAN (MELPHALAN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

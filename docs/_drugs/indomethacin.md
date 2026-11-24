@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Inflammatory arthritis and related musculoskeletal conditions (bursit…"
 monitor_inn: "INDOMETHACIN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -84,13 +84,21 @@ Currently no related literature available.
 
 Seven valid single-ingredient authorizations are on the Canadian market. Dosage form and approved-indication text were not available for them.
 
-| DIN | Product Name |
-|---------|------|
-| 00337439 | TEVA-INDOMETHACIN |
-| 00337420 | TEVA-INDOMETHACIN |
-| 02231799 | ODAN-INDOMETHACIN |
-| 02461811 | MINT-INDOMETHACIN |
-| 02461536 | MINT-INDOMETHACIN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00337420 | TEVA-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 00337439 | TEVA-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 02231799 | ODAN-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 02231800 | ODAN-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 02461536 | MINT-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 02461811 | MINT-INDOMETHACIN | INDOMETHACIN | Marketed |
+| 02499223 | AURO-INDOMETHACIN | INDOMETHACIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two further authorizations (02499223 AURO-INDOMETHACIN, 02231800 ODAN-INDOMETHACIN) are also valid but not listed here.
 

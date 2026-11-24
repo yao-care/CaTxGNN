@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BUTAMBEN"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "acne keloid", "cauda equina syndrome", "hydroa vacciniforme, familial", "diabetic retinopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Butamben: predicted new indication Bronchitis (evidence level L5). In Canada: 1 DIN (1 marketed)"
 ---
 
@@ -69,9 +69,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02028867 | CETACAINE LIQUID | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02028867 | CETACAINE LIQUID | BENZOCAINE; BUTAMBEN; TETRACAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 935
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -98,13 +98,20 @@ No literature is available for visceral calciphylaxis. The most relevant items r
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02457997 | IZBA | Not specified | Not specified |
-| 02318008 | TRAVATAN Z | Not specified | Not specified |
-| 02548089 | JAMP TRAVOPROST Z | Not specified | Not specified |
-| 02413167 | SANDOZ TRAVOPROST | Not specified | Not specified |
-| 02415305 | APO-TRAVOPROST-TIMOP PQ | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02278251 | DUOTRAV PQ | TIMOLOL (TIMOLOL MALEATE); TRAVOPROST | Marketed |
+| 02318008 | TRAVATAN Z | TRAVOPROST | Marketed |
+| 02413167 | SANDOZ TRAVOPROST | TRAVOPROST | Marketed |
+| 02415305 | APO-TRAVOPROST-TIMOP PQ | TIMOLOL (TIMOLOL MALEATE); TRAVOPROST | Marketed |
+| 02548089 | JAMP TRAVOPROST Z | TRAVOPROST | Marketed |
+| 02457997 | IZBA | TRAVOPROST | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid. The drug is marketed.
 

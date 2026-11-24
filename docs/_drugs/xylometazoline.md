@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 986
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Xylometazoline"
 predicted_indications: ["nasal cavity disease"]
@@ -60,7 +60,6 @@ Currently, detailed mechanism of action data is not available in the compiled re
 
 The original indications (common cold and pharyngitis) involve nasal congestion and swollen mucosa. "Nasal cavity disease" is a broader category covering the same problem, so the prediction is largely an extension of existing use rather than a completely new direction. The published studies support this, showing decongestant effects in nasal preparation for endoscopy and intubation.
 
-
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
@@ -78,13 +77,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02208903 | Otrivin Medicated Cold & Allergy Relief with Moisturizers | Not listed | Not listed |
-| 02452863 | Nasal Decongestant Spray with Moisturizers | Not listed | Not listed |
-| 00653330 | Otrivin Medicated Cold & Allergy Relief | Not listed | Not listed |
-| 02452812 | Decongestant Nasal Spray | Not listed | Not listed |
-| 02331403 | Otrivin Medicated Complete Nasal Care | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00653330 | OTRIVIN MEDICATED COLD & ALLERGY RELIEF | XYLOMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02208903 | OTRIVIN MEDICATED COLD & ALLERGY RELIEF WITH MOISTURIZERS | XYLOMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02331403 | OTRIVIN MEDICATED COMPLETE NASAL CARE | XYLOMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02452812 | DECONGESTANT NASAL SPRAY | XYLOMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02452863 | NASAL DECONGESTANT SPRAY WITH MOISTURIZERS | XYLOMETAZOLINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient products. None are cancelled.
 

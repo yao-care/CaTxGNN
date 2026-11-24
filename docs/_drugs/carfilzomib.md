@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib: predicted new indication CMM7 (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available for CMM7.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02459949 | KYPROLIS | Not recorded | Not recorded |
-| 02451034 | KYPROLIS | Not recorded | Not recorded |
-| 02459930 | KYPROLIS | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02451034 | KYPROLIS | CARFILZOMIB | Marketed |
+| 02459930 | KYPROLIS | CARFILZOMIB | Marketed |
+| 02459949 | KYPROLIS | CARFILZOMIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L5). Approved use: Erectile dysfunction, psychologic dyspareunia, premature ejaculation…"
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
@@ -91,11 +91,17 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02215756 | CAVERJECT STERILE POWDER | Not stated | Not stated |
-| 00559253 | PROSTIN VR STERILE SOLUTION | Not stated | Not stated |
-| 02215187 | CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00559253 | PROSTIN VR STERILE SOLUTION | ALPROSTADIL | Marketed |
+| 02215187 | CAVERJECT STERILE POWDER - PWS 23.2MCG/VIAL | ALPROSTADIL | Marketed |
+| 02215756 | CAVERJECT STERILE POWDER | ALPROSTADIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

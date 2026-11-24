@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). In Canada: 7 DINs (7 marketed)"
@@ -95,15 +95,23 @@ None of these publications directly studies modafinil as a treatment for insomni
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02239665 | ALERTEC | Not specified | Not specified |
-| 02285398 | APO-MODAFINIL | Not specified | Not specified |
-| 02420260 | TEVA-MODAFINIL | Not specified | Not specified |
-| 02430487 | AURO-MODAFINIL | Not specified | Not specified |
-| 02432560 | MAR-MODAFINIL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-All 7 single-ingredient licences are currently valid; the table lists five of them.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239665 | ALERTEC | MODAFINIL | Marketed |
+| 02285398 | APO-MODAFINIL | MODAFINIL | Marketed |
+| 02420260 | TEVA-MODAFINIL | MODAFINIL | Marketed |
+| 02430487 | AURO-MODAFINIL | MODAFINIL | Marketed |
+| 02432560 | MAR-MODAFINIL | MODAFINIL | Marketed |
+| 02503727 | JAMP MODAFINIL | MODAFINIL | Marketed |
+| 02530244 | MODAFINIL | MODAFINIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 7 single-ingredient licences are currently valid.
 
 ---
 

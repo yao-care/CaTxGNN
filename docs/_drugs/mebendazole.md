@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -98,9 +98,15 @@ Study types are inferred from titles and abstracts and should be verified.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00556734 | VERMOX | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00556734 | VERMOX | MEBENDAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

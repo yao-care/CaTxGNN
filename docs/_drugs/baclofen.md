@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -117,15 +117,38 @@ Much of the other nicotine-related literature concerns alcohol use disorder, whi
 
 ## Canada Market Information
 
-Baclofen has 20 valid single-ingredient licenses in Canada (no cancelled licenses). The data compiled contain product names only, with no dosage form or approved indication text. The main authorizations are:
+Baclofen has 20 valid single-ingredient licenses in Canada (no cancelled licenses). The data compiled contain product names only, with no dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242151 | RIVA-BACLOFEN | Not listed | Not listed |
-| 02544490 | JAMP BACLOFEN | Not listed | Not listed |
-| 02413639 | BACLOFEN INJECTION | Not listed | Not listed |
-| 02485508 | BACLOFEN INTRATHECAL | Not listed | Not listed |
-| 02063743 | PMS-BACLOFEN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02063735 | PMS-BACLOFEN | BACLOFEN | Marketed |
+| 02063743 | PMS-BACLOFEN | BACLOFEN | Marketed |
+| 02088398 | MYLAN-BACLOFEN | BACLOFEN | Marketed |
+| 02088401 | MYLAN-BACLOFEN | BACLOFEN | Marketed |
+| 02139332 | APO-BACLOFEN | BACLOFEN | Marketed |
+| 02139391 | APO-BACLOFEN | BACLOFEN | Marketed |
+| 02152592 | PRO-BACLOFEN | BACLOFEN | Marketed |
+| 02242151 | RIVA-BACLOFEN | BACLOFEN | Marketed |
+| 02287021 | BACLOFEN | BACLOFEN | Marketed |
+| 02287048 | BACLOFEN | BACLOFEN | Marketed |
+| 02413620 | BACLOFEN INJECTION | BACLOFEN | Marketed |
+| 02413639 | BACLOFEN INJECTION | BACLOFEN | Marketed |
+| 02413647 | BACLOFEN INJECTION | BACLOFEN | Marketed |
+| 02485508 | BACLOFEN INTRATHECAL | BACLOFEN | Marketed |
+| 02485516 | BACLOFEN INTRATHECAL | BACLOFEN | Marketed |
+| 02544482 | JAMP BACLOFEN | BACLOFEN | Marketed |
+| 02544490 | JAMP BACLOFEN | BACLOFEN | Marketed |
+| 02544660 | BACLOFEN | BACLOFEN | Marketed |
+| 02544679 | BACLOFEN | BACLOFEN | Marketed |
+| 02553341 | BACLOFEN INJECTION USP | BACLOFEN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The product names indicate oral, injectable and intrathecal presentations.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NAPROXEN"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In Canada: at least 20 DINs"
@@ -81,15 +81,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Naproxen is widely marketed in Canada, with 20 valid single-ingredient licences and none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
+Naproxen is widely marketed in Canada, with 20 valid single-ingredient licences and none cancelled. Dosage form and approved indication text were not available for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02162423 | NAPROSYN | Not available | Not available |
-| 02162725 | ANAPROX | Not available | Not available |
-| 02162717 | ANAPROX DS | Not available | Not available |
-| 02361795 | ALEVE LIQUID GELS | Not available | Not available |
-| 02436337 | ALEVE BACK AND BODY PAIN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00565350 | TEVA-NAPROXEN | NAPROXEN | Marketed |
+| 00600806 | APO-NAPROXEN | NAPROXEN | Marketed |
+| 00778389 | TEVA-NAPROXEN SODIUM | NAPROXEN SODIUM | Marketed |
+| 00784354 | APO-NAPRO-NA | NAPROXEN SODIUM | Marketed |
+| 00887056 | NAPROXEN-NA | NAPROXEN SODIUM | Marketed |
+| 01940309 | APO-NAPRO-NA DS | NAPROXEN SODIUM | Marketed |
+| 02162423 | NAPROSYN | NAPROXEN | Marketed |
+| 02162717 | ANAPROX DS | NAPROXEN SODIUM | Marketed |
+| 02162725 | ANAPROX | NAPROXEN SODIUM | Marketed |
+| 02243312 | TEVA-NAPROXEN EC | NAPROXEN | Marketed |
+| 02243313 | TEVA-NAPROXEN EC | NAPROXEN | Marketed |
+| 02243314 | TEVA-NAPROXEN EC | NAPROXEN | Marketed |
+| 02246699 | APO-NAPROXEN EC TABLETS | NAPROXEN | Marketed |
+| 02246700 | APO-NAPROXEN EC | NAPROXEN | Marketed |
+| 02246701 | APO-NAPROXEN EC | NAPROXEN | Marketed |
+| 02310953 | PRO-NAPROXEN EC | NAPROXEN | Marketed |
+| 02361795 | ALEVE LIQUID GELS | NAPROXEN SODIUM | Marketed |
+| 02362430 | NAPROXEN | NAPROXEN SODIUM | Marketed |
+| 02372991 | MAXIDOL LIQUID GELS | NAPROXEN SODIUM | Marketed |
+| 02436337 | ALEVE BACK AND BODY PAIN | NAPROXEN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other licences include APO-NAPROXEN, APO-NAPROXEN EC, TEVA-NAPROXEN, TEVA-NAPROXEN EC, TEVA-NAPROXEN SODIUM, PRO-NAPROXEN EC, and MAXIDOL LIQUID GELS.
 

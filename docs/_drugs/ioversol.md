@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -93,10 +93,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01900854 | OPTIRAY 320 | Not listed | Not listed |
-| 02035626 | OPTIRAY 320 (ULTRAJECT) | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01900854 | OPTIRAY 320 | IOVERSOL | Dormant |
+| 02035626 | OPTIRAY 320 (ULTRAJECT) | IOVERSOL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both records are single-ingredient products with valid status.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "FENOFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia and hyperlipidaemia"
 ---
 
@@ -76,15 +76,26 @@ None of these studies directly examines CETP deficiency as a disease in patients
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02269082 | LIPIDIL EZ | Not listed | Not listed |
-| 02390701 | SANDOZ FENOFIBRATE E | Not listed | Not listed |
-| 02246859 | AA-FENO-SUPER | Not listed | Not listed |
-| 02246860 | AA-FENO-SUPER | Not listed | Not listed |
-| 02390698 | SANDOZ FENOFIBRATE E | Not listed | Not listed |
+<!-- licenses:begin -->
 
-These are 5 of the 10 valid single-ingredient licences; the remainder include AA-FENO-MICRO (2), SPC-FENOFIBRATE E, LIPIDIL SUPRA and a second LIPIDIL EZ.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239864 | AA-FENO-MICRO | FENOFIBRATE | Marketed |
+| 02241602 | LIPIDIL SUPRA | FENOFIBRATE | Marketed |
+| 02243180 | AA-FENO-MICRO | FENOFIBRATE | Marketed |
+| 02246859 | AA-FENO-SUPER | FENOFIBRATE | Marketed |
+| 02246860 | AA-FENO-SUPER | FENOFIBRATE | Marketed |
+| 02269074 | LIPIDIL EZ | FENOFIBRATE | Marketed |
+| 02269082 | LIPIDIL EZ | FENOFIBRATE | Marketed |
+| 02390698 | SANDOZ FENOFIBRATE E | FENOFIBRATE | Marketed |
+| 02390701 | SANDOZ FENOFIBRATE E | FENOFIBRATE | Marketed |
+| 02454696 | SPC-FENOFIBRATE E | FENOFIBRATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+The remainder include AA-FENO-MICRO (2), SPC-FENOFIBRATE E, LIPIDIL SUPRA and a second LIPIDIL EZ.
 
 ## Safety Considerations
 

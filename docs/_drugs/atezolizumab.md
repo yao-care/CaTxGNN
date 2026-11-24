@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Transitional cell carcinoma"
 ---
 
@@ -90,11 +90,17 @@ No literature is available for uterine ligament adenocarcinoma. One publication 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02462990 | TECENTRIQ | Not stated | Not stated |
-| 02492393 | TECENTRIQ | Not stated | Not stated |
-| 02546310 | TECENTRIQ SC | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02462990 | TECENTRIQ | ATEZOLIZUMAB | Marketed |
+| 02492393 | TECENTRIQ | ATEZOLIZUMAB | Marketed |
+| 02546310 | TECENTRIQ SC | ATEZOLIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are single-ingredient products with valid status.
 

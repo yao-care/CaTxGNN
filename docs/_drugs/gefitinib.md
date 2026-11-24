@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa"]
 description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). In Canada: 5 DINs (3 marketed, 1 dormant)"
@@ -77,13 +77,19 @@ Currently no related literature available for this predicted indication.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02248676 | IRESSA | Not specified | Not specified |
-| 02468050 | APO-GEFITINIB | Not specified | Not specified |
-| 02487748 | SANDOZ GEFITINIB | Not specified | Not specified |
-| 02491796 | NAT-GEFITINIB | Not specified | Not specified |
-| 02500663 | JAMP GEFITINIB | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02248676 | IRESSA | GEFITINIB | Marketed |
+| 02468050 | APO-GEFITINIB | GEFITINIB | Marketed |
+| 02500663 | JAMP GEFITINIB | GEFITINIB | Marketed |
+| 02491796 | NAT-GEFITINIB | GEFITINIB | Dormant |
+| 02487748 | SANDOZ GEFITINIB | GEFITINIB | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

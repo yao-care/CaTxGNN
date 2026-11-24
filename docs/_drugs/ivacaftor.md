@@ -5,7 +5,7 @@ layout: default
 title: Ivacaftor
 parent: Known Uses Only (No New Predictions)
 nav_order: 507
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ivacaftor: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Ivacaftor"
 predicted_indications: []
@@ -56,13 +56,29 @@ Ivacaftor is authorized in Canada under 15 valid licences. The licence records c
 
 <!-- review:end ca-lic-20261106-ivacaftor-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02442620 | KALYDECO | Not specified | Not specified |
-| 02397412 | KALYDECO | Not specified | Not specified |
-| 02519364 | KALYDECO | Not specified | Not specified |
-| 02442612 | KALYDECO | Not specified | Not specified |
-| 02543451 | KALYDECO | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02397412 | KALYDECO | IVACAFTOR | Marketed |
+| 02442612 | KALYDECO | IVACAFTOR | Marketed |
+| 02442620 | KALYDECO | IVACAFTOR | Marketed |
+| 02451379 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02463040 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02478080 | SYMDEKO | IVACAFTOR; TEZACAFTOR | Marketed |
+| 02483831 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02483858 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02517140 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02519364 | KALYDECO | IVACAFTOR | Marketed |
+| 02526670 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02537087 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02542277 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02542285 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02543451 | KALYDECO | IVACAFTOR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4).
 

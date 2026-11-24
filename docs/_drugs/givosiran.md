@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Givosiran: predicted new indication Early-onset familial noncirrhotic portal hypertension (evidence level L5). Approved use: Hepatic porphyria"
 monitor_inn: "GIVOSIRAN"
 predicted_indications: ["early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
@@ -63,7 +63,6 @@ Givosiran is a GalNAc-conjugated small interfering RNA (siRNA). It is taken up b
 
 The data compiled for this report do not establish a mechanistic link between ALAS1 suppression and noncirrhotic portal hypertension. That condition involves vascular and hepatoportal pathology, which heme-synthesis modulation is not known to address. The score of 1.0000 is identical to the scores of several other unrelated liver-vascular diseases (portal vein thrombosis, hepatoportal sclerosis, idiopathic copper-associated cirrhosis, hepatopulmonary syndrome). This suggests the model is picking up a generic "liver-related" association rather than a signal specific to this disease.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -80,9 +79,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02506343 | GIVLAARI | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02506343 | GIVLAARI | GIVOSIRAN (GIVOSIRAN SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

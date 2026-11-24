@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 865
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In Canada: 4 DINs (3 marketed, 1 dormant)"
@@ -94,12 +94,18 @@ For reference, literature retrieved for the lower-ranked stroke prediction (all 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02210428 | APO-SOTALOL | Not listed | Not listed |
-| 02167794 | APO-SOTALOL | Not listed | Not listed |
-| 02238326 | PMS-SOTALOL - 80 MG | Not listed | Not listed |
-| 02238327 | PMS-SOTALOL - 160 MG | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02167794 | APO-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
+| 02210428 | APO-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
+| 02238326 | PMS-SOTALOL - 80 MG | SOTALOL HYDROCHLORIDE | Marketed |
+| 02238327 | PMS-SOTALOL - 160 MG | SOTALOL HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid single-ingredient products.
 

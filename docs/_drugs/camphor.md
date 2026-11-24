@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Camphor: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -94,13 +94,19 @@ Related preclinical evidence (listed under the related migraine prediction):
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00299561 | CREO-RECTAL ADULTES/ADULTS | Not listed | Not listed |
-| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not listed | Not listed |
-| 00319716 | DEMO-CINEOL ADULTES/ADULTS | Not listed | Not listed |
-| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | Not listed | Not listed |
-| 02157292 | BLISTEX DCT | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00299561 | CREO-RECTAL ADULTES/ADULTS | CAMPHOR; DIPHENYLPYRALINE HYDROCHLORIDE; GUAIACOL CARBONATE | Marketed |
+| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | CAMPHOR; DIPHENYLPYRALINE HYDROCHLORIDE; GUAIACOL CARBONATE | Marketed |
+| 00319716 | DEMO-CINEOL ADULTES/ADULTS | CAMPHOR; EUCALYPTOL; GUAIACOL; GUAIACOL CARBONATE | Marketed |
+| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | CAMPHOR; EUCALYPTOL; GUAIACOL; GUAIACOL CARBONATE | Marketed |
+| 02157292 | BLISTEX DCT | CAMPHOR; MENTHOL; OCTINOXATE; OXYBENZONE; PHENOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

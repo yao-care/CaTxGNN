@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Canadian licence data. Pharmacology data lists andr…"
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -88,13 +88,23 @@ None of these papers shows CPA treating migraine.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02390760 | MED-CYPROTERONE | Not available | Not available |
-| 02395797 | RIVA-CYPROTERONE | Not available | Not available |
-| 02245898 | CYPROTERONE | Not available | Not available |
-| 00704431 | ANDROCUR | Not available | Not available |
-| 02233542 | DIANE-35 | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00704431 | ANDROCUR | CYPROTERONE ACETATE | Marketed |
+| 02233542 | DIANE-35 | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+| 02245898 | CYPROTERONE | CYPROTERONE ACETATE | Marketed |
+| 02290308 | CYESTRA-35 | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+| 02309556 | TEVA-CYPROTERONE / ETHINYL ESTRADIOL | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+| 02390760 | MED-CYPROTERONE | CYPROTERONE ACETATE | Marketed |
+| 02395797 | RIVA-CYPROTERONE | CYPROTERONE ACETATE | Marketed |
+| 02425017 | TARO-CYPROTERONE/ETHINYL ESTRADIOL | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+| 02436736 | CLÉO -35 | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Nine licences are valid in total. The remaining four are TEVA-CYPROTERONE / ETHINYL ESTRADIOL (02309556), CYESTRA-35 (02290308), CLÉO-35 (02436736) and TARO-CYPROTERONE/ETHINYL ESTRADIOL (02425017).
 

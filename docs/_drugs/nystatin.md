@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 671
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). In Canada: 11 DINs (10 marketed)"
@@ -75,13 +75,25 @@ Currently no related literature available.
 
 Nystatin products are marketed in Canada. Of the 11 licences on record, 10 are valid and 1 is cancelled. The records contain no indication text or dosage form.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00792667 | PMS-NYSTATIN SUSPENSION 100000 UNIT/ML | Not listed | Not listed |
-| 02194201 | TEVA-NYSTATIN | Not listed | Not listed |
-| 02433443 | JAMP-NYSTATIN ORAL SUSPENSION USP | Not listed | Not listed |
-| 00716871 | NYADERM | Not listed | Not listed |
-| 02022818 | THERADERM CREAM | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00550507 | TEVA-TRIACOMB | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00716871 | NYADERM | NYSTATIN | Marketed |
+| 00716901 | NYADERM | NYSTATIN | Marketed |
+| 00717002 | VIADERM KC CRM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00717029 | VIADERM KC ONT | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00792667 | PMS-NYSTATIN SUSPENSION 100000 UNIT/ML | NYSTATIN | Marketed |
+| 01926829 | FLAGYSTATIN | METRONIDAZOLE; NYSTATIN | Marketed |
+| 02022818 | THERADERM CREAM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 02194201 | TEVA-NYSTATIN | NYSTATIN | Marketed |
+| 02433443 | JAMP-NYSTATIN ORAL SUSPENSION USP | NYSTATIN | Marketed |
+| 02194163 | TEVA-NYSTATIN | NYSTATIN | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

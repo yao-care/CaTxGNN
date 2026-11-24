@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 978
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VINORELBINE"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
 description: "Vinorelbine: predicted new indication Ewing sarcoma (evidence level L2). In Canada: 3 DINs (3 marketed)"
@@ -93,11 +93,17 @@ Note that the link between the original and new indication is mechanistic (gener
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02271214 | Vinorelbine Tartrate for Injection | Not specified | Not specified |
-| 02511347 | Vinorelbine Injection, USP | Not specified | Not specified |
-| 02431130 | Vinorelbine Injection, USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02271214 | VINORELBINE TARTRATE FOR INJECTION | VINORELBINE (VINORELBINE TARTRATE) | Marketed |
+| 02431130 | VINORELBINE INJECTION, USP | VINORELBINE (VINORELBINE TARTRATE) | Marketed |
+| 02511347 | VINORELBINE INJECTION, USP | VINORELBINE (VINORELBINE TARTRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

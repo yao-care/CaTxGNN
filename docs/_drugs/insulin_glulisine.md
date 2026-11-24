@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN GLULISINE"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine: predicted new indication Thiamine-responsive dysfunction syndrome (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -105,11 +105,17 @@ The data compiled for this report include 30 registered trials. The 10 most rele
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02279479 | APIDRA | Not specified | Not specified |
-| 02294346 | APIDRA | Not specified | Not specified |
-| 02279460 | APIDRA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02279460 | APIDRA | INSULIN GLULISINE (RECOMBINANT DNA ORIGIN) | Marketed |
+| 02279479 | APIDRA | INSULIN GLULISINE (RECOMBINANT DNA ORIGIN) | Marketed |
+| 02294346 | APIDRA | INSULIN GLULISINE (RECOMBINANT DNA ORIGIN) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

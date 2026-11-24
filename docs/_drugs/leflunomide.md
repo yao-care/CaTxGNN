@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, psoriatic arthritis"
 monitor_inn: "LEFLUNOMIDE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Leflunomide is marketed in Canada. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the licences are listed below.
+Leflunomide is marketed in Canada. Dosage form and approved-indication text were not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261112-leflunomide-1 -->
 
@@ -82,13 +82,32 @@ Leflunomide is marketed in Canada. Dosage form and approved-indication text were
 
 <!-- review:end ca-lic-20261112-leflunomide-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02241889 | ARAVA | Not available | Not available |
-| 02241888 | ARAVA | Not available | Not available |
-| 02256495 | APO-LEFLUNOMIDE | Not available | Not available |
-| 02261278 | TEVA-LEFLUNOMIDE | Not available | Not available |
-| 02283972 | SANDOZ LEFLUNOMIDE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02256495 | APO-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02256509 | APO-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02261251 | TEVA-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02261278 | TEVA-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02283964 | SANDOZ LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02283972 | SANDOZ LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02351668 | LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02351676 | LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02415828 | PRO-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02415836 | PRO-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02478862 | ACCEL-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02478870 | ACCEL-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02543575 | LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02543583 | LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02551918 | MAR-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02551926 | MAR-LEFLUNOMIDE | LEFLUNOMIDE | Marketed |
+| 02241888 | ARAVA | LEFLUNOMIDE | Cancelled post market |
+| 02241889 | ARAVA | LEFLUNOMIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

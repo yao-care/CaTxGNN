@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Absence epilepsy"
 monitor_inn: "ETHOSUXIMIDE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -82,12 +82,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02545772 | MAR-ETHOSUXIMIDE | Not specified | Not specified |
-| 00023485 | ZARONTIN SYRUP | Not specified | Not specified |
-| 00022799 | ZARONTIN | Not specified | Not specified |
-| 02547171 | ODAN-ETHOSUXIMIDE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00022799 | ZARONTIN | ETHOSUXIMIDE | Marketed |
+| 00023485 | ZARONTIN SYRUP | ETHOSUXIMIDE | Marketed |
+| 02545772 | MAR-ETHOSUXIMIDE | ETHOSUXIMIDE | Marketed |
+| 02547171 | ODAN-ETHOSUXIMIDE | ETHOSUXIMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

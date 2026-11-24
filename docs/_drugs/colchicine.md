@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "COLCHICINE"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -74,13 +74,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02373823 | JAMP-COLCHICINE | Not listed | Not listed |
-| 02402181 | PMS-COLCHICINE | Not listed | Not listed |
-| 00572349 | COLCHICINE TAB 0.6MG | Not listed | Not listed |
-| 02456559 | EURO-COLCHICINE | Not listed | Not listed |
-| 02519380 | MYINFLA | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00572349 | COLCHICINE TAB 0.6MG | COLCHICINE | Marketed |
+| 02373823 | JAMP-COLCHICINE | COLCHICINE | Marketed |
+| 02402181 | PMS-COLCHICINE | COLCHICINE | Marketed |
+| 02519380 | MYINFLA | COLCHICINE | Marketed |
+| 02456559 | EURO-COLCHICINE | COLCHICINE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

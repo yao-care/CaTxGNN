@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 902
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TETRACAINE"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). In Canada: 7 DINs (7 marketed)"
@@ -82,13 +82,21 @@ Currently no related literature available for acrodermatitis chronica atrophican
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02148544 | MINIMS TETRACAINE HYDROCHLORIDE | Not specified | Not specified |
-| 02230575 | AMETOP GEL 4% | Not specified | Not specified |
-| 02148528 | MINIMS TETRACAINE HYDROCHLORIDE | Not specified | Not specified |
-| 02398028 | PLIAGLIS | Not specified | Not specified |
-| 01930699 | ZAP TOPICAL ANESTHETIC GEL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01930699 | ZAP TOPICAL ANESTHETIC GEL | BENZOCAINE; TETRACAINE HYDROCHLORIDE | Marketed |
+| 02028867 | CETACAINE LIQUID | BENZOCAINE; BUTAMBEN; TETRACAINE HYDROCHLORIDE | Marketed |
+| 02148528 | MINIMS TETRACAINE HYDROCHLORIDE | TETRACAINE HYDROCHLORIDE | Marketed |
+| 02148544 | MINIMS TETRACAINE HYDROCHLORIDE | TETRACAINE HYDROCHLORIDE | Marketed |
+| 02230575 | AMETOP GEL 4% | TETRACAINE (TETRACAINE HYDROCHLORIDE) | Marketed |
+| 02230958 | ONE TOUCH TOPICAL ANESTHETIC GEL | BENZOCAINE; TETRACAINE HYDROCHLORIDE | Marketed |
+| 02398028 | PLIAGLIS | LIDOCAINE; TETRACAINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Seven valid licences are on record in total; the five main ones are shown above.
 

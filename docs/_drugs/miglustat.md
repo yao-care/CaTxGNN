@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miglustat: predicted new indication Autosomal ichthyosis syndrome with fatal disease course (evidence level L5). Approved use: Gaucher disease"
 monitor_inn: "Miglustat"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
@@ -80,11 +80,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02456257 | SANDOZ MIGLUSTAT |
-| 02556812 | OPFOLDA |
-| 02250519 | ZAVESCA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02250519 | ZAVESCA | MIGLUSTAT | Marketed |
+| 02456257 | SANDOZ MIGLUSTAT | MIGLUSTAT | Marketed |
+| 02556812 | OPFOLDA | MIGLUSTAT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are valid, and the drug is marketed in this country.
 

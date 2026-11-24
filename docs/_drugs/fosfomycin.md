@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "FOSFOMYCIN"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -87,11 +87,17 @@ The two trials are general pediatric pharmacokinetic studies of understudied dru
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02488086 | IVOZFO | Not listed | Not listed |
-| 02473801 | JAMP-FOSFOMYCIN | Not listed | Not listed |
-| 02240335 | MONUROL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240335 | MONUROL | FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE) | Marketed |
+| 02473801 | JAMP-FOSFOMYCIN | FOSFOMYCIN (FOSFOMYCIN TROMETHAMINE) | Marketed |
+| 02488086 | IVOZFO | FOSFOMYCIN (FOSFOMYCIN SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient licences.
 

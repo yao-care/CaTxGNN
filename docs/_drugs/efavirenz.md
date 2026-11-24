@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efavirenz: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -93,15 +93,24 @@ The table shows the most relevant publications. All are animal, in vitro, or mec
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02389762 | TEVA-EFAVIRENZ | Not listed | Not listed |
-| 02381524 | MYLAN-EFAVIRENZ | Not listed | Not listed |
-| 02418428 | AURO-EFAVIRENZ | Not listed | Not listed |
-| 02468247 | APO-EFAVIRENZ-EMTRICITABINE-TENOFOVIR | Not listed | Not listed |
-| 02461412 | MYLAN-EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Eight valid single-entity authorizations are listed in total; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02381524 | MYLAN-EFAVIRENZ | EFAVIRENZ | Marketed |
+| 02389762 | TEVA-EFAVIRENZ | EFAVIRENZ | Marketed |
+| 02393549 | TEVA-EFAVIRENZ/EMTRICITABINE/TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02418428 | AURO-EFAVIRENZ | EFAVIRENZ | Marketed |
+| 02461412 | MYLAN-EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02468247 | APO-EFAVIRENZ-EMTRICITABINE-TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02478404 | AURO-EFAVIRENZ-EMTRICITABINE-TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02519461 | JAMP EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight valid single-entity authorizations are listed in total.
 
 ---
 

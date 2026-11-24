@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 596
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). In Canada: 19 DINs (19 marketed)"
@@ -77,15 +77,33 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02552736 | PMS-METHADONE HYDROCHLORIDE ORAL CONCENTRATE |
-| 02495872 | ODAN-METHADONE |
-| 02241377 | METADOL |
-| 02394618 | METHADOSE |
-| 02533669 | APO-METHADONE |
+<!-- licenses:begin -->
 
-The list shows 5 of the 19 valid single-ingredient licences.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02241377 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02244290 | METADOL-D | METHADONE HYDROCHLORIDE | Marketed |
+| 02247374 | METADOL-D | METHADONE HYDROCHLORIDE | Marketed |
+| 02247694 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02247698 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02247699 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02247700 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02247701 | METADOL | METHADONE HYDROCHLORIDE | Marketed |
+| 02394596 | METHADOSE | METHADONE HYDROCHLORIDE | Marketed |
+| 02394618 | METHADOSE | METHADONE HYDROCHLORIDE | Marketed |
+| 02495783 | JAMP METHADONE ORAL CONCENTRATE | METHADONE HYDROCHLORIDE | Marketed |
+| 02495872 | ODAN-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02495880 | ODAN-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02533642 | APO-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02533650 | APO-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02533669 | APO-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02533677 | APO-METHADONE | METHADONE HYDROCHLORIDE | Marketed |
+| 02552728 | PMS-METHADONE HYDROCHLORIDE ORAL CONCENTRATE | METHADONE HYDROCHLORIDE | Marketed |
+| 02552736 | PMS-METHADONE HYDROCHLORIDE ORAL CONCENTRATE | METHADONE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

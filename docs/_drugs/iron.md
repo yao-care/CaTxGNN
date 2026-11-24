@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "IRON"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease"]
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In Canada: 12 DINs (10 marketed, 2 dormant)"
@@ -72,15 +72,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-The approved indication text and dosage forms are not recorded in the local data. Main authorizations:
+The approved indication text and dosage forms are not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02502917 | PMS-IRON SUCROSE | Not recorded | Not recorded |
-| 02243716 | VENOFER | Not recorded | Not recorded |
-| 02546078 | FERINJECT | Not recorded | Not recorded |
-| 02477777 | MONOFERRIC | Not recorded | Not recorded |
-| 02243333 | FERRLECIT | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243333 | FERRLECIT | IRON (SODIUM FERRIC GLUCONATE COMPLEX IN SUCROSE INJECTION) | Marketed |
+| 02243716 | VENOFER | IRON (IRON SUCROSE) | Marketed |
+| 02471574 | VELPHORO | IRON (SUCROFERRIC OXYHYDROXIDE) | Marketed |
+| 02477777 | MONOFERRIC | IRON (FERRIC DERISOMALTOSE) | Marketed |
+| 02497697 | ADDNUTRIV | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC CHLORIDE); FLUORIDE (SODIUM FLUORIDE); IODINE (POTASSIUM IODIDE);… | Marketed |
+| 02502917 | PMS-IRON SUCROSE | IRON (IRON SUCROSE) | Marketed |
+| 02546078 | FERINJECT | IRON (FERRIC CARBOXYMALTOSE) | Marketed |
+| 02550679 | ACCRUFER | IRON (FERRIC MALTOL) | Marketed |
+| 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

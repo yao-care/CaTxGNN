@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -93,15 +93,24 @@ None of the publications below studies respiratory malformation directly. They a
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02237224 | OXEZE TURBUHALER | Not listed | Not listed |
-| 02237225 | OXEZE TURBUHALER | Not listed | Not listed |
-| 02245386 | SYMBICORT 200 TURBUHALER | Not listed | Not listed |
-| 02245385 | SYMBICORT 100 TURBUHALER | Not listed | Not listed |
-| 02361760 | ZENHALE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 8 licences on record are valid; the five above are the first five listed.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02237224 | OXEZE TURBUHALER | FORMOTEROL FUMARATE DIHYDRATE | Marketed |
+| 02237225 | OXEZE TURBUHALER | FORMOTEROL FUMARATE DIHYDRATE | Marketed |
+| 02245385 | SYMBICORT 100 TURBUHALER | BUDESONIDE; FORMOTEROL FUMARATE DIHYDRATE | Marketed |
+| 02245386 | SYMBICORT 200 TURBUHALER | BUDESONIDE; FORMOTEROL FUMARATE DIHYDRATE | Marketed |
+| 02361752 | ZENHALE | FORMOTEROL FUMARATE DIHYDRATE; MOMETASONE FUROATE | Marketed |
+| 02361760 | ZENHALE | FORMOTEROL FUMARATE DIHYDRATE; MOMETASONE FUROATE | Marketed |
+| 02439530 | DUAKLIR GENUAIR | ACLIDINIUM BROMIDE; FORMOTEROL FUMARATE DIHYDRATE | Marketed |
+| 02518058 | BREZTRI AEROSPHERE | BUDESONIDE; FORMOTEROL FUMARATE DIHYDRATE; GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 8 licences on record are valid.
 
 ---
 

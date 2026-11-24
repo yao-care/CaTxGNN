@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
@@ -89,11 +89,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247882 | PROCTOL SUPPOSITORIES | Not specified | Not specified |
-| 02247322 | PROCTOL OINTMENT | Not specified | Not specified |
-| 02226383 | TEVA-PROCTOSONE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02226383 | TEVA-PROCTOSONE | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE (HYDROCORTISONE ACETATE) | Marketed |
+| 02247322 | PROCTOL OINTMENT | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+| 02247882 | PROCTOL SUPPOSITORIES | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three authorisations are valid products.
 

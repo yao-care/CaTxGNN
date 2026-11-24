@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ACETAZOLAMIDE"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamide: predicted new indication exercise-induced malignant hyperthermia (evidence level L5). In Canada: 3 DINs (2 marketed, 1 dormant)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02537893 | ACETAZOLAMIDE FOR INJECTION USP | Not recorded | Not recorded |
-| 00545015 | ACETAZOLAMIDE | Not recorded | Not recorded |
-| 02358328 | ACETAZOLAMIDE FOR INJECTION, USP | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00545015 | ACETAZOLAMIDE | ACETAZOLAMIDE | Marketed |
+| 02537893 | ACETAZOLAMIDE FOR INJECTION USP | ACETAZOLAMIDE (ACETAZOLAMIDE SODIUM) | Marketed |
+| 02358328 | ACETAZOLAMIDE FOR INJECTION, USP | ACETAZOLAMIDE (ACETAZOLAMIDE SODIUM) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The approved indication text is not recorded in the local data. All three licences are currently valid single-ingredient products.
 

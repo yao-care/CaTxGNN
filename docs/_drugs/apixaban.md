@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L5). In Canada: at least 20 DINs"
@@ -76,15 +76,38 @@ The case-level observations point the other way. One report describes migraine w
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02527987 | BIO-APIXABAN | Not available | Not available |
-| 02486806 | AURO-APIXABAN | Not available | Not available |
-| 02510464 | TARO-APIXABAN | Not available | Not available |
-| 02484994 | TEVA-APIXABAN | Not available | Not available |
-| 02489236 | SANDOZ APIXABAN SDZ | Not available | Not available |
+<!-- licenses:begin -->
 
-Twenty single-ingredient apixaban licences are listed in the local data (19 valid); this list may be partial. Only five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02484994 | TEVA-APIXABAN | APIXABAN | Marketed |
+| 02485001 | TEVA-APIXABAN | APIXABAN | Marketed |
+| 02486806 | AURO-APIXABAN | APIXABAN | Marketed |
+| 02489236 | SANDOZ APIXABAN SDZ | APIXABAN | Marketed |
+| 02492822 | NAT-APIXABAN | APIXABAN | Marketed |
+| 02510464 | TARO-APIXABAN | APIXABAN | Marketed |
+| 02510472 | TARO-APIXABAN | APIXABAN | Marketed |
+| 02525526 | RIVA APIXABAN | APIXABAN | Marketed |
+| 02526069 | NRA-APIXABAN | APIXABAN | Marketed |
+| 02527979 | BIO-APIXABAN | APIXABAN | Marketed |
+| 02527987 | BIO-APIXABAN | APIXABAN | Marketed |
+| 02528932 | JAMP APIXABAN | APIXABAN | Marketed |
+| 02529009 | M-APIXABAN | APIXABAN | Marketed |
+| 02529017 | M-APIXABAN | APIXABAN | Marketed |
+| 02529920 | AG-APIXABAN | APIXABAN | Marketed |
+| 02530716 | APIXABAN | APIXABAN | Marketed |
+| 02530724 | PRO-APIXABAN | APIXABAN | Marketed |
+| 02546884 | NRA-APIXABAN TABLETS | APIXABAN | Marketed |
+| 02553643 | NB-APIXABAN | APIXABAN | Marketed |
+| 02526050 | NRA-APIXABAN | APIXABAN | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+Twenty single-ingredient apixaban licences are listed in the local data (19 valid); this list may be partial.
 
 ## Safety Considerations
 

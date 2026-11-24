@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 920
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOBRAMYCIN"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In Canada: 14 DINs (14 marketed)"
@@ -99,13 +99,28 @@ Fourteen valid licences are listed in Canada. Dosage form, manufacturer, and app
 
 <!-- review:end ca-lic-20261106-tobramycin-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02230640 | Tobramycin Injection |
-| 02239630 | TOBI |
-| 02533103 | Tobramycin Injection USP |
-| 00513962 | TOBREX |
-| 02241209 | Tobramycin Injection USP |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00513962 | TOBREX | TOBRAMYCIN | Marketed |
+| 00533688 | TOBRAMYCIN FOR INJECTION | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 00614254 | TOBREX | TOBRAMYCIN | Marketed |
+| 00778907 | TOBRADEX | DEXAMETHASONE; TOBRAMYCIN | Marketed |
+| 00778915 | TOBRADEX | DEXAMETHASONE; TOBRAMYCIN | Marketed |
+| 02230640 | TOBRAMYCIN INJECTION | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02239630 | TOBI | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02241209 | TOBRAMYCIN INJECTION USP | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02241210 | TOBRAMYCIN INJECTION USP | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02241755 | SANDOZ TOBRAMYCIN | TOBRAMYCIN | Marketed |
+| 02365154 | TOBI PODHALER | TOBRAMYCIN | Marketed |
+| 02389622 | TEVA-TOBRAMYCIN | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02502372 | TOBRAMYCIN INJECTION USP | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+| 02533103 | TOBRAMYCIN INJECTION USP | TOBRAMYCIN (TOBRAMYCIN SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other listed products include TOBI PODHALER, TOBRADEX (two DINs), TOBREX (a second DIN), Teva-Tobramycin, Sandoz Tobramycin, Tobramycin for Injection, and additional Tobramycin Injection USP licences.
 

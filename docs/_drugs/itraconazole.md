@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -100,12 +100,18 @@ The publications retrieved are mostly reviews and case series about opportunisti
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02495988 | ODAN ITRACONAZOLE | Not listed | Not listed |
-| 02047454 | SPORANOX | Not listed | Not listed |
-| 02484315 | JAMP ITRACONAZOLE ORAL SOLUTION | Oral solution (from product name) | Not listed |
-| 02462559 | MINT-ITRACONAZOLE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02462559 | MINT-ITRACONAZOLE | ITRACONAZOLE | Marketed |
+| 02484315 | JAMP ITRACONAZOLE ORAL SOLUTION | ITRACONAZOLE | Marketed |
+| 02495988 | ODAN ITRACONAZOLE | ITRACONAZOLE | Marketed |
+| 02047454 | SPORANOX | ITRACONAZOLE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

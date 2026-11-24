@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -72,15 +72,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-The local records list 20 valid single-ingredient licences (the list may be partial). Indication text, dosage form and manufacturer are not recorded for these licences. Main products:
+The local records list 20 valid single-ingredient licences (the list may be partial). Indication text, dosage form and manufacturer are not recorded for these licences.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02509156 | REDESCA HP | Not recorded | Not recorded |
-| 02506505 | NOROMBY HP | Not recorded | Not recorded |
-| 02539985 | AXBERI | Not recorded | Not recorded |
-| 02532298 | ELONOX | Not recorded | Not recorded |
-| 02378469 | LOVENOX HP | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242692 | LOVENOX HP | ENOXAPARIN SODIUM | Marketed |
+| 02378469 | LOVENOX HP | ENOXAPARIN SODIUM | Marketed |
+| 02506459 | NOROMBY | ENOXAPARIN SODIUM | Marketed |
+| 02506467 | NOROMBY | ENOXAPARIN SODIUM | Marketed |
+| 02506483 | NOROMBY | ENOXAPARIN SODIUM | Marketed |
+| 02506505 | NOROMBY HP | ENOXAPARIN SODIUM | Marketed |
+| 02507501 | INCLUNOX | ENOXAPARIN SODIUM | Marketed |
+| 02507536 | INCLUNOX | ENOXAPARIN SODIUM | Marketed |
+| 02507579 | INCLUNOX HP | ENOXAPARIN SODIUM | Marketed |
+| 02509083 | REDESCA | ENOXAPARIN SODIUM | Marketed |
+| 02509091 | REDESCA | ENOXAPARIN SODIUM | Marketed |
+| 02509105 | REDESCA | ENOXAPARIN SODIUM | Marketed |
+| 02509148 | REDESCA HP | ENOXAPARIN SODIUM | Marketed |
+| 02509156 | REDESCA HP | ENOXAPARIN SODIUM | Marketed |
+| 02532263 | ELONOX | ENOXAPARIN SODIUM | Marketed |
+| 02532298 | ELONOX | ENOXAPARIN SODIUM | Marketed |
+| 02539985 | AXBERI | ENOXAPARIN SODIUM | Marketed |
+| 02540029 | AXBERI HP | ENOXAPARIN SODIUM | Marketed |
+| 02540037 | AXBERI HP | ENOXAPARIN SODIUM | Marketed |
+| 02540045 | AXBERI | ENOXAPARIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLIMEPIRIDE"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -74,11 +74,17 @@ Currently no related literature available for classic stiff person syndrome.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02269619 | SANDOZ GLIMEPIRIDE | Not specified | Not specified |
-| 02269597 | SANDOZ GLIMEPIRIDE | Not specified | Not specified |
-| 02269589 | SANDOZ GLIMEPIRIDE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02269589 | SANDOZ GLIMEPIRIDE | GLIMEPIRIDE | Marketed |
+| 02269597 | SANDOZ GLIMEPIRIDE | GLIMEPIRIDE | Marketed |
+| 02269619 | SANDOZ GLIMEPIRIDE | GLIMEPIRIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

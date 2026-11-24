@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -101,13 +101,32 @@ For reference, the table below lists the most relevant literature for the best-s
 
 Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations. Dosage form and approved-indication text are not available for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02529610 | OCTASA | Not available | Not available |
-| 02465752 | OCTASA | Not available | Not available |
-| 02545012 | MEZERA | Not available | Not available |
-| 02112809 | SALOFALK | Not available | Not available |
-| 02524481 | MEZERA | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02099683 | PENTASA | MESALAZINE | Marketed |
+| 02112760 | SALOFALK | MESALAZINE | Marketed |
+| 02112787 | SALOFALK | MESALAZINE | Marketed |
+| 02112795 | SALOFALK | MESALAZINE | Marketed |
+| 02112809 | SALOFALK | MESALAZINE | Marketed |
+| 02153521 | PENTASA | MESALAZINE | Marketed |
+| 02153556 | PENTASA | MESALAZINE | Marketed |
+| 02153564 | PENTASA | MESALAZINE | Marketed |
+| 02171929 | TEVA-5 ASA | MESALAZINE | Marketed |
+| 02242146 | SALOFALK | MESALAZINE | Marketed |
+| 02297558 | MEZAVANT | MESALAZINE | Marketed |
+| 02399466 | PENTASA | MESALAZINE | Marketed |
+| 02465752 | OCTASA | MESALAZINE | Marketed |
+| 02474018 | MEZERA | MESALAZINE | Marketed |
+| 02474026 | MEZERA | MESALAZINE | Marketed |
+| 02524481 | MEZERA | MESALAZINE | Marketed |
+| 02529610 | OCTASA | MESALAZINE | Marketed |
+| 02545012 | MEZERA | MESALAZINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other marketed brands include PENTASA, MEZAVANT and TEVA-5 ASA.
 

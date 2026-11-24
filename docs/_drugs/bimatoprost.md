@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 115
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -108,12 +108,18 @@ Among the ten predicted indications, **alopecia** (TxGNN score 1.0000) is the on
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02429063 | VISTITAN |
-| 02350939 | LATISSE |
-| 02324997 | LUMIGAN RC |
-| 02533464 | ZIMED PF |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02324997 | LUMIGAN RC | BIMATOPROST | Marketed |
+| 02350939 | LATISSE | BIMATOPROST | Marketed |
+| 02429063 | VISTITAN | BIMATOPROST | Marketed |
+| 02533464 | ZIMED PF | BIMATOPROST | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four are valid single-ingredient authorizations. Dosage form and approved-indication text were not available in the compiled data.
 

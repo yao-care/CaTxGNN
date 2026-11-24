@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 67
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Apremilast: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -75,19 +75,25 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Apremilast, 
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02434334 | OTEZLA |  | Valid |
-| 02521733 | PMS-APREMILAST |  | Valid |
-| 02528959 | JAMP APREMILAST |  | Valid |
-| 02529092 | SANDOZ APREMILAST |  | Valid |
-| 02538180 | APO-APREMILAST |  | Valid |
-| 02434318 | OTEZLA |  | Valid |
-| 02524104 | AURO-APREMILAST |  | Valid |
-| 02529084 | SANDOZ APREMILAST |  | Valid |
-| 02528967 | JAMP APREMILAST |  | Valid |
-| 02524120 | AURO-APREMILAST |  | Valid |
-| 02518910 | GLN-APREMILAST |  | DORMANT |
+| 02434318 | OTEZLA | APREMILAST | Marketed |
+| 02434334 | OTEZLA | APREMILAST | Marketed |
+| 02521733 | PMS-APREMILAST | APREMILAST | Marketed |
+| 02524104 | AURO-APREMILAST | APREMILAST | Marketed |
+| 02524120 | AURO-APREMILAST | APREMILAST | Marketed |
+| 02528959 | JAMP APREMILAST | APREMILAST | Marketed |
+| 02528967 | JAMP APREMILAST | APREMILAST | Marketed |
+| 02529084 | SANDOZ APREMILAST | APREMILAST | Marketed |
+| 02529092 | SANDOZ APREMILAST | APREMILAST | Marketed |
+| 02538180 | APO-APREMILAST | APREMILAST | Marketed |
+| 02518910 | GLN-APREMILAST | APREMILAST | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

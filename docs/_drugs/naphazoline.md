@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 641
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness (vasoconstrictor). The Canadian licen…"
 monitor_inn: "Naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -85,13 +85,22 @@ The compiled records do not include dosage form or approved indication text.
 
 <!-- review:end ca-lic-20261105-naphazoline-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02248060 | CLEAR EYES | Not available | Not available |
-| 00001147 | ALBALON | Not available | Not available |
-| 02242764 | VISINE FOR ALLERGY WITH ANTIHISTAMINE | Not available | Not available |
-| 00674354 | COLLYRE BLEU LAITER | Not available | Not available |
-| 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00481408 | NAPHCON A | NAPHAZOLINE HYDROCHLORIDE; PHENIRAMINE MALEATE | Marketed |
+| 00674354 | COLLYRE BLEU LAITER | METHYLENE BLUE; NAPHAZOLINE NITRATE | Marketed |
+| 00750794 | SOOTHE ALLERGY | NAPHAZOLINE HYDROCHLORIDE; PHENIRAMINE MALEATE | Marketed |
+| 02242764 | VISINE FOR ALLERGY WITH ANTIHISTAMINE | NAPHAZOLINE HYDROCHLORIDE; PHENIRAMINE MALEATE | Marketed |
+| 02248059 | CLEAR EYES ALLERGY | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02248060 | CLEAR EYES | NAPHAZOLINE HYDROCHLORIDE | Marketed |
+| 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE | Marketed |
+| 00001147 | ALBALON | NAPHAZOLINE HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Three more valid licences are held: SOOTHE ALLERGY (00750794), NAPHCON A (00481408) and CLEAR EYES ALLERGY (02248059).
 

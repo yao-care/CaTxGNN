@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 593
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). In Canada: 16 DINs (16 marketed)"
@@ -96,13 +96,30 @@ Currently no related clinical trials registered for bacterial arthritis.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02378787 | Meropenem for Injection | Not listed | Not listed |
-| 02544334 | Meropenem for Injection USP and Sodium Chloride Injection USP | Not listed | Not listed |
-| 02415224 | Meropenem for Injection, USP | Not listed | Not listed |
-| 02421526 | Taro-Meropenem | Not listed | Not listed |
-| 02554151 | Vabomere (meropenem-vaborbactam) | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02378787 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02378795 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02415216 | MEROPENEM FOR INJECTION, USP | MEROPENEM | Marketed |
+| 02415224 | MEROPENEM FOR INJECTION, USP | MEROPENEM | Marketed |
+| 02421518 | TARO-MEROPENEM | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02421526 | TARO-MEROPENEM | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02462885 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02462893 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02493330 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02493349 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02528819 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02528827 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02536374 | MEROPENEM FOR INJECTION | MEROPENEM (MEROPENEM TRIHYDRATE) | Marketed |
+| 02544334 | MEROPENEM FOR INJECTION USP AND SODIUM CHLORIDE INJECTION USP | MEROPENEM | Marketed |
+| 02544342 | MEROPENEM FOR INJECTION USP AND SODIUM CHLORIDE INJECTION USP | MEROPENEM | Marketed |
+| 02554151 | VABOMERE | MEROPENEM (MEROPENEM TRIHYDRATE); VABORBACTAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 16 authorizations are valid products; the table lists five of them.
 

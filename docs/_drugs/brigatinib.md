@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib: predicted new indication Gingival fibromatosis (fibromatosis, gingival) (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
@@ -70,12 +70,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02479214 | ALUNBRIG | Not recorded | Not recorded |
-| 02479206 | ALUNBRIG | Not recorded | Not recorded |
-| 02479222 | ALUNBRIG | Not recorded | Not recorded |
-| 02479230 | ALUNBRIG | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02479206 | ALUNBRIG | BRIGATINIB | Marketed |
+| 02479214 | ALUNBRIG | BRIGATINIB | Marketed |
+| 02479222 | ALUNBRIG | BRIGATINIB | Marketed |
+| 02479230 | ALUNBRIG | BRIGATINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four single-ingredient licences are valid.
 

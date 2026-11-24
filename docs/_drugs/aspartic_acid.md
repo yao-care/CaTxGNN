@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Aspartic Acid: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Potassium deficiency disease"
 monitor_inn: "Aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -76,13 +76,21 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02141450 | 20% PROSOL | Not specified | Not specified |
-| 02352540 | OLIMEL 5.7% | Not specified | Not specified |
-| 02236875 | PRIMENE 10% | Not specified | Not specified |
-| 02477947 | OLIMEL 7.6% | Not specified | Not specified |
-| 02352494 | PERIOLIMEL 2.5% E | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02141450 | 20% PROSOL | ALANINE; ARGININE; DL-METHIONINE; GLUTAMIC ACID; GLYCINE; HISTIDINE; ISOLEUCINE; L-ASPARTIC ACID; LEUCINE; LY… | Marketed |
+| 02236875 | PRIMENE 10% | GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ASPARTIC ACID; L-CYSTEINE; L-ISOLEUCINE; L-LEUCIN… | Marketed |
+| 02352494 | PERIOLIMEL 2.5% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352532 | OLIMEL 5.7% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352540 | OLIMEL 5.7% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02477947 | OLIMEL 7.6% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02477955 | OLIMEL 7.6% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Seven valid authorizations are listed in total; the five above are shown.
 

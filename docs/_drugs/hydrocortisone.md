@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 455
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). In Canada: 16 DINs (15 marketed, 1 dormant)"
@@ -81,13 +81,30 @@ An important caveat: the available Phase 3 trial used hydrocortisone 1% only as 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00030619 | SOLU-CORTEF | Not specified | Not specified |
-| 02469421 | SANDOZ HYDROCORTISONE | Not specified | Not specified |
-| 00030929 | CORTEF | Not specified | Not specified |
-| 02524465 | AURO-HYDROCORTISONE | Not specified | Not specified |
-| 01954210 | PRAMOX HC LOTION | Lotion (per product name) | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00030600 | SOLU-CORTEF | HYDROCORTISONE (HYDROCORTISONE SODIUM SUCCINATE) | Marketed |
+| 00030619 | SOLU-CORTEF | HYDROCORTISONE (HYDROCORTISONE SODIUM SUCCINATE) | Marketed |
+| 00030627 | SOLU-CORTEF | HYDROCORTISONE (HYDROCORTISONE SODIUM SUCCINATE) | Marketed |
+| 00030635 | SOLU-CORTEF | HYDROCORTISONE (HYDROCORTISONE SODIUM SUCCINATE) | Marketed |
+| 00030910 | CORTEF | HYDROCORTISONE | Marketed |
+| 00030929 | CORTEF | HYDROCORTISONE | Marketed |
+| 00074500 | VIOFORM HYDROCORTISONE | CLIOQUINOL; HYDROCORTISONE | Marketed |
+| 00770957 | PRAMOX HC CREAM | HYDROCORTISONE (HYDROCORTISONE ACETATE); PRAMOXINE HYDROCHLORIDE | Marketed |
+| 01954210 | PRAMOX HC LOTION | HYDROCORTISONE (HYDROCORTISONE ACETATE); PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02226383 | TEVA-PROCTOSONE | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE (HYDROCORTISONE ACETATE) | Marketed |
+| 02247322 | PROCTOL OINTMENT | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+| 02247882 | PROCTOL SUPPOSITORIES | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+| 02404044 | XERESE | ACYCLOVIR; HYDROCORTISONE | Marketed |
+| 02524465 | AURO-HYDROCORTISONE | HYDROCORTISONE | Marketed |
+| 02524473 | AURO-HYDROCORTISONE | HYDROCORTISONE | Marketed |
+| 02469421 | SANDOZ HYDROCORTISONE | HYDROCORTISONE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

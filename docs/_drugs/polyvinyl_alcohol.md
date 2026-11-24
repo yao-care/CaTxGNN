@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 752
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Polyvinyl Alcohol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome, xerophthalmia"
 monitor_inn: "POLYVINYL ALCOHOL"
 predicted_indications: ["congenital ichthyosiform erythroderma", "self-healing collodion baby", "lamellar ichthyosis", "bathing suit ichthyosis"]
@@ -72,11 +72,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02138670 | REFRESH | Not specified | Not specified |
-| 02247538 | MURINE | Not specified | Not specified |
-| 02301687 | CLEAR EYES TRIPLE ACTION RELIEF | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02138670 | REFRESH | POLYVINYL ALCOHOL | Marketed |
+| 02247538 | MURINE | POLYVINYL ALCOHOL; POVIDONE | Marketed |
+| 02301687 | CLEAR EYES TRIPLE ACTION RELIEF | POLYVINYL ALCOHOL; POVIDONE; TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three products are valid authorizations.
 

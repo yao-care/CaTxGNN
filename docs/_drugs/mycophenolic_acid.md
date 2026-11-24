@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "MYCOPHENOLIC ACID"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
@@ -90,15 +90,24 @@ Other high-scoring predictions have little support:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02372746 | APO-MYCOPHENOLIC ACID | Not listed | Not listed |
-| 02372738 | APO-MYCOPHENOLIC ACID | Not listed | Not listed |
-| 02518538 | JAMP MYCOPHENOLIC ACID | Not listed | Not listed |
-| 02264560 | MYFORTIC | Not listed | Not listed |
-| 02511673 | MAR-MYCOPHENOLIC ACID | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 8 licences are valid single-ingredient products; the table shows the first 5.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02264560 | MYFORTIC | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02264579 | MYFORTIC | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02372738 | APO-MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02372746 | APO-MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02511673 | MAR-MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02511681 | MAR-MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02518511 | JAMP MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+| 02518538 | JAMP MYCOPHENOLIC ACID | MYCOPHENOLIC ACID (MYCOPHENOLATE SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 8 licences are valid single-ingredient products.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 13 DINs (13 marketed)"
@@ -88,15 +88,29 @@ Most of these papers mention oxymetazoline only incidentally (for example as a d
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02498294 | DRIXORAL NO DRIP NASAL CONGESTION | Not specified | Not specified |
-| 02380129 | DRIXORAL NASAL CONGESTION | Not specified | Not specified |
-| 02460599 | NASAL CONGESTION SPRAY | Not specified | Not specified |
-| 00740861 | DRIXORAL DECONGESTANT NASAL SPRAY | Not specified | Not specified |
-| 01929380 | LONG LASTING DRISTAN MENTHOLATED NASAL SPRAY | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Thirteen valid single-ingredient licences are listed in total; the five above are shown as the main examples.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00740861 | DRIXORAL DECONGESTANT NASAL SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 01929372 | LONG LASTING DRISTAN NASAL MIST | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 01929380 | LONG LASTING DRISTAN MENTHOLATED NASAL SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02243690 | CLARITIN ALLERGY DECONGESTANT | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02245575 | DRIXORAL NO DRIP EXTRA MOISTURIZING | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02245578 | DRIXORAL NO DRIP ORIGINAL UNSCENTED | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02245580 | DRIXORAL NO DRIP COOLING MENTHOL | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02380129 | DRIXORAL NASAL CONGESTION | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02454351 | LONG LASTING DECONGESTANT NASAL SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02460572 | EXTRA MOISTURIZING NASAL SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02460599 | NASAL CONGESTION SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02498294 | DRIXORAL NO DRIP NASAL CONGESTION | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02498308 | DRIXORAL NO DRIP NASAL CONGESTION WITH MENTHOL | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Thirteen valid single-ingredient licences are listed in total.
 
 ---
 

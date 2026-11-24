@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 739
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "PIOGLITAZONE"
 predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -85,15 +85,29 @@ Currently no related literature available for opsismodysplasia.
 
 ## Canada Market Information
 
-Pioglitazone is marketed in Canada with 13 valid single-ingredient licences (no combination products and no cancelled licences). Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
+Pioglitazone is marketed in Canada with 13 valid single-ingredient licences (no combination products and no cancelled licences). Dosage form and approved indication text are not available in the compiled data.
 
-| DIN | Product Name |
-|---------|------|
-| 02326485 | MINT-PIOGLITAZONE |
-| 02365529 | JAMP PIOGLITAZONE |
-| 02339595 | ACH-PIOGLITAZONE |
-| 02302888 | TEVA-PIOGLITAZONE |
-| 02302977 | APO-PIOGLITAZONE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02302861 | TEVA-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02302888 | TEVA-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02302896 | TEVA-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02326477 | MINT-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02326485 | MINT-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02326493 | MINT-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02365529 | JAMP PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02365537 | JAMP PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02397307 | JAMP PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Marketed |
+| 02302977 | APO-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Dormant |
+| 02339587 | ACH-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Dormant |
+| 02339595 | ACH-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Dormant |
+| 02391600 | ACH-PIOGLITAZONE | PIOGLITAZONE (PIOGLITAZONE HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

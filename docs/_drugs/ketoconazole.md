@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 511
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "KETOCONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). In Canada: 4 DINs (4 marketed)"
@@ -100,12 +100,18 @@ The remaining retrieved papers (a free-clinic dermatologic formulary study, a co
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245662 | KETODERM CREAM 2% | Cream (from product name) | Not listed in the compiled data |
-| 02231061 | TEVA-KETOCONAZOLE | Not listed | Not listed in the compiled data |
-| 02237235 | APO-KETOCONAZOLE | Not listed | Not listed in the compiled data |
-| 02182920 | NIZORAL | Not listed | Not listed in the compiled data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02182920 | NIZORAL | KETOCONAZOLE | Marketed |
+| 02231061 | TEVA-KETOCONAZOLE | KETOCONAZOLE | Marketed |
+| 02237235 | APO-KETOCONAZOLE | KETOCONAZOLE | Marketed |
+| 02245662 | KETODERM CREAM 2% | KETOCONAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four are valid single-ingredient authorizations.
 

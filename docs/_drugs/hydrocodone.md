@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 454
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocodone: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "hydrocodone"
 drugbank_id: DB00956
@@ -84,10 +84,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02324253 | PDP-HYDROCODONE | Not specified | Not specified |
-| 02230769 | DALMACOL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02324253 | PDP-HYDROCODONE | HYDROCODONE BITARTRATE | Marketed |
+| 02230769 | DALMACOL | ALCOHOL ANHYDROUS; DOXYLAMINE SUCCINATE; ETAFEDRINE HYDROCHLORIDE; HYDROCODONE BITARTRATE; SODIUM CITRATE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

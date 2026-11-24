@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In Canada: at least 20 DINs"
@@ -92,15 +92,38 @@ None of these publications directly tests morphine as a treatment for myofascial
 
 ## Canada Market Information
 
-Morphine is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. The licence records may be partial. The main authorizations are listed below. Approved indication text and dosage forms are not recorded in the local data.
+Morphine is marketed in Canada with 20 valid single-ingredient licences and no cancelled licences. The licence records may be partial. Approved indication text and dosage forms are not recorded in the local data.
 
-| DIN | Product Name |
-|---------|------|
-| 02474980 | Morphine Sulfate Injection BP |
-| 02244792 | Sandoz Morphine SR |
-| 02014238 | MS.IR |
-| 02184451 | Kadian |
-| 00392561 | Morphine Sulfate Inj 15mg/mL USP |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00392561 | MORPHINE SULFATE INJ 15MG/ML USP | MORPHINE SULFATE | Marketed |
+| 00392588 | MORPHINE SULFATE INJ 10MG/ML USP | MORPHINE SULFATE | Marketed |
+| 00594652 | STATEX | MORPHINE SULFATE | Marketed |
+| 02014211 | MS.IR | MORPHINE SULFATE | Marketed |
+| 02014238 | MS.IR | MORPHINE SULFATE | Marketed |
+| 02015439 | MS CONTIN | MORPHINE SULFATE | Marketed |
+| 02019965 | M-ESLON | MORPHINE SULFATE | Marketed |
+| 02021048 | MORPHINE LP EPIDURAL | MORPHINE SULFATE | Marketed |
+| 02021056 | MORPHINE LP EPIDURAL | MORPHINE SULFATE | Marketed |
+| 02184451 | KADIAN | MORPHINE SULFATE | Marketed |
+| 02244792 | SANDOZ MORPHINE SR | MORPHINE SULFATE | Marketed |
+| 02302764 | TEVA-MORPHINE SR | MORPHINE SULFATE | Marketed |
+| 02302772 | TEVA-MORPHINE SR | MORPHINE SULFATE | Marketed |
+| 02302802 | TEVA-MORPHINE SR | MORPHINE SULFATE | Marketed |
+| 02320428 | M-EDIAT | MORPHINE SULFATE | Marketed |
+| 02320444 | M-EDIAT | MORPHINE SULFATE | Marketed |
+| 02474980 | MORPHINE SULFATE INJECTION BP | MORPHINE SULFATE | Marketed |
+| 02491931 | MORPHINE SULFATE INJECTION USP | MORPHINE SULFATE | Marketed |
+| 02498278 | MORPHINE SULFATE INJECTION EPIDURAL | MORPHINE SULFATE | Marketed |
+| 02549794 | PMS-MORPHINE SULFATE | MORPHINE SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyproheptadine: predicted new indication nasal cavity disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02332248 | JAMP-CYPROHEPTADINE | Not recorded | Not recorded in local data |
-| 02533065 | MAR-CYPROHEPTADINE | Not recorded | Not recorded in local data |
-| 02466732 | EURO-CYPROHEPTADINE 2MG/5ML | Not recorded | Not recorded in local data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02332248 | JAMP-CYPROHEPTADINE | CYPROHEPTADINE HYDROCHLORIDE | Marketed |
+| 02466732 | EURO-CYPROHEPTADINE 2MG/5ML | CYPROHEPTADINE HYDROCHLORIDE | Marketed |
+| 02533065 | MAR-CYPROHEPTADINE | CYPROHEPTADINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are for single-ingredient products and are currently valid.
 

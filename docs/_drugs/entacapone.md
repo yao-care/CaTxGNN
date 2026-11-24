@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -70,13 +70,22 @@ Currently no related literature available for PLA2G6-associated neurodegeneratio
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02535939 | MINT-ENTACAPONE | Not listed | Not listed |
-| 02375559 | TEVA-ENTACAPONE | Not listed | Not listed |
-| 02380005 | SANDOZ ENTACAPONE | Not listed | Not listed |
-| 02305968 | STALEVO | Not listed | Not listed |
-| 02337835 | STALEVO | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02305933 | STALEVO | CARBIDOPA; ENTACAPONE; LEVODOPA | Marketed |
+| 02305941 | STALEVO | CARBIDOPA; ENTACAPONE; LEVODOPA | Marketed |
+| 02305968 | STALEVO | CARBIDOPA; ENTACAPONE; LEVODOPA | Marketed |
+| 02337827 | STALEVO | CARBIDOPA; ENTACAPONE; LEVODOPA | Marketed |
+| 02337835 | STALEVO | CARBIDOPA; ENTACAPONE; LEVODOPA | Marketed |
+| 02375559 | TEVA-ENTACAPONE | ENTACAPONE | Marketed |
+| 02380005 | SANDOZ ENTACAPONE | ENTACAPONE | Marketed |
+| 02535939 | MINT-ENTACAPONE | ENTACAPONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eight valid licences are on record in total; the five above are shown. No licences have been cancelled.
 

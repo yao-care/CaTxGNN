@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Misoprostol: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -92,13 +92,24 @@ None of these publications evaluates misoprostol as a treatment for amenorrhea.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244022 | MISOPROSTOL | Not available | Not available |
-| 02244023 | MISOPROSTOL | Not available | Not available |
-| 02413469 | PMS-DICLOFENAC-MISOPROSTOL | Not available | Not available |
-| 02413477 | PMS-DICLOFENAC-MISOPROSTOL | Not available | Not available |
-| 02229837 | ARTHROTEC 75 | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01917056 | ARTHROTEC 50 | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02229837 | ARTHROTEC 75 | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02244022 | MISOPROSTOL | MISOPROSTOL | Marketed |
+| 02244023 | MISOPROSTOL | MISOPROSTOL | Marketed |
+| 02341689 | GD-DICLOFENAC/MISOPROSTOL 50 | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02341697 | GD-DICLOFENAC/MISOPROSTOL 75 | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02413469 | PMS-DICLOFENAC-MISOPROSTOL | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02413477 | PMS-DICLOFENAC-MISOPROSTOL | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
+| 02444038 | MIFEGYMISO | MIFEPRISTONE; MISOPROSTOL | Marketed |
+| 02560569 | FEMYSO | MIFEPRISTONE; MISOPROSTOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The data compiled for this report list 10 valid licences in total (all single-entity records, none cancelled). The other products include ARTHROTEC 50, GD-DICLOFENAC/MISOPROSTOL 50 and 75, MIFEGYMISO and FEMYSO.
 

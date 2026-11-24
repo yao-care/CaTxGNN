@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 904
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Tetryzoline"
 predicted_indications: ["nasal cavity disease"]
 description: "Tetryzoline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -79,13 +79,24 @@ All 10 licences are valid products. Dosage form and approved indication text are
 
 <!-- review:end ca-lic-20261106-tetryzoline-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01942425 | VISINE ORIGINAL | Not available | Not available |
-| 02273446 | ORIGINAL EYE DROPS | Not available | Not available |
-| 02338602 | VISINE MULTI-SYMPTOM | Not available | Not available |
-| 02290596 | ALLERGY EYE DROPS | Not available | Not available |
-| 02448955 | 8-SYMPTOM RELIEF | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01942425 | VISINE ORIGINAL | TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+| 02144093 | VISINE FOR ALLERGY 3 SYMPTOM RELIEF | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02273446 | ORIGINAL EYE DROPS | TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+| 02290596 | ALLERGY EYE DROPS | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02301687 | CLEAR EYES TRIPLE ACTION RELIEF | POLYVINYL ALCOHOL; POVIDONE; TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+| 02338602 | VISINE MULTI-SYMPTOM | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02344319 | ADVANCED RELIEF EYE DROPS | DEXTRAN 70; POLYETHYLENE GLYCOL 400; POVIDONE; TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+| 02448955 | 8-SYMPTOM RELIEF | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02518201 | RED EYE TRIPLE ACTION | POLYETHYLENE GLYCOL 400; TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+| 02518228 | RED EYE WORKPLACE | POLYETHYLENE GLYCOL 400; TETRAHYDROZOLINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The product names suggest the Canadian products are ophthalmic (eye-drop) formulations. A nasal or pharyngeal use would therefore likely need a different route of administration, and route compatibility has not yet been assessed.
 

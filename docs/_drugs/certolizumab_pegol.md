@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CERTOLIZUMAB PEGOL"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -82,10 +82,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02465574 | CIMZIA |
-| 02331675 | CIMZIA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02331675 | CIMZIA | CERTOLIZUMAB PEGOL | Marketed |
+| 02465574 | CIMZIA | CERTOLIZUMAB PEGOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are currently valid single-ingredient products.
 

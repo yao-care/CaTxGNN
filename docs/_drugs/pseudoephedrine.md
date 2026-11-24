@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -91,7 +91,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Pseudoephedrine is marketed in Canada. Dosage form and approved indication text are not available in the data compiled for this report. The first 5 are listed below.
+Pseudoephedrine is marketed in Canada. Dosage form and approved indication text are not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261112-pseudoephedrine-1 -->
 
@@ -99,13 +99,36 @@ Pseudoephedrine is marketed in Canada. Dosage form and approved indication text 
 
 <!-- review:end ca-lic-20261112-pseudoephedrine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242217 | SUDAFED SINUS ADVANCE | Not available | Not available |
-| 01938371 | EXTRA STRENGTH SINUTAB SINUS DAYTIME | Not available | Not available |
-| 02478110 | EXTRA STRENGTH TYLENOL COLD & SINUS PLUS | Not available | Not available |
-| 02352281 | COLD + SINUS | Not available | Not available |
-| 02246162 | REACTINE COMPLETE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01938371 | EXTRA STRENGTH SINUTAB SINUS DAYTIME | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 01944746 | BENYLIN FOR CHILDREN COUGH & COLD | DEXTROMETHORPHAN HYDROBROMIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 01945157 | CLARITIN ALLERGY + SINUS | LORATADINE; PSEUDOEPHEDRINE SULFATE | Marketed |
+| 02229538 | CHILDREN'S TYLENOL COLD & STUFFY NOSE | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02239159 | EXTRA STRENGTH SUDAFED HEAD COLD & SINUS | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02239853 | ALLEGRA-D | FEXOFENADINE HYDROCHLORIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02242217 | SUDAFED SINUS ADVANCE | IBUPROFEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02246162 | REACTINE COMPLETE | CETIRIZINE HYDROCHLORIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02248646 | EXTRA STRENGTH HEAD COLD AND SINUS | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02250705 | ADVIL COLD & SINUS LIQUI-GELS | IBUPROFEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02260557 | CLARITIN ALLERGY + SINUS EXTRA STRENGTH | LORATADINE; PSEUDOEPHEDRINE SULFATE | Marketed |
+| 02267616 | ADVIL COLD AND SINUS DAYTIME | IBUPROFEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02309300 | AERIUS SINUS + ALLERGY | DESLORATADINE; PSEUDOEPHEDRINE SULFATE | Marketed |
+| 02348071 | EXTRA STRENGTH TYLENOL COLD & SINUS DAYTIME | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02352281 | COLD + SINUS | IBUPROFEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02368854 | SINUS MEDICATION DAYTIME RELIEF | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02385252 | COLD AND SINUS DAYTIME RELIEF | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02478110 | EXTRA STRENGTH TYLENOL COLD & SINUS PLUS | ACETAMINOPHEN; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02533626 | JACK & JILL MULTI-SYMPTOM COLD & COUGH | DEXTROMETHORPHAN HYDROBROMIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02044013 | ROBITUSSIN CHILDREN'S COUGH AND COLD | DEXTROMETHORPHAN HYDROBROMIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

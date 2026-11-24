@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). In Canada: 14 DINs (10 marketed, 1 dormant)"
@@ -80,13 +80,28 @@ Currently no related literature available for the top predicted indication.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02248640 | OCTREOTIDE ACETATE OMEGA | Not specified | Not specified |
-| 00839191 | SANDOSTATIN | Not specified | Not specified |
-| 02503778 | OCTREOTIDE FOR INJECTABLE SUSPENSION | Not specified | Not specified |
-| 02239323 | SANDOSTATIN LAR | Not specified | Not specified |
-| 02560291 | OCTREOTIDE INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239323 | SANDOSTATIN LAR | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02239324 | SANDOSTATIN LAR | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02239325 | SANDOSTATIN LAR | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02248639 | OCTREOTIDE ACETATE OMEGA | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02248640 | OCTREOTIDE ACETATE OMEGA | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02248641 | OCTREOTIDE ACETATE OMEGA | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02248642 | OCTREOTIDE ACETATE OMEGA | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02560240 | OCTREOTIDE INJECTION | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02560283 | OCTREOTIDE INJECTION | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 02560291 | OCTREOTIDE INJECTION | OCTREOTIDE (OCTREOTIDE ACETATE) | Marketed |
+| 00839191 | SANDOSTATIN | OCTREOTIDE (OCTREOTIDE ACETATE) | Dormant |
+| 02503751 | OCTREOTIDE FOR INJECTABLE SUSPENSION | OCTREOTIDE (OCTREOTIDE ACETATE) | Cancelled post market |
+| 02503778 | OCTREOTIDE FOR INJECTABLE SUSPENSION | OCTREOTIDE (OCTREOTIDE ACETATE) | Cancelled post market |
+| 02503786 | OCTREOTIDE FOR INJECTABLE SUSPENSION | OCTREOTIDE (OCTREOTIDE ACETATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 40
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In Canada: 13 DINs (13 marketed)"
@@ -79,15 +79,29 @@ The most relevant publication is a retrospective observational study. No randomi
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02243612 | APO-ALPRAZ TS |
-| 00548359 | XANAX |
-| 00865397 | APO-ALPRAZ |
-| 01913492 | TEVA-ALPRAZOLAM |
-| 01908189 | PRO-ALPRAZOLAM |
+<!-- licenses:begin -->
 
-All 13 single-ingredient licences are valid; the table lists the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00548359 | XANAX | ALPRAZOLAM | Marketed |
+| 00548367 | XANAX | ALPRAZOLAM | Marketed |
+| 00723770 | XANAX | ALPRAZOLAM | Marketed |
+| 00813958 | XANAX TS | ALPRAZOLAM | Marketed |
+| 00865397 | APO-ALPRAZ | ALPRAZOLAM | Marketed |
+| 00865400 | APO-ALPRAZ | ALPRAZOLAM | Marketed |
+| 01908170 | PRO-ALPRAZOLAM | ALPRAZOLAM | Marketed |
+| 01908189 | PRO-ALPRAZOLAM | ALPRAZOLAM | Marketed |
+| 01913484 | TEVA-ALPRAZOLAM | ALPRAZOLAM | Marketed |
+| 01913492 | TEVA-ALPRAZOLAM | ALPRAZOLAM | Marketed |
+| 02243611 | APO-ALPRAZ | ALPRAZOLAM | Marketed |
+| 02243612 | APO-ALPRAZ TS | ALPRAZOLAM | Marketed |
+| 02248706 | PRO-ALPRAZOLAM | ALPRAZOLAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 13 single-ingredient licences are valid.
 
 ## Safety Considerations
 

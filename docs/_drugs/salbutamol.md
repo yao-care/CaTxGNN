@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). In Canada: 15 DINs (15 marketed)"
@@ -70,15 +70,31 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02208229 | PMS-SALBUTAMOL | Not listed | Not listed |
-| 02326450 | TEVA-SALBUTAMOL HFA | Not listed | Not listed |
-| 02243115 | VENTOLIN DISKUS | Not listed | Not listed |
-| 02241497 | VENTOLIN HFA | Not listed | Not listed |
-| 02213486 | VENTOLIN RESPIRATOR SOLUTION | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 15 licences in the local records are currently valid; the five above are shown as examples.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01926934 | TEVA-SALBUTAMOL STERINEBS P.F. | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02173360 | TEVA-SALBUTAMOL STERINEBS P.F. | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02208229 | PMS-SALBUTAMOL | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02208237 | PMS-SALBUTAMOL | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02208245 | PMS-SALBUTAMOL | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02213451 | VENTOLIN I.V. INFUSION SOLUTION 5.0MG SALBUTAMOL IN 5ML (1000MCG/ML) | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02213486 | VENTOLIN RESPIRATOR SOLUTION | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02241497 | VENTOLIN HFA | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02243115 | VENTOLIN DISKUS | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02245669 | APO-SALBUTAMOL HFA | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02272695 | TEVA-COMBO STERINEBS | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02326450 | TEVA-SALBUTAMOL HFA | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02419106 | COMBIVENT RESPIMAT | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02419858 | SALBUTAMOL HFA | SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02483394 | IPRATROPIUM BROMIDE AND SALBUTAMOL SULPHATE INHALATION SOLUTION | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 15 licences in the local records are currently valid.
 
 ## Safety Considerations
 

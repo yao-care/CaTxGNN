@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 839
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available"
 monitor_inn: "SELENIUM"
 predicted_indications: ["sclerosing cholangitis"]
@@ -88,13 +88,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01986007 | MICRO SE | Not specified | Not specified |
-| 02536145 | MICRO+ TE PEDIATRIC | Not specified | Not specified |
-| 02552787 | MICRO+6 REGULAR | Not specified | Not specified |
-| 02507587 | MICRO+6 CONCENTRATE | Not specified | Not specified |
-| 02091100 | MICRO PLUS 6 (PEDIATRIC) | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01986007 | MICRO SE | SELENIUM (SELENIOUS ACID) | Marketed |
+| 02497697 | ADDNUTRIV | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC CHLORIDE); FLUORIDE (SODIUM FLUORIDE); IODINE (POTASSIUM IODIDE);… | Marketed |
+| 02507587 | MICRO+6 CONCENTRATE | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODIDE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Marketed |
+| 02536145 | MICRO+ TE PEDIATRIC | COPPER (CUPRIC SULFATE); IODIDE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE); SELENIUM (SELENIOUS ACID); ZI… | Marketed |
+| 02552787 | MICRO+6 REGULAR | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODINE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Marketed |
+| 02091100 | MICRO PLUS 6 (PEDIATRIC) | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODIDE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth license, ADDNUTRIV (DIN 02497697), is also on the market.
 

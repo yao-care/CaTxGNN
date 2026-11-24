@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "NITROFURANTOIN"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -93,15 +93,25 @@ None of these publications shows a therapeutic benefit of nitrofurantoin in RA.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02455676 | PMS-NITROFURANTOIN BID | Not listed | Not listed |
-| 00312738 | NITROFURANTOIN | Not listed | Not listed |
-| 00319511 | NITROFURANTOIN | Not listed | Not listed |
-| 02495503 | JAMP NITROFURANTOIN | Not listed | Not listed |
-| 02231016 | TEVA-NITROFURANTOIN | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 9 licences are valid single-ingredient products. Only the first 5 are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00312738 | NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 00319511 | NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 02231015 | TEVA-NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 02231016 | TEVA-NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 02455676 | PMS-NITROFURANTOIN BID | NITROFURANTOIN | Marketed |
+| 02466392 | AURO-NITROFURANTOIN BID | NITROFURANTOIN | Marketed |
+| 02495503 | JAMP NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 02495511 | JAMP NITROFURANTOIN | NITROFURANTOIN | Marketed |
+| 02544954 | JAMP NITROFURANTOIN BID | NITROFURANTOIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 9 licences are valid single-ingredient products.
 
 ---
 

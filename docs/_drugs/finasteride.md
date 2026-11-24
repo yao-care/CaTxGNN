@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -94,7 +94,7 @@ For context, the second-ranked prediction, hypertrichosis, has four publications
 
 ## Canada Market Information
 
-Dosage form and indication text are not available in the data compiled for this report. Main authorizations:
+Dosage form and indication text are not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261105-finasteride-1 -->
 
@@ -102,13 +102,36 @@ Dosage form and indication text are not available in the data compiled for this 
 
 <!-- review:end ca-lic-20261105-finasteride-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02238213 | PROPECIA |
-| 02339471 | SANDOZ FINASTERIDE A |
-| 02322579 | SANDOZ FINASTERIDE |
-| 02348500 | TEVA-FINASTERIDE |
-| 02310112 | PMS-FINASTERIDE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02238213 | PROPECIA | FINASTERIDE | Marketed |
+| 02310112 | PMS-FINASTERIDE | FINASTERIDE | Marketed |
+| 02320169 | PMS-FINASTERIDE | FINASTERIDE | Marketed |
+| 02339471 | SANDOZ FINASTERIDE A | FINASTERIDE | Marketed |
+| 02348500 | TEVA-FINASTERIDE | FINASTERIDE | Marketed |
+| 02350270 | FINASTERIDE | FINASTERIDE | Marketed |
+| 02355043 | ACH-FINASTERIDE | FINASTERIDE | Marketed |
+| 02389878 | MINT-FINASTERIDE | FINASTERIDE | Marketed |
+| 02405814 | AURO-FINASTERIDE | FINASTERIDE | Marketed |
+| 02428148 | AURO-FINASTERIDE 1MG | FINASTERIDE | Marketed |
+| 02445085 | FINASTERIDE | FINASTERIDE | Marketed |
+| 02447541 | FINASTERIDE | FINASTERIDE | Marketed |
+| 02447568 | FINASTERIDE | FINASTERIDE | Marketed |
+| 02455013 | RIVA-FINASTERIDE | FINASTERIDE | Marketed |
+| 02527847 | BIO-FINASTERIDE | FINASTERIDE | Marketed |
+| 02537427 | MINT-FINASTERIDE | FINASTERIDE | Marketed |
+| 02357224 | JAMP-FINASTERIDE | FINASTERIDE | Dormant |
+| 02374404 | AG-FINASTERIDE | FINASTERIDE | Dormant |
+| 02522489 | M-FINASTERIDE | FINASTERIDE | Dormant |
+| 02322579 | SANDOZ FINASTERIDE | FINASTERIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

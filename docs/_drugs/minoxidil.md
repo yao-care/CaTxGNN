@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 620
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with HIV infection"]
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L4). In Canada: 10 DINs (9 marketed, 1 dormant)"
@@ -76,15 +76,26 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02551446 | Men's Hair Regrowth Treatment | Not specified | Not specified |
-| 00708925 | Men's Rogaine | Not specified | Not specified |
-| 02356597 | Hair Regrowth Formula | Not specified | Not specified |
-| 00514500 | Loniten 10 mg | Not specified | Not specified |
-| 02529238 | Jamp Minoxidil Solution | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Ten valid single-ingredient licences are on record in total; none are cancelled. The list above shows five of them. The product names indicate topical hair-regrowth products and the oral Loniten tablets.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00514497 | LONITEN 2.5MG | MINOXIDIL | Marketed |
+| 00514500 | LONITEN 10MG | MINOXIDIL | Marketed |
+| 00708925 | MEN'S ROGAINE | MINOXIDIL | Marketed |
+| 02356597 | HAIR REGROWTH FORMULA | MINOXIDIL | Marketed |
+| 02368684 | MEN'S ROGAINE FOAM 5% | MINOXIDIL | Marketed |
+| 02424703 | WOMEN'S ROGAINE FOAM 5% | MINOXIDIL | Marketed |
+| 02551446 | MEN'S HAIR REGROWTH TREATMENT | MINOXIDIL | Marketed |
+| 02551659 | WOMEN'S HAIR REGROWTH TREATMENT | MINOXIDIL | Marketed |
+| 02553465 | MEN'S GLN-MINOXIDIL | MINOXIDIL | Marketed |
+| 02529238 | JAMP MINOXIDIL SOLUTION | MINOXIDIL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten valid single-ingredient licences are on record in total; none are cancelled. The product names indicate topical hair-regrowth products and the oral Loniten tablets.
 
 ## Safety Considerations
 

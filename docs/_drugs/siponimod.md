@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 852
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Siponimod: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the licence data compiled for this report"
 monitor_inn: "Siponimod"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura", "Prinzmetal angina", "rheumatoid arthritis", "atrophoderma vermiculata"]
@@ -87,10 +87,16 @@ For context, the migraine-related predictions (ranks 2, 4 and 5) are linked only
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02496429 | MAYZENT | Not specified | Not specified |
-| 02496437 | MAYZENT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02496429 | MAYZENT | SIPONIMOD | Marketed |
+| 02496437 | MAYZENT | SIPONIMOD | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 19
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetic Acid: predicted new indication Post-bacterial disorder (evidence level L5). Approved use: Otitis externa"
 monitor_inn: "ACETIC ACID"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -106,13 +106,36 @@ These studies are old, uncontrolled, in vitro, or indirect. None directly tests 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02254085 | ACID CONCENTRATE A1230 | Not listed | Not listed |
-| 02415496 | SELECTBAG ONE (AX 2525 G) | Not listed | Not listed |
-| 02414902 | SELECTBAG ONE (AX 325 G) | Not listed | Not listed |
-| 02415461 | SELECTBAG ONE (AX 250 G) | Not listed | Not listed |
-| 02414821 | SELECTBAG ONE (AX 150 G) | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02158159 | ACID CONCENTRATE D12264 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02217244 | ACID CONCENTRATE D12236 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02217619 | ACID CONCENTRATE D12294 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02254085 | ACID CONCENTRATE A1230 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02327333 | NATURALYTE H-332 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02327406 | NATURALYTE H-226 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02327538 | NATURALYTE H-408 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02329980 | NATURALYTE H-208 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02330172 | NATURALYTE H-200 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02414813 | SELECTBAG ONE (AX 125 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02414821 | SELECTBAG ONE (AX 150 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02414856 | SELECTBAG ONE (AX 225 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02414902 | SELECTBAG ONE (AX 325 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02415461 | SELECTBAG ONE (AX 250 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02415488 | SELECTBAG ONE (AX 450 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02415496 | SELECTBAG ONE (AX 2525 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02415526 | SELECTBAG ONE (AX 350 G) | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE | Marketed |
+| 02533812 | ACID CONCENTRATE A1245 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02533820 | ACID CONCENTRATE A1246 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02533863 | ACID CONCENTRATE A1265 | ACETIC ACID; CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 There are 20 valid single-ingredient licences in total. The product names (acid concentrates and dialysis-related bags) suggest that the Canadian licences are mainly dialysis concentrates rather than ear preparations, so the licensed products may not match the original ear indication or a topical route.
 

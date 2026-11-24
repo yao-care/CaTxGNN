@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: predicted new indication zinc, elevated plasma (evidence level L5). In Canada: 10 DINs (10 marketed)"
 ---
 
@@ -60,15 +60,26 @@ Elevated plasma zinc (hyperzincemia) is a biochemical state, typically caused by
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02148749 | DIFFERIN | Not recorded | Not recorded |
-| 02274000 | DIFFERIN XP | Not recorded | Not recorded |
-| 02231592 | DIFFERIN | Not recorded | Not recorded |
-| 02517205 | SANDOZ ADAPALENE / BENZOYL PEROXIDE FORTE | Not recorded | Not recorded |
-| 02456923 | TARO-ADAPALENE/BENZOYL PEROXIDE | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-Ten valid licences are on record; the five main ones are listed above.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02148749 | DIFFERIN | ADAPALENE | Marketed |
+| 02231592 | DIFFERIN | ADAPALENE | Marketed |
+| 02274000 | DIFFERIN XP | ADAPALENE | Marketed |
+| 02365871 | TACTUPUMP | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02446235 | TACTUPUMP FORTE | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02456923 | TARO-ADAPALENE/BENZOYL PEROXIDE | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02489007 | SANDOZ ADAPALENE / BENZOYL PEROXIDE | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02505053 | TARO-ADAPALENE/BENZOYL PEROXIDE FORTE | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02517205 | SANDOZ ADAPALENE / BENZOYL PEROXIDE FORTE | ADAPALENE; BENZOYL PEROXIDE | Marketed |
+| 02550423 | CABTREO | ADAPALENE; BENZOYL PEROXIDE; CLINDAMYCIN PHOSPHATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten valid licences are on record.
 
 ## Safety Considerations
 

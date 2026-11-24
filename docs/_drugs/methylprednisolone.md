@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METHYLPREDNISOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Methylprednisolone is currently marketed in Canada, and all recorded licences are valid products. The main authorizations are:
+Methylprednisolone is currently marketed in Canada, and all recorded licences are valid products.
 
 <!-- review:begin ca-lic-20261106-methylprednisolone-1 -->
 
@@ -90,13 +90,28 @@ Methylprednisolone is currently marketed in Canada, and all recorded licences ar
 
 <!-- review:end ca-lic-20261106-methylprednisolone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00030759 | DEPO-MEDROL | Not listed | Not listed |
-| 00030678 | SOLU-MEDROL | Not listed | Not listed |
-| 00036129 | MEDROL | Not listed | Not listed |
-| 02367971 | SOLU-MEDROL | Not listed | Not listed |
-| 00260428 | DEPO-MEDROL WITH LIDOCAINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00030678 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+| 00030759 | DEPO-MEDROL | METHYLPREDNISOLONE ACETATE | Marketed |
+| 00030767 | DEPO-MEDROL | METHYLPREDNISOLONE ACETATE | Marketed |
+| 00030988 | MEDROL | METHYLPREDNISOLONE | Marketed |
+| 00036129 | MEDROL | METHYLPREDNISOLONE | Marketed |
+| 00036137 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+| 00260428 | DEPO-MEDROL WITH LIDOCAINE | LIDOCAINE HYDROCHLORIDE; METHYLPREDNISOLONE ACETATE | Marketed |
+| 01934325 | DEPO-MEDROL | METHYLPREDNISOLONE ACETATE | Marketed |
+| 01934333 | DEPO-MEDROL | METHYLPREDNISOLONE ACETATE | Marketed |
+| 01934341 | DEPO-MEDROL | METHYLPREDNISOLONE ACETATE | Marketed |
+| 02367947 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+| 02367955 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+| 02367963 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+| 02367971 | SOLU-MEDROL | METHYLPREDNISOLONE (METHYLPREDNISOLONE SODIUM SUCCINATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

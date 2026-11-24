@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 958
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "UPADACITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -84,11 +84,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02539721 | RINVOQ | Not specified | Not specified |
-| 02520893 | RINVOQ | Not specified | Not specified |
-| 02495155 | RINVOQ | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02495155 | RINVOQ | UPADACITINIB | Marketed |
+| 02520893 | RINVOQ | UPADACITINIB | Marketed |
+| 02539721 | RINVOQ | UPADACITINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

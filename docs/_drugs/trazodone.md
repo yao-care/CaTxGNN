@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 936
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). In Canada: at least 20 DINs"
@@ -95,13 +95,36 @@ Currently no related clinical trials registered.
 
 Trazodone has 20 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02164388 | TRAZODONE-150 D | Not available | Not available |
-| 02442825 | JAMP TRAZODONE | Not available | Not available |
-| 01937235 | PMS TRAZODONE HCL TAB 100MG | Not available | Not available |
-| 02442817 | JAMP TRAZODONE | Not available | Not available |
-| 02537915 | AG-TRAZODONE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01937227 | PMS TRAZODONE HCL TAB 50MG | TRAZODONE HYDROCHLORIDE | Marketed |
+| 01937235 | PMS TRAZODONE HCL TAB 100MG | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02144263 | TEVA-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02144271 | TEVA-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02147637 | APO-TRAZODONE TABLETS 50MG | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02147645 | APO-TRAZODONE TABLETS 100MG | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02147653 | APO-TRAZODONE D TABLETS 150MG | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02164353 | TRAZODONE-50 | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02164361 | TRAZODONE-100 | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02164388 | TRAZODONE-150 D | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02237339 | PMS-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02348772 | TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02348780 | TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02348799 | TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02442809 | JAMP TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02442817 | JAMP TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02442825 | JAMP TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02537907 | AG-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02537915 | AG-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+| 02537923 | AG-TRAZODONE | TRAZODONE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

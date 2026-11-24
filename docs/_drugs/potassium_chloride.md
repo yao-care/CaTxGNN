@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 756
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Potassium Chloride: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency disease"
 monitor_inn: "POTASSIUM CHLORIDE"
 predicted_indications: ["renal tubular acidosis"]
@@ -97,15 +97,38 @@ Of the 18 publications retrieved, the most relevant are listed below. Case repor
 
 ## Canada Market Information
 
-Health Canada lists 20 valid single-ingredient authorisations, all injectable or infusion products. The data compiled for this report do not include dosage forms or approved indication text. The first five are shown below.
+Health Canada lists 20 valid single-ingredient authorisations, all injectable or infusion products. The data compiled for this report do not include dosage forms or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02529793 | Potassium Chloride for Hemodialysis 7.55 | Not specified | Not specified |
-| 02485699 | Potassium Chloride for Injection Concentrate USP | Not specified | Not specified |
-| 00402206 | Potassium Chloride for Injection Concentrate | Not specified | Not specified |
-| 00037869 | Potassium Chloride for Injection Concentrate USP | Not specified | Not specified |
-| 02241676 | Potassium Chloride Injection | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00037869 | POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP | POTASSIUM CHLORIDE | Marketed |
+| 00402206 | POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE | POTASSIUM CHLORIDE | Marketed |
+| 00437999 | (20MMOL/L) POTASSIUM CHLORIDE IN 5% DEXTROSE AND 0.45% SODIUM CHLORID… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00438006 | (40MMOL/L)POTASSIUM CHLORIDE IN 5% DEXTROSE AND 0.45% SODIUM CHLORIDE… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00438014 | (20 MMOL/L) POTASSIUM CHLORIDE IN 3.3% DEXTROSE AND 0.3% SODIUM CHLOR… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00438022 | (40MMOL/L) POTASSIUM CHLORIDE IN 3.3% DEXTROSE AND 0.3% SODIUM CHLORI… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00438030 | (40 MMOL/L) POTASSIUM CHLORIDE IN 5% DEXTROSE INJECTION USP | DEXTROSE; POTASSIUM CHLORIDE | Marketed |
+| 00438049 | (20 MMOL/L) POTASSIUM CHLORIDE IN 5% DEXTROSE INJECTION USP | DEXTROSE; POTASSIUM CHLORIDE | Marketed |
+| 00786209 | (20MMOL/L) POTASSIUM CHLORIDE IN 0.9% SODIUM CHLORIDE INJECTION USP | POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00786217 | (40 MMOL/L) POTASSIUM CHLORIDE IN 0.9% SODIUM CHLORIDE INJECTION USP | POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 00786292 | (20 MMOL/L) POTASSIUM CHLORIDE IN 5% DEXTROSE AND 0.9% SODIUM CHLORID… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 01905740 | K+ 45 | POTASSIUM CHLORIDE | Marketed |
+| 01931598 | 0.15% POTASSIUM CHLORIDE IN 5% DEXTROSE AND 0.20% SODIUM CHLORIDE INJ… | DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02241676 | POTASSIUM CHLORIDE INJECTION | POTASSIUM CHLORIDE | Marketed |
+| 02241677 | POTASSIUM CHLORIDE INJECTION | POTASSIUM CHLORIDE | Marketed |
+| 02241679 | POTASSIUM CHLORIDE INJECTION | POTASSIUM CHLORIDE | Marketed |
+| 02269414 | POTASSIUM CHLORIDE IN SODIUM CHLORIDE INJECTION USP | POTASSIUM CHLORIDE; SODIUM CHLORIDE | Marketed |
+| 02480034 | POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE | POTASSIUM CHLORIDE | Marketed |
+| 02485699 | POTASSIUM CHLORIDE FOR INJECTION CONCENTRATE USP | POTASSIUM CHLORIDE | Marketed |
+| 02529793 | POTASSIUM CHLORIDE FOR HEMODIALYSIS 7.55 | POTASSIUM CHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The other 15 products are potassium chloride premixed with dextrose and/or sodium chloride solutions, plus one product named K+ 45.
 

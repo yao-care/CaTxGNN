@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Obstructive airway disease"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -70,13 +70,19 @@ Currently no related literature available for this predicted indication.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02498685 | ATECTURA BREEZHALER | Valid |
-| 02498707 | ATECTURA BREEZHALER | Valid |
-| 02498693 | ATECTURA BREEZHALER | Valid |
-| 02418282 | ULTIBRO BREEZHALER | Valid |
-| 02501244 | ENERZAIR BREEZHALER | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02418282 | ULTIBRO BREEZHALER | GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE); INDACATEROL (INDACATEROL MALEATE) | Marketed |
+| 02498685 | ATECTURA BREEZHALER | INDACATEROL (INDACATEROL ACETATE); MOMETASONE FUROATE | Marketed |
+| 02498693 | ATECTURA BREEZHALER | INDACATEROL (INDACATEROL ACETATE); MOMETASONE FUROATE | Marketed |
+| 02498707 | ATECTURA BREEZHALER | INDACATEROL (INDACATEROL ACETATE); MOMETASONE FUROATE | Marketed |
+| 02501244 | ENERZAIR BREEZHALER | GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE); INDACATEROL (INDACATEROL ACETATE); MOMETASONE FUROATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five authorisations are currently valid, and none are cancelled. Dosage form, manufacturer and approved indication text were not available in the records compiled for this report.
 

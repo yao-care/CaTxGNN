@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -81,13 +81,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02508095 | TRI-CIRA 28 | Not available | Not available |
-| 02401967 | TRI-CIRA LO 21 | Not available | Not available |
-| 02486318 | TRI-JORDYNA 28 | Not available | Not available |
-| 02508087 | TRI-CIRA 21 | Not available | Not available |
-| 02486296 | TRI-JORDYNA 21 | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02401967 | TRI-CIRA LO 21 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+| 02401975 | TRI-CIRA LO 28 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+| 02486296 | TRI-JORDYNA 21 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+| 02486318 | TRI-JORDYNA 28 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+| 02508087 | TRI-CIRA 21 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+| 02508095 | TRI-CIRA 28 | ETHINYL ESTRADIOL; NORGESTIMATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Showing 5 of 6 valid authorizations. The sixth is TRI-CIRA LO 28 (DIN 02401975).
 

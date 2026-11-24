@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raloxifene: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -78,11 +78,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02358840 | ACT RALOXIFENE | – | – |
-| 02540681 | JAMP RALOXIFENE | – | – |
-| 02279215 | APO-RALOXIFENE | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02279215 | APO-RALOXIFENE | RALOXIFENE HYDROCHLORIDE | Marketed |
+| 02358840 | ACT RALOXIFENE | RALOXIFENE HYDROCHLORIDE | Marketed |
+| 02540681 | JAMP RALOXIFENE | RALOXIFENE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient authorizations. Dosage form and approved-indication text are not available in the compiled data.
 

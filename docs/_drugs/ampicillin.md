@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "AMPICILLIN"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). In Canada: 17 DINs (17 marketed)"
@@ -81,15 +81,33 @@ None of the publications below tests ampicillin in laryngitis. They are listed a
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02530481 | Ampicillin Sodium for Injection BP | Not stated | Not stated |
-| 01933345 | Ampicillin Sodium for Injection, USP | Not stated | Not stated |
-| 02462338 | Ampicillin Sodium for Injection BP | Not stated | Not stated |
-| 00020877 | Teva-Ampicillin | Not stated | Not stated |
-| 02227002 | Ampicillin for Injection, USP | Not stated | Not stated |
+<!-- licenses:begin -->
 
-All 17 licences recorded for ampicillin are valid single-ingredient products; the five above are a selection.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00020877 | TEVA-AMPICILLIN | AMPICILLIN (AMPICILLIN TRIHYDRATE) | Marketed |
+| 00020885 | TEVA-AMPICILLIN | AMPICILLIN (AMPICILLIN TRIHYDRATE) | Marketed |
+| 00872644 | AMPICILLIN SODIUM FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 00872652 | AMPICILLIN SODIUM FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 01933345 | AMPICILLIN SODIUM FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 01933353 | AMPICILLIN SODIUM FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02226995 | AMPICILLIN FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02227002 | AMPICILLIN FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02227010 | AMPICILLIN FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02227029 | AMPICILLIN FOR INJECTION, USP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02462303 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02462311 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02462338 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02462346 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02530481 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02530503 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+| 02530511 | AMPICILLIN SODIUM FOR INJECTION BP | AMPICILLIN (AMPICILLIN SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 17 licences recorded for ampicillin are valid single-ingredient products.
 
 ## Safety Considerations
 

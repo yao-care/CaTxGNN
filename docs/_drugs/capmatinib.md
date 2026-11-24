@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capmatinib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the compiled data (Health Canada indication text is…"
 monitor_inn: "Capmatinib"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome"]
@@ -81,10 +81,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02527405 | TABRECTA | Not specified | Not specified |
-| 02527391 | TABRECTA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02527391 | TABRECTA | CAPMATINIB (CAPMATINIB HYDROCHLORIDE) | Marketed |
+| 02527405 | TABRECTA | CAPMATINIB (CAPMATINIB HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (pro…"
 monitor_inn: "SODIUM SULFATE"
 predicted_indications: ["dyspepsia"]
@@ -86,13 +86,20 @@ The papers below mention dyspepsia only in passing and all use DSS-induced anima
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00777838 | PEGLYTE POWDER | Not specified | Not specified |
-| 02378329 | JAMPLYTE | Not specified | Not specified |
-| 00677442 | COLYTE | Not specified | Not specified |
-| 02552612 | JAMPLYTE + BISACODYL | Not specified | Not specified |
-| 02326302 | BI-PEGLYTE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00677442 | COLYTE | POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+| 00777838 | PEGLYTE POWDER | MACROGOL; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+| 02326302 | BI-PEGLYTE | BISACODYL; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+| 02359499 | MOVIPREP | ASCORBIC ACID; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM ASCORBATE; SODIUM CHLORIDE; SODIUM SULFAT… | Marketed |
+| 02378329 | JAMPLYTE | POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+| 02552612 | JAMPLYTE + BISACODYL | BISACODYL; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence (MOVIPREP, DIN 02359499) is also valid. All six licences are currently valid, and none are cancelled.
 

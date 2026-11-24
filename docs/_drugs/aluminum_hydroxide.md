@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 43
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Aluminum Hydroxide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,10 +74,16 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 00623709 | STOMAAX PLUS |  | Valid |
-| 00815527 | ALMAGEL PLUS SUS |  | Valid |
+| 00623709 | STOMAAX PLUS | ALUMINUM HYDROXIDE; DIMETHICONE; MAGNESIUM HYDROXIDE | Marketed |
+| 00815527 | ALMAGEL PLUS SUS | ALUMINUM HYDROXIDE; DIMETHICONE; MAGNESIUM HYDROXIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not listed in the Canadian licence data"
 monitor_inn: "EXEMESTANE"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
@@ -90,11 +90,17 @@ For the second-ranked prediction, amenorrhea, the following indirect literature 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242705 | AROMASIN | Not listed | Not listed |
-| 02390183 | ACT EXEMESTANE | Not listed | Not listed |
-| 02407841 | MED-EXEMESTANE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242705 | AROMASIN | EXEMESTANE | Marketed |
+| 02390183 | ACT EXEMESTANE | EXEMESTANE | Marketed |
+| 02407841 | MED-EXEMESTANE | EXEMESTANE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

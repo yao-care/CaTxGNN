@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 612
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
 description: "Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -88,12 +88,18 @@ Note: These studies are small, uncontrolled and heterogeneous, and SUNCT/SUNA an
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02536846 | MINT-MEXILETINE | Not specified | Not specified |
-| 02536854 | MINT-MEXILETINE | Not specified | Not specified |
-| 02230359 | TEVA-MEXILETINE | Not specified | Not specified |
-| 02230360 | TEVA-MEXILETINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02230359 | TEVA-MEXILETINE | MEXILETINE HYDROCHLORIDE | Marketed |
+| 02230360 | TEVA-MEXILETINE | MEXILETINE HYDROCHLORIDE | Marketed |
+| 02536846 | MINT-MEXILETINE | MEXILETINE HYDROCHLORIDE | Marketed |
+| 02536854 | MINT-MEXILETINE | MEXILETINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

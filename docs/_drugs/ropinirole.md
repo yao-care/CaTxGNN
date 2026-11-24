@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 823
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -91,15 +91,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02314053 | SPC-ROPINIROLE | Not listed | Not listed |
-| 02314088 | SPC-ROPINIROLE | Not listed | Not listed |
-| 02314061 | SPC-ROPINIROLE | Not listed | Not listed |
-| 02314037 | SPC-ROPINIROLE | Not listed | Not listed |
-| 02316870 | TEVA-ROPINIROLE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Eight single-ingredient licences are currently valid, and none are cancelled. Only the first five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02314037 | SPC-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02314053 | SPC-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02314061 | SPC-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02314088 | SPC-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02316846 | TEVA-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02316854 | TEVA-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02316862 | TEVA-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+| 02316870 | TEVA-ROPINIROLE | ROPINIROLE (ROPINIROLE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient licences are currently valid, and none are cancelled.
 
 ---
 

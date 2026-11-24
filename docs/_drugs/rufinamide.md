@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 828
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -89,13 +89,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02545985 | AURO-RUFINAMIDE | Not specified | Not specified |
-| 02369613 | BANZEL | Not specified | Not specified |
-| 02369648 | BANZEL | Not specified | Not specified |
-| 02369621 | BANZEL | Not specified | Not specified |
-| 02545993 | AURO-RUFINAMIDE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02369613 | BANZEL | RUFINAMIDE | Marketed |
+| 02369621 | BANZEL | RUFINAMIDE | Marketed |
+| 02369648 | BANZEL | RUFINAMIDE | Marketed |
+| 02545985 | AURO-RUFINAMIDE | RUFINAMIDE | Marketed |
+| 02545993 | AURO-RUFINAMIDE | RUFINAMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient products.
 

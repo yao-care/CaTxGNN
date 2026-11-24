@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -69,15 +69,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-At least 20 valid single-ingredient licences were found, and the list may be partial. Approved indication text is not recorded in the local data. Five representative products:
+At least 20 valid single-ingredient licences were found, and the list may be partial. Approved indication text is not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01944738 | BENYLIN EXTRA STRENGTH DRY COUGH | Not recorded | Not recorded |
-| 02511320 | BUCKLEY'S DRY COUGH EXTRA STRENGTH | Not recorded | Not recorded |
-| 02534754 | DRY COUGH RELIEF EXTRA STRENGTH | Not recorded | Not recorded |
-| 01928775 | BALMINIL DM (3MG/ML SUCROSE FREE) | Not recorded | Not recorded |
-| 02549360 | DAYQUIL KIDS HONEY | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00522791 | BRONCHOPHAN FORTE DM SYR | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 01928775 | BALMINIL DM (3MG/ML SUCROSE FREE) | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 01928783 | KOFFEX DM | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 01928791 | KOFFEX DM (SUCROSE FREE) | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 01944738 | BENYLIN EXTRA STRENGTH DRY COUGH | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 01944762 | BENYLIN REGULAR STRENGTH COUGH PLUS CHEST CONGESTION RELIEF | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02215268 | BENYLIN FOR CHILDREN DRY COUGH | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02248568 | ROBITUSSIN SUGAR FREE COUGH CONTROL | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02252554 | ROBITUSSIN DM COUGHGELS LIQUI-GELS TOUX | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02309440 | COLDASIDE COUGH & COLD | CHLORPHENIRAMINE MALEATE; DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02433257 | MUCINEX CONGESTION & COUGH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02485443 | ROBITUSSIN HONEY COUGH & COLD NIGHTTIME | DEXTROMETHORPHAN HYDROBROMIDE; DOXYLAMINE SUCCINATE | Marketed |
+| 02485524 | ROBITUSSIN EXTRA STRENGTH HONEY COUGH & CONGESTION | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02511320 | BUCKLEY'S DRY COUGH EXTRA STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02522950 | JACK & JILL HONEY COUGH & COLD | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02534754 | DRY COUGH RELIEF EXTRA STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02541882 | COUGH & CHEST CONGESTION REGULAR STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02541890 | COUGH & CHEST CONGESTION EXTRA STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02549360 | DAYQUIL KIDS HONEY | DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+| 02554607 | NEOCITRAN ULTRA STRENGTH FLU & COLD | ACETAMINOPHEN; DEXTROMETHORPHAN HYDROBROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

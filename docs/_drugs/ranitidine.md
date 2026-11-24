@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANITIDINE"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -79,13 +79,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02443716 | MAR-RANITIDINE | Not listed | Not listed |
-| 02526379 | MINT-RANITIDINE | Not listed | Not listed |
-| 02293471 | MAXIMUM STRENGTH ACID REDUCER WITHOUT PRESCRIPTION | Not listed | Not listed |
-| 02443708 | MAR-RANITIDINE | Not listed | Not listed |
-| 02526387 | MINT-RANITIDINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02293471 | MAXIMUM STRENGTH ACID REDUCER WITHOUT PRESCRIPTION | RANITIDINE (RANITIDINE HYDROCHLORIDE) | Marketed |
+| 02443708 | MAR-RANITIDINE | RANITIDINE (RANITIDINE HYDROCHLORIDE) | Marketed |
+| 02443716 | MAR-RANITIDINE | RANITIDINE (RANITIDINE HYDROCHLORIDE) | Marketed |
+| 02526379 | MINT-RANITIDINE | RANITIDINE (RANITIDINE HYDROCHLORIDE) | Marketed |
+| 02526387 | MINT-RANITIDINE | RANITIDINE (RANITIDINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

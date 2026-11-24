@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
 description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In Canada: 10 DINs (9 marketed)"
@@ -71,7 +71,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available for these products. The five main ones are:
+Dosage form and approved indication text are not available for these products.
 
 <!-- review:begin ca-lic-20261105-mannitol-1 -->
 
@@ -79,13 +79,24 @@ Dosage form and approved indication text are not available for these products. T
 
 <!-- review:end ca-lic-20261105-mannitol-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243176 | Mannitol Injection, USP | Not available | Not available |
-| 00038016 | Mannitol Injection USP | Not available | Not available |
-| 02489562 | Aridol | Not available | Not available |
-| 00060410 | Osmitrol Injection 10% | Not available | Not available |
-| 00060437 | Osmitrol Injection 20% | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00038016 | MANNITOL INJECTION USP | MANNITOL | Marketed |
+| 00038024 | MANNITOL INJECTION USP | MANNITOL | Marketed |
+| 00060410 | OSMITROL INJECTION 10% | MANNITOL | Marketed |
+| 00060437 | OSMITROL INJECTION 20% | MANNITOL | Marketed |
+| 00498807 | SORBITOL MANNITOL IRRIGATION | MANNITOL; SORBITOL | Marketed |
+| 00799963 | CYSTOSOL W 3% HEXITOLS | MANNITOL; SORBITOL | Marketed |
+| 02243176 | MANNITOL INJECTION, USP | MANNITOL | Marketed |
+| 02444097 | ADDITIVE SOLUTION SODIUM ADENINE GLUCOSE MANNITOL (SAGM) | ADENINE; DEXTROSE; MANNITOL; SODIUM CHLORIDE | Marketed |
+| 02489562 | ARIDOL | MANNITOL | Marketed |
+| 02386925 | SAG-M | ADENINE; DEXTROSE; MANNITOL; SODIUM CHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining five include another Mannitol Injection USP (00038024), Sorbitol Mannitol Irrigation, Cystosol W 3% Hexitols, SAG-M, and an additive solution of sodium, adenine, glucose and mannitol (SAGM).
 

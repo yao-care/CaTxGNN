@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 682
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Olodaterol: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "OLODATEROL"
 predicted_indications: []
@@ -48,9 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02441888 | INSPIOLTO RESPIMAT | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02441888 | INSPIOLTO RESPIMAT | OLODATEROL (OLODATEROL HYDROCHLORIDE); TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 This is the only authorisation on record (status: valid).
 

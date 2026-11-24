@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -101,15 +101,25 @@ Two points are worth noting from the wider set of retrieved studies:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02185431 | Metoclopramide Hydrochloride Injection | Injection | Not specified in the data |
-| 02548755 | PRZ-Metoclopramide | Not specified | Not specified in the data |
-| 02230431 | PMS-Metoclopramide Tablets | Tablet | Not specified in the data |
-| 02510790 | PMS-Metoclopramide Hydrochloride Injection | Injection | Not specified in the data |
-| 02230433 | PMS-Metoclopramide Oral Solution | Oral solution | Not specified in the data |
+<!-- licenses:begin -->
 
-Nine valid single-ingredient DINs are registered in total; the five main ones are shown above. The dosage form column is inferred from product names, as the compiled data lists no dosage form.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02185431 | METOCLOPRAMIDE HYDROCHLORIDE INJECTION | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02230431 | PMS-METOCLOPRAMIDE TABLETS | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02230433 | PMS-METOCLOPRAMIDE ORAL SOLUTION | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02243563 | METOCLOPRAMIDE INJECTION USP | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02510790 | PMS-METOCLOPRAMIDE HYDROCHLORIDE INJECTION | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02517795 | MAR-METOCLOPRAMIDE | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02531747 | METOCLOPRAMIDE HYDROCHLORIDE INJECTION | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02548747 | PRZ-METOCLOPRAMIDE | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+| 02548755 | PRZ-METOCLOPRAMIDE | METOCLOPRAMIDE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine valid single-ingredient DINs are registered in total. The dosage form column is inferred from product names, as the compiled data lists no dosage form.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). In Canada: 13 DINs (13 marketed)"
@@ -91,13 +91,27 @@ For reference, the seven trials linked to the rank-10 prediction (platelet-type 
 
 Thirteen valid single-ingredient authorizations are listed. Dosage form and approved indication text were not available.
 
-| DIN | Product Name |
-|---------|------|
-| 02441489 | GRASTOFIL |
-| 01968017 | NEUPOGEN |
-| 02521008 | NYPOZI |
-| 02485591 | NIVESTYM |
-| 02485656 | NIVESTYM |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01968017 | NEUPOGEN | FILGRASTIM | Marketed |
+| 02420104 | NEUPOGEN | FILGRASTIM | Marketed |
+| 02420112 | NEUPOGEN | FILGRASTIM | Marketed |
+| 02441489 | GRASTOFIL | FILGRASTIM | Marketed |
+| 02454548 | GRASTOFIL | FILGRASTIM | Marketed |
+| 02485575 | NIVESTYM | FILGRASTIM | Marketed |
+| 02485583 | NIVESTYM | FILGRASTIM | Marketed |
+| 02485591 | NIVESTYM | FILGRASTIM | Marketed |
+| 02485656 | NIVESTYM | FILGRASTIM | Marketed |
+| 02520990 | NYPOZI | FILGRASTIM | Marketed |
+| 02521008 | NYPOZI | FILGRASTIM | Marketed |
+| 02556537 | FILRA | FILGRASTIM | Marketed |
+| 02556545 | FILRA | FILGRASTIM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other authorizations cover the same brands (NEUPOGEN, NYPOZI, NIVESTYM, GRASTOFIL) as well as FILRA.
 

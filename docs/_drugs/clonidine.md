@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonidine: predicted new indication Top-ranked by TxGNN: faciodigitogenital syndrome . Best-supported: To… (evidence level L5). Approved use: Hypertension, open-angle glaucoma, ADHD"
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
@@ -112,15 +112,30 @@ Tourette syndrome (selected from 19 retrieved publications):
 
 ## Canada Market Information
 
-Health Canada lists 14 valid single-ingredient authorizations for clonidine and no cancelled ones. Dosage form, manufacturer and approved indication text are not available for these records. Five are shown:
+Health Canada lists 14 valid single-ingredient authorizations for clonidine and no cancelled ones. Dosage form, manufacturer and approved indication text are not available for these records.
 
-| DIN | Product Name |
-|---------|------|
-| 02046148 | TEVA-CLONIDINE |
-| 02538490 | CLONIDINE |
-| 02516217 | SANDOZ CLONIDINE |
-| 02304163 | TEVA-CLONIDINE |
-| 02524198 | MAR-CLONIDINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02046121 | TEVA-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02046148 | TEVA-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02304163 | TEVA-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02462192 | MINT-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02462206 | MINT-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02515784 | SANDOZ CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02515792 | SANDOZ CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02516217 | SANDOZ CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02524198 | MAR-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02528207 | JAMP CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02534738 | MINT-CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02538490 | CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02538504 | CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+| 02540061 | CLONIDINE | CLONIDINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

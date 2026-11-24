@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 213
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -102,13 +102,19 @@ OCD has long been grouped with anxiety disorders, and the literature describes i
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02497514 | TARO-CLOMIPRAMINE | Not listed | Not listed |
-| 02497506 | TARO-CLOMIPRAMINE | Not listed | Not listed |
-| 00324019 | ANAFRANIL | Not listed | Not listed |
-| 00402591 | ANAFRANIL | Not listed | Not listed |
-| 00330566 | ANAFRANIL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00324019 | ANAFRANIL | CLOMIPRAMINE HYDROCHLORIDE | Marketed |
+| 00330566 | ANAFRANIL | CLOMIPRAMINE HYDROCHLORIDE | Marketed |
+| 00402591 | ANAFRANIL | CLOMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02497506 | TARO-CLOMIPRAMINE | CLOMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02497514 | TARO-CLOMIPRAMINE | CLOMIPRAMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine: predicted new indication Lymphosarcoma (evidence level L4). In Canada: 2 DINs (2 marketed)"
@@ -94,10 +94,16 @@ The caveat is that almost all of this work involves lomustine as one component o
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00360422 | CEENU | Not specified | Not specified |
-| 00360430 | CEENU | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00360422 | CEENU | LOMUSTINE | Marketed |
+| 00360430 | CEENU | LOMUSTINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

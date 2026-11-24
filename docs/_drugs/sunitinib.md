@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 875
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (nonpapillary…"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -82,13 +82,32 @@ The clinical signal is modest. A published Phase 2 study in relapsed or refracto
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02280809 | SUTENT | – | – |
-| 02280795 | SUTENT | – | – |
-| 02280817 | SUTENT | – | – |
-| 02532867 | SANDOZ SUNITINIB | – | – |
-| 02524066 | TARO-SUNITINIB | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02280795 | SUTENT | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02280809 | SUTENT | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02280817 | SUTENT | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02524058 | TARO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02524066 | TARO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02524082 | TARO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02526204 | TEVA-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02526212 | TEVA-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02526220 | TEVA-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02532190 | AURO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02532204 | AURO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02532220 | AURO-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02532840 | SANDOZ SUNITINIB | SUNITINIB | Marketed |
+| 02532867 | SANDOZ SUNITINIB | SUNITINIB | Marketed |
+| 02532883 | SANDOZ SUNITINIB | SUNITINIB | Marketed |
+| 02539284 | NAT-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02552892 | NAT-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+| 02552906 | NAT-SUNITINIB | SUNITINIB (SUNITINIB MALATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eighteen DINs are valid in total. All are single-ingredient products, including SUTENT and generics from Auro, Sandoz, Taro, NAT and Teva. Dosage form and approved indication text were not available in the data compiled for this report.
 

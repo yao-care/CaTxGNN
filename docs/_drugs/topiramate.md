@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 923
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -96,13 +96,36 @@ For context, the most relevant literature found for the second- and third-ranked
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230894 | TOPAMAX 100MG | Not listed | Not listed |
-| 02230896 | TOPAMAX 200MG | Not listed | Not listed |
-| 02279614 | APO-TOPIRAMATE | Not listed | Not listed |
-| 02248862 | TEVA-TOPIRAMATE | Not listed | Not listed |
-| 02262991 | PMS-TOPIRAMATE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02248860 | TEVA-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02248861 | TEVA-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02248862 | TEVA-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02262991 | PMS-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02263351 | MYLAN-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02279614 | APO-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02287765 | GLN-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02287773 | GLN-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02287781 | GLN-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02313669 | PRO-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02315661 | MINT-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02345250 | JAMP TOPIRAMATE TABLETS | TOPIRAMATE | Marketed |
+| 02345269 | JAMP TOPIRAMATE TABLETS | TOPIRAMATE | Marketed |
+| 02345277 | JAMP TOPIRAMATE TABLETS | TOPIRAMATE | Marketed |
+| 02345846 | AURO-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02356872 | TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02538466 | NRA-TOPIRAMATE | TOPIRAMATE | Marketed |
+| 02544377 | JAMP TOPIRAMATE TABLETS | TOPIRAMATE | Marketed |
+| 02230894 | TOPAMAX 100MG | TOPIRAMATE | Cancelled post market |
+| 02230896 | TOPAMAX 200MG | TOPIRAMATE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other brands include JAMP, GLN, AURO, PRO, MINT, MYLAN and NRA topiramate products.
 

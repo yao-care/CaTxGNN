@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MOXIFLOXACIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). In Canada: 14 DINs (13 marketed, 1 dormant)"
@@ -83,15 +83,30 @@ No publications are available for the top-ranked prediction.
 
 ## Canada Market Information
 
-Moxifloxacin is marketed in Canada under 14 valid single-ingredient DINs. Dosage form and approved indication text are not available in the data compiled for this report. The first 5 are listed below.
+Moxifloxacin is marketed in Canada under 14 valid single-ingredient DINs. Dosage form and approved indication text are not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02472791 | M-MOXIFLOXACIN |
-| 02520710 | MOXIFLOXACIN |
-| 02462974 | MOXIFLOXACIN |
-| 02432218 | PMS-MOXIFLOXACIN |
-| 02375702 | TEVA-MOXIFLOXACIN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02252260 | VIGAMOX | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02375702 | TEVA-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02383381 | SANDOZ MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02406373 | APO-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02411520 | SANDOZ MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02432218 | PMS-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02432242 | AURO-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02433087 | MOXIFLOXACIN INJECTION | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02443929 | JAMP-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02462974 | MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02472791 | M-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02520710 | MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02529076 | MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02404923 | APO-MOXIFLOXACIN | MOXIFLOXACIN (MOXIFLOXACIN HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other authorisations include VIGAMOX, SANDOZ MOXIFLOXACIN, APO-MOXIFLOXACIN, MOXIFLOXACIN INJECTION, JAMP-MOXIFLOXACIN and AURO-MOXIFLOXACIN.
 

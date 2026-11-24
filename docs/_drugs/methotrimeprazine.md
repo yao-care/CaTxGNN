@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "METHOTRIMEPRAZINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "headache disorder", "schizophreniform disorder", "anaphylaxis"]
 description: "Methotrimeprazine: predicted new indication Manic bipolar affective disorder (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -80,13 +80,19 @@ None of these reports directly studies manic bipolar affective disorder; they ar
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238406 | METHOPRAZINE | Not listed | Not listed |
-| 02238403 | METHOPRAZINE | Not listed | Not listed |
-| 01927698 | NOZINAN | Not listed | Not listed |
-| 02238405 | METHOPRAZINE | Not listed | Not listed |
-| 02238404 | METHOPRAZINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01927698 | NOZINAN | METHOTRIMEPRAZINE (METHOTRIMEPRAZINE HYDROCHLORIDE) | Marketed |
+| 02238403 | METHOPRAZINE | METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE) | Marketed |
+| 02238404 | METHOPRAZINE | METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE) | Marketed |
+| 02238405 | METHOPRAZINE | METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE) | Marketed |
+| 02238406 | METHOPRAZINE | METHOTRIMEPRAZINE (METHOTRIMEPRAZINE MALEATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are single-ingredient products and currently valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 766
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISOLONE ACETATE"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "serous conjunctivitis except viral", "papillary conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "vernal conjunctivitis", "postinfectious vasculitis"]
 description: "Prednisolone Acetate: predicted new indication Conjunctival folliculosis (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -103,11 +103,17 @@ There is no literature for the top-ranked prediction. The publications below rel
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01916203 | SANDOZ PREDNISOLONE | Not available | Not available |
-| 00301175 | PRED FORTE | Not available | Not available |
-| 00700401 | TEVA-PREDNISOLONE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00301175 | PRED FORTE | PREDNISOLONE ACETATE | Marketed |
+| 00700401 | TEVA-PREDNISOLONE | PREDNISOLONE ACETATE | Marketed |
+| 01916203 | SANDOZ PREDNISOLONE | PREDNISOLONE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products.
 

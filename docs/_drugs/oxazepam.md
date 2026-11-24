@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 692
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "OXAZEPAM"
 predicted_indications: ["insomnia (disease)"]
@@ -82,15 +82,25 @@ Two further retrieved papers (agomelatine case report, paroxetine in panic disor
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00402737 | APO-OXAZEPAM | Not specified | Not specified |
-| 00497754 | PRO-OXAZEPAM | Not specified | Not specified |
-| 00497762 | PRO-OXAZEPAM | Not specified | Not specified |
-| 00402745 | APO-OXAZEPAM | Not specified | Not specified |
-| 00402680 | APO-OXAZEPAM | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Nine valid single-ingredient licences are held in total (APO-, PRO- and RIVA-OXAZEPAM); five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00402680 | APO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00402737 | APO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00402745 | APO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00497754 | PRO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00497762 | PRO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00497770 | PRO-OXAZEPAM | OXAZEPAM | Marketed |
+| 00568392 | RIVA-OXAZEPAM | OXAZEPAM | Marketed |
+| 00568406 | RIVA-OXAZEPAM | OXAZEPAM | Marketed |
+| 00568414 | RIVA-OXAZEPAM | OXAZEPAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine valid single-ingredient licences are held in total (APO-, PRO- and RIVA-OXAZEPAM).
 
 ## Safety Considerations
 

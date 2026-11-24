@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 847
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Health Canada licence data compiled for this report…"
 monitor_inn: "SEVOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -82,11 +82,17 @@ For context, the other predicted indications in the data also have little suppor
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02265974 | SEVOFLURANE | Not specified | Not specified |
-| 02307766 | SEVOFLURANE | Not specified | Not specified |
-| 02172763 | SEVORANE AF | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02172763 | SEVORANE AF | SEVOFLURANE | Marketed |
+| 02265974 | SEVOFLURANE | SEVOFLURANE | Marketed |
+| 02307766 | SEVOFLURANE | SEVOFLURANE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

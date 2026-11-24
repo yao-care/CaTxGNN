@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 363
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -94,10 +94,16 @@ None of the publications below tests ethanol as a migraine treatment. Many retri
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02246888 | AVAGARD CHG | Not specified | Not specified |
-| 02230769 | DALMACOL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02246888 | AVAGARD CHG | ALCOHOL ANHYDROUS; CHLORHEXIDINE GLUCONATE | Marketed |
+| 02230769 | DALMACOL | ALCOHOL ANHYDROUS; DOXYLAMINE SUCCINATE; ETAFEDRINE HYDROCHLORIDE; HYDROCODONE BITARTRATE; SODIUM CITRATE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

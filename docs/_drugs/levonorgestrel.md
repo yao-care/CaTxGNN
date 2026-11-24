@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 546
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In Canada: at least 20 DINs"
@@ -78,15 +78,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Health Canada records show 20 valid single-ingredient licences. The list below shows five of them and may be partial.
+Health Canada records show 20 valid single-ingredient licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02243005 | MIRENA |
-| 02459523 | KYLEENA |
-| 02293854 | PLAN B |
-| 02346176 | SEASONIQUE |
-| 02042339 | MIN-OVRAL 28 |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00707600 | TRIQUILAR 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02042320 | MIN-OVRAL 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02042339 | MIN-OVRAL 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02236975 | ALESSE 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02243005 | MIRENA | LEVONORGESTREL | Marketed |
+| 02293854 | PLAN B | LEVONORGESTREL | Marketed |
+| 02295946 | PORTIA 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02295954 | PORTIA 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02298538 | AVIANE 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02298546 | AVIANE 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02346176 | SEASONIQUE | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02387085 | OVIMA 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02387093 | OVIMA 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02387883 | ALYSENA 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02425009 | CONTINGENCY ONE | LEVONORGESTREL | Marketed |
+| 02433532 | BACKUP PLAN ONESTEP | LEVONORGESTREL | Marketed |
+| 02459523 | KYLEENA | LEVONORGESTREL | Marketed |
+| 02532174 | AUDRINA 21 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02532182 | AUDRINA 28 | ETHINYL ESTRADIOL; LEVONORGESTREL | Marketed |
+| 02548461 | MYSTEP | LEVONORGESTREL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

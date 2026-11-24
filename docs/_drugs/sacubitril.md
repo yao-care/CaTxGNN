@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "SACUBITRIL"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
@@ -104,13 +104,23 @@ For the top-ranked prediction (brain small vessel disease 1), the only publicati
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02446936 | ENTRESTO | Not specified | Not specified |
-| 02446928 | ENTRESTO | Not specified | Not specified |
-| 02446944 | ENTRESTO | Not specified | Not specified |
-| 02564432 | PMS-SACUBITRIL-VALSARTAN | Not specified | Not specified |
-| 02549018 | SANDOZ SACUBITRIL-VALSARTAN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02446928 | ENTRESTO | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02446936 | ENTRESTO | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02446944 | ENTRESTO | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02549018 | SANDOZ SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02549026 | SANDOZ SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02549034 | SANDOZ SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM HYDRATE COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM HYDRATE COMP… | Marketed |
+| 02564432 | PMS-SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM COMPLEX) | Marketed |
+| 02564440 | PMS-SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM COMPLEX) | Marketed |
+| 02564459 | PMS-SACUBITRIL-VALSARTAN | SACUBITRIL (SACUBITRIL VALSARTAN SODIUM COMPLEX); VALSARTAN (SACUBITRIL VALSARTAN SODIUM COMPLEX) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Nine valid licenses are listed in total (ENTRESTO, PMS-SACUBITRIL-VALSARTAN, and SANDOZ SACUBITRIL-VALSARTAN products). Dosage form and indication details are not available in the compiled data.
 

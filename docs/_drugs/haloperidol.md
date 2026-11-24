@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). In Canada: 9 DINs (9 marketed)"
@@ -80,15 +80,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Nine valid single-ingredient authorizations exist in Canada. Dosage form and approved indication text were not available for any of them. The first five are listed below.
+Nine valid single-ingredient authorizations exist in Canada. Dosage form and approved indication text were not available for any of them.
 
-| DIN | Product Name |
-|---------|------|
-| 00363669 | TEVA-HALOPERIDOL |
-| 00713449 | TEVA-HALOPERIDOL |
-| 02366010 | HALOPERIDOL INJECTION |
-| 00363677 | TEVA-HALOPERIDOL |
-| 00363685 | TEVA-HALOPERIDOL |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00363650 | TEVA-HALOPERIDOL | HALOPERIDOL | Marketed |
+| 00363669 | TEVA-HALOPERIDOL | HALOPERIDOL | Marketed |
+| 00363677 | TEVA-HALOPERIDOL | HALOPERIDOL | Marketed |
+| 00363685 | TEVA-HALOPERIDOL | HALOPERIDOL | Marketed |
+| 00713449 | TEVA-HALOPERIDOL | HALOPERIDOL | Marketed |
+| 00808652 | HALOPERIDOL INJ 5MG/ML USP | HALOPERIDOL | Marketed |
+| 02130300 | HALOPERIDOL LA | HALOPERIDOL (HALOPERIDOL DECANOATE) | Marketed |
+| 02366010 | HALOPERIDOL INJECTION | HALOPERIDOL | Marketed |
+| 02406411 | HALOPERIDOL INJECTION, USP | HALOPERIDOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining four include other haloperidol injection products and a long-acting formulation (HALOPERIDOL LA).
 

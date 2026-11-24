@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: Chronic myelogenous leukemia, BCR-ABL1 positive"
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -72,15 +72,22 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02368250 | TASIGNA | Not specified | Not specified |
-| 02315874 | TASIGNA | Not specified | Not specified |
-| 02550903 | APO-NILOTINIB | Not specified | Not specified |
-| 02550881 | APO-NILOTINIB | Not specified | Not specified |
-| 02556634 | REDDY-NILOTINIB | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Six valid single-ingredient licences are listed in total; the table shows the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02315874 | TASIGNA | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02368250 | TASIGNA | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02550881 | APO-NILOTINIB | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02550903 | APO-NILOTINIB | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02556634 | REDDY-NILOTINIB | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02556642 | REDDY-NILOTINIB | NILOTINIB (NILOTINIB HYDROCHLORIDE MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Six valid single-ingredient licences are listed in total.
 
 ## Cytotoxicity
 

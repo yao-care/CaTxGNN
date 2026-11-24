@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 666
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-24
 description: "Norethindrone Enanthate: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,26 +72,32 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02458683 | MAEVE |  | Valid |
-| 02441306 | JENCYCLA |  | Valid |
-| 00023760 | NORLUTATE |  | Valid |
-| 02410303 | MOVISSE |  | Valid |
-| 02187108 | SYNPHASIC 21 TABLETS |  | Valid |
-| 02189054 | BREVICON 1/35 TABLETS (21-DAY PACK) |  | Valid |
-| 02309009 | ACTIVELLE LD |  | Valid |
-| 02189062 | BREVICON 1/35 TABLETS (28-DAY PACK) |  | Valid |
-| 02199297 | SELECT 1/35 (28-DAY) |  | CANCELLED POST MARKET |
-| 02187094 | BREVICON 0.5/35 TABLETS (28-DAY PACK) |  | Valid |
-| 02187116 | SYNPHASIC 28 TABLETS |  | Valid |
-| 02187086 | BREVICON 0.5/35 TABLETS (21-DAY PACK) |  | Valid |
-| 02241837 | ESTALIS 250/50 MCG |  | Valid |
-| 02417456 | LOLO |  | Valid |
-| 02249405 | ACTIVELLE |  | Valid |
-| 02241835 | ESTALIS 140/50 MCG |  | Valid |
-| 02197502 | SELECT 1/35 (21-DAY) |  | Valid |
-| 02541742 | MYFEMBREE |  | Valid |
+| 00023760 | NORLUTATE | NORETHINDRONE ACETATE | Marketed |
+| 02187086 | BREVICON 0.5/35 TABLETS (21-DAY PACK) | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02187094 | BREVICON 0.5/35 TABLETS (28-DAY PACK) | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02187108 | SYNPHASIC 21 TABLETS | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02187116 | SYNPHASIC 28 TABLETS | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02189054 | BREVICON 1/35 TABLETS (21-DAY PACK) | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02189062 | BREVICON 1/35 TABLETS (28-DAY PACK) | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02197502 | SELECT 1/35 (21-DAY) | ETHINYL ESTRADIOL; NORETHINDRONE | Marketed |
+| 02241835 | ESTALIS 140/50 MCG | ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
+| 02241837 | ESTALIS 250/50 MCG | ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
+| 02249405 | ACTIVELLE | ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
+| 02309009 | ACTIVELLE LD | ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
+| 02410303 | MOVISSE | NORETHINDRONE | Marketed |
+| 02417456 | LOLO | ETHINYL ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
+| 02441306 | JENCYCLA | NORETHINDRONE | Marketed |
+| 02458683 | MAEVE | NORETHINDRONE | Marketed |
+| 02541742 | MYFEMBREE | ESTRADIOL; NORETHINDRONE ACETATE; RELUGOLIX | Marketed |
+| 02199297 | SELECT 1/35 (28-DAY) | ETHINYL ESTRADIOL; NORETHINDRONE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

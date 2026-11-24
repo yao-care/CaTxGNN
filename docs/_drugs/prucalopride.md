@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -71,15 +71,26 @@ Currently no related literature available for hypoalphalipoproteinemia.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02491591 | APO-PRUCALOPRIDE | Not specified | Not specified |
-| 02493497 | JAMP PRUCALOPRIDE | Not specified | Not specified |
-| 02550377 | NRA-PRUCALOPRIDE | Not specified | Not specified |
-| 02377012 | RESOTRAN | Not specified | Not specified |
-| 02377020 | RESOTRAN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Five of the 10 valid single-ingredient licences are shown. All 10 are valid, and none are cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02377012 | RESOTRAN | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02377020 | RESOTRAN | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02491591 | APO-PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02491605 | APO-PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02493489 | JAMP PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02493497 | JAMP PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02550377 | NRA-PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02550385 | NRA-PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02559005 | PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+| 02559013 | PRUCALOPRIDE | PRUCALOPRIDE (PRUCALOPRIDE SUCCINATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 10 are valid, and none are cancelled.
 
 ## Safety Considerations
 

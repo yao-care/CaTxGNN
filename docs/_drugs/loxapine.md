@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -82,12 +82,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02169991 | LOXAPAC IM | Not listed | Not listed |
-| 02230838 | XYLAC | Not listed | Not listed |
-| 02230839 | XYLAC | Not listed | Not listed |
-| 02242868 | XYLAC | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02169991 | LOXAPAC IM | LOXAPINE (LOXAPINE HYDROCHLORIDE) | Marketed |
+| 02230838 | XYLAC | LOXAPINE (LOXAPINE SUCCINATE) | Marketed |
+| 02230839 | XYLAC | LOXAPINE (LOXAPINE SUCCINATE) | Marketed |
+| 02242868 | XYLAC | LOXAPINE (LOXAPINE SUCCINATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

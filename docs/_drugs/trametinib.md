@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 928
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAMETINIB"
 predicted_indications: ["choroideremia"]
 description: "Trametinib: predicted new indication Choroideremia (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -102,11 +102,17 @@ All of this is case-level or general review evidence. No RCTs were found.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02409658 | MEKINIST | Not specified | Not specified |
-| 02409623 | MEKINIST | Not specified | Not specified |
-| 02539993 | MEKINIST | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02409623 | MEKINIST | TRAMETINIB | Marketed |
+| 02409658 | MEKINIST | TRAMETINIB | Marketed |
+| 02539993 | MEKINIST | TRAMETINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products.
 

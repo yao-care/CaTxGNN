@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "CEFPROZIL"
 predicted_indications: ["urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "xanthogranulomatous pyelonephritis", "uterine inflammatory disease", "pneumonia", "laryngitis", "urogenital tuberculosis", "abdominal tuberculosis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cefprozil: predicted new indication urinary tract infection (disease) (evidence level L2). In Canada: 7 DINs (7 marketed)"
 ---
 
@@ -82,15 +82,23 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02293528 | SPC-CEFPROZIL | Not recorded | Not recorded |
-| 02329204 | SPC-CEFPROZIL | Not recorded | Not recorded |
-| 02347261 | AURO-CEFPROZIL | Not recorded | Not recorded |
-| 02347288 | AURO-CEFPROZIL | Not recorded | Not recorded |
-| 02293579 | SPC-CEFPROZIL | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-All 7 single-ingredient licences are valid; the table lists the first 5.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02293528 | SPC-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+| 02293536 | SPC-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+| 02293579 | SPC-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+| 02329204 | SPC-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+| 02347253 | AURO-CEFPROZIL | CEFPROZIL | Marketed |
+| 02347261 | AURO-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+| 02347288 | AURO-CEFPROZIL | CEFPROZIL (CEFPROZIL MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 7 single-ingredient licences are valid.
 
 ## Safety Considerations
 

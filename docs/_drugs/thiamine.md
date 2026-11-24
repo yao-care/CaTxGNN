@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiamine: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). In Canada: 9 DINs (7 marketed, 2 dormant)"
 ---
 
@@ -80,13 +80,23 @@ All nine licences below are valid records. No approved indication text or dosage
 
 <!-- review:end ca-lic-20261106-thiamine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02193221 | THIAMIJECT INJECTION - LIQ IM IV 100MG/ML | Not recorded | Not recorded |
-| 00816078 | VITAMIN B1 | Not recorded | Not recorded |
-| 00586315 | MULTI 1000 | Not recorded | Not recorded |
-| 02100606 | MULTI 12 | Not recorded | Not recorded |
-| 02242529 | MULTI-12/K1 PEDIATRIC | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00586315 | MULTI 1000 | ASCORBIC ACID; D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE); NICOTINAMIDE; VITAMIN A; VITAMIN B1 (THIAMINE HYD… | Marketed |
+| 00816078 | VITAMIN B1 | THIAMINE HYDROCHLORIDE | Marketed |
+| 02100606 | MULTI 12 | ASCORBIC ACID; BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITAMIN A; VITAMIN B… | Marketed |
+| 02193221 | THIAMIJECT INJECTION - LIQ IM IV 100MG/ML | THIAMINE HYDROCHLORIDE | Marketed |
+| 02242529 | MULTI-12/K1 PEDIATRIC | ASCORBIC ACID (ASCORBIC ACID); BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITA… | Marketed |
+| 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining four licences (PREGVIT FOLIC 5, PREGNANCY MULTIVITAMIN, PREGVIT, PREGNANCY MULTIVITAMIN FOLIC 5) are also valid and have no recorded indication text.
 

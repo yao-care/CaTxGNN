@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -80,15 +80,38 @@ None of the publications below studies cetirizine in nasal cavity disease as a w
 
 ## Canada Market Information
 
-Cetirizine has valid single-ingredient licences in Canada; the list below may be partial. Dosage form and indication text are not recorded in the local data.
+Cetirizine has valid single-ingredient licences in Canada. Dosage form and indication text are not recorded in the local data.
 
-| DIN | Product Name |
-|---------|------|
-| 02427141 | MAR-CETIRIZINE |
-| 02240266 | ALLERGY RELIEF |
-| 02496488 | NAT-CETIRIZINE |
-| 02315955 | EXTRA STRENGTH ALLERGY RELIEF |
-| 02517566 | CETIRIZINE EXTRA STRENGTH |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01900978 | REACTINE 20 MG TABLET | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02223546 | REACTINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02223554 | REACTINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02231603 | APO-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02238337 | REACTINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02240266 | ALLERGY RELIEF | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02315955 | EXTRA STRENGTH ALLERGY RELIEF | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02315963 | PMS-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02358352 | REACTINE FAST MELT JUNIOR | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02368064 | REACTINE ALLERGY LIQUID GELS | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02427141 | MAR-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02450526 | PRO-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02486954 | REACTINE ALLERGY | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02496488 | NAT-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02510030 | BIO-CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02515695 | CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02528738 | ALLERGY RELIEF LIQUID GELS | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02534126 | CETIRIZINE | CETIRIZINE HYDROCHLORIDE | Marketed |
+| 02517353 | JAMP CETIRIZINE TABLETS | CETIRIZINE HYDROCHLORIDE | Dormant |
+| 02517566 | CETIRIZINE EXTRA STRENGTH | CETIRIZINE HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

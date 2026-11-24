@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "PERPHENAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "atypical glycine encephalopathy"]
@@ -83,12 +83,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 00335134 | PERPHENAZINE | Valid (single-ingredient) |
-| 00335096 | PERPHENAZINE | Valid (single-ingredient) |
-| 00335126 | PERPHENAZINE | Valid (single-ingredient) |
-| 00335118 | PERPHENAZINE | Valid (single-ingredient) |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00335096 | PERPHENAZINE | PERPHENAZINE | Marketed |
+| 00335118 | PERPHENAZINE | PERPHENAZINE | Marketed |
+| 00335126 | PERPHENAZINE | PERPHENAZINE | Marketed |
+| 00335134 | PERPHENAZINE | PERPHENAZINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

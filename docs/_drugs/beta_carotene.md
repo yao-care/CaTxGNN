@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 109
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Beta Carotene: predicted new indication Acne (disease) (evidence level L4). Approved use: Not available"
 monitor_inn: "Beta carotene"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "cortical cataract", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "tetanic cataract", "immature cataract"]
@@ -90,12 +90,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02535718 | PREGNANCY MULTIVITAMIN | Not specified | Not specified |
-| 02552620 | PREGVIT | Not specified | Not specified |
-| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | Not specified | Not specified |
-| 02552639 | PREGVIT FOLIC 5 | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

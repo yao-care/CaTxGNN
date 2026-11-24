@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Clavulanic Acid: predicted new indication Gonococcal urethritis (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia…"
 monitor_inn: "CLAVULANIC ACID"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
@@ -86,13 +86,36 @@ For the other predictions, evidence is indirect or absent. Uterine inflammatory 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238831 | CLAVULIN 200 | Not available | Not available |
-| 02238830 | CLAVULIN 400 | Not available | Not available |
-| 01916874 | CLAVULIN 250 F ORAL SUS | Not available | Not available |
-| 02243351 | APO-AMOXI CLAV | Not available | Not available |
-| 02482576 | SANDOZ AMOXI-CLAV TABLET | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01916874 | CLAVULIN 250 F ORAL SUS | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02238830 | CLAVULIN 400 | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02238831 | CLAVULIN 200 | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02243351 | APO-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02245623 | APO-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02471671 | AURO-AMOXICLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02471698 | AURO-AMOXICLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02471701 | AURO-AMOXICLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02482576 | SANDOZ AMOXI-CLAV TABLET | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02482584 | SANDOZ AMOXI-CLAV TABLET | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02495910 | AMOXICILLIN SODIUM AND POTASSIUM CLAVULANATE FOR INJECTION | AMOXICILLIN (AMOXICILLIN SODIUM); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02495937 | AMOXICILLIN SODIUM AND POTASSIUM CLAVULANATE FOR INJECTION | AMOXICILLIN (AMOXICILLIN SODIUM); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02508257 | JAMP AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02508265 | JAMP AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02510634 | AG-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02510642 | AG-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02536048 | AMOXICILLIN/CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02536498 | PRO-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02536501 | PRO-AMOXI CLAV | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+| 02539438 | JAMP AMOXI CLAV SUSPENSION | AMOXICILLIN (AMOXICILLIN TRIHYDRATE); CLAVULANIC ACID (CLAVULANATE POTASSIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 A total of 20 valid single-ingredient licences are listed in Canada. They include amoxicillin/clavulanate injection products and generic oral products.
 

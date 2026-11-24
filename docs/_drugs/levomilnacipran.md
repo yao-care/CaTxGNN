@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVOMILNACIPRAN"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder"]
 description: "Levomilnacipran: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -81,12 +81,18 @@ Currently no related literature available for benign paroxysmal torticollis of i
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02440989 | FETZIMA | Not specified | Not specified |
-| 02441004 | FETZIMA | Not specified | Not specified |
-| 02440970 | FETZIMA | Not specified | Not specified |
-| 02440997 | FETZIMA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02440970 | FETZIMA | LEVOMILNACIPRAN (LEVOMILNACIPRAN HYDROCHLORIDE) | Marketed |
+| 02440989 | FETZIMA | LEVOMILNACIPRAN (LEVOMILNACIPRAN HYDROCHLORIDE) | Marketed |
+| 02440997 | FETZIMA | LEVOMILNACIPRAN (LEVOMILNACIPRAN HYDROCHLORIDE) | Marketed |
+| 02441004 | FETZIMA | LEVOMILNACIPRAN (LEVOMILNACIPRAN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

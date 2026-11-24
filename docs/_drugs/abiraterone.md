@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Abiraterone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -50,7 +50,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-Nineteen valid licenses exist. The records compiled for this report do not include dosage form or approved-indication text. The first five are listed below.
+Nineteen valid licenses exist. The records compiled for this report do not include dosage form or approved-indication text.
 
 <!-- review:begin ca-lic-20261106-abiraterone-1 -->
 
@@ -58,13 +58,33 @@ Nineteen valid licenses exist. The records compiled for this report do not inclu
 
 <!-- review:end ca-lic-20261106-abiraterone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02371065 | ZYTIGA | Not available | Not available |
-| 02503999 | MAR-ABIRATERONE | Not available | Not available |
-| 02501503 | PMS-ABIRATERONE | Not available | Not available |
-| 02540452 | PRZ-ABIRATERONE | Not available | Not available |
-| 02502305 | JAMP ABIRATERONE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02371065 | ZYTIGA | ABIRATERONE ACETATE | Marketed |
+| 02457113 | ZYTIGA | ABIRATERONE ACETATE | Marketed |
+| 02477114 | REDDY-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02486393 | SANDOZ ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02491397 | APO-ABIRATERONE FILM COATED TABLETS | ABIRATERONE ACETATE | Marketed |
+| 02491400 | APO-ABIRATERONE FILM COATED TABLETS | ABIRATERONE ACETATE | Marketed |
+| 02492601 | PMS-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02494132 | NAT-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02501503 | PMS-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02502305 | JAMP ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02503980 | MAR-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02503999 | MAR-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02521644 | SANDOZ ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02529629 | JAMP ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02533251 | REDDY-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02538555 | AKEEGA | ABIRATERONE ACETATE; NIRAPARIB (NIRAPARIB TOSYLATE) | Marketed |
+| 02538563 | AKEEGA | ABIRATERONE ACETATE; NIRAPARIB (NIRAPARIB TOSYLATE) | Marketed |
+| 02540452 | PRZ-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02540460 | PRZ-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

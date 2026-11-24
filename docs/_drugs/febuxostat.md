@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 377
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Hyperuricemia"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
@@ -91,13 +91,20 @@ The only link in the literature is indirect. One case report describes using a x
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02466198 | TEVA-FEBUXOSTAT | Not specified | Not specified |
-| 02490870 | JAMP FEBUXOSTAT | Not specified | Not specified |
-| 02473607 | MAR-FEBUXOSTAT | Not specified | Not specified |
-| 02533243 | AURO-FEBUXOSTAT | Not specified | Not specified |
-| 02539837 | FEBUXOSTAT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02466198 | TEVA-FEBUXOSTAT | FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE) | Marketed |
+| 02473607 | MAR-FEBUXOSTAT | FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE) | Marketed |
+| 02490870 | JAMP FEBUXOSTAT | FEBUXOSTAT | Marketed |
+| 02533243 | AURO-FEBUXOSTAT | FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE) | Marketed |
+| 02539837 | FEBUXOSTAT | FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE) | Marketed |
+| 02549425 | M-FEBUXOSTAT | FEBUXOSTAT (FEBUXOSTAT HEMIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, M-FEBUXOSTAT (DIN 02549425), is also valid. All six are single-ingredient products.
 

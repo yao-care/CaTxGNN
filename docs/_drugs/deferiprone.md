@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 256
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis, beta-thalassemia (several subtypes)…"
 monitor_inn: "DEFERIPRONE"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
@@ -85,13 +85,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02536579 | FERRIPROX MR | Not available | Not available |
-| 02436531 | FERRIPROX | Not available | Not available |
-| 02436558 | FERRIPROX | Not available | Not available |
-| 02553112 | TARO-DEFERIPRONE | Not available | Not available |
-| 02436523 | FERRIPROX | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02436523 | FERRIPROX | DEFERIPRONE | Marketed |
+| 02436531 | FERRIPROX | DEFERIPRONE | Marketed |
+| 02436558 | FERRIPROX | DEFERIPRONE | Marketed |
+| 02536579 | FERRIPROX MR | DEFERIPRONE | Marketed |
+| 02553112 | TARO-DEFERIPRONE | DEFERIPRONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

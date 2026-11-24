@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor: predicted new indication CMM7 (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -80,10 +80,16 @@ Currently no related literature available for indolent plasma cell myeloma.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02529815 | PLERIXAFOR INJECTION |
-| 02539454 | PLERIXAFOR INJECTION |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02529815 | PLERIXAFOR INJECTION | PLERIXAFOR | Marketed |
+| 02539454 | PLERIXAFOR INJECTION | PLERIXAFOR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both authorisations are valid single-ingredient products. Dosage form, manufacturer and approved indication text were not available in the licence records.
 

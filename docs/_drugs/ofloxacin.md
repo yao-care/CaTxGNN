@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofloxacin: predicted new indication polyclonal hyperviscosity syndrome . The rank 1 prediction is polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Typhoid fever, salmonellosis, urinary tract infection, br…"
 monitor_inn: "OFLOXACIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
@@ -96,9 +96,15 @@ Two further retrieved papers (PMIDs 19121669 and 12180019) concern fluoroquinolo
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02143291 | OCUFLOX | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02143291 | OCUFLOX | OFLOXACIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The product name suggests an ophthalmic formulation. This has not been confirmed, and the available data do not specify a dosage form or route. Whether it can be used for systemic infections such as plague is therefore unknown.
 

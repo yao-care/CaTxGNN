@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Dermatitis, exanthem, tinea infections, otitis externa, hemorrhoids…"
 monitor_inn: "Pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Twelve licences are currently valid in Canada. The data compiled for this report do not include dosage forms or approved-indication text, so those columns are left blank. The five main products are listed below.
+Twelve licences are currently valid in Canada. The data compiled for this report do not include dosage forms or approved-indication text, so those columns are left blank.
 
 <!-- review:begin ca-lic-20261106-pramocaine-1 -->
 
@@ -83,13 +83,26 @@ Twelve licences are currently valid in Canada. The data compiled for this report
 
 <!-- review:end ca-lic-20261106-pramocaine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02484889 | Itch Relief Moisturizing Cream | Cream (from product name) | Not available |
-| 02486881 | Itch Relief Moisturizing Lotion | Lotion (from product name) | Not available |
-| 01945912 | Anusol Plus Ointment | Ointment (from product name) | Not available |
-| 01954210 | Pramox HC Lotion | Lotion (from product name) | Not available |
-| 02236991 | Gold Bond Medicated Anti-Itch Cream | Cream (from product name) | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00770957 | PRAMOX HC CREAM | HYDROCORTISONE (HYDROCORTISONE ACETATE); PRAMOXINE HYDROCHLORIDE | Marketed |
+| 01945904 | ANUSOL PLUS SUPPOSITORIES | PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 01945912 | ANUSOL PLUS OINTMENT | PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 01954210 | PRAMOX HC LOTION | HYDROCORTISONE (HYDROCORTISONE ACETATE); PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02234466 | PROCTODAN-HC OINTMENT | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02236991 | GOLD BOND MEDICATED ANTI-ITCH CREAM | MENTHOL; PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02240105 | AVEENO ANTI-ITCH LOTION | CALAMINE; PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02240851 | PROCTODAN-HC SUPPOSITORIES | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02246156 | POLYSPORIN ITCH RELIEF | PRAMOXINE HYDROCHLORIDE; ZINC ACETATE | Marketed |
+| 02318482 | GOLD BOND ANTI-ITCH LOTION | DIMETHICONE; MENTHOL; PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02484889 | ITCH RELIEF MOISTURIZING CREAM | PRAMOXINE HYDROCHLORIDE | Marketed |
+| 02486881 | ITCH RELIEF MOISTURIZING LOTION | PRAMOXINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All current products are for topical or rectal use, and none is an ophthalmic product.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -102,13 +102,27 @@ For open-angle glaucoma, the strongest alternative candidate, the retrieved arti
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02389886 | DRY EYE TEARS | Not specified | Not specified |
-| 02321696 | LUBRICANT EYE DROPS / ARTIFICIAL TEARS | Not specified | Not specified |
-| 02354535 | ARTIFICIAL TEARS | Not specified | Not specified |
-| 02438585 | VISINE FOR DRY EYE TIRED EYE RELIEF | Not specified | Not specified |
-| 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00298417 | GLYCERINATED PHENOL SALINE | GLYCERINE; PHENOL; SODIUM CHLORIDE | Marketed |
+| 00783668 | GLYCEROLYTE 57 SOLUTION | GLYCERINE; POTASSIUM CHLORIDE; SODIUM LACTATE; SODIUM PHOSPHATE DIBASIC; SODIUM PHOSPHATE MONOBASIC | Marketed |
+| 02242370 | SOOTHE DRY EYES | GLYCERINE; PROPYLENE GLYCOL | Marketed |
+| 02246397 | TEARS NATURALE FORTE | DEXTRAN 70; GLYCERINE; HYPROMELLOSE | Marketed |
+| 02248059 | CLEAR EYES ALLERGY | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02321696 | LUBRICANT EYE DROPS/ ARTIFICIAL TEARS | GLYCERINE; PROPYLENE GLYCOL | Marketed |
+| 02354535 | ARTIFICIAL TEARS | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE | Marketed |
+| 02389886 | DRY EYE TEARS | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02399148 | REFRESH OPTIVE ADVANCED | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE; POLYSORBATE 80 | Marketed |
+| 02435578 | REFRESH OPTIVE FUSION | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE | Marketed |
+| 02438585 | VISINE FOR DRY EYE TIRED EYE RELIEF | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02463652 | REFRESH OPTIVE GEL DROPS | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The listed products are mainly ophthalmic lubricants, not constipation products. The approved indication text is not available for any of them.
 

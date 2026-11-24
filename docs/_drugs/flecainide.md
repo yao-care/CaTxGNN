@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flecainide: predicted new indication Stroke disorder (evidence level L3). Approved use: Atrial fibrillation"
 monitor_inn: "Flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -96,15 +96,26 @@ Most of this literature concerns atrial fibrillation and flecainide safety. None
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02534819 | FLECAINIDE | Not specified | Not specified |
-| 02275538 | APO-FLECAINIDE | Not specified | Not specified |
-| 02459957 | AURO-FLECAINIDE | Not specified | Not specified |
-| 02493713 | JAMP FLECAINIDE | Not specified | Not specified |
-| 02516063 | AG-FLECAINIDE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Ten valid single-ingredient licences are listed in total; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02275538 | APO-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02275546 | APO-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02459957 | AURO-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02459965 | AURO-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02493705 | JAMP FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02493713 | JAMP FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02516063 | AG-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02516071 | AG-FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02534800 | FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+| 02534819 | FLECAINIDE | FLECAINIDE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten valid single-ingredient licences are listed in total.
 
 ---
 

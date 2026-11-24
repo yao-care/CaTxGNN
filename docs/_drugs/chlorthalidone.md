@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorthalidone: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, congestive heart failure"
 monitor_inn: "CHLORTHALIDONE"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
@@ -72,13 +72,22 @@ Currently no related literature available for primary hereditary glaucoma.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02523809 | JAMP CHLORTHALIDONE | Not specified | Not specified |
-| 00360279 | APO-CHLORTHALIDONE | Not specified | Not specified |
-| 02523817 | JAMP CHLORTHALIDONE | Not specified | Not specified |
-| 02523795 | JAMP CHLORTHALIDONE | Not specified | Not specified |
-| 02248763 | AA-ATENIDONE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00360279 | APO-CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02248763 | AA-ATENIDONE | ATENOLOL; CHLORTHALIDONE | Marketed |
+| 02248764 | AA-ATENIDONE | ATENOLOL; CHLORTHALIDONE | Marketed |
+| 02397749 | EDARBYCLOR | AZILSARTAN MEDOXOMIL (AZILSARTAN MEDOXOMIL POTASSIUM); CHLORTHALIDONE | Marketed |
+| 02397765 | EDARBYCLOR | AZILSARTAN MEDOXOMIL (AZILSARTAN MEDOXOMIL POTASSIUM); CHLORTHALIDONE | Marketed |
+| 02523795 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02523809 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02523817 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eight licences are currently valid, and none are cancelled. The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).
 

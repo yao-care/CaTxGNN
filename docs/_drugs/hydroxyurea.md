@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROXYUREA"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -93,12 +93,18 @@ Currently no related clinical trials registered for female breast carcinoma.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247937 | APO-HYDROXYUREA | Not listed | Not listed |
-| 00465283 | HYDREA | Not listed | Not listed |
-| 02530260 | RIVA-HYDROXYUREA | Not listed | Not listed |
-| 02242920 | MYLAN-HYDROXYUREA | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00465283 | HYDREA | HYDROXYUREA | Marketed |
+| 02242920 | MYLAN-HYDROXYUREA | HYDROXYUREA | Marketed |
+| 02247937 | APO-HYDROXYUREA | HYDROXYUREA | Marketed |
+| 02530260 | RIVA-HYDROXYUREA | HYDROXYUREA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four are valid single-ingredient licences.
 

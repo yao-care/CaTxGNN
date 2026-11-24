@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled license data"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -81,12 +81,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230584 | TEVA-BROMAZEPAM | Not listed | Not listed |
-| 02230585 | TEVA-BROMAZEPAM | Not listed | Not listed |
-| 02177161 | APO-BROMAZEPAM | Not listed | Not listed |
-| 02177188 | APO-BROMAZEPAM | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02177161 | APO-BROMAZEPAM | BROMAZEPAM | Marketed |
+| 02177188 | APO-BROMAZEPAM | BROMAZEPAM | Marketed |
+| 02230584 | TEVA-BROMAZEPAM | BROMAZEPAM | Marketed |
+| 02230585 | TEVA-BROMAZEPAM | BROMAZEPAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

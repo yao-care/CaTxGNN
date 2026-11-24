@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desvenlafaxine: predicted new indication Obsessive-compulsive disorder (evidence level L4). Approved use: Unipolar depression, major depressive disorder, anxiety disorder"
 monitor_inn: "DESVENLAFAXINE"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -85,15 +85,36 @@ Currently no related clinical trials registered for OCD.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02321092 | PRISTIQ | Not listed | Not listed |
-| 02321106 | PRISTIQ | Not listed | Not listed |
-| 02458217 | TEVA-DESVENLAFAXINE | Not listed | Not listed |
-| 02466988 | APO-DESVENLAFAXINE | Not listed | Not listed |
-| 02495147 | JAMP DESVENLAFAXINE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-These are 5 of 20 valid single-ingredient licences. The others are generic products from Apotex, AG, Taro, Sandoz, Teva, JAMP and other labels.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02321092 | PRISTIQ | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02321106 | PRISTIQ | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02458217 | TEVA-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02458225 | TEVA-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02466988 | APO-DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02466996 | APO-DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02495139 | JAMP DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02495147 | JAMP DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02525615 | AG-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02525623 | AG-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02532158 | TARO-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02532166 | TARO-DESVENLAFAXINE | DESVENLAFAXINE (DESVENLAFAXINE SUCCINATE) | Marketed |
+| 02535106 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02535114 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02538415 | SANDOZ DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02538423 | SANDOZ DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02543672 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02543680 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02554968 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+| 02554976 | DESVENLAFAXINE | DESVENLAFAXINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+The others are generic products from Apotex, AG, Taro, Sandoz, Teva, JAMP and other labels.
 
 ---
 

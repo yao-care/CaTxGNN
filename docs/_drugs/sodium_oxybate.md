@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 856
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sodium Oxybate: predicted new indication Insomnia (evidence level L2). Approved use: Narcolepsy (narcolepsy with cataplexy, narcolepsy without cataplexy)"
 monitor_inn: "SODIUM OXYBATE"
 predicted_indications: ["insomnia (disease)", "obsolete neurogenic bladder (disease)", "sleep disorder, initiating and maintaining sleep", "cauda equina syndrome", "Wernicke-Korsakoff syndrome", "restless legs syndrome"]
@@ -98,10 +98,16 @@ Most of this literature is general review material or concerns other conditions.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02268272 | XYREM | Not specified | Not specified |
-| 02538237 | XYWAV | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02268272 | XYREM | SODIUM OXYBATE | Marketed |
+| 02538237 | XYWAV | CALCIUM OXYBATE; MAGNESIUM OXYBATE; POTASSIUM OXYBATE; SODIUM OXYBATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

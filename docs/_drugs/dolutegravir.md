@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "DOLUTEGRAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -90,13 +90,19 @@ For reference, the related SIV prediction has more preclinical literature, for e
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02511517 | TIVICAY | Not specified | Not specified |
-| 02414945 | TIVICAY | Not specified | Not specified |
-| 02491753 | DOVATO | Not specified | Not specified |
-| 02475774 | JULUCA | Not specified | Not specified |
-| 02430932 | TRIUMEQ | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02414945 | TIVICAY | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM) | Marketed |
+| 02430932 | TRIUMEQ | ABACAVIR (ABACAVIR SULFATE); DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); LAMIVUDINE | Marketed |
+| 02475774 | JULUCA | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE) | Marketed |
+| 02491753 | DOVATO | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); LAMIVUDINE | Marketed |
+| 02511517 | TIVICAY | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

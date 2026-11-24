@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 726
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Phenazopyridine: predicted new indication Bronchitis (evidence level L5). Approved use: Not specified in the Canadian license data (the drug is known as a ur…"
 monitor_inn: "Phenazopyridine"
 predicted_indications: ["bronchitis"]
@@ -78,9 +78,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00476714 | PYRIDIUM | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00476714 | PYRIDIUM | PHENAZOPYRIDINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

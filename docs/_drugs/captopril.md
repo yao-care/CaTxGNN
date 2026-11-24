@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -86,15 +86,25 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01942964 | TEVA-CAPTOPRIL | Not specified | Not specified |
-| 00893595 | APO-CAPTO TAB 12.5MG | Not specified | Not specified |
-| 01942980 | TEVA-CAPTOPRIL | Not specified | Not specified |
-| 00893625 | APO-CAPTO TAB 100MG | Not specified | Not specified |
-| 00893617 | APO-CAPTO TAB 50MG | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Nine single-ingredient licences are valid in total. The five above are shown; the others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00893595 | APO-CAPTO TAB 12.5MG | CAPTOPRIL | Marketed |
+| 00893617 | APO-CAPTO TAB 50MG | CAPTOPRIL | Marketed |
+| 00893625 | APO-CAPTO TAB 100MG | CAPTOPRIL | Marketed |
+| 01942964 | TEVA-CAPTOPRIL | CAPTOPRIL | Marketed |
+| 01942972 | TEVA-CAPTOPRIL | CAPTOPRIL | Marketed |
+| 01942980 | TEVA-CAPTOPRIL | CAPTOPRIL | Marketed |
+| 01942999 | TEVA-CAPTOPRIL | CAPTOPRIL | Marketed |
+| 02543907 | NOYADA | CAPTOPRIL | Marketed |
+| 02543915 | NOYADA | CAPTOPRIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine single-ingredient licences are valid in total. The others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths.
 
 ---
 

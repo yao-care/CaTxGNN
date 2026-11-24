@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 106
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzyl Alcohol: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "BENZYL ALCOHOL"
 predicted_indications: ["bronchitis"]
@@ -85,10 +85,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02511428 | SALONPAS PAIN RELIEVING SOLUTION | Not specified | Not specified |
-| 02511339 | SALONPAS PAIN RELIEVING CREAM | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02511339 | SALONPAS PAIN RELIEVING CREAM | BENZYL ALCOHOL; LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02511428 | SALONPAS PAIN RELIEVING SOLUTION | BENZYL ALCOHOL; LIDOCAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

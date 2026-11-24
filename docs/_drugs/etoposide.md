@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETOPOSIDE"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -124,11 +124,17 @@ For rhabdomyosarcoma, the randomised Phase 3 trial [NCT00003052](https://clinica
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00616192 | VEPESID | Not specified | Not specified |
-| 02080036 | ETOPOSIDE INJECTION | Not specified | Not specified |
-| 02552671 | ETOPOSIDE INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00616192 | VEPESID | ETOPOSIDE | Marketed |
+| 02080036 | ETOPOSIDE INJECTION | ETOPOSIDE | Marketed |
+| 02552671 | ETOPOSIDE INJECTION | ETOPOSIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

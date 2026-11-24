@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Megaloblastic anemia"
 monitor_inn: "LEUCOVORIN"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
@@ -74,15 +74,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02496925 | Leucovorin Calcium Injection | – | – |
-| 02493357 | Riva Leucovorin | – | – |
-| 02087316 | Leucovorin Calcium Injection | – | – |
-| 02548208 | Jamp Leucovorin | – | – |
-| 02182998 | Leucovorin Calcium Injection USP | – | – |
+<!-- licenses:begin -->
 
-Nine valid single-ingredient authorizations are listed in total; the five above are shown. Indication text and dosage form were not available in the compiled data.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02087316 | LEUCOVORIN CALCIUM INJECTION | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02170493 | LEDERLE LEUCOVORIN | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02182998 | LEUCOVORIN CALCIUM INJECTION USP | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02183005 | LEUCOVORIN CALCIUM INJECTION USP | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02480042 | LEUCOVORIN CALCIUM INJECTION | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02493357 | RIVA LEUCOVORIN | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02496828 | MINT-LEUCOVORIN | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02496925 | LEUCOVORIN CALCIUM INJECTION | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+| 02548208 | JAMP LEUCOVORIN | LEUCOVORIN (LEUCOVORIN CALCIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine valid single-ingredient authorizations are listed in total. Indication text and dosage form were not available in the compiled data.
 
 ## Safety Considerations
 

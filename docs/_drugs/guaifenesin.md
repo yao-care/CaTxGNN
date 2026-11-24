@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GUAIFENESIN"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
@@ -74,15 +74,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-All 20 licences are valid single-ingredient products. The data compiled for this report does not include dosage forms or approved indication text. The first five are listed below.
+All 20 licences are valid single-ingredient products. The data compiled for this report does not include dosage forms or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02121999 | Bronchophan Expectorant (Sans Sucrose) | Not available | Not available |
-| 02434725 | Mucinex Chest Congestion | Not available | Not available |
-| 02534762 | Mucus & Phlegm Relief Extra Strength | Not available | Not available |
-| 02142783 | Robitussin Extra Strength Mucus and Phlegm | Not available | Not available |
-| 00609951 | Balminil Expectorant (Sucrose Free) | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00476374 | CHOLEDYL EXPECTORANT | GUAIFENESIN; OXTRIPHYLLINE | Marketed |
+| 00609951 | BALMINIL EXPECTORANT (SUCROSE FREE) | GUAIFENESIN | Marketed |
+| 01931024 | ROBITUSSIN COUGH CONTROL | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 01944762 | BENYLIN REGULAR STRENGTH COUGH PLUS CHEST CONGESTION RELIEF | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02121999 | BRONCHOPHAN EXPECTORANT (SANS SUCROSE) | GUAIFENESIN | Marketed |
+| 02142775 | ROBITUSSIN EXTRA STRENGTH COUGH CONTROL | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02142783 | ROBITUSSIN EXTRA STRENGTH MUCUS AND PHLEGM | GUAIFENESIN | Marketed |
+| 02248568 | ROBITUSSIN SUGAR FREE COUGH CONTROL | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02265427 | BENYLIN EXTRA STRENGTH CHEST CONGESTION & COLD | GUAIFENESIN; MENTHOL | Marketed |
+| 02289164 | BUCKLEY'S CHEST CONGESTION | GUAIFENESIN; MENTHOL | Marketed |
+| 02320940 | BENYLIN EXTRA STRENGTH MUCUS & PHLEGM | GUAIFENESIN; MENTHOL | Marketed |
+| 02346451 | BUCKLEY'S MUCUS & PHLEGM | GUAIFENESIN; MENTHOL | Marketed |
+| 02434725 | MUCINEX CHEST CONGESTION | GUAIFENESIN | Marketed |
+| 02479869 | BENYLIN EXTRA STRENGTH SORE THROAT & COUGH | GUAIFENESIN; MENTHOL | Marketed |
+| 02485524 | ROBITUSSIN EXTRA STRENGTH HONEY COUGH & CONGESTION | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02522950 | JACK & JILL HONEY COUGH & COLD | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02534762 | MUCUS & PHLEGM RELIEF EXTRA STRENGTH | GUAIFENESIN | Marketed |
+| 02540908 | MUCUS & PHLEGM RELIEF WITH COUGH CONTROL EXTRA STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02541882 | COUGH & CHEST CONGESTION REGULAR STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+| 02541890 | COUGH & CHEST CONGESTION EXTRA STRENGTH | DEXTROMETHORPHAN HYDROBROMIDE; GUAIFENESIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

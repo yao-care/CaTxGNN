@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 892
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Alafenamide: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection, AIDS"
 monitor_inn: "TENOFOVIR ALAFENAMIDE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -90,13 +90,21 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02464241 | VEMLIDY | Not specified | Not specified |
-| 02454424 | DESCOVY | Not specified | Not specified |
-| 02454416 | DESCOVY | Not specified | Not specified |
-| 02478579 | BIKTARVY | Not specified | Not specified |
-| 02461463 | ODEFSEY | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02449498 | GENVOYA | COBICISTAT; ELVITEGRAVIR; EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02454416 | DESCOVY | EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02454424 | DESCOVY | EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02461463 | ODEFSEY | EMTRICITABINE; RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE); TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMA… | Marketed |
+| 02464241 | VEMLIDY | TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02473720 | SYMTUZA | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEM… | Marketed |
+| 02478579 | BIKTARVY | BICTEGRAVIR (BICTEGRAVIR SODIUM); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two more authorizations are valid: GENVOYA (02449498) and SYMTUZA (02473720). All 7 are currently valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gadodiamide: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not specified in the available licence data (gadodiamide is a diagnos…"
 monitor_inn: "Gadodiamide"
 predicted_indications: ["rheumatoid arthritis"]
@@ -74,9 +74,15 @@ All three studies concern diagnostic imaging, not treatment.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02172771 | OMNISCAN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02172771 | OMNISCAN | GADODIAMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

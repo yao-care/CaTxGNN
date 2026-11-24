@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest: predicted new indication Amenorrhea (evidence level L5). Approved use: Not listed in the Canadian licence records (the literature describes…"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -90,13 +90,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02374900 | VISANNE | Not listed | Not listed |
-| 02493055 | ASPEN-DIENOGEST | Not listed | Not listed |
-| 02498189 | JAMP DIENOGEST | Not listed | Not listed |
-| 02543613 | M-DIENOGEST | Not listed | Not listed |
-| 02551683 | MAR-DIENOGEST | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02374900 | VISANNE | DIENOGEST | Marketed |
+| 02493055 | ASPEN-DIENOGEST | DIENOGEST | Marketed |
+| 02498189 | JAMP DIENOGEST | DIENOGEST | Marketed |
+| 02543613 | M-DIENOGEST | DIENOGEST | Marketed |
+| 02551683 | MAR-DIENOGEST | DIENOGEST | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 332
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L4). In Canada: 10 DINs (10 marketed)"
@@ -85,15 +85,26 @@ The one plausible clinical link is co-infection. In people with both HBV and HCV
 
 ## Canada Market Information
 
-Entecavir has 10 valid single-ingredient licenses in Canada, and no cancelled ones. The first 5 are listed below. Dosage form and approved-indication text were not available for these licenses.
+Entecavir has 10 valid single-ingredient licenses in Canada, and no cancelled ones. Dosage form and approved-indication text were not available for these licenses.
 
-| DIN | Product Name |
-|---------|------|
-| 02485907 | MINT-ENTECAVIR |
-| 02448777 | AURO-ENTECAVIR |
-| 02396955 | APO-ENTECAVIR |
-| 02282224 | BARACLUDE |
-| 02467232 | JAMP ENTECAVIR |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02282224 | BARACLUDE | ENTECAVIR | Marketed |
+| 02396955 | APO-ENTECAVIR | ENTECAVIR | Marketed |
+| 02430576 | PMS-ENTECAVIR | ENTECAVIR | Marketed |
+| 02430584 | PMS-ENTECAVIR | ENTECAVIR | Marketed |
+| 02448777 | AURO-ENTECAVIR | ENTECAVIR (ENTECAVIR MONOHYDRATE) | Marketed |
+| 02453797 | ENTECAVIR TABLETS | ENTECAVIR (ENTECAVIR MONOHYDRATE) | Marketed |
+| 02467232 | JAMP ENTECAVIR | ENTECAVIR (ENTECAVIR MONOHYDRATE) | Marketed |
+| 02479907 | ACCEL-ENTECAVIR | ENTECAVIR (ENTECAVIR MONOHYDRATE) | Marketed |
+| 02485907 | MINT-ENTECAVIR | ENTECAVIR (ENTECAVIR MONOHYDRATE) | Marketed |
+| 02527154 | ENTECAVIR | ENTECAVIR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

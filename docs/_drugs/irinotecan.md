@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). In Canada: 9 DINs (6 marketed, 2 dormant)"
@@ -93,13 +93,23 @@ Direct evidence for irinotecan itself in breast cancer is limited to early-phase
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02528789 | Irinotecan Hydrochloride Injection | Injection | Not listed in the data |
-| 02501279 | Irinotecan Hydrochloride Injection | Injection | Not listed in the data |
-| 02501295 | Irinotecan Hydrochloride Injection | Injection | Not listed in the data |
-| 02258218 | Irinotecan Hydrochloride Injection USP | Injection | Not listed in the data |
-| 02467135 | Onivyde | Injection | Not listed in the data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02258218 | IRINOTECAN HYDROCHLORIDE INJECTION USP | IRINOTECAN HYDROCHLORIDE | Marketed |
+| 02312409 | IRINOTECAN FOR INJECTION | IRINOTECAN HYDROCHLORIDE | Marketed |
+| 02357585 | IRINOTECAN HYDROCHLORIDE INJECTION USP | IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE) | Marketed |
+| 02452421 | IRINOTECAN HYDROCHLORIDE INJECTION, USP | IRINOTECAN HYDROCHLORIDE (IRINOTECAN HYDROCHLORIDE TRIHYDRATE) | Marketed |
+| 02528789 | IRINOTECAN HYDROCHLORIDE INJECTION | IRINOTECAN HYDROCHLORIDE | Marketed |
+| 02528800 | IRINOTECAN HYDROCHLORIDE INJECTION | IRINOTECAN HYDROCHLORIDE | Marketed |
+| 02501279 | IRINOTECAN HYDROCHLORIDE INJECTION | IRINOTECAN HYDROCHLORIDE | Dormant |
+| 02501295 | IRINOTECAN HYDROCHLORIDE INJECTION | IRINOTECAN HYDROCHLORIDE | Dormant |
+| 02467135 | ONIVYDE | IRINOTECAN (IRINOTECAN SUCROSE OCTASULFATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Only the first five are shown here.
 

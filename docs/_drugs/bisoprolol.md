@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -102,15 +102,38 @@ None of these test bisoprolol in patients with pulmonary hypertension.
 
 ## Canada Market Information
 
-Bisoprolol is marketed in Canada as 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available in the data compiled for this report. Five of the authorizations are listed below.
+Bisoprolol is marketed in Canada as 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02465620 | MINT-BISOPROLOL |
-| 02518805 | JAMP BISOPROLOL |
-| 02267489 | TEVA-BISOPROLOL |
-| 02256134 | APO-BISOPROLOL |
-| 02544245 | SANDOZ BISOPROLOL TABLETS |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02256134 | APO-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02256177 | APO-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02267470 | TEVA-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02267489 | TEVA-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02306999 | PRO-BISOPROLOL - 5 | BISOPROLOL FUMARATE | Marketed |
+| 02307006 | PRO-BISOPROLOL - 10 | BISOPROLOL FUMARATE | Marketed |
+| 02391589 | BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02391597 | BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02465612 | MINT-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02465620 | MINT-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02494035 | SANDOZ BISOPROLOL TABLETS | BISOPROLOL FUMARATE | Marketed |
+| 02494043 | SANDOZ BISOPROLOL TABLETS | BISOPROLOL FUMARATE | Marketed |
+| 02495570 | BISOPROLOL TABLETS | BISOPROLOL FUMARATE | Marketed |
+| 02518791 | JAMP BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02518805 | JAMP BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02521156 | AG-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02541394 | PRZ-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02541408 | PRZ-BISOPROLOL | BISOPROLOL FUMARATE | Marketed |
+| 02544245 | SANDOZ BISOPROLOL TABLETS | BISOPROLOL FUMARATE | Marketed |
+| 02544253 | SANDOZ BISOPROLOL TABLETS | BISOPROLOL FUMARATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

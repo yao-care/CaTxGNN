@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CAFFEINE"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -79,13 +79,36 @@ None of the publications below studies nasal cavity disease as a treatment targe
 
 The list may be partial. The licence records available here do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02496771 | PEYONA | Not recorded | Not recorded |
-| 02526751 | CAFFEINE CITRATE ORAL SOLUTION USP | Not recorded | Not recorded |
-| 02526778 | CAFFEINE CITRATE INJECTION USP | Not recorded | Not recorded |
-| 02254468 | TYLENOL ULTRA RELIEF | Not recorded | Not recorded |
-| 02544687 | EXTRA STRENGTH TYLENOL DAYTIME RELIEF | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00176192 | FIORINAL-C 1/4 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00176206 | FIORINAL-C 1/2 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00226327 | FIORINAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 00608203 | TEVA-TECNAL C 1/4 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00608211 | TEVA-TECNAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 00608238 | TEVA-TECNAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 00653233 | TEVA-LENOLTEC NO. 1 | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00653241 | TEVA-LENOLTEC NO. 2 | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00653276 | TEVA-LENOLTEC NO. 3 | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 01971409 | TRIANAL TABLET | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 02143933 | ACETAMINOPHEN WITH CODEINE - CAPLET | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 02154234 | ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE TABLETS | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 02254468 | TYLENOL ULTRA RELIEF | ACETAMINOPHEN; CAFFEINE | Marketed |
+| 02264870 | ULTRA HEADACHE RELIEF | ACETAMINOPHEN; CAFFEINE | Marketed |
+| 02275201 | MIDOL COMPLETE | ACETAMINOPHEN; CAFFEINE; PYRILAMINE MALEATE | Marketed |
+| 02496771 | PEYONA | CAFFEINE CITRATE | Marketed |
+| 02526751 | CAFFEINE CITRATE ORAL SOLUTION USP | CAFFEINE CITRATE | Marketed |
+| 02526778 | CAFFEINE CITRATE INJECTION USP | CAFFEINE CITRATE | Marketed |
+| 02544687 | EXTRA STRENGTH TYLENOL DAYTIME RELIEF | ACETAMINOPHEN; CAFFEINE | Marketed |
+| 02554690 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

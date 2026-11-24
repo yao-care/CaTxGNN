@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 description: "Hyaluronidase: predicted new indication Esotropia (evidence level L5)."
@@ -83,13 +83,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02524368 | HYQVIA |
-| 02524376 | HYQVIA |
-| 02524384 | HYQVIA |
-| 02524392 | HYQVIA |
-| 02524406 | HYQVIA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02524368 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524376 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524384 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524392 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524406 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five authorizations are valid licenses. Dosage form and approved indication text are not available in the data compiled for this report.
 

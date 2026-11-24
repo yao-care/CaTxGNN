@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 929
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
@@ -85,15 +85,38 @@ Currently no related literature is available for the top prediction (malignant h
 
 ## Canada Market Information
 
-Twenty single-ingredient licences are valid in Canada. Dosage form and approved indication text were not available in the data compiled for this report. Five main authorizations:
+Twenty single-ingredient licences are valid in Canada. Dosage form and approved indication text were not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02239267 | MAVIK | Not available | Not available |
-| 02231460 | MAVIK | Not available | Not available |
-| 02325756 | SANDOZ TRANDOLAPRIL | Not available | Not available |
-| 02471868 | AURO-TRANDOLAPRIL | Not available | Not available |
-| 02357798 | PMS-TRANDOLAPRIL | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231460 | MAVIK | TRANDOLAPRIL | Marketed |
+| 02239267 | MAVIK | TRANDOLAPRIL | Marketed |
+| 02325721 | SANDOZ TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02325748 | SANDOZ TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02325756 | SANDOZ TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02325764 | SANDOZ TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02357763 | PMS-TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02357771 | PMS-TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02357798 | PMS-TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02471868 | AURO-TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02471884 | AURO-TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02488698 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02488701 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02488728 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02525046 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02525054 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02525070 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02526565 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02526573 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+| 02526581 | TRANDOLAPRIL | TRANDOLAPRIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

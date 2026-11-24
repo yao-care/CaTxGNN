@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galcanezumab: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Migraine disorder"
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -73,11 +73,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02491087 | EMGALITY | Not specified | Not specified |
-| 02505134 | EMGALITY | Not specified | Not specified |
-| 02491060 | EMGALITY | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02491060 | EMGALITY | GALCANEZUMAB | Marketed |
+| 02491087 | EMGALITY | GALCANEZUMAB | Marketed |
+| 02505134 | EMGALITY | GALCANEZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

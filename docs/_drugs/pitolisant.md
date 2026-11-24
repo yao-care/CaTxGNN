@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 744
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pitolisant"
 predicted_indications: ["insomnia (disease)", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome"]
 description: "Pitolisant: predicted new indication Insomnia (disease) (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -93,10 +93,16 @@ None of the publications below tests pitolisant in insomnia. They are included a
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02516268 | WAKIX | Not specified | Not specified |
-| 02516241 | WAKIX | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02516241 | WAKIX | PITOLISANT HYDROCHLORIDE | Marketed |
+| 02516268 | WAKIX | PITOLISANT HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

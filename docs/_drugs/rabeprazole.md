@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 788
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Rabeprazole: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,16 +73,22 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02385449 | RABEPRAZOLE |  | Valid |
-| 02356538 | RABEPRAZOLE EC |  | Valid |
-| 02385457 | RABEPRAZOLE |  | Valid |
-| 02314177 | SANDOZ RABEPRAZOLE |  | Valid |
-| 02356511 | RABEPRAZOLE EC |  | Valid |
-| 02243796 | PARIET, ENTERIC-COATED TABLET 10MG |  | Valid |
-| 02243797 | PARIET, ENTERIC-COATED TABLET 20MG |  | Valid |
-| 02314185 | SANDOZ RABEPRAZOLE |  | Valid |
+| 02243796 | PARIET, ENTERIC-COATED TABLET 10MG | RABEPRAZOLE SODIUM | Marketed |
+| 02243797 | PARIET, ENTERIC-COATED TABLET 20MG | RABEPRAZOLE SODIUM | Marketed |
+| 02314177 | SANDOZ RABEPRAZOLE | RABEPRAZOLE SODIUM | Marketed |
+| 02314185 | SANDOZ RABEPRAZOLE | RABEPRAZOLE SODIUM | Marketed |
+| 02356511 | RABEPRAZOLE EC | RABEPRAZOLE SODIUM | Marketed |
+| 02356538 | RABEPRAZOLE EC | RABEPRAZOLE SODIUM | Marketed |
+| 02385449 | RABEPRAZOLE | RABEPRAZOLE SODIUM | Marketed |
+| 02385457 | RABEPRAZOLE | RABEPRAZOLE SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

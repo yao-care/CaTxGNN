@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not specified in the licence data (product names such as \"Analgesic G…"
 monitor_inn: "NITROUS OXIDE"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -85,13 +85,20 @@ The only real connection is procedural. Nitrous oxide is used to control anxiety
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02014467 | NITROUS OXIDE USP | Not specified | Not specified |
-| 02154811 | NITROUS OXIDE U.S.P. | Not specified | Not specified |
-| 00572845 | NITROUS OXIDE 100% | Not specified | Not specified |
-| 00693596 | LIQUI-MED ANALGESIC GAS | Not specified | Not specified |
-| 02154757 | MEOPA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00572845 | NITROUS OXIDE 100% | NITROUS OXIDE | Marketed |
+| 00693596 | LIQUI-MED ANALGESIC GAS | NITROUS OXIDE; OXYGEN | Marketed |
+| 02014467 | NITROUS OXIDE USP | NITROUS OXIDE | Marketed |
+| 02071010 | ALNOX GAS | NITROUS OXIDE; OXYGEN | Marketed |
+| 02154757 | MEOPA | NITROUS OXIDE; OXYGEN | Marketed |
+| 02154811 | NITROUS OXIDE U.S.P. | NITROUS OXIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence, ALNOX GAS (DIN 02071010), is also valid.
 

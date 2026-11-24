@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 967
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the compiled Canadian license data (smoking cessation i…"
 monitor_inn: "Varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -82,15 +82,27 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Eleven valid single-ingredient licenses are listed. Dosage form, manufacturer, and approved indication text are not available in the compiled data. The first five are shown below.
+Eleven valid single-ingredient licenses are listed. Dosage form, manufacturer, and approved indication text are not available in the compiled data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02542978 | NRA-VARENICLINE | Not available | Not available |
-| 02554445 | AURO-VARENICLINE | Not available | Not available |
-| 02546957 | MINT-VARENICLINE | Not available | Not available |
-| 02419882 | APO-VARENICLINE | Not available | Not available |
-| 02554453 | AURO-VARENICLINE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02419882 | APO-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02419890 | APO-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02435675 | APO-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02542951 | NRA-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02542978 | NRA-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02542986 | NRA-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02546949 | MINT-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02546957 | MINT-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02546965 | MINT-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02554445 | AURO-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+| 02554453 | AURO-VARENICLINE | VARENICLINE (VARENICLINE TARTRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

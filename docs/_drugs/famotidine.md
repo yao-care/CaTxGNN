@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). In Canada: 18 DINs (18 marketed)"
@@ -101,15 +101,34 @@ Selected publications for the related peptic ulcer prediction:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02022133 | TEVA-FAMOTIDINE | Not available | Not available |
-| 02549107 | FAMOTIDINE | Not available | Not available |
-| 02509970 | AG-FAMOTIDINE | Not available | Not available |
-| 02273357 | MAXIMUM STRENGTH PEPCID AC | Not available | Not available |
-| 02243053 | PEPCID COMPLETE | Not available | Not available |
+<!-- licenses:begin -->
 
-Eighteen licences are valid in total, and none is cancelled. Only the first five are listed here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02022133 | TEVA-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02022141 | TEVA-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02185938 | PEPCID AC | FAMOTIDINE | Marketed |
+| 02243053 | PEPCID COMPLETE | CALCIUM CARBONATE; FAMOTIDINE; MAGNESIUM HYDROXIDE | Marketed |
+| 02247735 | FAMOTIDINE OMEGA -(WITHOUT PRESERVATIVE) | FAMOTIDINE | Marketed |
+| 02247745 | FAMOTIDINE OMEGA -(WITH PRESERVATIVE,BENZYL ALCOHOL) | FAMOTIDINE | Marketed |
+| 02273357 | MAXIMUM STRENGTH PEPCID AC | FAMOTIDINE | Marketed |
+| 02351102 | FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02351110 | FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02507749 | JAMP FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02507757 | JAMP FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02509970 | AG-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02509989 | AG-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02538350 | ACID CONTROLLER MAXIMUM STRENGTH | FAMOTIDINE | Marketed |
+| 02538628 | MINT-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02538636 | MINT-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02549107 | FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02549115 | FAMOTIDINE | FAMOTIDINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eighteen licences are valid in total, and none is cancelled.
 
 <!-- review:begin ca-lic-20261106-famotidine-1 -->
 

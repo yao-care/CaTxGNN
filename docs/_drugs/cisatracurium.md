@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cisatracurium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not specified in the Canadian license records"
 monitor_inn: "Cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -81,10 +81,16 @@ Neither paper tests cisatracurium as a treatment for preeclampsia.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02563266 | Cisatracurium Besylate Injection USP Multi-Dose | Not listed | Not listed |
-| 02408813 | Cisatracurium Besylate Injection USP Multidose | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02408813 | CISATRACURIUM BESYLATE INJECTION USP MULTIDOSE | CISATRACURIUM (CISATRACURIUM BESYLATE) | Marketed |
+| 02563266 | CISATRACURIUM BESYLATE INJECTION USP MULTI-DOSE | CISATRACURIUM (CISATRACURIUM BESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

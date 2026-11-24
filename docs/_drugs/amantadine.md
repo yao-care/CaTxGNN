@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02538601 | ODAN-AMANTADINE SYRUP | Syrup | Not recorded |
-| 02022826 | PDP-AMANTADINE HYDROCHLORIDE SYRUP | Syrup | Not recorded |
-| 01990403 | PDP-AMANTADINE HYDROCHLORIDE CAPSULES | Capsule | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01990403 | PDP-AMANTADINE HYDROCHLORIDE CAPSULES | AMANTADINE HYDROCHLORIDE | Marketed |
+| 02022826 | PDP-AMANTADINE HYDROCHLORIDE SYRUP | AMANTADINE HYDROCHLORIDE | Marketed |
+| 02538601 | ODAN-AMANTADINE SYRUP | AMANTADINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AMMONIUM CHLORIDE"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ammonium Chloride: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, nasopharyngitis"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245592 | DAMYLIN WITH CODEINE SYRUP | Not listed | Not listed |
-| 00690074 | COUGH SYRUP | Not listed | Not listed |
-| 00535230 | CALMYLIN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00535230 | CALMYLIN | AMMONIUM CHLORIDE; CODEINE PHOSPHATE; DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00690074 | COUGH SYRUP | AMMONIUM CHLORIDE; CODEINE PHOSPHATE; DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02245592 | DAMYLIN WITH CODEINE SYRUP | AMMONIUM CHLORIDE; CODEINE PHOSPHATE; DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are valid licences. The licence records compiled for this report contain no indication text.
 

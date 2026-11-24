@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Bacterial pneumonia, Pseudomonas aeruginosa infection…"
 monitor_inn: "AMIKACIN"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
@@ -92,13 +92,19 @@ For the closely related typhoid fever prediction, the most relevant paper is an 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242971 | Amikacin Sulfate Injection USP | Injection | Not available |
-| 02486717 | Amikacin Sulfate Injection | Injection | Not available |
-| 02529459 | Amikacin Sulfate Injection | Injection | Not available |
-| 02481073 | Amikacin Sulfate Injection USP | Injection | Not available |
-| 02525909 | Amikacin Sulfate Injection | Injection | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242971 | AMIKACIN SULFATE INJECTION USP | AMIKACIN (AMIKACIN SULFATE) | Marketed |
+| 02481073 | AMIKACIN SULFATE INJECTION USP | AMIKACIN (AMIKACIN SULFATE) | Marketed |
+| 02486717 | AMIKACIN SULFATE INJECTION | AMIKACIN (AMIKACIN SULFATE) | Marketed |
+| 02529459 | AMIKACIN SULFATE INJECTION | AMIKACIN (AMIKACIN SULFATE) | Marketed |
+| 02525909 | AMIKACIN SULFATE INJECTION | AMIKACIN (AMIKACIN SULFATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

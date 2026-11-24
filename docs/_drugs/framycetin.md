@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the Canadian licence data compiled for this report"
 monitor_inn: "Framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -91,13 +91,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02224860 | SOFRAMYCIN NASAL SPRAY | Not listed | Not listed |
-| 02224623 | SOFRACORT | Not listed | Not listed |
-| 02247322 | PROCTOL OINTMENT | Not listed | Not listed |
-| 02226383 | TEVA-PROCTOSONE | Not listed | Not listed |
-| 02247882 | PROCTOL SUPPOSITORIES | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02224623 | SOFRACORT | DEXAMETHASONE (DEXAMETHASONE SODIUM METASULPHOBENZOATE); FRAMYCETIN SULFATE; GRAMICIDIN | Marketed |
+| 02224860 | SOFRAMYCIN NASAL SPRAY | FRAMYCETIN SULFATE; GRAMICIDIN; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02226383 | TEVA-PROCTOSONE | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE (HYDROCORTISONE ACETATE) | Marketed |
+| 02247322 | PROCTOL OINTMENT | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+| 02247882 | PROCTOL SUPPOSITORIES | DIBUCAINE HYDROCHLORIDE; ESCULIN; FRAMYCETIN SULFATE; HYDROCORTISONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid. The product names suggest nasal, ointment and suppository forms.
 

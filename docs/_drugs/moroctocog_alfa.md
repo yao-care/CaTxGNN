@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moroctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -82,13 +82,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02374072 | XYNTHA SOLOFUSE | Not specified | Not specified |
-| 02309491 | XYNTHA | Not specified | Not specified |
-| 02309483 | XYNTHA | Not specified | Not specified |
-| 02374099 | XYNTHA SOLOFUSE | Not specified | Not specified |
-| 02374080 | XYNTHA SOLOFUSE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02309483 | XYNTHA | MOROCTOCOG ALFA | Marketed |
+| 02309491 | XYNTHA | MOROCTOCOG ALFA | Marketed |
+| 02374064 | XYNTHA SOLOFUSE | MOROCTOCOG ALFA | Marketed |
+| 02374072 | XYNTHA SOLOFUSE | MOROCTOCOG ALFA | Marketed |
+| 02374080 | XYNTHA SOLOFUSE | MOROCTOCOG ALFA | Marketed |
+| 02374099 | XYNTHA SOLOFUSE | MOROCTOCOG ALFA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth license (DIN 02374064, XYNTHA SOLOFUSE) is also valid. All six licenses are single-ingredient products with valid status and none are cancelled.
 

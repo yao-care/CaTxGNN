@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN ASPART"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart: predicted new indication Autoimmune oophoritis (evidence level L5). In Canada: 10 DINs (9 marketed, 1 dormant)"
@@ -96,15 +96,26 @@ The data compiled for this report list 20 publications. The 10 most relevant are
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02506564 | TRURAPI | Not listed | Not listed |
-| 02529254 | TRURAPI | Not listed | Not listed |
-| 02460424 | FIASP | Not listed | Not listed |
-| 02460408 | FIASP | Not listed | Not listed |
-| 02245397 | NOVORAPID | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Ten valid DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30). Only the first five are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244353 | NOVORAPID | INSULIN ASPART | Marketed |
+| 02245397 | NOVORAPID | INSULIN ASPART | Marketed |
+| 02265435 | NOVOMIX 30 | INSULIN ASPART; INSULIN ASPART PROTAMINE | Marketed |
+| 02460408 | FIASP | INSULIN ASPART | Marketed |
+| 02460416 | FIASP | INSULIN ASPART | Marketed |
+| 02506564 | TRURAPI | INSULIN ASPART | Marketed |
+| 02506572 | TRURAPI | INSULIN ASPART | Marketed |
+| 02520974 | KIRSTY | INSULIN ASPART | Marketed |
+| 02529254 | TRURAPI | INSULIN ASPART | Marketed |
+| 02460424 | FIASP | INSULIN ASPART | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten valid DINs are authorised in total (TRURAPI, FIASP, NOVORAPID, KIRSTY, NOVOMIX 30).
 
 <!-- review:begin ca-lic-20261106-insulin_aspart-1 -->
 

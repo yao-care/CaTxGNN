@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L5). In Canada: 16 DINs (14 marketed, 2 dormant)"
@@ -114,15 +114,32 @@ No clinical trials are registered for heart fibrosarcoma, the top prediction. Th
 
 ## Canada Market Information
 
-Sixteen valid single-ingredient licences are on record, and none is cancelled. Dosage form, manufacturer and approved-indication text are not available in the data compiled for this report. Five are listed below.
+Sixteen valid single-ingredient licences are on record, and none is cancelled. Dosage form, manufacturer and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02253283 | GLEEVEC | Not available | Not available |
-| 02253275 | GLEEVEC | Not available | Not available |
-| 02399814 | TEVA-IMATINIB | Not available | Not available |
-| 02355345 | APO-IMATINIB | Not available | Not available |
-| 02397285 | NAT-IMATINIB | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02253275 | GLEEVEC | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02253283 | GLEEVEC | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02355337 | APO-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02355345 | APO-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02397285 | NAT-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02397293 | NAT-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02399806 | TEVA-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02399814 | TEVA-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02492334 | MINT-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02492342 | MINT-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02504596 | IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02504618 | IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02521202 | IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02521210 | IMATINIB | IMATINIB (IMATINIB MESYLATE) | Marketed |
+| 02490986 | ACH-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Dormant |
+| 02490994 | ACH-IMATINIB | IMATINIB (IMATINIB MESYLATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other licensed products include IMATINIB (generic), MINT-IMATINIB and ACH-IMATINIB.
 

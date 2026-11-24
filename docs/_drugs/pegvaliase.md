@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegvaliase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not listed in the Canadian license data (generally phenylketonuria)"
 monitor_inn: "Pegvaliase"
 predicted_indications: ["diabetic retinopathy", "severe nonproliferative diabetic retinopathy", "diabetic cataract"]
@@ -71,11 +71,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02526263 | PALYNZIQ | Not specified | Not specified |
-| 02526247 | PALYNZIQ | Not specified | Not specified |
-| 02526255 | PALYNZIQ | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02526247 | PALYNZIQ | PEGVALIASE | Marketed |
+| 02526255 | PALYNZIQ | PEGVALIASE | Marketed |
+| 02526263 | PALYNZIQ | PEGVALIASE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

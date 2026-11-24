@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 637
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the Canadian licence data compiled for this report (…"
 monitor_inn: "Nabilone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
@@ -91,15 +91,25 @@ Currently no related clinical trials registered for migraine disorder. No trials
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02256193 | CESAMET | Not listed | Not listed |
-| 00548375 | CESAMET | Not listed | Not listed |
-| 02312263 | CESAMET | Not listed | Not listed |
-| 02380897 | PMS-NABILONE | Not listed | Not listed |
-| 02384892 | TEVA-NABILONE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 9 licences are valid single-ingredient products. The list above shows 5 of them. The others are PMS-NABILONE and TEVA-NABILONE products.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00548375 | CESAMET | NABILONE | Marketed |
+| 02256193 | CESAMET | NABILONE | Marketed |
+| 02312263 | CESAMET | NABILONE | Marketed |
+| 02380897 | PMS-NABILONE | NABILONE | Marketed |
+| 02380900 | PMS-NABILONE | NABILONE | Marketed |
+| 02380919 | PMS-NABILONE | NABILONE | Marketed |
+| 02384884 | TEVA-NABILONE | NABILONE | Marketed |
+| 02384892 | TEVA-NABILONE | NABILONE | Marketed |
+| 02392925 | TEVA-NABILONE | NABILONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 9 licences are valid single-ingredient products. The others are PMS-NABILONE and TEVA-NABILONE products.
 
 ---
 

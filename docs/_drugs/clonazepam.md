@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: predicted new indication restless legs syndrome (evidence level L3). In Canada: 11 DINs (8 marketed, 3 dormant)"
 ---
 
@@ -83,13 +83,25 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00382825 | RIVOTRIL | Not recorded | Not recorded |
-| 00382841 | RIVOTRIL | Not recorded | Not recorded |
-| 02177897 | APO-CLONAZEPAM | Not recorded | Not recorded |
-| 02177889 | APO-CLONAZEPAM | Not recorded | Not recorded |
-| 02179660 | PMS-CLONAZEPAM | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00382825 | RIVOTRIL | CLONAZEPAM | Marketed |
+| 00382841 | RIVOTRIL | CLONAZEPAM | Marketed |
+| 02048728 | PMS-CLONAZEPAM | CLONAZEPAM | Marketed |
+| 02048736 | PMS-CLONAZEPAM | CLONAZEPAM | Marketed |
+| 02177889 | APO-CLONAZEPAM | CLONAZEPAM | Marketed |
+| 02177897 | APO-CLONAZEPAM | CLONAZEPAM | Marketed |
+| 02179660 | PMS-CLONAZEPAM | CLONAZEPAM | Marketed |
+| 02207818 | PMS-CLONAZEPAM-R | CLONAZEPAM | Marketed |
+| 02311593 | PRO-CLONAZEPAM | CLONAZEPAM | Dormant |
+| 02311607 | PRO-CLONAZEPAM | CLONAZEPAM | Dormant |
+| 02311615 | PRO-CLONAZEPAM | CLONAZEPAM | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

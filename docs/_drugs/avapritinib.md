@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Avapritinib"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avapritinib: predicted new indication axial spondylometaphyseal dysplasia (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
@@ -70,12 +70,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02551764 | AYVAKYT | Not recorded | Not recorded |
-| 02551780 | AYVAKYT | Not recorded | Not recorded |
-| 02551799 | AYVAKYT | Not recorded | Not recorded |
-| 02551772 | AYVAKYT | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02551764 | AYVAKYT | AVAPRITINIB | Marketed |
+| 02551772 | AYVAKYT | AVAPRITINIB | Marketed |
+| 02551780 | AYVAKYT | AVAPRITINIB | Marketed |
+| 02551799 | AYVAKYT | AVAPRITINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four single-ingredient licences are currently valid.
 

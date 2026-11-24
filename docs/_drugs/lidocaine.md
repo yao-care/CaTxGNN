@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Relations recorded in the knowledge graph (not label text): dermatiti…"
 ---
 
@@ -72,15 +72,38 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Canada Market Information
 
-At least 20 single-ingredient lidocaine licences are valid in Canada; the list below is partial and shows 5 of them. The licence records contain no dosage form or approved indication text.
+At least 20 single-ingredient lidocaine licences are valid in Canada. The licence records contain no dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02485311 | LIDOCAINE | Not listed | Not listed |
-| 02372983 | XYLOCAINE 0.5% | Not listed | Not listed |
-| 02422018 | LIDOCAINE HYDROCHLORIDE INJECTION USP | Not listed | Not listed |
-| 02462443 | LIDOCAINE INJECTION BP | Not listed | Not listed |
-| 02003767 | XYLOCAINE SPRAY | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00001732 | XYLOCAINE 1% | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00001937 | XYLOCARD | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00436208 | LIDOCAINE HYDROCHLORIDE INJECTION USP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 01901982 | LIDOCAINE HYDROCHLORIDE INJECTION USP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02003767 | XYLOCAINE SPRAY | LIDOCAINE | Marketed |
+| 02231147 | LIDODAN ENDOTRACHEAL NON-AEROSOL SPRAY | LIDOCAINE (LIDOCAINE HYDROCHLORIDE) | Marketed |
+| 02245939 | MAXILENE 5 | LIDOCAINE | Marketed |
+| 02372983 | XYLOCAINE 0.5% | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02419505 | LIDODAN 4% TOPICAL SOLUTION | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02422018 | LIDOCAINE HYDROCHLORIDE INJECTION USP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02422026 | LIDOCAINE HYDROCHLORIDE INJECTION USP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02462443 | LIDOCAINE INJECTION BP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02469146 | JELIDO | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02485311 | LIDOCAINE | LIDOCAINE | Marketed |
+| 02522268 | LIDOCAINE HYDROCHLORIDE INJECTION | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02530449 | LIDOCAINE INJECTION BP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02542218 | LIDOCAINE HYDROCHLORIDE INJECTION | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02542838 | SOLARCAINE BURN PAIN RELIEF | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02547856 | LIDOCAINE HYDROCHLORIDE INJECTION USP | LIDOCAINE HYDROCHLORIDE | Marketed |
+| 01923986 | SOLARCAINE FIRST AID LIDOCAINE SPRAY | LIDOCAINE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 965
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections, endocarditis"
 monitor_inn: "VANCOMYCIN"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -79,15 +79,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02407752 | JAMP VANCOMYCIN | Not specified | Not specified |
-| 02394626 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | Not specified | Not specified |
-| 02406543 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | Not specified | Not specified |
-| 02139243 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | Not specified | Not specified |
-| 02533006 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of the 20 valid single-ingredient licences. None are cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02139243 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02139375 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02139383 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02241807 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02342863 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02394626 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02405822 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02405830 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02406543 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02406551 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02407744 | JAMP VANCOMYCIN | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02407752 | JAMP VANCOMYCIN | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02435713 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02435721 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02487071 | VANCOMYCIN INJECTION USP IN 0.9% SODIUM CHLORIDE | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02532999 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02533006 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02543974 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02543982 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Marketed |
+| 02502607 | VANCOMYCIN HYDROCHLORIDE FOR INJECTION, USP | VANCOMYCIN (VANCOMYCIN HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+None are cancelled.
 
 ## Safety Considerations
 

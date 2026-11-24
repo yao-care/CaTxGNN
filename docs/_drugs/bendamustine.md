@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine: predicted new indication Mantle cell lymphoma (evidence level L1). In Canada: 11 DINs (9 marketed, 2 dormant)"
 ---
 
@@ -94,15 +94,27 @@ Of the 40 trials listed, the most relevant are shown below (selected from those 
 
 ## Canada Market Information
 
-Bendamustine has 11 valid single-ingredient licences in Canada. The local records do not include dosage forms or approved-indication text. Main authorizations:
+Bendamustine has 11 valid single-ingredient licences in Canada. The local records do not include dosage forms or approved-indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02392569 | TREANDA | Not recorded | Not recorded |
-| 02392550 | TREANDA | Not recorded | Not recorded |
-| 02524309 | BENVYON | Not recorded | Not recorded |
-| 02496895 | NAT-BENDAMUSTINE | Not recorded | Not recorded |
-| 02496852 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02392550 | TREANDA | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02392569 | TREANDA | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02496852 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02496860 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02496887 | NAT-BENDAMUSTINE | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02496895 | NAT-BENDAMUSTINE | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02524309 | BENVYON | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02541998 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02542005 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Marketed |
+| 02509253 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Dormant |
+| 02509261 | BENDAMUSTINE HYDROCHLORIDE FOR INJECTION | BENDAMUSTINE HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

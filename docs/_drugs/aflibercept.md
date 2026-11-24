@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: predicted new indication esotropia (evidence level L5). In Canada: 10 DINs (10 marketed)"
 ---
 
@@ -69,15 +69,26 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02415992 | EYLEA | Not recorded | Not recorded |
-| 02505355 | EYLEA | Not recorded | Not recorded |
-| 02545004 | EYLEA HD | Not recorded | Not recorded |
-| 02554798 | EYLEA HD | Not recorded | Not recorded |
-| 02558238 | YESAFILI | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products); the table shows five of them.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02415992 | EYLEA | AFLIBERCEPT | Marketed |
+| 02505355 | EYLEA | AFLIBERCEPT | Marketed |
+| 02535858 | YESAFILI | AFLIBERCEPT | Marketed |
+| 02545004 | EYLEA HD | AFLIBERCEPT | Marketed |
+| 02550636 | PAVBLU | AFLIBERCEPT | Marketed |
+| 02554178 | AFLIVU | AFLIBERCEPT | Marketed |
+| 02554194 | AFLIVU | AFLIBERCEPT | Marketed |
+| 02554798 | EYLEA HD | AFLIBERCEPT | Marketed |
+| 02558238 | YESAFILI | AFLIBERCEPT | Marketed |
+| 02562510 | ENZEEVU | AFLIBERCEPT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products).
 
 ## Safety Considerations
 

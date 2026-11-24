@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -70,13 +70,36 @@ Currently no related literature available.
 
 The data compiled for this report show 20 valid single-ingredient licences, with no cancelled licences. The list may be partial. Dosage form and approved-indication text are not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02232044 | ARICEPT | Not recorded | Not recorded |
-| 02232043 | ARICEPT | Not recorded | Not recorded |
-| 02362279 | APO-DONEPEZIL | Not recorded | Not recorded |
-| 02328682 | SANDOZ DONEPEZIL | Not recorded | Not recorded |
-| 02340615 | TEVA-DONEPEZIL | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02232043 | ARICEPT | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02232044 | ARICEPT | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02322331 | PMS-DONEPEZIL | DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02322358 | PMS-DONEPEZIL | DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02328682 | SANDOZ DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02340607 | TEVA-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02340615 | TEVA-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02362260 | APO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02381508 | TARO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02381516 | TARO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02400588 | AURO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02416417 | PRO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02426846 | DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02426854 | DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02432684 | AG-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02432692 | AG-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02467453 | M-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02475278 | DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02535386 | NRA-DONEPEZIL | DONEPEZIL HYDROCHLORIDE | Marketed |
+| 02362279 | APO-DONEPEZIL | DONEPEZIL HYDROCHLORIDE (DONEPEZIL HYDROCHLORIDE MONOHYDRATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

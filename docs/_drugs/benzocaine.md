@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 103
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Tinea pedis, dermatitis, pharyngitis, tinea corporis, tinea infection"
 monitor_inn: "BENZOCAINE"
 predicted_indications: ["papillary conjunctivitis"]
@@ -72,11 +72,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230958 | ONE TOUCH TOPICAL ANESTHETIC GEL | Not listed | Not listed |
-| 01930699 | ZAP TOPICAL ANESTHETIC GEL | Not listed | Not listed |
-| 02028867 | CETACAINE LIQUID | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01930699 | ZAP TOPICAL ANESTHETIC GEL | BENZOCAINE; TETRACAINE HYDROCHLORIDE | Marketed |
+| 02028867 | CETACAINE LIQUID | BENZOCAINE; BUTAMBEN; TETRACAINE HYDROCHLORIDE | Marketed |
+| 02230958 | ONE TOUCH TOPICAL ANESTHETIC GEL | BENZOCAINE; TETRACAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are valid products.
 

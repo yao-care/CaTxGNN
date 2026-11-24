@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anti-Inhibitor Coagulant Complex: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "ANTI-INHIBITOR COAGULANT COMPLEX"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets"]
@@ -66,10 +66,16 @@ A second prediction, **primary release disorder of platelets** (score 0.9922), f
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02202581 | FEIBA NF | Not listed | Not listed |
-| 02353903 | FEIBA NF | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02202581 | FEIBA NF | ANTI-INHIBITOR COAGULANT COMPLEX | Marketed |
+| 02353903 | FEIBA NF | ANTI-INHIBITOR COAGULANT COMPLEX | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

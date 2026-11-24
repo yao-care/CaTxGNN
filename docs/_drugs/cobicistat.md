@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "COBICISTAT"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -74,12 +74,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02426501 | PREZCOBIX | Not specified | Not specified |
-| 02473720 | SYMTUZA | Not specified | Not specified |
-| 02449498 | GENVOYA | Not specified | Not specified |
-| 02397137 | STRIBILD | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02397137 | STRIBILD | COBICISTAT; ELVITEGRAVIR; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02426501 | PREZCOBIX | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE) | Marketed |
+| 02449498 | GENVOYA | COBICISTAT; ELVITEGRAVIR; EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02473720 | SYMTUZA | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEM… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are currently valid.
 

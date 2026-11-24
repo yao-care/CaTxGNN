@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Belimumab: predicted new indication primary release disorder of platelets (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -72,11 +72,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02370050 | BENLYSTA | Not recorded | Not recorded |
-| 02470489 | BENLYSTA | Not recorded | Not recorded |
-| 02370069 | BENLYSTA | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02370050 | BENLYSTA | BELIMUMAB | Marketed |
+| 02370069 | BENLYSTA | BELIMUMAB | Marketed |
+| 02470489 | BENLYSTA | BELIMUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient products.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ESOMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Canada: at least 20 DINs"
@@ -81,15 +81,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Esomeprazole has 20 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these entries. Five main products:
+Esomeprazole has 20 valid single-ingredient authorizations in Canada and none are cancelled. Dosage form and approved indication text were not available for these entries.
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02244521 | NEXIUM - 20MG | Valid |
-| 02244522 | NEXIUM - 40MG | Valid |
-| 02300524 | NEXIUM | Valid |
-| 02444712 | NEXIUM 24HR | Valid |
-| 02339099 | APO-ESOMEPRAZOLE | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244521 | NEXIUM - 20MG | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02244522 | NEXIUM - 40MG | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02300524 | NEXIUM | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02339099 | APO-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02339102 | APO-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02394847 | ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02423855 | TEVA-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM DIHYDRATE) | Marketed |
+| 02423979 | TARO-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02423987 | TARO-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02442493 | ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02444712 | NEXIUM 24HR | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02460939 | SANDOZ ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM DIHYDRATE) | Marketed |
+| 02479419 | MYL-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02479427 | MYL-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM TRIHYDRATE) | Marketed |
+| 02520117 | M-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02520699 | ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02528479 | PMSC-ESOMEPRAZOLE DR | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM DIHYDRATE) | Marketed |
+| 02528487 | PMSC-ESOMEPRAZOLE DR | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM DIHYDRATE) | Marketed |
+| 02557673 | RIVA-ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM) | Marketed |
+| 02431173 | ESOMEPRAZOLE | ESOMEPRAZOLE (ESOMEPRAZOLE MAGNESIUM DIHYDRATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

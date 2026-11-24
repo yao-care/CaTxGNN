@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prochlorperazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "PROCHLORPERAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
@@ -84,11 +84,17 @@ No literature is available for the top prediction (retinal dystrophy). The table
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00886432 | PROCHLORAZINE | Not specified | Not specified |
-| 00789720 | ODAN-PROCHLORPERAZINE | Not specified | Not specified |
-| 00886440 | PROCHLORAZINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00789720 | ODAN-PROCHLORPERAZINE | PROCHLORPERAZINE | Marketed |
+| 00886432 | PROCHLORAZINE | PROCHLORPERAZINE (PROCHLORPERAZINE MALEATE) | Marketed |
+| 00886440 | PROCHLORAZINE | PROCHLORPERAZINE (PROCHLORPERAZINE MALEATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CEFUROXIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Cefuroxime: predicted new indication Hyperamylasemia (evidence level L5). In Canada: 9 DINs (9 marketed)"
@@ -70,15 +70,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02344831 | AURO-CEFUROXIME | Not specified | Not specified |
-| 02241638 | CEFUROXIME FOR INJECTION, USP | Not specified | Not specified |
-| 02244394 | APO-CEFUROXIME | Not specified | Not specified |
-| 02344823 | AURO-CEFUROXIME | Not specified | Not specified |
-| 02212307 | CEFTIN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Nine single-ingredient licences are currently valid; the five above are a selection.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02212307 | CEFTIN | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02241638 | CEFUROXIME FOR INJECTION, USP | CEFUROXIME (CEFUROXIME SODIUM) | Marketed |
+| 02241639 | CEFUROXIME FOR INJECTION, USP | CEFUROXIME (CEFUROXIME SODIUM) | Marketed |
+| 02244393 | APO-CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02244394 | APO-CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02344823 | AURO-CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02344831 | AURO-CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02547198 | JAMP CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+| 02547201 | JAMP CEFUROXIME | CEFUROXIME (CEFUROXIME AXETIL) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine single-ingredient licences are currently valid.
 
 ## Safety Considerations
 

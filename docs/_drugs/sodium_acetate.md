@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
 monitor_inn: "SODIUM ACETATE"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -70,15 +70,38 @@ Currently no related literature available for congenital prothrombin deficiency.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02139529 | Sodium Acetate Injection, USP | Not specified | Not specified |
-| 02181746 | Sodium Acetate Injection USP | Not specified | Not specified |
-| 00039470 | Lactated Ringer's Injection | Not specified | Not specified |
-| 01931636 | Lactated Ringer's Injection USP | Not specified | Not specified |
-| 00799971 | Lactated Ringer's Irrigation Sol | Not specified | Not specified |
+<!-- licenses:begin -->
 
-A total of 20 valid licenses are on record. The list shows only the first 5. All are single-ingredient entries, and none is cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00039470 | LACTATED RINGER'S INJECTION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00061085 | LACTATED RINGER'S INJECTION, USP | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00061131 | LACTATED RINGER'S AND 5% DEXTROSE INJECTION, USP | CALCIUM CHLORIDE; DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00590215 | TPN ELECTROLYTES | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE | Marketed |
+| 00758566 | LACTATED RINGER'S IRRIGATION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00783668 | GLYCEROLYTE 57 SOLUTION | GLYCERINE; POTASSIUM CHLORIDE; SODIUM LACTATE; SODIUM PHOSPHATE DIBASIC; SODIUM PHOSPHATE MONOBASIC | Marketed |
+| 00799793 | DIANEAL PD101 CAPD SOLUTION WITH 0.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00799807 | DIANEAL PD101 CAPD SOLUTION WITH 4.25% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00799815 | DIANEAL PD101 CAPD SOLUTION WITH 1.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00799823 | DIANEAL PD101 CAPD SOLUTION WITH 2.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00799971 | LACTATED RINGER'S IRRIGATION SOL | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00865095 | DIANEAL PD4 CAPD SOLUTION WITH 1.5% DEXTROSE AND 2.5MEQ/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 01931628 | ISOLYTE S (MULTI-ELECTROLYTE INJECTION) | MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM GLUCONATE | Marketed |
+| 01931636 | LACTATED RINGER'S INJECTION USP | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 02139529 | SODIUM ACETATE INJECTION, USP | SODIUM ACETATE | Marketed |
+| 02181746 | SODIUM ACETATE INJECTION USP | SODIUM ACETATE | Marketed |
+| 02243421 | POTASSIUM CHLORIDE IN LACTATED RINGER'S INJECTION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 02261057 | BALANCE 1.5% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 02261065 | BALANCE 4.25% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 02261073 | BALANCE 2.3% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled.
 
 ## Safety Considerations
 

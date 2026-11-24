@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In Canada: 8 DINs (6 marketed, 1 dormant)"
 ---
 
@@ -81,13 +81,22 @@ The main authorizations are listed below. Approved indication text and dosage fo
 
 <!-- review:end ca-lic-20261105-calcitriol-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 00481823 | ROCALTROL |
-| 00481815 | ROCALTROL |
-| 02485710 | TARO-CALCITRIOL |
-| 02485729 | TARO-CALCITRIOL |
-| 02431645 | CALCITRIOL-ODAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00481815 | ROCALTROL | CALCITRIOL | Marketed |
+| 00481823 | ROCALTROL | CALCITRIOL | Marketed |
+| 02431637 | CALCITRIOL-ODAN | CALCITRIOL | Marketed |
+| 02431645 | CALCITRIOL-ODAN | CALCITRIOL | Marketed |
+| 02485710 | TARO-CALCITRIOL | CALCITRIOL | Marketed |
+| 02485729 | TARO-CALCITRIOL | CALCITRIOL | Marketed |
+| 02399334 | CALCITRIOL INJECTION USP | CALCITRIOL | Dormant |
+| 02338572 | SILKIS | CALCITRIOL | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alteplase: predicted new indication heparin cofactor 2 deficiency (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -80,11 +80,17 @@ Alteplase has three valid authorizations in Canada. The local data do not record
 
 <!-- review:end ca-lic-20261106-alteplase-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02245859 | CATHFLO |
-| 02225689 | ACTIVASE RT-PA |
-| 02147440 | ACTIVASE RT-PA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02147440 | ACTIVASE RT-PA | ALTEPLASE; WATER | Marketed |
+| 02225689 | ACTIVASE RT-PA | ALTEPLASE; WATER | Marketed |
+| 02245859 | CATHFLO | ALTEPLASE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

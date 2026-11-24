@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -72,13 +72,36 @@ Currently no related literature available.
 
 Adalimumab is marketed in Canada under several brand names, including the reference product and biosimilars. The records compiled for this report may be partial. Indication text and dosage forms were not recorded in the local data.
 
-| DIN | Product Name |
-|---------|------|
-| 02258595 | HUMIRA |
-| 02458349 | HUMIRA |
-| 02511061 | ABRILADA |
-| 02542331 | HYRIMOZ |
-| 02459310 | AMGEVITA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02258595 | HUMIRA | ADALIMUMAB | Marketed |
+| 02458349 | HUMIRA | ADALIMUMAB | Marketed |
+| 02459299 | AMGEVITA | ADALIMUMAB | Marketed |
+| 02459310 | AMGEVITA | ADALIMUMAB | Marketed |
+| 02502399 | HULIO | ADALIMUMAB | Marketed |
+| 02502402 | HULIO | ADALIMUMAB | Marketed |
+| 02511045 | ABRILADA | ADALIMUMAB | Marketed |
+| 02511053 | ABRILADA | ADALIMUMAB | Marketed |
+| 02511061 | ABRILADA | ADALIMUMAB | Marketed |
+| 02523760 | YUFLYMA | ADALIMUMAB | Marketed |
+| 02523779 | YUFLYMA | ADALIMUMAB | Marketed |
+| 02523949 | SIMLANDI | ADALIMUMAB | Marketed |
+| 02523957 | SIMLANDI | ADALIMUMAB | Marketed |
+| 02533472 | HADLIMA | ADALIMUMAB | Marketed |
+| 02535084 | YUFLYMA | ADALIMUMAB | Marketed |
+| 02542323 | HYRIMOZ | ADALIMUMAB | Marketed |
+| 02542331 | HYRIMOZ | ADALIMUMAB | Marketed |
+| 02542358 | HYRIMOZ | ADALIMUMAB | Marketed |
+| 02542366 | HYRIMOZ | ADALIMUMAB | Marketed |
+| 02473100 | HADLIMA PUSHTOUCH | ADALIMUMAB | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

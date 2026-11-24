@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 420
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). In Canada: 6 DINs (6 marketed)"
@@ -84,14 +84,20 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02483610 | FULVESTRANT INJECTION | Not listed | Not listed |
-| 02530635 | FULVESTRANT INJECTABLE | Not listed | Not listed |
-| 02248624 | FASLODEX | Not listed | Not listed |
-| 02460130 | TEVA-FULVESTRANT INJECTION | Not listed | Not listed |
-| 02558971 | FULVESTRANT INJECTION | Not listed | Not listed |
-| 02536293 | FULVESTRANT INJECTION | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02248624 | FASLODEX | FULVESTRANT | Marketed |
+| 02460130 | TEVA-FULVESTRANT INJECTION | FULVESTRANT | Marketed |
+| 02483610 | FULVESTRANT INJECTION | FULVESTRANT | Marketed |
+| 02530635 | FULVESTRANT INJECTABLE | FULVESTRANT | Marketed |
+| 02536293 | FULVESTRANT INJECTION | FULVESTRANT | Marketed |
+| 02558971 | FULVESTRANT INJECTION | FULVESTRANT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All six licences are valid single-ingredient products.
 

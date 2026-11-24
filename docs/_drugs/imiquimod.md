@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -94,12 +94,18 @@ Note that "pre-malignant neoplasm" is a broad umbrella term. Evidence differs co
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02482983 | TARO-IMIQUIMOD PUMP | Not specified | Not specified |
-| 02365561 | VYLOMA | Not specified | Not specified |
-| 02340445 | ZYCLARA | Not specified | Not specified |
-| 02239505 | ALDARA P | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239505 | ALDARA P | IMIQUIMOD | Marketed |
+| 02340445 | ZYCLARA | IMIQUIMOD | Marketed |
+| 02365561 | VYLOMA | IMIQUIMOD | Marketed |
+| 02482983 | TARO-IMIQUIMOD PUMP | IMIQUIMOD | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four products are valid single-ingredient authorisations; none are cancelled.
 

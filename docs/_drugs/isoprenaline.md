@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Isoprenaline"
 predicted_indications: ["nasal cavity disease", "headache disorder", "pharyngitis", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "bronchial disease", "endobronchial leiomyoma", "allergic urticaria", "endobronchial lipoma", "bronchus adenoma"]
 description: "Isoprenaline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -107,11 +107,17 @@ Only one publication was retrieved for nasal cavity disease, and it is not relev
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02502623 | Isoproterenol Hydrochloride Injection USP | Not listed | Not listed |
-| 00897639 | Isoproterenol Hydrochloride Injection USP | Not listed | Not listed |
-| 02502615 | Isoproterenol Hydrochloride Injection USP | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00897639 | ISOPROTERENOL HYDROCHLORIDE INJECTION USP | ISOPROTERENOL HYDROCHLORIDE | Marketed |
+| 02502615 | ISOPROTERENOL HYDROCHLORIDE INJECTION USP | ISOPROTERENOL HYDROCHLORIDE | Marketed |
+| 02502623 | ISOPROTERENOL HYDROCHLORIDE INJECTION USP | ISOPROTERENOL HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are valid single-ingredient injection products.
 

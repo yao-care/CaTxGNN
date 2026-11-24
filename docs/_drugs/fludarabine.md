@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 390
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludarabine: predicted new indication Plasma cell myeloma (evidence level L2). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -109,11 +109,17 @@ The 10 most relevant of the 20 publications are listed below.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02438577 | Fludarabine Phosphate Injection, USP | Not specified | Not specified |
-| 02283859 | Fludarabine Phosphate for Injection | Not specified | Not specified |
-| 02246226 | Fludara | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02246226 | FLUDARA | FLUDARABINE PHOSPHATE | Marketed |
+| 02283859 | FLUDARABINE PHOSPHATE FOR INJECTION | FLUDARABINE PHOSPHATE | Marketed |
+| 02438577 | FLUDARABINE PHOSPHATE INJECTION, USP | FLUDARABINE PHOSPHATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

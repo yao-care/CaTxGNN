@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis, asthma…"
 monitor_inn: "BUDESONIDE"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -101,13 +101,36 @@ None of the publications below is a clinical trial of budesonide in atopic eczem
 
 Budesonide has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02494264 | TARO-BUDESONIDE |
-| 02241003 | MYLAN-BUDESONIDE AQ |
-| 02229099 | PULMICORT NEBUAMP 0.125 MG/ML |
-| 02231923 | RHINOCORT AQUA |
-| 02052431 | ENTOCORT ENEMA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00851752 | PULMICORT TURBUHALER | BUDESONIDE | Marketed |
+| 00851760 | PULMICORT TURBUHALER | BUDESONIDE | Marketed |
+| 00852074 | PULMICORT TURBUHALER | BUDESONIDE | Marketed |
+| 01978918 | PULMICORT NEBUAMP 0.25 MG/ML | BUDESONIDE | Marketed |
+| 01978926 | PULMICORT NEBUAMP 0.5 MG/ML | BUDESONIDE | Marketed |
+| 02052431 | ENTOCORT ENEMA | BUDESONIDE | Marketed |
+| 02229099 | PULMICORT NEBUAMP 0.125 MG/ML | BUDESONIDE | Marketed |
+| 02229293 | ENTOCORT | BUDESONIDE | Marketed |
+| 02230648 | MYLAN-BUDESONIDE AQ | BUDESONIDE | Marketed |
+| 02231923 | RHINOCORT AQUA | BUDESONIDE | Marketed |
+| 02241003 | MYLAN-BUDESONIDE AQ | BUDESONIDE | Marketed |
+| 02455889 | CORTIMENT | BUDESONIDE | Marketed |
+| 02465949 | TEVA-BUDESONIDE | BUDESONIDE | Marketed |
+| 02465957 | TEVA-BUDESONIDE | BUDESONIDE | Marketed |
+| 02493675 | JORVEZA | BUDESONIDE | Marketed |
+| 02494264 | TARO-BUDESONIDE | BUDESONIDE | Marketed |
+| 02494272 | TARO-BUDESONIDE | BUDESONIDE | Marketed |
+| 02494280 | TARO-BUDESONIDE | BUDESONIDE | Marketed |
+| 02498057 | UCERIS | BUDESONIDE | Marketed |
+| 02513854 | JORVEZA | BUDESONIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other licensed products include UCERIS, ENTOCORT, CORTIMENT, JORVEZA, PULMICORT TURBUHALER and TEVA-BUDESONIDE.
 

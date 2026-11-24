@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -74,13 +74,36 @@ Currently no related literature available.
 
 The data compiled for this report list 20 valid single-ingredient licences (the list may be partial). No dosage form or indication text is recorded for them.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02239092 | ATACAND | Not recorded | Not recorded |
-| 02239090 | ATACAND | Not recorded | Not recorded |
-| 02388715 | CANDESARTAN | Not recorded | Not recorded |
-| 02366320 | TEVA-CANDESARTAN | Not recorded | Not recorded |
-| 02326957 | SANDOZ CANDESARTAN | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239090 | ATACAND | CANDESARTAN CILEXETIL | Marketed |
+| 02239092 | ATACAND | CANDESARTAN CILEXETIL | Marketed |
+| 02326957 | SANDOZ CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02366320 | TEVA-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02380684 | TARO-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02386518 | JAMP-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02386534 | JAMP-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02388715 | CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02391198 | PMS-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02476916 | MINT-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02476924 | MINT-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02500795 | AG-CANDESARTAN TABLETS | CANDESARTAN CILEXETIL | Marketed |
+| 02500809 | AG-CANDESARTAN TABLETS | CANDESARTAN CILEXETIL | Marketed |
+| 02527006 | NRA-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02527022 | NRA-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02527030 | NRA-CANDESARTAN | CANDESARTAN CILEXETIL | Marketed |
+| 02541297 | APO-CANDESARTAN TABLETS | CANDESARTAN CILEXETIL | Marketed |
+| 02541319 | APO-CANDESARTAN TABLETS | CANDESARTAN CILEXETIL | Marketed |
+| 02379279 | ACH-CANDESARTAN | CANDESARTAN CILEXETIL | Dormant |
+| 02379295 | ACH-CANDESARTAN | CANDESARTAN CILEXETIL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

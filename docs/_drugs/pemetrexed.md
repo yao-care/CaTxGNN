@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 718
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: predicted new indication Pleural adenomatoid tumor (evidence level L5). In Canada: 14 DINs (11 marketed, 3 dormant)"
@@ -88,15 +88,30 @@ Peritoneal and pleural mesothelioma share the same histology and much of the sam
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02463083 | PEMETREXED FOR INJECTION, USP | Not listed | Not listed |
-| 02517647 | PEMETREXED DISODIUM FOR INJECTION | Not listed | Not listed |
-| 02528754 | PEMETREXED DISODIUM FOR INJECTION | Not listed | Not listed |
-| 02463091 | PEMETREXED FOR INJECTION, USP | Not listed | Not listed |
-| 02515423 | PEMETREXED FOR INJECTION | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Fourteen valid single-ingredient licences are on record in total. The five above are shown as the main authorizations.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02394227 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02429195 | TARO-PEMETREXED | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02429209 | TARO-PEMETREXED | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02438674 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM HEMIPENTAHYDRATE) | Marketed |
+| 02438682 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM HEMIPENTAHYDRATE) | Marketed |
+| 02459434 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02463083 | PEMETREXED FOR INJECTION, USP | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02463091 | PEMETREXED FOR INJECTION, USP | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02480492 | TARO-PEMETREXED | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02528746 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02528754 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Marketed |
+| 02515423 | PEMETREXED FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM HEMIPENTAHYDRATE) | Dormant |
+| 02517639 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Dormant |
+| 02517647 | PEMETREXED DISODIUM FOR INJECTION | PEMETREXED (PEMETREXED DISODIUM) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Fourteen valid single-ingredient licences are on record in total.
 
 ## Cytotoxicity
 

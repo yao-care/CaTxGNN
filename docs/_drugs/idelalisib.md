@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 469
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IDELALISIB"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib: predicted new indication Mantle cell lymphoma (evidence level L3). In Canada: 2 DINs (2 marketed)"
@@ -106,10 +106,16 @@ No randomized controlled trials in MCL were found. The most relevant items are l
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|-----------|
-| 02438801 | ZYDELIG | Valid (single-ingredient) |
-| 02438798 | ZYDELIG | Valid (single-ingredient) |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02438798 | ZYDELIG | IDELALISIB | Marketed |
+| 02438801 | ZYDELIG | IDELALISIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Dosage form, manufacturer and approved indication text are not listed in the Canadian licence records compiled for this report.
 

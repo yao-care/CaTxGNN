@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 129
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromfenac: predicted new indication Eye disease (evidence level L1). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "BROMFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -109,10 +109,16 @@ The table lists the most relevant trials among the 39 linked to the "eye disease
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02439123 | PROLENSA | Not stated | Not stated |
-| 02537788 | APO-BROMFENAC | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02439123 | PROLENSA | BROMFENAC (BROMFENAC SODIUM SESQUIHYDRATE) | Marketed |
+| 02537788 | APO-BROMFENAC | BROMFENAC (BROMFENAC SODIUM SESQUIHYDRATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

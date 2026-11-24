@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 333
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Entrectinib: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Entrectinib,
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02495015 | ROZLYTREK |  | Valid |
-| 02495007 | ROZLYTREK |  | Valid |
+| 02495007 | ROZLYTREK | ENTRECTINIB | Marketed |
+| 02495015 | ROZLYTREK | ENTRECTINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

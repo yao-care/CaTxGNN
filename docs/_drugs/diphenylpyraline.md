@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diphenylpyraline"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Diphenylpyraline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -70,10 +70,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00299561 | CREO-RECTAL ADULTES/ADULTS | Not specified | Not specified |
-| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00299561 | CREO-RECTAL ADULTES/ADULTS | CAMPHOR; DIPHENYLPYRALINE HYDROCHLORIDE; GUAIACOL CARBONATE | Marketed |
+| 00299596 | CREO-RECTAL ENFANTS/CHILDREN | CAMPHOR; DIPHENYLPYRALINE HYDROCHLORIDE; GUAIACOL CARBONATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are valid. The product names suggest a rectal route, which may not suit nasal indications. The compiled data does not confirm the route, and route compatibility has not been assessed.
 

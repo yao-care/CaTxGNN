@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Monopotassium Phosphate: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not stated in the Canadian licence data (the products are potassium p…"
 monitor_inn: "Monopotassium phosphate"
 predicted_indications: ["renal tubular acidosis", "acute urate nephropathy", "dyspepsia", "potassium deficiency disease", "nephrolithiasis", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization"]
@@ -93,13 +93,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00711306 | Potassium Phosphate Monobasic Injection | Not specified | Not specified |
-| 02139545 | Potassium Phosphates Injection, USP | Not specified | Not specified |
-| 00804789 | Potassium Phosphates | Not specified | Not specified |
-| 00800007 | Tis-U-Sol Solution | Not specified | Not specified |
-| 01931679 | Isolyte S pH 7.4 (Multi-Electrolyte Injection) | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00711306 | POTASSIUM PHOSPHATE MONOBASIC INJECTION | POTASSIUM PHOSPHATE MONOBASIC | Marketed |
+| 00800007 | TIS-U-SOL SOLUTION | MAGNESIUM SULFATE; POTASSIUM CHLORIDE; POTASSIUM PHOSPHATE MONOBASIC; SODIUM CHLORIDE; SODIUM PHOSPHATE DIBAS… | Marketed |
+| 00804789 | POTASSIUM PHOSPHATES | POTASSIUM PHOSPHATE DIBASIC; POTASSIUM PHOSPHATE MONOBASIC | Marketed |
+| 01931679 | ISOLYTE S PH 7.4 (MULTI-ELECTROLYTE INJECTION) | MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; POTASSIUM PHOSPHATE MONOBASIC; SODIUM ACETATE; SODIUM CHLORIDE; SODIU… | Marketed |
+| 02139545 | POTASSIUM PHOSPHATES INJECTION, USP | POTASSIUM PHOSPHATE DIBASIC; POTASSIUM PHOSPHATE MONOBASIC | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid authorizations.
 

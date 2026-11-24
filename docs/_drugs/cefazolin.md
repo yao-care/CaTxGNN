@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "CEFAZOLIN"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: predicted new indication infectious otitis media (evidence level L5). In Canada: 16 DINs (15 marketed)"
 ---
 
@@ -74,13 +74,30 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02308959 | CEFAZOLIN FOR INJECTION USP | Not recorded | Not recorded |
-| 02308967 | CEFAZOLIN FOR INJECTION USP | Not recorded | Not recorded |
-| 02108119 | CEFAZOLIN FOR INJECTION | Not recorded | Not recorded |
-| 02524791 | CEFAZOLIN SODIUM FOR INJECTION BP | Not recorded | Not recorded |
-| 02437112 | CEFAZOLIN FOR INJECTION | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02108119 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02108127 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02237138 | CEFAZOLIN FOR INJECTION, USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02237140 | CEFAZOLIN FOR INJECTION, USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02308932 | CEFAZOLIN FOR INJECTION USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02308959 | CEFAZOLIN FOR INJECTION USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02308967 | CEFAZOLIN FOR INJECTION USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02401029 | CEFAZOLIN FOR INJECTION, USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02437104 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02437112 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02437120 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02465469 | CEFAZOLIN SODIUM FOR INJECTION BP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02465477 | CEFAZOLIN SODIUM FOR INJECTION BP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02496313 | CEFAZOLIN IN DEXTROSE INJECTION, USP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02524791 | CEFAZOLIN SODIUM FOR INJECTION BP | CEFAZOLIN (CEFAZOLIN SODIUM) | Marketed |
+| 02108135 | CEFAZOLIN FOR INJECTION | CEFAZOLIN (CEFAZOLIN SODIUM) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The approved indication text is not recorded in the local data.
 

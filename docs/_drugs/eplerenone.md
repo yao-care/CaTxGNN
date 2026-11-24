@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 338
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eplerenone: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "EPLERENONE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
@@ -93,13 +93,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02543397 | JAMP EPLERENONE | Not specified | Not specified |
-| 02323060 | INSPRA | Not specified | Not specified |
-| 02323052 | INSPRA | Not specified | Not specified |
-| 02471442 | MINT-EPLERENONE | Not specified | Not specified |
-| 02543389 | JAMP EPLERENONE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02323052 | INSPRA | EPLERENONE | Marketed |
+| 02323060 | INSPRA | EPLERENONE | Marketed |
+| 02471442 | MINT-EPLERENONE | EPLERENONE | Marketed |
+| 02471450 | MINT-EPLERENONE | EPLERENONE | Marketed |
+| 02543389 | JAMP EPLERENONE | EPLERENONE | Marketed |
+| 02543397 | JAMP EPLERENONE | EPLERENONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, MINT-EPLERENONE (DIN 02471450), is also valid. All six are single-ingredient products.
 

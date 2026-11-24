@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 864
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not available"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -82,10 +82,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00498807 | Sorbitol Mannitol Irrigation | Not specified | Not specified |
-| 00799963 | Cystosol W 3% Hexitols | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00498807 | SORBITOL MANNITOL IRRIGATION | MANNITOL; SORBITOL | Marketed |
+| 00799963 | CYSTOSOL W 3% HEXITOLS | MANNITOL; SORBITOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

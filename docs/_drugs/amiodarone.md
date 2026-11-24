@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -81,15 +81,28 @@ None of these publications shows a benefit of amiodarone in catecholaminergic po
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02364336 | AMIODARONE | Not available | Not available |
-| 02243836 | SANDOZ AMIODARONE | Not available | Not available |
-| 02247217 | RIVA-AMIODARONE | Not available | Not available |
-| 02292173 | PMS-AMIODARONE | Not available | Not available |
-| 02385465 | AMIODARONE | Not available | Not available |
+<!-- licenses:begin -->
 
-All 12 single-ingredient licences are valid, so the list above shows only 5 of them.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239835 | TEVA-AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02242325 | AMIODARONE HYDROCHLORIDE FOR INJECTION | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02242472 | PMS-AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02243836 | SANDOZ AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02245248 | AMIODARONE HYDROCHLORIDE FOR INJECTION, USP | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02246194 | APO-AMIODARONE TABLETS | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02247217 | RIVA-AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02292173 | PMS-AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02309661 | PRO-AMIODARONE - 200 | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02364336 | AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02385465 | AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+| 02531844 | JAMP AMIODARONE | AMIODARONE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 12 single-ingredient licences are valid.
 
 ## Cytotoxicity
 

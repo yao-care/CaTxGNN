@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: predicted new indication Acne (disease) (evidence level L5). In Canada: at least 20 DINs"
@@ -73,15 +73,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Clotrimazole is marketed in Canada, and all 20 single-ingredient licences in the local data are valid. The records are partial, and the table below lists five of them. Dosage form and approved-indication text are not recorded in the local data.
+Clotrimazole is marketed in Canada, and all 20 single-ingredient licences in the local data are valid. The records are partial. Dosage form and approved-indication text are not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02229378 | Clotrimazole Vaginal 6 | — | — |
-| 02150859 | Canesten Comfortab 1 | — | — |
-| 02229380 | Clotrimazole Topical | — | — |
-| 02462397 | Clotrimazole External Antifungal Cream | — | — |
-| 02264102 | Canesten Combi 1 Day | — | — |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00812366 | CLOTRIMADERM VAGINAL 6 | CLOTRIMAZOLE | Marketed |
+| 00812374 | CLOTRIMADERM VAGINAL 3 | CLOTRIMAZOLE | Marketed |
+| 00812382 | CLOTRIMADERM TOPICAL | CLOTRIMAZOLE | Marketed |
+| 02150840 | CANESTEN COMFORTAB 3 | CLOTRIMAZOLE | Marketed |
+| 02150859 | CANESTEN COMFORTAB 1 | CLOTRIMAZOLE | Marketed |
+| 02150867 | CANESTEN 1% TOPICAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02150883 | CANESTEN 1 DAY INTERNAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02150891 | CANESTEN 6 DAY INTERNAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02229378 | CLOTRIMAZOLE VAGINAL 6 | CLOTRIMAZOLE | Marketed |
+| 02229379 | CLOTRIMAZOLE VAGINAL 3 | CLOTRIMAZOLE | Marketed |
+| 02229380 | CLOTRIMAZOLE TOPICAL | CLOTRIMAZOLE | Marketed |
+| 02230509 | CANESTEN COMBI 1 DAY INTERNAL + EXTERNAL CREAMS | CLOTRIMAZOLE | Marketed |
+| 02239432 | CANESTEN EXTERNAL ANTIFUNGAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02264102 | CANESTEN COMBI 1 DAY | CLOTRIMAZOLE | Marketed |
+| 02311720 | CANESTEN EXTERNAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02462397 | CLOTRIMAZOLE EXTERNAL ANTIFUNGAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02490927 | CANESTEN EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02503360 | CLOTRIMAZOLE EXTRA STRENGTH EXTERNAL ANTIFUNGAL CREAM | CLOTRIMAZOLE | Marketed |
+| 02547252 | CANESTEN SOFT CAPSULE 1 | CLOTRIMAZOLE | Marketed |
+| 02547260 | CANESTEN COMBI 1 DAY SOFT CAPSULE + EXTRA STRENGTH EXTERNAL CREAM | CLOTRIMAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

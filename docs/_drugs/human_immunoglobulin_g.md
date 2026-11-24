@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Human Immunoglobulin G: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Human immunoglobulin G"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis"]
@@ -78,15 +78,32 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form, manufacturer and approved indication text were not recorded for these licences. The first five of the 16 valid authorizations are listed:
+Dosage form, manufacturer and approved indication text were not recorded for these licences.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02279444 | GAMMAGARD LIQUID | Not recorded | Not recorded |
-| 02461692 | CUVITRU | Not recorded | Not recorded |
-| 02277921 | IGIVNEX | Not recorded | Not recorded |
-| 02498251 | HIZENTRA | Not recorded | Not recorded |
-| 02247724 | GAMUNEX | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231470 | GAMMAGARD S/D | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02247724 | GAMUNEX | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02277921 | IGIVNEX | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02279444 | GAMMAGARD LIQUID | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02304619 | PRIVIGEN | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02461692 | CUVITRU | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02463059 | HIZENTRA | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02463067 | HIZENTRA | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02486598 | GAMASTAN | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02498251 | HIZENTRA | IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524368 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524376 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524384 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524392 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02524406 | HYQVIA | HYALURONIDASE (HUMAN RECOMBINANT); IMMUNOGLOBULIN (HUMAN) | Marketed |
+| 02535424 | HIZENTRA | IMMUNOGLOBULIN (HUMAN) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining licences cover additional HIZENTRA, GAMASTAN, PRIVIGEN, GAMMAGARD S/D and HYQVIA products.
 

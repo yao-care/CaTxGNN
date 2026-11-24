@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 996
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-24
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 16 DINs (13 marketed, 3 dormant)"
@@ -97,13 +97,30 @@ The publications below are the most relevant of those compiled. None specificall
 
 Zolmitriptan has 16 valid single-ingredient authorizations in Canada. The approved indication text and dosage forms are not available in the data compiled for this report. Product names suggest nasal spray and orally disintegrating formulations in addition to standard tablets.
 
-| DIN | Product Name |
-|---------|------|
-| 02238660 | ZOMIG |
-| 02243045 | ZOMIG RAPIMELT |
-| 02248992 | ZOMIG NASAL SPRAY |
-| 02248993 | ZOMIG NASAL SPRAY |
-| 02313960 | TEVA-ZOLMITRIPTAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02238660 | ZOMIG | ZOLMITRIPTAN | Marketed |
+| 02243045 | ZOMIG RAPIMELT | ZOLMITRIPTAN | Marketed |
+| 02248992 | ZOMIG NASAL SPRAY | ZOLMITRIPTAN | Marketed |
+| 02248993 | ZOMIG NASAL SPRAY | ZOLMITRIPTAN | Marketed |
+| 02313960 | TEVA-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02342545 | TEVA-ZOLMITRIPTAN OD | ZOLMITRIPTAN | Marketed |
+| 02399458 | MAR-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02419521 | MINT-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02421534 | NAT-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02421623 | JAMP-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02481030 | AURO-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02489392 | NRA-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02512831 | BIO-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02362988 | SANDOZ ZOLMITRIPTAN | ZOLMITRIPTAN | Dormant |
+| 02362996 | SANDOZ ZOLMITRIPTAN ODT | ZOLMITRIPTAN | Dormant |
+| 02442655 | ZOLMITRIPTAN | ZOLMITRIPTAN | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining 11 authorizations are generic products, including Sandoz, Teva (OD), Mint, Nat, NRA, Mar, Bio, Jamp and Auro versions.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available from the Canadian licence data compiled for this report…"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -96,13 +96,26 @@ There is an important limitation. The combined pill induces withdrawal bleeding 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02410257 | MIRVALA 28 | Not listed | Not listed |
-| 02272903 | LINESSA 21 | Not listed | Not listed |
-| 02257238 | LINESSA 28 | Not listed | Not listed |
-| 02556561 | MILEY 28 | Not listed | Not listed |
-| 02556553 | MILEY 21 | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02042479 | MARVELON 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02042487 | MARVELON 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02257238 | LINESSA 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02272903 | LINESSA 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02317192 | APRI 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02317206 | APRI 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02396491 | FREYA 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02396610 | FREYA 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02410249 | MIRVALA 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02410257 | MIRVALA 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02556553 | MILEY 21 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+| 02556561 | MILEY 28 | DESOGESTREL; ETHINYL ESTRADIOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The other seven licences are APRI 28, APRI 21, MARVELON 28, MARVELON 21, MIRVALA 21, FREYA 28 and FREYA 21. All 12 licences are valid.
 

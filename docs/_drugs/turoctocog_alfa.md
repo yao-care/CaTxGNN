@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 955
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Turoctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia (including the symptomatic form of hemophilia in female ca…"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -74,15 +74,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences. The data compiled for this report do not include dosage form or approved indication text for these entries. The five listed below are examples; the remaining licences are under the same or related brand names.
+Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences. The data compiled for this report do not include dosage form or approved indication text for these entries. The remaining licences are under the same or related brand names.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02435217 | ZONOVATE | Not available | Not available |
-| 02435187 | ZONOVATE | Not available | Not available |
-| 02435209 | ZONOVATE | Not available | Not available |
-| 02451484 | KOVALTRY | Not available | Not available |
-| 02451476 | KOVALTRY | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02261219 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
+| 02261227 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
+| 02261235 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
+| 02430312 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
+| 02430320 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
+| 02430339 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
+| 02447401 | OBIZUR | ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE | Marketed |
+| 02451441 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
+| 02451468 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
+| 02451476 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
+| 02451484 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
+| 02451492 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
+| 02498537 | ADYNOVATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT), PEGYLATED | Marketed |
+| 02498545 | ADYNOVATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT), PEGYLATED | Marketed |
+| 02435187 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+| 02435195 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+| 02435209 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+| 02435217 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+| 02435225 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+| 02435233 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself.
 

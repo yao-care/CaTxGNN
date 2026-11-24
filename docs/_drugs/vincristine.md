@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -104,10 +104,16 @@ Some of the 20 supplied publications are only loosely related (for example, a re
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02183013 | VINCRISTINE SULFATE INJECTION USP | Not stated | Not stated |
-| 02143305 | VINCRISTINE SULFATE INJECTION | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02143305 | VINCRISTINE SULFATE INJECTION | VINCRISTINE SULFATE | Marketed |
+| 02183013 | VINCRISTINE SULFATE INJECTION USP | VINCRISTINE SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient licences. The compiled data contain no approved-indication text, so the approved indications in Canada cannot be stated here. The lymphoid conditions listed above are relations recorded in the knowledge graph, not confirmed approved indications.
 

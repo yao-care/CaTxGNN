@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not specified in the available license data (the products are markete…"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -80,13 +80,26 @@ Currently no related literature available for gout.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02248489 | 4% Astracaine Dental with Epinephrine 1:200,000 (0.005 mg/mL) | Not listed | Not listed |
-| 02123371 | Septanest N | Not listed | Not listed |
-| 02339544 | Articaine Hydrochloride and Epinephrine Bitartrate Injection | Not listed | Not listed |
-| 02248488 | 4% Astracaine Dental with Epinephrine Forte 1:100,000 (0.01 mg/mL) | Not listed | Not listed |
-| 02381338 | Posicaine SP | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01988530 | ULTRACAINE D-S INJECTION | ARTICAINE HYDROCHLORIDE; EPINEPHRINE | Marketed |
+| 01988557 | ULTRACAINE D-S FORTE INJECTION | ARTICAINE HYDROCHLORIDE; EPINEPHRINE | Marketed |
+| 02123371 | SEPTANEST N | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02123398 | SEPTANEST SP | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02248488 | 4% ASTRACAINE DENTAL WITH EPINEPHRINE FORTE 1:100,000 (0.01MG/ML) | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02248489 | 4% ASTRACAINE DENTAL WITH EPINEPHRINE 1:200,000 (0.005MG/ML) | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02339536 | ARTICAINE HYDROCHLORIDE AND EPINEPHRINE BITARTRATE INJECTION | ARTICAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02339544 | ARTICAINE HYDROCHLORIDE AND EPINEPHRINE BITARTRATE INJECTION | ARTICAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02361906 | ORABLOC 1:200,000 | ARTICAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02361914 | ORABLOC 1:100,000 | ARTICAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02381311 | POSICAINE N | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02381338 | POSICAINE SP | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Twelve valid licenses exist in total; the five above are shown.
 

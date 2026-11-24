@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 615
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: predicted new indication Insomnia (evidence level L2). Approved use: Anxiety"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -83,13 +83,28 @@ Oral midazolam was studied as a hypnotic from the early 1980s to 1990. However, 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242905 | MIDAZOLAM INJECTION, USP | Not specified | Not specified |
-| 02559579 | BUCCOLAM | Not specified | Not specified |
-| 02498022 | MIDAZOLAM INJECTION USP | Not specified | Not specified |
-| 02382385 | MIDAZOLAM INJECTION USP | Not specified | Not specified |
-| 02240286 | MIDAZOLAM INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240285 | MIDAZOLAM INJECTION | MIDAZOLAM | Marketed |
+| 02240286 | MIDAZOLAM INJECTION | MIDAZOLAM | Marketed |
+| 02242904 | MIDAZOLAM INJECTION, USP | MIDAZOLAM | Marketed |
+| 02242905 | MIDAZOLAM INJECTION, USP | MIDAZOLAM | Marketed |
+| 02382342 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02382350 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02382377 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02382385 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02498022 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02553104 | MIDAZOLAM INJECTION USP | MIDAZOLAM | Marketed |
+| 02559579 | BUCCOLAM | MIDAZOLAM (MIDAZOLAM HYDROCHLORIDE) | Marketed |
+| 02559587 | BUCCOLAM | MIDAZOLAM (MIDAZOLAM HYDROCHLORIDE) | Marketed |
+| 02559595 | BUCCOLAM | MIDAZOLAM (MIDAZOLAM HYDROCHLORIDE) | Marketed |
+| 02559609 | BUCCOLAM | MIDAZOLAM (MIDAZOLAM HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Fourteen valid single-ingredient DINs are listed in total; no authorisations are cancelled.
 

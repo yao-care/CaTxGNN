@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ARSENIC TRIOXIDE"
 predicted_indications: ["unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "partial deletion of the long arm of chromosome 5", "myelodysplastic syndrome", "Ewing sarcoma", "dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Arsenic Trioxide: predicted new indication unclassified myelodysplastic syndrome (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
@@ -69,6 +69,19 @@ Currently no related clinical trials registered.
 Currently no related literature available.
 
 ## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02487357 | ARSENIC TRIOXIDE SOLUTION FOR INJECTION | ARSENIC TRIOXIDE | Marketed |
+| 02492768 | ARSENIC TRIOXIDE FOR INJECTION | ARSENIC TRIOXIDE | Marketed |
+| 02513420 | ARSENIC TRIOXIDE FOR INJECTION | ARSENIC TRIOXIDE | Marketed |
+| 02554364 | ARSENIC TRIOXIDE FOR INJECTION | ARSENIC TRIOXIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Health Canada records show the drug is marketed, with 4 valid licences. All are single-ingredient products for injection, and none is cancelled. The local records do not include approved-indication text, dosage form or manufacturer details for these licences.
 

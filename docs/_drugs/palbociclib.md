@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Palbociclib"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: predicted new indication Top TxGNN rank: hyperthyroidism . Best-supported candidate: myeloid leukemia (hyperthyroidism) (evidence level L5). In Canada: 9 DINs (9 marketed)"
@@ -131,13 +131,23 @@ No literature was found for the other predicted indications.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02493535 | IBRANCE | Not available | Not available |
-| 02493543 | IBRANCE | Not available | Not available |
-| 02493551 | IBRANCE | Not available | Not available |
-| 02547635 | TARO-PALBOCICLIB | Not available | Not available |
-| 02552124 | PMS-PALBOCICLIB | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02493535 | IBRANCE | PALBOCICLIB | Marketed |
+| 02493543 | IBRANCE | PALBOCICLIB | Marketed |
+| 02493551 | IBRANCE | PALBOCICLIB | Marketed |
+| 02547635 | TARO-PALBOCICLIB | PALBOCICLIB | Marketed |
+| 02547643 | TARO-PALBOCICLIB | PALBOCICLIB | Marketed |
+| 02547651 | TARO-PALBOCICLIB | PALBOCICLIB | Marketed |
+| 02552124 | PMS-PALBOCICLIB | PALBOCICLIB | Marketed |
+| 02552132 | PMS-PALBOCICLIB | PALBOCICLIB | Marketed |
+| 02552140 | PMS-PALBOCICLIB | PALBOCICLIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Nine valid single-ingredient licenses exist in total: 3 IBRANCE, 3 TARO-PALBOCICLIB and 3 PMS-PALBOCICLIB. None is cancelled.
 

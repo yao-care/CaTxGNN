@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 836
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Motion sickness, irritable bowel syndrome, peptic ulcer disease…"
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
@@ -90,10 +90,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242811 | Scopolamine Hydrobromide Injection | Injection | Not listed in the data |
-| 02242810 | Scopolamine Hydrobromide Injection | Injection | Not listed in the data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242810 | SCOPOLAMINE HYDROBROMIDE INJECTION | SCOPOLAMINE HYDROBROMIDE | Marketed |
+| 02242811 | SCOPOLAMINE HYDROBROMIDE INJECTION | SCOPOLAMINE HYDROBROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

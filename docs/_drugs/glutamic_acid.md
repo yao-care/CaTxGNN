@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 436
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glutamic Acid: predicted new indication Postmenopausal osteoporosis (evidence level L4). Approved use: Not stated in the available license data (marketed in Canada as a com…"
 monitor_inn: "GLUTAMIC ACID"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -94,13 +94,21 @@ No randomized trial of glutamic acid in postmenopausal osteoporosis was found. T
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02141450 | 20% PROSOL | Not specified | Not specified |
-| 02352540 | OLIMEL 5.7% | Not specified | Not specified |
-| 02236875 | PRIMENE 10% | Not specified | Not specified |
-| 02477947 | OLIMEL 7.6% | Not specified | Not specified |
-| 02352494 | PERIOLIMEL 2.5% E | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02141450 | 20% PROSOL | ALANINE; ARGININE; DL-METHIONINE; GLUTAMIC ACID; GLYCINE; HISTIDINE; ISOLEUCINE; L-ASPARTIC ACID; LEUCINE; LY… | Marketed |
+| 02236875 | PRIMENE 10% | GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ASPARTIC ACID; L-CYSTEINE; L-ISOLEUCINE; L-LEUCIN… | Marketed |
+| 02352494 | PERIOLIMEL 2.5% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352532 | OLIMEL 5.7% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352540 | OLIMEL 5.7% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02477947 | OLIMEL 7.6% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02477955 | OLIMEL 7.6% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two further authorizations (OLIMEL 7.6% E, DIN 02477955, and OLIMEL 5.7% E, DIN 02352532) are also valid, bringing the total to 7 DINs.
 

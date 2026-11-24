@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Conjugated estrogens"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "heparin cofactor 2 deficiency", "Prinzmetal angina", "hemoglobinopathy", "thrombophilia"]
 description: "Conjugated Estrogens: predicted new indication Migraine disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -77,13 +77,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02043440 | PREMARIN VAGINAL CREAM | Not specified | Not specified |
-| 02414678 | PREMARIN | Not specified | Not specified |
-| 02414694 | PREMARIN | Not specified | Not specified |
-| 02043386 | PREMARIN INTRAVENOUS | Not specified | Not specified |
-| 02414686 | PREMARIN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02043386 | PREMARIN INTRAVENOUS | CONJUGATED ESTROGENS | Marketed |
+| 02043440 | PREMARIN VAGINAL CREAM | CONJUGATED ESTROGENS | Marketed |
+| 02414678 | PREMARIN | CONJUGATED ESTROGENS | Marketed |
+| 02414686 | PREMARIN | CONJUGATED ESTROGENS | Marketed |
+| 02414694 | PREMARIN | CONJUGATED ESTROGENS | Marketed |
+| 02432854 | DUAVIVE | BAZEDOXIFENE (BAZEDOXIFENE ACETATE); CONJUGATED ESTROGENS | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 At least one more licence (DUAVIVE, DIN 02432854) is also valid. All 6 licences are currently valid.
 

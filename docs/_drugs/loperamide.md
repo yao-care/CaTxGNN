@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -90,13 +90,28 @@ Literature exists only for two other predicted indications, and both raise safet
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238211 | RIVA-LOPERAMIDE | Not available | Not available |
-| 02544989 | JAMP LOPERAMIDE | Not available | Not available |
-| 02291800 | IMODIUM CALMING LIQUID | Not available | Not available |
-| 02499517 | DIARRHEA RELIEF FAST DISSOLVE | Not available | Not available |
-| 02552337 | DIARRHEA RELIEF LIQUID GELS | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02016095 | PMS-LOPERAMIDE HYDROCHLORIDE SOLUTION.2MG/ML | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02132591 | TEVA-LOPERAMIDE | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02225182 | LOPERAMIDE-2 | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02228351 | PMS-LOPERAMIDE - CAPLET 2MG | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02230542 | IMODIUM QUICK DISSOLVE | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02238211 | RIVA-LOPERAMIDE | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02245185 | IMODIUM COMPLETE | LOPERAMIDE HYDROCHLORIDE; SIMETHICONE | Marketed |
+| 02248994 | DIARRHEA RELIEF | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02256452 | DIARRHEA RELIEF | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02291800 | IMODIUM CALMING LIQUID | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02376016 | IMODIUM LIQUI-GELS | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02499517 | DIARRHEA RELIEF FAST DISSOLVE | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02544989 | JAMP LOPERAMIDE | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02552337 | DIARRHEA RELIEF LIQUID GELS | LOPERAMIDE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 There are 14 valid licences in total. None is cancelled.
 

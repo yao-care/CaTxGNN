@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 880
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Female breast carcinoma, invasive ductal breast carcinoma…"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -111,12 +111,18 @@ For breast carcinoma in situ (stronger candidate):
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00851973 | TEVA-TAMOXIFEN | Not specified | Not specified |
-| 00851965 | TEVA-TAMOXIFEN | Not specified | Not specified |
-| 00812404 | APO-TAMOX TAB 10MG | Tablet | Not specified |
-| 00812390 | APO-TAMOX TAB 20MG | Tablet | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00812390 | APO-TAMOX TAB 20MG | TAMOXIFEN (TAMOXIFEN CITRATE) | Marketed |
+| 00812404 | APO-TAMOX TAB 10MG | TAMOXIFEN (TAMOXIFEN CITRATE) | Marketed |
+| 00851965 | TEVA-TAMOXIFEN | TAMOXIFEN (TAMOXIFEN CITRATE) | Marketed |
+| 00851973 | TEVA-TAMOXIFEN | TAMOXIFEN (TAMOXIFEN CITRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

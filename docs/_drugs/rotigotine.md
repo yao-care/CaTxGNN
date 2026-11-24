@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 826
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
 description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -86,13 +86,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02403927 | NEUPRO | Not listed | Not listed |
-| 02403897 | NEUPRO | Not listed | Not listed |
-| 02403919 | NEUPRO | Not listed | Not listed |
-| 02403900 | NEUPRO | Not listed | Not listed |
-| 02403943 | NEUPRO | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02403897 | NEUPRO | ROTIGOTINE | Marketed |
+| 02403900 | NEUPRO | ROTIGOTINE | Marketed |
+| 02403919 | NEUPRO | ROTIGOTINE | Marketed |
+| 02403927 | NEUPRO | ROTIGOTINE | Marketed |
+| 02403935 | NEUPRO | ROTIGOTINE | Marketed |
+| 02403943 | NEUPRO | ROTIGOTINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 (5 of 6 valid single-ingredient authorizations shown; the sixth is DIN 02403935, also NEUPRO.)
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -71,11 +71,17 @@ Currently no related literature available.
 
 Dantrolene is marketed in Canada, with 3 valid single-ingredient licences and none cancelled. The approved indication text is not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01997572 | DANTRIUM INTRAVENOUS | Not recorded | Not recorded |
-| 02529998 | DANTROLENE SODIUM FOR INJECTION, USP | Not recorded | Not recorded |
-| 01997602 | DANTRIUM CAPSULES | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01997572 | DANTRIUM INTRAVENOUS | DANTROLENE SODIUM | Marketed |
+| 01997602 | DANTRIUM CAPSULES | DANTROLENE SODIUM | Marketed |
+| 02529998 | DANTROLENE SODIUM FOR INJECTION, USP | DANTROLENE SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 309
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab: predicted new indication Bronchitis (evidence level L3). In Canada: 4 DINs (4 marketed)"
@@ -95,12 +95,18 @@ The label "bronchitis" is broad, though. Evidence for bronchitis itself is limit
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02510049 | DUPIXENT | Not specified | Not specified |
-| 02524252 | DUPIXENT | Not specified | Not specified |
-| 02492504 | DUPIXENT | Not specified | Not specified |
-| 02470365 | DUPIXENT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02470365 | DUPIXENT | DUPILUMAB | Marketed |
+| 02492504 | DUPIXENT | DUPILUMAB | Marketed |
+| 02510049 | DUPIXENT | DUPILUMAB | Marketed |
+| 02524252 | DUPIXENT | DUPILUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

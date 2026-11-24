@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -95,6 +95,25 @@ Currently no related literature available — no predicted indication is availab
 ---
 
 ## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02377691 | TEVA-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02377705 | TEVA-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02377713 | TEVA-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02454394 | PMS-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02461862 | APO-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02461870 | APO-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02461889 | APO-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Marketed |
+| 02483912 | NAT-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Dormant |
+| 02483920 | NAT-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Dormant |
+| 02483939 | NAT-ERLOTINIB | ERLOTINIB (ERLOTINIB HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 | Item | Detail |
 |------|--------|

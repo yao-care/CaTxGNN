@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 870
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). In Canada: 4 DINs (4 marketed)"
@@ -95,12 +95,18 @@ The two RCTs are small and old, and the summaries available here do not report t
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02125250 | APO-SUCRALFATE - TAB 1G | Not listed | Not listed |
-| 02100622 | SULCRATE | Not listed | Not listed |
-| 02103567 | SULCRATE SUSPENSION PLUS | Not listed | Not listed |
-| 02045702 | TEVA-SUCRALFATE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02045702 | TEVA-SUCRALFATE | SUCRALFATE | Marketed |
+| 02100622 | SULCRATE | SUCRALFATE | Marketed |
+| 02103567 | SULCRATE SUSPENSION PLUS | SUCRALFATE | Marketed |
+| 02125250 | APO-SUCRALFATE - TAB 1G | SUCRALFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

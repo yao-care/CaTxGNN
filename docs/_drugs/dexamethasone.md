@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DEXAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In Canada: at least 20 DINs"
@@ -61,15 +61,38 @@ The high model score (0.9999) appears to reflect a shared hair-loss (alopecia) p
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02204266 | DEXAMETHASONE-OMEGA | Not specified | Not specified |
-| 02261081 | APO-DEXAMETHASONE | Not specified | Not specified |
-| 01977547 | DEXAMETHASONE SODIUM PHOSPHATE INJECTION, USP | Not specified | Not specified |
-| 02363445 | OZURDEX | Not specified | Not specified |
-| 01946897 | PMS-DEXAMETHASONE ELIXIR | Not specified | Not specified |
+<!-- licenses:begin -->
 
-The list above shows 5 of the licences in the local data, and the records may be partial. All listed licences are valid single-ingredient products.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00042560 | MAXIDEX | DEXAMETHASONE | Marketed |
+| 00042579 | MAXIDEX | DEXAMETHASONE | Marketed |
+| 00664227 | DEXAMETHASONE SODIUM PHOSPHATE INJ USP 4MG/ML | DEXAMETHASONE PHOSPHATE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 00778915 | TOBRADEX | DEXAMETHASONE; TOBRAMYCIN | Marketed |
+| 00874582 | DEXAMETHASONE SOD PHOSPH INJ 10MG/ML USP | DEXAMETHASONE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 01946897 | PMS-DEXAMETHASONE ELIXIR | DEXAMETHASONE | Marketed |
+| 01964070 | PMS-DEXAMETHASONE | DEXAMETHASONE | Marketed |
+| 01964976 | PMS-DEXAMETHASONE | DEXAMETHASONE | Marketed |
+| 01977547 | DEXAMETHASONE SODIUM PHOSPHATE INJECTION, USP | DEXAMETHASONE PHOSPHATE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 02023865 | DEXAMETHASONE | DEXAMETHASONE SODIUM PHOSPHATE | Marketed |
+| 02204266 | DEXAMETHASONE-OMEGA | DEXAMETHASONE PHOSPHATE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 02204274 | DEXAMETHASONE-OMEGA | DEXAMETHASONE PHOSPHATE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 02250055 | APO-DEXAMETHASONE | DEXAMETHASONE | Marketed |
+| 02261081 | APO-DEXAMETHASONE | DEXAMETHASONE | Marketed |
+| 02279363 | PMS-DEXAMETHASONE | DEXAMETHASONE | Marketed |
+| 02363445 | OZURDEX | DEXAMETHASONE | Marketed |
+| 02387743 | DEXAMETHASONE OMEGA UNIDOSE | DEXAMETHASONE PHOSPHATE (DEXAMETHASONE SODIUM PHOSPHATE) | Marketed |
+| 02506882 | SANDOZ CIPROFLOXACIN / DEXAMETHASONE | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE); DEXAMETHASONE | Marketed |
+| 02528584 | ODAN-DEXAMETHASONE ELIXIR | DEXAMETHASONE | Marketed |
+| 02543745 | LEVODEXA | DEXAMETHASONE (DEXAMETHASONE SODIUM PHOSPHATE); LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+All listed licences are valid single-ingredient products.
 
 ## Safety Considerations
 

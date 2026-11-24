@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the licence data (marketed as an antibacterial throat l…"
 monitor_inn: "AMYLMETACRESOL"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -85,13 +85,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02375567 | Antibacterial Throat Lozenges | Not stated | Not stated |
-| 02382938 | Cepacol Sensations | Not stated | Not stated |
-| 02404982 | Cepacol Children's Fruity Strawberry | Not stated | Not stated |
-| 02388642 | Cepacol Sensations Sore Throat & Cough | Not stated | Not stated |
-| 02382881 | Cepacol Sensations Sore Throat & Blocked Nose | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02375567 | ANTIBACTERIAL THROAT LOZENGES | AMYLMETACRESOL; DICHLOROBENZYL ALCOHOL | Marketed |
+| 02382881 | CEPACOL SENSATIONS SORE THROAT & BLOCKED NOSE | AMYLMETACRESOL; DICHLOROBENZYL ALCOHOL; LEVOMENTHOL | Marketed |
+| 02382938 | CEPACOL SENSATIONS | AMYLMETACRESOL; DICHLOROBENZYL ALCOHOL | Marketed |
+| 02388642 | CEPACOL SENSATIONS SORE THROAT & COUGH | AMYLMETACRESOL; DICHLOROBENZYL ALCOHOL; MENTHOL | Marketed |
+| 02404982 | CEPACOL CHILDREN'S FRUITY STRAWBERRY | AMYLMETACRESOL; DICHLOROBENZYL ALCOHOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

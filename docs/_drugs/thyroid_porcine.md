@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 910
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Thyroid, porcine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina"]
 description: "Thyroid Porcine: predicted new indication Migraine disorder (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -75,11 +75,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00023949 | THYROID | Not stated | Not stated |
-| 00023957 | THYROID | Not stated | Not stated |
-| 00023965 | THYROID | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00023949 | THYROID | THYROID | Marketed |
+| 00023957 | THYROID | THYROID | Marketed |
+| 00023965 | THYROID | THYROID | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

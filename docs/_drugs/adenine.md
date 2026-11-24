@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Adenine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the available Health Canada records"
 monitor_inn: "Adenine"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -63,7 +63,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The only publication retrieved for the predicted indication (PMID 31026554) describes liver injury in rats caused by an herbal osteoporosis formula (Xian-Ling-Gu-Bao). It does not involve adenine as a treatment, so any link is incidental. The very high score from the TxGNN model (deep learning) (rank 14,056 overall) may reflect similarities the model learned between related diseases, not biological evidence. No credible mechanistic bridge between adenine and drug-induced osteoporosis can be established from the available data.
 
-
 ---
 
 ## Clinical Trial Evidence
@@ -82,10 +81,16 @@ Currently no related clinical trials registered for drug-induced osteoporosis.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02386925 | SAG-M | Not specified | Not specified |
-| 02444097 | ADDITIVE SOLUTION SODIUM ADENINE GLUCOSE MANNITOL (SAGM) | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02444097 | ADDITIVE SOLUTION SODIUM ADENINE GLUCOSE MANNITOL (SAGM) | ADENINE; DEXTROSE; MANNITOL; SODIUM CHLORIDE | Marketed |
+| 02386925 | SAG-M | ADENINE; DEXTROSE; MANNITOL; SODIUM CHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

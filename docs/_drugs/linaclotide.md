@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LINACLOTIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "insomnia (disease)"]
 description: "Linaclotide: predicted new indication Cauda equina syndrome (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -72,11 +72,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02469510 | CONSTELLA | Not specified | Not specified |
-| 02417162 | CONSTELLA | Not specified | Not specified |
-| 02417170 | CONSTELLA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02417162 | CONSTELLA | LINACLOTIDE | Marketed |
+| 02417170 | CONSTELLA | LINACLOTIDE | Marketed |
+| 02469510 | CONSTELLA | LINACLOTIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three authorizations are valid single-ingredient products.
 

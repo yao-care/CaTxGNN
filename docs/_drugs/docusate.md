@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docusate: predicted new indication Plummer-Vinson syndrome (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -69,15 +69,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-At least 20 valid single-ingredient licences are recorded, and the list may be partial. Examples of products:
+At least 20 valid single-ingredient licences are recorded, and the list may be partial.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02530538 | NRA-DOCUSATE SODIUM | Not recorded | Not recorded |
-| 01994344 | SOFLAX CAPSULES 100MG | Not recorded | Not recorded |
-| 02484226 | COLACE CLEAR | Not recorded | Not recorded |
-| 02526492 | ENEMEEZ | Not recorded | Not recorded |
-| 00870226 | RATIO-DOCUSATE SODIUM | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00514888 | SELAX CAP 100MG | DOCUSATE SODIUM | Marketed |
+| 00703494 | PMS-DOCUSATE SODIUM | DOCUSATE SODIUM | Marketed |
+| 00716731 | TARO-DOCUSATE | DOCUSATE SODIUM | Marketed |
+| 00870226 | RATIO-DOCUSATE SODIUM | DOCUSATE SODIUM | Marketed |
+| 01994344 | SOFLAX CAPSULES 100MG | DOCUSATE SODIUM | Marketed |
+| 02086018 | COLACE SYRUP | DOCUSATE SODIUM | Marketed |
+| 02090163 | COLACE | DOCUSATE SODIUM | Marketed |
+| 02106256 | COLACE CAPSULES | DOCUSATE SODIUM | Marketed |
+| 02232969 | STOOL SOFTENER | DOCUSATE SODIUM | Marketed |
+| 02238283 | SIROP DOCUSATE DE SODIUM U.S.P. 4MG/ML | DOCUSATE SODIUM | Marketed |
+| 02281031 | STOOL SOFTENER | DOCUSATE SODIUM | Marketed |
+| 02357305 | STOOL SOFTENER | DOCUSATE SODIUM | Marketed |
+| 02426838 | DOCUSATE SODIUM | DOCUSATE SODIUM | Marketed |
+| 02437317 | M-DOCUSATE SODIUM 100 MG | DOCUSATE SODIUM | Marketed |
+| 02484226 | COLACE CLEAR | DOCUSATE SODIUM | Marketed |
+| 02526492 | ENEMEEZ | DOCUSATE SODIUM | Marketed |
+| 02536412 | STOOL SOFTENER CLEAR | DOCUSATE SODIUM | Marketed |
+| 02245946 | JAMP-DOCUSATE SODIUM | DOCUSATE SODIUM | Dormant |
+| 02247385 | SANDOZ DOCUSATE SODIUM | DOCUSATE SODIUM | Cancelled post market |
+| 02530538 | NRA-DOCUSATE SODIUM | DOCUSATE SODIUM | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

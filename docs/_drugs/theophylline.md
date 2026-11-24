@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "THEOPHYLLINE"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
@@ -79,14 +79,20 @@ None of the retrieved publications tests theophylline as a treatment for thrombo
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00692700 | AA-THEO LA | Not stated | Not stated |
-| 00627410 | ELIXIR DE THEOPHYLLINE | Not stated | Not stated |
-| 02360101 | THEO ER | Not stated | Not stated |
-| 02360128 | THEO ER | Not stated | Not stated |
-| 00692697 | AA-THEO LA | Not stated | Not stated |
-| 00692689 | AA-THEO LA | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00627410 | ELIXIR DE THEOPHYLLINE | THEOPHYLLINE | Marketed |
+| 00692689 | AA-THEO LA | THEOPHYLLINE | Marketed |
+| 00692697 | AA-THEO LA | THEOPHYLLINE | Marketed |
+| 00692700 | AA-THEO LA | THEOPHYLLINE | Marketed |
+| 02360101 | THEO ER | THEOPHYLLINE | Marketed |
+| 02360128 | THEO ER | THEOPHYLLINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All six licences are valid single-ingredient products. The licence records compiled for this report contain no indication text.
 

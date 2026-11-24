@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 626
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "MOCLOBEMIDE"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -92,13 +92,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00899356 | MANERIX | Not specified | Not specified |
-| 02166747 | MANERIX | Not specified | Not specified |
-| 02240456 | MOCLOBEMIDE | Not specified | Not specified |
-| 02232150 | MOCLOBEMIDE | Not specified | Not specified |
-| 02232148 | MOCLOBEMIDE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02166747 | MANERIX | MOCLOBEMIDE | Marketed |
+| 02232148 | MOCLOBEMIDE | MOCLOBEMIDE | Marketed |
+| 02232150 | MOCLOBEMIDE | MOCLOBEMIDE | Marketed |
+| 02240456 | MOCLOBEMIDE | MOCLOBEMIDE | Marketed |
+| 00899356 | MANERIX | MOCLOBEMIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

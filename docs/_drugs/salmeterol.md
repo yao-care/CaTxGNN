@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 835
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -95,15 +95,28 @@ None of these publications studies salmeterol in respiratory malformation.
 
 ## Canada Market Information
 
-Health Canada records show 12 valid licences, with none cancelled. Five are listed below. Several are products that combine salmeterol with fluticasone propionate, so they do not describe the approval of salmeterol alone.
+Health Canada records show 12 valid licences, with none cancelled. Several are products that combine salmeterol with fluticasone propionate, so they do not describe the approval of salmeterol alone.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02231129 | SEREVENT DISKUS (50MCG/DOSE) | Not listed | Not listed |
-| 02245127 | ADVAIR | Not listed | Not listed |
-| 02240837 | ADVAIR 500 DISKUS | Not listed | Not listed |
-| 02495600 | WIXELA INHUB | Not listed | Not listed |
-| 02494523 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231129 | SEREVENT DISKUS (50MCG/DOSE) | SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02240835 | ADVAIR 100 DISKUS | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02240836 | ADVAIR 250 DISKUS | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02240837 | ADVAIR 500 DISKUS | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02245126 | ADVAIR | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02245127 | ADVAIR | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02494507 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02494515 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02494523 | PMS-FLUTICASONE PROPIONATE/SALMETEROL DPI | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02495597 | WIXELA INHUB | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02495600 | WIXELA INHUB | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+| 02495619 | WIXELA INHUB | FLUTICASONE PROPIONATE; SALMETEROL (SALMETEROL XINAFOATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

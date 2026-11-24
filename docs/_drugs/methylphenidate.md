@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylphenidate: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD), narcolepsy"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -113,15 +113,38 @@ Of 18 publications retrieved for specific developmental disorder, 10 are shown h
 
 ## Canada Market Information
 
-Methylphenidate has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text are not available in the data compiled for this report. Five main authorizations are shown:
+Methylphenidate has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247733 | CONCERTA | Not available | Not available |
-| 02277131 | BIPHENTIN | Not available | Not available |
-| 02553066 | JORNAY PM | Not available | Not available |
-| 02470322 | FOQUEST | Not available | Not available |
-| 02452731 | APO-METHYLPHENIDATE ER | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02234749 | PMS-METHYLPHENIDATE | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02247733 | CONCERTA | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02247734 | CONCERTA | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02249332 | APO-METHYLPHENIDATE | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02273950 | APO-METHYLPHENIDATE | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02277131 | BIPHENTIN | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02277182 | BIPHENTIN | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02441942 | ACT METHYLPHENIDATE ER | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02441950 | ACT METHYLPHENIDATE ER | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02452731 | APO-METHYLPHENIDATE ER | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02470314 | FOQUEST | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02470322 | FOQUEST | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02470330 | FOQUEST | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02536943 | PMS-METHYLPHENIDATE CR | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02536951 | PMS-METHYLPHENIDATE CR | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02536978 | PMS-METHYLPHENIDATE CR | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02537001 | PMS-METHYLPHENIDATE CR | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02537028 | PMS-METHYLPHENIDATE CR | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02553023 | JORNAY PM | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+| 02553066 | JORNAY PM | METHYLPHENIDATE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other products include PMS-Methylphenidate CR, ACT Methylphenidate ER and Apo-Methylphenidate.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 820
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Rocuronium"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
@@ -77,15 +77,22 @@ For the related prediction "headache disorder", two publications were retrieved.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02528657 | Rocuronium Bromide Injection | Injection | Not available |
-| 02517744 | Rocuronium Bromide Injection | Injection | Not available |
-| 02469774 | Rocuronium Bromide Injection | Injection | Not available |
-| 02529831 | Rocuronium Bromide Injection | Injection | Not available |
-| 02498820 | Rocuronium Bromide Injection | Injection | Not available |
+<!-- licenses:begin -->
 
-Six valid single-ingredient licences are registered in total. The first five are shown above.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02318415 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+| 02469774 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+| 02498820 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+| 02517744 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+| 02528657 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+| 02529831 | ROCURONIUM BROMIDE INJECTION | ROCURONIUM BROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Six valid single-ingredient licences are registered in total.
 
 ## Safety Considerations
 

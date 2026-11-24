@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). In Canada: at least 20 DINs"
@@ -107,15 +107,38 @@ No literature is available for pharyngitis. The publications below relate to hea
 
 ## Canada Market Information
 
-The licence records compiled for this report have no dosage form, manufacturer or approved indication text. A selection of the 20 valid single-ingredient licences:
+The licence records compiled for this report have no dosage form, manufacturer or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00125083 | DILAUDID | Not listed | Not listed |
-| 00786543 | DILAUDID | Not listed | Not listed |
-| 02364123 | APO-HYDROMORPHONE | Not listed | Not listed |
-| 02359502 | HYDROMORPH CONTIN | Not listed | Not listed |
-| 02469413 | HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00125083 | DILAUDID | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 00705438 | DILAUDID | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 00786543 | DILAUDID | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 00885401 | PMS-HYDROMORPHONE TAB 4MG | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 00885436 | PMS-HYDROMORPHONE TAB 2MG | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02125331 | HYDROMORPH CONTIN-CONTROLLED RELEASE CAP - 6MG | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02125366 | HYDROMORPH CONTIN-CONTROLLED RELEASE CAP - 12MG | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02125382 | HYDROMORPH CONTIN-CONTROLLED RELEASE CAP - 24MG | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02145901 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02146126 | HYDROMORPHONE HP 50 | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02359502 | HYDROMORPH CONTIN | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02359510 | HYDROMORPH CONTIN | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02364115 | APO-HYDROMORPHONE | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02364123 | APO-HYDROMORPHONE | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02468468 | HYDROMORPHONE HYDROCHLORIDE INJECTION HP FORTE | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02469413 | HYDROMORPHONE HYDROCHLORIDE INJECTION HP 50 | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02485532 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02485540 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02491699 | HYDROMORPHONE HYDROCHLORIDE INJECTION, USP | HYDROMORPHONE HYDROCHLORIDE | Marketed |
+| 02529645 | HYDROMORPHONE HYDROCHLORIDE INJECTION USP | HYDROMORPHONE HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other licences cover further injection, tablet and controlled-release capsule products (6, 12 and 24 mg).
 

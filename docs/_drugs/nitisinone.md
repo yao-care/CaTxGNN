@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -71,15 +71,24 @@ For context, the second-ranked prediction (galactosemia) and the fifth-ranked pr
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02469693 | ORFADIN | Not specified | Not specified |
-| 02457733 | MDK-NITISINONE | Not specified | Not specified |
-| 02459728 | ORFADIN | Not specified | Not specified |
-| 02457725 | MDK-NITISINONE | Not specified | Not specified |
-| 02459698 | ORFADIN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight single-ingredient licences are currently valid (none cancelled). Only the first five are listed above.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02457717 | MDK-NITISINONE | NITISINONE | Marketed |
+| 02457725 | MDK-NITISINONE | NITISINONE | Marketed |
+| 02457733 | MDK-NITISINONE | NITISINONE | Marketed |
+| 02459698 | ORFADIN | NITISINONE | Marketed |
+| 02459701 | ORFADIN | NITISINONE | Marketed |
+| 02459728 | ORFADIN | NITISINONE | Marketed |
+| 02459736 | ORFADIN | NITISINONE | Marketed |
+| 02469693 | ORFADIN | NITISINONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient licences are currently valid (none cancelled).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 954
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: No approved indication text is available in the Canadian licence reco…"
 monitor_inn: "TRYPTOPHAN"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-The records do not include dosage form or approved indication text. The main authorizations are:
+The records do not include dosage form or approved indication text.
 
 <!-- review:begin ca-lic-20261105-tryptophan-1 -->
 
@@ -86,13 +86,36 @@ The records do not include dosage form or approved indication text. The main aut
 
 <!-- review:end ca-lic-20261105-tryptophan-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00654531 | TRYPTAN | Not listed | Not listed |
-| 02239327 | TRYPTAN | Not listed | Not listed |
-| 02458721 | APO-TRYPTOPHAN | Not listed | Not listed |
-| 02240333 | TEVA-TRYPTOPHAN | Not listed | Not listed |
-| 02046709 | CLINIMIX | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00654531 | TRYPTAN | TRYPTOPHAN | Marketed |
+| 00718149 | TRYPTAN | TRYPTOPHAN | Marketed |
+| 00872296 | TRAVASOL | ARGININE; GLYCINE; HISTIDINE; ISOLEUCINE; L-ALANINE; L-LYSINE (L-LYSINE HYDROCHLORIDE); LEUCINE; METHIONINE;… | Marketed |
+| 02013886 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02013932 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02013940 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02029456 | TRYPTAN | TRYPTOPHAN | Marketed |
+| 02046709 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE (L-LYSIN… | Marketed |
+| 02239326 | TRYPTAN | TRYPTOPHAN | Marketed |
+| 02239327 | TRYPTAN | TRYPTOPHAN | Marketed |
+| 02240333 | TEVA-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02240334 | TEVA-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02248538 | APO-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02248539 | APO-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02248540 | APO-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02458721 | APO-TRYPTOPHAN | TRYPTOPHAN | Marketed |
+| 02498448 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02498456 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02498464 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02237250 | TEVA-TRYPTOPHAN | TRYPTOPHAN | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other licences include further TRYPTAN, APO-TRYPTOPHAN, TEVA-TRYPTOPHAN, CLINIMIX and TRAVASOL products.
 

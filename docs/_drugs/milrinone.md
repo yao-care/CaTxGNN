@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MILRINONE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
 description: "Milrinone: predicted new indication Alopecia (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -82,10 +82,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02521407 | MILRINONE LACTATE INJECTION USP | Valid (single-ingredient) |
-| 02244622 | MILRINONE LACTATE INJECTION, USP | Valid (single-ingredient) |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244622 | MILRINONE LACTATE INJECTION, USP | MILRINONE (MILRINONE LACTATE) | Marketed |
+| 02521407 | MILRINONE LACTATE INJECTION USP | MILRINONE (MILRINONE LACTATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

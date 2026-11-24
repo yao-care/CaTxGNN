@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Darunavir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In Canada: 8 DINs (7 marketed, 1 dormant)"
 ---
 
@@ -82,15 +82,22 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02486121 | AURO-DARUNAVIR | Not recorded | Not recorded |
-| 02487241 | APO-DARUNAVIR | Not recorded | Not recorded |
-| 02486148 | AURO-DARUNAVIR | Not recorded | Not recorded |
-| 02487268 | APO-DARUNAVIR | Not recorded | Not recorded |
-| 02521350 | DARUNAVIR | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-The list shows 5 of the 8 valid licences.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02426501 | PREZCOBIX | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE) | Marketed |
+| 02473720 | SYMTUZA | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEM… | Marketed |
+| 02486121 | AURO-DARUNAVIR | DARUNAVIR (DARUNAVIR PROPYLENE GLYCOLATE) | Marketed |
+| 02486148 | AURO-DARUNAVIR | DARUNAVIR (DARUNAVIR PROPYLENE GLYCOLATE) | Marketed |
+| 02487241 | APO-DARUNAVIR | DARUNAVIR | Marketed |
+| 02487268 | APO-DARUNAVIR | DARUNAVIR | Marketed |
+| 02521350 | DARUNAVIR | DARUNAVIR | Marketed |
+| 02521342 | DARUNAVIR | DARUNAVIR | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

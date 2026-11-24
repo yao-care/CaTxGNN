@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "CORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cortisone Acetate: predicted new indication alopecia areata (evidence level L4). In Canada: 1 DIN (1 marketed)"
 ---
 
@@ -72,9 +72,15 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00280437 | CORTISONE ACETATE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00280437 | CORTISONE ACETATE | CORTISONE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

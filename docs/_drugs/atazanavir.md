@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 77
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "ATAZANAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -77,13 +77,25 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02248611 | REYATAZ | Not specified | Not specified |
-| 02294176 | REYATAZ | Not specified | Not specified |
-| 02513102 | JAMP ATAZANAVIR | Not specified | Not specified |
-| 02456893 | MYLAN-ATAZANAVIR | Not specified | Not specified |
-| 02443821 | TEVA-ATAZANAVIR | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02443791 | TEVA-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02443813 | TEVA-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02443821 | TEVA-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02456877 | MYLAN-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02456885 | MYLAN-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02456893 | MYLAN-ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Marketed |
+| 02513102 | JAMP ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Dormant |
+| 02513110 | JAMP ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Dormant |
+| 02513129 | JAMP ATAZANAVIR | ATAZANAVIR (ATAZANAVIR SULFATE) | Dormant |
+| 02248611 | REYATAZ | ATAZANAVIR (ATAZANAVIR SULFATE) | Cancelled post market |
+| 02294176 | REYATAZ | ATAZANAVIR (ATAZANAVIR SULFATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The table shows the first five.
 

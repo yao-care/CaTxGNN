@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). In Canada: at least 20 DINs"
@@ -88,15 +88,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Mirtazapine has 20 valid single-ingredient licences in Canada (no combination products, none cancelled). Dosage form and approved indication text are not available in the data compiled for this report. Five main authorizations are listed below.
+Mirtazapine has 20 valid single-ingredient licences in Canada (no combination products, none cancelled). Dosage form and approved indication text are not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02248542 | REMERON RD |
-| 02248543 | REMERON RD |
-| 02248544 | REMERON RD |
-| 02286629 | APO-MIRTAZAPINE |
-| 02256126 | MYLAN-MIRTAZAPINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02248542 | REMERON RD | MIRTAZAPINE | Marketed |
+| 02248543 | REMERON RD | MIRTAZAPINE | Marketed |
+| 02248544 | REMERON RD | MIRTAZAPINE | Marketed |
+| 02250608 | SANDOZ MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02256096 | MYLAN-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02256118 | MYLAN-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02256126 | MYLAN-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02286610 | APO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02286629 | APO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02299801 | AURO-MIRTAZAPINE OD | MIRTAZAPINE | Marketed |
+| 02299828 | AURO-MIRTAZAPINE OD | MIRTAZAPINE | Marketed |
+| 02312778 | PRO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02370689 | MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02411695 | AURO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02411709 | AURO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02411717 | AURO-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02496674 | MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02496682 | MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02534932 | NRA-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+| 02541580 | TEVA-MIRTAZAPINE | MIRTAZAPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other marketed products include AURO-MIRTAZAPINE (and OD), SANDOZ MIRTAZAPINE, PRO-MIRTAZAPINE, NRA-MIRTAZAPINE, TEVA-MIRTAZAPINE and generic MIRTAZAPINE.
 

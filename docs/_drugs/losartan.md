@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
@@ -74,15 +74,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Losartan has 20 valid single-ingredient authorisations in Canada, with no cancelled licences. The records compiled for this report do not include dosage form or approved indication text. The first five are listed below.
+Losartan has 20 valid single-ingredient authorisations in Canada, with no cancelled licences. The records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02403323 | AURO-LOSARTAN | Not listed | Not listed |
-| 02182815 | COZAAR | Not listed | Not listed |
-| 02309750 | PMS-LOSARTAN | Not listed | Not listed |
-| 02403358 | AURO-LOSARTAN | Not listed | Not listed |
-| 02388804 | LOSARTAN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02182815 | COZAAR | LOSARTAN POTASSIUM | Marketed |
+| 02182882 | COZAAR | LOSARTAN POTASSIUM | Marketed |
+| 02309750 | PMS-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02309769 | PMS-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02309777 | PMS-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02313332 | SANDOZ LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02313340 | SANDOZ LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02313359 | SANDOZ LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02357968 | TEVA-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02388790 | LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02388804 | LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02388863 | LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02388898 | LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02398834 | JAMP-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02403323 | AURO-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02403331 | AURO-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02403358 | AURO-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02405733 | MINT-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02405741 | MINT-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+| 02405768 | MINT-LOSARTAN | LOSARTAN POTASSIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

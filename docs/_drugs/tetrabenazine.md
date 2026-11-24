@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 901
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TETRABENAZINE"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -84,11 +84,17 @@ For reference, the fifth-ranked prediction (thoracic malformation) retrieved one
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02402424 | PMS-TETRABENAZINE | Not specified | Not specified |
-| 02407590 | APO-TETRABENAZINE | Not specified | Not specified |
-| 02199270 | NITOMAN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02199270 | NITOMAN | TETRABENAZINE | Marketed |
+| 02402424 | PMS-TETRABENAZINE | TETRABENAZINE | Marketed |
+| 02407590 | APO-TETRABENAZINE | TETRABENAZINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three products are valid single-ingredient authorizations; none is cancelled.
 

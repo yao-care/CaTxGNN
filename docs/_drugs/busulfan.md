@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 138
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the Canadian licence records compiled for this report"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -110,11 +110,17 @@ Over 40 trials were compiled for MDS in total, and the table lists the 10 most r
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02463733 | BUSULFAN FOR INJECTION | Not stated | Not stated |
-| 00004618 | MYLERAN | Not stated | Not stated |
-| 02477343 | PMS-BUSULFAN | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00004618 | MYLERAN | BUSULFAN | Marketed |
+| 02463733 | BUSULFAN FOR INJECTION | BUSULFAN | Marketed |
+| 02477343 | PMS-BUSULFAN | BUSULFAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three are valid single-ingredient licences. Dosage form, manufacturer and approved indication text were not available in the compiled data.
 

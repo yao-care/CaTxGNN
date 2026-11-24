@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 648
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac: predicted new indication Eye disease (evidence level L2). Approved use: Not specified in the Canadian licence records (marketed ophthalmic NS…"
 monitor_inn: "NEPAFENAC"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -108,10 +108,16 @@ The table lists the 10 most relevant of the 40 trials identified, prioritising c
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02308983 | NEVANAC | Not listed | Not listed |
-| 02411393 | ILEVRO | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02308983 | NEVANAC | NEPAFENAC | Marketed |
+| 02411393 | ILEVRO | NEPAFENAC | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

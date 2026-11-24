@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "DABIGATRAN ETEXILATE"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -84,13 +84,19 @@ For other predicted indications, one trial was returned (NCT07629999, hypoalphal
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02312441 | PRADAXA | Not available | Not available |
-| 02358808 | PRADAXA | Not available | Not available |
-| 02468891 | APO-DABIGATRAN | Not available | Not available |
-| 02468905 | APO-DABIGATRAN | Not available | Not available |
-| 02468913 | APO-DABIGATRAN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02312441 | PRADAXA | DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE) | Marketed |
+| 02358808 | PRADAXA | DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE) | Marketed |
+| 02468891 | APO-DABIGATRAN | DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE) | Marketed |
+| 02468905 | APO-DABIGATRAN | DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE) | Marketed |
+| 02468913 | APO-DABIGATRAN | DABIGATRAN ETEXILATE (DABIGATRAN ETEXILATE MESILATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient products.
 

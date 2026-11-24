@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -70,13 +70,22 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02529343 | LAPELGA | Not specified | Not specified |
-| 02249790 | NEULASTA | Not specified | Not specified |
-| 02484153 | FULPHILA | Not specified | Not specified |
-| 02497395 | ZIEXTENZO | Not specified | Not specified |
-| 02474565 | LAPELGA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02249790 | NEULASTA | PEGFILGRASTIM | Marketed |
+| 02474565 | LAPELGA | PEGFILGRASTIM | Marketed |
+| 02484153 | FULPHILA | PEGFILGRASTIM | Marketed |
+| 02497395 | ZIEXTENZO | PEGFILGRASTIM | Marketed |
+| 02506238 | NYVEPRIA | PEGFILGRASTIM | Marketed |
+| 02529343 | LAPELGA | PEGFILGRASTIM | Marketed |
+| 02546973 | NIOPEG | PEGFILGRASTIM | Marketed |
+| 02553945 | PEXEGRA | PEGFILGRASTIM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Three more valid single-ingredient licenses are on record: NYVEPRIA (02506238), NIOPEG (02546973) and PEXEGRA (02553945). There are no cancelled licenses.
 

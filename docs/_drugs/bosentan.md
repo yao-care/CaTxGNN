@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Pulmonary arterial hypertension (also systemic sclerosis / scleroderm…"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -92,15 +92,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Eight valid single-ingredient authorizations are listed. Dosage form and approved-indication text were not available in the data compiled for this report. The five main ones are:
+Eight valid single-ingredient authorizations are listed. Dosage form and approved-indication text were not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02244981 | TRACLEER |
-| 02244982 | TRACLEER |
-| 02483130 | TARO-BOSENTAN |
-| 02383020 | PMS-BOSENTAN |
-| 02467992 | NAT-BOSENTAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244981 | TRACLEER | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02244982 | TRACLEER | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02383012 | PMS-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02383020 | PMS-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02483130 | TARO-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02483149 | TARO-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Marketed |
+| 02467984 | NAT-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Dormant |
+| 02467992 | NAT-BOSENTAN | BOSENTAN (BOSENTAN MONOHYDRATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

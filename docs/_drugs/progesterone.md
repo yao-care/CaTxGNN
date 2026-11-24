@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 775
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In Canada: 12 DINs (12 marketed)"
@@ -93,7 +93,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Progesterone has 12 valid licences in Canada. The approved indication text is not recorded in the local data. Five of the licences are shown below.
+Progesterone has 12 valid licences in Canada. The approved indication text is not recorded in the local data.
 
 <!-- review:begin ca-lic-20261106-progesterone-1 -->
 
@@ -101,13 +101,26 @@ Progesterone has 12 valid licences in Canada. The approved indication text is no
 
 <!-- review:end ca-lic-20261106-progesterone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02531828 | Progesterone Injection, USP | Not specified | Not specified |
-| 02551268 | M-Progesterone | Not specified | Not specified |
-| 02493578 | Auro-Progesterone | Not specified | Not specified |
-| 02241013 | Crinone | Not specified | Not specified |
-| 02166704 | Prometrium | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02166704 | PROMETRIUM | PROGESTERONE | Marketed |
+| 02241013 | CRINONE | PROGESTERONE | Marketed |
+| 02439913 | TEVA-PROGESTERONE | PROGESTERONE | Marketed |
+| 02446820 | ACT PROGESTERONE INJECTION | PROGESTERONE | Marketed |
+| 02463113 | REDDY-PROGESTERONE | PROGESTERONE | Marketed |
+| 02476576 | PMS-PROGESTERONE | PROGESTERONE | Marketed |
+| 02493578 | AURO-PROGESTERONE | PROGESTERONE | Marketed |
+| 02505223 | BIJUVA | ESTRADIOL (ESTRADIOL HEMIHYDRATE); PROGESTERONE | Marketed |
+| 02516187 | PROGESTERONE | PROGESTERONE | Marketed |
+| 02531828 | PROGESTERONE INJECTION, USP | PROGESTERONE | Marketed |
+| 02549158 | ACH-PROGESTERONE | PROGESTERONE | Marketed |
+| 02551268 | M-PROGESTERONE | PROGESTERONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

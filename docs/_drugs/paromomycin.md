@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 707
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PAROMOMYCIN"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "hepatic porphyria", "acute urate nephropathy", "peritonitis"]
 description: "Paromomycin: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -81,9 +81,15 @@ Currently no related literature available for idiopathic copper-associated cirrh
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02078759 | HUMATIN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02078759 | HUMATIN | PAROMOMYCIN (PAROMOMYCIN SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

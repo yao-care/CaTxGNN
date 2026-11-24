@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -102,11 +102,17 @@ An important limitation is that much of the evidence comes from mixed pediatric 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02458020 | DOCETAXEL INJECTION | Not recorded | Not recorded |
-| 02361957 | DOCETAXEL INJECTION USP | Not recorded | Not recorded |
-| 02439336 | DOCETAXEL INJECTION | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02361957 | DOCETAXEL INJECTION USP | DOCETAXEL | Marketed |
+| 02439336 | DOCETAXEL INJECTION | DOCETAXEL | Marketed |
+| 02458020 | DOCETAXEL INJECTION | DOCETAXEL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

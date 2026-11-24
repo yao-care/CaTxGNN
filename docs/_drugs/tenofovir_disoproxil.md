@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 893
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In Canada: at least 20 DINs"
@@ -88,15 +88,38 @@ For feline AIDS, the only publication is [37112803](https://pubmed.ncbi.nlm.nih.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247128 | VIREAD | Not specified | Not specified |
-| 02403889 | TEVA-TENOFOVIR | Not specified | Not specified |
-| 02453940 | PMS-TENOFOVIR | Not specified | Not specified |
-| 02274906 | TRUVADA (emtricitabine/tenofovir) | Not specified | Not specified |
-| 02452634 | MYLAN-TENOFOVIR DISOPROXIL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of the 20 valid licences, all single-entity records. They include generic tenofovir products and emtricitabine/tenofovir products.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247128 | VIREAD | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02274906 | TRUVADA | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02399059 | TEVA-EMTRICITABINE/TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02403889 | TEVA-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02443902 | MYLAN-EMTRICITABINE/TENOFOVIR DISOPROXIL | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02451980 | APO-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02452006 | APO-EMTRICITABINE-TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02452634 | MYLAN-TENOFOVIR DISOPROXIL | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02453940 | PMS-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02460173 | AURO-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02472511 | NAT-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02479087 | JAMP-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02490684 | AURO-EMTRICITABINE-TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02496356 | AG-EMTRICITABINE / TENOFOVIR DISOPROXIL FUMARATE | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02512327 | TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02512939 | MINT-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02515156 | RIVA-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02516276 | AG-TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02521547 | MINT-EMTRICITABINE/TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02523922 | TENOFOVIR | TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+They include generic tenofovir products and emtricitabine/tenofovir products.
 
 ## Safety Considerations
 

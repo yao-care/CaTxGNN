@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 939
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil: predicted new indication Pulmonary arteriovenous malformation (disease) (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -100,12 +100,18 @@ For HIV-associated PAH, only general prostanoid reviews were found, with no HIV-
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02246552 | REMODULIN | Not specified | Not specified |
-| 02246553 | REMODULIN | Not specified | Not specified |
-| 02246554 | REMODULIN | Not specified | Not specified |
-| 02246555 | REMODULIN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02246552 | REMODULIN | TREPROSTINIL (TREPROSTINIL SODIUM) | Marketed |
+| 02246553 | REMODULIN | TREPROSTINIL (TREPROSTINIL SODIUM) | Marketed |
+| 02246554 | REMODULIN | TREPROSTINIL (TREPROSTINIL SODIUM) | Marketed |
+| 02246555 | REMODULIN | TREPROSTINIL (TREPROSTINIL SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid single-ingredient products; none are cancelled.
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 858
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sodium Tetradecyl Sulfate: predicted new indication Esophageal varices with bleeding (evidence level L2). Approved use: Varicose disease"
 monitor_inn: "Sodium tetradecyl sulfate"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Steel syndrome", "pseudo-von Willebrand disease", "Immunoerythromyeloid hypoplasia", "primary release disorder of platelets", "reticular dysgenesis", "autosomal dominant familial periodic fever", "hypophosphatasia", "lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"]
@@ -83,10 +83,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00511234 | TROMBOJECT 1% | Not listed | Not listed |
-| 00511226 | TROMBOJECT 3% | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00511226 | TROMBOJECT 3% | SODIUM TETRADECYL SULFATE | Marketed |
+| 00511234 | TROMBOJECT 1% | SODIUM TETRADECYL SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

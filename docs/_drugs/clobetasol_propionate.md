@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clobetasol Propionate: predicted new indication Rank 1: Vulvar inverted follicular keratosis . Best-supported: Exanth… (evidence level L5). Approved use: Atopic eczema, dermatitis (contact, occupatio…"
 monitor_inn: "CLOBETASOL PROPIONATE"
 predicted_indications: ["vulvar inverted follicular keratosis", "acrodermatitis chronica atrophicans", "exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -113,13 +113,34 @@ Dosage form and approved indication text are not available in the data compiled 
 
 <!-- review:end ca-lic-20261105-clobetasol_propionate-1 -->
 
-| DIN | Product Name | Formulation (from product name) |
-|---------|------|------|
-| 02245522 | TARO-CLOBETASOL Topical Solution USP, 0.05% | Topical solution |
-| 02489619 | TARO-CLOBETASOL Spray | Spray |
-| 02026767 | MYLAN-CLOBETASOL Ointment | Ointment |
-| 02024187 | MYLAN-CLOBETASOL Cream | Cream |
-| 02490706 | ODAN CLOBETASOL Spray | Spray |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01910272 | TEVA-CLOBETASOL | CLOBETASOL PROPIONATE | Marketed |
+| 01910280 | TEVA-CLOBETASOL | CLOBETASOL PROPIONATE | Marketed |
+| 01910299 | TEVA-CLOBETASOL | CLOBETASOL PROPIONATE | Marketed |
+| 02024187 | MYLAN-CLOBETASOL CREAM | CLOBETASOL PROPIONATE | Marketed |
+| 02026767 | MYLAN-CLOBETASOL OINTMENT | CLOBETASOL PROPIONATE | Marketed |
+| 02213265 | DERMOVATE CREAM | CLOBETASOL PROPIONATE | Marketed |
+| 02213273 | DERMOVATE OINTMENT | CLOBETASOL PROPIONATE | Marketed |
+| 02213281 | DERMOVATE SCALP APPLICATION | CLOBETASOL PROPIONATE | Marketed |
+| 02216213 | MYLAN-CLOBETASOL SCALP APPLICATION | CLOBETASOL PROPIONATE | Marketed |
+| 02245522 | TARO-CLOBETASOL TOPICAL SOLUTION USP, 0.05% | CLOBETASOL PROPIONATE | Marketed |
+| 02245523 | TARO-CLOBETASOL CREAM USP, 0.05% | CLOBETASOL PROPIONATE | Marketed |
+| 02245524 | TARO-CLOBETASOL OINTMENT USP, 0.05% | CLOBETASOL PROPIONATE | Marketed |
+| 02256371 | CLOBEX SHAMPOO | CLOBETASOL PROPIONATE | Marketed |
+| 02299739 | CLOBEX SPRAY | CLOBETASOL PROPIONATE | Marketed |
+| 02489619 | TARO-CLOBETASOL SPRAY | CLOBETASOL PROPIONATE | Marketed |
+| 02490706 | ODAN CLOBETASOL SPRAY | CLOBETASOL PROPIONATE | Marketed |
+| 02506203 | TARO-CLOBETASOL SHAMPOO | CLOBETASOL PROPIONATE | Marketed |
+| 02519437 | REDDY-CLOBETASOL SHAMPOO | CLOBETASOL PROPIONATE | Marketed |
+| 02534665 | JAMP CLOBETASOL SPRAY | CLOBETASOL PROPIONATE | Marketed |
+| 02495023 | SANDOZ CLOBETASOL | CLOBETASOL PROPIONATE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

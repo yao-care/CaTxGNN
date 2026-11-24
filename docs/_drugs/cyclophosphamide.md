@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -69,15 +69,26 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02546744 | Cyclophosphamide for Injection USP | Injection (per product name) | Not available |
-| 02547686 | Cyclophosphamide for Injection USP | Injection (per product name) | Not available |
-| 02546736 | Cyclophosphamide for Injection USP | Injection (per product name) | Not available |
-| 02241795 | Procytox Tab 25 mg | Tablet (per product name) | Not available |
-| 02241796 | Procytox Tab 50 mg | Tablet (per product name) | Not available |
+<!-- licenses:begin -->
 
-All 10 licences on record are valid single-ingredient products. The table above lists the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02241795 | PROCYTOX TAB 25MG | CYCLOPHOSPHAMIDE | Marketed |
+| 02241796 | PROCYTOX TAB 50MG | CYCLOPHOSPHAMIDE | Marketed |
+| 02241797 | PROCYTOX | CYCLOPHOSPHAMIDE | Marketed |
+| 02241798 | PROCYTOX | CYCLOPHOSPHAMIDE | Marketed |
+| 02241799 | PROCYTOX | CYCLOPHOSPHAMIDE | Marketed |
+| 02241800 | PROCYTOX | CYCLOPHOSPHAMIDE | Marketed |
+| 02546736 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+| 02546744 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+| 02547686 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+| 02547694 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 10 licences on record are valid single-ingredient products.
 
 ## Cytotoxicity
 

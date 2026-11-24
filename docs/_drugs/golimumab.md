@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 439
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -143,13 +143,19 @@ Hypermobility of coccyx and Kummell disease: currently no related literature ava
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02324784 | SIMPONI |
-| 02417472 | SIMPONI I.V. |
-| 02413183 | SIMPONI |
-| 02324776 | SIMPONI |
-| 02413175 | SIMPONI |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02324776 | SIMPONI | GOLIMUMAB | Marketed |
+| 02324784 | SIMPONI | GOLIMUMAB | Marketed |
+| 02413175 | SIMPONI | GOLIMUMAB | Marketed |
+| 02413183 | SIMPONI | GOLIMUMAB | Marketed |
+| 02417472 | SIMPONI I.V. | GOLIMUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Dosage form and approved indication text were not available for these authorisations.
 

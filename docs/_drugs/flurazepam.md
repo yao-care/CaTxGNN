@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 402
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Flurazepam: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 00521698 | FLURAZEPAM |  | Valid |
-| 00521701 | FLURAZEPAM |  | Valid |
+| 00521698 | FLURAZEPAM | FLURAZEPAM HYDROCHLORIDE | Marketed |
+| 00521701 | FLURAZEPAM | FLURAZEPAM HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 719
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pemigatinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -70,11 +70,17 @@ Currently no related literature available for the predicted indication of multip
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02519941 | PEMAZYRE | Not specified | Not specified |
-| 02519933 | PEMAZYRE | Not specified | Not specified |
-| 02519968 | PEMAZYRE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02519933 | PEMAZYRE | PEMIGATINIB | Marketed |
+| 02519941 | PEMAZYRE | PEMIGATINIB | Marketed |
+| 02519968 | PEMAZYRE | PEMIGATINIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licenses are valid single-ingredient products.
 

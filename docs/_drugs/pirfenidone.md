@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: predicted new indication Extracutaneous mastocytoma (evidence level L5). In Canada: 14 DINs (12 marketed, 2 dormant)"
@@ -93,15 +93,30 @@ For context, the closest related prediction, **fibroblastic neoplasm** (rank 9, 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02464500 | ESBRIET | Not specified | Not specified |
-| 02464489 | ESBRIET | Not specified | Not specified |
-| 02488515 | SANDOZ PIRFENIDONE TABLETS | Not specified | Not specified |
-| 02531526 | PMS-PIRFENIDONE | Not specified | Not specified |
-| 02514710 | JAMP PIRFENIDONE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of the 14 valid single-ingredient authorizations, and none are cancelled. Other holders include Sandoz (tablets and capsules), M-Pirfenidone, Auro-Pirfenidone and further JAMP and PMS products.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02464489 | ESBRIET | PIRFENIDONE | Marketed |
+| 02464500 | ESBRIET | PIRFENIDONE | Marketed |
+| 02488507 | SANDOZ PIRFENIDONE TABLETS | PIRFENIDONE | Marketed |
+| 02488515 | SANDOZ PIRFENIDONE TABLETS | PIRFENIDONE | Marketed |
+| 02488833 | SANDOZ PIRFENIDONE CAPSULES | PIRFENIDONE | Marketed |
+| 02509938 | JAMP PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02514702 | JAMP PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02514710 | JAMP PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02537753 | AURO-PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02537761 | AURO-PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02550644 | M-PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02550652 | M-PIRFENIDONE | PIRFENIDONE | Marketed |
+| 02531526 | PMS-PIRFENIDONE | PIRFENIDONE | Dormant |
+| 02531534 | PMS-PIRFENIDONE | PIRFENIDONE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+None are cancelled. Other holders include Sandoz (tablets and capsules), M-Pirfenidone, Auro-Pirfenidone and further JAMP and PMS products.
 
 ---
 

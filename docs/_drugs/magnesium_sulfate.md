@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). In Canada: 8 DINs (8 marketed)"
 ---
 
@@ -91,7 +91,7 @@ Human data are sparse. A small nonrandomized pilot study gave magnesium to patie
 
 ## Canada Market Information
 
-Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid products. Approved-indication text and dosage forms are not recorded in the local data. Five representative licences are listed below.
+Magnesium sulfate is marketed in Canada, and all eight licences in the local records are valid products. Approved-indication text and dosage forms are not recorded in the local data.
 
 <!-- review:begin ca-lic-20261106-magnesium_sulfate-1 -->
 
@@ -99,12 +99,22 @@ Magnesium sulfate is marketed in Canada, and all eight licences in the local rec
 
 <!-- review:end ca-lic-20261106-magnesium_sulfate-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02139499 | Magnesium Sulfate Injection, USP |
-| 02513161 | Magnesium Sulfate Injection, BP 49.3% |
-| 02542153 | Magnesium Sulfate in Water for Injection |
-| 00392618 | Magnesium Sulfate Injection USP |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00392618 | MAGNESIUM SULFATE INJECTION USP | MAGNESIUM SULFATE | Marketed |
+| 00800007 | TIS-U-SOL SOLUTION | MAGNESIUM SULFATE; POTASSIUM CHLORIDE; POTASSIUM PHOSPHATE MONOBASIC; SODIUM CHLORIDE; SODIUM PHOSPHATE DIBAS… | Marketed |
+| 02139499 | MAGNESIUM SULFATE INJECTION, USP | MAGNESIUM SULFATE | Marketed |
+| 02440695 | SMOFKABIVEN | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+| 02456206 | SMOFKABIVEN PERIPHERAL | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+| 02501813 | SMOFKABIVEN EXTRA NITROGEN | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+| 02513161 | MAGNESIUM SULFATE INJECTION, BP 49.3% | MAGNESIUM SULFATE | Marketed |
+| 02542153 | MAGNESIUM SULFATE IN WATER FOR INJECTION | MAGNESIUM SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

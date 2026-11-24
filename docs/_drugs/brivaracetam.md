@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brivaracetam: predicted new indication beta-ketothiolase deficiency (evidence level L5). In Canada: 14 DINs (14 marketed)"
 ---
 
@@ -70,15 +70,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02452960 | BRIVLERA | Not recorded | Not recorded |
-| 02452987 | BRIVLERA | Not recorded | Not recorded |
-| 02538679 | APO-BRIVARACETAM | Not recorded | Not recorded |
-| 02539306 | AURO-BRIVARACETAM | Not recorded | Not recorded |
-| 02538687 | APO-BRIVARACETAM | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-The list shows 5 of the valid single-ingredient authorizations (all 14 are valid).
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02452936 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452944 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452952 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452960 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452979 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452987 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02452995 | BRIVLERA | BRIVARACETAM | Marketed |
+| 02538679 | APO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02538687 | APO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02538695 | APO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02538709 | APO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02538717 | APO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02539292 | AURO-BRIVARACETAM | BRIVARACETAM | Marketed |
+| 02539306 | AURO-BRIVARACETAM | BRIVARACETAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

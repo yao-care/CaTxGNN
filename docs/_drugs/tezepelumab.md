@@ -5,7 +5,7 @@ layout: default
 title: Tezepelumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 906
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Tezepelumab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Tezepelumab"
 predicted_indications: []
@@ -50,10 +50,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02529548 | TEZSPIRE | Not specified | Not specified |
-| 02529556 | TEZSPIRE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02529548 | TEZSPIRE | TEZEPELUMAB | Marketed |
+| 02529556 | TEZSPIRE | TEZEPELUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

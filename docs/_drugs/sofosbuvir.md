@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 860
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). In Canada: 4 DINs (4 marketed)"
@@ -99,12 +99,18 @@ The remaining literature shows that antiviral treatment for hepatitis C can trig
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02418355 | SOVALDI | Not available | Not available |
-| 02432226 | HARVONI | Not available | Not available |
-| 02456370 | EPCLUSA | Not available | Not available |
-| 02467542 | VOSEVI | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02418355 | SOVALDI | SOFOSBUVIR | Marketed |
+| 02432226 | HARVONI | LEDIPASVIR; SOFOSBUVIR | Marketed |
+| 02456370 | EPCLUSA | SOFOSBUVIR; VELPATASVIR | Marketed |
+| 02467542 | VOSEVI | SOFOSBUVIR; VELPATASVIR; VOXILAPREVIR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are currently valid.
 

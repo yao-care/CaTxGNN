@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 285
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Diltiazem: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,28 +72,36 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02528061 | JAMP DILTIAZEM CD |  | Valid |
-| 02546450 | M-DILTIAZEM T |  | Valid |
-| 02271656 | TEVA-DILTIAZEM HCL ER |  | DORMANT |
-| 02370492 | TEVA-DILTIAZEM T |  | Valid |
-| 02256770 | TIAZAC XC |  | Valid |
-| 02256738 | TIAZAC XC |  | Valid |
-| 02230997 | APO-DILTIAZ CD |  | Valid |
-| 02229526 | APO-DILTIAZ CD |  | Valid |
-| 02400456 | DILTIAZEM CD |  | Valid |
-| 02429330 | TEVA-DILTIAZEM XC |  | Valid |
-| 02231150 | TIAZAC |  | Valid |
-| 02540924 | PRO-DILTIAZEM CD |  | Valid |
-| 02231151 | TIAZAC |  | Valid |
-| 02271605 | TEVA-DILTIAZEM HCL ER |  | DORMANT |
-| 02516136 | DILTIAZEM T |  | Valid |
-| 02484080 | MAR-DILTIAZEM CD |  | Valid |
-| 02242541 | TEVA-DILTIAZEM CD |  | Valid |
-| 00771384 | AA-DILTIAZ |  | Valid |
-| 02256762 | TIAZAC XC |  | Valid |
-| 02400421 | DILTIAZEM CD |  | Valid |
+| 00771384 | AA-DILTIAZ | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02229526 | APO-DILTIAZ CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02230997 | APO-DILTIAZ CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02231150 | TIAZAC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02231151 | TIAZAC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02242541 | TEVA-DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02256738 | TIAZAC XC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02256762 | TIAZAC XC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02256770 | TIAZAC XC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02370492 | TEVA-DILTIAZEM T | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02400421 | DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02400456 | DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02429330 | TEVA-DILTIAZEM XC | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02484080 | MAR-DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02516136 | DILTIAZEM T | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02528061 | JAMP DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02540924 | PRO-DILTIAZEM CD | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02546450 | M-DILTIAZEM T | DILTIAZEM HYDROCHLORIDE | Marketed |
+| 02271605 | TEVA-DILTIAZEM HCL ER | DILTIAZEM HYDROCHLORIDE | Dormant |
+| 02271656 | TEVA-DILTIAZEM HCL ER | DILTIAZEM HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

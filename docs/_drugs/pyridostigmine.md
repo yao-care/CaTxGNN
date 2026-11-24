@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 785
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -84,12 +84,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00869953 | MESTINON-SR | Not listed | Not listed |
-| 00869961 | MESTINON | Not listed | Not listed |
-| 02495643 | RIVA-PYRIDOSTIGMINE | Not listed | Not listed |
-| 02508362 | JAMP PYRIDOSTIGMINE BROMIDE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00869953 | MESTINON-SR | PYRIDOSTIGMINE BROMIDE | Marketed |
+| 00869961 | MESTINON | PYRIDOSTIGMINE BROMIDE | Marketed |
+| 02495643 | RIVA-PYRIDOSTIGMINE | PYRIDOSTIGMINE BROMIDE | Marketed |
+| 02508362 | JAMP PYRIDOSTIGMINE BROMIDE | PYRIDOSTIGMINE BROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four are valid single-ingredient products.
 

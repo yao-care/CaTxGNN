@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -82,11 +82,17 @@ Currently no related literature available.
 
 Three single-ingredient cabergoline products hold valid licences in Canada. Indication text and dosage forms are not recorded in the local data.
 
-| DIN | Product Name |
-|---------|------|
-| 02455897 | APO-CABERGOLINE |
-| 02549611 | JAMP CABERGOLINE |
-| 02242471 | DOSTINEX |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242471 | DOSTINEX | CABERGOLINE | Marketed |
+| 02455897 | APO-CABERGOLINE | CABERGOLINE | Marketed |
+| 02549611 | JAMP CABERGOLINE | CABERGOLINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

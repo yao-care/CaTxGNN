@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Atopic dermatitis, contact dermatitis, seborrheic dermatitis…"
 monitor_inn: "Flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
@@ -85,10 +85,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00074462 | LOCACORTEN VIOFORM | Not specified | Not specified |
-| 00074454 | LOCACORTEN VIOFORM EARDROPS | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00074454 | LOCACORTEN VIOFORM EARDROPS | CLIOQUINOL; FLUMETHASONE PIVALATE | Marketed |
+| 00074462 | LOCACORTEN VIOFORM | CLIOQUINOL; FLUMETHASONE PIVALATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both products are valid authorizations; none are cancelled.
 

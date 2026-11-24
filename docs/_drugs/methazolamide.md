@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "METHAZOLAMIDE"
 predicted_indications: ["congestive heart failure", "acute pulmonary heart disease"]
 description: "Methazolamide: predicted new indication Congestive heart failure (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -82,9 +82,15 @@ Currently no related literature available for primary hereditary glaucoma.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245882 | METHAZOLAMIDE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245882 | METHAZOLAMIDE | METHAZOLAMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

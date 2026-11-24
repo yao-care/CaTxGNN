@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia (other listed uses include non-Hodgkin l…"
 monitor_inn: "METHOTREXATE"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -84,7 +84,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-The records compiled for this report do not include dosage form or approved-indication text. The first five are shown below.
+The records compiled for this report do not include dosage form or approved-indication text.
 
 <!-- review:begin ca-lic-20261105-methotrexate-1 -->
 
@@ -92,13 +92,36 @@ The records compiled for this report do not include dosage form or approved-indi
 
 <!-- review:end ca-lic-20261105-methotrexate-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02099705 | Methotrexate Sodium Injection |
-| 02454874 | Metoject Subcutaneous |
-| 02491338 | Methotrexate Subcutaneous |
-| 02454831 | Metoject Subcutaneous |
-| 02454769 | Metoject Subcutaneous |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02099705 | METHOTREXATE SODIUM INJECTION | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02182750 | METHOTREXATE TABLETS, USP | METHOTREXATE | Marketed |
+| 02422190 | METHOTREXATE INJECTION, BP | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02454769 | METOJECT SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02454777 | METOJECT SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02454831 | METOJECT SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02454858 | METOJECT SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02454874 | METOJECT SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02474891 | METHOTREXATE INJECTION BP | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02491303 | METHOTREXATE SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02491338 | METHOTREXATE SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02491354 | METHOTREXATE SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02491362 | METHOTREXATE SUBCUTANEOUS | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02509067 | ACH-METHOTREXATE | METHOTREXATE (METHOTREXATE DISODIUM) | Marketed |
+| 02530848 | METHOFILL SELF-DOSE INJECTOR | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02539608 | PMS-METHOTREXATE INJECTION | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02539616 | PMS-METHOTREXATE INJECTION | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02539632 | PMS-METHOTREXATE INJECTION | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02539659 | PMS-METHOTREXATE INJECTION | METHOTREXATE (METHOTREXATE SODIUM) | Marketed |
+| 02546558 | NORDIMET | METHOTREXATE (METHOTREXATE SODIUM) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other products include Methotrexate Tablets USP (02182750), PMS-Methotrexate Injection, Methofill Self-Dose Injector, Nordimet and ACH-Methotrexate.
 

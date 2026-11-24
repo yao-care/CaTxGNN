@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GUANFACINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
 description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -79,15 +79,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Twelve valid single-ingredient licences are listed. The main ones are shown below.
+Twelve valid single-ingredient licences are listed.
 
-| DIN | Product Name |
-|---------|------|
-| 02523736 | APO-GUANFACINE XR |
-| 02409127 | INTUNIV XR |
-| 02523558 | JAMP GUANFACINE XR |
-| 02523574 | JAMP GUANFACINE XR |
-| 02523582 | JAMP GUANFACINE XR |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02409100 | INTUNIV XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02409119 | INTUNIV XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02409127 | INTUNIV XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02409135 | INTUNIV XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523558 | JAMP GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523566 | JAMP GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523574 | JAMP GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523582 | JAMP GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523728 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523736 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523744 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02523752 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

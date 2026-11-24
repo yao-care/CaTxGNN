@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 850
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIMVASTATIN"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). In Canada: at least 20 DINs"
@@ -103,7 +103,7 @@ Note: Most trials test simvastatin in combination (mainly with ezetimibe) or as 
 
 ## Canada Market Information
 
-Simvastatin is marketed in Canada. Dosage form and approved-indication text were not available for these licences. Five of the 20 are listed below.
+Simvastatin is marketed in Canada. Dosage form and approved-indication text were not available for these licences.
 
 <!-- review:begin ca-lic-20261105-simvastatin-1 -->
 
@@ -111,13 +111,36 @@ Simvastatin is marketed in Canada. Dosage form and approved-indication text were
 
 <!-- review:end ca-lic-20261105-simvastatin-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02375605 | JAMP-SIMVASTATIN | Not available | Not available |
-| 02549638 | PMSC-SIMVASTATIN | Not available | Not available |
-| 02247221 | PRO-SIMVASTATIN | Not available | Not available |
-| 02284766 | SIMVASTATIN | Not available | Not available |
-| 02469987 | PHARMA-SIMVASTATIN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247015 | APO-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02247221 | PRO-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02250187 | TEVA-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02284758 | SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02284766 | SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02329174 | TARO-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02329182 | TARO-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02372967 | MINT-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02375605 | JAMP-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02386305 | SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02386313 | SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02405148 | AURO-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02469979 | PHARMA-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02469987 | PHARMA-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02470004 | PHARMA-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02470012 | PHARMA-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02549638 | PMSC-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02549654 | PMSC-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02549670 | PMSC-SIMVASTATIN | SIMVASTATIN | Marketed |
+| 02375044 | MAR-SIMVASTATIN | SIMVASTATIN | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 767
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). In Canada: 5 DINs (5 marketed)"
@@ -83,13 +83,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00232378 | TEVA-PREDNISONE | Not specified | Not specified |
-| 00271373 | WINPRED | Not specified | Not specified |
-| 00312770 | APO PREDNISONE TAB 5MG | Tablet (5 mg) | Not specified |
-| 00021695 | TEVA-PREDNISONE | Not specified | Not specified |
-| 00550957 | APO PREDNISONE TAB 50MG | Tablet (50 mg) | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00021695 | TEVA-PREDNISONE | PREDNISONE | Marketed |
+| 00232378 | TEVA-PREDNISONE | PREDNISONE | Marketed |
+| 00271373 | WINPRED | PREDNISONE | Marketed |
+| 00312770 | APO PREDNISONE TAB 5MG | PREDNISONE | Marketed |
+| 00550957 | APO PREDNISONE TAB 50MG | PREDNISONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

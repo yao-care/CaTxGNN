@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 510
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not available in the compiled data"
 monitor_inn: "KETAMINE"
 predicted_indications: ["headache disorder"]
@@ -97,15 +97,23 @@ Several other publications in the compiled set concern ketamine in depression an
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02550458 | Ketamine Hydrochloride Injection, USP | Injection | Not available |
-| 02535645 | Ketamine Injection, BP | Injection | Not available |
-| 02246796 | Ketamine Hydrochloride Injection USP | Injection | Not available |
-| 00224405 | Ketalar | Injection | Not available |
-| 00224391 | Ketalar | Injection | Not available |
+<!-- licenses:begin -->
 
-Seven licences are valid in total (all single-ingredient); the five above are shown. The dosage form is inferred from the product names, as the licence records do not list it.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00224391 | KETALAR | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 00224405 | KETALAR | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 02246795 | KETAMINE HYDROCHLORIDE INJECTION USP | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 02246796 | KETAMINE HYDROCHLORIDE INJECTION USP | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 02535645 | KETAMINE INJECTION, BP | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 02550431 | KETAMINE HYDROCHLORIDE INJECTION, USP | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+| 02550458 | KETAMINE HYDROCHLORIDE INJECTION, USP | KETAMINE (KETAMINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Seven licences are valid in total (all single-ingredient). The dosage form is inferred from the product names, as the licence records do not list it.
 
 ## Safety Considerations
 

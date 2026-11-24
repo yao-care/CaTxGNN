@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 11
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -78,15 +78,25 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02240358 | ZIAGEN | Not specified | Not specified |
-| 02480956 | MINT-ABACAVIR | Not specified | Not specified |
-| 02396769 | APO-ABACAVIR | Not specified | Not specified |
-| 02416662 | TEVA-ABACAVIR/LAMIVUDINE | Not specified | Not specified |
-| 02450682 | MYLAN-ABACAVIR/LAMIVUDINE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of 9 valid authorizations in Canada; none is cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240358 | ZIAGEN | ABACAVIR (ABACAVIR SULFATE) | Marketed |
+| 02396769 | APO-ABACAVIR | ABACAVIR (ABACAVIR SULFATE) | Marketed |
+| 02416662 | TEVA-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02430932 | TRIUMEQ | ABACAVIR (ABACAVIR SULFATE); DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); LAMIVUDINE | Marketed |
+| 02450682 | MYLAN-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02454513 | AURO-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02480956 | MINT-ABACAVIR | ABACAVIR (ABACAVIR SULFATE) | Marketed |
+| 02497654 | JAMP ABACAVIR / LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02399539 | APO-ABACAVIR-LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+None is cancelled.
 
 ## Safety Considerations
 

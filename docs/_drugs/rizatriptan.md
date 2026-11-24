@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 819
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIZATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: at least 20 DINs"
@@ -83,15 +83,38 @@ The publications below address migraine broadly. None studies brainstem aura dir
 
 ## Canada Market Information
 
-Rizatriptan has 20 valid single-ingredient licences in Canada. The licence records compiled for this report do not include dosage form or approved indication text. The first five are listed below.
+Rizatriptan has 20 valid single-ingredient licences in Canada. The licence records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02393360 | PMS-RIZATRIPTAN RDT | Not available | Not available |
-| 02396661 | TEVA-RIZATRIPTAN ODT | Not available | Not available |
-| 02446111 | RIZATRIPTAN ODT | Not available | Not available |
-| 02415801 | RIZATRIPTAN RDT | Not available | Not available |
-| 02240519 | MAXALT RPD | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240518 | MAXALT RPD | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02240519 | MAXALT RPD | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02351870 | SANDOZ RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02351889 | SANDOZ RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02379198 | MYLAN-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02381702 | ACT RIZATRIPTAN | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02393360 | PMS-RIZATRIPTAN RDT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02393379 | PMS-RIZATRIPTAN RDT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02393468 | APO-RIZATRIPTAN | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02396661 | TEVA-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02415801 | RIZATRIPTAN RDT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02442914 | RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02446111 | RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02462788 | MAR-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02462796 | MAR-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02465086 | JAMP-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02483289 | ACCEL-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02516756 | RIZATRIPTAN | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02547716 | M-RIZATRIPTAN | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Marketed |
+| 02436612 | NAT-RIZATRIPTAN ODT | RIZATRIPTAN (RIZATRIPTAN BENZOATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

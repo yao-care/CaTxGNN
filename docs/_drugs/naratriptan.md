@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -83,11 +83,17 @@ The publications below are general migraine and naratriptan studies. None of the
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02314290 | TEVA-NARATRIPTAN | Not specified | Not specified |
-| 02314304 | TEVA-NARATRIPTAN | Not specified | Not specified |
-| 02322323 | SANDOZ NARATRIPTAN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02314290 | TEVA-NARATRIPTAN | NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE) | Marketed |
+| 02314304 | TEVA-NARATRIPTAN | NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE) | Marketed |
+| 02322323 | SANDOZ NARATRIPTAN | NARATRIPTAN (NARATRIPTAN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

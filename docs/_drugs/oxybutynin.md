@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In Canada: 6 DINs (5 marketed, 1 dormant)"
@@ -80,13 +80,20 @@ For reference, the literature retrieved for the third-ranked prediction (peptic 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02240549 | PMS-OXYBUTYNIN | Not listed | Not listed |
-| 02299364 | RIVA-OXYBUTYNIN | Not listed | Not listed |
-| 02240550 | PMS-OXYBUTYNIN | Not listed | Not listed |
-| 02223376 | PMS-OXYBUTYNIN | Not listed | Not listed |
-| 02163543 | APO-OXYBUTYNIN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02163543 | APO-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Marketed |
+| 02223376 | PMS-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Marketed |
+| 02230394 | TEVA-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Marketed |
+| 02240549 | PMS-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Marketed |
+| 02240550 | PMS-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Marketed |
+| 02299364 | RIVA-OXYBUTYNIN | OXYBUTYNIN CHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 One further authorisation (02230394, TEVA-OXYBUTYNIN) is also valid. All 6 licences are single-ingredient products with valid status.
 

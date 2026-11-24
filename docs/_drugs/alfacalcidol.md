@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
@@ -84,14 +84,20 @@ Currently no related literature available.
 
 All 6 authorisations are valid single-ingredient products. Dosage form and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02533324 | SANDOZ ALFACALCIDOL | Valid |
-| 02533316 | SANDOZ ALFACALCIDOL | Valid |
-| 02240329 | ONE-ALPHA | Valid |
-| 02242502 | ONE-ALPHA | Valid |
-| 00474525 | ONE-ALPHA | Valid |
-| 00474517 | ONE-ALPHA | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00474517 | ONE-ALPHA | ALFACALCIDOL | Marketed |
+| 00474525 | ONE-ALPHA | ALFACALCIDOL | Marketed |
+| 02240329 | ONE-ALPHA | ALFACALCIDOL | Marketed |
+| 02242502 | ONE-ALPHA | ALFACALCIDOL | Marketed |
+| 02533316 | SANDOZ ALFACALCIDOL | ALFACALCIDOL | Marketed |
+| 02533324 | SANDOZ ALFACALCIDOL | ALFACALCIDOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

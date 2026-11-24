@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -102,15 +102,38 @@ For reference, the most relevant publications for the other predicted indication
 
 ## Canada Market Information
 
-Olmesartan has 20 valid single-ingredient licenses in Canada. The records compiled for this report do not include dosage forms or approved indication text. Five representative authorizations are shown:
+Olmesartan has 20 valid single-ingredient licenses in Canada. The records compiled for this report do not include dosage forms or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02318679 | OLMETEC | Not available | Not available |
-| 02318660 | OLMETEC | Not available | Not available |
-| 02442205 | TEVA-OLMESARTAN | Not available | Not available |
-| 02443414 | SANDOZ OLMESARTAN | Not available | Not available |
-| 02461315 | PMS-OLMESARTAN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02318660 | OLMETEC | OLMESARTAN MEDOXOMIL | Marketed |
+| 02318679 | OLMETEC | OLMESARTAN MEDOXOMIL | Marketed |
+| 02442205 | TEVA-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02443414 | SANDOZ OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02443864 | AURO-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02443872 | AURO-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02456311 | ACH-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02456338 | ACH-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02461307 | PMS-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02461315 | PMS-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02461641 | JAMP OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02461668 | JAMP OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02469812 | GLN-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02469820 | GLN-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02481057 | OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02481065 | OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02488744 | OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02488752 | OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02499258 | NRA-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+| 02499266 | NRA-OLMESARTAN | OLMESARTAN MEDOXOMIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

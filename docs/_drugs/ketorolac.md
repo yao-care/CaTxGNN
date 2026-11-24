@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 513
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -112,13 +112,28 @@ Approved indication text and dosage form were not available in the compiled data
 
 <!-- review:end ca-lic-20261105-ketorolac-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02369362 | ACUVAIL | Not available | Not available |
-| 02245821 | KETOROLAC | Not available | Not available |
-| 02162644 | TORADOL IM | Not available | Not available |
-| 01968300 | ACULAR | Not available | Not available |
-| 02390582 | KETOROLAC TROMETHAMINE INJECTION USP | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01968300 | ACULAR | KETOROLAC TROMETHAMINE | Marketed |
+| 02162644 | TORADOL IM | KETOROLAC TROMETHAMINE | Marketed |
+| 02162660 | TORADOL | KETOROLAC TROMETHAMINE | Marketed |
+| 02229080 | APO-KETOROLAC | KETOROLAC TROMETHAMINE | Marketed |
+| 02244947 | KETOROLAC TROMETHAMINE INJECTION, USP | KETOROLAC TROMETHAMINE | Marketed |
+| 02245821 | KETOROLAC | KETOROLAC TROMETHAMINE | Marketed |
+| 02369362 | ACUVAIL | KETOROLAC TROMETHAMINE | Marketed |
+| 02443376 | KETOROLAC TROMETHAMINE INJECTION, USP | KETOROLAC TROMETHAMINE | Marketed |
+| 02461455 | MINT-KETOROLAC | KETOROLAC TROMETHAMINE | Marketed |
+| 02465124 | MAR-KETOROLAC | KETOROLAC TROMETHAMINE | Marketed |
+| 02510855 | JAMP KETOROLAC | KETOROLAC TROMETHAMINE | Marketed |
+| 02523310 | KETOROLAC TROMETHAMINE INJECTION USP | KETOROLAC TROMETHAMINE | Dormant |
+| 02239944 | KETOROLAC TROMETHAMINE INJECTION USP | KETOROLAC TROMETHAMINE | Cancelled post market |
+| 02390582 | KETOROLAC TROMETHAMINE INJECTION USP | KETOROLAC TROMETHAMINE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

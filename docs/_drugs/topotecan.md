@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 924
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer (including several ovarian subtypes such as germ cell…"
 monitor_inn: "TOPOTECAN"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -97,12 +97,18 @@ The very high TxGNN score supports biological plausibility, but it is a model pr
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02396378 | Topotecan Hydrochloride for Injection | Not listed | Not listed |
-| 02390981 | Topotecan Injection | Not listed | Not listed |
-| 02379422 | Topotecan Hydrochloride for Injection | Not listed | Not listed |
-| 02441071 | Teva-Topotecan | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02379422 | TOPOTECAN HYDROCHLORIDE FOR INJECTION | TOPOTECAN (TOPOTECAN HYDROCHLORIDE) | Marketed |
+| 02390981 | TOPOTECAN INJECTION | TOPOTECAN (TOPOTECAN HYDROCHLORIDE) | Marketed |
+| 02396378 | TOPOTECAN HYDROCHLORIDE FOR INJECTION | TOPOTECAN (TOPOTECAN HYDROCHLORIDE) | Marketed |
+| 02441071 | TEVA-TOPOTECAN | TOPOTECAN (TOPOTECAN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

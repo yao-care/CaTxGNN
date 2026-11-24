@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: Known Uses Only (No New Predictions)
 nav_order: 462
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hypromellose: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -48,13 +48,23 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00000809 | ALCON TEARS 0.5% | Not listed | Not listed |
-| 02231289 | GENTEAL | Not listed | Not listed |
-| 00000817 | ALCON TEARS 1% | Not listed | Not listed |
-| 00743445 | TEARS NATURALE II | Not listed | Not listed |
-| 02354535 | ARTIFICIAL TEARS | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00000809 | ALCON TEARS 0.5% | HYPROMELLOSE | Marketed |
+| 00000817 | ALCON TEARS 1% | HYPROMELLOSE | Marketed |
+| 00743445 | TEARS NATURALE II | DEXTRAN 70; HYPROMELLOSE | Marketed |
+| 01943308 | TEARS NATURALE FREE | DEXTRAN 70; HYPROMELLOSE | Marketed |
+| 02246397 | TEARS NATURALE FORTE | DEXTRAN 70; GLYCERINE; HYPROMELLOSE | Marketed |
+| 02354535 | ARTIFICIAL TEARS | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02389886 | DRY EYE TEARS | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02438585 | VISINE FOR DRY EYE TIRED EYE RELIEF | GLYCERINE; HYPROMELLOSE | Marketed |
+| 02231289 | GENTEAL | HYPROMELLOSE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The product names indicate ophthalmic lubricant products.
 

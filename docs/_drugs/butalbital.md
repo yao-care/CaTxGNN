@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 139
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Butalbital: predicted new indication Visual epilepsy (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this report (but…"
 monitor_inn: "BUTALBITAL"
 predicted_indications: ["visual epilepsy", "micturation-induced seizures", "thinking seizures", "audiogenic seizures", "eating seizures", "startle epilepsy", "orgasm-induced seizures", "reading seizures"]
@@ -88,13 +88,25 @@ For the other predicted seizure types, the only additional publication was a 202
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01971409 | TRIANAL TABLET | Not specified | Not specified |
-| 00608238 | TEVA-TECNAL | Not specified | Not specified |
-| 02554690 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE | Not specified | Not specified |
-| 00608211 | TEVA-TECNAL | Not specified | Not specified |
-| 00226327 | FIORINAL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00176192 | FIORINAL-C 1/4 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00176206 | FIORINAL-C 1/2 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00226327 | FIORINAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 00608181 | TEVA-TECNAL C 1/2 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00608203 | TEVA-TECNAL C 1/4 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 00608211 | TEVA-TECNAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 00608238 | TEVA-TECNAL | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 01971409 | TRIANAL TABLET | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+| 02554615 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE-CODEINE-C 1/4 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 02554623 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE-CODEINE-C 1/2 | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 02554690 | APO-BUTALBITAL-ACETYLSALICYLIC ACID-CAFFEINE | ACETYLSALICYLIC ACID; BUTALBITAL; CAFFEINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Six further valid products are also licensed. They include other TEVA-TECNAL C, FIORINAL-C and APO-BUTALBITAL-codeine combination strengths.
 

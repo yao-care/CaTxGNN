@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "LAMIVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -75,15 +75,36 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02369052 | APO-LAMIVUDINE | Not listed | Not listed |
-| 02512467 | JAMP LAMIVUDINE HBV | Not listed | Not listed |
-| 02192683 | 3TC | Not listed | Not listed |
-| 02507129 | JAMP LAMIVUDINE | Not listed | Not listed |
-| 02491753 | DOVATO | Not listed | Not listed |
+<!-- licenses:begin -->
 
-These are 5 of the 20 valid single-entry licences. The others include lamivudine/zidovudine and abacavir/lamivudine products, TRIUMEQ and DELSTRIGO.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02192683 | 3TC | LAMIVUDINE | Marketed |
+| 02192691 | 3TC | LAMIVUDINE | Marketed |
+| 02247825 | 3TC | LAMIVUDINE | Marketed |
+| 02369052 | APO-LAMIVUDINE | LAMIVUDINE | Marketed |
+| 02369060 | APO-LAMIVUDINE | LAMIVUDINE | Marketed |
+| 02375540 | APO-LAMIVUDINE-ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+| 02393239 | APO-LAMIVUDINE HBV | LAMIVUDINE | Marketed |
+| 02414414 | AURO-LAMIVUDINE/ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+| 02416662 | TEVA-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02430932 | TRIUMEQ | ABACAVIR (ABACAVIR SULFATE); DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); LAMIVUDINE | Marketed |
+| 02450682 | MYLAN-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02454513 | AURO-ABACAVIR/LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02482592 | DELSTRIGO | DORAVIRINE; LAMIVUDINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02491753 | DOVATO | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); LAMIVUDINE | Marketed |
+| 02497654 | JAMP ABACAVIR / LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Marketed |
+| 02502801 | JAMP LAMIVUDINE / ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+| 02507110 | JAMP LAMIVUDINE | LAMIVUDINE | Marketed |
+| 02507129 | JAMP LAMIVUDINE | LAMIVUDINE | Marketed |
+| 02512467 | JAMP LAMIVUDINE HBV | LAMIVUDINE | Marketed |
+| 02399539 | APO-ABACAVIR-LAMIVUDINE | ABACAVIR (ABACAVIR SULFATE); LAMIVUDINE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+The others include lamivudine/zidovudine and abacavir/lamivudine products, TRIUMEQ and DELSTRIGO.
 
 ## Safety Considerations
 

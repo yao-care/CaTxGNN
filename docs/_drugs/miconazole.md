@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 614
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). In Canada: 10 DINs (9 marketed)"
@@ -87,15 +87,26 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244005 | MONISTAT 3 VAGINAL CREAM | Not specified | Not specified |
-| 02245546 | MICONAZOLE NITRATE VAGINAL CREAM 2% | Not specified | Not specified |
-| 02230304 | MICATIN POWDER SPRAY - UNSCENTED 2% | Not specified | Not specified |
-| 02126567 | MONISTAT DERM CREAM | Not specified | Not specified |
-| 02126257 | MONISTAT 7 DUAL-PAK | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Nine of the ten licences are valid and one (MONICURE COMBO) is cancelled. Only five are listed here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02084309 | MONISTAT 7 VAGINAL CREAM | MICONAZOLE NITRATE | Marketed |
+| 02085852 | MICATIN MICONAZOLE NITRATE CREAM 2% USP | MICONAZOLE NITRATE | Marketed |
+| 02126257 | MONISTAT 7 DUAL-PAK | MICONAZOLE NITRATE | Marketed |
+| 02126567 | MONISTAT DERM CREAM | MICONAZOLE NITRATE | Marketed |
+| 02171775 | MICONAZOLE 3 DAY OVULE TREATMENT 400MG | MICONAZOLE NITRATE | Marketed |
+| 02230304 | MICATIN POWDER SPRAY - UNSCENTED 2% | MICONAZOLE NITRATE | Marketed |
+| 02231533 | MICONAZOLE NITRATE VAGINAL CREAM USP, 2% | MICONAZOLE NITRATE | Marketed |
+| 02244005 | MONISTAT 3 VAGINAL CREAM | MICONAZOLE NITRATE | Marketed |
+| 02245546 | MICONAZOLE NITRATE VAGINAL CREAM 2% | MICONAZOLE NITRATE | Marketed |
+| 02382628 | MONICURE COMBO | FLUCONAZOLE; MICONAZOLE NITRATE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine of the ten licences are valid and one (MONICURE COMBO) is cancelled.
 
 ---
 

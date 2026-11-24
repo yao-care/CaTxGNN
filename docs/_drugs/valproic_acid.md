@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 963
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALPROIC ACID"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Canada: 16 DINs (15 marketed, 1 dormant)"
@@ -81,15 +81,32 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Sixteen valid single-ingredient licences are on record. The main ones are listed below. Dosage form and approved-indication text were not available.
+Sixteen valid single-ingredient licences are on record. Dosage form and approved-indication text were not available.
 
-| DIN | Product Name |
-|---------|------|
-| 02239699 | APO-DIVALPROEX |
-| 02458926 | MYLAN-DIVALPROEX |
-| 00596418 | EPIVAL |
-| 02236807 | PMS-VALPROIC ACID |
-| 00443832 | DEPAKENE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00443832 | DEPAKENE | VALPROIC ACID (SODIUM VALPROATE) | Marketed |
+| 00596418 | EPIVAL | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 00596426 | EPIVAL | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 00596434 | EPIVAL | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02230768 | PMS-VALPROIC ACID | VALPROIC ACID | Marketed |
+| 02236807 | PMS-VALPROIC ACID | VALPROIC ACID (SODIUM VALPROATE) | Marketed |
+| 02238048 | APO-VALPROIC ACID | VALPROIC ACID | Marketed |
+| 02239698 | APO-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02239699 | APO-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02239700 | APO-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02458926 | MYLAN-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02458934 | MYLAN-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02459019 | MYLAN-DIVALPROEX | VALPROIC ACID (DIVALPROEX SODIUM) | Marketed |
+| 02532441 | JAMP VALPROIC ACID ORAL SOLUTION | VALPROIC ACID (SODIUM VALPROATE) | Marketed |
+| 02549190 | ODAN-VALPROIC ACID | VALPROIC ACID (SODIUM VALPROATE) | Marketed |
+| 02229628 | PMS-VALPROIC ACID E.C. | VALPROIC ACID | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

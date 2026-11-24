@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: predicted new indication Gastrin secretion abnormality (evidence level L5). Approved use: Esophageal candidiasis, candidemia"
 monitor_inn: "Caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -79,13 +79,20 @@ The five main ones are shown below.
 
 <!-- review:end ca-lic-20261105-caspofungin-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02244265 | CANCIDAS |
-| 02244266 | CANCIDAS |
-| 02460947 | CASPOFUNGIN FOR INJECTION |
-| 02460955 | CASPOFUNGIN FOR INJECTION |
-| 02486997 | CASPOFUNGIN FOR INJECTION |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244266 | CANCIDAS | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Marketed |
+| 02460947 | CASPOFUNGIN FOR INJECTION | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Marketed |
+| 02460955 | CASPOFUNGIN FOR INJECTION | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Marketed |
+| 02486989 | CASPOFUNGIN FOR INJECTION | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Marketed |
+| 02486997 | CASPOFUNGIN FOR INJECTION | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Marketed |
+| 02244265 | CANCIDAS | CASPOFUNGIN (CASPOFUNGIN ACETATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

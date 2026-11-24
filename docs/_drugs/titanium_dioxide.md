@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 918
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: No approved indication text is recorded in the Canadian licence data…"
 monitor_inn: "Titanium dioxide"
 predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "mature cataract", "cortical cataract"]
@@ -84,13 +84,36 @@ For context, the second-ranked prediction, diabetic retinopathy, returned 5 publ
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02538482 | Weightless Skin Foundation SPF 15 | Not specified | Not specified |
-| 02406926 | Marcelle CC Cream, Complete Correction SPF 35 | Not specified | Not specified |
-| 02434016 | Teint Lumière | Not specified | Not specified |
-| 02529130 | Fluid SPF 15 | Not specified | Not specified |
-| 02492970 | Superdefense City Block Daily Energy + Face Protector SPF 50 | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02367998 | CLINIQUE EVEN BETTER MAKEUP SPF 15 | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02370425 | CLINIQUE REDNESS SOLUTIONS MAKEUP SPF 15 WITH PROBIOTIC TECHNOLOGY | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02384825 | CLINIQUE REPAIRWEAR UPLIFTING FIRMING CREAM SPF 15 VERY DRY TO DRY | OCTINOXATE; OCTISALATE; TITANIUM DIOXIDE | Marketed |
+| 02384833 | CLINIQUE REPAIRWEAR UPLIFTING FIRMING CREAM SPF 15 DRY COMBINATION TO… | OCTINOXATE; OCTISALATE; TITANIUM DIOXIDE | Marketed |
+| 02402114 | CLINIQUE MOISTURE SURGE CC CREAM HYDRATING COLOUR CORRECTOR SPF 30 | OCTINOXATE; OCTISALATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02406926 | MARCELLE/CC/CREAM/CRÈME COMPLETE CORRECTION/CORRECTION COMPLÈTE/SPF 3… | OCTINOXATE; TITANIUM DIOXIDE | Marketed |
+| 02426145 | CC CREAM BROAD SPECTRUM SPF 30 | HOMOSALATE; OCTINOXATE; OXYBENZONE; TITANIUM DIOXIDE | Marketed |
+| 02434016 | TEINT LUMIÈRE | OCTINOXATE; TITANIUM DIOXIDE | Marketed |
+| 02456273 | UV 50 ECRAN TEINTÉ MULTI-PROTECTION SPF 50 | HOMOSALATE; OCTOCRYLENE; OXYBENZONE; TITANIUM DIOXIDE | Marketed |
+| 02488299 | IOPE AIR CUSHION | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02492059 | MOISTURE SURGE SHEERTINT HYDRATOR SPF 25 | OCTINOXATE; OCTISALATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02492970 | SUPERDEFENSE CITY BLOCK DAILY ENERGY + FACE PROTECTOR SPF 50 | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02496909 | HEALTHY GLOW ALL-IN-ONE TINTED MOISTURIZER BROAD SPECTRUM SPF 25 | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02525402 | BLUE LIZARD AUSTRALIAN SUNSCREEN 50 SPF KIDS | OCTISALATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02525429 | BLUE LIZARD AUSTRALIAN SUNSCREEN 50 SPF SPORT | OCTISALATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02529130 | FLUID SPF 15 | OCTINOXATE; TITANIUM DIOXIDE | Marketed |
+| 02538482 | WEIGHTLESS SKIN FOUNDATION SPF 15 | OCTINOXATE; TITANIUM DIOXIDE | Marketed |
+| 02542927 | CC+ NATURAL MATTE | ENSULIZOLE; OCTISALATE; TITANIUM DIOXIDE | Marketed |
+| 02437376 | M.A.C. STUDIO WATERWEIGHT SPF 30 FOUNDATION | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Cancelled post market |
+| 02531119 | VITAMIN ENRICHED SKIN TINT SPF 15 | OCTINOXATE; OCTISALATE; TITANIUM DIOXIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 All are sunscreen or cosmetic-type products.
 

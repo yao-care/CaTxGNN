@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 872
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -98,13 +98,19 @@ The 20 publications linked to osteoarthritis include several that are only loose
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00598488 | PMS-SULFASALAZINE-E.C. TAB 500MG | Not specified | Not specified |
-| 00598461 | PMS-SULFASALAZINE 500MG/TAB USP | Not specified | Not specified |
-| 02064480 | SALAZOPYRIN TAB 500MG | Not specified | Not specified |
-| 02544652 | JAMP SULFASALAZINE | Not specified | Not specified |
-| 02064472 | SALAZOPYRIN EN-TABS 500 MG | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00598461 | PMS-SULFASALAZINE 500MG/TAB USP | SULFASALAZINE | Marketed |
+| 00598488 | PMS-SULFASALAZINE-E.C. TAB 500MG | SULFASALAZINE | Marketed |
+| 02064472 | SALAZOPYRIN EN-TABS 500 MG | SULFASALAZINE | Marketed |
+| 02064480 | SALAZOPYRIN TAB 500MG | SULFASALAZINE | Marketed |
+| 02544652 | JAMP SULFASALAZINE | SULFASALAZINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

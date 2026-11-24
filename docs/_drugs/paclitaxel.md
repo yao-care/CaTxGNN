@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 698
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -104,13 +104,19 @@ The data list 40 trials for this indication. The table shows the 10 most relevan
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02281066 | ABRAXANE FOR INJECTABLE SUSPENSION | Not listed | Not listed |
-| 02391465 | PACLITAXEL INJECTION USP | Not listed | Not listed |
-| 02320150 | PACLITAXEL INJECTION USP | Not listed | Not listed |
-| 02496097 | PACLITAXEL POWDER FOR INJECTABLE SUSPENSION NANOPARTICLE, ALBUMIN-BOUND PACLITAXEL | Not listed | Not listed |
-| 02244372 | PACLITAXEL FOR INJECTION | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244372 | PACLITAXEL FOR INJECTION | PACLITAXEL | Marketed |
+| 02281066 | ABRAXANE FOR INJECTABLE SUSPENSION | PACLITAXEL | Marketed |
+| 02320150 | PACLITAXEL INJECTION USP | PACLITAXEL | Marketed |
+| 02391465 | PACLITAXEL INJECTION USP | PACLITAXEL | Marketed |
+| 02496097 | PACLITAXEL POWDER FOR INJECTABLE SUSPENSION NANOPARTICLE, ALBUMIN-BOU… | PACLITAXEL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five authorisations are valid single-ingredient products. Two are albumin-bound (nab-paclitaxel) formulations, which differ from solvent-based paclitaxel.
 

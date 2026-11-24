@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 20
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: predicted new indication Thrombotic disease (evidence level L1). Approved use: Bronchitis, paracetamol poisoning, cystic fibrosis, bronchiectasis"
 monitor_inn: "ACETYLCYSTEINE"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -101,11 +101,17 @@ The link to the original indications is the shared thiol chemistry: disulfide-bo
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243098 | Acetylcysteine Solution | Not specified | Not specified |
-| 02459906 | Acetylcysteine Solution USP | Not specified | Not specified |
-| 02538431 | Acetylcysteine Solution USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243098 | ACETYLCYSTEINE SOLUTION | ACETYLCYSTEINE | Marketed |
+| 02459906 | ACETYLCYSTEINE SOLUTION USP | ACETYLCYSTEINE | Marketed |
+| 02538431 | ACETYLCYSTEINE SOLUTION USP | ACETYLCYSTEINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ layout: default
 title: Lutropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 569
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Lutropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lutropin alfa"
 predicted_indications: []
@@ -48,12 +48,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02269066 | LUVERIS | Not listed | Not listed |
-| 02470640 | PERGOVERIS | Not listed | Not listed |
-| 02470659 | PERGOVERIS | Not listed | Not listed |
-| 02470667 | PERGOVERIS | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02269066 | LUVERIS | LUTROPIN ALFA | Marketed |
+| 02470640 | PERGOVERIS | FOLLITROPIN ALFA; LUTROPIN ALFA | Marketed |
+| 02470659 | PERGOVERIS | FOLLITROPIN ALFA; LUTROPIN ALFA | Marketed |
+| 02470667 | PERGOVERIS | FOLLITROPIN ALFA; LUTROPIN ALFA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid licenses; none is cancelled.
 

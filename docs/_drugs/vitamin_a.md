@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 980
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -64,7 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 For congenital prothrombin deficiency, a plausible mechanism is **not apparent**. This is a genetic coagulation factor disorder. Prothrombin synthesis depends on the vitamin K pathway, and vitamin A has no established role in it. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
-
 - **Perinatal disease (score 0.9963)**: vitamin A supports lung epithelial development, and deficiency in very low birth weight infants is linked to bronchopulmonary dysplasia risk. This is the best-supported direction, and it is consistent with vitamin A's existing nutritional role rather than a wholly new use.
 - **Injury (score 0.9969)**: retinoids support epithelial regeneration and wound healing, but the trials are limited to extremely-low-birth-weight neonates.
 - **Cell proliferation disorder** and **radiation or chemically induced disorder**: mechanistically plausible through retinoid receptor signalling and photoprotection, but the categories are too broad to test.
@@ -105,11 +104,17 @@ The strongest literature in the data compiled for this report concerns "perinata
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00586315 | MULTI 1000 | Not specified | Not specified |
-| 02100606 | MULTI 12 | Not specified | Not specified |
-| 02242529 | MULTI-12/K1 PEDIATRIC | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00586315 | MULTI 1000 | ASCORBIC ACID; D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE); NICOTINAMIDE; VITAMIN A; VITAMIN B1 (THIAMINE HYD… | Marketed |
+| 02100606 | MULTI 12 | ASCORBIC ACID; BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITAMIN A; VITAMIN B… | Marketed |
+| 02242529 | MULTI-12/K1 PEDIATRIC | ASCORBIC ACID (ASCORBIC ACID); BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITA… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

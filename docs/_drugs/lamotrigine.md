@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome)"
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -118,15 +118,38 @@ Both trials are underpowered, and there is no confirmatory Phase 3 evidence.
 
 ## Canada Market Information
 
-Lamotrigine has 20 valid single-ingredient authorisations in Canada and none are cancelled. The compiled records do not include dosage form or approved-indication text. The first five are listed below.
+Lamotrigine has 20 valid single-ingredient authorisations in Canada and none are cancelled. The compiled records do not include dosage form or approved-indication text.
 
-| DIN | Product Name |
-|---------|------|
-| 02381370 | AURO-LAMOTRIGINE |
-| 02243803 | LAMICTAL |
-| 02302993 | LAMOTRIGINE-150 |
-| 02302969 | LAMOTRIGINE-25 |
-| 02245210 | APO-LAMOTRIGINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02142082 | LAMICTAL | LAMOTRIGINE | Marketed |
+| 02240115 | LAMICTAL | LAMOTRIGINE | Marketed |
+| 02243803 | LAMICTAL | LAMOTRIGINE | Marketed |
+| 02245209 | APO-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02245210 | APO-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02265516 | MYLAN-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02302969 | LAMOTRIGINE-25 | LAMOTRIGINE | Marketed |
+| 02302985 | LAMOTRIGINE-100 | LAMOTRIGINE | Marketed |
+| 02302993 | LAMOTRIGINE-150 | LAMOTRIGINE | Marketed |
+| 02343010 | LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02343029 | LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02381370 | AURO-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02428202 | LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02428229 | LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02542730 | JAMP LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02542749 | JAMP LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02542757 | JAMP LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02543710 | AG-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02543729 | AG-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+| 02543737 | AG-LAMOTRIGINE | LAMOTRIGINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

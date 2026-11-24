@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexmedetomidine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the data compiled for this report (injectable sedati…"
 monitor_inn: "DEXMEDETOMIDINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -98,13 +98,23 @@ For the related migraine prediction, one trial is registered: [NCT07769255](http
 
 Nine valid single-ingredient licences are on record. The compiled data does not include dosage form or approved indication text for them.
 
-| DIN | Product Name |
-|---------|------|
-| 02437147 | PRECEDEX |
-| 02528886 | Dexmedetomidine Hydrochloride for Injection |
-| 02487365 | Dexmedetomidine Hydrochloride Injection |
-| 02464381 | Dexmedetomidine Hydrochloride for Injection |
-| 02477327 | Dexmedetomidine Hydrochloride for Injection |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02437147 | PRECEDEX | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02464381 | DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02467976 | DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02477327 | DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02487365 | DEXMEDETOMIDINE HYDROCHLORIDE INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02487373 | DEXMEDETOMIDINE HYDROCHLORIDE INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02513978 | DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION, USP | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02528886 | DEXMEDETOMIDINE HYDROCHLORIDE FOR INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+| 02537109 | DEXMEDETOMIDINE HYDROCHLORIDE INJECTION | DEXMEDETOMIDINE (DEXMEDETOMIDINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

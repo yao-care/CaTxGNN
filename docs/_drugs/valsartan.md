@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 964
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
@@ -74,13 +74,36 @@ Currently no related clinical trials registered.
 
 At least 20 valid single-ingredient valsartan licences are recorded in the local data; the list may be partial. Dosage form and indication text are not recorded for these licences.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244782 | DIOVAN 160MG TABLETS | Not listed | Not listed |
-| 02244781 | DIOVAN 80MG TABLETS | Not listed | Not listed |
-| 02289504 | DIOVAN | Not listed | Not listed |
-| 02356643 | TEVA-VALSARTAN | Not listed | Not listed |
-| 02356759 | SANDOZ VALSARTAN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244781 | DIOVAN 80MG TABLETS | VALSARTAN | Marketed |
+| 02244782 | DIOVAN 160MG TABLETS | VALSARTAN | Marketed |
+| 02289504 | DIOVAN | VALSARTAN | Marketed |
+| 02356643 | TEVA-VALSARTAN | VALSARTAN | Marketed |
+| 02356678 | TEVA-VALSARTAN | VALSARTAN | Marketed |
+| 02356686 | TEVA-VALSARTAN | VALSARTAN | Marketed |
+| 02356740 | SANDOZ VALSARTAN | VALSARTAN | Marketed |
+| 02356759 | SANDOZ VALSARTAN | VALSARTAN | Marketed |
+| 02356767 | SANDOZ VALSARTAN | VALSARTAN | Marketed |
+| 02356775 | SANDOZ VALSARTAN | VALSARTAN | Marketed |
+| 02363062 | TARO-VALSARTAN | VALSARTAN | Marketed |
+| 02363100 | TARO-VALSARTAN | VALSARTAN | Marketed |
+| 02363119 | TARO-VALSARTAN | VALSARTAN | Marketed |
+| 02366940 | VALSARTAN | VALSARTAN | Marketed |
+| 02367726 | VALSARTAN | VALSARTAN | Marketed |
+| 02367734 | VALSARTAN | VALSARTAN | Marketed |
+| 02367742 | VALSARTAN | VALSARTAN | Marketed |
+| 02384523 | VALSARTAN | VALSARTAN | Marketed |
+| 02384566 | VALSARTAN | VALSARTAN | Marketed |
+| 02414201 | AURO-VALSARTAN | VALSARTAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

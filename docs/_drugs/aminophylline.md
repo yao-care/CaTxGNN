@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 51
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the Canadian licence data"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -106,9 +106,15 @@ For reference, the only registered trial found among the other predicted indicat
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00582662 | AMINOPHYLLINE INJ 25MG/ML | Injection (form not recorded) | Not recorded in licence data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00582662 | AMINOPHYLLINE INJ 25MG/ML | AMINOPHYLLINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

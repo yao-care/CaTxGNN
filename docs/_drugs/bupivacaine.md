@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). In Canada: 16 DINs (15 marketed, 1 dormant)"
 ---
 
@@ -70,13 +70,30 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02241917 | MARCAINE | – | – |
-| 02443694 | BUPIVACAINE INJECTION BP | – | – |
-| 02460645 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | – | – |
-| 02512424 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | – | – |
-| 01976168 | SENSORCAINE | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01976141 | SENSORCAINE | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 01976168 | SENSORCAINE | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 01976184 | SENSORCAINE WITH EPINEPHRINE | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 01976206 | SENSORCAINE WITH EPINEPHRINE | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02241915 | MARCAINE E | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02241916 | MARCAINE E | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02241917 | MARCAINE | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02305909 | MARCAINE | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02443686 | BUPIVACAINE INJECTION BP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02443694 | BUPIVACAINE INJECTION BP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02460645 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02474247 | MARCAINE | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
+| 02488930 | BUPIVACAINE HYDROCHLORIDE INJECTION, USP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02512424 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02536714 | BUPIVACAINE HYDROCHLORIDE IN DEXTROSE INJECTION USP | BUPIVACAINE HYDROCHLORIDE | Marketed |
+| 02381850 | BUPIVACAINE HCL 0.5% AND EPINEPHRINE 1:200,000 INJECTION | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 16 licences are valid products; the five above are shown as examples.
 

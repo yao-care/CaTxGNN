@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 909
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the licence records compiled for this report (products…"
 monitor_inn: "THREONINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -80,15 +80,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Threonine is marketed in Canada with 20 valid single-ingredient authorisations. Dosage form, manufacturer and approved indication text were not available in the licence records. The main authorisations are:
+Threonine is marketed in Canada with 20 valid single-ingredient authorisations. Dosage form, manufacturer and approved indication text were not available in the licence records.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02046709 | CLINIMIX | Not available | Not available |
-| 02013932 | CLINIMIX | Not available | Not available |
-| 00872296 | TRAVASOL | Not available | Not available |
-| 02236875 | PRIMENE 10% | Not available | Not available |
-| 02477947 | OLIMEL 7.6% | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00872296 | TRAVASOL | ARGININE; GLYCINE; HISTIDINE; ISOLEUCINE; L-ALANINE; L-LYSINE (L-LYSINE HYDROCHLORIDE); LEUCINE; METHIONINE;… | Marketed |
+| 02013886 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02013932 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02013940 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02013967 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02014076 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02046709 | CLINIMIX | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE (L-LYSIN… | Marketed |
+| 02141450 | 20% PROSOL | ALANINE; ARGININE; DL-METHIONINE; GLUTAMIC ACID; GLYCINE; HISTIDINE; ISOLEUCINE; L-ASPARTIC ACID; LEUCINE; LY… | Marketed |
+| 02142384 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-PHENYLALANINE; L-PROLINE; L-T… | Marketed |
+| 02236875 | PRIMENE 10% | GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ASPARTIC ACID; L-CYSTEINE; L-ISOLEUCINE; L-LEUCIN… | Marketed |
+| 02352540 | OLIMEL 5.7% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02440687 | SMOFKABIVEN ELECTROLYTE FREE | ALANINE; ARGININE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYSINE ACETATE); MEDI… | Marketed |
+| 02477947 | OLIMEL 7.6% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02498413 | CLINIMIX E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROC… | Marketed |
+| 02498421 | CLINIMIX E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROC… | Marketed |
+| 02498448 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02498456 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02498464 | CLINIMIX | ALANINE; DEXTROSE; GLYCINE; HISTIDINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-LYSINE HYDROCHLORIDE; L-PHENYLA… | Marketed |
+| 02501775 | SMOFKABIVEN EXTRA NITROGEN ELECTROLYTE FREE | ALANINE; ARGININE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYSINE ACETATE); MEDI… | Marketed |
+| 02510324 | ESSEPNA | ALANINE; ARGININE; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (L-LYSINE ACETATE); METHIONINE; PHENYLALAN… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The remaining 15 authorisations include further CLINIMIX and CLINIMIX E strengths, 20% PROSOL, ESSEPNA, OLIMEL 5.7%, and SMOFKABIVEN (electrolyte free and extra nitrogen electrolyte free).
 

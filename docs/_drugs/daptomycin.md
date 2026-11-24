@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 249
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not listed in the Canadian license data compiled for this report (the…"
 monitor_inn: "DAPTOMYCIN"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -88,11 +88,17 @@ Note: none of the osteoarthritis-related articles studies daptomycin for degener
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02490463 | Daptomycin for Injection | Not specified | Not specified |
-| 02490838 | Daptomycin for Injection | Not specified | Not specified |
-| 02465493 | Cubicin RF | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02490463 | DAPTOMYCIN FOR INJECTION | DAPTOMYCIN | Marketed |
+| 02490838 | DAPTOMYCIN FOR INJECTION | DAPTOMYCIN | Marketed |
+| 02465493 | CUBICIN RF | DAPTOMYCIN | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

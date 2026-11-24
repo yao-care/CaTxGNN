@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 650
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "NEVIRAPINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -89,11 +89,17 @@ No randomized trials were found. The table lists the most relevant publications,
 
 The Canadian licence records do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02387727 | MYLAN-NEVIRAPINE | Not listed | Not listed |
-| 02318601 | AURO-NEVIRAPINE | Not listed | Not listed |
-| 02405776 | JAMP NEVIRAPINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02318601 | AURO-NEVIRAPINE | NEVIRAPINE | Marketed |
+| 02387727 | MYLAN-NEVIRAPINE | NEVIRAPINE | Marketed |
+| 02405776 | JAMP NEVIRAPINE | NEVIRAPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

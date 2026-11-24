@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CARVEDILOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -70,15 +70,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada records show 20 valid single-ingredient carvedilol licences, with none cancelled. The records may be partial. The main authorizations are listed below. Dosage form and indication text are not recorded for these entries.
+Health Canada records show 20 valid single-ingredient carvedilol licences, with none cancelled. The records may be partial. Dosage form and indication text are not recorded for these entries.
 
-| DIN | Product Name |
-|---------|------|
-| 02324520 | CARVEDILOL |
-| 02368900 | JAMP-CARVEDILOL |
-| 02247935 | APO-CARVEDILOL |
-| 02252309 | TEVA-CARVEDILOL |
-| 02245914 | PMS-CARVEDILOL |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245914 | PMS-CARVEDILOL | CARVEDILOL | Marketed |
+| 02245916 | PMS-CARVEDILOL | CARVEDILOL | Marketed |
+| 02248752 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02248753 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02248754 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02252309 | TEVA-CARVEDILOL | CARVEDILOL | Marketed |
+| 02252317 | TEVA-CARVEDILOL | CARVEDILOL | Marketed |
+| 02252325 | TEVA-CARVEDILOL | CARVEDILOL | Marketed |
+| 02252333 | TEVA-CARVEDILOL | CARVEDILOL | Marketed |
+| 02324504 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02324520 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02364948 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02364956 | CARVEDILOL | CARVEDILOL | Marketed |
+| 02368900 | JAMP-CARVEDILOL | CARVEDILOL | Marketed |
+| 02368919 | JAMP-CARVEDILOL | CARVEDILOL | Marketed |
+| 02368927 | JAMP-CARVEDILOL | CARVEDILOL | Marketed |
+| 02418509 | AURO-CARVEDILOL | CARVEDILOL | Marketed |
+| 02418517 | AURO-CARVEDILOL | CARVEDILOL | Marketed |
+| 02247933 | APO-CARVEDILOL | CARVEDILOL | Dormant |
+| 02247935 | APO-CARVEDILOL | CARVEDILOL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

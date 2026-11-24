@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the available licence data"
 monitor_inn: "Fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -84,11 +84,17 @@ For context, the literature retrieved for lower-ranked predictions is diagnostic
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00505005 | FLUORESCITE | Not listed | Not listed |
-| 02160773 | DIOFLUOR STRIPS | Not listed | Not listed |
-| 02148390 | MINIMS FLUORESCEIN SODIUM | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00505005 | FLUORESCITE | FLUORESCEIN (FLUORESCEIN SODIUM) | Marketed |
+| 02148390 | MINIMS FLUORESCEIN SODIUM | FLUORESCEIN SODIUM | Marketed |
+| 02160773 | DIOFLUOR STRIPS | FLUORESCEIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

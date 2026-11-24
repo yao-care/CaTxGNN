@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 824
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the Canadian licence data compiled for this report"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -79,13 +79,20 @@ However, the clinical data are small and varied. Techniques, anatomical targets 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02229411 | NAROPIN | Not specified | Not specified |
-| 02229418 | NAROPIN | Not specified | Not specified |
-| 02229415 | NAROPIN | Not specified | Not specified |
-| 02439409 | ROPIVACAINE HYDROCHLORIDE INJECTION, USP | Not specified | Not specified |
-| 02439379 | ROPIVACAINE HYDROCHLORIDE INJECTION, USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02229411 | NAROPIN | ROPIVACAINE HYDROCHLORIDE | Marketed |
+| 02229415 | NAROPIN | ROPIVACAINE HYDROCHLORIDE | Marketed |
+| 02229418 | NAROPIN | ROPIVACAINE HYDROCHLORIDE | Marketed |
+| 02439379 | ROPIVACAINE HYDROCHLORIDE INJECTION, USP | ROPIVACAINE HYDROCHLORIDE | Marketed |
+| 02439387 | ROPIVACAINE HYDROCHLORIDE INJECTION, USP | ROPIVACAINE HYDROCHLORIDE | Marketed |
+| 02439409 | ROPIVACAINE HYDROCHLORIDE INJECTION, USP | ROPIVACAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence (DIN 02439387, ROPIVACAINE HYDROCHLORIDE INJECTION, USP) is also valid. All six are single-ingredient products.
 

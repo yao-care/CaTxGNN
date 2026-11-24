@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 950
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Triprolidine"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 description: "Triprolidine: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -88,10 +88,16 @@ All are indirect evidence.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02169126 | TEVA-COTRIDIN | Not available | Not available |
-| 02053403 | TEVA-COTRIDIN EXPECTORANT | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02053403 | TEVA-COTRIDIN EXPECTORANT | CODEINE PHOSPHATE; GUAIFENESIN; PSEUDOEPHEDRINE HYDROCHLORIDE; TRIPROLIDINE HYDROCHLORIDE | Marketed |
+| 02169126 | TEVA-COTRIDIN | CODEINE PHOSPHATE; PSEUDOEPHEDRINE HYDROCHLORIDE; TRIPROLIDINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

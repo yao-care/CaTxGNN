@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In Canada: 6 DINs (6 marketed)"
@@ -91,13 +91,20 @@ None of these publications addresses oxcarbazepine specifically in visual epilep
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02284294 | APO-OXCARBAZEPINE | Not listed | Not listed |
-| 02244673 | TRILEPTAL ORAL SUSPENSION | Not listed | Not listed |
-| 02242069 | TRILEPTAL 600 MG | Not listed | Not listed |
-| 02242068 | TRILEPTAL 300 MG | Not listed | Not listed |
-| 02284308 | APO-OXCARBAZEPINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242068 | TRILEPTAL 300 MG | OXCARBAZEPINE | Marketed |
+| 02242069 | TRILEPTAL 600 MG | OXCARBAZEPINE | Marketed |
+| 02244673 | TRILEPTAL ORAL SUSPENSION | OXCARBAZEPINE | Marketed |
+| 02284294 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+| 02284308 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+| 02284316 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid. All six are single-ingredient products, and none is cancelled.
 

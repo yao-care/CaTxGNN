@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 992
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZINC OXIDE"
 predicted_indications: ["acne (disease)", "anorectal stricture", "anal polyp", "papillary conjunctivitis", "postinfectious vasculitis"]
 description: "Zinc Oxide: predicted new indication Acne (disease) (evidence level L4). In Canada: at least 20 DINs"
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Dosage forms and approved indication texts are not available for these products. The main ones are:
+Dosage forms and approved indication texts are not available for these products.
 
 <!-- review:begin ca-lic-20261105-zinc_oxide-1 -->
 
@@ -93,13 +93,36 @@ Dosage forms and approved indication texts are not available for these products.
 
 <!-- review:end ca-lic-20261105-zinc_oxide-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02239162 | ZINCOFAX | Not specified | Not specified |
-| 02239160 | ZINCOFAX EXTRA STRENGTH | Not specified | Not specified |
-| 02337452 | DIAPER RASH CREAM | Not specified | Not specified |
-| 02455463 | MEDLINE REMEDY ESSENTIALS PROTECTANT PASTE | Not specified | Not specified |
-| 02315793 | BAZA PROTECT II | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239160 | ZINCOFAX EXTRA STRENGTH | WHITE PETROLATUM; ZINC OXIDE | Marketed |
+| 02239162 | ZINCOFAX | WHITE PETROLATUM; ZINC OXIDE | Marketed |
+| 02322307 | ELTAMD SKINCARE UV DAILY SPF 40 | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02337452 | DIAPER RASH CREAM | WHITE PETROLATUM; ZINC OXIDE | Marketed |
+| 02404842 | ANTI-AGING COMPLEX EYE TREATMENT BROAD SPECTRUM SPF 15 | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02431343 | UV DAILY TINTED | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02455463 | MEDLINE REMEDY ESSENTIALS PROTECTANT PASTE | WHITE PETROLATUM; ZINC OXIDE | Marketed |
+| 02460882 | AGE DEFYING CLASSIC LOTION WITH SPF | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02461242 | COMPLETE LIGHTWEIGHT LOTION WITH SPF BROAD SPECTRUM SPF 15 SENSITIVE | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02473852 | SKIN RENEWING DAY CREAM | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02492792 | OLAY SENSITIVE | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02492970 | SUPERDEFENSE CITY BLOCK DAILY ENERGY + FACE PROTECTOR SPF 50 | OCTINOXATE; TITANIUM DIOXIDE; ZINC OXIDE | Marketed |
+| 02496291 | ELTAMD SKINCARE UV CLEAR | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02510073 | ELTAMD SKINCARE UV CLEAR TINTED | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02539918 | BROAD SPECTRUM SPF45 | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02539926 | UNIVERSAL TINTED MOISTURIZER SPF46 | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02545829 | RODAN + FIELDS PLUMPING LIP OIL | OCTINOXATE; ZINC OXIDE | Marketed |
+| 02552663 | LAIT VISAGE & CORPS | HOMOSALATE; OCTISALATE; ZINC OXIDE | Marketed |
+| 02315793 | BAZA PROTECT II | DIMETHICONE; ZINC OXIDE | Cancelled post market |
+| 02467100 | COPPERTONE SUNSCREEN STICK SPF 50 WATER BABIES | OCTINOXATE; OCTOCRYLENE; ZINC OXIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The remaining authorizations are mostly sunscreens and skin-care products (for example, ELTAMD UV products, OLAY SENSITIVE and COPPERTONE sunscreen stick).
 

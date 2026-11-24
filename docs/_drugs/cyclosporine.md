@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CYCLOSPORINE"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). In Canada: 14 DINs (14 marketed)"
 ---
 
@@ -74,15 +74,30 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02355655 | RESTASIS | Not recorded | Not recorded |
-| 02242821 | SANDOZ CYCLOSPORINE | Not recorded | Not recorded |
-| 02512629 | CEQUA | Not recorded | Not recorded |
-| 02484137 | VERKAZIA | Not recorded | Not recorded |
-| 02150697 | NEORAL | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-All 14 single-ingredient licences in Canada are valid. Only the first five are listed here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00593257 | SANDIMMUNE I.V. | CYCLOSPORINE | Marketed |
+| 02150662 | NEORAL | CYCLOSPORINE | Marketed |
+| 02150670 | NEORAL | CYCLOSPORINE | Marketed |
+| 02150689 | NEORAL | CYCLOSPORINE | Marketed |
+| 02150697 | NEORAL | CYCLOSPORINE | Marketed |
+| 02237671 | NEORAL | CYCLOSPORINE | Marketed |
+| 02242821 | SANDOZ CYCLOSPORINE | CYCLOSPORINE | Marketed |
+| 02247073 | SANDOZ CYCLOSPORINE | CYCLOSPORINE | Marketed |
+| 02247074 | SANDOZ CYCLOSPORINE | CYCLOSPORINE | Marketed |
+| 02355655 | RESTASIS | CYCLOSPORINE | Marketed |
+| 02462486 | TEVA-CYCLOSPORINE | CYCLOSPORINE | Marketed |
+| 02476835 | RESTASIS MULTIDOSE | CYCLOSPORINE | Marketed |
+| 02484137 | VERKAZIA | CYCLOSPORINE | Marketed |
+| 02512629 | CEQUA | CYCLOSPORINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 14 single-ingredient licences in Canada are valid.
 
 ## Safety Considerations
 

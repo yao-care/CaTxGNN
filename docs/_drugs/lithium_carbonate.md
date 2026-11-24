@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 553
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LITHIUM CARBONATE"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
 description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). In Canada: 9 DINs (7 marketed, 2 dormant)"
@@ -74,15 +74,25 @@ Currently no related literature available for pseudoachondroplasia.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02011239 | CARBOLITH | Not specified | Not specified |
-| 00236683 | CARBOLITH | Not specified | Not specified |
-| 02216132 | PMS-LITHIUM CARBONATE - CAP 150MG | Not specified | Not specified |
-| 02242837 | APO-LITHIUM CARBONATE | Not specified | Not specified |
-| 00461733 | CARBOLITH | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Nine valid single-ingredient licences exist in total; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00406775 | LITHANE | LITHIUM CARBONATE | Marketed |
+| 00461733 | CARBOLITH | LITHIUM CARBONATE | Marketed |
+| 02011239 | CARBOLITH | LITHIUM CARBONATE | Marketed |
+| 02013231 | LITHANE | LITHIUM CARBONATE | Marketed |
+| 02216132 | PMS-LITHIUM CARBONATE - CAP 150MG | LITHIUM CARBONATE | Marketed |
+| 02242837 | APO-LITHIUM CARBONATE | LITHIUM CARBONATE | Marketed |
+| 02266695 | LITHMAX | LITHIUM CARBONATE | Marketed |
+| 00236683 | CARBOLITH | LITHIUM CARBONATE | Dormant |
+| 02242838 | APO-LITHIUM CARBONATE | LITHIUM CARBONATE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine valid single-ingredient licences exist in total.
 
 ## Safety Considerations
 

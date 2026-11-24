@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluocinonide: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Inflammatory skin conditions (atopic dermatitis, contact dermatitis…"
 monitor_inn: "FLUOCINONIDE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
@@ -107,12 +107,18 @@ For the alternative prediction alopecia areata:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00716863 | LYDERM | Not listed | Not listed |
-| 02236997 | LYDERM | Not listed | Not listed |
-| 02236996 | LYDERM | Not listed | Not listed |
-| 00598933 | TIAMOL CREAM 0.05% | Cream | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00598933 | TIAMOL CREAM 0.05% | FLUOCINONIDE | Marketed |
+| 00716863 | LYDERM | FLUOCINONIDE | Marketed |
+| 02236996 | LYDERM | FLUOCINONIDE | Marketed |
+| 02236997 | LYDERM | FLUOCINONIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

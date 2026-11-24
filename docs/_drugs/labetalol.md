@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 11 DINs (10 marketed)"
@@ -89,13 +89,25 @@ Currently no related literature is available for the top predicted indication (m
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02231689 | LABETALOL HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
-| 02243539 | APO-LABETALOL | Not specified | Not specified |
-| 02489406 | RIVA-LABETALOL | Not specified | Not specified |
-| 02541505 | LABETALOL HYDROCHLORIDE INJECTION USP | Not specified | Not specified |
-| 02106272 | TRANDATE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02106272 | TRANDATE | LABETALOL HYDROCHLORIDE | Marketed |
+| 02106280 | TRANDATE | LABETALOL HYDROCHLORIDE | Marketed |
+| 02231689 | LABETALOL HYDROCHLORIDE INJECTION USP | LABETALOL HYDROCHLORIDE | Marketed |
+| 02243538 | APO-LABETALOL | LABETALOL HYDROCHLORIDE | Marketed |
+| 02243539 | APO-LABETALOL | LABETALOL HYDROCHLORIDE | Marketed |
+| 02385120 | LABETALOL HYDROCHLORIDE INJECTION USP | LABETALOL HYDROCHLORIDE | Marketed |
+| 02457040 | LABETALOL HYDROCHLORIDE INJECTION | LABETALOL HYDROCHLORIDE | Marketed |
+| 02489406 | RIVA-LABETALOL | LABETALOL HYDROCHLORIDE | Marketed |
+| 02489414 | RIVA-LABETALOL | LABETALOL HYDROCHLORIDE | Marketed |
+| 02541505 | LABETALOL HYDROCHLORIDE INJECTION USP | LABETALOL HYDROCHLORIDE | Marketed |
+| 02391090 | LABETALOL HYDROCHLORIDE INJECTION USP | LABETALOL HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The five above are shown as the main ones.
 

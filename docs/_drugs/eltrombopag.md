@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 323
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L3). Approved use: Autoimmune thrombocytopenia"
 monitor_inn: "ELTROMBOPAG"
 predicted_indications: ["HIV infectious disease"]
@@ -92,12 +92,18 @@ The very high TxGNN score (0.9926) comes from the TxGNN model (deep learning) an
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02361833 | REVOLADE | Not specified | Not specified |
-| 02361825 | REVOLADE | Not specified | Not specified |
-| 02506742 | APO-ELTROMBOPAG | Not specified | Not specified |
-| 02506769 | APO-ELTROMBOPAG | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02361825 | REVOLADE | ELTROMBOPAG (ELTROMBOPAG OLAMINE) | Marketed |
+| 02361833 | REVOLADE | ELTROMBOPAG (ELTROMBOPAG OLAMINE) | Marketed |
+| 02506742 | APO-ELTROMBOPAG | ELTROMBOPAG (ELTROMBOPAG OLAMINE) | Marketed |
+| 02506769 | APO-ELTROMBOPAG | ELTROMBOPAG (ELTROMBOPAG OLAMINE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

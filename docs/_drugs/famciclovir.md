@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Herpes zoster"
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -84,13 +84,20 @@ Currently no related literature available.
 
 Six valid single-ingredient authorizations are on the Canadian market. Dosage forms, manufacturers and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02292041 | APO-FAMCICLOVIR |
-| 02292068 | APO-FAMCICLOVIR |
-| 02177102 | FAMVIR |
-| 02229129 | FAMVIR |
-| 02229110 | FAMVIR |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02177102 | FAMVIR | FAMCICLOVIR | Marketed |
+| 02229110 | FAMVIR | FAMCICLOVIR | Marketed |
+| 02229129 | FAMVIR | FAMCICLOVIR | Marketed |
+| 02292025 | APO-FAMCICLOVIR | FAMCICLOVIR | Marketed |
+| 02292041 | APO-FAMCICLOVIR | FAMCICLOVIR | Marketed |
+| 02292068 | APO-FAMCICLOVIR | FAMCICLOVIR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 *(5 of 6 authorizations shown; the sixth is another APO-FAMCICLOVIR product, DIN 02292025.)*
 

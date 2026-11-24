@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
 description: "Iohexol: predicted new indication Insomnia (disease) (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -93,11 +93,17 @@ For context, literature retrieved for other lower-ranked predictions concerns io
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02172739 | OMNIPAQUE 240 | Not specified | Not specified |
-| 02172747 | OMNIPAQUE 300 | Not specified | Not specified |
-| 02172755 | OMNIPAQUE 350 | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02172739 | OMNIPAQUE 240 | IOHEXOL | Marketed |
+| 02172747 | OMNIPAQUE 300 | IOHEXOL | Marketed |
+| 02172755 | OMNIPAQUE 350 | IOHEXOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

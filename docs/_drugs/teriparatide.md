@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 900
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERIPARATIDE"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide: predicted new indication Duodenal ulcer (disease) (evidence level L5). In Canada: 4 DINs (3 marketed)"
@@ -103,12 +103,18 @@ The tables below cover the two predictions that have meaningful literature.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02254689 | FORTEO | Not listed | Not listed |
-| 02486423 | TEVA-TERIPARATIDE INJECTION | Not listed | Not listed |
-| 02498804 | APO-TERIPARATIDE INJECTION | Not listed | Not listed |
-| 02495589 | OSNUVO | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02486423 | TEVA-TERIPARATIDE INJECTION | TERIPARATIDE (TERIPARATIDE ACETATE) | Marketed |
+| 02495589 | OSNUVO | TERIPARATIDE | Marketed |
+| 02498804 | APO-TERIPARATIDE INJECTION | TERIPARATIDE | Marketed |
+| 02254689 | FORTEO | TERIPARATIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

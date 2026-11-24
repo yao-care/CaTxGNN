@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Known Uses Only (No New Predictions)
 nav_order: 716
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Pegvisomant: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
 predicted_indications: []
@@ -48,13 +48,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02448858 | SOMAVERT | Not specified | Not specified |
-| 02272199 | SOMAVERT | Not specified | Not specified |
-| 02272210 | SOMAVERT | Not specified | Not specified |
-| 02272202 | SOMAVERT | Not specified | Not specified |
-| 02448831 | SOMAVERT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02272199 | SOMAVERT | PEGVISOMANT | Marketed |
+| 02272202 | SOMAVERT | PEGVISOMANT | Marketed |
+| 02272210 | SOMAVERT | PEGVISOMANT | Marketed |
+| 02448831 | SOMAVERT | PEGVISOMANT | Marketed |
+| 02448858 | SOMAVERT | PEGVISOMANT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

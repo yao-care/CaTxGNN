@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 994
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZIPRASIDONE"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -78,15 +78,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02298597 | ZELDOX |
-| 02298619 | ZELDOX |
-| 02449544 | AURO-ZIPRASIDONE |
-| 02449552 | AURO-ZIPRASIDONE |
-| 02449579 | AURO-ZIPRASIDONE |
+<!-- licenses:begin -->
 
-Eight single-ingredient licences are currently valid, and none are cancelled. The table lists five of them.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02298597 | ZELDOX | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02298600 | ZELDOX | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02298619 | ZELDOX | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02298627 | ZELDOX | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02449544 | AURO-ZIPRASIDONE | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02449552 | AURO-ZIPRASIDONE | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02449560 | AURO-ZIPRASIDONE | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+| 02449579 | AURO-ZIPRASIDONE | ZIPRASIDONE (ZIPRASIDONE HYDROCHLORIDE MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient licences are currently valid, and none are cancelled.
 
 ---
 

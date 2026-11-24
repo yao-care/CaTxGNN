@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 899
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Teriflunomide: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,16 +72,22 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Terifluno
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02500310 | NAT-TERIFLUNOMIDE |  | Valid |
-| 02505843 | SANDOZ TERIFLUNOMIDE |  | Valid |
-| 02523833 | M-TERIFLUNOMIDE |  | Valid |
-| 02501090 | TEVA-TERIFLUNOMIDE |  | Valid |
-| 02500434 | PMS-TERIFLUNOMIDE |  | Valid |
-| 02500469 | MAR-TERIFLUNOMIDE |  | CANCELLED POST MARKET |
-| 02500639 | APO-TERIFLUNOMIDE |  | Valid |
-| 02504170 | JAMP TERIFLUNOMIDE |  | Valid |
+| 02500310 | NAT-TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02500434 | PMS-TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02500639 | APO-TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02501090 | TEVA-TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02504170 | JAMP TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02505843 | SANDOZ TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02523833 | M-TERIFLUNOMIDE | TERIFLUNOMIDE | Marketed |
+| 02500469 | MAR-TERIFLUNOMIDE | TERIFLUNOMIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

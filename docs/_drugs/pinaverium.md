@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 738
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Pinaverium: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the Health Canada licence data compiled for this report…"
 monitor_inn: "Pinaverium"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -80,12 +80,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01950592 | DICETEL | Not listed | Not listed |
-| 02469677 | PINAVERIUM | Not listed | Not listed |
-| 02469685 | PINAVERIUM | Not listed | Not listed |
-| 02230684 | DICETEL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01950592 | DICETEL | PINAVERIUM BROMIDE | Marketed |
+| 02230684 | DICETEL | PINAVERIUM BROMIDE | Marketed |
+| 02469677 | PINAVERIUM | PINAVERIUM BROMIDE | Marketed |
+| 02469685 | PINAVERIUM | PINAVERIUM BROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient products.
 

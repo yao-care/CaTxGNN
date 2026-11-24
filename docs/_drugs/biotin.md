@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "BIOTIN"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -90,10 +90,16 @@ None of these publications shows that biotin improves dyspepsia.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02100606 | MULTI 12 | Not specified | Not specified |
-| 02242529 | MULTI-12/K1 PEDIATRIC | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02100606 | MULTI 12 | ASCORBIC ACID; BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITAMIN A; VITAMIN B… | Marketed |
+| 02242529 | MULTI-12/K1 PEDIATRIC | ASCORBIC ACID (ASCORBIC ACID); BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITA… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

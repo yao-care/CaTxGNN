@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Cysteamine"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "exocrine pancreatic insufficiency", "free sialic acid storage disease", "Hurler syndrome", "Steel syndrome", "Gaucher disease", "autosomal ichthyosis syndrome with fatal disease course", "glycogen storage disease due to GLUT2 deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cysteamine: predicted new indication mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02464705 | PROCYSBI | Not recorded | Not recorded |
-| 02464713 | PROCYSBI | Not recorded | Not recorded |
-| 02485605 | CYSTADROPS | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02464705 | PROCYSBI | CYSTEAMINE (CYSTEAMINE BITARTRATE) | Marketed |
+| 02464713 | PROCYSBI | CYSTEAMINE (CYSTEAMINE BITARTRATE) | Marketed |
+| 02485605 | CYSTADROPS | CYSTEAMINE (CYSTEAMINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three single-ingredient licences are currently valid.
 

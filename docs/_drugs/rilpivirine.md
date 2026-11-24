@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 808
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -92,13 +92,20 @@ Currently no related clinical trials registered for the top predicted indication
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02370603 | EDURANT | Not specified | Not specified |
-| 02497247 | CABENUVA | Not specified | Not specified |
-| 02497220 | CABENUVA | Not specified | Not specified |
-| 02475774 | JULUCA | Not specified | Not specified |
-| 02374129 | COMPLERA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02370603 | EDURANT | RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE) | Marketed |
+| 02374129 | COMPLERA | EMTRICITABINE; RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE); TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02461463 | ODEFSEY | EMTRICITABINE; RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE); TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMA… | Marketed |
+| 02475774 | JULUCA | DOLUTEGRAVIR (DOLUTEGRAVIR SODIUM); RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE) | Marketed |
+| 02497220 | CABENUVA | CABOTEGRAVIR; RILPIVIRINE | Marketed |
+| 02497247 | CABENUVA | CABOTEGRAVIR; RILPIVIRINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, ODEFSEY (DIN 02461463), is also valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 912
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "TIAPROFENIC ACID"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
 description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -90,10 +90,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02179679 | TEVA-TIAPROFENIC ACID | Not specified | Not specified |
-| 02179687 | TEVA-TIAPROFENIC ACID | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02179679 | TEVA-TIAPROFENIC ACID | TIAPROFENIC ACID | Marketed |
+| 02179687 | TEVA-TIAPROFENIC ACID | TIAPROFENIC ACID | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products.
 

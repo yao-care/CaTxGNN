@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CARBAMAZEPINE"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In Canada: 11 DINs (11 marketed)"
 ---
 
@@ -82,13 +82,25 @@ None of these publications directly studies carbamazepine as a treatment for tri
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02261847 | SANDOZ-CARBAMAZEPINE CR |
-| 00773611 | TEGRETOL CR |
-| 02194333 | TEGRETOL SUSPENSION |
-| 00755583 | TEGRETOL CR |
-| 02244403 | TARO-CARBAMAZEPINE CHEWABLE TABLETS |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00010405 | TEGRETOL | CARBAMAZEPINE | Marketed |
+| 00755583 | TEGRETOL CR | CARBAMAZEPINE | Marketed |
+| 00773611 | TEGRETOL CR | CARBAMAZEPINE | Marketed |
+| 00782718 | TEVA-CARBAMAZEPINE | CARBAMAZEPINE | Marketed |
+| 02194333 | TEGRETOL SUSPENSION | CARBAMAZEPINE | Marketed |
+| 02244403 | TARO-CARBAMAZEPINE CHEWABLE TABLETS | CARBAMAZEPINE | Marketed |
+| 02244404 | TARO-CARBAMAZEPINE CHEWABLE TABLETS | CARBAMAZEPINE | Marketed |
+| 02261839 | SANDOZ-CARBAMAZEPINE CR | CARBAMAZEPINE | Marketed |
+| 02261847 | SANDOZ-CARBAMAZEPINE CR | CARBAMAZEPINE | Marketed |
+| 02367394 | TARO-CARBAMAZEPINE | CARBAMAZEPINE | Marketed |
+| 02541238 | MINT-CARBAMAZEPINE | CARBAMAZEPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

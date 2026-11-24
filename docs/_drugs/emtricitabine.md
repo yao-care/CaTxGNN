@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -103,13 +103,36 @@ For the second-ranked prediction (SIV infection), selected preclinical publicati
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02274906 | TRUVADA | Not specified | Not specified |
-| 02454424 | DESCOVY | Not specified | Not specified |
-| 02478579 | BIKTARVY | Not specified | Not specified |
-| 02374129 | COMPLERA | Not specified | Not specified |
-| 02473720 | SYMTUZA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02274906 | TRUVADA | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02374129 | COMPLERA | EMTRICITABINE; RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE); TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02393549 | TEVA-EFAVIRENZ/EMTRICITABINE/TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02399059 | TEVA-EMTRICITABINE/TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02443902 | MYLAN-EMTRICITABINE/TENOFOVIR DISOPROXIL | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02452006 | APO-EMTRICITABINE-TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02454416 | DESCOVY | EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02454424 | DESCOVY | EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02461110 | PMS-EMTRICITABINE-TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02461412 | MYLAN-EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02461463 | ODEFSEY | EMTRICITABINE; RILPIVIRINE (RILPIVIRINE HYDROCHLORIDE); TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMA… | Marketed |
+| 02468247 | APO-EFAVIRENZ-EMTRICITABINE-TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02473720 | SYMTUZA | COBICISTAT; DARUNAVIR (DARUNAVIR ETHANOLATE); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEM… | Marketed |
+| 02478404 | AURO-EFAVIRENZ-EMTRICITABINE-TENOFOVIR | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02478579 | BIKTARVY | BICTEGRAVIR (BICTEGRAVIR SODIUM); EMTRICITABINE; TENOFOVIR ALAFENAMIDE (TENOFOVIR ALAFENAMIDE HEMIFUMARATE) | Marketed |
+| 02487012 | JAMP EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02490684 | AURO-EMTRICITABINE-TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02496356 | AG-EMTRICITABINE / TENOFOVIR DISOPROXIL FUMARATE | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02519461 | JAMP EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL FUMARATE | EFAVIRENZ; EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+| 02521547 | MINT-EMTRICITABINE/TENOFOVIR | EMTRICITABINE; TENOFOVIR DISOPROXIL FUMARATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 All 20 licences are valid. Many are generic emtricitabine/tenofovir or efavirenz/emtricitabine/tenofovir combination products.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Canada: 19 DINs (17 marketed, 2 dormant)"
@@ -112,13 +112,33 @@ The table lists the most relevant trials for hyperlipoproteinemia.
 
 Ezetimibe has 19 valid single-ingredient authorizations in Canada. The records compiled for this report do not include dosage form or approved indication text. Five main authorizations are listed.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247521 | EZETROL | Not available | Not available |
-| 02354101 | TEVA-EZETIMIBE | Not available | Not available |
-| 02416778 | SANDOZ EZETIMIBE | Not available | Not available |
-| 02419548 | TARO-EZETIMIBE | Not available | Not available |
-| 02416409 | PMS-EZETIMIBE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247521 | EZETROL | EZETIMIBE | Marketed |
+| 02354101 | TEVA-EZETIMIBE | EZETIMIBE | Marketed |
+| 02416409 | PMS-EZETIMIBE | EZETIMIBE | Marketed |
+| 02416778 | SANDOZ EZETIMIBE | EZETIMIBE | Marketed |
+| 02419548 | TARO-EZETIMIBE | EZETIMIBE | Marketed |
+| 02422549 | EZETIMIBE | EZETIMIBE | Marketed |
+| 02422662 | MAR-EZETIMIBE | EZETIMIBE | Marketed |
+| 02423235 | JAMP-EZETIMIBE | EZETIMIBE | Marketed |
+| 02423243 | MINT-EZETIMIBE | EZETIMIBE | Marketed |
+| 02425211 | BIO-EZETIMIBE | EZETIMIBE | Marketed |
+| 02425610 | ACH-EZETIMIBE | EZETIMIBE | Marketed |
+| 02431300 | EZETIMIBE | EZETIMIBE | Marketed |
+| 02467437 | M-EZETIMIBE | EZETIMIBE | Marketed |
+| 02469286 | AURO-EZETIMIBE | EZETIMIBE | Marketed |
+| 02475898 | AG-EZETIMIBE | EZETIMIBE | Marketed |
+| 02478544 | EZETIMIBE | EZETIMIBE | Marketed |
+| 02536420 | NRA-EZETIMIBE TABLETS | EZETIMIBE | Marketed |
+| 02429659 | EZETIMIBE | EZETIMIBE | Dormant |
+| 02460750 | GLN-EZETIMIBE | EZETIMIBE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

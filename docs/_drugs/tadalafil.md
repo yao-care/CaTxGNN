@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 877
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In Canada: at least 20 DINs"
@@ -90,15 +90,38 @@ For context, the only publication found across the predicted indications relates
 
 ## Canada Market Information
 
-There are 20 valid single-ingredient authorisations, with none cancelled. Dosage form and approved-indication text are not available in the records. The first five are listed below.
+There are 20 valid single-ingredient authorisations, with none cancelled. Dosage form and approved-indication text are not available in the records.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02410656 | MYLAN-TADALAFIL | – | – |
-| 02457016 | TADALAFIL | – | – |
-| 02512289 | PRZ-TADALAFIL | – | – |
-| 02481405 | AG-TADALAFIL | – | – |
-| 02455366 | TADALAFIL | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02410648 | MYLAN-TADALAFIL | TADALAFIL | Marketed |
+| 02410656 | MYLAN-TADALAFIL | TADALAFIL | Marketed |
+| 02422085 | APO-TADALAFIL | TADALAFIL | Marketed |
+| 02422107 | APO-TADALAFIL | TADALAFIL | Marketed |
+| 02435934 | AURO-TADALAFIL | TADALAFIL | Marketed |
+| 02440172 | TEVA-TADALAFIL | TADALAFIL | Marketed |
+| 02451697 | MINT-TADALAFIL | TADALAFIL | Marketed |
+| 02451832 | JAMP-TADALAFIL | TADALAFIL | Marketed |
+| 02452251 | MAR-TADALAFIL | TADALAFIL | Marketed |
+| 02452278 | MAR-TADALAFIL | TADALAFIL | Marketed |
+| 02454742 | RIVA-TADALAFIL | TADALAFIL | Marketed |
+| 02455358 | TADALAFIL | TADALAFIL | Marketed |
+| 02455366 | TADALAFIL | TADALAFIL | Marketed |
+| 02457016 | TADALAFIL | TADALAFIL | Marketed |
+| 02457024 | TADALAFIL | TADALAFIL | Marketed |
+| 02457032 | TADALAFIL | TADALAFIL | Marketed |
+| 02481405 | AG-TADALAFIL | TADALAFIL | Marketed |
+| 02512289 | PRZ-TADALAFIL | TADALAFIL | Marketed |
+| 02520966 | NRA-TADALAFIL | TADALAFIL | Marketed |
+| 02536684 | TADALAFIL | TADALAFIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

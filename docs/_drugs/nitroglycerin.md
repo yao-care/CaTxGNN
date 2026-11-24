@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 660
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the Canadian licence data compiled for this report (nit…"
 monitor_inn: "NITROGLYCERIN"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -97,7 +97,7 @@ The original indication could not be extracted from the licence data, so the lin
 
 ## Canada Market Information
 
-Eighteen valid licences are held in Canada. Dosage form and approved-indication text were not available in the licence data. The main products are listed below.
+Eighteen valid licences are held in Canada. Dosage form and approved-indication text were not available in the licence data.
 
 <!-- review:begin ca-lic-20261106-nitroglycerin-1 -->
 
@@ -105,13 +105,32 @@ Eighteen valid licences are held in Canada. Dosage form and approved-indication 
 
 <!-- review:end ca-lic-20261106-nitroglycerin-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00037621 | NITROSTAT | Not specified | Not specified |
-| 02231441 | NITROLINGUAL PUMPSPRAY | Spray (by product name) | Not specified |
-| 02238998 | RHO-NITRO PUMPSPRAY | Spray (by product name) | Not specified |
-| 02407469 | MYLAN-NITRO PATCH 0.6 | Patch (by product name) | Not specified |
-| 02145308 | NITROGLYCERIN IN 5% DEXTROSE INJ.-200MCG/ML | Injection (by product name) | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00037613 | NITROSTAT | NITROGLYCERIN | Marketed |
+| 00037621 | NITROSTAT | NITROGLYCERIN | Marketed |
+| 00778869 | NITROJECT | NITROGLYCERIN | Marketed |
+| 01911902 | NITRO-DUR 0.4 | NITROGLYCERIN | Marketed |
+| 01911910 | NITRO-DUR 0.2 | NITROGLYCERIN | Marketed |
+| 01911929 | NITRO-DUR 0.6 | NITROGLYCERIN | Marketed |
+| 02011271 | NITRO-DUR 0.8 | NITROGLYCERIN | Marketed |
+| 02145308 | NITROGLYCERIN IN 5% DEXTROSE INJ.-200MCG/ML | DEXTROSE; NITROGLYCERIN | Marketed |
+| 02145316 | NITROGLYCERIN IN 5% DEXTROSE INJ.-400MCG/ML | DEXTROSE; NITROGLYCERIN | Marketed |
+| 02230732 | TRINIPATCH 0.2 | NITROGLYCERIN | Marketed |
+| 02230733 | TRINIPATCH 0.4 | NITROGLYCERIN | Marketed |
+| 02230734 | TRINIPATCH 0.6 | NITROGLYCERIN | Marketed |
+| 02231441 | NITROLINGUAL PUMPSPRAY | NITROGLYCERIN | Marketed |
+| 02238998 | RHO-NITRO PUMPSPRAY | NITROGLYCERIN | Marketed |
+| 02407442 | MYLAN-NITRO PATCH 0.2 | NITROGLYCERIN | Marketed |
+| 02407450 | MYLAN-NITRO PATCH 0.4 | NITROGLYCERIN | Marketed |
+| 02407469 | MYLAN-NITRO PATCH 0.6 | NITROGLYCERIN | Marketed |
+| 02407477 | MYLAN-NITRO PATCH 0.8 | NITROGLYCERIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining licences cover other patch strengths (Nitro-Dur, Trinipatch, Mylan-Nitro), a second Nitrostat DIN, Nitroject, and a 400 mcg/mL intravenous solution.
 

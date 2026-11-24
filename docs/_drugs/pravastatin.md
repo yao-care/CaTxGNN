@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 763
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: predicted new indication HIV infectious disease (evidence level L4). In Canada: at least 20 DINs"
@@ -93,15 +93,38 @@ This is also an extension of an existing lipid-lowering use rather than true rep
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243824 | PRO-PRAVASTATIN | Not specified | Not specified |
-| 02432056 | MAR-PRAVASTATIN | Not specified | Not specified |
-| 02330954 | JAMP-PRAVASTATIN | Not specified | Not specified |
-| 02389746 | PRAVASTATIN | Not specified | Not specified |
-| 02535661 | NRA-PRAVASTATIN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of 20 valid single-ingredient licences; none are cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243508 | APO-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02243824 | PRO-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02243825 | PRO-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02247010 | TEVA-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02317486 | MINT-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02330954 | JAMP-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02356546 | PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02356554 | PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02389703 | PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02389738 | PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02389746 | PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02432056 | MAR-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02446278 | BIO-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02458985 | AURO-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02476142 | AG-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02476150 | AG-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02476169 | AG-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02476274 | M-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02535661 | NRA-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+| 02535688 | NRA-PRAVASTATIN | PRAVASTATIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+None are cancelled.
 
 ---
 

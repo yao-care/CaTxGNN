@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -72,12 +72,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02521245 | ALLEGRA HIVES | Not specified | Not specified |
-| 02231462 | ALLEGRA 12 HOUR | Not specified | Not specified |
-| 02242819 | ALLEGRA 24 HOUR | Not specified | Not specified |
-| 02239853 | ALLEGRA-D | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231462 | ALLEGRA 12 HOUR | FEXOFENADINE HYDROCHLORIDE | Marketed |
+| 02239853 | ALLEGRA-D | FEXOFENADINE HYDROCHLORIDE; PSEUDOEPHEDRINE HYDROCHLORIDE | Marketed |
+| 02242819 | ALLEGRA 24 HOUR | FEXOFENADINE HYDROCHLORIDE | Marketed |
+| 02521245 | ALLEGRA HIVES | FEXOFENADINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

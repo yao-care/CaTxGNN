@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "MAGNESIUM HYDROXIDE"
 predicted_indications: ["stomach disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Magnesium Hydroxide: predicted new indication Stomach disease (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 ---
 
@@ -93,12 +93,18 @@ None of the four licence records includes approved-indication text or dosage for
 
 <!-- review:end ca-lic-20261106-magnesium_hydroxide-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00623709 | STOMAAX PLUS | Not listed | Not listed |
-| 02243053 | PEPCID COMPLETE | Not listed | Not listed |
-| 02409836 | GELUSIL ANTACID AND ANTI-GAS | Not listed | Not listed |
-| 00815527 | ALMAGEL PLUS SUS | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00623709 | STOMAAX PLUS | ALUMINUM HYDROXIDE; DIMETHICONE; MAGNESIUM HYDROXIDE | Marketed |
+| 00815527 | ALMAGEL PLUS SUS | ALUMINUM HYDROXIDE; DIMETHICONE; MAGNESIUM HYDROXIDE | Marketed |
+| 02243053 | PEPCID COMPLETE | CALCIUM CARBONATE; FAMOTIDINE; MAGNESIUM HYDROXIDE | Marketed |
+| 02409836 | GELUSIL ANTACID AND ANTI-GAS | DRIED ALUMINUM HYDROXIDE GEL; MAGNESIUM HYDROXIDE; SIMETHICONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

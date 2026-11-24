@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 867
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Soybean Oil: predicted new indication Amenorrhea (evidence level L5). Approved use: Not specified in the Health Canada licence data (the products are use…"
 monitor_inn: "SOYBEAN OIL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -77,7 +77,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada lists 13 valid licences. The data compiled for this report do not include dosage forms or approved indication text for these products. The main ones are:
+Health Canada lists 13 valid licences. The data compiled for this report do not include dosage forms or approved indication text for these products.
 
 <!-- review:begin ca-lic-20261106-soybean_oil-1 -->
 
@@ -85,13 +85,27 @@ Health Canada lists 13 valid licences. The data compiled for this report do not 
 
 <!-- review:end ca-lic-20261106-soybean_oil-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02065673 | INTRALIPID 20% | Not available | Not available |
-| 02344327 | CLINOLEIC 20% | Not available | Not available |
-| 02396963 | SMOFLIPID 20% | Not available | Not available |
-| 02352540 | OLIMEL 5.7% | Not available | Not available |
-| 02477947 | OLIMEL 7.6% | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02065673 | INTRALIPID 20% | SOYBEAN OIL | Marketed |
+| 02344327 | CLINOLEIC 20% | OLIVE OIL; SOYBEAN OIL | Marketed |
+| 02352494 | PERIOLIMEL 2.5% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352532 | OLIMEL 5.7% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352540 | OLIMEL 5.7% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02396963 | SMOFLIPID 20% | FISH OIL; MEDIUM CHAIN TRIGLYCERIDES (MCT); OLIVE OIL; SOYBEAN OIL | Marketed |
+| 02440687 | SMOFKABIVEN ELECTROLYTE FREE | ALANINE; ARGININE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYSINE ACETATE); MEDI… | Marketed |
+| 02440695 | SMOFKABIVEN | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+| 02456206 | SMOFKABIVEN PERIPHERAL | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+| 02477947 | OLIMEL 7.6% | ALANINE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEUCINE; L-LEUCINE; L… | Marketed |
+| 02477955 | OLIMEL 7.6% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02501775 | SMOFKABIVEN EXTRA NITROGEN ELECTROLYTE FREE | ALANINE; ARGININE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYSINE ACETATE); MEDI… | Marketed |
+| 02501813 | SMOFKABIVEN EXTRA NITROGEN | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining licences are SMOFKABIVEN variants (Electrolyte Free, Extra Nitrogen, Extra Nitrogen Electrolyte Free, Peripheral, standard), PERIOLIMEL 2.5% E, OLIMEL 5.7% E and OLIMEL 7.6% E.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 971
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -90,13 +90,19 @@ Currently no related literature available for obsolete bundle branch block.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00782483 | AA-VERAP | Not specified | Not specified |
-| 00782491 | AA-VERAP | Not specified | Not specified |
-| 02166739 | VERAPAMIL HYDROCHLORIDE INJECTION USP | Injection (by product name) | Not specified |
-| 01907123 | ISOPTIN SR | Sustained-release (by product name) | Not specified |
-| 02210347 | MYLAN-VERAPAMIL SR | Sustained-release (by product name) | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00782483 | AA-VERAP | VERAPAMIL HYDROCHLORIDE | Marketed |
+| 00782491 | AA-VERAP | VERAPAMIL HYDROCHLORIDE | Marketed |
+| 01907123 | ISOPTIN SR | VERAPAMIL HYDROCHLORIDE | Marketed |
+| 02166739 | VERAPAMIL HYDROCHLORIDE INJECTION USP | VERAPAMIL HYDROCHLORIDE | Marketed |
+| 02210347 | MYLAN-VERAPAMIL SR | VERAPAMIL HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

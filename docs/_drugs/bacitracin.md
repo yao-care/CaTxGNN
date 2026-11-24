@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BACITRACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
@@ -70,13 +70,19 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245571 | BACIJECT | Not recorded | Not recorded |
-| 00584908 | BACITIN | Not recorded | Not recorded |
-| 02451026 | BACITRACIN OINTMENT | Not recorded | Not recorded |
-| 00621366 | BIODERM OINTMENT | Not recorded | Not recorded |
-| 02236917 | OZONOL ANTIBIOTICS PLUS | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00584908 | BACITIN | BACITRACIN | Marketed |
+| 00621366 | BIODERM OINTMENT | BACITRACIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02236917 | OZONOL ANTIBIOTICS PLUS | BACITRACIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02245571 | BACIJECT | BACITRACIN | Marketed |
+| 02451026 | BACITRACIN OINTMENT | BACITRACIN (BACITRACIN ZINC) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five listed authorizations are products with valid status.
 

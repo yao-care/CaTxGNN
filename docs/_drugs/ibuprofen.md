@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IBUPROFEN"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Canada: at least 20 DINs"
@@ -92,15 +92,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Ibuprofen has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text were not available for these licences. Five main authorisations are listed below.
+Ibuprofen has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text were not available for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02242632 | MOTRIN 300MG |
-| 02376598 | IBUPROFEN LIQUID GEL CAPSULES |
-| 00441643 | APO-IBUPROFEN |
-| 02248231 | ADVIL EXTRA STRENGTH LIQUI-GELS |
-| 00585114 | APO-IBUPROFEN TAB 600MG |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00441643 | APO-IBUPROFEN | IBUPROFEN | Marketed |
+| 00441651 | APO-IBUPROFEN | IBUPROFEN | Marketed |
+| 00585114 | APO-IBUPROFEN TAB 600MG | IBUPROFEN | Marketed |
+| 01933531 | ADVIL CAPLETS | IBUPROFEN | Marketed |
+| 01933558 | ADVIL TABLETS | IBUPROFEN | Marketed |
+| 02186934 | MOTRIN 200MG | IBUPROFEN | Marketed |
+| 02232297 | CHILDREN'S ADVIL | IBUPROFEN | Marketed |
+| 02242365 | CHILDREN'S MOTRIN | IBUPROFEN | Marketed |
+| 02242632 | MOTRIN 300MG | IBUPROFEN | Marketed |
+| 02242658 | MOTRIN 400MG | IBUPROFEN | Marketed |
+| 02246403 | JUNIOR STRENGTH ADVIL | IBUPROFEN | Marketed |
+| 02248231 | ADVIL EXTRA STRENGTH LIQUI-GELS | IBUPROFEN | Marketed |
+| 02257912 | IBUPROFEN 200 MG | IBUPROFEN | Marketed |
+| 02280175 | CHILDREN'S IBUPROFEN SUSPENSION | IBUPROFEN | Marketed |
+| 02357275 | IBUPROFEN LIQUID CAPSULES | IBUPROFEN | Marketed |
+| 02357283 | EXTRA STRENGTH IBUPROFEN LIQUID CAPSULES | IBUPROFEN | Marketed |
+| 02374226 | MUSCLE & JOINT | IBUPROFEN | Marketed |
+| 02376598 | IBUPROFEN LIQUID GEL CAPSULES | IBUPROFEN | Marketed |
+| 02376601 | EXTRA STRENGTH IBUPROFEN LIQUID GEL CAPSULES | IBUPROFEN | Marketed |
+| 02378310 | MOTRIN LIQUID GELS 400 MG | IBUPROFEN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other products include Advil caplets and tablets, Children's Advil, Children's Motrin, Junior Strength Advil and several liquid capsule products.
 

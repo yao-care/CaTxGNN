@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 691
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "OXALIPLATIN"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -97,13 +97,19 @@ However, no Phase 3 randomised trial shows that oxaliplatin is better than the s
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02458403 | Oxaliplatin Injection, USP | Not specified | Not specified |
-| 02444763 | Oxaliplatin | Not specified | Not specified |
-| 02435071 | Oxaliplatin Injection | Not specified | Not specified |
-| 02457423 | Oxaliplatin Injection, USP | Not specified | Not specified |
-| 02436957 | Oxaliplatin Injection | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02435071 | OXALIPLATIN INJECTION | OXALIPLATIN | Marketed |
+| 02436957 | OXALIPLATIN INJECTION | OXALIPLATIN | Marketed |
+| 02444763 | OXALIPLATIN | OXALIPLATIN | Marketed |
+| 02457423 | OXALIPLATIN INJECTION, USP | OXALIPLATIN | Marketed |
+| 02458403 | OXALIPLATIN INJECTION, USP | OXALIPLATIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient products.
 

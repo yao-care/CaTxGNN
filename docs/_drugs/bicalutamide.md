@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bicalutamide: predicted new indication Hypertrichosis (disease) (evidence level L4). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -72,13 +72,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02270226 | TEVA-BICALUTAMIDE | Not recorded | Not recorded |
-| 02519178 | BICALUTAMIDE | Not recorded | Not recorded |
-| 02357216 | JAMP-BICALUTAMIDE | Not recorded | Not recorded |
-| 02325985 | ACH-BICALUTAMIDE | Not recorded | Not recorded |
-| 02275589 | PMS-BICALUTAMIDE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02270226 | TEVA-BICALUTAMIDE | BICALUTAMIDE | Marketed |
+| 02275589 | PMS-BICALUTAMIDE | BICALUTAMIDE | Marketed |
+| 02311038 | PRO-BICALUTAMIDE - 50 | BICALUTAMIDE | Marketed |
+| 02325985 | ACH-BICALUTAMIDE | BICALUTAMIDE | Marketed |
+| 02357216 | JAMP-BICALUTAMIDE | BICALUTAMIDE | Marketed |
+| 02519178 | BICALUTAMIDE | BICALUTAMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

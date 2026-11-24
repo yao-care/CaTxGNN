@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 919
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIZANIDINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 description: "Tizanidine: predicted new indication Migraine disorder (evidence level L2). In Canada: 2 DINs (2 marketed)"
@@ -83,10 +83,16 @@ Caveats: the best randomized evidence (PMID 12167135, 2002) studied chronic dail
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02536765 | MINT-TIZANIDINE | Not stated | Not stated |
-| 02259893 | APO-TIZANIDINE | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02259893 | APO-TIZANIDINE | TIZANIDINE (TIZANIDINE HYDROCHLORIDE) | Marketed |
+| 02536765 | MINT-TIZANIDINE | TIZANIDINE (TIZANIDINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

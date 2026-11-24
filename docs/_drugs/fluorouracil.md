@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome"]
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). In Canada: 7 DINs (7 marketed)"
@@ -93,13 +93,21 @@ The only fluorouracil-specific data point is the 2026 case report, in which a fl
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00012882 | Fluorouracil Injection | Not specified | Not specified |
-| 00330582 | Efudex | Not specified | Not specified |
-| 02485346 | Tolak | Not specified | Not specified |
-| 02473763 | Fluorouracil Injection | Not specified | Not specified |
-| 02473771 | Fluorouracil Injection | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00012882 | FLUOROURACIL INJECTION | FLUOROURACIL | Marketed |
+| 00330582 | EFUDEX | FLUOROURACIL | Marketed |
+| 02413450 | FLUOROURACIL INJECTION USP | FLUOROURACIL | Marketed |
+| 02428946 | ACTIKERALL | FLUOROURACIL; SALICYLIC ACID | Marketed |
+| 02473763 | FLUOROURACIL INJECTION | FLUOROURACIL | Marketed |
+| 02473771 | FLUOROURACIL INJECTION | FLUOROURACIL | Marketed |
+| 02485346 | TOLAK | FLUOROURACIL (FLUOROURACIL SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two further authorizations are also valid: 02413450 (Fluorouracil Injection USP) and 02428946 (Actikerall). All 7 licenses are currently valid.
 

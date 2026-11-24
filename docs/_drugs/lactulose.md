@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -116,13 +116,20 @@ For the other predictions, only indirect literature was found:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02331551 | TEVA-LACTULOSE | Not available | Not available |
-| 02469391 | PMS-LACTULOSE-PHARMA | Not available | Not available |
-| 02247383 | PHARMA-LACTULOSE | Not available | Not available |
-| 00854409 | RATIO-LACTULOSE | Not available | Not available |
-| 02295881 | JAMP-LACTULOSE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00854409 | RATIO-LACTULOSE | LACTULOSE | Marketed |
+| 02295881 | JAMP-LACTULOSE | LACTULOSE | Marketed |
+| 02331551 | TEVA-LACTULOSE | LACTULOSE | Marketed |
+| 02412268 | LACTULOSE | LACTULOSE | Marketed |
+| 02469391 | PMS-LACTULOSE-PHARMA | LACTULOSE | Marketed |
+| 02247383 | PHARMA-LACTULOSE | LACTULOSE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence, DIN 02412268 (LACTULOSE), is also valid. All six are valid single-ingredient products, and none are cancelled.
 

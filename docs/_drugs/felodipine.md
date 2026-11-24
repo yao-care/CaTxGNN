@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "FELODIPINE"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
@@ -95,15 +95,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02280272 | SANDOZ FELODIPINE |
-| 02057778 | PLENDIL |
-| 02452367 | APO-FELODIPINE |
-| 00851787 | PLENDIL |
-| 00851779 | PLENDIL |
+<!-- licenses:begin -->
 
-There are 8 valid single-ingredient licences in total (all currently valid, none cancelled). Only the first five are listed above.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00851779 | PLENDIL | FELODIPINE | Marketed |
+| 00851787 | PLENDIL | FELODIPINE | Marketed |
+| 02057778 | PLENDIL | FELODIPINE | Marketed |
+| 02280264 | SANDOZ FELODIPINE | FELODIPINE | Marketed |
+| 02280272 | SANDOZ FELODIPINE | FELODIPINE | Marketed |
+| 02452367 | APO-FELODIPINE | FELODIPINE | Marketed |
+| 02452375 | APO-FELODIPINE | FELODIPINE | Marketed |
+| 02452383 | APO-FELODIPINE | FELODIPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+There are 8 valid single-ingredient licences in total (all currently valid, none cancelled).
 
 ---
 

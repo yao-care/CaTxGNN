@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -72,15 +72,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Fluconazole has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products. The main authorizations are:
+Fluconazole has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products.
 
-| DIN | Product Name |
-|---------|------|
-| 02141442 | DIFLUCAN ONE |
-| 02024152 | DIFLUCAN |
-| 00891835 | DIFLUCAN |
-| 02241895 | APO-FLUCONAZOLE-150 |
-| 02245643 | PMS-FLUCONAZOLE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00891835 | DIFLUCAN | FLUCONAZOLE | Marketed |
+| 02024152 | DIFLUCAN | FLUCONAZOLE | Marketed |
+| 02141442 | DIFLUCAN ONE | FLUCONAZOLE | Marketed |
+| 02241895 | APO-FLUCONAZOLE-150 | FLUCONAZOLE | Marketed |
+| 02245292 | MYLAN-FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02245643 | PMS-FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02255510 | RIVA-FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02281260 | ACT FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02281279 | ACT FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02310686 | PRO-FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02352133 | FLUCONAZOLE 150 | FLUCONAZOLE | Marketed |
+| 02388448 | FLUCONAZOLE INJECTION SDZ | FLUCONAZOLE | Marketed |
+| 02428792 | MAR-FLUCONAZOLE-150 | FLUCONAZOLE | Marketed |
+| 02433702 | NRA-FLUCONAZOLE-150 | FLUCONAZOLE | Marketed |
+| 02462168 | BIO-FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02517418 | FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02534886 | FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02534894 | FLUCONAZOLE | FLUCONAZOLE | Marketed |
+| 02547864 | JAMP FLUCONAZOLE 150 MG | FLUCONAZOLE | Marketed |
+| 02432471 | JAMP-FLUCONAZOLE | FLUCONAZOLE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

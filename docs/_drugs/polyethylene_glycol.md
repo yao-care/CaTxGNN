@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -72,12 +72,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02354551 | RHINARIS NASAL MIST | Not specified | Not specified |
-| 00551805 | SECARIS | Not specified | Not specified |
-| 02352699 | RHINARIS NASAL GEL | Not specified | Not specified |
-| 00777838 | PEGLYTE POWDER | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00551805 | SECARIS | MACROGOL; PROPYLENE GLYCOL | Marketed |
+| 00777838 | PEGLYTE POWDER | MACROGOL; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
+| 02352699 | RHINARIS NASAL GEL | MACROGOL; PROPYLENE GLYCOL | Marketed |
+| 02354551 | RHINARIS NASAL MIST | MACROGOL; PROPYLENE GLYCOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four licences are valid products. Two are nasal products (RHINARIS), and PEGLYTE is a powder. None is a topical skin product.
 

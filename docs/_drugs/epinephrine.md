@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Asthma, bronchitis, anaphylaxis, hypotensive disorder…"
 monitor_inn: "EPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -96,7 +96,7 @@ Fifteen trials were retrieved; the 10 most relevant are listed below.
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not recorded for these licences. Five of the main authorizations are listed below.
+Dosage form and approved indication text are not recorded for these licences.
 
 <!-- review:begin ca-lic-20261105-epinephrine-1 -->
 
@@ -104,13 +104,36 @@ Dosage form and approved indication text are not recorded for these licences. Fi
 
 <!-- review:end ca-lic-20261105-epinephrine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00578657 | EPIPEN JR | Not available | Not available |
-| 00509558 | EPIPEN | Not available | Not available |
-| 02458454 | EMERADE | Not available | Not available |
-| 02435810 | EPINEPHRINE INJECTION USP | Not available | Not available |
-| 00155365 | ADRENALIN TOPICAL SOLUTION | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00001791 | XYLOCAINE 1% W EPINEPHRINE 1:100000 | EPINEPHRINE (EPINEPHRINE BITARTRATE); LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00001805 | XYLOCAINE 1% W EPINEPHRINE 1:200000 | EPINEPHRINE (EPINEPHRINE BITARTRATE); LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00151866 | OCTOCAINE HCL 2% EPINEPHRINE 1:100000 | EPINEPHRINE (EPINEPHRINE BITARTRATE); LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00155357 | ADRENALIN | EPINEPHRINE (EPINEPHRINE HYDROCHLORIDE) | Marketed |
+| 00155365 | ADRENALIN TOPICAL SOLUTION | EPINEPHRINE (EPINEPHRINE HYDROCHLORIDE) | Marketed |
+| 00375780 | LIGNOSPAN STANDARD | EPINEPHRINE; LIDOCAINE HYDROCHLORIDE | Marketed |
+| 00509558 | EPIPEN | EPINEPHRINE | Marketed |
+| 00578657 | EPIPEN JR | EPINEPHRINE | Marketed |
+| 00710814 | EPINEPHRINE INJECTION USP | EPINEPHRINE | Marketed |
+| 00721891 | EPINEPHRINE INJECTION USP | EPINEPHRINE | Marketed |
+| 01901915 | LIDOCAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION USP | EPINEPHRINE; LIDOCAINE HYDROCHLORIDE | Marketed |
+| 01976184 | SENSORCAINE WITH EPINEPHRINE | BUPIVACAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02123398 | SEPTANEST SP | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02331640 | XYLOCAINE DENTAL LIDOCAINE HCL 2% AND EPINEPHRINE 1:100,000 | EPINEPHRINE; LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02373130 | XYLOCAINE 2% WITH EPINEPHRINE 1:200000 | EPINEPHRINE (EPINEPHRINE BITARTRATE); LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02435810 | EPINEPHRINE INJECTION USP | EPINEPHRINE | Marketed |
+| 02473518 | LIDOCAINE 2% AND EPINEPHRINE 1:100,000 | EPINEPHRINE (EPINEPHRINE BITARTRATE); LIDOCAINE HYDROCHLORIDE | Marketed |
+| 02521148 | EPINEPHRINE INJECTION | EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02458446 | EMERADE | EPINEPHRINE (EPINEPHRINE BITARTRATE) | Cancelled post market |
+| 02458454 | EMERADE | EPINEPHRINE (EPINEPHRINE BITARTRATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The remaining licences include other epinephrine injections, ADRENALIN, and several dental or local anaesthetic products combining lidocaine with epinephrine.
 

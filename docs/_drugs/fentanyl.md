@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -70,15 +70,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Fentanyl has 20 valid single-ingredient licences in Canada. Dosage form, manufacturer and approved indication text are not available for these records. The first five are listed below.
+Fentanyl has 20 valid single-ingredient licences in Canada. Dosage form, manufacturer and approved indication text are not available for these records.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02408015 | FENTORA | Not available | Not available |
-| 02496186 | FENTANYL INJECTION BP | Not available | Not available |
-| 02506963 | FENTANYL CITRATE INJECTION | Not available | Not available |
-| 02282976 | TEVA-FENTANYL | Not available | Not available |
-| 02327163 | SANDOZ FENTANYL PATCH | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240434 | FENTANYL CITRATE INJECTION USP | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02282941 | TEVA-FENTANYL | FENTANYL | Marketed |
+| 02282968 | TEVA-FENTANYL | FENTANYL | Marketed |
+| 02282976 | TEVA-FENTANYL | FENTANYL | Marketed |
+| 02282984 | TEVA-FENTANYL | FENTANYL | Marketed |
+| 02311925 | TEVA-FENTANYL | FENTANYL | Marketed |
+| 02327112 | SANDOZ FENTANYL PATCH | FENTANYL | Marketed |
+| 02327120 | SANDOZ FENTANYL PATCH | FENTANYL | Marketed |
+| 02327155 | SANDOZ FENTANYL PATCH | FENTANYL | Marketed |
+| 02327163 | SANDOZ FENTANYL PATCH | FENTANYL | Marketed |
+| 02408007 | FENTORA | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02408015 | FENTORA | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02408023 | FENTORA | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02408031 | FENTORA | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02408058 | FENTORA | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02496143 | FENTANYL INJECTION BP | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02496151 | FENTANYL INJECTION BP | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02496186 | FENTANYL INJECTION BP | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02501554 | FENTANYL CITRATE INJECTION, USP | FENTANYL (FENTANYL CITRATE) | Marketed |
+| 02506963 | FENTANYL CITRATE INJECTION | FENTANYL (FENTANYL CITRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

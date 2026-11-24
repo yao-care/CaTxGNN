@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin: predicted new indication biotin metabolic disease (evidence level L5). In Canada: 10 DINs (8 marketed, 2 dormant)"
 ---
 
@@ -73,15 +73,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02465507 | CYANOCOBALAMIN INJECTION USP | Not recorded | Not recorded |
-| 01987003 | CYANOCOBALAMIN INJECTION USP | Not recorded | Not recorded |
-| 02463393 | CYANOCOBALAMIN INJECTION USP | Not recorded | Not recorded |
-| 00521515 | VITAMIN B12 | Not recorded | Not recorded |
-| 02100606 | MULTI 12 | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-The list shows 5 of the 10 valid licences.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00521515 | VITAMIN B12 | VITAMIN B12 | Marketed |
+| 01987003 | CYANOCOBALAMIN INJECTION USP | VITAMIN B12 | Marketed |
+| 02100606 | MULTI 12 | ASCORBIC ACID; BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITAMIN A; VITAMIN B… | Marketed |
+| 02242529 | MULTI-12/K1 PEDIATRIC | ASCORBIC ACID (ASCORBIC ACID); BIOTIN; DEXPANTHENOL; FOLIC ACID; NICOTINAMIDE; PYRIDOXINE HYDROCHLORIDE; VITA… | Marketed |
+| 02463393 | CYANOCOBALAMIN INJECTION USP | VITAMIN B12 | Marketed |
+| 02465507 | CYANOCOBALAMIN INJECTION USP | VITAMIN B12 | Marketed |
+| 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

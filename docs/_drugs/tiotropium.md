@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 915
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -83,13 +83,19 @@ None of these publications addresses respiratory malformation directly; they con
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02435381 | SPIRIVA RESPIMAT | Not specified | Not specified |
-| 02537850 | LUPIN-TIOTROPIUM | Not specified | Not specified |
-| 02550865 | APO-TIOTROPIUM | Not specified | Not specified |
-| 02246793 | SPIRIVA | Not specified | Not specified |
-| 02441888 | INSPIOLTO RESPIMAT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02246793 | SPIRIVA | TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+| 02435381 | SPIRIVA RESPIMAT | TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+| 02441888 | INSPIOLTO RESPIMAT | OLODATEROL (OLODATEROL HYDROCHLORIDE); TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+| 02537850 | LUPIN-TIOTROPIUM | TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+| 02550865 | APO-TIOTROPIUM | TIOTROPIUM (TIOTROPIUM BROMIDE MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 804
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Hormone receptor-positive, HER2-negative breast cancer"
 monitor_inn: "RIBOCICLIB"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -86,9 +86,15 @@ A second publication retrieved for this prediction (PMID 41641105) is a case rep
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02473569 | KISQALI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02473569 | KISQALI | RIBOCICLIB (RIBOCICLIB SUCCINATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

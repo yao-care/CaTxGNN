@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal osteoporosis and drug-induced…"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -89,13 +89,20 @@ No literature directly addresses severe nonproliferative diabetic retinopathy. F
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02343541 | PROLIA | Not specified | Not specified |
-| 02368153 | XGEVA | Not specified | Not specified |
-| 02560895 | OSENVELT | Not specified | Not specified |
-| 02545764 | WYOST | Not specified | Not specified |
-| 02545411 | JUBBONTI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02343541 | PROLIA | DENOSUMAB | Marketed |
+| 02368153 | XGEVA | DENOSUMAB | Marketed |
+| 02545411 | JUBBONTI | DENOSUMAB | Marketed |
+| 02545764 | WYOST | DENOSUMAB | Marketed |
+| 02560895 | OSENVELT | DENOSUMAB | Marketed |
+| 02560917 | STOBOCLO | DENOSUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, STOBOCLO (DIN 02560917), is also valid. All 6 authorizations are single-ingredient products with valid status.
 

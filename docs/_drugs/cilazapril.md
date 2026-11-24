@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilazapril: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "CILAZAPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease"]
@@ -77,13 +77,22 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02283794 | MYLAN-CILAZAPRIL | Not specified | Not specified |
-| 01911481 | INHIBACE | Not specified | Not specified |
-| 02291142 | APO-CILAZAPRIL | Not specified | Not specified |
-| 02283786 | MYLAN-CILAZAPRIL | Not specified | Not specified |
-| 02283778 | MYLAN-CILAZAPRIL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01911481 | INHIBACE | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+| 02181479 | INHIBACE PLUS | CILAZAPRIL (CILAZAPRIL MONOHYDRATE); HYDROCHLOROTHIAZIDE | Marketed |
+| 02283778 | MYLAN-CILAZAPRIL | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+| 02283786 | MYLAN-CILAZAPRIL | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+| 02283794 | MYLAN-CILAZAPRIL | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+| 02284987 | APO-CILAZAPRIL/HCTZ | CILAZAPRIL (CILAZAPRIL MONOHYDRATE); HYDROCHLOROTHIAZIDE | Marketed |
+| 02291142 | APO-CILAZAPRIL | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+| 02291150 | APO-CILAZAPRIL | CILAZAPRIL (CILAZAPRIL MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eight valid authorizations are on record in total; the five above are shown. The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ (02284987).
 

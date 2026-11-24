@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence, substance abuse/dependence, morphine dependence"
 monitor_inn: "BUPRENORPHINE"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -92,13 +92,32 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02341212 | BUTRANS 10 | Not specified | Not specified |
-| 02341220 | BUTRANS 20 | Not specified | Not specified |
-| 02450771 | BUTRANS 15 | Not specified | Not specified |
-| 02341174 | BUTRANS 5 | Not specified | Not specified |
-| 02483092 | SUBLOCADE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02295695 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02295709 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02341174 | BUTRANS 5 | BUPRENORPHINE | Marketed |
+| 02341212 | BUTRANS 10 | BUPRENORPHINE | Marketed |
+| 02341220 | BUTRANS 20 | BUPRENORPHINE | Marketed |
+| 02424851 | PMS-BUPRENORPHINE-NALOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02424878 | PMS-BUPRENORPHINE-NALOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02450771 | BUTRANS 15 | BUPRENORPHINE | Marketed |
+| 02453908 | TEVA-BUPRENORPHINE/NALOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02453916 | TEVA-BUPRENORPHINE/NALOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02468085 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02468093 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE DIHYDRATE) | Marketed |
+| 02483084 | SUBLOCADE | BUPRENORPHINE | Marketed |
+| 02483092 | SUBLOCADE | BUPRENORPHINE | Marketed |
+| 02502313 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE) | Marketed |
+| 02502321 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE) | Marketed |
+| 02502348 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE) | Marketed |
+| 02502356 | SUBOXONE | BUPRENORPHINE (BUPRENORPHINE HYDROCHLORIDE); NALOXONE (NALOXONE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 18 licences are valid authorisations (also including SUBOXONE and generic buprenorphine/naloxone products).
 

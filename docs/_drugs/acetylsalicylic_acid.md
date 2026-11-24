@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "ACETYLSALICYLIC ACID"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylsalicylic Acid: predicted new indication atrophoderma vermiculata (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -70,15 +70,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Health Canada records list 20 valid single-ingredient licences for aspirin products, and the records may be partial. The local data does not record dosage forms or approved-indication text for these licences, so the approved indication is not recorded in the local data. A selection of the main authorisations:
+Health Canada records list 20 valid single-ingredient licences for aspirin products, and the records may be partial. The local data does not record dosage forms or approved-indication text for these licences, so the approved indication is not recorded in the local data.
 
-| DIN | Product Name |
-|---------|------|
-| 02202352 | RIVASA 80MG CROQUABLE - TAB |
-| 02363127 | ENTERIC COATED DAILY LOW DOSE ASA 81 MG |
-| 02242281 | ENTROPHEN |
-| 02009013 | ASAPHEN |
-| 02150328 | ASPIRIN REGULAR STRENGTH |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00530336 | ASA 325MG | ACETYLSALICYLIC ACID | Marketed |
+| 02009013 | ASAPHEN | ACETYLSALICYLIC ACID | Marketed |
+| 02150328 | ASPIRIN REGULAR STRENGTH | ACETYLSALICYLIC ACID | Marketed |
+| 02202352 | RIVASA 80MG CROQUABLE - TAB | ACETYLSALICYLIC ACID | Marketed |
+| 02202360 | RIVASA FC | ACETYLSALICYLIC ACID | Marketed |
+| 02238545 | ASAPHEN E.C. 80 MG | ACETYLSALICYLIC ACID | Marketed |
+| 02242281 | ENTROPHEN | ACETYLSALICYLIC ACID | Marketed |
+| 02243974 | ENTROPHEN CHEWABLE | ACETYLSALICYLIC ACID | Marketed |
+| 02244993 | ASA 81 MG | ACETYLSALICYLIC ACID | Marketed |
+| 02283700 | PRAXIS ASA EC 81 MG DAILY LOW DOSE | ACETYLSALICYLIC ACID | Marketed |
+| 02283905 | JAMP-ASA EC | ACETYLSALICYLIC ACID | Marketed |
+| 02311496 | PRO-AAS EC - 80 | ACETYLSALICYLIC ACID | Marketed |
+| 02311518 | PRO-AAS - 80 (CROQUABLE) | ACETYLSALICYLIC ACID | Marketed |
+| 02363127 | ENTERIC COATED DAILY LOW DOSE ASA 81 MG | ACETYLSALICYLIC ACID | Marketed |
+| 02372177 | ASA 81 MG | ACETYLSALICYLIC ACID | Marketed |
+| 02420279 | RIVASA 81 MG EC | ACETYLSALICYLIC ACID | Marketed |
+| 02427206 | JAMP-ASA 81MG EC | ACETYLSALICYLIC ACID | Marketed |
+| 02429950 | M-ASA 80 MG CROQUABLE | ACETYLSALICYLIC ACID | Marketed |
+| 02433044 | ASA | ACETYLSALICYLIC ACID | Marketed |
+| 02485222 | RIVASA 80 MG EC | ACETYLSALICYLIC ACID | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

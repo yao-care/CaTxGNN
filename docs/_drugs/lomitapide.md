@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "LOMITAPIDE"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -82,11 +82,17 @@ Currently no related literature available for this predicted indication.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02420341 | JUXTAPID | Valid (single-ingredient) |
-| 02420376 | JUXTAPID | Valid (single-ingredient) |
-| 02420384 | JUXTAPID | Valid (single-ingredient) |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02420341 | JUXTAPID | LOMITAPIDE (LOMITAPIDE MESYLATE) | Marketed |
+| 02420376 | JUXTAPID | LOMITAPIDE (LOMITAPIDE MESYLATE) | Marketed |
+| 02420384 | JUXTAPID | LOMITAPIDE (LOMITAPIDE MESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Approved indication text and dosage form details were not available in the compiled data.
 
@@ -118,7 +124,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 **Rationale:**
 The prediction rests only on a TxGNN model (deep learning) score. There are no trials, no publications and no plausible mechanism linking MTP inhibition to platelet or valve disease. Lomitapide's liver toxicity and interaction burden make it hard to justify exposing patients without supporting evidence.
-
 
 **To proceed, the following is needed:**
 - A credible mechanistic hypothesis linking MTP inhibition to platelet production or function

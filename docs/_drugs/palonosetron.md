@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 702
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: predicted new indication Migraine disorder (evidence level L4). Approved use: Not listed in the Canadian license data compiled for this report"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -76,10 +76,16 @@ A 2026 review (PMID 42748473, *European Heart Journal – Cardiovascular Pharmac
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02381710 | ALOXI | Not specified | Not specified |
-| 02468735 | AKYNZEO | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02381710 | ALOXI | PALONOSETRON (PALONOSETRON HYDROCHLORIDE) | Marketed |
+| 02468735 | AKYNZEO | NETUPITANT; PALONOSETRON (PALONOSETRON HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

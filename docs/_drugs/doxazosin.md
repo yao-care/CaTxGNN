@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 303
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOXAZOSIN"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin: predicted new indication Migraine disorder (evidence level L4). In Canada: 9 DINs (9 marketed)"
@@ -76,15 +76,25 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02240588 | APO-DOXAZOSIN | Not available | Not available |
-| 02240589 | APO-DOXAZOSIN | Not available | Not available |
-| 02240590 | APO-DOXAZOSIN | Not available | Not available |
-| 02242728 | TEVA-DOXAZOSIN | Not available | Not available |
-| 02242729 | TEVA-DOXAZOSIN | Not available | Not available |
+<!-- licenses:begin -->
 
-Nine single-ingredient licences are valid in total (APO, TEVA and JAMP brands); the five above are shown as the main ones.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240588 | APO-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02240589 | APO-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02240590 | APO-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02242728 | TEVA-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02242729 | TEVA-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02242730 | TEVA-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02489937 | JAMP-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02489945 | JAMP-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+| 02489953 | JAMP-DOXAZOSIN | DOXAZOSIN (DOXAZOSIN MESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Nine single-ingredient licences are valid in total (APO, TEVA and JAMP brands).
 
 ## Safety Considerations
 

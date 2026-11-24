@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 881
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -89,13 +89,24 @@ For the broader hair-loss area (alopecia, rank 9), two papers were retrieved. Ne
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02413612 | TAMSULOSIN CR | Not specified | Not specified |
-| 02427117 | TAMSULOSIN CR | Not specified | Not specified |
-| 02545179 | AURO-TAMSULOSIN CR | Not specified | Not specified |
-| 02368242 | TEVA-TAMSULOSIN CR | Not specified | Not specified |
-| 02319217 | SANDOZ TAMSULOSIN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02319217 | SANDOZ TAMSULOSIN | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02340208 | SANDOZ TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02352419 | JAMP TAMSULOSIN | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02362406 | APO-TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02368242 | TEVA-TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02372010 | JALYN | DUTASTERIDE; TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02413612 | TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02427117 | TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02429667 | TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+| 02545179 | AURO-TAMSULOSIN CR | TAMSULOSIN HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Five of the 10 valid authorisations are listed here.
 

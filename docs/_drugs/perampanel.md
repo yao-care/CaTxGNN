@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PERAMPANEL"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -91,15 +91,28 @@ Currently no related clinical trials registered for visual epilepsy.
 
 ## Canada Market Information
 
-Health Canada holds 12 valid single-ingredient authorizations for perampanel, with no cancelled licenses. Dosage form and approved-indication text were not available for these entries. The first five are shown below.
+Health Canada holds 12 valid single-ingredient authorizations for perampanel, with no cancelled licenses. Dosage form and approved-indication text were not available for these entries.
 
-| DIN | Product Name |
-|---------|------|
-| 02404532 | FYCOMPA |
-| 02404524 | FYCOMPA |
-| 02404559 | FYCOMPA |
-| 02522632 | TARO-PERAMPANEL |
-| 02522667 | TARO-PERAMPANEL |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02404516 | FYCOMPA | PERAMPANEL | Marketed |
+| 02404524 | FYCOMPA | PERAMPANEL | Marketed |
+| 02404532 | FYCOMPA | PERAMPANEL | Marketed |
+| 02404540 | FYCOMPA | PERAMPANEL | Marketed |
+| 02404559 | FYCOMPA | PERAMPANEL | Marketed |
+| 02404567 | FYCOMPA | PERAMPANEL | Marketed |
+| 02522632 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+| 02522640 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+| 02522659 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+| 02522667 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+| 02522675 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+| 02522683 | TARO-PERAMPANEL | PERAMPANEL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

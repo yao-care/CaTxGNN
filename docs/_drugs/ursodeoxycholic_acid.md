@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 959
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -72,15 +72,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02273500 | PMS-URSODIOL C | Not specified | Not specified |
-| 02544024 | NRA-URSODIOL | Not specified | Not specified |
-| 02426919 | GLN-URSODIOL | Not specified | Not specified |
-| 02472392 | JAMP-URSODIOL | Not specified | Not specified |
-| 02544032 | NRA-URSODIOL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Showing 5 of 8 valid single-ingredient licences. None of the licences is cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02273497 | PMS-URSODIOL C | URSODIOL | Marketed |
+| 02273500 | PMS-URSODIOL C | URSODIOL | Marketed |
+| 02426900 | GLN-URSODIOL | URSODIOL | Marketed |
+| 02426919 | GLN-URSODIOL | URSODIOL | Marketed |
+| 02472392 | JAMP-URSODIOL | URSODIOL | Marketed |
+| 02472406 | JAMP-URSODIOL | URSODIOL | Marketed |
+| 02544024 | NRA-URSODIOL | URSODIOL | Marketed |
+| 02544032 | NRA-URSODIOL | URSODIOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+None of the licences is cancelled.
 
 ## Safety Considerations
 

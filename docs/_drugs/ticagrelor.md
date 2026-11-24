@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 913
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -96,15 +96,28 @@ Broader supporting evidence for ticagrelor in related ischaemic settings include
 
 ## Canada Market Information
 
-Twelve single-ingredient licences are currently valid. The data compiled for this report has no dosage form or approved-indication text for any of them. Main authorisations:
+Twelve single-ingredient licences are currently valid. The data compiled for this report has no dosage form or approved-indication text for any of them.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02368544 | BRILINTA | Not available | Not available |
-| 02455005 | BRILINTA | Not available | Not available |
-| 02482630 | APO-TICAGRELOR | Not available | Not available |
-| 02492598 | TARO-TICAGRELOR | Not available | Not available |
-| 02531798 | JAMP TICAGRELOR | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02368544 | BRILINTA | TICAGRELOR | Marketed |
+| 02455005 | BRILINTA | TICAGRELOR | Marketed |
+| 02482622 | APO-TICAGRELOR | TICAGRELOR | Marketed |
+| 02482630 | APO-TICAGRELOR | TICAGRELOR | Marketed |
+| 02492571 | TARO-TICAGRELOR | TICAGRELOR | Marketed |
+| 02492598 | TARO-TICAGRELOR | TICAGRELOR | Marketed |
+| 02529750 | M-TICAGRELOR | TICAGRELOR | Marketed |
+| 02529769 | M-TICAGRELOR | TICAGRELOR | Marketed |
+| 02531798 | JAMP TICAGRELOR | TICAGRELOR | Marketed |
+| 02531801 | JAMP TICAGRELOR | TICAGRELOR | Marketed |
+| 02537184 | AG-TICAGRELOR | TICAGRELOR | Marketed |
+| 02537192 | AG-TICAGRELOR | TICAGRELOR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other valid generics include AG-TICAGRELOR, M-TICAGRELOR and additional JAMP, TARO and APO strengths.
 

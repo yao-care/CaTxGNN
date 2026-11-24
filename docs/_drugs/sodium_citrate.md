@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "SODIUM CITRATE"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "stomach disease", "postgastrectomy syndrome", "gastroduodenitis", "familial visceral myopathy", "rosacea conjunctivitis", "allergic urticaria"]
 description: "Sodium Citrate: predicted new indication Papillary conjunctivitis (evidence level L5). In Canada: 12 DINs (11 marketed, 1 dormant)"
@@ -104,13 +104,26 @@ These papers do not directly test sodium citrate as a treatment for the predicte
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02529637 | Anticoagulant Sodium Citrate Solution, USP | Not specified | Not specified |
-| 00060313 | Anticoagulant Sod Citrate Soltn 4 g/100 mL | Not specified | Not specified |
-| 02377411 | Anticoagulant Sodium Citrate 4% w/v Solution, USP | Not specified | Not specified |
-| 02496755 | Regiocit | Not specified | Not specified |
-| 02469731 | Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00060313 | ANTICOAGULANT SOD CITRATE SOLTN 4GM/100ML | SODIUM CITRATE | Marketed |
+| 00512990 | BSS STERILE IRRIGATING SOLUTION | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE TRIHYDRATE; SODIUM CHLORIDE; SODIUM… | Marketed |
+| 00788139 | ANTICOAGULANT CITRATE DEXTROSE SOLUTION USP (ACD) FORMULA A | CITRIC ACID; DEXTROSE; SODIUM CITRATE | Marketed |
+| 02007967 | AMO ENDOSOL SOLUTION | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE | Marketed |
+| 02377411 | ANTICOAGULANT SODIUM CITRATE 4% W/V SOLUTION, USP | SODIUM CITRATE DIHYDRATE | Marketed |
+| 02444100 | ANTICOAGULANT SOLUTION CITRATE PHOSPHATE DEXTROSE (CPD) | CITRIC ACID; DEXTROSE; SODIUM CITRATE DIHYDRATE; SODIUM PHOSPHATE MONOBASIC | Marketed |
+| 02469731 | ANTICOAGULANT CITRATE DEXTROSE SOLUTION USP (ACD) FORMULA A | CITRIC ACID MONOHYDRATE; DEXTROSE; SODIUM CITRATE DIHYDRATE | Marketed |
+| 02492067 | SSP+ | DISODIUM PHOSPHATE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE;… | Marketed |
+| 02492075 | SSP+ | DISODIUM PHOSPHATE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE;… | Marketed |
+| 02496755 | REGIOCIT | SODIUM CHLORIDE; SODIUM CITRATE | Marketed |
+| 02529637 | ANTICOAGULANT SODIUM CITRATE SOLUTION, USP | SODIUM CITRATE | Marketed |
+| 02230769 | DALMACOL | ALCOHOL ANHYDROUS; DOXYLAMINE SUCCINATE; ETAFEDRINE HYDROCHLORIDE; HYDROCODONE BITARTRATE; SODIUM CITRATE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A total of 12 valid licences are on the Canadian market (none cancelled). The product names indicate that the marketed products are mainly anticoagulant, blood-processing and irrigating solutions rather than oral antacids.
 

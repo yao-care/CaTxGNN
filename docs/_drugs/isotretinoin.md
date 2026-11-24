@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ISOTRETINOIN"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -72,13 +72,26 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02396998 | EPURIS | Not specified | Not specified |
-| 02257955 | CLARUS | Not specified | Not specified |
-| 02257963 | CLARUS | Not specified | Not specified |
-| 02539071 | ABSORICA LD | Not specified | Not specified |
-| 00582344 | ACCUTANE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00582344 | ACCUTANE | ISOTRETINOIN | Marketed |
+| 00582352 | ACCUTANE | ISOTRETINOIN | Marketed |
+| 02257955 | CLARUS | ISOTRETINOIN | Marketed |
+| 02257963 | CLARUS | ISOTRETINOIN | Marketed |
+| 02396971 | EPURIS | ISOTRETINOIN | Marketed |
+| 02396998 | EPURIS | ISOTRETINOIN | Marketed |
+| 02397005 | EPURIS | ISOTRETINOIN | Marketed |
+| 02397013 | EPURIS | ISOTRETINOIN | Marketed |
+| 02539047 | ABSORICA LD | ISOTRETINOIN | Marketed |
+| 02539055 | ABSORICA LD | ISOTRETINOIN | Marketed |
+| 02539063 | ABSORICA LD | ISOTRETINOIN | Marketed |
+| 02539071 | ABSORICA LD | ISOTRETINOIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Showing 5 of 12 valid single-ingredient licences (EPURIS, CLARUS, ABSORICA LD, ACCUTANE). None are cancelled.
 

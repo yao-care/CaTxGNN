@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Carbon Monoxide: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the licence data (product names suggest lung diffusion…"
 monitor_inn: "Carbon monoxide"
 predicted_indications: ["sclerosing cholangitis", "ventricular tachycardia", "obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia", "potassium deficiency disease", "neovascular glaucoma", "angle-closure glaucoma", "pulmonary hypertension", "traumatic glaucoma", "aqueous misdirection"]
@@ -80,12 +80,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02154773 | CO-HE-O2-N2 Mixture | Not stated | Not stated |
-| 02014424 | Carbon Monox, Helium, Oxygen, Nitrogen L.D.M. | Not stated | Not stated |
-| 02182238 | CO-NE-O2-N2 Mixture | Not stated | Not stated |
-| 00588075 | Lung Diffusion Test Mix NO NE CO | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00588075 | LUNG DIFFUSION TEST MIX NO NE CO | CARBON MONOXIDE; NEON; NITROGEN; OXYGEN | Marketed |
+| 02014424 | CARBON MONOX, HELIUM, OXYGEN, NITROGEN L.D.M. | CARBON MONOXIDE; HELIUM; NITROGEN; OXYGEN | Marketed |
+| 02154773 | CO-HE-O2-N2 MIXTURE | CARBON MONOXIDE; HELIUM; NITROGEN; OXYGEN | Marketed |
+| 02182238 | CO-NE-O2-N2 MIXTURE | CARBON MONOXIDE; NEON; NITROGEN; OXYGEN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid licences.
 

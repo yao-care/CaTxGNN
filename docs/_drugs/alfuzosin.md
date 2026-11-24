@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -72,13 +72,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245565 | XATRAL | Not specified | Not specified |
-| 02447576 | ALFUZOSIN | Not specified | Not specified |
-| 02443201 | AURO-ALFUZOSIN | Not specified | Not specified |
-| 02519844 | ALFUZOSIN | Not specified | Not specified |
-| 02304678 | SANDOZ ALFUZOSIN | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245565 | XATRAL | ALFUZOSIN HYDROCHLORIDE | Marketed |
+| 02304678 | SANDOZ ALFUZOSIN | ALFUZOSIN HYDROCHLORIDE | Marketed |
+| 02315866 | APO-ALFUZOSIN | ALFUZOSIN HYDROCHLORIDE | Marketed |
+| 02443201 | AURO-ALFUZOSIN | ALFUZOSIN HYDROCHLORIDE | Marketed |
+| 02447576 | ALFUZOSIN | ALFUZOSIN HYDROCHLORIDE | Marketed |
+| 02519844 | ALFUZOSIN | ALFUZOSIN HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth valid authorization (DIN 02315866, APO-ALFUZOSIN) is also marketed. All six are single-ingredient products.
 

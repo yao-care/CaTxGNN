@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Endometriosis (other listed indications: precocious puberty…"
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
@@ -83,15 +83,28 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230248 | LUPRON DEPOT | Not specified | Not specified |
-| 02248239 | ELIGARD | Not specified | Not specified |
-| 02268892 | ELIGARD | Not specified | Not specified |
-| 00836273 | LUPRON DEPOT | Not specified | Not specified |
-| 02248240 | ELIGARD | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Twelve valid single-ingredient licenses are on record in total (LUPRON DEPOT, ELIGARD and ZEULIDE DEPOT); the five above are shown as examples.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00836273 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 00884502 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02230248 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02239833 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02239834 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02248239 | ELIGARD | LEUPROLIDE ACETATE | Marketed |
+| 02248240 | ELIGARD | LEUPROLIDE ACETATE | Marketed |
+| 02248999 | ELIGARD | LEUPROLIDE ACETATE | Marketed |
+| 02268892 | ELIGARD | LEUPROLIDE ACETATE | Marketed |
+| 02429977 | ZEULIDE DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02462699 | ZEULIDE DEPOT | LEUPROLIDE ACETATE | Marketed |
+| 02562855 | LUPRON DEPOT | LEUPROLIDE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Twelve valid single-ingredient licenses are on record in total (LUPRON DEPOT, ELIGARD and ZEULIDE DEPOT).
 
 ---
 

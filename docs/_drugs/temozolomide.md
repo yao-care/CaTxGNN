@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "TEMOZOLOMIDE"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Anaplastic astrocytoma, astrocytoma (excluding glioblastoma)…"
 ---
 
@@ -78,15 +78,38 @@ Only one report (PMID 29270703) concerns a tumour of the cauda equina region (sp
 
 ## Canada Market Information
 
-Temozolomide is marketed in Canada as single-ingredient products. At least 20 DINs are on record; the list may be partial. The records compiled here have no dosage form or approved indication text. Representative authorizations:
+Temozolomide is marketed in Canada as single-ingredient products. At least 20 DINs are on record; the list may be partial. The records compiled here have no dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02241093 | TEMODAL | Not available | Not available |
-| 02241094 | TEMODAL | Not available | Not available |
-| 02241096 | TEMODAL | Not available | Not available |
-| 02312794 | TEMODAL | Not available | Not available |
-| 02389835 | ACH-TEMOZOLOMIDE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02241093 | TEMODAL | TEMOZOLOMIDE | Marketed |
+| 02241094 | TEMODAL | TEMOZOLOMIDE | Marketed |
+| 02241096 | TEMODAL | TEMOZOLOMIDE | Marketed |
+| 02312794 | TEMODAL | TEMOZOLOMIDE | Marketed |
+| 02389819 | ACH-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02389827 | ACH-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02389835 | ACH-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02395282 | TEVA-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02395312 | TEVA-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02438119 | ACH-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02441160 | TEVA-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02443473 | TARO-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02443481 | TARO-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02443511 | TARO-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02443538 | TARO-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02443554 | TARO-TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02516799 | JAMP TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02516802 | JAMP TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02516810 | JAMP TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+| 02516845 | JAMP TEMOZOLOMIDE | TEMOZOLOMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other generic versions include TARO-TEMOZOLOMIDE, TEVA-TEMOZOLOMIDE and JAMP TEMOZOLOMIDE.
 

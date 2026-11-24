@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 535
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LENALIDOMIDE"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). In Canada: at least 20 DINs"
@@ -110,15 +110,38 @@ Most of the retrieved papers are MDS reviews rather than AML-specific trials.
 
 ## Canada Market Information
 
-20 licences are valid, all single-ingredient products. Dosage form, manufacturer and approved-indication text were not available for these licences. The table lists 5 of them.
+20 licences are valid, all single-ingredient products. Dosage form, manufacturer and approved-indication text were not available for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02304899 | REVLIMID |
-| 02304902 | REVLIMID |
-| 02459418 | REVLIMID |
-| 02507900 | TARO-LENALIDOMIDE |
-| 02518597 | SANDOZ LENALIDOMIDE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02304899 | REVLIMID | LENALIDOMIDE | Marketed |
+| 02304902 | REVLIMID | LENALIDOMIDE | Marketed |
+| 02459418 | REVLIMID | LENALIDOMIDE | Marketed |
+| 02483041 | REDDY-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02483068 | REDDY-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02493888 | NAT-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02493896 | NAT-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02493918 | NAT-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02506149 | JAMP LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507889 | TARO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507900 | TARO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507919 | TARO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507935 | APO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507943 | APO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02507951 | APO-LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02518562 | SANDOZ LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02518570 | SANDOZ LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02518589 | SANDOZ LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02518597 | SANDOZ LENALIDOMIDE | LENALIDOMIDE | Marketed |
+| 02518600 | SANDOZ LENALIDOMIDE | LENALIDOMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other products include generics from Reddy, Apotex (APO), Nat, and JAMP.
 

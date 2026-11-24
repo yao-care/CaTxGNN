@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -116,11 +116,17 @@ For reference, key publications for the two best-supported predictions:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02236819 | TEVA-AZATHIOPRINE | Not specified | Not specified |
-| 00004596 | IMURAN | Not specified | Not specified |
-| 02242907 | APO-AZATHIOPRINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00004596 | IMURAN | AZATHIOPRINE | Marketed |
+| 02236819 | TEVA-AZATHIOPRINE | AZATHIOPRINE | Marketed |
+| 02242907 | APO-AZATHIOPRINE | AZATHIOPRINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

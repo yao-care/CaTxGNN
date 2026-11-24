@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 685
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -79,15 +79,24 @@ The link to bronchitis is indirect. The retrieved literature discusses omalizuma
 
 ## Canada Market Information
 
-All licences below are valid. The approved indication text is not recorded in the local data.
+The approved indication text is not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02545136 | XOLAIR | Not listed | Not listed |
-| 02553805 | OMLYCLO | Not listed | Not listed |
-| 02545144 | XOLAIR | Not listed | Not listed |
-| 02459795 | XOLAIR | Not listed | Not listed |
-| 02545160 | XOLAIR | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02260565 | XOLAIR | OMALIZUMAB | Marketed |
+| 02459787 | XOLAIR | OMALIZUMAB | Marketed |
+| 02459795 | XOLAIR | OMALIZUMAB | Marketed |
+| 02545136 | XOLAIR | OMALIZUMAB | Marketed |
+| 02545144 | XOLAIR | OMALIZUMAB | Marketed |
+| 02545160 | XOLAIR | OMALIZUMAB | Marketed |
+| 02553805 | OMLYCLO | OMALIZUMAB | Marketed |
+| 02553813 | OMLYCLO | OMALIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

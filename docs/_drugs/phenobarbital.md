@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "PHENOBARBITAL"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -103,15 +103,23 @@ For context, the most relevant evidence among the lower-ranked predictions (thes
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02304090 | Phenobarbital Sodium Injection, USP | Not specified | Not specified |
-| 00645575 | Phenobarb Elixir | Not specified | Not specified |
-| 02304082 | Phenobarbital Sodium Injection, USP | Not specified | Not specified |
-| 00178799 | Phenobarb | Not specified | Not specified |
-| 00178810 | Phenobarb | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Seven valid single-ingredient licences are listed in total; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00178799 | PHENOBARB | PHENOBARBITAL | Marketed |
+| 00178802 | PHENOBARB | PHENOBARBITAL | Marketed |
+| 00178810 | PHENOBARB | PHENOBARBITAL | Marketed |
+| 00178829 | PHENOBARB | PHENOBARBITAL | Marketed |
+| 00645575 | PHENOBARB ELIXIR | PHENOBARBITAL | Marketed |
+| 02304082 | PHENOBARBITAL SODIUM INJECTION, USP | PHENOBARBITAL SODIUM | Marketed |
+| 02304090 | PHENOBARBITAL SODIUM INJECTION, USP | PHENOBARBITAL SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Seven valid single-ingredient licences are listed in total.
 
 ---
 

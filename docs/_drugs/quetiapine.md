@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 786
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "QUETIAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Canada: at least 20 DINs"
@@ -93,13 +93,36 @@ No literature is available for retinal dystrophy. The following publications rel
 
 Quetiapine has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text were not available in the compiled records.
 
-| DIN | Product Name |
-|---------|------|
-| 02296594 | PMS-QUETIAPINE |
-| 02244107 | SEROQUEL |
-| 02317893 | QUETIAPINE |
-| 02321513 | SEROQUEL XR |
-| 02317370 | PRO-QUETIAPINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02244107 | SEROQUEL | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02296551 | PMS-QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02296594 | PMS-QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02316692 | RIVA-QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02317370 | PRO-QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02317893 | QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02317907 | QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02321513 | SEROQUEL XR | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02353172 | QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02387824 | ACH-QUETIAPINE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02390175 | JAMP QUETIAPINE FUMARATE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02395452 | TEVA-QUETIAPINE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02407671 | SANDOZ QUETIAPINE XRT | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02417383 | QUETIAPINE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02450895 | ACH-QUETIAPINE FUMARATE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02516942 | AG-QUETIAPINE FUMARATE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02516950 | AG-QUETIAPINE FUMARATE | QUETIAPINE (QUETIAPINE FUMARATE) | Marketed |
+| 02510693 | NRA-QUETIAPINE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Dormant |
+| 02519607 | QUETIAPINE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Dormant |
+| 02520567 | AG-QUETIAPINE XR | QUETIAPINE (QUETIAPINE FUMARATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

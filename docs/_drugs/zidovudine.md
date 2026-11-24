@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 990
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection"
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -95,13 +95,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Type |
-|---------|------|------|
-| 01946323 | APO-ZIDOVUDINE | Single-ingredient |
-| 01902652 | RETROVIR (AZT) | Single-ingredient |
-| 01902644 | RETROVIR (AZT) | Single-ingredient |
-| 02414414 | AURO-LAMIVUDINE/ZIDOVUDINE | Listed as single |
-| 02375540 | APO-LAMIVUDINE-ZIDOVUDINE | Listed as single |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01902644 | RETROVIR (AZT) | ZIDOVUDINE | Marketed |
+| 01902652 | RETROVIR (AZT) | ZIDOVUDINE | Marketed |
+| 01946323 | APO-ZIDOVUDINE | ZIDOVUDINE | Marketed |
+| 02375540 | APO-LAMIVUDINE-ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+| 02414414 | AURO-LAMIVUDINE/ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+| 02502801 | JAMP LAMIVUDINE / ZIDOVUDINE | LAMIVUDINE; ZIDOVUDINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, 02502801 (JAMP LAMIVUDINE / ZIDOVUDINE), is also valid. All six licences are currently valid. Dosage form and approved-indication text were not available for these products. These are human-use products.
 

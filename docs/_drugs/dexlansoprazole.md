@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DEXLANSOPRAZOLE"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexlansoprazole: predicted new indication gastroduodenitis (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
@@ -61,12 +61,18 @@ Gastroduodenitis is inflammation of the stomach and duodenal lining. Because aci
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02354969 | DEXILANT | Not recorded | Not recorded |
-| 02354950 | DEXILANT | Not recorded | Not recorded |
-| 02529025 | APO-DEXLANSOPRAZOLE | Not recorded | Not recorded |
-| 02528991 | APO-DEXLANSOPRAZOLE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02354950 | DEXILANT | DEXLANSOPRAZOLE | Marketed |
+| 02354969 | DEXILANT | DEXLANSOPRAZOLE | Marketed |
+| 02528991 | APO-DEXLANSOPRAZOLE | DEXLANSOPRAZOLE | Marketed |
+| 02529025 | APO-DEXLANSOPRAZOLE | DEXLANSOPRAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four single-ingredient licences are currently valid.
 

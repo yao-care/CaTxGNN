@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 635
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -89,15 +89,31 @@ Clinical data are limited to small trials with mixed virologic benefit. Immunosu
 
 ## Canada Market Information
 
-Health Canada lists 15 valid single-ingredient licences. Dosage form, manufacturer and approved indication text were not available for any of them. The main authorizations are:
+Health Canada lists 15 valid single-ingredient licences. Dosage form, manufacturer and approved indication text were not available for any of them.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02192748 | CELLCEPT | Not available | Not available |
-| 02237484 | CELLCEPT | Not available | Not available |
-| 02242145 | CELLCEPT | Not available | Not available |
-| 02240347 | CELLCEPT I.V. | Not available | Not available |
-| 02444836 | MYCOPHENOLATE MOFETIL FOR INJECTION, USP | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02192748 | CELLCEPT | MYCOPHENOLATE MOFETIL | Marketed |
+| 02237484 | CELLCEPT | MYCOPHENOLATE MOFETIL | Marketed |
+| 02240347 | CELLCEPT I.V. | MYCOPHENOLATE MOFETIL (MYCOPHENOLATE MOFETIL HYDROCHLORIDE) | Marketed |
+| 02242145 | CELLCEPT | MYCOPHENOLATE MOFETIL | Marketed |
+| 02313855 | SANDOZ MYCOPHENOLATE MOFETIL | MYCOPHENOLATE MOFETIL | Marketed |
+| 02320630 | SANDOZ MYCOPHENOLATE MOFETIL | MYCOPHENOLATE MOFETIL | Marketed |
+| 02348675 | TEVA-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
+| 02364883 | TEVA-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
+| 02378574 | ACH-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
+| 02383780 | ACH-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
+| 02386399 | JAMP-MYCOPHENOLATE CAPSULES | MYCOPHENOLATE MOFETIL | Marketed |
+| 02444836 | MYCOPHENOLATE MOFETIL FOR INJECTION, USP | MYCOPHENOLATE MOFETIL (MYCOPHENOLATE MOFETIL HYDROCHLORIDE) | Marketed |
+| 02457369 | MYCOPHENOLATE MOFETIL | MYCOPHENOLATE MOFETIL | Marketed |
+| 02457377 | MYCOPHENOLATE MOFETIL | MYCOPHENOLATE MOFETIL | Marketed |
+| 02522233 | MAR-MYCOPHENOLATE MOFETIL | MYCOPHENOLATE MOFETIL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining 10 licences cover generic products (Sandoz, Teva, ACH, JAMP, Mar and others).
 

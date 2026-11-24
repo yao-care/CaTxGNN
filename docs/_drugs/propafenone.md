@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
@@ -84,14 +84,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 00603708 | RYTHMOL | Valid |
-| 00603716 | RYTHMOL | Valid |
-| 02243324 | APO-PROPAFENONE | Valid |
-| 02243325 | APO-PROPAFENONE | Valid |
-| 02457164 | MYLAN-PROPAFENONE | Valid |
-| 02457172 | MYLAN-PROPAFENONE | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00603708 | RYTHMOL | PROPAFENONE HYDROCHLORIDE | Marketed |
+| 00603716 | RYTHMOL | PROPAFENONE HYDROCHLORIDE | Marketed |
+| 02243324 | APO-PROPAFENONE | PROPAFENONE HYDROCHLORIDE | Marketed |
+| 02243325 | APO-PROPAFENONE | PROPAFENONE HYDROCHLORIDE | Marketed |
+| 02457164 | MYLAN-PROPAFENONE | PROPAFENONE HYDROCHLORIDE | Marketed |
+| 02457172 | MYLAN-PROPAFENONE | PROPAFENONE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 6 authorizations are single-ingredient products. Dosage form and approved indication text were not available in the data compiled for this report.
 

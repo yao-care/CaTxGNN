@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 951
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRIPTORELIN"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: predicted new indication Hypertrichosis (disease) (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -84,12 +84,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02240000 | TRELSTAR | Not specified | Not specified |
-| 02243856 | TRELSTAR | Not specified | Not specified |
-| 02389282 | DECAPEPTYL | Not specified | Not specified |
-| 02412322 | TRELSTAR | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240000 | TRELSTAR | TRIPTORELIN (TRIPTORELIN PAMOATE) | Marketed |
+| 02243856 | TRELSTAR | TRIPTORELIN (TRIPTORELIN PAMOATE) | Marketed |
+| 02389282 | DECAPEPTYL | TRIPTORELIN ACETATE | Marketed |
+| 02412322 | TRELSTAR | TRIPTORELIN (TRIPTORELIN PAMOATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

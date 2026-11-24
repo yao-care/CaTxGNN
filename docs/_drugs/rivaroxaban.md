@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -85,15 +85,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Rivaroxaban has 20 valid single-ingredient authorizations in Canada. The records compiled for this report do not include dosage form or approved indication text. The first five are listed below.
+Rivaroxaban has 20 valid single-ingredient authorizations in Canada. The records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02378612 | XARELTO | Not available | Not available |
-| 02316986 | XARELTO | Not available | Not available |
-| 02507196 | TEVA-RIVAROXABAN | Not available | Not available |
-| 02482223 | SANDOZ RIVAROXABAN | Not available | Not available |
-| 02527537 | PMS-RIVAROXABAN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02316986 | XARELTO | RIVAROXABAN | Marketed |
+| 02378612 | XARELTO | RIVAROXABAN | Marketed |
+| 02472414 | REDDY-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02472422 | REDDY-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02482223 | SANDOZ RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02507196 | TEVA-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02526786 | TARO-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02527537 | PMS-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02528010 | AG-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02540851 | RIVA RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02540967 | PRO-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02541475 | RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02541483 | RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02541491 | RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02547295 | TEVA-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02551608 | M-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02551624 | M-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02555115 | NB-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02555131 | NB-RIVAROXABAN | RIVAROXABAN | Marketed |
+| 02555255 | AG-RIVAROXABAN | RIVAROXABAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

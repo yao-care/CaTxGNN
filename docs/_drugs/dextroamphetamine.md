@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dextroamphetamine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dextroamphetamine: predicted new indication faciodigitogenital syndrome (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -70,15 +70,22 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02448327 | TEVA-DEXTROAMPHETAMINE SR | Not recorded | Not recorded |
-| 02448319 | TEVA-DEXTROAMPHETAMINE SR | Not recorded | Not recorded |
-| 01924516 | DEXEDRINE | Not recorded | Not recorded |
-| 01924567 | DEXEDRINE SPANSULE | Not recorded | Not recorded |
-| 01924559 | DEXEDRINE SPANSULE | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-All six single-ingredient licences are valid; the table lists the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01924516 | DEXEDRINE | DEXTROAMPHETAMINE SULFATE | Marketed |
+| 01924559 | DEXEDRINE SPANSULE | DEXTROAMPHETAMINE SULFATE | Marketed |
+| 01924567 | DEXEDRINE SPANSULE | DEXTROAMPHETAMINE SULFATE | Marketed |
+| 02443236 | DEXTROAMPHETAMINE | DEXTROAMPHETAMINE SULFATE | Marketed |
+| 02448319 | TEVA-DEXTROAMPHETAMINE SR | DEXTROAMPHETAMINE SULFATE | Marketed |
+| 02448327 | TEVA-DEXTROAMPHETAMINE SR | DEXTROAMPHETAMINE SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All six single-ingredient licences are valid.
 
 ## Safety Considerations
 

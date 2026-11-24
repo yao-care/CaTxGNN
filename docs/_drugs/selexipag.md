@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 840
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Selexipag: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,16 +72,22 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02451174 | UPTRAVI |  | Valid |
-| 02451220 | UPTRAVI |  | Valid |
-| 02451182 | UPTRAVI |  | Valid |
-| 02451158 | UPTRAVI |  | Valid |
-| 02451204 | UPTRAVI |  | Valid |
-| 02451212 | UPTRAVI |  | Valid |
-| 02451190 | UPTRAVI |  | Valid |
-| 02451166 | UPTRAVI |  | Valid |
+| 02451158 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451166 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451174 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451182 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451190 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451204 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451212 | UPTRAVI | SELEXIPAG | Marketed |
+| 02451220 | UPTRAVI | SELEXIPAG | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

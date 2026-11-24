@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NADOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -93,13 +93,19 @@ The remaining retrieved papers concern myocardial ischemia, arrhythmia, ischemic
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00782467 | APO-NADOLOL | Not specified | Not specified |
-| 02496399 | MINT-NADOLOL | Not specified | Not specified |
-| 00782475 | APO-NADOLOL | Not specified | Not specified |
-| 00782505 | APO-NADOLOL | Not specified | Not specified |
-| 02496380 | MINT-NADOLOL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00782467 | APO-NADOLOL | NADOLOL | Marketed |
+| 00782475 | APO-NADOLOL | NADOLOL | Marketed |
+| 00782505 | APO-NADOLOL | NADOLOL | Marketed |
+| 02496380 | MINT-NADOLOL | NADOLOL | Marketed |
+| 02496399 | MINT-NADOLOL | NADOLOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 5 licences are valid single-ingredient products.
 

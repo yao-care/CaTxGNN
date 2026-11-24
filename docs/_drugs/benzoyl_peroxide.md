@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 104
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzoyl Peroxide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acne"
 monitor_inn: "BENZOYL PEROXIDE"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
@@ -83,15 +83,38 @@ No literature is available for the top predicted indication. For the fourth-rank
 
 ## Canada Market Information
 
-Twenty single-ingredient licences are currently valid, and none are cancelled. The data compiled for this report do not include dosage form or approved-indication text, so those fields are left blank. Five main authorizations:
+Twenty single-ingredient licences are currently valid, and none are cancelled. The data compiled for this report do not include dosage form or approved-indication text, so those fields are left blank.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02162113 | BENZAGEL 5 GEL | Not listed | Not listed |
-| 02162121 | BENZAGEL 5 WASH | Not listed | Not listed |
-| 02236396 | CLEAN & CLEAR PERSA-GEL 5 | Not listed | Not listed |
-| 02504634 | PANOXYL ACNE WASH | Not listed | Not listed |
-| 02440512 | STUBBORN ACNE SPOT GEL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02162113 | BENZAGEL 5 GEL | BENZOYL PEROXIDE | Marketed |
+| 02162121 | BENZAGEL 5 WASH | BENZOYL PEROXIDE | Marketed |
+| 02236396 | CLEAN & CLEAR PERSA-GEL 5 | BENZOYL PEROXIDE | Marketed |
+| 02236796 | DEEP PORE ACNE VANISHING TREATMENT | BENZOYL PEROXIDE | Marketed |
+| 02390396 | PROACTIV TREAT | BENZOYL PEROXIDE | Marketed |
+| 02394421 | PROACTIV+ SKIN SMOOTHING EXFOLIATOR | BENZOYL PEROXIDE | Marketed |
+| 02406179 | PROACTIV SOLUTION 3-STEP ACNE ROUTINE | BENZOYL PEROXIDE | Marketed |
+| 02411245 | PROACTIV+ PORE TARGETING SOLUTION | BENZOYL PEROXIDE | Marketed |
+| 02413655 | PROACTIV EMERGENCY BLEMISH RELIEF | BENZOYL PEROXIDE | Marketed |
+| 02414309 | DUAL INTENSIVE ACNE TREATMENT | BENZOYL PEROXIDE | Marketed |
+| 02414422 | PROACTIV+ 3 PIECE SET | BENZOYL PEROXIDE | Marketed |
+| 02433486 | RENEWAL CLEANSER | BENZOYL PEROXIDE | Marketed |
+| 02433494 | REPAIRING TREATMENT | BENZOYL PEROXIDE | Marketed |
+| 02440512 | STUBBORN ACNE SPOT GEL | BENZOYL PEROXIDE | Marketed |
+| 02444054 | ACTIVE ANTI-ACNE TREATMENT KIT | BENZOYL PEROXIDE | Marketed |
+| 02463202 | ACNE CLEARING TREATMENT | BENZOYL PEROXIDE | Marketed |
+| 02504634 | PANOXYL ACNE WASH | BENZOYL PEROXIDE | Marketed |
+| 02508745 | ACNE FOAMING CLEANSER | BENZOYL PEROXIDE | Marketed |
+| 02509865 | STUBBORN ACNE AM TREATMENT | BENZOYL PEROXIDE | Marketed |
+| 02533715 | ACNE FOAMING CLEANSER | BENZOYL PEROXIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Most of the other products are acne cleansers, treatments and kits (e.g., several PROACTIV products).
 

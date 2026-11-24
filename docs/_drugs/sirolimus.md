@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 853
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -80,10 +80,16 @@ None of these publications tests sirolimus as a treatment for liposarcoma. They 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247111 | RAPAMUNE | Not listed | Not listed |
-| 02243237 | RAPAMUNE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243237 | RAPAMUNE | SIROLIMUS | Marketed |
+| 02247111 | RAPAMUNE | SIROLIMUS | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both authorizations are valid single-ingredient licences.
 

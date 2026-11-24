@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In Canada: 19 DINs (17 marketed)"
@@ -104,13 +104,33 @@ Dosage form and approved-indication text were not available in the data compiled
 
 <!-- review:end ca-lic-20261105-lorazepam-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02041464 | ATIVAN | Not available | Not available |
-| 02041456 | ATIVAN | Not available | Not available |
-| 02410761 | LORAZEPAM SUBLINGUAL | Not available | Not available |
-| 02550962 | LORAZEPAM INJECTION, USP | Not available | Not available |
-| 02243278 | LORAZEPAM INJECTION USP | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00637742 | TEVA-LORAZEPAM | LORAZEPAM | Marketed |
+| 00637750 | TEVA-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655643 | PRO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655651 | PRO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655678 | PRO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655740 | APO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655759 | APO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00655767 | APO-LORAZEPAM | LORAZEPAM | Marketed |
+| 00711101 | TEVA-LORAZEPAM | LORAZEPAM | Marketed |
+| 00728187 | PMS-LORAZEPAM | LORAZEPAM | Marketed |
+| 00728195 | PMS-LORAZEPAM | LORAZEPAM | Marketed |
+| 00728209 | PMS-LORAZEPAM | LORAZEPAM | Marketed |
+| 02243278 | LORAZEPAM INJECTION USP | LORAZEPAM | Marketed |
+| 02410745 | LORAZEPAM SUBLINGUAL | LORAZEPAM | Marketed |
+| 02410753 | LORAZEPAM SUBLINGUAL | LORAZEPAM | Marketed |
+| 02410761 | LORAZEPAM SUBLINGUAL | LORAZEPAM | Marketed |
+| 02550962 | LORAZEPAM INJECTION, USP | LORAZEPAM | Marketed |
+| 02041456 | ATIVAN | LORAZEPAM | Cancelled post market |
+| 02041464 | ATIVAN | LORAZEPAM | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other marketed brands include TEVA-LORAZEPAM, PRO-LORAZEPAM, APO-LORAZEPAM and PMS-LORAZEPAM.
 

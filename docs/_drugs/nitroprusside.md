@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 661
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nitroprusside: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the licence data compiled for this report"
 monitor_inn: "nitroprusside"
 drugbank_id: DB00325
@@ -96,13 +96,19 @@ The following are the most informative publications. None is an RCT.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02542129 | SODIUM NITROPRUSSIDE FOR INJECTION | Not listed | Not listed |
-| 02361736 | NIPRIDE | Not listed | Not listed |
-| 02479109 | SODIUM NITROPRUSSIDE FOR INJECTION | Not listed | Not listed |
-| 02507404 | SODIUM NITROPRUSSIDE FOR INJECTION | Not listed | Not listed |
-| 02450089 | SODIUM NITROPRUSSIDE FOR INJECTION | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02450089 | SODIUM NITROPRUSSIDE FOR INJECTION | SODIUM NITROPRUSSIDE | Marketed |
+| 02479109 | SODIUM NITROPRUSSIDE FOR INJECTION | SODIUM NITROPRUSSIDE | Marketed |
+| 02507404 | SODIUM NITROPRUSSIDE FOR INJECTION | SODIUM NITROPRUSSIDE | Marketed |
+| 02542129 | SODIUM NITROPRUSSIDE FOR INJECTION | SODIUM NITROPRUSSIDE (SODIUM NITROPRUSSIDE DIHYDRATE) | Marketed |
+| 02361736 | NIPRIDE | SODIUM NITROPRUSSIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In Canada: at least 20 DINs"
@@ -74,15 +74,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Lansoprazole has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available in the data compiled for this report. The main authorizations are:
+Lansoprazole has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02165503 | PREVACID | Not available | Not available |
-| 02165511 | PREVACID | Not available | Not available |
-| 02249472 | PREVACID FASTAB | Not available | Not available |
-| 02249464 | PREVACID FASTAB | Not available | Not available |
-| 02353849 | MYLAN-LANSOPRAZOLE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02165503 | PREVACID | LANSOPRAZOLE | Marketed |
+| 02165511 | PREVACID | LANSOPRAZOLE | Marketed |
+| 02249464 | PREVACID FASTAB | LANSOPRAZOLE | Marketed |
+| 02249472 | PREVACID FASTAB | LANSOPRAZOLE | Marketed |
+| 02280515 | TEVA-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02280523 | TEVA-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02293811 | APO-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02293838 | APO-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02353830 | MYLAN-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02353849 | MYLAN-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02357682 | LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02357690 | LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02366282 | PRO-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02385643 | SANDOZ LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02385651 | SANDOZ LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02385767 | LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02402610 | TARO-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02402629 | TARO-LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02410389 | LANSOPRAZOLE | LANSOPRAZOLE | Marketed |
+| 02422816 | RIVA-LANSOPRAZOLE | LANSOPRAZOLE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The remaining licences cover generic lansoprazole products (Riva, Taro, Apo, Teva, Sandoz, Pro and others).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "PHENOL"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -76,11 +76,17 @@ For context, the other predicted indications have the following literature:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00298409 | PHENOL SALINE INJ | Not specified | Not specified |
-| 00298417 | GLYCERINATED PHENOL SALINE | Not specified | Not specified |
-| 02157292 | BLISTEX DCT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00298409 | PHENOL SALINE INJ | PHENOL; SODIUM CHLORIDE | Marketed |
+| 00298417 | GLYCERINATED PHENOL SALINE | GLYCERINE; PHENOL; SODIUM CHLORIDE | Marketed |
+| 02157292 | BLISTEX DCT | CAMPHOR; MENTHOL; OCTINOXATE; OXYBENZONE; PHENOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

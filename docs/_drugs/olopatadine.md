@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "OLOPATADINE"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -80,13 +80,24 @@ Olopatadine has 10 valid authorizations in Canada and none are cancelled. Dosage
 
 <!-- review:end ca-lic-20261106-olopatadine-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02508605 | MINT-OLOPATADINE 0.2% |
-| 02358913 | SANDOZ OLOPATADINE |
-| 02541653 | OLOPATADINE 0.2% |
-| 02458551 | PAZEO |
-| 02420171 | SANDOZ OLOPATADINE 0.2% |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02233143 | PATANOL | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02358913 | SANDOZ OLOPATADINE | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02362171 | PATADAY | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02420171 | SANDOZ OLOPATADINE 0.2% | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02422727 | MINT-OLOPATADINE | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02458551 | PAZEO | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02508605 | MINT-OLOPATADINE 0.2% | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02521172 | OLOPATADINE | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+| 02531186 | RYALTRIS | MOMETASONE FUROATE (MOMETASONE FUROATE MONOHYDRATE); OLOPATADINE HYDROCHLORIDE | Marketed |
+| 02541653 | OLOPATADINE 0.2% | OLOPATADINE (OLOPATADINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Five more authorizations are valid: MINT-OLOPATADINE (02422727), OLOPATADINE (02521172), PATANOL (02233143), PATADAY (02362171), and RYALTRIS (02531186).
 

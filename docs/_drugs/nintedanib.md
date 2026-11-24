@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nintedanib"
 predicted_indications: ["dermatofibrosarcoma protuberans", "liposarcoma", "ovarian myxoid liposarcoma"]
 description: "Nintedanib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -86,13 +86,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02443066 | OFEV | Not listed | Not listed |
-| 02443074 | OFEV | Not listed | Not listed |
-| 02526891 | AURO-NINTEDANIB | Not listed | Not listed |
-| 02526905 | AURO-NINTEDANIB | Not listed | Not listed |
-| 02550849 | JAMP NINTEDANIB | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02443066 | OFEV | NINTEDANIB (NINTEDANIB ESILATE) | Marketed |
+| 02443074 | OFEV | NINTEDANIB (NINTEDANIB ESILATE) | Marketed |
+| 02526891 | AURO-NINTEDANIB | NINTEDANIB (NINTEDANIB ESYLATE) | Marketed |
+| 02526905 | AURO-NINTEDANIB | NINTEDANIB (NINTEDANIB ESYLATE) | Marketed |
+| 02540762 | JAMP NINTEDANIB | NINTEDANIB (NINTEDANIB ESILATE) | Marketed |
+| 02550849 | JAMP NINTEDANIB | NINTEDANIB (NINTEDANIB ESILATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 One further licence (DIN 02540762, JAMP NINTEDANIB) is also valid, giving 6 valid single-ingredient licences in total.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 862
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SONIDEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
 description: "Sonidegib: predicted new indication Medulloblastoma with extensive nodularity (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -106,9 +106,15 @@ No clinical trials are registered for medulloblastoma or the other predicted ind
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02500337 | ODOMZO | Not specified | Not specified in the compiled data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02500337 | ODOMZO | SONIDEGIB (SONIDEGIB PHOSPHATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

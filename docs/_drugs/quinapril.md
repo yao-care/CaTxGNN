@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 787
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -93,13 +93,28 @@ For reference, the only literature found among the predictions relates to rank 4
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02517477 | JAMP QUINAPRIL | Not specified | Not specified |
-| 02340585 | PMS-QUINAPRIL | Not specified | Not specified |
-| 02517450 | JAMP QUINAPRIL | Not specified | Not specified |
-| 02517469 | JAMP QUINAPRIL | Not specified | Not specified |
-| 02340577 | PMS-QUINAPRIL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02340569 | PMS-QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02340577 | PMS-QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02340585 | PMS-QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02408767 | APO-QUINAPRIL/HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02408775 | APO-QUINAPRIL/HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02408783 | APO-QUINAPRIL/HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02473291 | AURO-QUINAPRIL HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02473305 | AURO-QUINAPRIL HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02473321 | AURO-QUINAPRIL HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02517450 | JAMP QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02517469 | JAMP QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02517477 | JAMP QUINAPRIL | QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02547430 | JAMP QUINAPRIL / HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+| 02547449 | JAMP QUINAPRIL / HCTZ | HYDROCHLOROTHIAZIDE; QUINAPRIL (QUINAPRIL HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 These are 5 of 14 valid authorizations. The remainder include quinapril/hydrochlorothiazide products (APO-QUINAPRIL/HCTZ, AURO-QUINAPRIL HCTZ, JAMP QUINAPRIL / HCTZ).
 

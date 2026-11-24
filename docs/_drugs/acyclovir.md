@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acyclovir: predicted new indication Top-ranked: punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
@@ -105,7 +105,7 @@ Common wart publications (most relevant 10):
 
 ## Canada Market Information
 
-Acyclovir has 20 valid licences in Canada and none have been cancelled. The compiled data lack dosage form and approved indication text for each licence, so those columns are omitted. Main authorizations:
+Acyclovir has 20 valid licences in Canada and none have been cancelled. The compiled data lack dosage form and approved indication text for each licence, so those columns are omitted.
 
 <!-- review:begin ca-lic-20261106-acyclovir-1 -->
 
@@ -113,13 +113,34 @@ Acyclovir has 20 valid licences in Canada and none have been cancelled. The comp
 
 <!-- review:end ca-lic-20261106-acyclovir-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 00569771 | ZOVIRAX |
-| 02039524 | ZOVIRAX |
-| 02404044 | XERESE |
-| 02236926 | ACYCLOVIR SODIUM INJECTION |
-| 02477130 | APO-ACYCLOVIR OINTMENT |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00569771 | ZOVIRAX | ACYCLOVIR | Marketed |
+| 02039524 | ZOVIRAX | ACYCLOVIR | Marketed |
+| 02207621 | APO-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02207648 | APO-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02207656 | APO-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02236926 | ACYCLOVIR SODIUM INJECTION | ACYCLOVIR (ACYCLOVIR SODIUM) | Marketed |
+| 02242463 | MYLAN-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02242464 | MYLAN-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02242784 | MYLAN-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02285959 | TEVA-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02285967 | TEVA-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02285975 | TEVA-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02404044 | XERESE | ACYCLOVIR; HYDROCORTISONE | Marketed |
+| 02477130 | APO-ACYCLOVIR OINTMENT | ACYCLOVIR | Marketed |
+| 02494558 | ACYCLOVIR SODIUM INJECTION | ACYCLOVIR (ACYCLOVIR SODIUM) | Marketed |
+| 02522306 | TARO-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02524708 | MINT-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02524716 | MINT-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02524724 | MINT-ACYCLOVIR | ACYCLOVIR | Marketed |
+| 02531224 | ACYCLOVIR SODIUM INJECTION | ACYCLOVIR (ACYCLOVIR SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other authorizations include MINT-ACYCLOVIR, TEVA-ACYCLOVIR, MYLAN-ACYCLOVIR, APO-ACYCLOVIR and TARO-ACYCLOVIR, plus further acyclovir sodium injection products. Product names indicate that oral, injectable and topical products exist, which is relevant because the wart trials use intralesional injection of the intravenous formulation.
 

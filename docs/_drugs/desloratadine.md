@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
@@ -95,13 +95,19 @@ Health Canada lists 5 valid authorizations for desloratadine. The local records 
 
 <!-- review:end ca-lic-20261106-desloratadine-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02546019 | DESLORATADINE |
-| 02243919 | AERIUS |
-| 02298155 | DESLORATADINE ALLERGY CONTROL |
-| 02247193 | AERIUS KIDS |
-| 02309300 | AERIUS SINUS + ALLERGY |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243919 | AERIUS | DESLORATADINE | Marketed |
+| 02247193 | AERIUS KIDS | DESLORATADINE | Marketed |
+| 02298155 | DESLORATADINE ALLERGY CONTROL | DESLORATADINE | Marketed |
+| 02309300 | AERIUS SINUS + ALLERGY | DESLORATADINE; PSEUDOEPHEDRINE SULFATE | Marketed |
+| 02546019 | DESLORATADINE | DESLORATADINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

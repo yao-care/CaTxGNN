@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 931
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANYLCYPROMINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "Ohdo syndrome and variants", "agoraphobia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "ligneous conjunctivitis", "Keppen-Lubinsky syndrome"]
 description: "Tranylcypromine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -111,10 +111,16 @@ Selected publications for the better-supported predictions are shown below.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01919598 | PARNATE | Not specified | Not specified |
-| 02542188 | M-TRANYLCYPROMINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01919598 | PARNATE | TRANYLCYPROMINE (TRANYLCYPROMINE SULFATE) | Marketed |
+| 02542188 | M-TRANYLCYPROMINE | TRANYLCYPROMINE (TRANYLCYPROMINE SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient authorisations.
 

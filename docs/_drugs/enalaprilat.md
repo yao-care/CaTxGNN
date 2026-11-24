@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENALAPRILAT"
 predicted_indications: ["primary hereditary glaucoma"]
 description: "Enalaprilat: predicted new indication Primary hereditary glaucoma (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -72,9 +72,15 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02388499 | ENALAPRILAT INJECTION USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02388499 | ENALAPRILAT INJECTION USP | ENALAPRILAT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 922
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -91,15 +91,28 @@ Currently no related clinical trials registered for this predicted indication. T
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02437538 | JINARC | Not recorded | Not recorded |
-| 02491583 | JINARC | Not recorded | Not recorded |
-| 02491575 | JINARC | Not recorded | Not recorded |
-| 02370468 | SAMSCA | Not recorded | Not recorded |
-| 02557193 | LUPIN-TOLVAPTAN | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-Twelve valid single-ingredient licences exist in total (JINARC, SAMSCA and LUPIN-TOLVAPTAN); the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02370468 | SAMSCA | TOLVAPTAN | Marketed |
+| 02370476 | SAMSCA | TOLVAPTAN | Marketed |
+| 02437503 | JINARC | TOLVAPTAN | Marketed |
+| 02437511 | JINARC | TOLVAPTAN | Marketed |
+| 02437538 | JINARC | TOLVAPTAN | Marketed |
+| 02491575 | JINARC | TOLVAPTAN | Marketed |
+| 02491583 | JINARC | TOLVAPTAN | Marketed |
+| 02557177 | LUPIN-TOLVAPTAN | TOLVAPTAN | Marketed |
+| 02557185 | LUPIN-TOLVAPTAN | TOLVAPTAN | Marketed |
+| 02557193 | LUPIN-TOLVAPTAN | TOLVAPTAN | Marketed |
+| 02557207 | LUPIN-TOLVAPTAN | TOLVAPTAN | Marketed |
+| 02557215 | LUPIN-TOLVAPTAN | TOLVAPTAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Twelve valid single-ingredient licences exist in total (JINARC, SAMSCA and LUPIN-TOLVAPTAN).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 599
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the licence records. Product names (e.g.…"
 monitor_inn: "METHOCARBAMOL"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -89,7 +89,7 @@ Two publications were retrieved for the rank-4 prediction (anaphylaxis). Neither
 
 ## Canada Market Information
 
-All 16 licences are valid authorizations. Dosage form and approved indication text are not available in the data compiled for this report. The first five are listed below.
+All 16 licences are valid authorizations. Dosage form and approved indication text are not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261106-methocarbamol-1 -->
 
@@ -97,13 +97,30 @@ All 16 licences are valid authorizations. Dosage form and approved indication te
 
 <!-- review:end ca-lic-20261106-methocarbamol-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01932187 | ROBAXIN 750 | Not available | Not available |
-| 02377462 | ANALGESIC AND MUSCLE RELAXANT | Not available | Not available |
-| 02239141 | EXTRA STRENGTH MUSCLE & BACK PAIN RELIEF | Not available | Not available |
-| 02230949 | ROBAXISAL EXTRA STRENGTH | Not available | Not available |
-| 02357356 | EXTRA STRENGTH TYLENOL BODY PAIN NIGHT | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01932187 | ROBAXIN 750 | METHOCARBAMOL | Marketed |
+| 01934767 | ROBAXACET-8 | ACETAMINOPHEN; CODEINE PHOSPHATE; METHOCARBAMOL | Marketed |
+| 02026805 | ROBAXACET | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02230790 | MUSCLE & BACK PAIN RELIEF CAPLETS | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02230949 | ROBAXISAL EXTRA STRENGTH | ACETYLSALICYLIC ACID; METHOCARBAMOL | Marketed |
+| 02231176 | ROBAXACET EXTRA STRENGTH | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02239141 | EXTRA STRENGTH MUSCLE & BACK PAIN RELIEF | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02247147 | ROBAX PLATINUM | IBUPROFEN; METHOCARBAMOL | Marketed |
+| 02252228 | EXTRA STRENGTH MUSCLE & BACK PAIN ASA 500 MG METHOCARBAMOL 400 MG & A… | ACETYLSALICYLIC ACID; METHOCARBAMOL | Marketed |
+| 02290510 | EXTRA STRENGTH TYLENOL BACK PAIN | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02357356 | EXTRA STRENGTH TYLENOL BODY PAIN NIGHT | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02418967 | MOTRIN PLATINUM MUSCLE & BODY | IBUPROFEN; METHOCARBAMOL | Marketed |
+| 02422042 | MUSCLE AND BACK PAIN PLATINUM RELIEF | IBUPROFEN; METHOCARBAMOL | Marketed |
+| 02426625 | EXTRA STRENGTH MUSCLE & BACK PAIN RELIEF WITH ASA | ACETYLSALICYLIC ACID; METHOCARBAMOL | Marketed |
+| 02451298 | MUSCLE AND BACK PAIN RELIEF | ACETAMINOPHEN; METHOCARBAMOL | Marketed |
+| 02377462 | ANALGESIC AND MUSCLE RELAXANT | IBUPROFEN; METHOCARBAMOL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

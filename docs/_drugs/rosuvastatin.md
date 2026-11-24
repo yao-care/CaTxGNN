@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 825
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROSUVASTATIN"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Canada: at least 20 DINs"
@@ -82,15 +82,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Rosuvastatin has 20 valid single-ingredient licences in Canada. Dosage form and approved-indication text are not available for these licences. The first 5 are listed below.
+Rosuvastatin has 20 valid single-ingredient licences in Canada. Dosage form and approved-indication text are not available for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02378531 | PMS-ROSUVASTATIN |
-| 02413108 | MAR-ROSUVASTATIN |
-| 02378566 | PMS-ROSUVASTATIN |
-| 02536625 | NRA-ROSUVASTATIN TABLETS |
-| 02337975 | APO-ROSUVASTATIN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02337975 | APO-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02338726 | SANDOZ ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02378531 | PMS-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02378558 | PMS-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02378566 | PMS-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02380056 | RIVA-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02397803 | MINT-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02411644 | ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02413078 | MAR-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02413108 | MAR-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02438917 | ACH-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02438933 | ACH-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02442604 | AURO-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02444976 | BIO-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02498367 | JAMP ROSUVASTATIN TABLETS | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02500140 | AG-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02505576 | PRZ-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02505592 | PRZ-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02505606 | PRZ-ROSUVASTATIN | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+| 02536625 | NRA-ROSUVASTATIN TABLETS | ROSUVASTATIN (ROSUVASTATIN CALCIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

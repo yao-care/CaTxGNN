@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). In Canada: 15 DINs (15 marketed)"
@@ -92,13 +92,29 @@ Clinical trials: currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02092832 | METROGEL 0.75% | Not specified | Not specified |
-| 02297809 | METROGEL 1% | Not specified | Not specified |
-| 02518767 | METRONIDAZOLE | Not specified | Not specified |
-| 02519755 | M-METRONIDAZOLE | Not specified | Not specified |
-| 00545066 | APO-METRONIDAZOLE TABLETS | Tablet | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00545066 | APO-METRONIDAZOLE TABLETS | METRONIDAZOLE | Marketed |
+| 00783137 | PMS-METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 00870420 | METRONIDAZOLE INJECTION, USP | METRONIDAZOLE | Marketed |
+| 01926829 | FLAGYSTATIN | METRONIDAZOLE; NYSTATIN | Marketed |
+| 02092832 | METROGEL 0.75% | METRONIDAZOLE | Marketed |
+| 02125226 | NIDAGEL | METRONIDAZOLE | Marketed |
+| 02156091 | NORITATE | METRONIDAZOLE | Marketed |
+| 02246962 | PYLERA | BISMUTH OXIDE (BISMUTH SUBCITRATE POTASSIUM); METRONIDAZOLE; TETRACYCLINE HYDROCHLORIDE | Marketed |
+| 02248562 | APO-METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 02297809 | METROGEL 1% | METRONIDAZOLE | Marketed |
+| 02470284 | AURO-METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 02518767 | METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 02519755 | M-METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 02534592 | METRONIDAZOLE | METRONIDAZOLE | Marketed |
+| 02535807 | MINT-METRONIDAZOLE | METRONIDAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Fifteen valid licences are listed in total; the table shows the first five. Others include injection, gel and combination-brand products such as NIDAGEL and PYLERA.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "CLINDAMYCIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-No indication text, dosage form or manufacturer is recorded for these licences. Examples of listed products:
+No indication text, dosage form or manufacturer is recorded for these licences.
 
 <!-- review:begin ca-lic-20261105-clindamycin-1 -->
 
@@ -76,13 +76,36 @@ No indication text, dosage form or manufacturer is recorded for these licences. 
 
 <!-- review:end ca-lic-20261105-clindamycin-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02408511 | CLINDAMYCIN IV INFUSION |
-| 02400529 | CLINDAMYCIN |
-| 02230535 | CLINDAMYCIN INJECTION USP |
-| 02266938 | TARO-CLINDAMYCIN |
-| 00260436 | DALACIN C PHOSPHATE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00225851 | DALACIN C FLAVOURED GRANULES | CLINDAMYCIN (CLINDAMYCIN 2-PALMITATE HYDROCHLORIDE) | Marketed |
+| 02230535 | CLINDAMYCIN INJECTION USP | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02230540 | CLINDAMYCIN INJECTION USP | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02266938 | TARO-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02400529 | CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02408511 | CLINDAMYCIN IV INFUSION | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02436906 | AURO-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02436914 | AURO-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02462656 | MED-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02462664 | MED-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02468484 | RIVA-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02479931 | M-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02483734 | JAMP CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02483742 | JAMP CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02485478 | CLINDAMYCIN INJECTION IN 5% DEXTROSE | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02485486 | CLINDAMYCIN INJECTION IN 5% DEXTROSE | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Marketed |
+| 02493748 | NRA-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 02493756 | NRA-CLINDAMYCIN | CLINDAMYCIN (CLINDAMYCIN HYDROCHLORIDE) | Marketed |
+| 00260436 | DALACIN C PHOSPHATE | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Cancelled post market |
+| 02060604 | DALACIN VAGINAL CREAM | CLINDAMYCIN (CLINDAMYCIN PHOSPHATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

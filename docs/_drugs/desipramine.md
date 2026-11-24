@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Desipramine"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "attention deficit-hyperactivity disorder", "specific developmental disorder", "chondromyxoid fibroma", "faciodigitogenital syndrome", "benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desipramine: predicted new indication attention deficit hyperactivity disorder, inattentive type (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
@@ -79,6 +79,20 @@ Currently no related literature available.
 ---
 
 ## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02216248 | DESIPRAMINE | DESIPRAMINE HYDROCHLORIDE | Marketed |
+| 02216256 | DESIPRAMINE | DESIPRAMINE HYDROCHLORIDE | Marketed |
+| 02216264 | DESIPRAMINE | DESIPRAMINE HYDROCHLORIDE | Marketed |
+| 02216272 | DESIPRAMINE | DESIPRAMINE HYDROCHLORIDE | Marketed |
+| 02216280 | DESIPRAMINE | DESIPRAMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Desipramine is currently marketed in Canada. All of its Health Canada licences in the data compiled for this report are valid single-ingredient licences. The licence records carry no indication or dosage-form text.
 

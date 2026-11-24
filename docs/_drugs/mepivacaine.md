@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "Mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -74,13 +74,21 @@ Currently no related literature available for gastroduodenitis.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00479934 | SCANDONEST 3% PLAIN INJ | Not listed | Not listed |
-| 02474174 | CARBOCAINE 3% | Not listed | Not listed |
-| 02241999 | CARBOCAINE 1% | Not listed | Not listed |
-| 02330733 | 3% POLOCAINE DENTAL | Not listed | Not listed |
-| 00364304 | ISOCAINE HCL INJ 3% | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00364304 | ISOCAINE HCL INJ 3% | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 00479934 | SCANDONEST 3% PLAIN INJ | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 02241999 | CARBOCAINE 1% | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 02242000 | CARBOCAINE 1% | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 02242001 | CARBOCAINE 2% | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 02330733 | 3% POLOCAINE DENTAL | MEPIVACAINE HYDROCHLORIDE | Marketed |
+| 02474174 | CARBOCAINE 3% | MEPIVACAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two further single-ingredient licences (CARBOCAINE 1% and CARBOCAINE 2%) are also valid, for 7 in total.
 

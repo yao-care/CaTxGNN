@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Vilazodone"
 predicted_indications: ["neurotic disorder", "obsessive-compulsive disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "Keppen-Lubinsky syndrome", "Ohdo syndrome and variants", "schizotypal personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vilazodone: predicted new indication Neurotic disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -76,13 +76,20 @@ Currently no related literature available for neurotic disorder.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02551810 | APO-VILAZODONE | Not listed | Not listed |
-| 02443732 | VIIBRYD | Not listed | Not listed |
-| 02443740 | VIIBRYD | Not listed | Not listed |
-| 02551837 | APO-VILAZODONE | Not listed | Not listed |
-| 02551829 | APO-VILAZODONE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02443724 | VIIBRYD | VILAZODONE HYDROCHLORIDE | Marketed |
+| 02443732 | VIIBRYD | VILAZODONE HYDROCHLORIDE | Marketed |
+| 02443740 | VIIBRYD | VILAZODONE HYDROCHLORIDE | Marketed |
+| 02551810 | APO-VILAZODONE | VILAZODONE HYDROCHLORIDE | Marketed |
+| 02551829 | APO-VILAZODONE | VILAZODONE HYDROCHLORIDE | Marketed |
+| 02551837 | APO-VILAZODONE | VILAZODONE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 One more valid licence (DIN 02443724, VIIBRYD) is also on record, for six in total.
 

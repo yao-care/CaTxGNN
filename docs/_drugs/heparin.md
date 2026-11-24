@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "HEPARIN"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -74,15 +74,30 @@ For context, the second-ranked prediction (primary release disorder of platelets
 
 ## Canada Market Information
 
-Heparin is marketed in Canada as single-ingredient injectables. Dosage form and approved indication text are not available in the compiled data. Five of the 14 authorizations are listed below.
+Heparin is marketed in Canada as single-ingredient injectables. Dosage form and approved indication text are not available in the compiled data.
 
-| DIN | Product Name |
-|---------|------|
-| 02456958 | Heparin Sodium Injection USP |
-| 00727520 | Heparin Leo 100 unit/mL |
-| 00453811 | Heparin Leo Inj 1000 unit/mL |
-| 02303086 | Heparin Sodium Injection USP (multidose vial with preservative) |
-| 01990748 | Heparin Sodium in 0.9% Sodium Chloride Injection |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00453811 | HEPARIN LEO INJ 1000UNIT/ML | HEPARIN SODIUM | Marketed |
+| 00727520 | HEPARIN LEO 100UNIT/ML | HEPARIN SODIUM | Marketed |
+| 00828750 | HEPARIN SOD AND 0.9% SOD CHLORIDE INJ | HEPARIN (HEPARIN SODIUM); SODIUM CHLORIDE | Marketed |
+| 01935941 | HEPARIN SODIUM IN 5% DEXTROSE INJECTION, 25000UNIT/500ML | CITRIC ACID; DEXTROSE; HEPARIN SODIUM; SODIUM PHOSPHATE DIBASIC | Marketed |
+| 01990748 | HEPARIN SODIUM IN 0.9% SODIUM CHLORIDE INJECTION | HEPARIN SODIUM | Marketed |
+| 02209713 | HEPARIN SODIUM 20000UNITS IN 5% DEXTROSE INJ | DEXTROSE; HEPARIN SODIUM | Marketed |
+| 02209721 | HEPARIN SODIUM 25000UNITS IN 5% DEXTROSE INJ | DEXTROSE; HEPARIN SODIUM | Marketed |
+| 02264307 | HEPARIN SODIUM INJECTION, USP | HEPARIN SODIUM | Marketed |
+| 02264315 | HEPARIN SODIUM INJECTION, USP | HEPARIN SODIUM | Marketed |
+| 02303086 | HEPARIN SODIUM INJECTION USP (MULTIDOSE VIAL-WITH PRESERVATIVE) | HEPARIN SODIUM | Marketed |
+| 02382326 | HEPARIN SODIUM INJECTION USP | HEPARIN SODIUM | Marketed |
+| 02392453 | HEPARIN SODIUM INJECTION, USP | HEPARIN SODIUM | Marketed |
+| 02456958 | HEPARIN SODIUM INJECTION USP | HEPARIN SODIUM | Marketed |
+| 02548488 | HEPARIN SODIUM INJECTION USP | HEPARIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

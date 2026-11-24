@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Dyspepsia, heartburn, epigastric pain, nausea and vomiting"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -70,17 +70,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-All 10 authorisations below are valid single-ingredient products. Dosage form and approved indication text are not available in the compiled data.
+Dosage form and approved indication text are not available in the compiled data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02350440 | DOMPERIDONE | Not available | Not available |
-| 02236857 | PRO-DOMPERIDONE | Not available | Not available |
-| 02369206 | JAMP-DOMPERIDONE | Not available | Not available |
-| 02445034 | BIO-DOMPERIDONE | Not available | Not available |
-| 02238341 | DOMPERIDONE | Not available | Not available |
+<!-- licenses:begin -->
 
-(Five of the 10 licences are shown; the others are TEVA-, APO-, TARO-, MAR- and PRZ-DOMPERIDONE products.)
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01912070 | TEVA-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02236857 | PRO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02238341 | DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02268078 | TARO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02350440 | DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02369206 | JAMP-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02403870 | MAR-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02445034 | BIO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02462834 | PRZ-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02103613 | APO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+(The others are TEVA-, APO-, TARO-, MAR- and PRZ-DOMPERIDONE products.)
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -74,15 +74,26 @@ Currently no related literature available for the top-ranked prediction.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02353148 | MELOXICAM | Not specified | Not specified |
-| 02258315 | TEVA-MELOXICAM | Not specified | Not specified |
-| 02390884 | AURO-MELOXICAM | Not specified | Not specified |
-| 02353156 | MELOXICAM | Not specified | Not specified |
-| 02258323 | TEVA-MELOXICAM | Not specified | Not specified |
+<!-- licenses:begin -->
 
-All 10 licences are valid single-ingredient products. Only the first 5 are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02248267 | PMS-MELOXICAM | MELOXICAM | Marketed |
+| 02248268 | PMS-MELOXICAM | MELOXICAM | Marketed |
+| 02248973 | APO-MELOXICAM | MELOXICAM | Marketed |
+| 02248974 | APO-MELOXICAM | MELOXICAM | Marketed |
+| 02258315 | TEVA-MELOXICAM | MELOXICAM | Marketed |
+| 02258323 | TEVA-MELOXICAM | MELOXICAM | Marketed |
+| 02353148 | MELOXICAM | MELOXICAM | Marketed |
+| 02353156 | MELOXICAM | MELOXICAM | Marketed |
+| 02390884 | AURO-MELOXICAM | MELOXICAM | Marketed |
+| 02390892 | AURO-MELOXICAM | MELOXICAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 10 licences are valid single-ingredient products.
 
 ## Safety Considerations
 

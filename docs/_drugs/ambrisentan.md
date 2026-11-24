@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: predicted new indication Pulmonary arteriovenous malformation (evidence level L5). Approved use: Pulmonary arterial hypertension"
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -84,12 +84,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02307065 | VOLIBRIS |
-| 02307073 | VOLIBRIS |
-| 02475375 | APO-AMBRISENTAN |
-| 02475383 | APO-AMBRISENTAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02307065 | VOLIBRIS | AMBRISENTAN | Marketed |
+| 02307073 | VOLIBRIS | AMBRISENTAN | Marketed |
+| 02475375 | APO-AMBRISENTAN | AMBRISENTAN | Marketed |
+| 02475383 | APO-AMBRISENTAN | AMBRISENTAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are single-ingredient products with valid status.
 

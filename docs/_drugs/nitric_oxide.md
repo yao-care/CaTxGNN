@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NITRIC OXIDE"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
 description: "Nitric Oxide: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -94,10 +94,16 @@ None of these papers evaluates nitric oxide as a therapy for the predicted indic
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02270846 | INOMAX |
-| 02451328 | KINOX |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02270846 | INOMAX | NITRIC OXIDE | Marketed |
+| 02451328 | KINOX | NITRIC OXIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both are valid single-ingredient authorisations. Dosage form and approved indication text are not recorded in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 903
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -84,10 +84,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00580929 | TETRACYCLINE | Not specified | Not specified |
-| 02246962 | PYLERA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00580929 | TETRACYCLINE | TETRACYCLINE HYDROCHLORIDE | Marketed |
+| 02246962 | PYLERA | BISMUTH OXIDE (BISMUTH SUBCITRATE POTASSIUM); METRONIDAZOLE; TETRACYCLINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

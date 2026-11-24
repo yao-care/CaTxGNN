@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 577
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MEDROXYPROGESTERONE ACETATE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). In Canada: 8 DINs (8 marketed)"
@@ -82,15 +82,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02267640 | AA-MEDROXY | Not available | Not available |
-| 02244726 | AA-MEDROXY | Not available | Not available |
-| 02277298 | AA-MEDROXY | Not available | Not available |
-| 02221284 | TEVA-MEDROXYPROGESTERONE | Not available | Not available |
-| 02523493 | DEPO-PROVERA | Not available | Not available |
+<!-- licenses:begin -->
 
-All 8 single-ingredient licences are valid; the table lists the first five. Others include DEPO-PROVERA (02523493) and further TEVA-MEDROXYPROGESTERONE products.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02221284 | TEVA-MEDROXYPROGESTERONE | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02221292 | TEVA-MEDROXYPROGESTERONE | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02221306 | TEVA-MEDROXYPROGESTERONE | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02244726 | AA-MEDROXY | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02244727 | AA-MEDROXY | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02267640 | AA-MEDROXY | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02277298 | AA-MEDROXY | MEDROXYPROGESTERONE ACETATE | Marketed |
+| 02523493 | DEPO-PROVERA | MEDROXYPROGESTERONE ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 8 single-ingredient licences are valid. Others include DEPO-PROVERA (02523493) and further TEVA-MEDROXYPROGESTERONE products.
 
 ## Safety Considerations
 

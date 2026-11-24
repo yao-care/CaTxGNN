@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Cromoglicic acid"
 predicted_indications: ["ulcerative proctosigmoiditis", "nocardiosis", "rosacea conjunctivitis", "cap polyposis", "cutaneous photosensitivity-lethal colitis syndrome", "undetermined colitis", "pneumocystosis", "osteoarthritis", "allergic urticaria", "neonatal inflammatory skin and bowel disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Cromoglicic Acid: predicted new indication ulcerative proctosigmoiditis (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -70,10 +70,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02009277 | CROMOLYN EYE DROPS | Not recorded | Not recorded |
-| 00500895 | NALCROM | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00500895 | NALCROM | CROMOLYN SODIUM | Marketed |
+| 02009277 | CROMOLYN EYE DROPS | CROMOLYN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are single-ingredient products and both are currently valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 993
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZINC SULFATE"
 predicted_indications: ["pharyngitis", "nasal cavity disease", "acute laryngopharyngitis", "congenital prothrombin deficiency"]
 description: "Zinc Sulfate: predicted new indication Pharyngitis (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -85,13 +85,28 @@ The high TxGNN score is a computational output and is not clinical evidence. The
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02236399 | ANODAN-HC 10MG SUPPOSITORIES | Not specified | Not specified |
-| 02290596 | ALLERGY EYE DROPS | Not specified | Not specified |
-| 02338602 | VISINE MULTI-SYMPTOM | Not specified | Not specified |
-| 02387239 | JAMPZINC-HC | Not specified | Not specified |
-| 02128446 | ANODAN-HC OINTMENT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00476285 | ANUSOL-HC SUPPOSITORIES | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 00505773 | ANUSOL-HC OINTMENT | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 01945904 | ANUSOL PLUS SUPPOSITORIES | PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 01945912 | ANUSOL PLUS OINTMENT | PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02128446 | ANODAN-HC OINTMENT | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 02144093 | VISINE FOR ALLERGY 3 SYMPTOM RELIEF | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02234466 | PROCTODAN-HC OINTMENT | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02236399 | ANODAN-HC 10MG SUPPOSITORIES | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 02240851 | PROCTODAN-HC SUPPOSITORIES | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02248059 | CLEAR EYES ALLERGY | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02290596 | ALLERGY EYE DROPS | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02338602 | VISINE MULTI-SYMPTOM | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02387239 | JAMPZINC-HC | HYDROCORTISONE ACETATE; ZINC SULFATE MONOHYDRATE | Marketed |
+| 02448955 | 8-SYMPTOM RELIEF | TETRAHYDROZOLINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

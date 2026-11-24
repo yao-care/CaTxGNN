@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Nitrogen"
 predicted_indications: ["16q24.1 microdeletion syndrome", "primary interstitial lung disease specific to childhood", "isolated pulmonary capillaritis", "congenital pulmonary lymphangiectasia"]
 description: "Nitrogen: predicted new indication 16q24.1 microdeletion syndrome (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -82,13 +82,28 @@ Dosage form and indication text are not listed for these licences. The first 5 o
 
 <!-- review:end ca-lic-20261106-nitrogen-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00572829 | NITROGEN 100% | Not listed | Not listed |
-| 02297248 | LIQUID NITROGEN NF | Not listed | Not listed |
-| 02436590 | LIQUID NITROGEN NF | Not listed | Not listed |
-| 02368218 | LIQUID NITROGEN | Not listed | Not listed |
-| 02154803 | NITROGEN N.F. | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00572829 | NITROGEN 100% | NITROGEN | Marketed |
+| 00588075 | LUNG DIFFUSION TEST MIX NO NE CO | CARBON MONOXIDE; NEON; NITROGEN; OXYGEN | Marketed |
+| 00591645 | GASEOUS NITROGEN 99.0% | NITROGEN | Marketed |
+| 02014378 | OXYGEN USP, NITROGEN NF, MEDICAL GAS MIXTURE | NITROGEN; OXYGEN | Marketed |
+| 02014394 | NITROGEN NF | NITROGEN | Marketed |
+| 02014424 | CARBON MONOX, HELIUM, OXYGEN, NITROGEN L.D.M. | CARBON MONOXIDE; HELIUM; NITROGEN; OXYGEN | Marketed |
+| 02014483 | MEDICAL AIR USP | NITROGEN; OXYGEN | Marketed |
+| 02154773 | CO-HE-O2-N2 MIXTURE | CARBON MONOXIDE; HELIUM; NITROGEN; OXYGEN | Marketed |
+| 02154781 | MEDICAL AIR U.S.P. | NITROGEN; OXYGEN | Marketed |
+| 02154803 | NITROGEN N.F. | NITROGEN | Marketed |
+| 02182238 | CO-NE-O2-N2 MIXTURE | CARBON MONOXIDE; NEON; NITROGEN; OXYGEN | Marketed |
+| 02297248 | LIQUID NITROGEN NF | NITROGEN | Marketed |
+| 02368218 | LIQUID NITROGEN | NITROGEN | Marketed |
+| 02436590 | LIQUID NITROGEN NF | NITROGEN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other licences include gaseous nitrogen, medical air, oxygen/nitrogen mixtures and lung diffusion test gas mixtures.
 

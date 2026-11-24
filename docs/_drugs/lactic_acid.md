@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -84,11 +84,17 @@ The second-ranked prediction, aortic malformation (score 0.9935), returned 14 pu
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02274876 | PRISM0CAL | Not stated | Not stated |
-| 02243095 | PRISMASOL 0 | Not stated | Not stated |
-| 02277476 | PRISMASOL 4 | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243095 | PRISMASOL 0 | CALCIUM CHLORIDE; LACTIC ACID; MAGNESIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE | Marketed |
+| 02274876 | PRISM0CAL | LACTIC ACID; MAGNESIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE | Marketed |
+| 02277476 | PRISMASOL 4 | CALCIUM CHLORIDE; DEXTROSE ANHYDROUS; L-LACTIC ACID; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM BICARBONA… | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

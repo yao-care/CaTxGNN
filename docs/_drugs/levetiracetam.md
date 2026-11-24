@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In Canada: at least 20 DINs"
@@ -112,7 +112,7 @@ No clinical trials are registered for the other predicted indications.
 
 ## Canada Market Information
 
-Dosage form and approved indication text were not available. Five main authorizations:
+Dosage form and approved indication text were not available.
 
 <!-- review:begin ca-lic-20261105-levetiracetam-1 -->
 
@@ -120,13 +120,36 @@ Dosage form and approved indication text were not available. Five main authoriza
 
 <!-- review:end ca-lic-20261105-levetiracetam-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02504561 | JAMP LEVETIRACETAM TABLETS |
-| 02296136 | PMS-LEVETIRACETAM |
-| 02285924 | APO-LEVETIRACETAM |
-| 02461986 | SANDOZ LEVETIRACETAM |
-| 02442388 | MINT-LEVETIRACETAM |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02285924 | APO-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02296136 | PMS-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02311372 | PRO-LEVETIRACETAM - 250 | LEVETIRACETAM | Marketed |
+| 02353342 | LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02353350 | LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02353369 | LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02375249 | AURO-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02442388 | MINT-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02442418 | MINT-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02461986 | SANDOZ LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02462028 | SANDOZ LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02485192 | AG-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02485206 | AG-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02490447 | PDP-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02504553 | JAMP LEVETIRACETAM TABLETS | LEVETIRACETAM | Marketed |
+| 02504561 | JAMP LEVETIRACETAM TABLETS | LEVETIRACETAM | Marketed |
+| 02504588 | JAMP LEVETIRACETAM TABLETS | LEVETIRACETAM | Marketed |
+| 02515318 | PHARMA-LEVETIRACETAM | LEVETIRACETAM | Marketed |
+| 02524562 | M-LEVETIRACETAM | LEVETIRACETAM | Cancelled post market |
+| 02524570 | M-LEVETIRACETAM | LEVETIRACETAM | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

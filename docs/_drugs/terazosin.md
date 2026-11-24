@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 896
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERAZOSIN"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -104,15 +104,24 @@ No literature is available for the top-ranked prediction. The table below lists 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243521 | PMS-TERAZOSIN | Not specified | Not specified |
-| 02234503 | APO-TERAZOSIN | Not specified | Not specified |
-| 02243519 | PMS-TERAZOSIN | Not specified | Not specified |
-| 02243518 | PMS-TERAZOSIN | Not specified | Not specified |
-| 02243520 | PMS-TERAZOSIN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight valid single-ingredient licences are held in total (PMS-TERAZOSIN and APO-TERAZOSIN); the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02234502 | APO-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02234503 | APO-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02234504 | APO-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02234505 | APO-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02243518 | PMS-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02243519 | PMS-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02243520 | PMS-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+| 02243521 | PMS-TERAZOSIN | TERAZOSIN (TERAZOSIN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight valid single-ingredient licences are held in total (PMS-TERAZOSIN and APO-TERAZOSIN).
 
 ---
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 252
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Chronic myelogenous leukemia…"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -84,15 +84,38 @@ Preclinical work shows that SRC/FAK signaling drives invasion, migration and inv
 
 ## Canada Market Information
 
-The compiled data lists 20 valid single-ingredient licences (none cancelled). Dosage form and approved-indication text were not available for any of them. The five main authorizations are shown below.
+The compiled data lists 20 valid single-ingredient licences (none cancelled). Dosage form and approved-indication text were not available for any of them.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02293137 | SPRYCEL | Not available | Not available |
-| 02293129 | SPRYCEL | Not available | Not available |
-| 02360810 | SPRYCEL | Not available | Not available |
-| 02320193 | SPRYCEL | Not available | Not available |
-| 02470713 | APO-DASATINIB | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02293129 | SPRYCEL | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02293137 | SPRYCEL | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02320193 | SPRYCEL | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02360810 | SPRYCEL | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02470705 | APO-DASATINIB | DASATINIB | Marketed |
+| 02470713 | APO-DASATINIB | DASATINIB | Marketed |
+| 02470721 | APO-DASATINIB | DASATINIB | Marketed |
+| 02478307 | TEVA-DASATINIB | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02478315 | TEVA-DASATINIB | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02478331 | TEVA-DASATINIB | DASATINIB (DASATINIB MONOHYDRATE) | Marketed |
+| 02499282 | TARO-DASATINIB | DASATINIB | Marketed |
+| 02499304 | TARO-DASATINIB | DASATINIB | Marketed |
+| 02499312 | TARO-DASATINIB | DASATINIB | Marketed |
+| 02499320 | TARO-DASATINIB | DASATINIB | Marketed |
+| 02499339 | TARO-DASATINIB | DASATINIB | Marketed |
+| 02514737 | REDDY-DASATINIB | DASATINIB (DASATINIB (S)-PROPYLENE GLYCOL) | Marketed |
+| 02514745 | REDDY-DASATINIB | DASATINIB (DASATINIB (S)-PROPYLENE GLYCOL) | Marketed |
+| 02514753 | REDDY-DASATINIB | DASATINIB (DASATINIB (S)-PROPYLENE GLYCOL) | Marketed |
+| 02514788 | REDDY-DASATINIB | DASATINIB (DASATINIB (S)-PROPYLENE GLYCOL) | Marketed |
+| 02514796 | REDDY-DASATINIB | DASATINIB (DASATINIB (S)-PROPYLENE GLYCOL) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Generic versions are also licensed under the TARO-, TEVA-, REDDY- and APO- brand names.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Acute coronary syndrome, intracranial embolism…"
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
@@ -93,15 +93,35 @@ Currently no related clinical trials registered for migraine with brainstem aura
 
 ## Canada Market Information
 
-Clopidogrel has 19 valid single-ingredient authorisations in Canada. The main ones are listed below.
+Clopidogrel has 19 valid single-ingredient authorisations in Canada.
 
-| DIN | Product Name |
-|---------|------|
-| 02238682 | PLAVIX |
-| 02252767 | APO-CLOPIDOGREL |
-| 02293161 | TEVA-CLOPIDOGREL |
-| 02348004 | PMS-CLOPIDOGREL |
-| 02379813 | TARO-CLOPIDOGREL |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02238682 | PLAVIX | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02252767 | APO-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02293161 | TEVA-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02348004 | PMS-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02379813 | TARO-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02385813 | CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02388065 | TEVA-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02388529 | RIVA-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02394820 | CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02398591 | APO-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02400553 | CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02408910 | MINT-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02415550 | JAMP-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02416387 | AURO-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02422255 | MAR-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02431971 | AG-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02444895 | BIO-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02482037 | NRA-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+| 02502283 | M-CLOPIDOGREL | CLOPIDOGREL (CLOPIDOGREL BISULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

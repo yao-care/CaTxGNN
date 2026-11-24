@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: predicted new indication hepatic porphyria (evidence level L5). In Canada: 12 DINs (12 marketed)"
 ---
 
@@ -85,15 +85,28 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02421593 | JAMP ALLOPURINOL | – | – |
-| 00555681 | ALLOPURINOL-100 | – | – |
-| 02396343 | MAR-ALLOPURINOL | – | – |
-| 02130157 | ALLOPURINOL-200 | – | – |
-| 02396327 | MAR-ALLOPURINOL | – | – |
+<!-- licenses:begin -->
 
-All 12 licences are single-ingredient products and currently valid; the five above are shown as examples.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00402796 | APO-ALLOPURINOL TABLETS | ALLOPURINOL | Marketed |
+| 00402818 | APO-ALLOPURINOL TABLETS | ALLOPURINOL | Marketed |
+| 00479799 | APO-ALLOPURINOL TABLETS | ALLOPURINOL | Marketed |
+| 00555681 | ALLOPURINOL-100 | ALLOPURINOL | Marketed |
+| 00555703 | ALLOPURINOL-300 | ALLOPURINOL | Marketed |
+| 02130157 | ALLOPURINOL-200 | ALLOPURINOL | Marketed |
+| 02396327 | MAR-ALLOPURINOL | ALLOPURINOL | Marketed |
+| 02396335 | MAR-ALLOPURINOL | ALLOPURINOL | Marketed |
+| 02396343 | MAR-ALLOPURINOL | ALLOPURINOL | Marketed |
+| 02421593 | JAMP ALLOPURINOL | ALLOPURINOL | Marketed |
+| 02421607 | JAMP ALLOPURINOL | ALLOPURINOL | Marketed |
+| 02421615 | JAMP ALLOPURINOL | ALLOPURINOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 12 licences are single-ingredient products and currently valid.
 
 ---
 

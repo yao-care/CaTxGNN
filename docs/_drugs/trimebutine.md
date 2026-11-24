@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 948
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Trimebutine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not stated in the compiled Health Canada licence data"
 monitor_inn: "Trimebutine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -78,12 +78,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245664 | APO-TRIMEBUTINE | Not specified | Not specified |
-| 02245663 | APO-TRIMEBUTINE | Not specified | Not specified |
-| 02538202 | MINT-TRIMEBUTINE | Not specified | Not specified |
-| 02538210 | MINT-TRIMEBUTINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245663 | APO-TRIMEBUTINE | TRIMEBUTINE MALEATE | Marketed |
+| 02245664 | APO-TRIMEBUTINE | TRIMEBUTINE MALEATE | Marketed |
+| 02538202 | MINT-TRIMEBUTINE | TRIMEBUTINE MALEATE | Marketed |
+| 02538210 | MINT-TRIMEBUTINE | TRIMEBUTINE MALEATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient products.
 

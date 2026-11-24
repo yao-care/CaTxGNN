@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "FLUOXETINE"
 predicted_indications: ["schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetine: predicted new indication Schizotypal personality disorder (evidence level L3). Approved use: Depressive disorders, anxiety disorders…"
 ---
 
@@ -93,15 +93,38 @@ No randomized controlled trials were found. The table lists the most relevant pu
 
 ## Canada Market Information
 
-Fluoxetine is marketed in Canada as a single-ingredient product. The records compiled for this report show at least 20 valid licences, and the list may be partial. Dosage form and approved-indication text are not included in these records. The first five are shown.
+Fluoxetine is marketed in Canada as a single-ingredient product. The records compiled for this report show at least 20 valid licences, and the list may be partial. Dosage form and approved-indication text are not included in these records.
 
-| DIN | Product Name |
-|---------|------|
-| 02216582 | TEVA-FLUOXETINE |
-| 02448424 | BIO-FLUOXETINE |
-| 02305461 | RIVA-FLUOXETINE |
-| 02385635 | AURO-FLUOXETINE |
-| 02529432 | M-FLUOXETINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02177579 | PMS-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02177587 | PMS-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02216582 | TEVA-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02216590 | TEVA-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02286076 | FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02305461 | RIVA-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02315009 | PRO-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02374455 | FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02380579 | MINT-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02385627 | AURO-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02385635 | AURO-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02386402 | JAMP-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02392909 | MAR-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02401894 | JAMP-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02448424 | BIO-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02448432 | BIO-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02459361 | ODAN-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02503875 | NRA-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02529432 | M-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Marketed |
+| 02383241 | ACH-FLUOXETINE | FLUOXETINE (FLUOXETINE HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

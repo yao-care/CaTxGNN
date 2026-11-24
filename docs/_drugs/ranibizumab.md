@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 794
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: predicted new indication Immature cataract (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -82,12 +82,18 @@ Currently no related clinical trials registered for this indication in the compi
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02425629 | LUCENTIS | Not specified | Not specified |
-| 02542250 | RANOPTO | Not specified | Not specified |
-| 02525852 | MELVIZO | Not specified | Not specified |
-| 02296810 | LUCENTIS | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02296810 | LUCENTIS | RANIBIZUMAB | Marketed |
+| 02425629 | LUCENTIS | RANIBIZUMAB | Marketed |
+| 02525852 | MELVIZO | RANIBIZUMAB | Marketed |
+| 02542250 | RANOPTO | RANIBIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

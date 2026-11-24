@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 997
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -91,13 +91,26 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02391678 | SUBLINOX | Not specified | Not specified |
-| 02370433 | SUBLINOX | Not specified | Not specified |
-| 02434946 | APO-ZOLPIDEM ODT | Not specified | Not specified |
-| 02436159 | APO-ZOLPIDEM ODT | Not specified | Not specified |
-| 02472821 | MINT-ZOLPIDEM ODT | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02370433 | SUBLINOX | ZOLPIDEM TARTRATE | Marketed |
+| 02391678 | SUBLINOX | ZOLPIDEM TARTRATE | Marketed |
+| 02434946 | APO-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02436159 | APO-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02436175 | PMS-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02436183 | PMS-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02472821 | MINT-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02472848 | MINT-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02537346 | PRO-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02537354 | PRO-ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02540592 | JAMP ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+| 02540606 | JAMP ZOLPIDEM ODT | ZOLPIDEM TARTRATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Twelve valid single-ingredient licences are held in total. The remaining seven are other zolpidem ODT products from JAMP, PRO and PMS.
 

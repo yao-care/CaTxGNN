@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes). The Canadian…"
 monitor_inn: "RASAGILINE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -92,15 +92,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02491982 | JAMP RASAGILINE | Not specified | Not specified |
-| 02284650 | AZILECT | Not specified | Not specified |
-| 02284642 | AZILECT | Not specified | Not specified |
-| 02418436 | TEVA-RASAGILINE | Not specified | Not specified |
-| 02418444 | TEVA-RASAGILINE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight valid single-ingredient licences are on record (showing the first 5). None are cancelled.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02284642 | AZILECT | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02284650 | AZILECT | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02404680 | APO-RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02404699 | APO-RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02418436 | TEVA-RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02418444 | TEVA-RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02491974 | JAMP RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+| 02491982 | JAMP RASAGILINE | RASAGILINE (RASAGILINE MESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight valid single-ingredient licences are on record. None are cancelled.
 
 ---
 

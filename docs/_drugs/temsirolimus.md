@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 889
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temsirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Mantle cell lymphoma, B-cell neoplasm…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
@@ -93,9 +93,15 @@ Both trials are early-phase studies of combination regimens. Neither is a Phase 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02304104 | TORISEL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02304104 | TORISEL | TEMSIROLIMUS | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

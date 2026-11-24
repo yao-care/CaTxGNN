@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). In Canada: 8 DINs (8 marketed)"
 ---
 
@@ -83,13 +83,22 @@ Currently no related clinical trials registered.
 
 Eight valid single-ingredient licences are on record. The approved indication text is not recorded in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00362158 | DIAZEPAM | Not recorded | Not recorded |
-| 00405329 | DIAZEPAM | Not recorded | Not recorded |
-| 02519089 | DIASTAT | Not recorded | Not recorded |
-| 00405337 | DIAZEPAM | Not recorded | Not recorded |
-| 00399728 | DIAZEPAM INJECTION USP | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00013285 | VALIUM | DIAZEPAM | Marketed |
+| 00362158 | DIAZEPAM | DIAZEPAM | Marketed |
+| 00399728 | DIAZEPAM INJECTION USP | DIAZEPAM | Marketed |
+| 00405329 | DIAZEPAM | DIAZEPAM | Marketed |
+| 00405337 | DIAZEPAM | DIAZEPAM | Marketed |
+| 02238162 | DIASTAT | DIAZEPAM | Marketed |
+| 02519070 | DIASTAT | DIAZEPAM | Marketed |
+| 02519089 | DIASTAT | DIAZEPAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

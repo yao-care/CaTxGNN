@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -71,15 +71,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Diphenhydramine has 20 valid single-ingredient authorizations in Canada and no cancelled ones. The data compiled for this report do not include dosage form or approved indication text for these products. Five representative products are listed below.
+Diphenhydramine has 20 valid single-ingredient authorizations in Canada and no cancelled ones. The data compiled for this report do not include dosage form or approved indication text for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02141728 | ALLERGY FORMULA CAPLETS | Not available | Not available |
-| 02304252 | BENADRYL ALLERGY LIQUIGELS | Not available | Not available |
-| 02478757 | SLEEP-EZE EXTRA STRENGTH MINIS | Not available | Not available |
-| 00596612 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP | Not available (injection by name) | Not available |
-| 02019698 | CHILDREN'S BENADRYL ALLERGY LIQUID | Not available (liquid by name) | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00489867 | DORMIPHEN EXTRA-FORT CAPSULE | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00583332 | EXTRA STRENGTH NYTOL TAB 50MG | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00596612 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION USP | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00757683 | PDP-DIPHENHYDRAMINE | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 01934414 | NYTOL EXTRA STRENGTH SLEEP AID CAPLET 50MG | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02019698 | CHILDREN'S BENADRYL ALLERGY LIQUID | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02141728 | ALLERGY FORMULA CAPLETS | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02219336 | DIPHENIST | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02304252 | BENADRYL ALLERGY LIQUIGELS | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02306352 | ALLERGY FORMULA LIQUID CAPSULES | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02365685 | REGULAR STRENGTH SLEEP AID | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02369567 | DIPHENHYDRAMINE HYDROCHLORIDE INJECTION, USP | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02409224 | EXTRA STRENGTH DORMEX CAPSULES | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02409259 | EXTRA STRENGTH DORMEX CAPLETS | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02470144 | EXTRA STRENGTH BENADRYL ALLERGY | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02474867 | SLEEP-EZE EZE-FREE | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02478757 | SLEEP-EZE EXTRA STRENGTH MINIS | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02479710 | ALLERGY FORMULA CAPLETS | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02490943 | ALLERGY FORMULA EXTRA STRENGTH | DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 02239029 | NADRYL 25MG | DIPHENHYDRAMINE HYDROCHLORIDE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The product names suggest both allergy and sleep-aid products, which is consistent with the original indications.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MITOMYCIN"
 predicted_indications: ["osteoclastic giant cell tumor of pancreas", "solid pseudopapillary carcinoma of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin: predicted new indication Osteoclastic giant cell tumor of pancreas (evidence level L5). In Canada: 3 DINs (3 marketed)"
@@ -81,11 +81,17 @@ Some lower-ranked pancreatic predictions retrieved a few papers, but none test m
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230451 | Mitomycin for Injection | Not specified | Not specified |
-| 02464691 | Mitomycin for Injection USP | Not specified | Not specified |
-| 02531941 | Mitomycin for Injection, USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02230451 | MITOMYCIN FOR INJECTION | MITOMYCIN | Marketed |
+| 02464691 | MITOMYCIN FOR INJECTION USP | MITOMYCIN | Marketed |
+| 02531941 | MITOMYCIN FOR INJECTION, USP | MITOMYCIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

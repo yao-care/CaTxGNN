@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -89,13 +89,20 @@ For the second prediction, *Staphylococcus aureus* infection:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247437 | INVANZ | Not specified | Not specified |
-| 02492148 | ERTAPENEM FOR INJECTION | Not specified | Not specified |
-| 02496127 | ERTAPENEM FOR INJECTION | Not specified | Not specified |
-| 02490773 | ERTAPENEM FOR INJECTION | Not specified | Not specified |
-| 02537176 | ERTAPENEM FOR INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247437 | INVANZ | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+| 02490773 | ERTAPENEM FOR INJECTION | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+| 02492148 | ERTAPENEM FOR INJECTION | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+| 02496127 | ERTAPENEM FOR INJECTION | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+| 02511150 | ERTAPENEM FOR INJECTION | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+| 02537176 | ERTAPENEM FOR INJECTION | ERTAPENEM (ERTAPENEM SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence (DIN 02511150, ERTAPENEM FOR INJECTION) is also valid. All 6 licences are single-ingredient products in valid status.
 

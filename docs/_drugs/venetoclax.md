@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 970
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Venetoclax: predicted new indication Hodgkins lymphoma (evidence level L5). Approved use: Acute lymphoblastic/lymphocytic leukemia"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
@@ -82,12 +82,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02458055 | VENCLEXTA |
-| 02458047 | VENCLEXTA |
-| 02458063 | VENCLEXTA |
-| 02458039 | VENCLEXTA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02458039 | VENCLEXTA | VENETOCLAX | Marketed |
+| 02458047 | VENCLEXTA | VENETOCLAX | Marketed |
+| 02458055 | VENCLEXTA | VENETOCLAX | Marketed |
+| 02458063 | VENCLEXTA | VENETOCLAX | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid single-ingredient products. Dosage form and approved indication text were not available.
 

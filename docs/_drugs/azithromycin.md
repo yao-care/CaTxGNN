@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZITHROMYCIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -69,15 +69,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Azithromycin is marketed in Canada with 20 valid single-ingredient licences, and the licence list may be partial. Selected products:
+Azithromycin is marketed in Canada with 20 valid single-ingredient licences, and the licence list may be partial.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02452308 | JAMP-AZITHROMYCIN | Not recorded | Not recorded |
-| 02523825 | AZITHROMYCIN FOR INJECTION | Not recorded | Not recorded |
-| 02415542 | APO-AZITHROMYCIN Z | Not recorded | Not recorded |
-| 02267845 | TEVA-AZITHROMYCIN | Not recorded | Not recorded |
-| 02265826 | SANDOZ AZITHROMYCIN | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02261634 | PMS-AZITHROMYCIN | AZITHROMYCIN | Marketed |
+| 02265826 | SANDOZ AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02267845 | TEVA-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE HEMIETHANOLATE) | Marketed |
+| 02275309 | RIVA-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02310600 | PRO-AZITHROMYCINE | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02330881 | AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02332396 | SANDOZ AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02415542 | APO-AZITHROMYCIN Z | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02442434 | AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02452308 | JAMP-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02452324 | MAR-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02479680 | NRA-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02480700 | AG-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02483890 | AZITHROMYCIN FOR INJECTION USP | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02502038 | M-AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02523825 | AZITHROMYCIN FOR INJECTION | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02524449 | AZITHROMYCIN FOR INJECTION | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02531429 | AZITHROMYCIN FOR INJECTION, USP | AZITHROMYCIN (AZITHROMYCIN MONOHYDRATE) | Marketed |
+| 02545969 | AZITHROMYCIN | AZITHROMYCIN (AZITHROMYCIN DIHYDRATE) | Marketed |
+| 02261642 | PMS-AZITHROMYCIN | AZITHROMYCIN | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

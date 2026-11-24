@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "Doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L1). In Canada: 7 DINs (7 marketed)"
 ---
 
@@ -92,13 +92,21 @@ Doxorubicin is a backbone of standard multi-agent Ewing sarcoma regimens, such a
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02194465 | Doxorubicin Hydrochloride for Injection USP | Not recorded | Not recorded |
-| 02194473 | Doxorubicin Hydrochloride for Injection USP | Not recorded | Not recorded |
-| 02410397 | Doxorubicin | Not recorded | Not recorded |
-| 02238389 | Caelyx | Not recorded | Not recorded |
-| 02493020 | Taro-Doxorubicin Liposomal | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02194465 | DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02194473 | DOXORUBICIN HYDROCHLORIDE FOR INJECTION USP | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02238389 | CAELYX | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02381982 | DOXORUBICIN INJECTION, BP | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02409275 | DOXORUBICIN HYDROCHLORIDE INJECTION | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02410397 | DOXORUBICIN | DOXORUBICIN HYDROCHLORIDE | Marketed |
+| 02493020 | TARO-DOXORUBICIN LIPOSOMAL | DOXORUBICIN HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

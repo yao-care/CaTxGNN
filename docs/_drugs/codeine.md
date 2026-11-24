@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "CODEINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-The records do not include dosage form or approved indication text. The five listed below are examples.
+The records do not include dosage form or approved indication text.
 
 <!-- review:begin ca-lic-20261105-codeine-1 -->
 
@@ -94,13 +94,36 @@ The records do not include dosage form or approved indication text. The five lis
 
 <!-- review:end ca-lic-20261105-codeine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00593451 | TEVA-CODEINE | Not specified | Not specified |
-| 02009757 | CODEINE 30 | Not specified | Not specified |
-| 00050024 | CODEINE PHOSPHATE SYRUP | Not specified | Not specified |
-| 02163748 | CODEINE CONTIN 100MG CONTROLLED RELEASE TAB | Controlled-release tablet | Not specified |
-| 02154234 | ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE TABLETS | Tablet | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00050024 | CODEINE PHOSPHATE SYRUP | CODEINE PHOSPHATE | Marketed |
+| 00380571 | LINCTUS CODEINE BLANC | CODEINE PHOSPHATE | Marketed |
+| 00535230 | CALMYLIN | AMMONIUM CHLORIDE; CODEINE PHOSPHATE; DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00593435 | TEVA-CODEINE | CODEINE PHOSPHATE | Marketed |
+| 00593451 | TEVA-CODEINE | CODEINE PHOSPHATE | Marketed |
+| 00608882 | TEVA-EMTEC-30 | ACETAMINOPHEN; CODEINE PHOSPHATE | Marketed |
+| 00621463 | TEVA-LENOLTEC NO. 4 | ACETAMINOPHEN; CODEINE PHOSPHATE | Marketed |
+| 00690074 | COUGH SYRUP | AMMONIUM CHLORIDE; CODEINE PHOSPHATE; DIPHENHYDRAMINE HYDROCHLORIDE | Marketed |
+| 00789828 | TRIATEC-30 | ACETAMINOPHEN; CODEINE PHOSPHATE | Marketed |
+| 00816027 | PMS-ACETAMINOPHEN WITH CODEINE ELIXIR | ACETAMINOPHEN; CODEINE PHOSPHATE | Marketed |
+| 02009757 | CODEINE 30 | CODEINE PHOSPHATE | Marketed |
+| 02047667 | MERSYNDOL WITH CODEINE | ACETAMINOPHEN; CODEINE PHOSPHATE; DOXYLAMINE SUCCINATE | Marketed |
+| 02154234 | ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE TABLETS | ACETAMINOPHEN; CAFFEINE; CODEINE PHOSPHATE | Marketed |
+| 02163748 | CODEINE CONTIN 100MG CONTROLLED RELEASE TAB | CODEINE (CODEINE MONOHYDRATE, CODEINE SULFATE TRIHYDRATE) | Marketed |
+| 02163780 | CODEINE CONTIN 150MG CONTROLLED RELEASE TAB | CODEINE (CODEINE MONOHYDRATE, CODEINE SULFATE TRIHYDRATE) | Marketed |
+| 02163799 | CODEINE CONTIN 200MG CONTROLLED RELEASE TAB | CODEINE (CODEINE MONOHYDRATE, CODEINE SULFATE TRIHYDRATE) | Marketed |
+| 02169126 | TEVA-COTRIDIN | CODEINE PHOSPHATE; PSEUDOEPHEDRINE HYDROCHLORIDE; TRIPROLIDINE HYDROCHLORIDE | Marketed |
+| 02198630 | CALMYLIN ACE | CODEINE PHOSPHATE; GUAIFENESIN; PHENIRAMINE MALEATE | Marketed |
+| 02230302 | CODEINE CONTIN 50MG CONTROLLED RELEASE TAB | CODEINE (CODEINE MONOHYDRATE, CODEINE SULFATE TRIHYDRATE) | Marketed |
+| 02099748 | COUGH SYRUP WITH CODEINE | CODEINE PHOSPHATE; GUAIFENESIN; PSEUDOEPHEDRINE HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

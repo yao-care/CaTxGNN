@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 921
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). In Canada: 15 DINs (15 marketed)"
@@ -108,13 +108,29 @@ IL-6 contributes to systemic inflammation and bone turnover, so blocking it is b
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02350092 | ACTEMRA | Not listed | Not listed |
-| 02350114 | ACTEMRA | Not listed | Not listed |
-| 02350106 | ACTEMRA | Not listed | Not listed |
-| 02424770 | ACTEMRA | Not listed | Not listed |
-| 02483327 | ACTEMRA | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02350092 | ACTEMRA | TOCILIZUMAB | Marketed |
+| 02350106 | ACTEMRA | TOCILIZUMAB | Marketed |
+| 02350114 | ACTEMRA | TOCILIZUMAB | Marketed |
+| 02424770 | ACTEMRA | TOCILIZUMAB | Marketed |
+| 02483327 | ACTEMRA | TOCILIZUMAB | Marketed |
+| 02552450 | TYENNE | TOCILIZUMAB | Marketed |
+| 02552469 | TYENNE | TOCILIZUMAB | Marketed |
+| 02552477 | TYENNE | TOCILIZUMAB | Marketed |
+| 02552485 | TYENNE | TOCILIZUMAB | Marketed |
+| 02552493 | TYENNE | TOCILIZUMAB | Marketed |
+| 02562022 | AVTOZMA | TOCILIZUMAB | Marketed |
+| 02562030 | AVTOZMA | TOCILIZUMAB | Marketed |
+| 02562049 | AVTOZMA | TOCILIZUMAB | Marketed |
+| 02562057 | AVTOZMA | TOCILIZUMAB | Marketed |
+| 02562065 | AVTOZMA | TOCILIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 15 licences are valid single-ingredient products. The other brands are TYENNE (5 DINs) and AVTOZMA (5 DINs), which are biosimilars of tocilizumab.
 

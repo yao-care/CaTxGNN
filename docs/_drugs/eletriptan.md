@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 14 DINs (14 marketed)"
@@ -94,15 +94,30 @@ None of the publications below studies migraine with brainstem aura directly. Th
 
 ## Canada Market Information
 
-Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled. Dosage form and approved-indication text are not available in the data compiled for this report. The main authorisations are:
+Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled. Dosage form and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02256290 | RELPAX |
-| 02256304 | RELPAX |
-| 02342235 | MYLAN-ELETRIPTAN |
-| 02382091 | TEVA-ELETRIPTAN |
-| 02479451 | AURO-ELETRIPTAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02256290 | RELPAX | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02256304 | RELPAX | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02342235 | MYLAN-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02342243 | MYLAN-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02382091 | TEVA-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02382105 | TEVA-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02479451 | AURO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02479478 | AURO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02489961 | PRO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02489988 | PRO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02511266 | ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02511274 | ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02518015 | APO-ELETRIPTAN TABLETS | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02518023 | APO-ELETRIPTAN TABLETS | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

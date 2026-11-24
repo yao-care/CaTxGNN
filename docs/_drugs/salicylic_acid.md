@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 834
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In Canada: 7 DINs (6 marketed)"
@@ -75,13 +75,21 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00666114 | SEBCUR-T | Not specified | Not specified |
-| 00578436 | DIPROSALIC | Not specified | Not specified |
-| 02428946 | ACTIKERALL | Not specified | Not specified |
-| 02402149 | ACNE TREATMENT SYSTEM | Not specified | Not specified |
-| 02245688 | RATIO-TOPISALIC | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00266493 | TARDAN SHP | COAL TAR; SALICYLIC ACID; TRICLOSAN | Marketed |
+| 00578436 | DIPROSALIC | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); SALICYLIC ACID | Marketed |
+| 00666114 | SEBCUR-T | COAL TAR; SALICYLIC ACID | Marketed |
+| 00772011 | CANTHARONE PLUS | CANTHARIDIN; PODOPHYLLIN; SALICYLIC ACID | Marketed |
+| 02402149 | ACNE TREATMENT SYSTEM | BENZOYL PEROXIDE; SALICYLIC ACID | Marketed |
+| 02428946 | ACTIKERALL | FLUOROURACIL; SALICYLIC ACID | Marketed |
+| 02245688 | RATIO-TOPISALIC | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); SALICYLIC ACID | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Two further single-ingredient licences are valid: CANTHARONE PLUS (00772011) and TARDAN SHP (00266493).
 

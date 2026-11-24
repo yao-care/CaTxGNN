@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, diabetic nephropathy"
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -88,7 +88,7 @@ The table below covers the fourth-ranked prediction, pulmonary hypertension owin
 
 ## Canada Market Information
 
-Irbesartan is a marketed single-ingredient product. The data compiled for this report do not include dosage forms or approved indication text. Five representative authorisations:
+Irbesartan is a marketed single-ingredient product. The data compiled for this report do not include dosage forms or approved indication text.
 
 <!-- review:begin ca-lic-20261105-irbesartan-1 -->
 
@@ -96,13 +96,36 @@ Irbesartan is a marketed single-ingredient product. The data compiled for this r
 
 <!-- review:end ca-lic-20261105-irbesartan-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02237925 | AVAPRO | Not available | Not available |
-| 02237924 | AVAPRO | Not available | Not available |
-| 02328488 | SANDOZ IRBESARTAN | Not available | Not available |
-| 02316390 | TEVA-IRBESARTAN | Not available | Not available |
-| 02406829 | TARO-IRBESARTAN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02237924 | AVAPRO | IRBESARTAN | Marketed |
+| 02237925 | AVAPRO | IRBESARTAN | Marketed |
+| 02328461 | SANDOZ IRBESARTAN | IRBESARTAN | Marketed |
+| 02328488 | SANDOZ IRBESARTAN | IRBESARTAN | Marketed |
+| 02328496 | SANDOZ IRBESARTAN | IRBESARTAN | Marketed |
+| 02365197 | IRBESARTAN | IRBESARTAN | Marketed |
+| 02365200 | IRBESARTAN | IRBESARTAN | Marketed |
+| 02372347 | IRBESARTAN | IRBESARTAN | Marketed |
+| 02372398 | IRBESARTAN | IRBESARTAN | Marketed |
+| 02385309 | IRBESARTAN | IRBESARTAN | Marketed |
+| 02406829 | TARO-IRBESARTAN | IRBESARTAN | Marketed |
+| 02406837 | TARO-IRBESARTAN | IRBESARTAN | Marketed |
+| 02422980 | MINT-IRBESARTAN | IRBESARTAN | Marketed |
+| 02422999 | MINT-IRBESARTAN | IRBESARTAN | Marketed |
+| 02524821 | M-IRBESARTAN | IRBESARTAN | Marketed |
+| 02524848 | M-IRBESARTAN | IRBESARTAN | Marketed |
+| 02545241 | JAMP IRBESARTAN | IRBESARTAN | Marketed |
+| 02316390 | TEVA-IRBESARTAN | IRBESARTAN | Cancelled post market |
+| 02316404 | TEVA-IRBESARTAN | IRBESARTAN | Cancelled post market |
+| 02316412 | TEVA-IRBESARTAN | IRBESARTAN | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

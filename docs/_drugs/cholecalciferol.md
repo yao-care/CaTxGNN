@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not stated in the licence records compiled for this report. The knowl…"
 ---
 
@@ -104,13 +104,34 @@ The compiled data does not include dosage forms or approved indication text for 
 
 <!-- review:end ca-lic-20261106-cholecalciferol-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02371502 | EURO-D 50000 IU | Not available | Not available |
-| 02498944 | AG-VITAMINE D TABLETS | Not available | Not available |
-| 02546876 | VITAMIN D3 | Not available | Not available |
-| 02449110 | JAMP-VITAMIN D | Not available | Not available |
-| 02417995 | VITAMINE D 10 000 | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00821772 | D-TABS | VITAMIN D3 | Marketed |
+| 02276429 | FOSAVANCE | ALENDRONIC ACID (ALENDRONATE SODIUM TRIHYDRATE); VITAMIN D3 (CHOLECALCIFEROL) | Marketed |
+| 02314940 | FOSAVANCE | ALENDRONIC ACID (ALENDRONATE SODIUM TRIHYDRATE); VITAMIN D3 (CHOLECALCIFEROL) | Marketed |
+| 02371502 | EURO-D 50000 IU | VITAMIN D3 | Marketed |
+| 02417995 | VITAMINE D 10 000 | VITAMIN D3 | Marketed |
+| 02442256 | LUXA-D | VITAMIN D3 | Marketed |
+| 02449099 | JAMP-VITAMIN D | VITAMIN D3 | Marketed |
+| 02449110 | JAMP-VITAMIN D | VITAMIN D3 | Marketed |
+| 02454467 | APO-ALENDRONATE/VITAMIN D3 | ALENDRONIC ACID (ALENDRONATE SODIUM); VITAMIN D3 (CHOLECALCIFEROL) | Marketed |
+| 02454475 | APO-ALENDRONATE/VITAMIN D3 | ALENDRONIC ACID (ALENDRONATE SODIUM); VITAMIN D3 (CHOLECALCIFEROL) | Marketed |
+| 02464594 | EURO D 10 000 | VITAMIN D3 (CHOLECALCIFEROL) | Marketed |
+| 02498944 | AG-VITAMINE D TABLETS | VITAMIN D3 | Marketed |
+| 02519828 | JAMP ALENDRONATE / VITAMIN D3 | ALENDRONIC ACID (ALENDRONATE SODIUM TRIHYDRATE); VITAMIN D3 | Marketed |
+| 02519836 | JAMP ALENDRONATE / VITAMIN D3 | ALENDRONIC ACID (ALENDRONATE SODIUM TRIHYDRATE); VITAMIN D3 | Marketed |
+| 02546876 | VITAMIN D3 | VITAMIN D3 | Marketed |
+| 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
+| 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
+| 02253178 | SANDOZ D 10 000 | VITAMIN D3 (CHOLECALCIFEROL) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other listed products include D-TABS, SANDOZ D 10 000, LUXA-D, alendronate/vitamin D3 products (FOSAVANCE, APO-ALENDRONATE/VITAMIN D3, JAMP ALENDRONATE / VITAMIN D3) and prenatal multivitamins (PREGVIT, PREGNANCY MULTIVITAMIN).
 

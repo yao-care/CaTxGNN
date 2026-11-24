@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 898
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERCONAZOLE"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
 description: "Terconazole: predicted new indication Trichomonal vulvovaginitis (evidence level L5). In Canada: 1 DIN (1 marketed)"
@@ -74,9 +74,15 @@ Neither publication directly studies terconazole in trichomonal vulvovaginitis.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247651 | TARO-TERCONAZOLE | Not specified | Not specified in the compiled data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247651 | TARO-TERCONAZOLE | TERCONAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Terconazole has one valid single-ingredient licence in Canada, and the drug is marketed.
 

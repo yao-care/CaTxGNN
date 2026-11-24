@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -76,11 +76,17 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02285533 | KALETRA | Not listed | Not listed |
-| 02312301 | KALETRA | Not listed | Not listed |
-| 02243644 | KALETRA | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243644 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+| 02285533 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+| 02312301 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

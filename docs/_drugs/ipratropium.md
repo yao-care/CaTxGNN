@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -93,7 +93,7 @@ The compiled data contains 25 trials for this indication. The most relevant are 
 
 ## Canada Market Information
 
-Twelve licences are valid in Canada. Dosage form and approved-indication text were not available in the records compiled for this report. The main products are:
+Twelve licences are valid in Canada. Dosage form and approved-indication text were not available in the records compiled for this report.
 
 <!-- review:begin ca-lic-20261106-ipratropium-1 -->
 
@@ -101,13 +101,26 @@ Twelve licences are valid in Canada. Dosage form and approved-indication text we
 
 <!-- review:end ca-lic-20261106-ipratropium-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247686 | ATROVENT HFA | Not available | Not available |
-| 02216221 | TEVA-IPRATROPIUM STERINEBS | Not available | Not available |
-| 02231245 | PMS-IPRATROPIUM | Not available | Not available |
-| 02419106 | COMBIVENT RESPIMAT | Not available | Not available |
-| 02542587 | JAMP IPRATROPIUM HFA | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02126222 | AA-IPRAVENT | IPRATROPIUM BROMIDE | Marketed |
+| 02216221 | TEVA-IPRATROPIUM STERINEBS | IPRATROPIUM BROMIDE | Marketed |
+| 02231135 | PMS-IPRATROPIUM | IPRATROPIUM BROMIDE | Marketed |
+| 02231244 | PMS-IPRATROPIUM | IPRATROPIUM BROMIDE | Marketed |
+| 02231245 | PMS-IPRATROPIUM | IPRATROPIUM BROMIDE | Marketed |
+| 02239627 | PMS-IPRATROPIUM | IPRATROPIUM BROMIDE | Marketed |
+| 02246084 | IPRAVENT | IPRATROPIUM BROMIDE | Marketed |
+| 02247686 | ATROVENT HFA | IPRATROPIUM BROMIDE | Marketed |
+| 02272695 | TEVA-COMBO STERINEBS | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02419106 | COMBIVENT RESPIMAT | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02483394 | IPRATROPIUM BROMIDE AND SALBUTAMOL SULPHATE INHALATION SOLUTION | IPRATROPIUM BROMIDE (IPRATROPIUM BROMIDE MONOHYDRATE); SALBUTAMOL (SALBUTAMOL SULFATE) | Marketed |
+| 02542587 | JAMP IPRATROPIUM HFA | IPRATROPIUM BROMIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other licences include AA-IPRAVENT, IPRAVENT, TEVA-COMBO STERINEBS and an ipratropium/salbutamol inhalation solution. Several of these are combination-type products registered as single entries.
 

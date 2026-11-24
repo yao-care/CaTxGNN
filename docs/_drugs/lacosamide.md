@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Epilepsy (focal-onset seizures)…"
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Dosage form and approved-indication text were not available for these records. Five are shown below.
+Dosage form and approved-indication text were not available for these records.
 
 <!-- review:begin ca-lic-20261105-lacosamide-1 -->
 
@@ -89,13 +89,36 @@ Dosage form and approved-indication text were not available for these records. F
 
 <!-- review:end ca-lic-20261105-lacosamide-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02357615 | VIMPAT |
-| 02357666 | VIMPAT |
-| 02357631 | VIMPAT |
-| 02357623 | VIMPAT |
-| 02490544 | MINT-LACOSAMIDE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02357615 | VIMPAT | LACOSAMIDE | Marketed |
+| 02357623 | VIMPAT | LACOSAMIDE | Marketed |
+| 02357631 | VIMPAT | LACOSAMIDE | Marketed |
+| 02357666 | VIMPAT | LACOSAMIDE | Marketed |
+| 02472937 | TEVA-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02474670 | SANDOZ LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02474700 | SANDOZ LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02475332 | AURO-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02475340 | AURO-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02475367 | AURO-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02478218 | PHARMA-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02490544 | MINT-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02490552 | MINT-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02490579 | MINT-LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02512874 | LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02512882 | LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02512890 | LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02512904 | LACOSAMIDE | LACOSAMIDE | Marketed |
+| 02489295 | ACH-LACOSAMIDE | LACOSAMIDE | Dormant |
+| 02499592 | NRA-LACOSAMIDE | LACOSAMIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

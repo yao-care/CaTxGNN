@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -82,12 +82,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 00642894 | APO PIROXICAM CAP 20MG | Valid (single-ingredient) |
-| 00642886 | APO PIROXICAM CAP 10MG | Valid (single-ingredient) |
-| 00695718 | TEVA-PIROXICAM | Valid (single-ingredient) |
-| 00695696 | TEVA-PIROXICAM | Valid (single-ingredient) |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00642886 | APO PIROXICAM CAP 10MG | PIROXICAM | Marketed |
+| 00642894 | APO PIROXICAM CAP 20MG | PIROXICAM | Marketed |
+| 00695696 | TEVA-PIROXICAM | PIROXICAM | Marketed |
+| 00695718 | TEVA-PIROXICAM | PIROXICAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four authorizations are valid single-ingredient products, and none are cancelled.
 

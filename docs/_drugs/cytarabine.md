@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 238
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukemia and acute myeloid leukemia (including se…"
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
@@ -90,12 +90,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02406772 | PMS-CYTARABINE | Not available | Not available |
-| 02126656 | CYTARABINE INJECTION | Not available | Not available |
-| 02515296 | CYTARABINE INJECTION | Not available | Not available |
-| 02515490 | VYXEOS | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02126656 | CYTARABINE INJECTION | CYTARABINE | Marketed |
+| 02406772 | PMS-CYTARABINE | CYTARABINE | Marketed |
+| 02515296 | CYTARABINE INJECTION | CYTARABINE | Marketed |
+| 02515490 | VYXEOS | CYTARABINE; DAUNORUBICIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

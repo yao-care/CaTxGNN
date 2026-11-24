@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 925
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trabectedin: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "TRABECTEDIN"
 predicted_indications: ["female breast carcinoma"]
@@ -99,9 +99,15 @@ The abstracts available for the Phase 2 studies were truncated and did not inclu
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02351528 | YONDELIS | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02351528 | YONDELIS | TRABECTEDIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

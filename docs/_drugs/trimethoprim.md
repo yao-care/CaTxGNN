@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 949
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -82,13 +82,22 @@ For the closely related, already-established indication of conjunctivitis, the c
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243116 | Trimethoprim Tablets | Not specified | Not specified |
-| 02243117 | Trimethoprim Tablets | Not specified | Not specified |
-| 02525917 | Sulfamethoxazole and Trimethoprim for Injection, USP | Not specified | Not specified |
-| 00445266 | Sulfatrim Pediatric | Not specified | Not specified |
-| 02239234 | Sandoz Polytrimethoprim | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00445266 | SULFATRIM PEDIATRIC | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 00445274 | SULFATRIM | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 00445282 | SULFATRIM DS | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 00550086 | SEPTRA INJECTION | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 02239234 | SANDOZ POLYTRIMETHOPRIM | POLYMYXIN B SULFATE; TRIMETHOPRIM (TRIMETHOPRIM SULFATE) | Marketed |
+| 02243116 | TRIMETHOPRIM TABLETS | TRIMETHOPRIM | Marketed |
+| 02243117 | TRIMETHOPRIM TABLETS | TRIMETHOPRIM | Marketed |
+| 02525917 | SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eight valid authorizations are listed in total; the five above are shown. None of the listed products is documented as an ophthalmic formulation in the compiled data.
 

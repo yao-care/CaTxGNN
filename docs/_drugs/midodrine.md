@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -85,15 +85,26 @@ Because the predicted indication is close to the original one, the link is stron
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02473984 | MAR-MIDODRINE | Not listed | Not listed |
-| 02473992 | MAR-MIDODRINE | Not listed | Not listed |
-| 02517701 | JAMP MIDODRINE | Not listed | Not listed |
-| 02547112 | M-MIDODRINE | Not listed | Not listed |
-| 02533219 | MIDODRINE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Ten single-ingredient DINs are currently valid and none are cancelled. Only the first five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02278677 | APO-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02278685 | APO-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02473984 | MAR-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02473992 | MAR-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02517701 | JAMP MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02517728 | JAMP MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02533200 | MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02533219 | MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02547112 | M-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+| 02547120 | M-MIDODRINE | MIDODRINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten single-ingredient DINs are currently valid and none are cancelled.
 
 ## Safety Considerations
 

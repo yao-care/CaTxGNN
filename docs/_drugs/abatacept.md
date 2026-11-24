@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: predicted new indication Ankylosing spondylitis (evidence level L3). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -84,10 +84,16 @@ The clinical picture is less supportive than the score suggests. The only abatac
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02282097 | ORENCIA | Not recorded | Not recorded in local data |
-| 02402475 | ORENCIA | Not recorded | Not recorded in local data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02282097 | ORENCIA | ABATACEPT | Marketed |
+| 02402475 | ORENCIA | ABATACEPT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

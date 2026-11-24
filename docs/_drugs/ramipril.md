@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 792
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In Canada: at least 20 DINs"
@@ -80,7 +80,7 @@ The other papers retrieved for that indication concern myocardial infarction, re
 
 ## Canada Market Information
 
-Ramipril is marketed in Canada. Dosage form and approved indication text are not available in the compiled data. Five of the licences are listed below.
+Ramipril is marketed in Canada. Dosage form and approved indication text are not available in the compiled data.
 
 <!-- review:begin ca-lic-20261105-ramipril-1 -->
 
@@ -88,13 +88,36 @@ Ramipril is marketed in Canada. Dosage form and approved indication text are not
 
 <!-- review:end ca-lic-20261105-ramipril-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02221853 | ALTACE |
-| 02251531 | APO-RAMIPRIL |
-| 02331128 | JAMP-RAMIPRIL |
-| 02310546 | TARO-RAMIPRIL |
-| 02469073 | PHARMA-RAMIPRIL |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02221853 | ALTACE | RAMIPRIL | Marketed |
+| 02251531 | APO-RAMIPRIL | RAMIPRIL | Marketed |
+| 02251582 | APO-RAMIPRIL | RAMIPRIL | Marketed |
+| 02255316 | RAMIPRIL | RAMIPRIL | Marketed |
+| 02287927 | RAMIPRIL | RAMIPRIL | Marketed |
+| 02308363 | RAMIPRIL | RAMIPRIL | Marketed |
+| 02310066 | PRO-RAMIPRIL - 2.5 | RAMIPRIL | Marketed |
+| 02310546 | TARO-RAMIPRIL | RAMIPRIL | Marketed |
+| 02331128 | JAMP-RAMIPRIL | RAMIPRIL | Marketed |
+| 02331136 | JAMP-RAMIPRIL | RAMIPRIL | Marketed |
+| 02331144 | JAMP-RAMIPRIL | RAMIPRIL | Marketed |
+| 02420473 | MAR-RAMIPRIL | RAMIPRIL | Marketed |
+| 02421305 | MINT-RAMIPRIL | RAMIPRIL | Marketed |
+| 02469057 | PHARMA-RAMIPRIL | RAMIPRIL | Marketed |
+| 02469073 | PHARMA-RAMIPRIL | RAMIPRIL | Marketed |
+| 02486199 | NRA-RAMIPRIL | RAMIPRIL | Marketed |
+| 02550202 | PMSC-RAMIPRIL | RAMIPRIL | Marketed |
+| 02550210 | PMSC-RAMIPRIL | RAMIPRIL | Marketed |
+| 02550237 | PMSC-RAMIPRIL | RAMIPRIL | Marketed |
+| 02374862 | RAMIPRIL | RAMIPRIL | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

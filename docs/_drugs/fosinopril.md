@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Fosinopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -94,15 +94,22 @@ The only publications retrieved were for the third-ranked prediction, pulmonary 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02247803 | TEVA-FOSINOPRIL | Not specified | Not specified |
-| 02266008 | APO-FOSINOPRIL | Not specified | Not specified |
-| 02459396 | FOSINOPRIL | Not specified | Not specified |
-| 02266016 | APO-FOSINOPRIL | Not specified | Not specified |
-| 02247802 | TEVA-FOSINOPRIL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-All 6 licences are valid single-ingredient products with none cancelled. The table shows the first 5.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02247802 | TEVA-FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+| 02247803 | TEVA-FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+| 02266008 | APO-FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+| 02266016 | APO-FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+| 02459388 | FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+| 02459396 | FOSINOPRIL | FOSINOPRIL SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 6 licences are valid single-ingredient products with none cancelled.
 
 ---
 

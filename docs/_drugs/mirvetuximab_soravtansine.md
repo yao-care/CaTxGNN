@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 622
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Mirvetuximab Soravtansine: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -74,9 +74,15 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02560771 | ELAHERE |  | Valid |
+| 02560771 | ELAHERE | MIRVETUXIMAB SORAVTANSINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

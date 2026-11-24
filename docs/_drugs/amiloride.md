@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride: predicted new indication malignant hypertensive renal disease (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -76,10 +76,16 @@ Two valid licences are on record. Approved indication text, dosage form and manu
 
 <!-- review:end ca-lic-20261106-amiloride-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02249510 | MIDAMOR |
-| 00784400 | AA-AMILZIDE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00784400 | AA-AMILZIDE | AMILORIDE HYDROCHLORIDE; HYDROCHLOROTHIAZIDE | Marketed |
+| 02249510 | MIDAMOR | AMILORIDE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

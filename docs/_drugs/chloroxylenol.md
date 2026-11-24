@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 184
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Chloroxylenol: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,20 +72,26 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02449420 | SOFT CARE DEFEND |  | Valid |
-| 02448866 | SOFT CARE DEFEND FOAM |  | Valid |
-| 02480506 | APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP |  | Valid |
-| 01977873 | GERMICIDAL HAND SOAP LIQ 0.6% |  | Valid |
-| 02242847 | DIGICLEAN E FOAM HAND SOAP |  | Valid |
-| 02276917 | QUICK CLEAN |  | Valid |
-| 02131471 | VIROBEX-P |  | Valid |
-| 00373435 | DETTOL |  | Valid |
-| 02314126 | PHENREX MVD |  | Valid |
-| 02440458 | PURKLENZ |  | Valid |
-| 01942271 | ABSORBINE JR EXTRA STRENGTH LINIMENT |  | CANCELLED POST MARKET |
-| 01942301 | ABSORBINE JR LINIMENT |  | CANCELLED POST MARKET |
+| 00373435 | DETTOL | CHLOROXYLENOL | Marketed |
+| 01977873 | GERMICIDAL HAND SOAP LIQ 0.6% | CHLOROXYLENOL | Marketed |
+| 02131471 | VIROBEX-P | CHLOROXYLENOL | Marketed |
+| 02242847 | DIGICLEAN E FOAM HAND SOAP | CHLOROXYLENOL | Marketed |
+| 02276917 | QUICK CLEAN | CHLOROXYLENOL | Marketed |
+| 02314126 | PHENREX MVD | CHLOROXYLENOL | Marketed |
+| 02440458 | PURKLENZ | CHLOROXYLENOL | Marketed |
+| 02448866 | SOFT CARE DEFEND FOAM | CHLOROXYLENOL | Marketed |
+| 02449420 | SOFT CARE DEFEND | CHLOROXYLENOL | Marketed |
+| 02480506 | APPLAUD AB ANTISEPTIC LOTIONIZED HAND SOAP | CHLOROXYLENOL | Marketed |
+| 01942271 | ABSORBINE JR EXTRA STRENGTH LINIMENT | CHLOROXYLENOL; MENTHOL | Cancelled post market |
+| 01942301 | ABSORBINE JR LINIMENT | CHLOROXYLENOL; MENTHOL | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

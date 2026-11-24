@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 630
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). In Canada: at least 20 DINs"
@@ -104,15 +104,38 @@ An important caveat: the indexed disease term "bronchitis" maps largely to bronc
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238216 | SINGULAIR | Not available | Not available |
-| 02445735 | BIO-MONTELUKAST | Not available | Not available |
-| 02382458 | MONTELUKAST | Not available | Not available |
-| 02514877 | JAMP MONTELUKAST CHEWABLE TABLETS | Not available | Not available |
-| 02422875 | AURO-MONTELUKAST CHEWABLE TABLET | Not available | Not available |
+<!-- licenses:begin -->
 
-The list shows five of the licences found. The records may be partial, and the approved indication text is not recorded in the local data.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02238216 | SINGULAIR | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02354977 | PMS-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02354985 | PMS-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02355515 | TEVA-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02373947 | PMS-MONTELUKAST FC | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02377616 | APO-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02379236 | ACH-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02379333 | MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02382458 | MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02382466 | MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02398826 | RIVA-MONTELUKAST FC | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02399997 | MAR-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02401274 | AURO-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02408627 | MINT-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02408635 | MINT-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02408643 | MINT-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02422875 | AURO-MONTELUKAST CHEWABLE TABLET | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02445735 | BIO-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02514877 | JAMP MONTELUKAST CHEWABLE TABLETS | MONTELUKAST (MONTELUKAST SODIUM) | Marketed |
+| 02522136 | NAT-MONTELUKAST | MONTELUKAST (MONTELUKAST SODIUM) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
+
+The records may be partial, and the approved indication text is not recorded in the local data.
 
 ---
 

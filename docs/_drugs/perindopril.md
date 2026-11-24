@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 723
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: at least 20 DINs"
@@ -89,15 +89,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Perindopril has 20 valid single-ingredient authorisations in Canada, with no cancelled licences. Dosage form and approved indication text were not available in the data compiled for this report. Main products:
+Perindopril has 20 valid single-ingredient authorisations in Canada, with no cancelled licences. Dosage form and approved indication text were not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02479885 | PERINDOPRIL ERBUMINE |
-| 02474824 | MAR-PERINDOPRIL |
-| 02555697 | NB-PERINDOPRIL |
-| 02465000 | TEVA-PERINDOPRIL |
-| 02470241 | SANDOZ PERINDOPRIL ERBUMINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02459833 | AURO-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02464985 | TEVA-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02465000 | TEVA-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02470241 | SANDOZ PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02474824 | MAR-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02474840 | MAR-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02476762 | MINT-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02476770 | MINT-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02479877 | PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02479885 | PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02481634 | PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02481650 | PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02488957 | PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02489031 | NRA-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02501317 | BIO-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02527219 | JAMP PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02529513 | AG-PERINDOPRIL ERBUMINE | PERINDOPRIL ERBUMINE | Marketed |
+| 02555697 | NB-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02555700 | NB-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+| 02555719 | NB-PERINDOPRIL | PERINDOPRIL ERBUMINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

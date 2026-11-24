@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Canada: at least 20 DINs"
@@ -81,13 +81,36 @@ The other eight predicted indications (for example hydranencephaly, several myop
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02387778 | LATUDA | Not specified | Not specified |
-| 02413361 | LATUDA | Not specified | Not specified |
-| 02422050 | LATUDA | Not specified | Not specified |
-| 02504529 | TARO-LURASIDONE | Not specified | Not specified |
-| 02505894 | PMS-LURASIDONE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02504499 | TARO-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02504529 | TARO-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02504537 | TARO-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02505894 | PMS-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02513986 | AURO-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02514028 | AURO-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02516438 | JAMP LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02516446 | JAMP LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02516462 | JAMP LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02521105 | SANDOZ LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02521113 | SANDOZ LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02521121 | SANDOZ LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02522322 | NRA-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02522330 | NRA-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02522349 | NRA-LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02548585 | LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02548593 | LURASIDONE | LURASIDONE HYDROCHLORIDE | Marketed |
+| 02387778 | LATUDA | LURASIDONE HYDROCHLORIDE | Cancelled post market |
+| 02413361 | LATUDA | LURASIDONE HYDROCHLORIDE | Cancelled post market |
+| 02422050 | LATUDA | LURASIDONE HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
 

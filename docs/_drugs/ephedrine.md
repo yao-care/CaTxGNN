@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). In Canada: 1 DIN (1 marketed)"
@@ -87,9 +87,15 @@ Both publications are low-tier and not clearly attributable to ephedrine alone.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00876534 | EPHEDRINE SULFATE INJECTION USP | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00876534 | EPHEDRINE SULFATE INJECTION USP | EPHEDRINE SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

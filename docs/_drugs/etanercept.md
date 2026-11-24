@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept: predicted new indication Hypermobility of coccyx (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -98,13 +98,22 @@ The remaining publications retrieved are general reviews on anti-TNF safety, bio
 
 Eight valid single-ingredient authorizations are listed. Dosage form and approved-indication text were not available for these products.
 
-| DIN | Product Name |
-|---------|------|
-| 02274728 | ENBREL |
-| 02530309 | RYMTI |
-| 02462869 | ERELZI |
-| 02462850 | ERELZI |
-| 02462877 | ERELZI |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02274728 | ENBREL | ETANERCEPT | Marketed |
+| 02455323 | BRENZYS | ETANERCEPT | Marketed |
+| 02455331 | BRENZYS | ETANERCEPT | Marketed |
+| 02462850 | ERELZI | ETANERCEPT | Marketed |
+| 02462869 | ERELZI | ETANERCEPT | Marketed |
+| 02462877 | ERELZI | ETANERCEPT | Marketed |
+| 02530295 | RYMTI | ETANERCEPT | Marketed |
+| 02530309 | RYMTI | ETANERCEPT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Three more authorizations are also valid: RYMTI (02530295) and BRENZYS (02455323, 02455331).
 

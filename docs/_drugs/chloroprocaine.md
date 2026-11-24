@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 183
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloroprocaine: predicted new indication Cauda equina syndrome (evidence level L4). Approved use: Not specified in the Canadian license record (local anesthesia by dru…"
 monitor_inn: "Chloroprocaine"
 predicted_indications: ["cauda equina syndrome"]
@@ -87,9 +87,15 @@ All four publications concern anesthesia use or complications. None shows that c
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02551063 | CLOROTEKAL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02551063 | CLOROTEKAL | CHLOROPROCAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

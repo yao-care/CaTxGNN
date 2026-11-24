@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -81,6 +81,37 @@ Currently no related literature available in this Evidence Pack.
 ---
 
 ## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02168898 | ESTRING | ESTRADIOL | Marketed |
+| 02238704 | ESTROGEL | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02243999 | ESTRADOT 37.5 | ESTRADIOL | Marketed |
+| 02244000 | ESTRADOT 50 | ESTRADIOL | Marketed |
+| 02244001 | ESTRADOT 75 | ESTRADIOL | Marketed |
+| 02244002 | ESTRADOT 100 | ESTRADIOL | Marketed |
+| 02245676 | ESTRADOT 25 | ESTRADIOL | Marketed |
+| 02246967 | SANDOZ ESTRADIOL DERM 50 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02246968 | SANDOZ ESTRADIOL DERM 75 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02246969 | SANDOZ ESTRADIOL DERM 100 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02247499 | CLIMARA 25 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02247500 | CLIMARA 75 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02325462 | VAGIFEM 10 | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02424835 | DIVIGEL | ESTRADIOL | Marketed |
+| 02424924 | DIVIGEL | ESTRADIOL | Marketed |
+| 02449048 | LUPIN-ESTRADIOL | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02449056 | LUPIN-ESTRADIOL | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02449064 | LUPIN-ESTRADIOL | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02503689 | IMVEXXY | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+| 02503697 | IMVEXXY | ESTRADIOL (ESTRADIOL HEMIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 No product-level data is available for review.
 

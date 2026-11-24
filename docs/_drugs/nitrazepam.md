@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 monitor_inn: "NITRAZEPAM"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -62,7 +62,6 @@ Currently there are **0 registered clinical trials** and **20 publications** (mo
 
 Detailed mechanism of action data is not currently available in the compiled data. Based on established class pharmacology, nitrazepam is a benzodiazepine that enhances inhibitory neurotransmission by positively modulating GABA-A receptors, producing sedative-hypnotic effects.
 
-
 The TxGNN model (deep learning) predicted Wernicke-Korsakoff syndrome with a score of 0.9931. This is supported by computational prediction only, with no trials or literature. Benzodiazepines are used for alcohol withdrawal that can accompany the condition. They do not address the underlying disease, and sedation, respiratory depression, cognitive impairment and misuse risk are concerns in this population.
 
 ---
@@ -92,10 +91,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00511536 | MOGADON | Not specified | Not specified |
-| 00511528 | MOGADON | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00511528 | MOGADON | NITRAZEPAM | Marketed |
+| 00511536 | MOGADON | NITRAZEPAM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

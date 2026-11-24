@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE ACETATE"
 predicted_indications: ["alopecia areata", "telogen effluvium", "alopecia mucinosa", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "seborrheic keratosis"]
 description: "Hydrocortisone Acetate: predicted new indication Alopecia areata (evidence level L2). In Canada: 8 DINs (8 marketed)"
@@ -75,13 +75,22 @@ Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, so a
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02236399 | ANODAN-HC 10MG SUPPOSITORIES | Not stated | Not stated |
-| 02387239 | JAMPZINC-HC | Not stated | Not stated |
-| 02128446 | ANODAN-HC OINTMENT | Not stated | Not stated |
-| 02238578 | FUCIDIN H | Not stated | Not stated |
-| 00505773 | ANUSOL-HC OINTMENT | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00476285 | ANUSOL-HC SUPPOSITORIES | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 00505773 | ANUSOL-HC OINTMENT | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 02128446 | ANODAN-HC OINTMENT | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 02234466 | PROCTODAN-HC OINTMENT | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02236399 | ANODAN-HC 10MG SUPPOSITORIES | HYDROCORTISONE ACETATE; ZINC SULFATE | Marketed |
+| 02238578 | FUCIDIN H | FUSIDIC ACID; HYDROCORTISONE ACETATE | Marketed |
+| 02240851 | PROCTODAN-HC SUPPOSITORIES | HYDROCORTISONE ACETATE; PRAMOXINE HYDROCHLORIDE; ZINC SULFATE | Marketed |
+| 02387239 | JAMPZINC-HC | HYDROCORTISONE ACETATE; ZINC SULFATE MONOHYDRATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Eight licences are valid in Canada; the five above are shown.
 

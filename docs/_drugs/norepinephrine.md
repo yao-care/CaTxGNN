@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 665
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NOREPINEPHRINE"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). In Canada: 6 DINs (5 marketed, 1 dormant)"
@@ -96,13 +96,20 @@ None of the publications below is a clinical trial of norepinephrine in obstruct
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02501449 | Norepinephrine Bitartrate in 5% Dextrose Injection | Injection | Not available |
-| 02501430 | Norepinephrine Bitartrate in 5% Dextrose Injection | Injection | Not available |
-| 00893285 | Norepinephrine Bitartrate Injection USP | Injection | Not available |
-| 02485680 | Norepinephrine Bitartrate Injection USP | Injection | Not available |
-| 02358743 | Norepinephrine Bitartrate Injection, USP | Injection | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00893285 | NOREPINEPHRINE BITARTRATE INJECTION USP | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Marketed |
+| 02358743 | NOREPINEPHRINE BITARTRATE INJECTION, USP | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Marketed |
+| 02501430 | NOREPINEPHRINE BITARTRATE IN 5% DEXTROSE INJECTION | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Marketed |
+| 02501449 | NOREPINEPHRINE BITARTRATE IN 5% DEXTROSE INJECTION | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Marketed |
+| 02540630 | NOREPINEPHRINE BITARTRATE INJECTION | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Marketed |
+| 02485680 | NOREPINEPHRINE BITARTRATE INJECTION USP | NOREPINEPHRINE (NOREPINEPHRINE BITARTRATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization (DIN 02540630, Norepinephrine Bitartrate Injection) is also valid. All six are single-ingredient products with valid status.
 

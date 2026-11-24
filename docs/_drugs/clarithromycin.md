@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections, including infectious otitis media…"
 monitor_inn: "CLARITHROMYCIN"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
@@ -81,15 +81,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Twenty valid single-ingredient licenses are listed. Dosage form and approved-indication text are not available for these products. The main ones are:
+Twenty valid single-ingredient licenses are listed. Dosage form and approved-indication text are not available for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02146908 | BIAXIN | Not available | Not available |
-| 02244641 | BIAXIN | Not available | Not available |
-| 02126710 | BIAXIN BID | Not available | Not available |
-| 02413345 | APO-CLARITHROMYCIN XL | Not available | Not available |
-| 02361434 | TARO-CLARITHROMYCIN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01984853 | BIAXIN BID | CLARITHROMYCIN | Marketed |
+| 02126710 | BIAXIN BID | CLARITHROMYCIN | Marketed |
+| 02146908 | BIAXIN | CLARITHROMYCIN | Marketed |
+| 02244641 | BIAXIN | CLARITHROMYCIN | Marketed |
+| 02266547 | SANDOZ CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02274744 | APO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02274752 | APO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02324482 | PRO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02324490 | PRO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02361426 | TARO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02361434 | TARO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02390442 | TARO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02390450 | TARO-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02403196 | TEVA-CLARITHROMYCIN XL | CLARITHROMYCIN | Marketed |
+| 02413345 | APO-CLARITHROMYCIN XL | CLARITHROMYCIN | Marketed |
+| 02442469 | CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02442485 | CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02466120 | CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02466139 | CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+| 02471396 | M-CLARITHROMYCIN | CLARITHROMYCIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

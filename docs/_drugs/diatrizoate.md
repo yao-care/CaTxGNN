@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Diatrizoate: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available"
 ---
 
@@ -72,9 +72,15 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02228564 | GASTROGRAFIN | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02228564 | GASTROGRAFIN | DIATRIZOATE MEGLUMINE; DIATRIZOATE SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ergometrine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "nephrogenic syndrome of inappropriate antidiuresis", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "migraine disorder", "migraine with brainstem aura", "leprosy", "pulmonary hypertension"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Ergometrine: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -96,9 +96,15 @@ No literature is available for the top-ranked prediction (hypertrichosis). The l
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02441241 | ERGONOVINE MALEATE INJECTION USP | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02441241 | ERGONOVINE MALEATE INJECTION USP | ERGONOVINE MALEATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 487
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1A: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,13 +72,19 @@ All candidates that the TxGNN model produced for Interferon Beta-1A (score ≥ 0
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02318261 | REBIF |  | Valid |
-| 02237319 | REBIF |  | Valid |
-| 02318253 | REBIF |  | Valid |
-| 02269201 | AVONEX |  | Valid |
-| 02237320 | REBIF |  | Valid |
+| 02237319 | REBIF | INTERFERON BETA-1A | Marketed |
+| 02237320 | REBIF | INTERFERON BETA-1A | Marketed |
+| 02269201 | AVONEX | INTERFERON BETA-1A | Marketed |
+| 02318253 | REBIF | INTERFERON BETA-1A | Marketed |
+| 02318261 | REBIF | INTERFERON BETA-1A | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

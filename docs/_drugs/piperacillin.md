@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 740
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "PIPERACILLIN"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -84,7 +84,7 @@ No randomized trials or studies of therapeutic benefit were found. The most rele
 
 ## Canada Market Information
 
-The 16 valid Canadian authorizations are all entries named "Piperacillin and Tazobactam for Injection". Dosage form, manufacturer and approved indication text are not available in the compiled data. The first five are listed below.
+The 16 valid Canadian authorizations are all entries named "Piperacillin and Tazobactam for Injection". Dosage form, manufacturer and approved indication text are not available in the compiled data.
 
 <!-- review:begin ca-lic-20261106-piperacillin-1 -->
 
@@ -92,13 +92,30 @@ The 16 valid Canadian authorizations are all entries named "Piperacillin and Taz
 
 <!-- review:end ca-lic-20261106-piperacillin-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02402068 | Piperacillin and Tazobactam for Injection | Not available | Not available |
-| 02377748 | Piperacillin and Tazobactam for Injection | Not available | Not available |
-| 02528703 | Piperacillin and Tazobactam for Injection | Not available | Not available |
-| 02362627 | Piperacillin and Tazobactam for Injection | Not available | Not available |
-| 02521539 | Piperacillin and Tazobactam for Injection | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02299623 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02299631 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02299658 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02330547 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02362619 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02362627 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02362635 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02377748 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02402068 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02402076 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02402084 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02439131 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02521539 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02528673 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02528703 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+| 02528711 | PIPERACILLIN AND TAZOBACTAM FOR INJECTION | PIPERACILLIN (PIPERACILLIN SODIUM); TAZOBACTAM (TAZOBACTAM SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

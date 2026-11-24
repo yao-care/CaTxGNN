@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CITRIC ACID"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: predicted new indication Stomach disease (evidence level L5). In Canada: 10 DINs (10 marketed)"
@@ -81,15 +81,26 @@ No study directly tests citric acid as a treatment for stomach disease. The most
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02469731 | Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A | Not listed | Not listed |
-| 02317966 | PURG-ODAN | Not listed | Not listed |
-| 00788139 | Anticoagulant Citrate Dextrose Solution USP (ACD) Formula A | Not listed | Not listed |
-| 02254794 | PICO-SALAX | Not listed | Not listed |
-| 01935941 | Heparin Sodium in 5% Dextrose Injection, 25000 unit/500 mL | Not listed | Not listed |
+<!-- licenses:begin -->
 
-All 10 licences on record are valid licences. Only five are shown here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00788139 | ANTICOAGULANT CITRATE DEXTROSE SOLUTION USP (ACD) FORMULA A | CITRIC ACID; DEXTROSE; SODIUM CITRATE | Marketed |
+| 01935941 | HEPARIN SODIUM IN 5% DEXTROSE INJECTION, 25000UNIT/500ML | CITRIC ACID; DEXTROSE; HEPARIN SODIUM; SODIUM PHOSPHATE DIBASIC | Marketed |
+| 02254794 | PICO-SALAX | CITRIC ACID; MAGNESIUM OXIDE; SODIUM PICOSULFATE | Marketed |
+| 02317966 | PURG-ODAN | CITRIC ACID; MAGNESIUM OXIDE; SODIUM PICOSULFATE | Marketed |
+| 02413892 | HEMOSATE ULTRA HS1125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413906 | HEMOSATE ULTRA HS2125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413914 | HEMOSATE ULTRA HS3125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413922 | HEMOSATE ULTRA HS4125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02444100 | ANTICOAGULANT SOLUTION CITRATE PHOSPHATE DEXTROSE (CPD) | CITRIC ACID; DEXTROSE; SODIUM CITRATE DIHYDRATE; SODIUM PHOSPHATE MONOBASIC | Marketed |
+| 02469731 | ANTICOAGULANT CITRATE DEXTROSE SOLUTION USP (ACD) FORMULA A | CITRIC ACID MONOHYDRATE; DEXTROSE; SODIUM CITRATE DIHYDRATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 10 licences on record are valid licences.
 
 <!-- review:begin ca-lic-20261106-citric_acid-1 -->
 

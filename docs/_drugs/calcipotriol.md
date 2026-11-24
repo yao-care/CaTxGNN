@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 147
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the licence data (calcipotriol products are generally u…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -86,13 +86,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01976133 | DOVONEX | Not specified | Not specified |
-| 02525178 | TARO-CALCIPOTRIOL / BETAMETHASONE GEL | Not specified | Not specified |
-| 02319012 | DOVOBET GEL | Not specified | Not specified |
-| 02427419 | TEVA-BETAMETHASONE/ CALCIPOTRIOL | Not specified | Not specified |
-| 02457393 | ENSTILAR | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01976133 | DOVONEX | CALCIPOTRIOL | Marketed |
+| 02244126 | DOVOBET OINTMENT | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL | Marketed |
+| 02319012 | DOVOBET GEL | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE) | Marketed |
+| 02427419 | TEVA-BETAMETHASONE/ CALCIPOTRIOL | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL | Marketed |
+| 02457393 | ENSTILAR | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE) | Marketed |
+| 02525178 | TARO-CALCIPOTRIOL / BETAMETHASONE GEL | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid. All six are licences with valid status.
 

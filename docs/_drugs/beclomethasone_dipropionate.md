@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 96
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Beclomethasone Dipropionate: predicted new indication Atopic eczema (evidence level L3). Approved use: Asthma, allergic rhinitis (including intrinsic and allergic asthma…"
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
@@ -80,13 +80,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02089602 | PROPADERM | Not specified | Not specified |
-| 02172712 | MYLAN-BECLO AQ | Not specified | Not specified |
-| 02242030 | QVAR | Not specified | Not specified |
-| 02238796 | APO-BECLOMETHASONE NASAL SPRAY | Not specified | Not specified |
-| 02242029 | QVAR | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02089602 | PROPADERM | BECLOMETHASONE DIPROPIONATE | Marketed |
+| 02172712 | MYLAN-BECLO AQ | BECLOMETHASONE DIPROPIONATE | Marketed |
+| 02238796 | APO-BECLOMETHASONE NASAL SPRAY | BECLOMETHASONE DIPROPIONATE | Marketed |
+| 02242029 | QVAR | BECLOMETHASONE DIPROPIONATE | Marketed |
+| 02242030 | QVAR | BECLOMETHASONE DIPROPIONATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

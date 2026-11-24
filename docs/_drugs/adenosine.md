@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ADENOSINE"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02457474 | ADENOSINE INJECTION | Injection | Not recorded in local data |
-| 02457482 | ADENOSINE INJECTION | Injection | Not recorded in local data |
-| 02267659 | ADENOSINE INJECTION | Injection | Not recorded in local data |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02267659 | ADENOSINE INJECTION | ADENOSINE | Marketed |
+| 02457474 | ADENOSINE INJECTION | ADENOSINE | Marketed |
+| 02457482 | ADENOSINE INJECTION | ADENOSINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

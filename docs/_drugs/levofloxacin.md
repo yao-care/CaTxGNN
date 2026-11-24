@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVOFLOXACIN"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In Canada: 17 DINs (17 marketed)"
@@ -71,15 +71,33 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02442302 | QUINSAIR |
-| 02537079 | LEVOFLOXACIN IN 5% DEXTROSE INJECTION |
-| 02298651 | SANDOZ LEVOFLOXACIN |
-| 02315440 | TEVA-LEVOFLOXACIN |
-| 02325942 | APO-LEVOFLOXACIN |
+<!-- licenses:begin -->
 
-All 17 licences in the local records are valid products. Only five are listed here.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02284707 | APO-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02284715 | APO-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02298635 | SANDOZ LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02298643 | SANDOZ LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02298651 | SANDOZ LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02314932 | LEVOFLOXACIN IN 5% DEXTROSE INJECTION | LEVOFLOXACIN | Marketed |
+| 02315424 | TEVA-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02315432 | TEVA-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02315440 | TEVA-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02325942 | APO-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02415879 | PRO-LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02442302 | QUINSAIR | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02508443 | JAMP LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02508451 | JAMP LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02508478 | JAMP LEVOFLOXACIN | LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+| 02537079 | LEVOFLOXACIN IN 5% DEXTROSE INJECTION | LEVOFLOXACIN | Marketed |
+| 02543745 | LEVODEXA | DEXAMETHASONE (DEXAMETHASONE SODIUM PHOSPHATE); LEVOFLOXACIN (LEVOFLOXACIN HEMIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 17 licences in the local records are valid products.
 
 <!-- review:begin ca-lic-20261106-levofloxacin-1 -->
 

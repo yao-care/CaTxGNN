@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 253
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daunorubicin: predicted new indication Hodgkin's lymphoma (evidence level L3). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 monitor_inn: "DAUNORUBICIN"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -86,11 +86,17 @@ None of these publications is a randomised trial of daunorubicin in Hodgkin lymp
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01926683 | CERUBIDINE | Not specified | Not specified |
-| 02539209 | DAUNORUBICIN HYDROCHLORIDE INJECTION | Not specified | Not specified |
-| 02515490 | VYXEOS | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01926683 | CERUBIDINE | DAUNORUBICIN (DAUNORUBICIN HYDROCHLORIDE) | Marketed |
+| 02515490 | VYXEOS | CYTARABINE; DAUNORUBICIN | Marketed |
+| 02539209 | DAUNORUBICIN HYDROCHLORIDE INJECTION | DAUNORUBICIN (DAUNORUBICIN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

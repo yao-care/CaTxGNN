@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In Canada: at least 20 DINs"
 ---
 
@@ -86,15 +86,38 @@ None of the registered trials tests citalopram specifically; they address SSRIs 
 
 ## Canada Market Information
 
-Citalopram is marketed in Canada, with all 20 licences currently valid. The records may be partial. Main authorizations:
+Citalopram is marketed in Canada, with all 20 licences currently valid. The records may be partial.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02239608 | CELEXA 40 MG | Not recorded | Not recorded |
-| 02312336 | TEVA-CITALOPRAM | Not recorded | Not recorded |
-| 02313405 | JAMP-CITALOPRAM | Not recorded | Not recorded |
-| 02248010 | PMS-CITALOPRAM | Not recorded | Not recorded |
-| 02303256 | RIVA-CITALOPRAM | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239608 | CELEXA 40 MG | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02248010 | PMS-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02275562 | AURO-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02303256 | RIVA-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02312336 | TEVA-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02313405 | JAMP-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02325047 | CITALOPRAM - 10 | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02371871 | MAR-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02371898 | MAR-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02371901 | MAR-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02374617 | AG-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02409003 | NATCO-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02429691 | MINT-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02429713 | MINT-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02443880 | NATCO-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02467836 | M-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02477637 | NRA-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02477645 | NRA-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02555999 | NB-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+| 02556006 | NB-CITALOPRAM | CITALOPRAM (CITALOPRAM HYDROBROMIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

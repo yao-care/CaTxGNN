@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 22
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the compiled data"
 monitor_inn: "ACITRETIN"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -95,13 +95,20 @@ An important caveat: most of the supporting evidence concerns hidradenitis suppu
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02468840 | MINT-ACITRETIN | Not listed | Not listed |
-| 02070847 | SORIATANE | Not listed | Not listed |
-| 02468859 | MINT-ACITRETIN | Not listed | Not listed |
-| 02466082 | TARO-ACITRETIN | Not listed | Not listed |
-| 02070863 | SORIATANE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02070847 | SORIATANE | ACITRETIN | Marketed |
+| 02070863 | SORIATANE | ACITRETIN | Marketed |
+| 02466074 | TARO-ACITRETIN | ACITRETIN | Marketed |
+| 02466082 | TARO-ACITRETIN | ACITRETIN | Marketed |
+| 02468840 | MINT-ACITRETIN | ACITRETIN | Marketed |
+| 02468859 | MINT-ACITRETIN | ACITRETIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth licence (02466074, TARO-ACITRETIN) is also valid. All six licences are single-ingredient products.
 

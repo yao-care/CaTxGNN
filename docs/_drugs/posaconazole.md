@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Chromomycosis, coccidioidomycosis, aspergillosis, sporotrichosis…"
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -89,15 +89,24 @@ The literature gathered so far is indirect. It consists of guidelines and review
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02496259 | SANDOZ POSACONAZOLE | Not specified | Not specified |
-| 02542021 | GLN-POSACONAZOLE | Not specified | Not specified |
-| 02530333 | JAMP POSACONAZOLE | Not specified | Not specified |
-| 02544644 | MINT-POSACONAZOLE | Not specified | Not specified |
-| 02432676 | POSANOL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight single-ingredient authorizations are currently valid in total; the table lists the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02293404 | POSANOL | POSACONAZOLE | Marketed |
+| 02424622 | POSANOL | POSACONAZOLE | Marketed |
+| 02432676 | POSANOL | POSACONAZOLE | Marketed |
+| 02496259 | SANDOZ POSACONAZOLE | POSACONAZOLE | Marketed |
+| 02530333 | JAMP POSACONAZOLE | POSACONAZOLE | Marketed |
+| 02542021 | GLN-POSACONAZOLE | POSACONAZOLE | Marketed |
+| 02543311 | TARO-POSACONAZOLE | POSACONAZOLE | Marketed |
+| 02544644 | MINT-POSACONAZOLE | POSACONAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient authorizations are currently valid in total.
 
 ---
 

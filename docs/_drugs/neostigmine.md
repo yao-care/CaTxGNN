@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 description: "Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -72,15 +72,22 @@ The other predicted indications do have some literature, but it is mostly indire
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230592 | NEOSTIGMINE OMEGA | Not specified | Not specified |
-| 02475480 | NEOSTIGMINE METHYLSULFATE INJECTION USP | Not specified | Not specified |
-| 02475499 | NEOSTIGMINE METHYLSULFATE INJECTION USP | Not specified | Not specified |
-| 02387166 | NEOSTIGMINE OMEGA | Not specified | Not specified |
-| 02230593 | NEOSTIGMINE OMEGA | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Six valid single-ingredient licences are held in total. Only five are shown here. The sixth is NEOSTIGMINE METHYLSULFATE INJECTION, USP (DIN 02537516).
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02230592 | NEOSTIGMINE OMEGA | NEOSTIGMINE METHYLSULFATE | Marketed |
+| 02230593 | NEOSTIGMINE OMEGA | NEOSTIGMINE METHYLSULFATE | Marketed |
+| 02387166 | NEOSTIGMINE OMEGA | NEOSTIGMINE METHYLSULFATE | Marketed |
+| 02475480 | NEOSTIGMINE METHYLSULFATE INJECTION USP | NEOSTIGMINE METHYLSULFATE | Marketed |
+| 02475499 | NEOSTIGMINE METHYLSULFATE INJECTION USP | NEOSTIGMINE METHYLSULFATE | Marketed |
+| 02537516 | NEOSTIGMINE METHYLSULFATE INJECTION, USP | NEOSTIGMINE METHYLSULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Six valid single-ingredient licences are held in total. The sixth is NEOSTIGMINE METHYLSULFATE INJECTION, USP (DIN 02537516).
 
 ## Safety Considerations
 

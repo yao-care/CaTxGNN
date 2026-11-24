@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amifampridine: predicted new indication glaucoma (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -68,10 +68,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02502984 | FIRDAPSE | Not recorded | Not recorded |
-| 02503034 | RUZURGI | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02502984 | FIRDAPSE | AMIFAMPRIDINE (AMIFAMPRIDINE PHOSPHATE) | Marketed |
+| 02503034 | RUZURGI | AMIFAMPRIDINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

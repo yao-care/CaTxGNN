@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 111
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "BETAMETHASONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In Canada: at least 20 DINs"
@@ -78,15 +78,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-At least 20 valid single-ingredient licences are recorded, and the list may be partial. The licence records carry no dosage form or approved-indication text. Main authorisations:
+At least 20 valid single-ingredient licences are recorded, and the list may be partial. The licence records carry no dosage form or approved-indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00323071 | DIPROSONE | Not available | Not available |
-| 00653209 | TEVA-ECTOSONE | Not available | Not available |
-| 00716618 | BETADERM CRM 0.05% | Not available | Not available |
-| 00809187 | TEVA-TOPISONE | Not available | Not available |
-| 00629367 | DIPROLENE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00323071 | DIPROSONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00344923 | DIPROSONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00535427 | TEVA-ECTOSONE | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00535435 | TEVA-ECTOSONE | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00629367 | DIPROLENE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00653209 | TEVA-ECTOSONE | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00716618 | BETADERM CRM 0.05% | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00716626 | BETADERM CRM 0.1% | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00716634 | BETADERM LOTION 0.1% | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00716642 | BETADERM ONT 0.05% | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00716650 | BETADERM ONT 0.1% | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00750050 | TEVA-ECTOSONE | BETAMETHASONE (BETAMETHASONE VALERATE) | Marketed |
+| 00804991 | TEVA-TOPISONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00805009 | TEVA-TOPISONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00809187 | TEVA-TOPISONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00849650 | TEVA-TOPILENE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00849669 | TEVA-TOPILENE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 01925350 | TARO-SONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 01927914 | TEVA-TOPILENE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Marketed |
+| 00417246 | DIPROSONE | BETAMETHASONE (BETAMETHASONE DIPROPIONATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

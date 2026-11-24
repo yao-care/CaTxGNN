@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 80
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ATOMOXETINE"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). In Canada: at least 20 DINs"
@@ -81,13 +81,36 @@ None of these publications studies atomoxetine in a specific developmental disor
 
 Atomoxetine is marketed in Canada. The records contain no indication text, dosage form or manufacturer.
 
-| DIN | Product Name |
-|---------|------|
-| 02318024 | APO-ATOMOXETINE |
-| 02506815 | JAMP ATOMOXETINE |
-| 02467755 | ATOMOXETINE |
-| 02362511 | TEVA-ATOMOXETINE |
-| 02471493 | AURO-ATOMOXETINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02314592 | TEVA-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02318024 | APO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02318075 | APO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02362511 | TEVA-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02381028 | PMS-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02381044 | PMS-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02381060 | PMS-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02386445 | SANDOZ ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02386488 | SANDOZ ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02396912 | ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02405989 | RIVA-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02467747 | ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02467755 | ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02471485 | AURO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02471493 | AURO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02471515 | AURO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02471531 | AURO-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02506815 | JAMP ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02506874 | JAMP ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Marketed |
+| 02405997 | RIVA-ATOMOXETINE | ATOMOXETINE (ATOMOXETINE HYDROCHLORIDE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

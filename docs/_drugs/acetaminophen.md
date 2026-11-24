@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 17
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Acetaminophen: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,28 +72,36 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02230435 | ACET 160 |  | Valid |
-| 00482323 | NOVO-GESIC FORTE |  | Valid |
-| 02022214 | ACÉTAMINOPHÈNE COMPRIMÉ TABLET 325 |  | Valid |
-| 02255251 | ACETAMINOPHEN 500 MG TABLETS EXTRA STRENGTH EASY TO SWALLOW |  | Valid |
-| 02027801 | PEDIATRIX DROPS |  | Valid |
-| 02447819 | JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS |  | Valid |
-| 02238885 | TYLENOL ARTHRITIS PAIN 8H |  | Valid |
-| 01996169 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG |  | Valid |
-| 02017431 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG FOR CHILDREN |  | Valid |
-| 02285797 | EXTRA STRENGTH ACETAMINOPHEN |  | Valid |
-| 02272482 | ACETAMINOPHEN ARTHRITIS PAIN |  | Valid |
-| 02389908 | INFANTS' TYLENOL FEVER & SORE THROAT PAIN |  | Valid |
-| 02389924 | CHILDREN'S TYLENOL FEVER & SORE THROAT PAIN |  | Valid |
-| 01977415 | ACETAMINOPHEN CAPLETS 325 MG |  | Valid |
-| 02230437 | ACET 650 |  | Valid |
-| 02362341 | ACETAMINOPHEN CAPLETS 325 MG |  | Valid |
-| 02548356 | EXTRA STRENGTH EASY TABS 500 MG |  | Valid |
-| 02371146 | ARTHRITIS PAIN RELIEF |  | Valid |
-| 02519631 | ARTHRITIS PAIN RELIEF |  | Valid |
-| 00544981 | APO-ACETAMINOPHEN |  | Valid |
+| 00482323 | NOVO-GESIC FORTE | ACETAMINOPHEN | Marketed |
+| 00544981 | APO-ACETAMINOPHEN | ACETAMINOPHEN | Marketed |
+| 01977415 | ACETAMINOPHEN CAPLETS 325 MG | ACETAMINOPHEN | Marketed |
+| 01996169 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG | ACETAMINOPHEN | Marketed |
+| 02017431 | ACETAMINOPHEN CHEWABLE TABLETS 160 MG FOR CHILDREN | ACETAMINOPHEN | Marketed |
+| 02022214 | ACÉTAMINOPHÈNE COMPRIMÉ TABLET 325 | ACETAMINOPHEN | Marketed |
+| 02027801 | PEDIATRIX DROPS | ACETAMINOPHEN | Marketed |
+| 02230435 | ACET 160 | ACETAMINOPHEN | Marketed |
+| 02230437 | ACET 650 | ACETAMINOPHEN | Marketed |
+| 02238885 | TYLENOL ARTHRITIS PAIN 8H | ACETAMINOPHEN | Marketed |
+| 02255251 | ACETAMINOPHEN 500 MG TABLETS EXTRA STRENGTH EASY TO SWALLOW | ACETAMINOPHEN | Marketed |
+| 02272482 | ACETAMINOPHEN ARTHRITIS PAIN | ACETAMINOPHEN | Marketed |
+| 02285797 | EXTRA STRENGTH ACETAMINOPHEN | ACETAMINOPHEN | Marketed |
+| 02362341 | ACETAMINOPHEN CAPLETS 325 MG | ACETAMINOPHEN | Marketed |
+| 02371146 | ARTHRITIS PAIN RELIEF | ACETAMINOPHEN | Marketed |
+| 02389908 | INFANTS' TYLENOL FEVER & SORE THROAT PAIN | ACETAMINOPHEN | Marketed |
+| 02389924 | CHILDREN'S TYLENOL FEVER & SORE THROAT PAIN | ACETAMINOPHEN | Marketed |
+| 02447819 | JUNIOR STRENGTH CHILDREN'S ACETAMINOPHEN TABLETS | ACETAMINOPHEN | Marketed |
+| 02519631 | ARTHRITIS PAIN RELIEF | ACETAMINOPHEN | Marketed |
+| 02548356 | EXTRA STRENGTH EASY TABS 500 MG | ACETAMINOPHEN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

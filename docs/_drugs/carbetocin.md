@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBETOCIN"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbetocin: predicted new indication isotretinoin-like syndrome (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -69,10 +69,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02489244 | CARBETOCIN INJECTION | Not recorded | Not recorded |
-| 02496526 | DURATOCIN | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02489244 | CARBETOCIN INJECTION | CARBETOCIN | Marketed |
+| 02496526 | DURATOCIN | CARBETOCIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are currently valid.
 

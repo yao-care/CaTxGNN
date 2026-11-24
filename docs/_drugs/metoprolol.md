@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -86,15 +86,38 @@ Currently no related literature available for malignant hypertensive renal disea
 
 ## Canada Market Information
 
-At least 20 single-ingredient metoprolol licences are valid (the list may be partial). The licence records compiled for this report do not include dosage form or approved indication text. The first five are shown.
+At least 20 single-ingredient metoprolol licences are valid (the list may be partial). The licence records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02350408 | METOPROLOL | Not listed | Not listed |
-| 02315327 | RIVA-METOPROLOL-L | Not listed | Not listed |
-| 00648027 | PRO-METOPROLOL-L | Not listed | Not listed |
-| 02230803 | PMS-METOPROLOL-L | Not listed | Not listed |
-| 00842656 | TEVA-METOPROLOL | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00618632 | APO-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 00618640 | APO-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 00648019 | PRO-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 00648027 | PRO-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 00648035 | TEVA-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 00648043 | TEVA-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 00751170 | APO-METOPROLOL (TYPE L) | METOPROLOL TARTRATE | Marketed |
+| 00842656 | TEVA-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 02230803 | PMS-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02230804 | PMS-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02246010 | APO-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 02261898 | TEVA-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 02296713 | PRO-METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 02315319 | RIVA-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02315327 | RIVA-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02350408 | METOPROLOL | METOPROLOL TARTRATE | Marketed |
+| 02356813 | JAMP-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02356821 | JAMP-METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02442116 | METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+| 02442124 | METOPROLOL-L | METOPROLOL TARTRATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

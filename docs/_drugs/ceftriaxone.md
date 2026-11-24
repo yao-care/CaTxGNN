@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CEFTRIAXONE"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxone: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In Canada: 13 DINs (13 marketed)"
 ---
 
@@ -71,6 +71,28 @@ Currently no related clinical trials registered.
 Currently no related literature available.
 
 ## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02289695 | CEFTRIAXONE FOR INJECTION | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02289709 | CEFTRIAXONE FOR INJECTION | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02292262 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02292270 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02292289 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02292297 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02325594 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02325616 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02325624 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02325632 | CEFTRIAXONE SODIUM FOR INJECTION BP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02409968 | CEFTRIAXONE FOR INJECTION | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02499711 | CEFTRIAXONE INJECTION, USP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+| 02499738 | CEFTRIAXONE INJECTION, USP | CEFTRIAXONE (CEFTRIAXONE SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Ceftriaxone is marketed in Canada as a single-ingredient injectable product. All licences on record are valid, and none are cancelled. The licence table is generated separately by the site program.
 

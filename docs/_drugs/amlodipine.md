@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amlodipine: predicted new indication Brain stem infarction (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -80,15 +80,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Amlodipine is marketed in Canada. Health Canada records show 20 valid single-ingredient licences, with none cancelled. The list may be partial. The five main authorizations are shown below.
+Amlodipine is marketed in Canada. Health Canada records show 20 valid single-ingredient licences, with none cancelled. The list may be partial.
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02490781 | AMLODIPINE | Valid |
-| 02490803 | AMLODIPINE | Valid |
-| 02468018 | M-AMLODIPINE | Valid |
-| 02371707 | MAR-AMLODIPINE | Valid |
-| 02522527 | PRZ-AMLODIPINE | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02284391 | SANDOZ AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02297485 | TEVA-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02297493 | TEVA-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02326809 | AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02357186 | JAMP-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02371707 | MAR-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02371723 | MAR-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02419564 | ACH-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02468018 | M-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02468026 | M-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02468034 | M-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02476452 | NRA-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02490781 | AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02490803 | AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02490811 | AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02522500 | PRZ-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02522519 | PRZ-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02522527 | PRZ-AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02552868 | AMLODIPINE | AMLODIPINE (AMLODIPINE BESYLATE) | Marketed |
+| 02556715 | NB-AMLODIPINE | AMLODIPINE BESYLATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

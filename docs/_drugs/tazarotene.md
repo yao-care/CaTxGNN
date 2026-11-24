@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 883
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TAZAROTENE"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). In Canada: 2 DINs (2 marketed)"
@@ -79,10 +79,16 @@ Currently no related literature available for seborrheic dermatitis.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02517868 | ARAZLO | Not specified | Not specified |
-| 02499967 | DUOBRII | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02499967 | DUOBRII | HALOBETASOL PROPIONATE; TAZAROTENE | Marketed |
+| 02517868 | ARAZLO | TAZAROTENE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

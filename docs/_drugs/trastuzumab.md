@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 932
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In Canada: 15 DINs (15 marketed)"
@@ -108,7 +108,7 @@ Trials for progesterone-receptor positive breast cancer (up to 10 shown, ordered
 
 ## Canada Market Information
 
-Health Canada lists 15 valid licences. Dosage form and approved-indication text are not available in the data compiled for this report. Main authorizations (up to 5 shown):
+Health Canada lists 15 valid licences. Dosage form and approved-indication text are not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261106-trastuzumab-1 -->
 
@@ -116,13 +116,29 @@ Health Canada lists 15 valid licences. Dosage form and approved-indication text 
 
 <!-- review:end ca-lic-20261106-trastuzumab-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02240692 | HERCEPTIN |
-| 02480697 | HERCEPTIN SC |
-| 02483475 | TRAZIMERA |
-| 02506211 | HERZUMA |
-| 02474425 | OGIVRI |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240692 | HERCEPTIN | TRASTUZUMAB | Marketed |
+| 02405024 | PERJETA-HERCEPTIN | PERTUZUMAB; TRASTUZUMAB | Marketed |
+| 02474425 | OGIVRI | TRASTUZUMAB | Marketed |
+| 02474433 | OGIVRI | TRASTUZUMAB; WATER | Marketed |
+| 02480697 | HERCEPTIN SC | TRASTUZUMAB | Marketed |
+| 02480794 | HERZUMA | TRASTUZUMAB | Marketed |
+| 02483467 | TRAZIMERA | TRASTUZUMAB | Marketed |
+| 02483475 | TRAZIMERA | TRASTUZUMAB | Marketed |
+| 02496690 | KANJINTI | TRASTUZUMAB | Marketed |
+| 02506211 | HERZUMA | TRASTUZUMAB | Marketed |
+| 02512912 | PHESGO | PERTUZUMAB; TRASTUZUMAB | Marketed |
+| 02512920 | PHESGO | PERTUZUMAB; TRASTUZUMAB | Marketed |
+| 02518244 | KANJINTI | TRASTUZUMAB | Marketed |
+| 02524317 | ONTRUZANT | TRASTUZUMAB | Marketed |
+| 02524325 | ONTRUZANT | TRASTUZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other licences include further TRAZIMERA, HERZUMA, OGIVRI, KANJINTI and ONTRUZANT presentations, plus PHESGO and PERJETA-HERCEPTIN.
 

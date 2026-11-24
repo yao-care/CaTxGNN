@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -96,12 +96,18 @@ The 10 most relevant publications, prioritising prospective studies:
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02479621 | HEMLIBRA | Not specified | Not specified |
-| 02479648 | HEMLIBRA | Not specified | Not specified |
-| 02479656 | HEMLIBRA | Not specified | Not specified |
-| 02479664 | HEMLIBRA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02479621 | HEMLIBRA | EMICIZUMAB | Marketed |
+| 02479648 | HEMLIBRA | EMICIZUMAB | Marketed |
+| 02479656 | HEMLIBRA | EMICIZUMAB | Marketed |
+| 02479664 | HEMLIBRA | EMICIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

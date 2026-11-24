@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "COLISTIN"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Colistin: predicted new indication postinfectious vasculitis (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -71,11 +71,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244849 | COLISTIMETHATE FOR INJECTION U.S.P. | Not recorded | Not recorded |
-| 00476420 | COLY-MYCIN M | Not recorded | Not recorded |
-| 02403544 | COLISTIMETHATE FOR INJECTION, USP | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00476420 | COLY-MYCIN M | COLISTIN (COLISTIMETHATE SODIUM) | Marketed |
+| 02244849 | COLISTIMETHATE FOR INJECTION U.S.P. | COLISTIN (COLISTIMETHATE SODIUM) | Marketed |
+| 02403544 | COLISTIMETHATE FOR INJECTION, USP | COLISTIN (COLISTIMETHATE SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are single-ingredient products and currently valid.
 

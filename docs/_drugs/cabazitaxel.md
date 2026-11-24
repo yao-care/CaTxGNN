@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not listed in the Canadian license data (literature describes metasta…"
 monitor_inn: "Cabazitaxel"
 predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
@@ -82,13 +82,19 @@ Currently no related clinical trials registered in the compiled data. Two publis
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02553791 | Cabazitaxel for Injection | Not specified | Not specified |
-| 02495635 | Cabazitaxel for Injection | Not specified | Not specified |
-| 02487500 | Cabazitaxel for Injection | Not specified | Not specified |
-| 02487497 | Cabazitaxel for Injection | Not specified | Not specified |
-| 02553783 | Cabazitaxel for Injection | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02487497 | CABAZITAXEL FOR INJECTION | CABAZITAXEL | Marketed |
+| 02487500 | CABAZITAXEL FOR INJECTION | CABAZITAXEL | Marketed |
+| 02495635 | CABAZITAXEL FOR INJECTION | CABAZITAXEL | Marketed |
+| 02553783 | CABAZITAXEL FOR INJECTION | CABAZITAXEL | Marketed |
+| 02553791 | CABAZITAXEL FOR INJECTION | CABAZITAXEL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five licences are valid single-ingredient products.
 

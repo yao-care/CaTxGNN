@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, psychotic disorder, manic bipolar affective disorder"
 monitor_inn: "CHLORPROMAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -71,11 +71,17 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00232807 | TEVA-CHLORPROMAZINE | Not listed | Not listed |
-| 00232823 | TEVA-CHLORPROMAZINE | Not listed | Not listed |
-| 00232831 | TEVA-CHLORPROMAZINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00232807 | TEVA-CHLORPROMAZINE | CHLORPROMAZINE (CHLORPROMAZINE HYDROCHLORIDE) | Marketed |
+| 00232823 | TEVA-CHLORPROMAZINE | CHLORPROMAZINE (CHLORPROMAZINE HYDROCHLORIDE) | Marketed |
+| 00232831 | TEVA-CHLORPROMAZINE | CHLORPROMAZINE (CHLORPROMAZINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

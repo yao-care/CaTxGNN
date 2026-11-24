@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 536
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: predicted new indication Liposarcoma (evidence level L3). In Canada: 8 DINs (8 marketed)"
@@ -79,13 +79,22 @@ A completed single-arm Phase Ib/II study of lenvatinib plus eribulin gives a dir
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02450313 | LENVIMA | Not specified | Not specified |
-| 02484129 | LENVIMA | Not specified | Not specified |
-| 02450291 | LENVIMA | Not specified | Not specified |
-| 02468239 | LENVIMA | Not specified | Not specified |
-| 02484056 | LENVIMA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02450291 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02450305 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02450313 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02450321 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02468220 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02468239 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02484056 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+| 02484129 | LENVIMA | LENVATINIB (LENVATINIB MESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

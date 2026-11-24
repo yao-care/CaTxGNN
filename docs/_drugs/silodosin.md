@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 848
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Silodosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "SILODOSIN"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -81,15 +81,24 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02475421 | SANDOZ SILODOSIN | Not specified | Not specified |
-| 02517787 | PMS-SILODOSIN | Not specified | Not specified |
-| 02539519 | JAMP SILODOSIN | Not specified | Not specified |
-| 02478528 | AURO-SILODOSIN | Not specified | Not specified |
-| 02475448 | SANDOZ SILODOSIN | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight single-ingredient products are valid in Canada; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02475421 | SANDOZ SILODOSIN | SILODOSIN | Marketed |
+| 02475448 | SANDOZ SILODOSIN | SILODOSIN | Marketed |
+| 02478501 | AURO-SILODOSIN | SILODOSIN | Marketed |
+| 02478528 | AURO-SILODOSIN | SILODOSIN | Marketed |
+| 02517779 | PMS-SILODOSIN | SILODOSIN | Marketed |
+| 02517787 | PMS-SILODOSIN | SILODOSIN | Marketed |
+| 02539519 | JAMP SILODOSIN | SILODOSIN | Marketed |
+| 02539527 | JAMP SILODOSIN | SILODOSIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient products are valid in Canada.
 
 ## Safety Considerations
 

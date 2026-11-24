@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 218
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). In Canada: 17 DINs (17 marketed)"
@@ -84,15 +84,33 @@ The evidence is limited to a small Phase 2 trial and small comparative studies, 
 
 ## Canada Market Information
 
-Clozapine has 17 valid single-ingredient licences in Canada. The local records contain no approved-indication text or dosage-form details. Main authorizations:
+Clozapine has 17 valid single-ingredient licences in Canada. The local records contain no approved-indication text or dosage-form details.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00894737 | CLOZARIL | Not recorded | Not recorded |
-| 00894745 | CLOZARIL | Not recorded | Not recorded |
-| 02490668 | CLOZARIL | Not recorded | Not recorded |
-| 02490676 | CLOZARIL | Not recorded | Not recorded |
-| 02248035 | AA-CLOZAPINE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00894737 | CLOZARIL | CLOZAPINE | Marketed |
+| 00894745 | CLOZARIL | CLOZAPINE | Marketed |
+| 02247243 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02247244 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02248034 | AA-CLOZAPINE | CLOZAPINE | Marketed |
+| 02248035 | AA-CLOZAPINE | CLOZAPINE | Marketed |
+| 02305003 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02305011 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02458748 | AA-CLOZAPINE | CLOZAPINE | Marketed |
+| 02458756 | AA-CLOZAPINE | CLOZAPINE | Marketed |
+| 02490668 | CLOZARIL | CLOZAPINE | Marketed |
+| 02490676 | CLOZARIL | CLOZAPINE | Marketed |
+| 02554631 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02554658 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02554666 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02554674 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+| 02554682 | GEN-CLOZAPINE | CLOZAPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

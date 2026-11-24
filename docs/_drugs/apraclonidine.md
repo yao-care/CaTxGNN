@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 66
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Apraclonidine: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,10 +72,16 @@ All of the TxGNN model's candidates for Apraclonidine that can be traced to a so
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 00888354 | IOPIDINE |  | Valid |
-| 02076306 | IOPIDINE |  | Valid |
+| 00888354 | IOPIDINE | APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE) | Marketed |
+| 02076306 | IOPIDINE | APRACLONIDINE (APRACLONIDINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

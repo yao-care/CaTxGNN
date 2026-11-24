@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 777
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not stated in the licence data compiled for this report (propofol is…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -85,12 +85,18 @@ At sub-anaesthetic doses, propofol has been used as an abortive therapy for refr
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244379 | PROPOFOL INJECTION | Not stated | Not stated |
-| 02018950 | DIPRIVAN 1% | Not stated | Not stated |
-| 02525879 | PROPOFOL INJECTION | Not stated | Not stated |
-| 02437643 | PROPOFOL INJECTION | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02018950 | DIPRIVAN 1% | PROPOFOL | Marketed |
+| 02244379 | PROPOFOL INJECTION | PROPOFOL | Marketed |
+| 02437643 | PROPOFOL INJECTION | PROPOFOL | Marketed |
+| 02525879 | PROPOFOL INJECTION | PROPOFOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

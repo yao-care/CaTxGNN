@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amoxicillin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections, including urinary tract infection…"
 monitor_inn: "AMOXICILLIN"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -81,15 +81,38 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## Canada Market Information
 
-Amoxicillin has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved-indication text are not available for these licences. Five of them are listed below.
+Amoxicillin has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved-indication text are not available for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02477726 | AG-AMOXICILLIN |
-| 02532042 | PRZ-AMOXICILLIN |
-| 00628158 | APO-AMOXI |
-| 02388073 | AURO-AMOXICILLIN |
-| 00406724 | NOVAMOXIN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00406716 | NOVAMOXIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 00406724 | NOVAMOXIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 00628131 | APO-AMOXI | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 00628158 | APO-AMOXI | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 00644315 | PRO-AMOX-500 | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 00644331 | PRO-AMOX-250 | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02036355 | NOVAMOXIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02352788 | AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02388073 | AURO-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02401541 | AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02433060 | JAMP-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02433079 | JAMP-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02458586 | AURO-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02477726 | AG-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02495864 | SANDOZ AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02532042 | PRZ-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02532050 | PRZ-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02535793 | JAMP-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02535815 | JAMP-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+| 02537451 | AG-AMOXICILLIN | AMOXICILLIN (AMOXICILLIN TRIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In Canada: at least 20 DINs"
@@ -99,15 +99,38 @@ No related literature is available for posteroinferior myocardial infarction. Th
 
 ## Canada Market Information
 
-Lisinopril is marketed in Canada with 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available in the data compiled for this report. The first five are listed below.
+Lisinopril is marketed in Canada with 20 valid single-ingredient authorizations. Dosage form and approved indication text were not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02049333 | ZESTRIL | Not available | Not available |
-| 02386232 | LISINOPRIL | Not available | Not available |
-| 02394499 | AURO-LISINOPRIL | Not available | Not available |
-| 02394480 | AURO-LISINOPRIL | Not available | Not available |
-| 02386240 | LISINOPRIL | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02049333 | ZESTRIL | LISINOPRIL | Marketed |
+| 02049376 | ZESTRIL | LISINOPRIL | Marketed |
+| 02049384 | ZESTRIL | LISINOPRIL | Marketed |
+| 02285118 | TEVA-LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02285126 | TEVA-LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02285134 | TEVA-LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02362953 | LISINOPRIL/HCTZ (TYPE Z) | HYDROCHLOROTHIAZIDE; LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02394472 | AURO-LISINOPRIL | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02394480 | AURO-LISINOPRIL | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02394499 | AURO-LISINOPRIL | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02525186 | LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02525194 | LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02525208 | LISINOPRIL (TYPE Z) | LISINOPRIL | Marketed |
+| 02554488 | LISINOPRIL TABLETS | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02554496 | LISINOPRIL TABLETS | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02554518 | LISINOPRIL TABLETS | LISINOPRIL (LISINOPRIL DIHYDRATE) | Marketed |
+| 02217481 | APO-LISINOPRIL | LISINOPRIL | Dormant |
+| 02386232 | LISINOPRIL | LISINOPRIL | Dormant |
+| 02386240 | LISINOPRIL | LISINOPRIL | Dormant |
+| 02386259 | LISINOPRIL | LISINOPRIL | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

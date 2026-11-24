@@ -3,7 +3,7 @@ layout: default
 title: Inosine Pranobex
 parent: Known Uses Only (No New Predictions)
 nav_order: 479
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Inosine Pranobex: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -70,9 +70,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inosine Pran
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02240713 | IMUNOVIR |  | Valid |
+| 02240713 | IMUNOVIR | INOSINE PRANOBEX | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

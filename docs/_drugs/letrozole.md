@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LETROZOLE"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L5). In Canada: 20 DINs (18 marketed, 2 dormant)"
@@ -89,13 +89,34 @@ These reports describe related breast conditions. None tests letrozole in nipple
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02231384 | FEMARA | Not listed | Not listed |
-| 02309114 | PMS-LETROZOLE | Not listed | Not listed |
-| 02343657 | TEVA-LETROZOLE | Not listed | Not listed |
-| 02358514 | APO-LETROZOLE | Not listed | Not listed |
-| 02344815 | SANDOZ LETROZOLE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231384 | FEMARA | LETROZOLE | Marketed |
+| 02309114 | PMS-LETROZOLE | LETROZOLE | Marketed |
+| 02338459 | ACH-LETROZOLE | LETROZOLE | Marketed |
+| 02343657 | TEVA-LETROZOLE | LETROZOLE | Marketed |
+| 02344815 | SANDOZ LETROZOLE | LETROZOLE | Marketed |
+| 02358514 | APO-LETROZOLE | LETROZOLE | Marketed |
+| 02373424 | MAR-LETROZOLE | LETROZOLE | Marketed |
+| 02392496 | BIO-LETROZOLE | LETROZOLE | Marketed |
+| 02398656 | RIVA-LETROZOLE | LETROZOLE | Marketed |
+| 02402025 | LETROZOLE | LETROZOLE | Marketed |
+| 02421585 | NAT-LETROZOLE | LETROZOLE | Marketed |
+| 02504472 | LETROZOLE | LETROZOLE | Marketed |
+| 02508109 | MINT-LETROZOLE | LETROZOLE | Marketed |
+| 02520486 | NRA-LETROZOLE | LETROZOLE | Marketed |
+| 02524244 | LETROZOLE | LETROZOLE | Marketed |
+| 02541912 | JAMP LETROZOLE TABLETS | LETROZOLE | Marketed |
+| 02543419 | AG-LETROZOLE TABLETS | LETROZOLE | Marketed |
+| 02549972 | M-LETROZOLE | LETROZOLE | Marketed |
+| 02373009 | JAMP-LETROZOLE | LETROZOLE | Dormant |
+| 02374439 | AG-LETROZOLE | LETROZOLE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 708
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PAROXETINE"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). In Canada: at least 20 DINs"
@@ -71,15 +71,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Paroxetine has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products. Five of the main authorizations are listed below.
+Paroxetine has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved indication text were not available for these products.
 
-| DIN | Product Name |
-|---------|------|
-| 02248504 | PAXIL CR |
-| 02240907 | APO-PAROXETINE |
-| 02247751 | PMS-PAROXETINE |
-| 02248914 | PRO-PAROXETINE |
-| 02282852 | PAROXETINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240907 | APO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02247751 | PMS-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02248504 | PAXIL CR | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02248913 | PRO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02248914 | PRO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02282844 | PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02282852 | PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02383284 | AURO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02383292 | AURO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02388243 | PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+| 02411954 | MAR-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02421399 | MINT-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02444909 | BIO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02444917 | BIO-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02467402 | M-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02467429 | M-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02477858 | PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02479761 | NRA-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02479788 | NRA-PAROXETINE | PAROXETINE (PAROXETINE HYDROCHLORIDE HEMIHYDRATE) | Marketed |
+| 02510480 | AG-PAROXETINE TABLETS | PAROXETINE (PAROXETINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

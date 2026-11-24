@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 905
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tezacaftor: predicted new indication HIV infectious disease (evidence level L5). Approved use: Cystic fibrosis"
 monitor_inn: "Tezacaftor"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -69,15 +69,23 @@ Other high-scoring predictions for this drug include leprosy and multiple endocr
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02478080 | SYMDEKO | Not specified | Not specified |
-| 02542285 | TRIKAFTA | Not specified | Not specified |
-| 02559676 | ALYFTREK | Not specified | Not specified |
-| 02517140 | TRIKAFTA | Not specified | Not specified |
-| 02526670 | TRIKAFTA | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Seven valid authorizations in total are listed, all for tezacaftor-containing products. The five above are the first five.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02478080 | SYMDEKO | IVACAFTOR; TEZACAFTOR | Marketed |
+| 02517140 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02526670 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02542277 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02542285 | TRIKAFTA | ELEXACAFTOR; IVACAFTOR; TEZACAFTOR | Marketed |
+| 02559676 | ALYFTREK | DEUTIVACAFTOR; TEZACAFTOR; VANZACAFTOR (VANZACAFTOR CALCIUM) | Marketed |
+| 02559684 | ALYFTREK | DEUTIVACAFTOR; TEZACAFTOR; VANZACAFTOR (VANZACAFTOR CALCIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Seven valid authorizations in total are listed, all for tezacaftor-containing products.
 
 ---
 

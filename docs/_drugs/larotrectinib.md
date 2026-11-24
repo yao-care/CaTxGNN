@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Larotrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (lit…"
 monitor_inn: "Larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -86,11 +86,17 @@ The very high TxGNN score is a computational prediction. No MEN-specific clinica
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02490331 | VITRAKVI | Not specified | Not specified |
-| 02490315 | VITRAKVI | Not specified | Not specified |
-| 02490323 | VITRAKVI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02490315 | VITRAKVI | LAROTRECTINIB (LAROTRECTINIB SULFATE) | Marketed |
+| 02490323 | VITRAKVI | LAROTRECTINIB (LAROTRECTINIB SULFATE) | Marketed |
+| 02490331 | VITRAKVI | LAROTRECTINIB (LAROTRECTINIB SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 700
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALIPERIDONE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In Canada: 11 DINs (11 marketed)"
@@ -81,15 +81,27 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Paliperidone has 11 valid single-ingredient authorizations in Canada, with no cancelled licences. The records compiled for this report contain no dosage form or approved-indication text. The first five are:
+Paliperidone has 11 valid single-ingredient authorizations in Canada, with no cancelled licences. The records compiled for this report contain no dosage form or approved-indication text.
 
-| DIN | Product Name |
-|---------|------|
-| 02300273 | INVEGA |
-| 02300303 | INVEGA |
-| 02300281 | INVEGA |
-| 02354241 | INVEGA SUSTENNA |
-| 02455994 | INVEGA TRINZA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02300273 | INVEGA | PALIPERIDONE | Marketed |
+| 02300281 | INVEGA | PALIPERIDONE | Marketed |
+| 02300303 | INVEGA | PALIPERIDONE | Marketed |
+| 02354217 | INVEGA SUSTENNA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02354225 | INVEGA SUSTENNA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02354233 | INVEGA SUSTENNA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02354241 | INVEGA SUSTENNA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02455943 | INVEGA TRINZA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02455986 | INVEGA TRINZA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02455994 | INVEGA TRINZA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+| 02456001 | INVEGA TRINZA | PALIPERIDONE (PALIPERIDONE PALMITATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining DINs belong to the same INVEGA, INVEGA SUSTENNA and INVEGA TRINZA product families.
 

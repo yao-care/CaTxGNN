@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 876
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -100,13 +100,36 @@ Published reviews describe topical calcineurin inhibitors as a steroid-sparing a
 
 Tacrolimus has 20 valid single-ingredient licenses in Canada. The data compiled for this report do not include dosage forms or approved-indication text for these products. Brand names suggest both topical and systemic products: Protopic is the ointment, while Prograf, Advagraf and Envarsus PA are systemic formulations. Please confirm against the product monographs.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02244149 | PROTOPIC | Not available | Not available |
-| 02244148 | PROTOPIC | Not available | Not available |
-| 02243144 | PROGRAF | Not available | Not available |
-| 02296462 | ADVAGRAF | Not available | Not available |
-| 02485893 | ENVARSUS PA | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02175983 | PROGRAF | TACROLIMUS | Marketed |
+| 02175991 | PROGRAF | TACROLIMUS | Marketed |
+| 02176009 | PROGRAF | TACROLIMUS | Marketed |
+| 02243144 | PROGRAF | TACROLIMUS | Marketed |
+| 02244148 | PROTOPIC | TACROLIMUS | Marketed |
+| 02244149 | PROTOPIC | TACROLIMUS | Marketed |
+| 02296462 | ADVAGRAF | TACROLIMUS | Marketed |
+| 02296470 | ADVAGRAF | TACROLIMUS | Marketed |
+| 02296489 | ADVAGRAF | TACROLIMUS | Marketed |
+| 02331667 | ADVAGRAF | TACROLIMUS | Marketed |
+| 02416816 | SANDOZ TACROLIMUS | TACROLIMUS (TACROLIMUS MONOHYDRATE) | Marketed |
+| 02416824 | SANDOZ TACROLIMUS | TACROLIMUS (TACROLIMUS MONOHYDRATE) | Marketed |
+| 02416832 | SANDOZ TACROLIMUS | TACROLIMUS (TACROLIMUS MONOHYDRATE) | Marketed |
+| 02454068 | ACH-TACROLIMUS | TACROLIMUS | Marketed |
+| 02456095 | ACH-TACROLIMUS | TACROLIMUS (TACROLIMUS MONOHYDRATE) | Marketed |
+| 02485877 | ENVARSUS PA | TACROLIMUS | Marketed |
+| 02485885 | ENVARSUS PA | TACROLIMUS | Marketed |
+| 02485893 | ENVARSUS PA | TACROLIMUS | Marketed |
+| 02528622 | SANDOZ TACROLIMUS XR | TACROLIMUS | Marketed |
+| 02528630 | SANDOZ TACROLIMUS XR | TACROLIMUS | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other products include SANDOZ TACROLIMUS, SANDOZ TACROLIMUS XR and ACH-TACROLIMUS.
 

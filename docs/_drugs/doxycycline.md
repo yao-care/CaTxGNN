@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bronchitis, acne, bacterial pneumonia, anthrax…"
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
@@ -99,15 +99,33 @@ The rank 4 prediction has no linked literature. The table below shows the single
 
 ## Canada Market Information
 
-Seventeen single-ingredient licences are currently valid in Canada. The compiled data contain no dosage form or indication text for them. Five are listed below.
+Seventeen single-ingredient licences are currently valid in Canada. The compiled data contain no dosage form or indication text for them.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02558505 | NRA-DOXYCYCLINE | Not available | Not available |
-| 02247104 | PMS-DOXYCYCLINE | Not available | Not available |
-| 02375885 | APPRILON | Not available | Not available |
-| 02543478 | M-DOXYCYCLINE | Not available | Not available |
-| 02512645 | APO-DOXYCYCLINE MR | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00725250 | TEVA-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 00740713 | APO-DOXY | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 00860751 | DOXYCIN TAB 100MG | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 00874256 | APO-DOXY-TABS | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 00887064 | DOXYTAB | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02158574 | TEVA-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02247104 | PMS-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02375885 | APPRILON | DOXYCYCLINE (DOXYCYCLINE MONOHYDRATE) | Marketed |
+| 02512645 | APO-DOXYCYCLINE MR | DOXYCYCLINE (DOXYCYCLINE MONOHYDRATE) | Marketed |
+| 02528568 | JAMP DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02528940 | JAMP DOXYCYCLINE CAPSULES | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02536250 | PRZ-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02543478 | M-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02558505 | NRA-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02561441 | DOXYCYCLINE FOR INJECTION USP | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02351234 | DOXYCYCLINE CAPSULES | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Dormant |
+| 02351242 | DOXYCYCLINE TABLETS | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 One further licence is **DOXYCYCLINE FOR INJECTION USP** (DIN 02561441), so an injectable form exists alongside the oral products.
 

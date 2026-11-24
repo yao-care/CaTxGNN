@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 868
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Canada: 10 DINs (8 marketed)"
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available in the compiled data. The table lists five of them.
+Dosage form and approved indication text are not available in the compiled data.
 
 <!-- review:begin ca-lic-20261105-spironolactone-1 -->
 
@@ -83,13 +83,24 @@ Dosage form and approved indication text are not available in the compiled data.
 
 <!-- review:end ca-lic-20261105-spironolactone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02518821 | JAMP SPIRONOLACTONE | Not available | Not available |
-| 00613223 | TEVA-SPIRONOLACTONE | Not available | Not available |
-| 02488159 | MINT-SPIRONOLACTONE | Not available | Not available |
-| 00285455 | ALDACTONE 100 MG | Not available | Not available |
-| 00028606 | ALDACTONE 25 MG | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00613215 | TEVA-SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 00613223 | TEVA-SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 00613231 | TEVA-SPIRONOLACTONE/HCTZ | HYDROCHLOROTHIAZIDE; SPIRONOLACTONE | Marketed |
+| 00657182 | TEVA-SPIRONOLACTONE/HCTZ | HYDROCHLOROTHIAZIDE; SPIRONOLACTONE | Marketed |
+| 02488140 | MINT-SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 02488159 | MINT-SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 02518821 | JAMP SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 02518848 | JAMP SPIRONOLACTONE | SPIRONOLACTONE | Marketed |
+| 00028606 | ALDACTONE 25 MG | SPIRONOLACTONE | Cancelled post market |
+| 00285455 | ALDACTONE 100 MG | SPIRONOLACTONE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

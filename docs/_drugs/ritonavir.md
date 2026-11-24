@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 816
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease / AIDS"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -95,13 +95,21 @@ Most of these studies involve combination regimens, and ritonavir-specific effec
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02357593 | NORVIR | Not specified | Not specified |
-| 02523620 | AURO-RITONAVIR | Not specified | Not specified |
-| 02524031 | PAXLOVID | Not specified | Not specified |
-| 02312301 | KALETRA | Not specified | Not specified |
-| 02285533 | KALETRA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02243644 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+| 02285533 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+| 02312301 | KALETRA | LOPINAVIR; RITONAVIR | Marketed |
+| 02357593 | NORVIR | RITONAVIR | Marketed |
+| 02523620 | AURO-RITONAVIR | RITONAVIR | Marketed |
+| 02524031 | PAXLOVID | NIRMATRELVIR; RITONAVIR | Marketed |
+| 02527804 | PAXLOVID | NIRMATRELVIR; RITONAVIR | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

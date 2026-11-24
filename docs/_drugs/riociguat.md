@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 811
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Riociguat: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -73,18 +73,24 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02533588 | SANDOZ RIOCIGUAT |  | Valid |
-| 02533561 | SANDOZ RIOCIGUAT |  | Valid |
-| 02412764 | ADEMPAS |  | Valid |
-| 02533618 | SANDOZ RIOCIGUAT |  | Valid |
-| 02533596 | SANDOZ RIOCIGUAT |  | Valid |
-| 02412802 | ADEMPAS |  | Valid |
-| 02412799 | ADEMPAS |  | Valid |
-| 02533545 | SANDOZ RIOCIGUAT |  | Valid |
-| 02412772 | ADEMPAS |  | Valid |
-| 02412810 | ADEMPAS |  | Valid |
+| 02412764 | ADEMPAS | RIOCIGUAT | Marketed |
+| 02412772 | ADEMPAS | RIOCIGUAT | Marketed |
+| 02412799 | ADEMPAS | RIOCIGUAT | Marketed |
+| 02412802 | ADEMPAS | RIOCIGUAT | Marketed |
+| 02412810 | ADEMPAS | RIOCIGUAT | Marketed |
+| 02533545 | SANDOZ RIOCIGUAT | RIOCIGUAT | Marketed |
+| 02533561 | SANDOZ RIOCIGUAT | RIOCIGUAT | Marketed |
+| 02533588 | SANDOZ RIOCIGUAT | RIOCIGUAT | Marketed |
+| 02533596 | SANDOZ RIOCIGUAT | RIOCIGUAT | Marketed |
+| 02533618 | SANDOZ RIOCIGUAT | RIOCIGUAT | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

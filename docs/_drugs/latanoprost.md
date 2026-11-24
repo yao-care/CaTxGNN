@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In Canada: 17 DINs (16 marketed)"
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and approved indication text were not available for these products. Five main authorizations:
+Dosage form and approved indication text were not available for these products.
 
 <!-- review:begin ca-lic-20261105-latanoprost-1 -->
 
@@ -81,13 +81,31 @@ Dosage form and approved indication text were not available for these products. 
 
 <!-- review:end ca-lic-20261105-latanoprost-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02231493 | XALATAN | Not specified | Not specified |
-| 02246619 | XALACOM | Not specified | Not specified |
-| 02296527 | APO-LATANOPROST | Not specified | Not specified |
-| 02254786 | TEVA-LATANOPROST | Not specified | Not specified |
-| 02341085 | RIVA-LATANOPROST | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02231493 | XALATAN | LATANOPROST | Marketed |
+| 02246619 | XALACOM | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02296527 | APO-LATANOPROST | LATANOPROST | Marketed |
+| 02341085 | RIVA-LATANOPROST | LATANOPROST | Marketed |
+| 02367335 | SANDOZ LATANOPROST | LATANOPROST | Marketed |
+| 02373041 | MYLAN-LATANOPROST | LATANOPROST | Marketed |
+| 02373068 | MYLAN-LATANOPROST/TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02426935 | MED-LATANOPROST | LATANOPROST | Marketed |
+| 02436256 | TEVA-LATANOPROST-TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02453355 | JAMP LATANOPROST | LATANOPROST | Marketed |
+| 02453770 | JAMP-LATANOPROST/TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02454505 | MED-LATANOPROST-TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02456230 | MONOPROST | LATANOPROST | Marketed |
+| 02513285 | M-LATANOPROST | LATANOPROST | Marketed |
+| 02514516 | M-LATANOPROST-TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02534835 | AG-LATANOPROST | LATANOPROST | Marketed |
+| 02254786 | TEVA-LATANOPROST | LATANOPROST | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Other licences include latanoprost/timolol combination products (for example, MED-LATANOPROST-TIMOLOL and TEVA-LATANOPROST-TIMOLOL), which are listed in the data as single entries.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RISPERIDONE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In Canada: at least 20 DINs"
@@ -80,15 +80,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Risperidone has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved-indication text are not available in the compiled records. The first five are listed below.
+Risperidone has 20 valid single-ingredient authorizations in Canada and no cancelled ones. Dosage form and approved-indication text are not available in the compiled records.
 
-| DIN | Product Name |
-|---------|------|
-| 02264218 | TEVA-RISPERIDONE |
-| 02255758 | RISPERDAL CONSTA |
-| 02356910 | RISPERIDONE |
-| 02371804 | MAR-RISPERIDONE |
-| 02283565 | RIVA-RISPERIDONE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02252031 | PMS-RISPERIDONE | RISPERIDONE | Marketed |
+| 02255707 | RISPERDAL CONSTA | RISPERIDONE | Marketed |
+| 02255723 | RISPERDAL CONSTA | RISPERIDONE | Marketed |
+| 02255758 | RISPERDAL CONSTA | RISPERIDONE | Marketed |
+| 02264218 | TEVA-RISPERIDONE | RISPERIDONE | Marketed |
+| 02279266 | PMS-RISPERIDONE | RISPERIDONE (RISPERIDONE TARTRATE) | Marketed |
+| 02282135 | APO-RISPERIDONE | RISPERIDONE | Marketed |
+| 02283565 | RIVA-RISPERIDONE | RISPERIDONE | Marketed |
+| 02283581 | RIVA-RISPERIDONE | RISPERIDONE | Marketed |
+| 02283603 | RIVA-RISPERIDONE | RISPERIDONE | Marketed |
+| 02312700 | PRO-RISPERIDONE | RISPERIDONE | Marketed |
+| 02312727 | PRO-RISPERIDONE | RISPERIDONE | Marketed |
+| 02356902 | RISPERIDONE | RISPERIDONE | Marketed |
+| 02356910 | RISPERIDONE | RISPERIDONE | Marketed |
+| 02359561 | JAMP-RISPERIDONE | RISPERIDONE | Marketed |
+| 02359790 | MINT-RISPERIDON | RISPERIDONE | Marketed |
+| 02359804 | MINT-RISPERIDON | RISPERIDONE | Marketed |
+| 02371804 | MAR-RISPERIDONE | RISPERIDONE | Marketed |
+| 02544601 | OKEDI | RISPERIDONE | Marketed |
+| 02544628 | OKEDI | RISPERIDONE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

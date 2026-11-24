@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glatiramer: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available in the Canadian license data (glatiramer is generally u…"
 monitor_inn: "Glatiramer"
 predicted_indications: ["hemoglobinopathy"]
@@ -70,12 +70,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02245619 | COPAXONE | Not specified | Not specified |
-| 02456915 | COPAXONE | Not specified | Not specified |
-| 02460661 | GLATECT | Not specified | Not specified |
-| 02541440 | GLATIRAMER ACETATE INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245619 | COPAXONE | GLATIRAMER ACETATE | Marketed |
+| 02456915 | COPAXONE | GLATIRAMER ACETATE | Marketed |
+| 02460661 | GLATECT | GLATIRAMER ACETATE | Marketed |
+| 02541440 | GLATIRAMER ACETATE INJECTION | GLATIRAMER ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

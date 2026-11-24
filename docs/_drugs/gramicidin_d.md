@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Gramicidin D: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Conjunctivitis (acute contagious conjunctivitis…"
 monitor_inn: "Gramicidin D"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "tinea corporis", "parasitic eyelid infestation", "ulcerative blepharitis"]
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled. Dosage form and approved indication text were not available for these products. The five main authorizations are listed below.
+Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled. Dosage form and approved indication text were not available for these products.
 
 <!-- review:begin ca-lic-20261106-gramicidin_d-1 -->
 
@@ -84,13 +84,33 @@ Gramicidin D is marketed in Canada with 19 valid licenses, none cancelled. Dosag
 
 <!-- review:end ca-lic-20261106-gramicidin_d-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02552418 | Soothe Antibiotic Drops | Not available | Not available |
-| 02239156 | Polysporin Eye and Ear Drops Sterile | Not available | Not available |
-| 02230844 | Polysporin Antibiotic Cream | Not available | Not available |
-| 00701785 | Optimyxin | Not available | Not available |
-| 02224860 | Soframycin Nasal Spray | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00550507 | TEVA-TRIACOMB | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00701785 | OPTIMYXIN | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 00717002 | VIADERM KC CRM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00717029 | VIADERM KC ONT | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 02022818 | THERADERM CREAM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 02224623 | SOFRACORT | DEXAMETHASONE (DEXAMETHASONE SODIUM METASULPHOBENZOATE); FRAMYCETIN SULFATE; GRAMICIDIN | Marketed |
+| 02224860 | SOFRAMYCIN NASAL SPRAY | FRAMYCETIN SULFATE; GRAMICIDIN; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02230844 | POLYSPORIN ANTIBIOTIC CREAM | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02237226 | POLYSPORIN TRIPLE ANTIBIOTIC OINTMENT | BACITRACIN ZINC; GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239156 | POLYSPORIN EYE AND EAR DROPS STERILE | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239201 | POLYSPORIN PLUS PAIN RELIEF | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02240568 | POLYSPORIN COMPLETE | BACITRACIN ZINC; GRAMICIDIN; LIDOCAINE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02246693 | TRIPLE ANTIBIOTIC OINTMENT | BACITRACIN ZINC; GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02248189 | POLYSPORIN FOR KIDS | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02304457 | ANTIBIOTIC PLUS PAIN RELIEF CREAM | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B SULFATE | Marketed |
+| 02304465 | COMPLETE ANTIBIOTIC OINTMENT | BACITRACIN ZINC; GRAMICIDIN; LIDOCAINE; POLYMYXIN B SULFATE | Marketed |
+| 02315033 | ANTIBIOTIC CREAM FOR KIDS | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B SULFATE | Marketed |
+| 02317656 | ORIGINAL ANTIBIOTIC CREAM | GRAMICIDIN; POLYMYXIN B SULFATE | Marketed |
+| 02552418 | SOOTHE ANTIBIOTIC DROPS | GRAMICIDIN; POLYMYXIN B SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

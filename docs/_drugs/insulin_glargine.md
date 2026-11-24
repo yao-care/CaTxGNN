@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN GLARGINE"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). In Canada: 9 DINs (9 marketed)"
@@ -95,13 +95,23 @@ For reference, the only literature retrieved across the 10 predictions was for p
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02441829 | TOUJEO SOLOSTAR | Not specified | Not specified |
-| 02294338 | LANTUS | Not specified | Not specified |
-| 02461528 | BASAGLAR | Not specified | Not specified |
-| 02245689 | LANTUS | Not specified | Not specified |
-| 02493373 | TOUJEO DOUBLESTAR | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02245689 | LANTUS | INSULIN GLARGINE | Marketed |
+| 02251930 | LANTUS | INSULIN GLARGINE | Marketed |
+| 02294338 | LANTUS | INSULIN GLARGINE | Marketed |
+| 02441829 | TOUJEO SOLOSTAR | INSULIN GLARGINE | Marketed |
+| 02444844 | BASAGLAR | INSULIN GLARGINE | Marketed |
+| 02461528 | BASAGLAR | INSULIN GLARGINE | Marketed |
+| 02478293 | SOLIQUA | INSULIN GLARGINE; LIXISENATIDE | Marketed |
+| 02493373 | TOUJEO DOUBLESTAR | INSULIN GLARGINE | Marketed |
+| 02526441 | SEMGLEE | INSULIN GLARGINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Nine DINs are valid in total. The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293).
 

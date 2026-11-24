@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 369
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L3). In Canada: at least 20 DINs"
@@ -89,15 +89,38 @@ The evidence is still early. It is limited to one Phase 2 combination trial and 
 
 ## Canada Market Information
 
-Everolimus has 20 valid single-ingredient licences in Canada, with no combination or cancelled licences. The records compiled for this report do not include dosage form or approved indication text. Five main authorizations are listed below.
+Everolimus has 20 valid single-ingredient licences in Canada, with no combination or cancelled licences. The records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02339501 | AFINITOR | Not available | Not available |
-| 02339528 | AFINITOR | Not available | Not available |
-| 02369257 | AFINITOR | Not available | Not available |
-| 02425645 | AFINITOR DISPERZ | Not available | Not available |
-| 02463237 | TEVA-EVEROLIMUS | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02339501 | AFINITOR | EVEROLIMUS | Marketed |
+| 02339528 | AFINITOR | EVEROLIMUS | Marketed |
+| 02369257 | AFINITOR | EVEROLIMUS | Marketed |
+| 02425645 | AFINITOR DISPERZ | EVEROLIMUS | Marketed |
+| 02425653 | AFINITOR DISPERZ | EVEROLIMUS | Marketed |
+| 02425661 | AFINITOR DISPERZ | EVEROLIMUS | Marketed |
+| 02463229 | TEVA-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02463237 | TEVA-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02463253 | TEVA-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02492911 | SANDOZ EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02492938 | SANDOZ EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02492946 | SANDOZ EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02504677 | PMS-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02504693 | PMS-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02530090 | NAT-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02530104 | NAT-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02530120 | NAT-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02532409 | REDDY-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02532417 | REDDY-EVEROLIMUS | EVEROLIMUS | Marketed |
+| 02532433 | REDDY-EVEROLIMUS | EVEROLIMUS | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other licences include generics from Sandoz, PMS, NAT, and Reddy.
 

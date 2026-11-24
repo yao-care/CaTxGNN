@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOTEPREDNOL ETABONATE"
 predicted_indications: ["serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). In Canada: 4 DINs (4 marketed)"
@@ -100,12 +100,18 @@ No literature was retrieved for the lead prediction (serous conjunctivitis excep
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02435853 | LOTEMAX GEL | Not specified | Not specified |
-| 02320924 | ALREX | Not specified | Not specified |
-| 02421941 | LOTEMAX OINTMENT | Not specified | Not specified |
-| 02321114 | LOTEMAX | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02320924 | ALREX | LOTEPREDNOL ETABONATE | Marketed |
+| 02321114 | LOTEMAX | LOTEPREDNOL ETABONATE | Marketed |
+| 02421941 | LOTEMAX OINTMENT | LOTEPREDNOL ETABONATE | Marketed |
+| 02435853 | LOTEMAX GEL | LOTEPREDNOL ETABONATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

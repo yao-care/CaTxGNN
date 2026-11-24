@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUXOLITINIB"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"]
 description: "Ruxolitinib: predicted new indication Uterine corpus perivascular epithelioid cell tumor (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -98,13 +98,19 @@ No randomized controlled trials were identified. Study-type classifications are 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02552434 | OPZELURA | Not specified | Not specified |
-| 02388022 | JAKAVI | Not specified | Not specified |
-| 02388014 | JAKAVI | Not specified | Not specified |
-| 02434814 | JAKAVI | Not specified | Not specified |
-| 02388006 | JAKAVI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02388006 | JAKAVI | RUXOLITINIB (RUXOLITINIB PHOSPHATE) | Marketed |
+| 02388014 | JAKAVI | RUXOLITINIB (RUXOLITINIB PHOSPHATE) | Marketed |
+| 02388022 | JAKAVI | RUXOLITINIB (RUXOLITINIB PHOSPHATE) | Marketed |
+| 02434814 | JAKAVI | RUXOLITINIB (RUXOLITINIB PHOSPHATE) | Marketed |
+| 02552434 | OPZELURA | RUXOLITINIB (RUXOLITINIB PHOSPHATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 105
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzydamine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Not specified in the available licence data"
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -78,12 +78,18 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02494434 | PHARIXIA ALCOHOL FREE | Not listed | Not listed |
-| 02463105 | ODAN-BENZYDAMINE | Not listed | Not listed |
-| 02229777 | PHARIXIA | Not listed | Not listed |
-| 02239537 | PMS-BENZYDAMINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02229777 | PHARIXIA | BENZYDAMINE HYDROCHLORIDE | Marketed |
+| 02239537 | PMS-BENZYDAMINE | BENZYDAMINE HYDROCHLORIDE | Marketed |
+| 02463105 | ODAN-BENZYDAMINE | BENZYDAMINE HYDROCHLORIDE | Marketed |
+| 02494434 | PHARIXIA ALCOHOL FREE | BENZYDAMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four licences are valid single-ingredient products.
 

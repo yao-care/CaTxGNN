@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
@@ -84,13 +84,36 @@ The first five are shown below.
 
 <!-- review:end ca-lic-20261105-rivastigmine-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02242118 | EXELON |
-| 02401630 | MED-RIVASTIGMINE |
-| 02242117 | EXELON |
-| 02552280 | JAMP RIVASTIGMINE CAPSULES |
-| 02401614 | MED-RIVASTIGMINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242115 | EXELON | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02242117 | EXELON | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02242118 | EXELON | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02245240 | EXELON | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02302845 | EXELON PATCH 5 | RIVASTIGMINE | Marketed |
+| 02336715 | APO-RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02336758 | APO-RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02401614 | MED-RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02401630 | MED-RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02401649 | MED-RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02423421 | MYLAN-RIVASTIGMINE PATCH 10 | RIVASTIGMINE | Marketed |
+| 02426293 | SANDOZ RIVASTIGMINE PATCH 5 | RIVASTIGMINE | Marketed |
+| 02432803 | EXELON PATCH 15 | RIVASTIGMINE | Marketed |
+| 02485370 | JAMP RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02552256 | JAMP RIVASTIGMINE CAPSULES | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02552264 | JAMP RIVASTIGMINE CAPSULES | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02552280 | JAMP RIVASTIGMINE CAPSULES | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Marketed |
+| 02324563 | SANDOZ RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Cancelled post market |
+| 02324571 | SANDOZ RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Cancelled post market |
+| 02324601 | SANDOZ RIVASTIGMINE | RIVASTIGMINE (RIVASTIGMINE HYDROGEN TARTRATE) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The full list also includes Exelon patch strengths (5, 15), Mylan, Sandoz, Apo and Jamp generics, covering both capsule and patch products.
 

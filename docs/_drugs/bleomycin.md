@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BLEOMYCIN"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bleomycin: predicted new indication cauda equina neoplasm (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
@@ -84,10 +84,16 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02131692 | BLEOMYCIN FOR INJECTION USP | Not recorded | Not recorded |
-| 02265982 | BLEOMYCIN FOR INJECTION | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02131692 | BLEOMYCIN FOR INJECTION USP | BLEOMYCIN (BLEOMYCIN SULFATE) | Marketed |
+| 02265982 | BLEOMYCIN FOR INJECTION | BLEOMYCIN (BLEOMYCIN SULFATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

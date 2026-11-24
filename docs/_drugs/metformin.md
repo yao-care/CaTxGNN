@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). In Canada: at least 20 DINs"
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Dosage form and indication text were not available in the data compiled for this report. Five main authorizations are shown below.
+Dosage form and indication text were not available in the data compiled for this report.
 
 <!-- review:begin ca-lic-20261105-metformin-1 -->
 
@@ -84,13 +84,36 @@ Dosage form and indication text were not available in the data compiled for this
 
 <!-- review:end ca-lic-20261105-metformin-1 -->
 
-| DIN | Product Name |
-|---------|------|
-| 02099233 | GLUCOPHAGE |
-| 02162849 | GLUCOPHAGE |
-| 02268493 | GLUMETZA |
-| 02257734 | TEVA-METFORMIN |
-| 02305062 | APO-METFORMIN ER |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02099233 | GLUCOPHAGE | METFORMIN HYDROCHLORIDE | Marketed |
+| 02239081 | RIVA-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02242783 | RIVA-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02246821 | SANDOZ METFORMIN FC | METFORMIN HYDROCHLORIDE | Marketed |
+| 02257734 | TEVA-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02268493 | GLUMETZA | METFORMIN HYDROCHLORIDE | Marketed |
+| 02305062 | APO-METFORMIN ER | METFORMIN HYDROCHLORIDE | Marketed |
+| 02385341 | METFORMIN FC | METFORMIN HYDROCHLORIDE | Marketed |
+| 02385368 | METFORMIN FC | METFORMIN HYDROCHLORIDE | Marketed |
+| 02494418 | AG-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02514486 | METFORMIN TABLETS | METFORMIN HYDROCHLORIDE | Marketed |
+| 02534673 | PRZ-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02536439 | NRA-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02547775 | M-METFORMIN | METFORMIN HYDROCHLORIDE | Marketed |
+| 02550504 | MAR-METFORMIN XR | METFORMIN HYDROCHLORIDE | Marketed |
+| 02550512 | MAR-METFORMIN XR | METFORMIN HYDROCHLORIDE | Marketed |
+| 02552027 | TARO-METFORMIN XR | METFORMIN HYDROCHLORIDE | Marketed |
+| 02558793 | METFORMIN ER | METFORMIN HYDROCHLORIDE | Marketed |
+| 02520311 | PMSC-METFORMIN | METFORMIN HYDROCHLORIDE | Dormant |
+| 02162849 | GLUCOPHAGE | METFORMIN HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other marketed products include several metformin generics and extended-release versions, such as MAR-METFORMIN XR, TARO-METFORMIN XR and RIVA-METFORMIN.
 

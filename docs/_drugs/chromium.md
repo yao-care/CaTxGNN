@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 190
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Chromium: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,14 +72,20 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Chromium, so
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 00786985 | MICRO CR |  | Valid |
-| 02091135 | MICRO +4 REGULAR STRENGTH |  | Valid |
-| 02552787 | MICRO+6 REGULAR |  | Valid |
-| 02507587 | MICRO+6 CONCENTRATE |  | Valid |
-| 02091100 | MICRO PLUS 6  (PEDIATRIC) |  | CANCELLED POST MARKET |
-| 02497697 | ADDNUTRIV |  | Valid |
+| 00786985 | MICRO CR | CHROMIUM (CHROMIC CHLORIDE) | Marketed |
+| 02091135 | MICRO +4 REGULAR STRENGTH | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); MANGANESE (MANGANESE SULFATE); ZINC (ZINC SULFATE) | Marketed |
+| 02497697 | ADDNUTRIV | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC CHLORIDE); FLUORIDE (SODIUM FLUORIDE); IODINE (POTASSIUM IODIDE);… | Marketed |
+| 02507587 | MICRO+6 CONCENTRATE | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODIDE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Marketed |
+| 02552787 | MICRO+6 REGULAR | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODINE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Marketed |
+| 02091100 | MICRO PLUS 6 (PEDIATRIC) | CHROMIUM (CHROMIC CHLORIDE); COPPER (CUPRIC SULFATE); IODIDE (SODIUM IODIDE); MANGANESE (MANGANESE SULFATE);… | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

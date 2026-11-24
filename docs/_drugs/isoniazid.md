@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "ISONIAZID"
 predicted_indications: ["conjunctivitis"]
@@ -96,11 +96,17 @@ Note: none of these is a randomized trial. Only the 1965 Alaska study directly e
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00577812 | PDP-ISONIAZID | Not specified | Not specified |
-| 00577790 | PDP-ISONIAZID | Not specified | Not specified |
-| 00577804 | PDP-ISONIAZID | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00577790 | PDP-ISONIAZID | ISONIAZID | Marketed |
+| 00577804 | PDP-ISONIAZID | ISONIAZID | Marketed |
+| 00577812 | PDP-ISONIAZID | ISONIAZID | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

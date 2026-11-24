@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 82
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -110,13 +110,25 @@ The data compiled for this report did not include dosage forms or approved indic
 
 <!-- review:end ca-lic-20261105-atropine-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02148358 | MINIMS ATROPINE SULPHATE | Not available | Not available |
-| 00392693 | ATROPINE SULFATE INJECTION USP | Not available | Not available |
-| 00328154 | ATROPINE SULFATE INJECTION USP | Not available | Not available |
-| 02432196 | ATROPINE INJECTION BP | Not available | Not available |
-| 02432188 | ATROPINE INJECTION BP | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00035017 | ALCON ATROPINE | ATROPINE SULFATE | Marketed |
+| 00036323 | LOMOTIL | ATROPINE SULFATE; DIPHENOXYLATE HYDROCHLORIDE | Marketed |
+| 00392693 | ATROPINE SULFATE INJECTION USP | ATROPINE SULFATE | Marketed |
+| 00392782 | ATROPINE SULFATE INJECTION USP | ATROPINE SULFATE | Marketed |
+| 02023695 | ATROPINE | ATROPINE SULFATE | Marketed |
+| 02148358 | MINIMS ATROPINE SULPHATE | ATROPINE SULFATE | Marketed |
+| 02426269 | ATROPINE SULFATE INJECTION | ATROPINE SULFATE | Marketed |
+| 02426277 | ATROPINE SULFATE INJECTION | ATROPINE SULFATE | Marketed |
+| 02432188 | ATROPINE INJECTION BP | ATROPINE SULFATE | Marketed |
+| 02432196 | ATROPINE INJECTION BP | ATROPINE SULFATE | Marketed |
+| 00328154 | ATROPINE SULFATE INJECTION USP | ATROPINE SULFATE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

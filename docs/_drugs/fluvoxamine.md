@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fluvoxamine"
 predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine: predicted new indication Schizoid personality disorder (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -72,15 +72,22 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 01919369 | LUVOX | Valid |
-| 01919342 | LUVOX | Valid |
-| 02255537 | TEVA-FLUVOXAMINE | Valid |
-| 02231330 | APO-FLUVOXAMINE | Valid |
-| 02255529 | TEVA-FLUVOXAMINE | Valid |
+<!-- licenses:begin -->
 
-All six single-ingredient licences in the data are valid; the five above are the main ones shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01919342 | LUVOX | FLUVOXAMINE MALEATE | Marketed |
+| 01919369 | LUVOX | FLUVOXAMINE MALEATE | Marketed |
+| 02231329 | APO-FLUVOXAMINE | FLUVOXAMINE MALEATE | Marketed |
+| 02231330 | APO-FLUVOXAMINE | FLUVOXAMINE MALEATE | Marketed |
+| 02255529 | TEVA-FLUVOXAMINE | FLUVOXAMINE MALEATE | Marketed |
+| 02255537 | TEVA-FLUVOXAMINE | FLUVOXAMINE MALEATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All six single-ingredient licences in the data are valid.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BISMUTH SUBSALICYLATE"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bismuth Subsalicylate: predicted new indication Paratyphoid fever (evidence level L5). In Canada: 14 DINs (14 marketed)"
 ---
 
@@ -70,13 +70,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02313162 | Bismuth Subsalicylate Suspension | Not recorded | Not recorded |
-| 02468646 | Regular Strength Bismuth | Not recorded | Not recorded |
-| 02097079 | Pepto-Bismol | Not recorded | Not recorded |
-| 02534436 | Gastrovol Liquid Gels | Not recorded | Not recorded |
-| 02177994 | Pepto Bismol Caplet - 262 mg/Caplet | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02097079 | PEPTO-BISMOL | BISMUTH SUBSALICYLATE | Marketed |
+| 02177994 | PEPTO BISMOL CAPLET - 262MG/CAPLET | BISMUTH SUBSALICYLATE | Marketed |
+| 02229668 | PEPTO-BISMOL EXTRA | BISMUTH SUBSALICYLATE | Marketed |
+| 02237315 | PEPTO-BISMOL CHEWABLES | BISMUTH SUBSALICYLATE; CALCIUM CARBONATE | Marketed |
+| 02313162 | BISMUTH SUBSALICYLATE SUSPENSION | BISMUTH SUBSALICYLATE | Marketed |
+| 02326582 | BISMUTH SUBSALICYLATE CAPLETS | BISMUTH SUBSALICYLATE | Marketed |
+| 02328453 | EXTRA STRENGTH BISMUTH SUBSALICYLATE SUSPENSION | BISMUTH SUBSALICYLATE | Marketed |
+| 02389215 | STOMACH RELIEF CHEWABLE TABLETS | BISMUTH SUBSALICYLATE; CALCIUM CARBONATE | Marketed |
+| 02457121 | BISMUTH CAPLETS | BISMUTH SUBSALICYLATE | Marketed |
+| 02468646 | REGULAR STRENGTH BISMUTH | BISMUTH SUBSALICYLATE | Marketed |
+| 02475855 | EXTRA STRENGTH BISMUTH | BISMUTH SUBSALICYLATE | Marketed |
+| 02499991 | PEPTO BISMOL LIQUICAPS | BISMUTH SUBSALICYLATE | Marketed |
+| 02530759 | PEPTO-BISMOL EXTRA CAPLET | BISMUTH SUBSALICYLATE | Marketed |
+| 02534436 | GASTROVOL LIQUID GELS | BISMUTH SUBSALICYLATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

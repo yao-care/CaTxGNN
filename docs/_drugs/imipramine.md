@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 474
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imipramine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -93,15 +93,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02546345 | JAMP IMIPRAMINE | Not specified | Not specified |
-| 00326852 | APO-IMIPRAMINE TABLETS | Tablet | Not specified |
-| 00644579 | APO-IMIPRAMINE TABLETS | Tablet | Not specified |
-| 00360201 | APO-IMIPRAMINE TABLETS | Tablet | Not specified |
-| 02546353 | JAMP IMIPRAMINE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight single-ingredient licences are currently valid in Canada (the five above are shown).
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00312797 | APO-IMIPRAMINE TABLETS | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 00326852 | APO-IMIPRAMINE TABLETS | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 00360201 | APO-IMIPRAMINE TABLETS | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 00644579 | APO-IMIPRAMINE TABLETS | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02546337 | JAMP IMIPRAMINE | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02546345 | JAMP IMIPRAMINE | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02546353 | JAMP IMIPRAMINE | IMIPRAMINE HYDROCHLORIDE | Marketed |
+| 02546361 | JAMP IMIPRAMINE | IMIPRAMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight single-ingredient licences are currently valid in Canada.
 
 ---
 

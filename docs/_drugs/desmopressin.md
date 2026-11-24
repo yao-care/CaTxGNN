@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). In Canada: 10 DINs (10 marketed)"
 ---
 
@@ -71,13 +71,24 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02513579 | BIPAZEN | Not recorded | Not recorded |
-| 00873993 | DDAVP INJ 4MCG/ML | Not recorded | Not recorded |
-| 02284030 | APO-DESMOPRESSIN | Not recorded | Not recorded |
-| 02024179 | OCTOSTIM LIQ INJ. 15MCG/ML | Not recorded | Not recorded |
-| 02242465 | DESMOPRESSIN SPRAY | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00873993 | DDAVP INJ 4MCG/ML | DESMOPRESSIN ACETATE | Marketed |
+| 02024179 | OCTOSTIM LIQ INJ. 15MCG/ML | DESMOPRESSIN ACETATE | Marketed |
+| 02242465 | DESMOPRESSIN SPRAY | DESMOPRESSIN ACETATE | Marketed |
+| 02284030 | APO-DESMOPRESSIN | DESMOPRESSIN ACETATE | Marketed |
+| 02284049 | APO-DESMOPRESSIN | DESMOPRESSIN ACETATE | Marketed |
+| 02284995 | DDAVP MELT | DESMOPRESSIN (DESMOPRESSIN ACETATE) | Marketed |
+| 02285002 | DDAVP MELT | DESMOPRESSIN (DESMOPRESSIN ACETATE) | Marketed |
+| 02304368 | PMS-DESMOPRESSIN | DESMOPRESSIN ACETATE (DESMOPRESSIN ACETATE TRIHYDRATE) | Marketed |
+| 02304376 | PMS-DESMOPRESSIN | DESMOPRESSIN ACETATE (DESMOPRESSIN ACETATE TRIHYDRATE) | Marketed |
+| 02513579 | BIPAZEN | DESMOPRESSIN ACETATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

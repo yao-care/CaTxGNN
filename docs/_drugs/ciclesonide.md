@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CICLESONIDE"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide: predicted new indication atopic eczema (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -81,11 +81,17 @@ Two items were found for other conditions. They do not study atopic eczema and d
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02285614 | ALVESCO | Not recorded | Not recorded |
-| 02285606 | ALVESCO | Not recorded | Not recorded |
-| 02303671 | OMNARIS | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02285606 | ALVESCO | CICLESONIDE | Marketed |
+| 02285614 | ALVESCO | CICLESONIDE | Marketed |
+| 02303671 | OMNARIS | CICLESONIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

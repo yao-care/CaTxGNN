@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 941
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Triamcinolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone: predicted new indication Alopecia mucinosa (evidence level L4). In Canada: 16 DINs (16 marketed)"
@@ -92,13 +92,30 @@ Triamcinolone has 16 valid licences in Canada and none cancelled. The data compi
 
 <!-- review:end ca-lic-20261106-triamcinolone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02437635 | APO-TRIAMCINOLONE AQ | Not specified | Not specified |
-| 02194066 | ARISTOCORT C | Not specified | Not specified |
-| 01999761 | KENALOG-10 INJECTION | Not specified | Not specified |
-| 01999869 | KENALOG-40 INJECTION | Not specified | Not specified |
-| 02368676 | TRIESENCE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00550507 | TEVA-TRIACOMB | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00716960 | TRIADERM CRM 0.1% | TRIAMCINOLONE ACETONIDE | Marketed |
+| 00717002 | VIADERM KC CRM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 00717029 | VIADERM KC ONT | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 01964054 | ORACORT | TRIAMCINOLONE ACETONIDE | Marketed |
+| 01977563 | TRIAMCINOLONE ACETONIDE INJECTABLE SUSPENSION USP | TRIAMCINOLONE ACETONIDE | Marketed |
+| 01999761 | KENALOG-10 INJECTION | TRIAMCINOLONE ACETONIDE | Marketed |
+| 01999869 | KENALOG-40 INJECTION | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02022818 | THERADERM CREAM | GRAMICIDIN; NEOMYCIN (NEOMYCIN SULFATE); NYSTATIN; TRIAMCINOLONE ACETONIDE | Marketed |
+| 02194031 | ARISTOCORT R | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02194058 | ARISTOCORT R | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02194066 | ARISTOCORT C | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02213834 | NASACORT AQ | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02368676 | TRIESENCE | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02417510 | NASACORT ALLERGY 24HR | TRIAMCINOLONE ACETONIDE | Marketed |
+| 02437635 | APO-TRIAMCINOLONE AQ | TRIAMCINOLONE ACETONIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining licences include topical products (e.g. TRIADERM, VIADERM KC, THERADERM), nasal sprays (NASACORT AQ, NASACORT ALLERGY 24HR) and others.
 

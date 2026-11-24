@@ -5,7 +5,7 @@ layout: default
 title: Patiromer
 parent: Known Uses Only (No New Predictions)
 nav_order: 709
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Patiromer: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Patiromer"
 predicted_indications: []
@@ -48,10 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02481359 | VELTASSA | Not stated | Not stated |
-| 02481367 | VELTASSA | Not stated | Not stated |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02481359 | VELTASSA | PATIROMER (PATIROMER SORBITEX CALCIUM) | Marketed |
+| 02481367 | VELTASSA | PATIROMER (PATIROMER SORBITEX CALCIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are valid single-ingredient products.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 172
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis…"
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
@@ -82,15 +82,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Celecoxib is widely available in Canada through the originator brand and many generics. Dosage form and approved-indication text were not available in the data compiled for this report. Five of the 20 valid DINs are shown below.
+Celecoxib is widely available in Canada through the originator brand and many generics. Dosage form and approved-indication text were not available in the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02239942 | CELEBREX |
-| 02418932 | APO-CELECOXIB |
-| 02445670 | AURO-CELECOXIB |
-| 02420058 | MAR-CELECOXIB |
-| 02495473 | M-CELECOXIB |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02239942 | CELEBREX | CELECOXIB | Marketed |
+| 02418932 | APO-CELECOXIB | CELECOXIB | Marketed |
+| 02418940 | APO-CELECOXIB | CELECOXIB | Marketed |
+| 02420058 | MAR-CELECOXIB | CELECOXIB | Marketed |
+| 02420066 | MAR-CELECOXIB | CELECOXIB | Marketed |
+| 02424371 | CELECOXIB | CELECOXIB | Marketed |
+| 02424398 | CELECOXIB | CELECOXIB | Marketed |
+| 02424533 | JAMP-CELECOXIB | CELECOXIB | Marketed |
+| 02425394 | RIVA-CELECOX | CELECOXIB | Marketed |
+| 02429675 | CELECOXIB | CELECOXIB | Marketed |
+| 02429683 | CELECOXIB | CELECOXIB | Marketed |
+| 02436302 | CELECOXIB | CELECOXIB | Marketed |
+| 02437570 | AG-CELECOXIB | CELECOXIB | Marketed |
+| 02445670 | AURO-CELECOXIB | CELECOXIB | Marketed |
+| 02445689 | AURO-CELECOXIB | CELECOXIB | Marketed |
+| 02479737 | NRA-CELECOXIB | CELECOXIB | Marketed |
+| 02495465 | M-CELECOXIB | CELECOXIB | Marketed |
+| 02495473 | M-CELECOXIB | CELECOXIB | Marketed |
+| 02517116 | PMSC-CELECOXIB | CELECOXIB | Marketed |
+| 02517124 | PMSC-CELECOXIB | CELECOXIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 All 20 authorizations are single-ingredient products and currently valid. None are cancelled.
 

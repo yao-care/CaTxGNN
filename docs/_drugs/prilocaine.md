@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 769
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRILOCAINE"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -81,14 +81,20 @@ Currently no related literature available.
 
 Dosage form and approved-indication text are not recorded for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 02435276 | 4% Citanest Plain Dental |
-| 02325993 | Oraqix |
-| 02347695 | 4% Citanest Forte Dental with Epinephrine 1:200,000 |
-| 00886858 | EMLA Cream |
-| 00393746 | Prilocaine HCl 4% Epinephrine 1:200000 Injection |
-| 02057794 | EMLA Patch |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00393746 | PRILOCAINE HCL 4% EPINEPH 1:200000INJ | EPINEPHRINE; PRILOCAINE HYDROCHLORIDE | Marketed |
+| 00886858 | EMLA CREAM | LIDOCAINE; PRILOCAINE | Marketed |
+| 02057794 | EMLA PATCH | LIDOCAINE; PRILOCAINE | Marketed |
+| 02325993 | ORAQIX | LIDOCAINE; PRILOCAINE | Marketed |
+| 02347695 | 4% CITANEST FORTE DENTAL WITH EPINEPHRINE 1:200,000 | EPINEPHRINE; PRILOCAINE HYDROCHLORIDE | Marketed |
+| 02435276 | 4% CITANEST PLAIN DENTAL | PRILOCAINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All six are authorizations with valid status. None has been cancelled.
 

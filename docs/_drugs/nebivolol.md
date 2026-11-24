@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "NEBIVOLOL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -94,13 +94,23 @@ For reference, the publications retrieved for the lower-ranked prediction of pul
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02543508 | JAMP NEBIVOLOL | – | – |
-| 02399016 | BYSTOLIC | – | – |
-| 02399024 | BYSTOLIC | – | – |
-| 02548704 | PRZ-NEBIVOLOL | – | – |
-| 02548720 | PRZ-NEBIVOLOL | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02398990 | BYSTOLIC | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02399008 | BYSTOLIC | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02399016 | BYSTOLIC | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02399024 | BYSTOLIC | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02543508 | JAMP NEBIVOLOL | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02548704 | PRZ-NEBIVOLOL | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02548712 | PRZ-NEBIVOLOL | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02548720 | PRZ-NEBIVOLOL | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+| 02548739 | PRZ-NEBIVOLOL | NEBIVOLOL (NEBIVOLOL HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 There are 9 valid single-ingredient licences in total (no combination products, none cancelled). Dosage form and approved indication text were not available for these entries.
 

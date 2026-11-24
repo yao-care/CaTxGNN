@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 732
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "PHENYLEPHRINE"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -78,13 +78,36 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02479281 | Phenylephrine Hydrochloride Injection USP 1% | Not available | Not available |
-| 02504545 | Phenylephrine Hydrochloride Injection USP | Not available | Not available |
-| 02148455 | Minims Phenylephrine Hydrochloride | Not available | Not available |
-| 02238400 | Phenylephrine Hydrochloride Injection USP 1% | Not available | Not available |
-| 01953583 | Phenylephrine Hydrochloride Injection USP | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00465763 | MYDFRIN | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 01953583 | PHENYLEPHRINE HYDROCHLORIDE INJECTION USP | PHENYLEPHRINE (PHENYLEPHRINE HYDROCHLORIDE) | Marketed |
+| 02148447 | MINIMS PHENYLEPHRINE HYDROCHLORIDE | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02148455 | MINIMS PHENYLEPHRINE HYDROCHLORIDE | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02209594 | PREPARATION H-PE GEL | HAMAMELIS VIRGINIANA; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02238400 | PHENYLEPHRINE HYDROCHLORIDE INJECTION USP 1% | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02273462 | BENYLIN EXTRA STRENGTH COLD & SINUS DAY | ACETAMINOPHEN; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02273810 | NYQUIL SINUS LIQUICAPS | ACETAMINOPHEN; DOXYLAMINE SUCCINATE; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02273829 | DAYQUIL SINUS LIQUICAPS | ACETAMINOPHEN; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02276003 | EXTRA STRENGTH TYLENOL SINUS DAYTIME | ACETAMINOPHEN; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02420937 | EXTRA STRENGTH TOTAL SYMPTOM RELIEF SUGAR-FREE | ACETAMINOPHEN; DIPHENHYDRAMINE HYDROCHLORIDE; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02454599 | PHENYLEPHRINE HYDROCHLORIDE INJECTION | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02477254 | PHENYLEPHRINE HYDROCHLORIDE INJECTION USP | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02479281 | PHENYLEPHRINE HYDROCHLORIDE INJECTION USP 1% | PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02487004 | COUGH & COLD RELIEF | ACETAMINOPHEN; DEXTROMETHORPHAN HYDROBROMIDE; PHENYLEPHRINE HYDROCHLORIDE | Marketed |
+| 02504545 | PHENYLEPHRINE HYDROCHLORIDE INJECTION USP | PHENYLEPHRINE HYDROCHLORIDE | Dormant |
+| 00843792 | NEOCITRAN EXTRA STRENGTH COLD & CONGESTION | ACETAMINOPHEN; PHENYLEPHRINE HYDROCHLORIDE | Cancelled post market |
+| 02409178 | NEOCITRAN EXTRA STRENGTH TOTAL COLD NIGHT | ACETAMINOPHEN; DIPHENHYDRAMINE HYDROCHLORIDE; PHENYLEPHRINE HYDROCHLORIDE | Cancelled post market |
+| 02456982 | NEOCITRAN EXTRA STRENGTH COLD & SINUS NIGHT - APPLE CINNAMON | ACETAMINOPHEN; PHENIRAMINE MALEATE; PHENYLEPHRINE HYDROCHLORIDE | Cancelled post market |
+| 02531488 | VICKS NYQUIL HOT REMEDY | ACETAMINOPHEN; DIPHENHYDRAMINE HYDROCHLORIDE; PHENYLEPHRINE HYDROCHLORIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 The others include over-the-counter cold and sinus products (for example Extra Strength Tylenol Sinus Daytime, Neocitran, Benylin, Dayquil/Nyquil) and Preparation H-PE Gel.
 

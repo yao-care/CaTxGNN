@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 711
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L3). In Canada: 3 DINs (3 marketed)"
@@ -114,11 +114,17 @@ For **fibroblastic neoplasm**, [NCT02066285](https://clinicaltrials.gov/study/NC
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02352303 | VOTRIENT | Not specified | Not specified |
-| 02552957 | AURO-PAZOPANIB | Not specified | Not specified |
-| 02525666 | PMS-PAZOPANIB | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02352303 | VOTRIENT | PAZOPANIB (PAZOPANIB HYDROCHLORIDE) | Marketed |
+| 02525666 | PMS-PAZOPANIB | PAZOPANIB (PAZOPANIB HYDROCHLORIDE) | Marketed |
+| 02552957 | AURO-PAZOPANIB | PAZOPANIB (PAZOPANIB HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

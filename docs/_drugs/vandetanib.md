@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 966
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VANDETANIB"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib: predicted new indication Renal cell carcinoma (disease) (evidence level L3). In Canada: 2 DINs (2 marketed)"
@@ -93,10 +93,16 @@ No publication in the data compiled for this report shows that vandetanib works 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02378590 | CAPRELSA | Not specified | Not specified |
-| 02378582 | CAPRELSA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02378582 | CAPRELSA | VANDETANIB | Marketed |
+| 02378590 | CAPRELSA | VANDETANIB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both licences are single-ingredient products and both are currently valid.
 

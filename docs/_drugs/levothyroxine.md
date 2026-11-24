@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 ---
 
@@ -85,15 +85,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-At least 20 valid single-ingredient licences were found; the list may be partial. The records compiled for this report do not include dosage form or approved indication text. Five examples are shown.
+At least 20 valid single-ingredient licences were found; the list may be partial. The records compiled for this report do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02550792 | APO-LEVOTHYROXINE | Not listed | Not listed |
-| 02461714 | LEVOTHYROXINE SODIUM FOR INJECTION | Not listed (injection by product name) | Not listed |
-| 02172119 | SYNTHROID | Not listed | Not listed |
-| 02499924 | LEVOTHYROXINE SODIUM INJECTION | Not listed (injection by product name) | Not listed |
-| 02213214 | ELTROXIN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02171228 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172062 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172089 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172119 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172127 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172135 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172143 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02172151 | SYNTHROID | LEVOTHYROXINE SODIUM | Marketed |
+| 02213192 | ELTROXIN | LEVOTHYROXINE SODIUM | Marketed |
+| 02213214 | ELTROXIN | LEVOTHYROXINE SODIUM | Marketed |
+| 02245948 | LEVOTHYROXINE SODIUM FOR INJECTION | LEVOTHYROXINE SODIUM | Marketed |
+| 02461714 | LEVOTHYROXINE SODIUM FOR INJECTION | LEVOTHYROXINE SODIUM | Marketed |
+| 02461722 | LEVOTHYROXINE SODIUM FOR INJECTION | LEVOTHYROXINE SODIUM | Marketed |
+| 02499916 | LEVOTHYROXINE SODIUM INJECTION | LEVOTHYROXINE SODIUM | Marketed |
+| 02499924 | LEVOTHYROXINE SODIUM INJECTION | LEVOTHYROXINE SODIUM | Marketed |
+| 02550717 | APO-LEVOTHYROXINE | LEVOTHYROXINE SODIUM | Marketed |
+| 02550741 | APO-LEVOTHYROXINE | LEVOTHYROXINE SODIUM | Marketed |
+| 02550784 | APO-LEVOTHYROXINE | LEVOTHYROXINE SODIUM | Marketed |
+| 02550792 | APO-LEVOTHYROXINE | LEVOTHYROXINE SODIUM | Marketed |
+| 02550806 | APO-LEVOTHYROXINE | LEVOTHYROXINE SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

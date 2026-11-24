@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 287
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dimethicone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -58,13 +58,36 @@ The licence data compiled for this report does not include dosage forms or appro
 
 <!-- review:end ca-lic-20261105-dimethicone-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00896675 | GAS-X EXTRA STRENGTH | Not available | Not available |
-| 02328127 | GAS RELIEF TABLETS | Not available | Not available |
-| 02248588 | INFACOL | Not available | Not available |
-| 02256975 | PROSHIELD PLUS | Not available | Not available |
-| 02455838 | CAVILON DURABLE BARRIER CREAM | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00013617 | OVOL DROPS | SIMETHICONE | Marketed |
+| 00292990 | OVOL FOR GAS 80 MG TABLET | SIMETHICONE | Marketed |
+| 00896675 | GAS-X EXTRA STRENGTH | SIMETHICONE | Marketed |
+| 02237698 | ULTRA STRENGTH PHAZYME 180MG SOFTGELS | SIMETHICONE | Marketed |
+| 02239298 | OVOL FOR GAS 180 MG CAPSULE | SIMETHICONE | Marketed |
+| 02243966 | BAZA CLEANSE & PROTECT | DIMETHICONE | Marketed |
+| 02244204 | ULTRA STRENGTH GAS RELIEF | SIMETHICONE | Marketed |
+| 02245185 | IMODIUM COMPLETE | LOPERAMIDE HYDROCHLORIDE; SIMETHICONE | Marketed |
+| 02245510 | PEDIACOL | SIMETHICONE | Marketed |
+| 02245871 | COMFORT SHIELD | DIMETHICONE | Marketed |
+| 02247127 | OVOL FOR GAS 180 MG TABLET | SIMETHICONE | Marketed |
+| 02256975 | PROSHIELD PLUS | DIMETHICONE | Marketed |
+| 02300761 | GAS X ULTRA STRENGTH | SIMETHICONE | Marketed |
+| 02301725 | DIMETHICONE PROTECTANT | DIMETHICONE | Marketed |
+| 02328127 | GAS RELIEF TABLETS | SIMETHICONE | Marketed |
+| 02373785 | NYDA | DIMETHICONE | Marketed |
+| 02455838 | CAVILON DURABLE BARRIER CREAM | DIMETHICONE | Marketed |
+| 02527731 | CICAPLAST BAUME B5 CONDITIONING PRO-VITAMIN B5 PRO-VITAMINE B5 REVITA… | DIMETHICONE | Marketed |
+| 02248588 | INFACOL | SIMETHICONE | Dormant |
+| 02250322 | SWEEN 24 | DIMETHICONE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

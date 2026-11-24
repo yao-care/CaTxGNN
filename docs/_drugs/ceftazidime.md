@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CEFTAZIDIME"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftazidime: predicted new indication hyperamylasemia (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -72,13 +72,20 @@ Currently no related literature available.
 
 Health Canada records show ceftazidime as marketed, with all six single-ingredient licences currently valid. The approved indication text is not recorded in the local data.
 
-| DIN | Product Name | Status |
-|---------|------|------|
-| 02437848 | Ceftazidime for Injection BP | Valid |
-| 00886955 | Ceftazidime for Injection, USP | Valid |
-| 02437856 | Ceftazidime for Injection BP | Valid |
-| 02437864 | Ceftazidime for Injection BP | Valid |
-| 00886971 | Ceftazidime for Injection, USP | Valid |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00886955 | CEFTAZIDIME FOR INJECTION, USP | CEFTAZIDIME | Marketed |
+| 00886963 | CEFTAZIDIME FOR INJECTION, USP | CEFTAZIDIME | Marketed |
+| 00886971 | CEFTAZIDIME FOR INJECTION, USP | CEFTAZIDIME | Marketed |
+| 02437848 | CEFTAZIDIME FOR INJECTION BP | CEFTAZIDIME (CEFTAZIDIME PENTAHYDRATE) | Marketed |
+| 02437856 | CEFTAZIDIME FOR INJECTION BP | CEFTAZIDIME (CEFTAZIDIME PENTAHYDRATE) | Marketed |
+| 02437864 | CEFTAZIDIME FOR INJECTION BP | CEFTAZIDIME (CEFTAZIDIME PENTAHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

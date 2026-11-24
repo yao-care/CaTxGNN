@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dalteparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
@@ -86,13 +86,24 @@ Currently no related literature available.
 
 Dalteparin is marketed in Canada as FRAGMIN under 10 valid single-ingredient licences. The records do not include dosage form or approved indication text.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02352672 | FRAGMIN | Not listed | Not listed |
-| 02132621 | FRAGMIN | Not listed | Not listed |
-| 02231171 | FRAGMIN | Not listed | Not listed |
-| 02352656 | FRAGMIN | Not listed | Not listed |
-| 02352664 | FRAGMIN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02132621 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02132648 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02231171 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02352648 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02352656 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02352664 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02352672 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02352680 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02430789 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+| 02494582 | FRAGMIN | DALTEPARIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

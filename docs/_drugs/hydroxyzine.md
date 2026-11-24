@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -90,13 +90,19 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00646024 | HYDROXYZINE | Not specified | Not specified |
-| 00646016 | HYDROXYZINE | Not specified | Not specified |
-| 00646059 | HYDROXYZINE | Not specified | Not specified |
-| 00742813 | HYDROXYZINE HYDROCHLORIDE INJECTION USP | Injection | Not specified |
-| 00024694 | ATARAX | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00024694 | ATARAX | HYDROXYZINE HYDROCHLORIDE | Marketed |
+| 00646016 | HYDROXYZINE | HYDROXYZINE HYDROCHLORIDE | Marketed |
+| 00646024 | HYDROXYZINE | HYDROXYZINE HYDROCHLORIDE | Marketed |
+| 00646059 | HYDROXYZINE | HYDROXYZINE HYDROCHLORIDE | Marketed |
+| 00742813 | HYDROXYZINE HYDROCHLORIDE INJECTION USP | HYDROXYZINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

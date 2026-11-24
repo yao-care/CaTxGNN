@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 846
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SERTRALINE"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In Canada: at least 20 DINs"
@@ -78,15 +78,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Sertraline is marketed in Canada, and all 20 licences in the local records are valid single-ingredient products. The table lists 5 of them. The local records do not give a dosage form or an approved-indication text for these licences.
+Sertraline is marketed in Canada, and all 20 licences in the local records are valid single-ingredient products. The local records do not give a dosage form or an approved-indication text for these licences.
 
-| DIN | Product Name |
-|---------|------|
-| 01962779 | ZOLOFT |
-| 01962817 | ZOLOFT |
-| 02132702 | ZOLOFT |
-| 02240481 | TEVA-SERTRALINE |
-| 02244840 | PMS-SERTRALINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01962779 | ZOLOFT | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 01962817 | ZOLOFT | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02132702 | ZOLOFT | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02240481 | TEVA-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02241302 | SERTRALINE-25 | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02241304 | SERTRALINE-100 | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02244840 | PMS-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02353520 | SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02353539 | SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02386070 | SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02386089 | SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02390914 | AURO-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02402378 | MINT-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02445050 | BIO-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02469626 | SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02477882 | AG-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02477890 | AG-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02477904 | AG-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02530945 | M-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+| 02530953 | M-SERTRALINE | SERTRALINE (SERTRALINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

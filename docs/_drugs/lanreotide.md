@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANREOTIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -75,13 +75,20 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02555867 | MYTOLAC | Not specified | Not specified |
-| 02283395 | SOMATULINE AUTOGEL | Not specified | Not specified |
-| 02283417 | SOMATULINE AUTOGEL | Not specified | Not specified |
-| 02555883 | MYTOLAC | Not specified | Not specified |
-| 02283409 | SOMATULINE AUTOGEL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02283395 | SOMATULINE AUTOGEL | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+| 02283409 | SOMATULINE AUTOGEL | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+| 02283417 | SOMATULINE AUTOGEL | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+| 02555867 | MYTOLAC | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+| 02555875 | MYTOLAC | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+| 02555883 | MYTOLAC | LANREOTIDE (LANREOTIDE ACETATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization (DIN 02555875, MYTOLAC) is also valid. All six are single-ingredient products and none is cancelled.
 

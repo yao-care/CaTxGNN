@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 592
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). In Canada: 2 DINs (2 marketed)"
@@ -95,10 +95,16 @@ The evidence comes mostly from combination protocols. The contribution of mercap
 
 Health Canada records show two valid single-ingredient licences for mercaptopurine. The local data do not record the approved indication text or dosage form for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02415275 | MERCAPTOPURINE TABLETS USP | Not specified | Not specified |
-| 00004723 | PURINETHOL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00004723 | PURINETHOL | MERCAPTOPURINE | Marketed |
+| 02415275 | MERCAPTOPURINE TABLETS USP | MERCAPTOPURINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 813
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risankizumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriasis, parapsoriasis"
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -96,13 +96,19 @@ Any benefit may be limited to IL-23/Th17-dominant dermatitis subtypes or to psor
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02552507 | SKYRIZI | Not specified | Not specified |
-| 02532093 | SKYRIZI | Not specified | Not specified |
-| 02519283 | SKYRIZI | Not specified | Not specified |
-| 02519291 | SKYRIZI | Not specified | Not specified |
-| 02532107 | SKYRIZI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02519283 | SKYRIZI | RISANKIZUMAB | Marketed |
+| 02519291 | SKYRIZI | RISANKIZUMAB | Marketed |
+| 02532093 | SKYRIZI | RISANKIZUMAB | Marketed |
+| 02532107 | SKYRIZI | RISANKIZUMAB | Marketed |
+| 02552507 | SKYRIZI | RISANKIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All five authorisations are valid, single-ingredient products.
 

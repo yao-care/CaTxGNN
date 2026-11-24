@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 255
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Beta-thalassemia and related hemoglobinopathies (including hereditary…"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -85,15 +85,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Deferasirox has 20 valid single-ingredient authorizations in Canada. Dosage form and approved indication text were not available for these products. Main authorizations:
+Deferasirox has 20 valid single-ingredient authorizations in Canada. Dosage form and approved indication text were not available for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02287420 | EXJADE | Not available | Not available |
-| 02287439 | EXJADE | Not available | Not available |
-| 02287447 | EXJADE | Not available | Not available |
-| 02452227 | JADENU | Not available | Not available |
-| 02452235 | JADENU | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02287420 | EXJADE | DEFERASIROX | Marketed |
+| 02287439 | EXJADE | DEFERASIROX | Marketed |
+| 02287447 | EXJADE | DEFERASIROX | Marketed |
+| 02452227 | JADENU | DEFERASIROX | Marketed |
+| 02452235 | JADENU | DEFERASIROX | Marketed |
+| 02461544 | APO-DEFERASIROX | DEFERASIROX | Marketed |
+| 02461560 | APO-DEFERASIROX | DEFERASIROX | Marketed |
+| 02463539 | TARO-DEFERASIROX | DEFERASIROX | Marketed |
+| 02464454 | SANDOZ DEFERASIROX | DEFERASIROX | Marketed |
+| 02464462 | SANDOZ DEFERASIROX | DEFERASIROX | Marketed |
+| 02464470 | SANDOZ DEFERASIROX | DEFERASIROX | Marketed |
+| 02474328 | PMS-DEFERASIROX | DEFERASIROX | Marketed |
+| 02485265 | APO-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02485281 | APO-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02489899 | SANDOZ DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02507323 | TARO-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02507331 | TARO-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02527774 | AURO-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02528304 | PMS-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+| 02528312 | PMS-DEFERASIROX (TYPE J) | DEFERASIROX | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Generic versions are also marketed under the Apo, Sandoz, Taro, PMS and Auro names.
 

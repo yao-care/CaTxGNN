@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 16
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acebutolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "ACEBUTOLOL"
 predicted_indications: ["malignant hypertensive renal disease"]
@@ -87,13 +87,20 @@ Only one publication was found, and it relates to the second predicted indicatio
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02204525 | TEVA-ACEBUTOLOL | Not specified | Not specified |
-| 02147629 | APO-ACEBUTOLOL | Not specified | Not specified |
-| 02204517 | TEVA-ACEBUTOLOL | Not specified | Not specified |
-| 02204533 | TEVA-ACEBUTOLOL | Not specified | Not specified |
-| 02147610 | APO-ACEBUTOLOL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02147602 | APO-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+| 02147610 | APO-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+| 02147629 | APO-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+| 02204517 | TEVA-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+| 02204525 | TEVA-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+| 02204533 | TEVA-ACEBUTOLOL | ACEBUTOLOL (ACEBUTOLOL HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Six valid single-ingredient licences are held in total. Only the first five are listed here; the sixth is APO-ACEBUTOLOL (DIN 02147602). No cancelled licences.
 

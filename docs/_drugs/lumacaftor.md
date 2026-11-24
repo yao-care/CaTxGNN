@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lumacaftor"
 predicted_indications: ["leprosy"]
 description: "Lumacaftor: predicted new indication Leprosy (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -80,13 +80,19 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02451379 | ORKAMBI | Not specified | Not specified |
-| 02483831 | ORKAMBI | Not specified | Not specified |
-| 02463040 | ORKAMBI | Not specified | Not specified |
-| 02483858 | ORKAMBI | Not specified | Not specified |
-| 02537087 | ORKAMBI | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02451379 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02463040 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02483831 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02483858 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+| 02537087 | ORKAMBI | IVACAFTOR; LUMACAFTOR | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

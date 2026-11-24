@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
 description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -75,15 +75,24 @@ Currently no related literature available for renal hypodysplasia/aplasia.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01919458 | CYTOMEL | Not specified | Not specified |
-| 01919466 | CYTOMEL | Not specified | Not specified |
-| 02494337 | TEVA-LIOTHYRONINE | Not specified | Not specified |
-| 02494345 | TEVA-LIOTHYRONINE | Not specified | Not specified |
-| 02549999 | AURO-LIOTHYRONINE | Not specified | Not specified |
+<!-- licenses:begin -->
 
-Eight valid single-ingredient licences are held in total; the five shown above are the main ones.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01919458 | CYTOMEL | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 01919466 | CYTOMEL | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02494337 | TEVA-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02494345 | TEVA-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02549999 | AURO-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02550008 | AURO-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02561298 | ZDS-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+| 02561301 | ZDS-LIOTHYRONINE | LIOTHYRONINE (LIOTHYRONINE SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Eight valid single-ingredient licences are held in total.
 
 ## Safety Considerations
 

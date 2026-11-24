@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Levocarnitine: predicted new indication autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not available"
 monitor_inn: "LEVOCARNITINE"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
@@ -96,12 +96,18 @@ This fits heart failure better than the model's highest-scoring predictions. The
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02144344 | CARNITOR | Not listed | Not listed |
-| 02144336 | CARNITOR | Not listed | Not listed |
-| 02144328 | CARNITOR | Not listed | Not listed |
-| 02492105 | ODAN LEVOCARNITINE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02144328 | CARNITOR | LEVOCARNITINE | Marketed |
+| 02144336 | CARNITOR | LEVOCARNITINE | Marketed |
+| 02144344 | CARNITOR | LEVOCARNITINE | Marketed |
+| 02492105 | ODAN LEVOCARNITINE | LEVOCARNITINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 885
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -109,15 +109,38 @@ No literature is available for Prinzmetal angina. The table below covers the bet
 
 ## Canada Market Information
 
-Telmisartan has 20 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available in the records compiled. The first five are listed below.
+Telmisartan has 20 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available in the records compiled.
 
-| DIN | Product Name |
-|---------|------|
-| 02240770 | MICARDIS 80MG TAB |
-| 02484544 | AG-TELMISARTAN |
-| 02320177 | TEVA-TELMISARTAN |
-| 02320185 | TEVA-TELMISARTAN |
-| 02375966 | SANDOZ TELMISARTAN |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02240770 | MICARDIS 80MG TAB | TELMISARTAN | Marketed |
+| 02320177 | TEVA-TELMISARTAN | TELMISARTAN | Marketed |
+| 02320185 | TEVA-TELMISARTAN | TELMISARTAN | Marketed |
+| 02375966 | SANDOZ TELMISARTAN | TELMISARTAN | Marketed |
+| 02386755 | JAMP TELMISARTAN | TELMISARTAN | Marketed |
+| 02386763 | JAMP TELMISARTAN | TELMISARTAN | Marketed |
+| 02388952 | TELMISARTAN | TELMISARTAN | Marketed |
+| 02390345 | TELMISARTAN | TELMISARTAN | Marketed |
+| 02390353 | TELMISARTAN | TELMISARTAN | Marketed |
+| 02395223 | TELMISARTAN | TELMISARTAN | Marketed |
+| 02395231 | TELMISARTAN | TELMISARTAN | Marketed |
+| 02407485 | ACH-TELMISARTAN | TELMISARTAN | Marketed |
+| 02407493 | ACH-TELMISARTAN | TELMISARTAN | Marketed |
+| 02453568 | AURO-TELMISARTAN | TELMISARTAN | Marketed |
+| 02453576 | AURO-TELMISARTAN | TELMISARTAN | Marketed |
+| 02484544 | AG-TELMISARTAN | TELMISARTAN | Marketed |
+| 02486369 | MINT-TELMISARTAN | TELMISARTAN | Marketed |
+| 02499622 | PMS-TELMISARTAN | TELMISARTAN | Marketed |
+| 02503794 | NRA-TELMISARTAN | TELMISARTAN | Marketed |
+| 02503808 | NRA-TELMISARTAN | TELMISARTAN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

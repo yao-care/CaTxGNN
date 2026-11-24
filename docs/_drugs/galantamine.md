@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -69,15 +69,28 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled). The product names indicate extended-release (ER) formulations. Dosage form and approved indication text were not available in the compiled data. The main authorizations are:
+Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled). The product names indicate extended-release (ER) formulations. Dosage form and approved indication text were not available in the compiled data.
 
-| DIN | Product Name |
-|---------|------|
-| 02339447 | MYLAN-GALANTAMINE ER |
-| 02443031 | GALANTAMINE ER |
-| 02443023 | GALANTAMINE ER |
-| 02425165 | AURO-GALANTAMINE ER |
-| 02316978 | PAT-GALANTAMINE ER |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02316943 | PAT-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02316951 | PAT-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02316978 | PAT-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02339439 | MYLAN-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02339447 | MYLAN-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02339455 | MYLAN-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02425157 | AURO-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02425165 | AURO-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02425173 | AURO-GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02443015 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02443023 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02443031 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

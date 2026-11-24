@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab: predicted new indication epiglottis neoplasm (evidence level L5). In Canada: 13 DINs (13 marketed)"
 ---
 
@@ -70,15 +70,29 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02520737 | BAMBEVI | Not recorded | Not recorded |
-| 02522829 | AYBINTIO | Not recorded | Not recorded |
-| 02489430 | ZIRABEV | Not recorded | Not recorded |
-| 02534185 | VEGZELMA | Not recorded | Not recorded |
-| 02270994 | AVASTIN | Not recorded | Not recorded |
+<!-- licenses:begin -->
 
-All 13 licences in the local data are valid single-ingredient authorizations, and the list above shows five of them.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02270994 | AVASTIN | BEVACIZUMAB | Marketed |
+| 02470748 | MVASI | BEVACIZUMAB | Marketed |
+| 02470756 | MVASI | BEVACIZUMAB | Marketed |
+| 02489430 | ZIRABEV | BEVACIZUMAB | Marketed |
+| 02489449 | ZIRABEV | BEVACIZUMAB | Marketed |
+| 02520729 | BAMBEVI | BEVACIZUMAB | Marketed |
+| 02520737 | BAMBEVI | BEVACIZUMAB | Marketed |
+| 02522160 | ABEVMY | BEVACIZUMAB | Marketed |
+| 02522179 | ABEVMY | BEVACIZUMAB | Marketed |
+| 02522829 | AYBINTIO | BEVACIZUMAB | Marketed |
+| 02522837 | AYBINTIO | BEVACIZUMAB | Marketed |
+| 02534177 | VEGZELMA | BEVACIZUMAB | Marketed |
+| 02534185 | VEGZELMA | BEVACIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 13 licences in the local data are valid single-ingredient authorizations.
 
 ## Cytotoxicity
 

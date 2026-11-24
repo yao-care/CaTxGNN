@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "INSULIN DEGLUDEC"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome"]
 description: "Insulin Degludec: predicted new indication Autoimmune oophoritis (evidence level L5). In Canada: 4 DINs (3 marketed)"
@@ -106,12 +106,18 @@ Forty trials are linked to this prediction. The table lists the most relevant on
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02467887 | TRESIBA | Not listed | Not listed |
-| 02467879 | TRESIBA | Not listed | Not listed |
-| 02467860 | TRESIBA | Not listed | Not listed |
-| 02474875 | XULTOPHY | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02467860 | TRESIBA | INSULIN DEGLUDEC | Marketed |
+| 02467879 | TRESIBA | INSULIN DEGLUDEC | Marketed |
+| 02467887 | TRESIBA | INSULIN DEGLUDEC | Marketed |
+| 02474875 | XULTOPHY | INSULIN DEGLUDEC; LIRAGLUTIDE | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

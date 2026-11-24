@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "METHYLENE BLUE"
 predicted_indications: ["bronchitis"]
@@ -90,12 +90,18 @@ The remaining retrieved papers (an electrochemical aptasensor, an Aloysia gratis
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02487993 | Methylene Blue Injection | Not specified | Not specified |
-| 02230770 | Methylene Blue Injection USP | Not specified | Not specified |
-| 00050466 | Methylene Bleu Liq 1% | Not specified | Not specified |
-| 00674354 | Collyre Bleu Laiter | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00050466 | METHYLENE BLEU LIQ 1% | METHYLENE BLUE | Marketed |
+| 00674354 | COLLYRE BLEU LAITER | METHYLENE BLUE; NAPHAZOLINE NITRATE | Marketed |
+| 02230770 | METHYLENE BLUE INJECTION USP | METHYLENE BLUE | Marketed |
+| 02487993 | METHYLENE BLUE INJECTION | METHYLENE BLUE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All four licences are valid products.
 

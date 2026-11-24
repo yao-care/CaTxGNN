@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 930
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In Canada: 12 DINs (12 marketed)"
@@ -82,15 +82,28 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02246365 | Tranexamic Acid Injection BP | Not specified | Not specified |
-| 02409097 | GD-Tranexamic Acid | Not specified | Not specified |
-| 02466015 | Tranexamic Acid Injection | Not specified | Not specified |
-| 02531208 | Tranexamic Acid Injection | Not specified | Not specified |
-| 02401231 | Tranexamic Acid Tablets | Not specified | Not specified |
+<!-- licenses:begin -->
 
-These are 5 of the 12 valid single-ingredient licences. They include the Cyklokapron brand (500 mg and 100 mg/mL).
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02064405 | CYKLOKAPRON 500 MG | TRANEXAMIC ACID | Marketed |
+| 02064413 | CYKLOKAPRON 100 MG/ML | TRANEXAMIC ACID | Marketed |
+| 02246365 | TRANEXAMIC ACID INJECTION BP | TRANEXAMIC ACID | Marketed |
+| 02392763 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
+| 02401231 | TRANEXAMIC ACID TABLETS | TRANEXAMIC ACID | Marketed |
+| 02409097 | GD-TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
+| 02466015 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
+| 02496232 | MAR-TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
+| 02497328 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
+| 02519194 | TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
+| 02531208 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
+| 02549395 | M-TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+They include the Cyklokapron brand (500 mg and 100 mg/mL).
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 985
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -93,13 +93,30 @@ None of these provides controlled efficacy data. The first two are listed under 
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02242925 | APO-WARFARIN | Not listed | Not listed |
-| 02242928 | APO-WARFARIN | Not listed | Not listed |
-| 02242929 | APO-WARFARIN | Not listed | Not listed |
-| 02242697 | TARO-WARFARIN | Not listed | Not listed |
-| 02242680 | TARO-WARFARIN | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02242680 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242681 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242682 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242683 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242684 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242685 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242686 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242687 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242697 | TARO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242924 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242925 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242926 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242927 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242928 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02242929 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+| 02245618 | APO-WARFARIN | WARFARIN SODIUM | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Sixteen valid single-ingredient licences are held in total (APO-WARFARIN and TARO-WARFARIN products). No cancelled licences were found.
 

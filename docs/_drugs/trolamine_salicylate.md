@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 952
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Trolamine Salicylate: predicted new indication Exostosis (evidence level L5). Approved use: Not stated in the licence records. Product names suggest topical pain…"
 monitor_inn: "TROLAMINE SALICYLATE"
 predicted_indications: ["exostosis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "inclusion body myositis", "exostoses, multiple,", "rheumatoid arthritis", "headache disorder", "gout"]
@@ -92,13 +92,25 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02074702 | Extra Strength Aspercreme Creme Rub 15% | Not listed | Not listed |
-| 02473143 | Muscle & Joint No Odour Regular Strength | Not listed | Not listed |
-| 02473135 | Muscle & Joint No Odour Extra Strength | Not listed | Not listed |
-| 02226022 | Myoflex Extra Strength | Not listed | Not listed |
-| 02358131 | Pain Relief Cream Regular Strength | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02074702 | EXTRA STRENGTH ASPERCREME CREME RUB 15% | TROLAMINE SALICYLATE | Marketed |
+| 02152827 | MYOFLEX REGULAR STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02226022 | MYOFLEX EXTRA STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02244573 | MYOFLEX MAXIMUM STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02358131 | PAIN RELIEF CREAM REGULAR STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02410907 | PAIN RELIEF RUB TRIETHANOLAMINE SALICYLATE CREAM | TROLAMINE SALICYLATE | Marketed |
+| 02413442 | PAIN RELIEF CREAM EXTRA STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02473135 | MUSCLE & JOINT NO ODOUR EXTRA STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02473143 | MUSCLE & JOINT NO ODOUR REGULAR STRENGTH | TROLAMINE SALICYLATE | Marketed |
+| 02486725 | ARTHRITIS PAIN RELIEF | CAPSAICIN; MENTHOL; TROLAMINE SALICYLATE | Marketed |
+| 02516713 | FLEXACRÈME PAIN RELIEF RUB | TROLAMINE SALICYLATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 These are 5 of 11 valid licences. The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain Relief Rub, Myoflex Regular Strength, Pain Relief Rub Triethanolamine Salicylate Cream and Arthritis Pain Relief. No licences are cancelled.
 

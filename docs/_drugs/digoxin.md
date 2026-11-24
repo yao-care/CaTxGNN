@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "DIGOXIN"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). In Canada: 8 DINs (8 marketed)"
 ---
 
@@ -71,13 +71,22 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02498510 | JAMP DIGOXIN | Not recorded | Not recorded |
-| 02335719 | PMS-DIGOXIN | Not recorded | Not recorded |
-| 02498502 | JAMP DIGOXIN | Not recorded | Not recorded |
-| 02335700 | PMS-DIGOXIN | Not recorded | Not recorded |
-| 02554402 | AURO-DIGOXIN | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02048264 | DIGOXIN INJECTION C.S.D. | DIGOXIN | Marketed |
+| 02242320 | PMS-DIGOXIN | DIGOXIN | Marketed |
+| 02335700 | PMS-DIGOXIN | DIGOXIN | Marketed |
+| 02335719 | PMS-DIGOXIN | DIGOXIN | Marketed |
+| 02498502 | JAMP DIGOXIN | DIGOXIN | Marketed |
+| 02498510 | JAMP DIGOXIN | DIGOXIN | Marketed |
+| 02554399 | AURO-DIGOXIN | DIGOXIN | Marketed |
+| 02554402 | AURO-DIGOXIN | DIGOXIN | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

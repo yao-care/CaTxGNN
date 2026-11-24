@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). In Canada: 6 DINs (6 marketed)"
@@ -84,13 +84,20 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02243862 | FUCITHALMIC | Not specified | Not specified |
-| 00586668 | FUCIDIN CREAM 2% | Not specified | Not specified |
-| 00586676 | FUCIDIN OINTMENT 2% | Not specified | Not specified |
-| 02528096 | TARO-FUSIDIC ACID | Not specified | Not specified |
-| 02474883 | FUCIBET | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00586668 | FUCIDIN CREAM 2% | FUSIDIC ACID | Marketed |
+| 00586676 | FUCIDIN OINTMENT 2% | FUSIDATE SODIUM | Marketed |
+| 02238578 | FUCIDIN H | FUSIDIC ACID; HYDROCORTISONE ACETATE | Marketed |
+| 02243862 | FUCITHALMIC | FUSIDIC ACID | Marketed |
+| 02474883 | FUCIBET | BETAMETHASONE (BETAMETHASONE VALERATE); FUSIDIC ACID | Marketed |
+| 02528096 | TARO-FUSIDIC ACID | FUSIDIC ACID (FUSIDIC ACID HEMIHYDRATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 A sixth authorization, FUCIDIN H (DIN 02238578), is also valid. All 6 of 6 licenses are valid.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromocriptine: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Parkinson disease, hyperprolactinemia…"
 monitor_inn: "BROMOCRIPTINE"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
@@ -102,10 +102,16 @@ For reference, the most relevant publications among the other top-10 predictions
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02230454 | BROMOCRIPTINE | Not available | Not available |
-| 02087324 | BROMOCRIPTINE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02087324 | BROMOCRIPTINE | BROMOCRIPTINE (BROMOCRIPTINE MESYLATE) | Marketed |
+| 02230454 | BROMOCRIPTINE | BROMOCRIPTINE (BROMOCRIPTINE MESYLATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both authorisations are single-ingredient products with valid status.
 

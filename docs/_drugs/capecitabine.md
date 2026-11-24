@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "CAPECITABINE"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
 ---
 
@@ -69,15 +69,27 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Eleven valid single-ingredient licences are listed. Approved-indication text, dosage form and manufacturer are not provided in the licence records, so the approved indications cannot be confirmed from the data compiled for this report. The first five licences are shown below.
+Eleven valid single-ingredient licences are listed. Approved-indication text, dosage form and manufacturer are not provided in the licence records, so the approved indications cannot be confirmed from the data compiled for this report.
 
-| DIN | Product Name |
-|---------|------|
-| 02457490 | TARO-CAPECITABINE |
-| 02519879 | CAPECITABINE |
-| 02426765 | ACH-CAPECITABINE |
-| 02457504 | TARO-CAPECITABINE |
-| 02514982 | CAPECITABINE |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02421917 | SANDOZ CAPECITABINE | CAPECITABINE | Marketed |
+| 02421925 | SANDOZ CAPECITABINE | CAPECITABINE | Marketed |
+| 02426757 | ACH-CAPECITABINE | CAPECITABINE | Marketed |
+| 02426765 | ACH-CAPECITABINE | CAPECITABINE | Marketed |
+| 02457490 | TARO-CAPECITABINE | CAPECITABINE | Marketed |
+| 02457504 | TARO-CAPECITABINE | CAPECITABINE | Marketed |
+| 02508028 | MINT-CAPECITABINE | CAPECITABINE | Marketed |
+| 02514982 | CAPECITABINE | CAPECITABINE | Marketed |
+| 02514990 | CAPECITABINE | CAPECITABINE | Marketed |
+| 02519879 | CAPECITABINE | CAPECITABINE | Marketed |
+| 02519887 | CAPECITABINE | CAPECITABINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining six licences are SANDOZ CAPECITABINE (02421917, 02421925), MINT-CAPECITABINE (02508028), ACH-CAPECITABINE (02426757) and CAPECITABINE (02519887, 02514990).
 

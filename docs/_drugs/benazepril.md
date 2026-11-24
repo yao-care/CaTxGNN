@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benazepril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -70,11 +70,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02290332 | BENAZEPRIL | Not recorded | Not recorded |
-| 02273918 | BENAZEPRIL | Not recorded | Not recorded |
-| 02290340 | BENAZEPRIL | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02273918 | BENAZEPRIL | BENAZEPRIL HYDROCHLORIDE | Marketed |
+| 02290332 | BENAZEPRIL | BENAZEPRIL HYDROCHLORIDE | Marketed |
+| 02290340 | BENAZEPRIL | BENAZEPRIL HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three licences are single-ingredient products and currently valid.
 

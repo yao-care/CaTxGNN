@@ -5,7 +5,7 @@ layout: default
 title: Lebrikizumab
 parent: Known Uses Only (No New Predictions)
 nav_order: 530
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Lebrikizumab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Lebrikizumab"
 predicted_indications: []
@@ -48,10 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name |
-|---------|------|
-| 02549131 | EBGLYSS |
-| 02549123 | EBGLYSS |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02549123 | EBGLYSS | LEBRIKIZUMAB | Marketed |
+| 02549131 | EBGLYSS | LEBRIKIZUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Both authorisations are valid single-ingredient products. Dosage form and approved-indication text were not available in the compiled data.
 

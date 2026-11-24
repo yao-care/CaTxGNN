@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elagolix: predicted new indication Amenorrhea (evidence level L5). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "ELAGOLIX"
 predicted_indications: ["amenorrhea (disease)"]
@@ -87,10 +87,16 @@ None of these publications evaluate elagolix as a treatment for amenorrhea.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02481332 | ORILISSA | Not specified | Not specified |
-| 02481340 | ORILISSA | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02481332 | ORILISSA | ELAGOLIX (ELAGOLIX SODIUM) | Marketed |
+| 02481340 | ORILISSA | ELAGOLIX (ELAGOLIX SODIUM) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

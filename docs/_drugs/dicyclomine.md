@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Dicyclomine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dicyclomine: predicted new indication cauda equina syndrome (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
@@ -82,11 +82,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02366088 | JAMP-DICYCLOMINE HCL | Not recorded | Not recorded |
-| 02391619 | JAMP-DICYCLOMINE HCL | Not recorded | Not recorded |
-| 00557102 | RIVA-DICYCLOMINE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00557102 | RIVA-DICYCLOMINE | DICYCLOMINE HYDROCHLORIDE | Marketed |
+| 02366088 | JAMP-DICYCLOMINE HCL | DICYCLOMINE HYDROCHLORIDE | Marketed |
+| 02391619 | JAMP-DICYCLOMINE HCL | DICYCLOMINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

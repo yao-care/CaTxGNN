@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzatropine: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related movement disorders (parkinsonian syndro…"
 monitor_inn: "benzatropine"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder"]
@@ -84,10 +84,16 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02238903 | BENZTROPINE OMEGA | Not specified | Not specified |
-| 00706531 | PDP-BENZTROPINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00706531 | PDP-BENZTROPINE | BENZTROPINE MESYLATE | Marketed |
+| 02238903 | BENZTROPINE OMEGA | BENZTROPINE MESYLATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In Canada: 13 DINs (13 marketed)"
@@ -97,15 +97,29 @@ Many other records for this prediction are generic "Propranolol" monographs with
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02491893 | LUPIN-PROPRANOLOL LA | Not specified | Not specified |
-| 02550830 | PRZ-PROPRANOLOL | Not specified | Not specified |
-| 00740675 | TEVA-PROPRANOLOL | Not specified | Not specified |
-| 02225883 | PROPRANOLOL HYDROCHLORIDE INJECTION USP | Injection | Not specified |
-| 02457857 | HEMANGIOL | Not specified | Not specified |
+<!-- licenses:begin -->
 
-All 13 licences are valid single-ingredient products; the five above are shown as examples.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00496480 | TEVA-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 00496499 | TEVA-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 00496502 | TEVA-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 00740675 | TEVA-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02225883 | PROPRANOLOL HYDROCHLORIDE INJECTION USP | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02457857 | HEMANGIOL | PROPRANOLOL (PROPRANOLOL HYDROCHLORIDE) | Marketed |
+| 02491893 | LUPIN-PROPRANOLOL LA | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02491907 | LUPIN-PROPRANOLOL LA | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02491915 | LUPIN-PROPRANOLOL LA | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02491923 | LUPIN-PROPRANOLOL LA | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02550814 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02550822 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02550830 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+All 13 licences are valid single-ingredient products.
 
 ## Safety Considerations
 

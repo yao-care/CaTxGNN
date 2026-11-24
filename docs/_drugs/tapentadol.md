@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 882
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TAPENTADOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). In Canada: 8 DINs (8 marketed)"
@@ -89,13 +89,22 @@ No literature was retrieved for the top prediction (migraine disorder). Neither 
 
 Eight valid single-ingredient licences are on record. Dosage form, manufacturer and approved indication text are not available in the compiled data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02378272 | NUCYNTA IR | Not available | Not available |
-| 02378280 | NUCYNTA IR | Not available | Not available |
-| 02378299 | NUCYNTA IR | Not available | Not available |
-| 02415577 | NUCYNTA EXTENDED-RELEASE | Not available | Not available |
-| 02415585 | NUCYNTA EXTENDED-RELEASE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02378272 | NUCYNTA IR | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02378280 | NUCYNTA IR | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02378299 | NUCYNTA IR | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02415577 | NUCYNTA EXTENDED-RELEASE | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02415585 | NUCYNTA EXTENDED-RELEASE | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02415593 | NUCYNTA EXTENDED-RELEASE | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02415607 | NUCYNTA EXTENDED-RELEASE | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+| 02415615 | NUCYNTA EXTENDED-RELEASE | TAPENTADOL (TAPENTADOL HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Three other NUCYNTA EXTENDED-RELEASE licences (02415593, 02415607, 02415615) are also valid.
 

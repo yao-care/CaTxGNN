@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 927
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In Canada: at least 20 DINs"
@@ -71,15 +71,38 @@ Currently no related literature available for the top prediction. (For the rank 
 
 ## Canada Market Information
 
-Tramadol has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available for these products. Main authorizations:
+Tramadol has 20 valid single-ingredient licences in Canada. Dosage form and approved indication text are not available for these products.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02286459 | ZYTRAM XL | Not available | Not available |
-| 02518759 | JAMP TRAMADOL HCL | Not available | Not available |
-| 02480859 | MAR-TRAMADOL | Not available | Not available |
-| 02373033 | DURELA | Not available | Not available |
-| 02296381 | TRIDURAL | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02286424 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02286432 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02286440 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02286459 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02296381 | TRIDURAL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02296403 | TRIDURAL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02296411 | TRIDURAL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02299194 | RALIVIA | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02299208 | RALIVIA | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02360322 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02360349 | ZYTRAM XL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02373017 | DURELA | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02373025 | DURELA | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02373033 | DURELA | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02426153 | APO-TRAMADOL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02450429 | TARO-TRAMADOL ER | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02450437 | TARO-TRAMADOL ER | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02479672 | AURO-TRAMADOL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02480859 | MAR-TRAMADOL | TRAMADOL HYDROCHLORIDE | Marketed |
+| 02518759 | JAMP TRAMADOL HCL | TRAMADOL HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other marketed brands include AURO-TRAMADOL, RALIVIA, APO-TRAMADOL and TARO-TRAMADOL ER.
 

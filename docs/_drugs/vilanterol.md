@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 974
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: predicted new indication Hyperlucent lung (evidence level L5). In Canada: 5 DINs (5 marketed)"
@@ -104,13 +104,19 @@ The table lists the 10 most relevant of the 30 trials for obstructive lung disea
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02444186 | BREO ELLIPTA | Not listed | Not listed |
-| 02408872 | BREO ELLIPTA | Not listed | Not listed |
-| 02418401 | ANORO ELLIPTA | Not listed | Not listed |
-| 02474522 | TRELEGY ELLIPTA | Not listed | Not listed |
-| 02515776 | TRELEGY ELLIPTA | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02408872 | BREO ELLIPTA | FLUTICASONE FUROATE; VILANTEROL (VILANTEROL TRIFENATATE) | Marketed |
+| 02418401 | ANORO ELLIPTA | UMECLIDINIUM (UMECLIDINIUM BROMIDE); VILANTEROL (VILANTEROL TRIFENATATE) | Marketed |
+| 02444186 | BREO ELLIPTA | FLUTICASONE FUROATE; VILANTEROL (VILANTEROL TRIFENATATE) | Marketed |
+| 02474522 | TRELEGY ELLIPTA | FLUTICASONE FUROATE; UMECLIDINIUM (UMECLIDINIUM BROMIDE); VILANTEROL (VILANTEROL TRIFENATATE) | Marketed |
+| 02515776 | TRELEGY ELLIPTA | FLUTICASONE FUROATE; UMECLIDINIUM (UMECLIDINIUM BROMIDE); VILANTEROL (VILANTEROL TRIFENATATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

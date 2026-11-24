@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 679
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, manic bipolar affective disorder…"
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -109,13 +109,36 @@ For reference, the literature found for the two next-ranked predictions is shown
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02229285 | ZYPREXA | Not specified | Not specified |
-| 02243086 | ZYPREXA ZYDIS | Not specified | Not specified |
-| 02303175 | PMS-OLANZAPINE | Not specified | Not specified |
-| 02276739 | TEVA-OLANZAPINE | Not specified | Not specified |
-| 02281791 | APO-OLANZAPINE | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02229285 | ZYPREXA | OLANZAPINE | Marketed |
+| 02243086 | ZYPREXA ZYDIS | OLANZAPINE | Marketed |
+| 02243087 | ZYPREXA ZYDIS | OLANZAPINE | Marketed |
+| 02243088 | ZYPREXA ZYDIS | OLANZAPINE | Marketed |
+| 02276712 | TEVA-OLANZAPINE | OLANZAPINE | Marketed |
+| 02276739 | TEVA-OLANZAPINE | OLANZAPINE | Marketed |
+| 02281791 | APO-OLANZAPINE | OLANZAPINE | Marketed |
+| 02303159 | PMS-OLANZAPINE | OLANZAPINE | Marketed |
+| 02303175 | PMS-OLANZAPINE | OLANZAPINE | Marketed |
+| 02303205 | PMS-OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02327783 | SANDOZ OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02352982 | OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02352990 | OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02360640 | APO-OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02372819 | OLANZAPINE | OLANZAPINE | Marketed |
+| 02385902 | OLANZAPINE | OLANZAPINE | Marketed |
+| 02410176 | MINT-OLANZAPINE | OLANZAPINE | Marketed |
+| 02410184 | MINT-OLANZAPINE | OLANZAPINE | Marketed |
+| 02448726 | AURO-OLANZAPINE ODT | OLANZAPINE | Marketed |
+| 02536196 | NRA-OLANZAPINE ODT | OLANZAPINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 There are 20 valid single-ingredient licences in total, including brand, generic and orally disintegrating tablet (ODT) products.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DULOXETINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 description: "Duloxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In Canada: at least 20 DINs"
@@ -105,15 +105,38 @@ For agoraphobia, the supporting literature is indirect: an open-label study in p
 
 ## Canada Market Information
 
-Duloxetine has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text are not available for these licences. The first five are listed below.
+Duloxetine has 20 valid single-ingredient licences in Canada and none cancelled. Dosage form and approved indication text are not available for these licences.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02457202 | TARO-DULOXETINE | – | – |
-| 02456753 | TEVA-DULOXETINE | – | – |
-| 02436647 | AURO-DULOXETINE | – | – |
-| 02473208 | M-DULOXETINE | – | – |
-| 02507765 | BIO-DULOXETINE | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02429446 | PMS-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02436647 | AURO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02438984 | MINT-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02438992 | MINT-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02440431 | APO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02446081 | MAR-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02451913 | JAMP-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02451921 | JAMP-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02452650 | PRO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02452669 | PRO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02456753 | TEVA-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02456761 | TEVA-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02457202 | TARO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02473208 | M-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02475308 | AG-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02481952 | DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02481960 | DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02507722 | BIO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02507765 | BIO-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+| 02522861 | ACCEL-DULOXETINE | DULOXETINE (DULOXETINE HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ---
 

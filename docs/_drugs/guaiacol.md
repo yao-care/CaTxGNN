@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "GUAIACOL"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Guaiacol: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold, rhinitis, nasopharyngitis"
 ---
 
@@ -64,10 +64,16 @@ The TxGNN score is very high (0.9951), but it is a computational prediction only
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | Not specified | Not specified |
-| 00319716 | DEMO-CINEOL ADULTES/ADULTS | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00319716 | DEMO-CINEOL ADULTES/ADULTS | CAMPHOR; EUCALYPTOL; GUAIACOL; GUAIACOL CARBONATE | Marketed |
+| 00319724 | DEMO-CINEOL ENFANTS/CHILDREN | CAMPHOR; EUCALYPTOL; GUAIACOL; GUAIACOL CARBONATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

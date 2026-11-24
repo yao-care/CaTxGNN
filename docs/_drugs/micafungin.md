@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 613
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Micafungin: predicted new indication Urinary tract infection (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "MICAFUNGIN"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -92,13 +92,22 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02532360 | MICAFUNGIN SODIUM FOR INJECTION | Not specified | Not specified |
-| 02294222 | MYCAMINE | Not specified | Not specified |
-| 02311054 | MYCAMINE | Not specified | Not specified |
-| 02547236 | MICAFUNGIN SODIUM FOR INJECTION | Not specified | Not specified |
-| 02524961 | MICAFUNGIN SODIUM FOR INJECTION | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02524953 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN (MICAFUNGIN SODIUM) | Marketed |
+| 02524961 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN (MICAFUNGIN SODIUM) | Marketed |
+| 02532344 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN SODIUM | Marketed |
+| 02532360 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN SODIUM | Marketed |
+| 02547228 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN (MICAFUNGIN SODIUM) | Marketed |
+| 02547236 | MICAFUNGIN SODIUM FOR INJECTION | MICAFUNGIN (MICAFUNGIN SODIUM) | Marketed |
+| 02294222 | MYCAMINE | MICAFUNGIN SODIUM | Cancelled post market |
+| 02311054 | MYCAMINE | MICAFUNGIN SODIUM | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

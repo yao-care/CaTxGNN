@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease (and related parkinsonian disorders)"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -72,15 +72,38 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled. Dosage form and approved indication text were not available in the data compiled for this report. Five main authorizations are listed below.
+Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled. Dosage form and approved indication text were not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02292165 | DUODOPA | Not available | Not available |
-| 00386472 | PROLOPA CAP 200-50 | Not available | Not available |
-| 00386464 | PROLOPA CAP 100-25 | Not available | Not available |
-| 02195968 | APO-LEVOCARB | Not available | Not available |
-| 02244495 | TEVA-LEVOCARBIDOPA | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00386464 | PROLOPA CAP 100-25 | BENSERAZIDE (BENSERAZIDE HYDROCHLORIDE); LEVODOPA | Marketed |
+| 00386472 | PROLOPA CAP 200-50 | BENSERAZIDE (BENSERAZIDE HYDROCHLORIDE); LEVODOPA | Marketed |
+| 02195941 | APO-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02195968 | APO-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02244495 | TEVA-LEVOCARBIDOPA | CARBIDOPA; LEVODOPA | Marketed |
+| 02244496 | TEVA-LEVOCARBIDOPA | CARBIDOPA; LEVODOPA | Marketed |
+| 02245211 | AA-LEVOCARB CR | CARBIDOPA; LEVODOPA | Marketed |
+| 02272873 | AA-LEVOCARB CR | CARBIDOPA; LEVODOPA | Marketed |
+| 02292165 | DUODOPA | CARBIDOPA (CARBIDOPA MONOHYDRATE); LEVODOPA | Marketed |
+| 02457954 | MINT-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02457962 | MINT-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02531593 | AURO-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02531607 | AURO-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02531615 | AURO-LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02546396 | JAMP LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02546418 | JAMP LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02546426 | JAMP LEVOCARB | CARBIDOPA; LEVODOPA | Marketed |
+| 02549719 | PMS-LEVODOPA-CARBIDOPA | CARBIDOPA; LEVODOPA | Marketed |
+| 02549727 | PMS-LEVODOPA-CARBIDOPA | CARBIDOPA; LEVODOPA | Marketed |
+| 02549735 | PMS-LEVODOPA-CARBIDOPA | CARBIDOPA; LEVODOPA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

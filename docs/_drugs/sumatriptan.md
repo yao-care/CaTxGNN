@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 874
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Sumatriptan: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -72,28 +72,36 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Sumatript
 
 ## Canada Market Information
 
-| Licence | Product | Dosage form | Status |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02256428 | PMS-SUMATRIPTAN |  | Valid |
-| 02545357 | JAMP SUMATRIPTAN |  | Valid |
-| 02268906 | MYLAN-SUMATRIPTAN |  | Valid |
-| 02286823 | TEVA-SUMATRIPTAN DF |  | Valid |
-| 02385589 | SUMATRIPTAN DF |  | Valid |
-| 02286548 | SUMATRIPTAN |  | Valid |
-| 02268388 | APO-SUMATRIPTAN |  | Valid |
-| 02324660 | SUMATRIPTAN |  | Valid |
-| 02545365 | JAMP SUMATRIPTAN |  | Valid |
-| 02546043 | SUMATRIPTAN |  | Valid |
-| 02546035 | SUMATRIPTAN |  | Valid |
-| 02545292 | JAMP SUMATRIPTAN DF |  | Valid |
-| 02286831 | TEVA-SUMATRIPTAN DF |  | Valid |
-| 02286521 | SUMATRIPTAN |  | Valid |
-| 02324652 | SUMATRIPTAN |  | Valid |
-| 02268396 | APO-SUMATRIPTAN |  | Valid |
-| 02230418 | IMITREX |  | Valid |
-| 02256436 | PMS-SUMATRIPTAN |  | Valid |
-| 02212188 | IMITREX |  | Valid |
-| 02286815 | TEVA-SUMATRIPTAN DF |  | Valid |
+| 02212188 | IMITREX | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02230418 | IMITREX | SUMATRIPTAN (SUMATRIPTAN HEMISULFATE) | Marketed |
+| 02256428 | PMS-SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02256436 | PMS-SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02268388 | APO-SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02268396 | APO-SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02268906 | MYLAN-SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02286521 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02286548 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02286815 | TEVA-SUMATRIPTAN DF | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02286823 | TEVA-SUMATRIPTAN DF | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02286831 | TEVA-SUMATRIPTAN DF | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02324652 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02324660 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02385589 | SUMATRIPTAN DF | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02545292 | JAMP SUMATRIPTAN DF | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02545357 | JAMP SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02545365 | JAMP SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02546035 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+| 02546043 | SUMATRIPTAN | SUMATRIPTAN (SUMATRIPTAN SUCCINATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Only part of the licence list is held in the data; the list may be incomplete.
 

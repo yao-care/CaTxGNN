@@ -5,7 +5,7 @@ layout: default
 title: Choriogonadotropin Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 189
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Choriogonadotropin Alfa: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Choriogonadotropin alfa"
 predicted_indications: []
@@ -50,10 +50,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02371588 | OVIDREL | Not available | Not available |
-| 02262088 | OVIDREL | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02262088 | OVIDREL | CHORIOGONADOTROPIN ALFA | Marketed |
+| 02371588 | OVIDREL | CHORIOGONADOTROPIN ALFA | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ---
 

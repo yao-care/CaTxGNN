@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 722
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-24
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report (the UK-approved u…"
 monitor_inn: "PERICIAZINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -87,11 +87,17 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 01926780 | NEULEPTIL | Not specified | Not specified |
-| 01926756 | NEULEPTIL | Not specified | Not specified |
-| 01926772 | NEULEPTIL | Not specified | Not specified |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01926756 | NEULEPTIL | PERICIAZINE | Marketed |
+| 01926772 | NEULEPTIL | PERICIAZINE | Marketed |
+| 01926780 | NEULEPTIL | PERICIAZINE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All three authorizations are valid single-ingredient products.
 

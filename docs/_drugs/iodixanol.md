@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
@@ -76,12 +76,18 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02145766 | VISIPAQUE 270 | Not listed | Not listed |
-| 02145774 | VISIPAQUE 320 | Not listed | Not listed |
-| 02553953 | IODIXANOL INJECTION 270 | Not listed | Not listed |
-| 02553961 | IODIXANOL INJECTION 320 | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02145766 | VISIPAQUE 270 | IODIXANOL | Marketed |
+| 02145774 | VISIPAQUE 320 | IODIXANOL | Marketed |
+| 02553953 | IODIXANOL INJECTION 270 | IODIXANOL | Marketed |
+| 02553961 | IODIXANOL INJECTION 320 | IODIXANOL | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 960
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: predicted new indication Dermatitis (evidence level L2). Approved use: Psoriatic arthritis, psoriasis, parapsoriasis"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -99,15 +99,38 @@ The rationale is only partial, however. Atopic dermatitis is predominantly drive
 
 ## Canada Market Information
 
-Ustekinumab products have 20 valid licences in Canada, all single-ingredient. Dosage form and approved indication text were not available for them. The main authorizations are:
+Ustekinumab products have 20 valid licences in Canada, all single-ingredient. Dosage form and approved indication text were not available for them.
 
-| DIN | Product Name |
-|---------|------|
-| 02320673 | STELARA |
-| 02320681 | STELARA |
-| 02459671 | STELARA I.V. |
-| 02544199 | WEZLANA |
-| 02550245 | STEQEYMA |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02320673 | STELARA | USTEKINUMAB | Marketed |
+| 02320681 | STELARA | USTEKINUMAB | Marketed |
+| 02459671 | STELARA I.V. | USTEKINUMAB | Marketed |
+| 02537257 | FINLIUS | USTEKINUMAB | Marketed |
+| 02537311 | FINLIUS I.V. | USTEKINUMAB | Marketed |
+| 02543036 | JAMTEKI | USTEKINUMAB | Marketed |
+| 02543044 | JAMTEKI | USTEKINUMAB | Marketed |
+| 02544180 | WEZLANA | USTEKINUMAB | Marketed |
+| 02544199 | WEZLANA | USTEKINUMAB | Marketed |
+| 02544202 | WEZLANA | USTEKINUMAB | Marketed |
+| 02544210 | WEZLANA I.V. | USTEKINUMAB | Marketed |
+| 02550245 | STEQEYMA | USTEKINUMAB | Marketed |
+| 02550253 | STEQEYMA | USTEKINUMAB | Marketed |
+| 02553309 | WEZLANA | USTEKINUMAB | Marketed |
+| 02553317 | WEZLANA | USTEKINUMAB | Marketed |
+| 02554283 | OTULFI | USTEKINUMAB | Marketed |
+| 02554305 | OTULFI I.V. | USTEKINUMAB | Marketed |
+| 02562081 | YESINTEK | USTEKINUMAB | Marketed |
+| 02562103 | YESINTEK | USTEKINUMAB | Marketed |
+| 02562111 | YESINTEK I.V. | USTEKINUMAB | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Other biosimilar brands also hold licences: YESINTEK, JAMTEKI, OTULFI and FINLIUS.
 

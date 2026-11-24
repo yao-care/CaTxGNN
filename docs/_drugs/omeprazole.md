@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMEPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In Canada: 14 DINs (11 marketed, 1 dormant)"
@@ -93,13 +93,28 @@ A second predicted indication, duodenal obstruction (score 0.9964), is not suppo
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00846503 | LOSEC | Not listed | Not listed |
-| 02242462 | LOSEC MUPS | Not listed | Not listed |
-| 02295407 | TEVA-OMEPRAZOLE | Not listed | Not listed |
-| 02245058 | APO-OMEPRAZOLE | Not listed | Not listed |
-| 02296446 | SANDOZ OMEPRAZOLE | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00846503 | LOSEC | OMEPRAZOLE | Marketed |
+| 02242462 | LOSEC MUPS | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Marketed |
+| 02245058 | APO-OMEPRAZOLE | OMEPRAZOLE | Marketed |
+| 02295407 | TEVA-OMEPRAZOLE | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Marketed |
+| 02295415 | TEVA-OMEPRAZOLE | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Marketed |
+| 02339927 | OMEPRAZOLE | OMEPRAZOLE | Marketed |
+| 02348691 | OMEPRAZOLE | OMEPRAZOLE | Marketed |
+| 02411857 | OMEPRAZOLE-20 | OMEPRAZOLE | Marketed |
+| 02420198 | JAMP-OMEPRAZOLE DR | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Marketed |
+| 02435683 | HEARTBURN CONTROL | OMEPRAZOLE | Marketed |
+| 02449927 | BIO-OMEPRAZOLE | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Marketed |
+| 02402416 | RIVA-OMEPRAZOLE DR | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Dormant |
+| 02296446 | SANDOZ OMEPRAZOLE | OMEPRAZOLE | Cancelled post market |
+| 02416549 | ACH-OMEPRAZOLE | OMEPRAZOLE (OMEPRAZOLE MAGNESIUM) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 Only five are shown here.
 

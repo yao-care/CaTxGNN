@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 197
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CIPROFLOXACIN"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L5). In Canada: at least 20 DINs"
@@ -77,15 +77,38 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-The list below may be partial. Ciprofloxacin has 20 valid single-ingredient licences in Canada; no indication text, dosage form or manufacturer is recorded for them in the local data. Main examples:
+Ciprofloxacin has 20 valid single-ingredient licences in Canada; no indication text, dosage form or manufacturer is recorded for them in the local data.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02492008 | NRA-CIPROFLOXACIN | Not available | Not available |
-| 02303736 | TARO-CIPROFLOX | Not available | Not available |
-| 02387131 | SANDOZ CIPROFLOXACIN | Not available | Not available |
-| 02248756 | SANDOZ CIPROFLOXACIN | Not available | Not available |
-| 01945270 | CILOXAN | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 01945270 | CILOXAN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02247340 | ACT CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02247341 | ACT CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02248438 | PMS-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02248756 | SANDOZ CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02248757 | SANDOZ CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02248758 | SANDOZ CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02251248 | RIVA-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02303728 | TARO-CIPROFLOX | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02303736 | TARO-CIPROFLOX | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02317796 | PRO-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02317818 | PRO-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02379686 | MAR-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02379694 | MAR-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02380366 | JAMP-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02381923 | AURO-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02387131 | SANDOZ CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02444887 | BIO-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02492008 | NRA-CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+| 02547147 | CIPROFLOXACIN | CIPROFLOXACIN (CIPROFLOXACIN HYDROCHLORIDE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

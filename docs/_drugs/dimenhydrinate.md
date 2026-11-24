@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L5). Approved use: Motion sickness"
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -77,15 +77,36 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Dosage form and approved-indication text are not available in the data compiled for this report. The first 5 of the 20 valid single-ingredient licences are listed below.
+Dosage form and approved-indication text are not available in the data compiled for this report.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 00783595 | KIDS GRAVOL SUPPOSITORIES | Not available | Not available |
-| 00392553 | CONFAB DIMENHYDRINATE 50 MG | Not available | Not available |
-| 00605786 | TRAVEL TABS 50 MG | Not available | Not available |
-| 02490528 | GAVISCON NAUSEA | Not available | Not available |
-| 00013803 | GRAVOL TABLETS | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00013609 | GRAVOL SUPPOSITORIES | DIMENHYDRINATE | Marketed |
+| 00013803 | GRAVOL TABLETS | DIMENHYDRINATE | Marketed |
+| 00230197 | KIDS GRAVOL LIQUID | DIMENHYDRINATE | Marketed |
+| 00392537 | DIMENHYDRINATE INJECTION USP | DIMENHYDRINATE | Marketed |
+| 00392545 | CONFAB DIMENHYDRINATE 100 MG | DIMENHYDRINATE | Marketed |
+| 00392553 | CONFAB DIMENHYDRINATE 50 MG | DIMENHYDRINATE | Marketed |
+| 00392731 | DIMENHYDRINATE INJECTION USP | DIMENHYDRINATE | Marketed |
+| 00605786 | TRAVEL TABS 50 MG | DIMENHYDRINATE | Marketed |
+| 00783595 | KIDS GRAVOL SUPPOSITORIES | DIMENHYDRINATE | Marketed |
+| 02241532 | ANTI-NAUSEANT | DIMENHYDRINATE | Marketed |
+| 02245416 | JAMP-DIMENHYDRINATE | DIMENHYDRINATE | Marketed |
+| 02245867 | GRAVOL LIQUID GELS | DIMENHYDRINATE | Marketed |
+| 02254409 | GRAVOL IMMEDIATE RELEASE & LONG ACTING CAPLETS | DIMENHYDRINATE | Marketed |
+| 02384116 | KIDS GRAVOL CHEWABLES | DIMENHYDRINATE | Marketed |
+| 02384132 | GRAVOL CHEWABLES | DIMENHYDRINATE | Marketed |
+| 02428954 | DIMENHYDRINATE INJECTION USP | DIMENHYDRINATE | Marketed |
+| 02435241 | DIMENHYDRINATE INJECTION USP | DIMENHYDRINATE | Marketed |
+| 02490528 | GAVISCON NAUSEA | DIMENHYDRINATE | Marketed |
+| 02493004 | ANTI-NAUSEANT LIQUID GELS | DIMENHYDRINATE | Marketed |
+| 02536536 | DIMENHYDRINATE INJECTION USP | DIMENHYDRINATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 The remaining licences include injection, liquid gel, chewable, liquid, suppository and long-acting caplet products (for example Gravol, Kids Gravol, Jamp-Dimenhydrinate and Dimenhydrinate Injection USP). None has been cancelled.
 

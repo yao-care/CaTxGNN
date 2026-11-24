@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 230
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclobenzaprine: predicted new indication Myofascial pain syndrome (evidence level L3). Approved use: Not available in the data compiled for this report . Cyclobenzaprine…"
 monitor_inn: "Cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -99,15 +99,26 @@ Important caveat: most of the Phase 3 trials listed are for TNX-102 SL, a low-do
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02212048 | PMS-CYCLOBENZAPRINE - TAB 10MG | Not listed | Not listed |
-| 02357127 | JAMP-CYCLOBENZAPRINE | Not listed | Not listed |
-| 02424584 | CYCLOBENZAPRINE | Not listed | Not listed |
-| 02348853 | AURO-CYCLOBENZAPRINE | Not listed | Not listed |
-| 02080052 | TEVA-CYCLOBENZAPRINE | Not listed | Not listed |
+<!-- licenses:begin -->
 
-Ten valid single-ingredient licences are held in total; the five above are shown.
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02080052 | TEVA-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02177145 | APO-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02212048 | PMS-CYCLOBENZAPRINE - TAB 10MG | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02220644 | PRO-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02242079 | RIVA-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02287064 | CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02348853 | AURO-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02357127 | JAMP-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02424584 | CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+| 02485419 | AG-CYCLOBENZAPRINE | CYCLOBENZAPRINE HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
+
+Ten valid single-ingredient licences are held in total.
 
 ---
 

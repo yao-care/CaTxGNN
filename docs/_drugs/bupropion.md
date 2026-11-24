@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In Canada: 10 DINs (10 marketed)"
 ---
 
@@ -88,13 +88,24 @@ These are the same catecholamine pathways targeted by established ADHD treatment
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02275090 | WELLBUTRIN XL | – | – |
-| 02439662 | TEVA-BUPROPION XL | – | – |
-| 02475812 | TARO-BUPROPION XL | – | – |
-| 02275074 | ODAN BUPROPION SR | – | – |
-| 02238441 | ZYBAN | – | – |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02238441 | ZYBAN | BUPROPION HYDROCHLORIDE | Marketed |
+| 02275074 | ODAN BUPROPION SR | BUPROPION HYDROCHLORIDE | Marketed |
+| 02275082 | ODAN BUPROPION SR | BUPROPION HYDROCHLORIDE | Marketed |
+| 02275090 | WELLBUTRIN XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02275104 | WELLBUTRIN XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02439654 | TEVA-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02439662 | TEVA-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02472945 | CONTRAVE | BUPROPION HYDROCHLORIDE; NALTREXONE HYDROCHLORIDE | Marketed |
+| 02475804 | TARO-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02475812 | TARO-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 All 10 licences in the data are valid. Dosage form and indication text are not recorded in the local data.
 

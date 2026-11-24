@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 750
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4). Approved use: Not specified in the Canadian licence data (products are topical anti…"
 monitor_inn: "POLYMYXIN B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -94,13 +94,36 @@ Only one of these publications (2013) directly compares polymyxin B treatment ou
 
 ## Canada Market Information
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02236954 | Band-Aid Brand Adhesive Bandages Plus Antibiotic | Not listed | Not listed |
-| 02552418 | Soothe Antibiotic Drops | Not listed | Not listed |
-| 02230844 | Polysporin Antibiotic Cream | Not listed | Not listed |
-| 02230251 | Antibiotic Ointment USP | Not listed | Not listed |
-| 02181908 | Polyderm Ointment USP | Not listed | Not listed |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 00042676 | MAXITROL | DEXAMETHASONE; NEOMYCIN (NEOMYCIN SULFATE); POLYMYXIN B SULFATE | Marketed |
+| 00358177 | MAXITROL | DEXAMETHASONE; NEOMYCIN (NEOMYCIN SULFATE); POLYMYXIN B SULFATE | Marketed |
+| 00621366 | BIODERM OINTMENT | BACITRACIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 00701785 | OPTIMYXIN | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02181908 | POLYDERM OINTMENT USP | BACITRACIN ZINC; POLYMYXIN B SULFATE | Marketed |
+| 02230251 | ANTIBIOTIC OINTMENT USP | BACITRACIN ZINC; POLYMYXIN B SULFATE | Marketed |
+| 02230844 | POLYSPORIN ANTIBIOTIC CREAM | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02236917 | OZONOL ANTIBIOTICS PLUS | BACITRACIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02236954 | BAND-AID BRAND ADHESIVE BANDAGES PLUS ANTIBIOTIC | BACITRACIN ZINC; POLYMYXIN B SULFATE | Marketed |
+| 02237227 | POLYSPORIN ANTIBIOTIC OINTMENT | BACITRACIN ZINC; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239155 | POLYSPORIN PLUS PAIN RELIEF EAR DROPS | LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239156 | POLYSPORIN EYE AND EAR DROPS STERILE | GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239201 | POLYSPORIN PLUS PAIN RELIEF | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02239234 | SANDOZ POLYTRIMETHOPRIM | POLYMYXIN B SULFATE; TRIMETHOPRIM (TRIMETHOPRIM SULFATE) | Marketed |
+| 02246693 | TRIPLE ANTIBIOTIC OINTMENT | BACITRACIN ZINC; GRAMICIDIN; POLYMYXIN B (POLYMYXIN B SULFATE) | Marketed |
+| 02304457 | ANTIBIOTIC PLUS PAIN RELIEF CREAM | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B SULFATE | Marketed |
+| 02315033 | ANTIBIOTIC CREAM FOR KIDS | GRAMICIDIN; LIDOCAINE HYDROCHLORIDE; POLYMYXIN B SULFATE | Marketed |
+| 02317656 | ORIGINAL ANTIBIOTIC CREAM | GRAMICIDIN; POLYMYXIN B SULFATE | Marketed |
+| 02359928 | STERISPORIN | BACITRACIN ZINC; POLYMYXIN B SULFATE | Marketed |
+| 02552418 | SOOTHE ANTIBIOTIC DROPS | GRAMICIDIN; POLYMYXIN B SULFATE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 All 20 licences are valid single-ingredient authorizations; none are cancelled. They include topical creams and ointments, eye and ear drops, and ophthalmic combination products such as Maxitrol and Optimyxin. Dosage form and indication text are not available in the data compiled for this report.
 

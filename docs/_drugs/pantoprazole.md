@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PANTOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In Canada: at least 20 DINs"
@@ -103,7 +103,7 @@ Further trials were retrieved for the closely related duodenal ulcer prediction:
 
 ## Canada Market Information
 
-Dosage form and approved indication text are not available for these records. The first five are shown below.
+Dosage form and approved indication text are not available for these records.
 
 <!-- review:begin ca-lic-20261105-pantoprazole-1 -->
 
@@ -111,13 +111,36 @@ Dosage form and approved indication text are not available for these records. Th
 
 <!-- review:end ca-lic-20261105-pantoprazole-1 -->
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02481588 | AG-PANTOPRAZOLE SODIUM | Not available | Not available |
-| 02292920 | APO-PANTOPRAZOLE | Not available | Not available |
-| 02357054 | JAMP-PANTOPRAZOLE | Not available | Not available |
-| 02305046 | SPC-PANTOPRAZOLE | Not available | Not available |
-| 02285487 | TEVA-PANTOPRAZOLE | Not available | Not available |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02267233 | TECTA | PANTOPRAZOLE (PANTOPRAZOLE MAGNESIUM) | Marketed |
+| 02285487 | TEVA-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02292920 | APO-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM) | Marketed |
+| 02301075 | SANDOZ PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02305046 | SPC-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02318695 | PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM) | Marketed |
+| 02357054 | JAMP-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02370808 | PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02392615 | JAMP PANTOPRAZOLE SODIUM | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02415208 | AURO-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02417448 | MINT-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02428180 | PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02431327 | PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02440628 | TEVA-PANTOPRAZOLE MAGNESIUM | PANTOPRAZOLE (PANTOPRAZOLE MAGNESIUM) | Marketed |
+| 02458969 | PANTOPRAZOLE FOR INJECTION | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02466147 | PANTOPRAZOLE T | PANTOPRAZOLE (PANTOPRAZOLE MAGNESIUM HEMIPENTAHYDRATE) | Marketed |
+| 02467372 | M-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02481588 | AG-PANTOPRAZOLE SODIUM | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02557304 | NB-PANTOPRAZOLE | PANTOPRAZOLE (PANTOPRAZOLE SODIUM SESQUIHYDRATE) | Marketed |
+| 02306727 | PANTOPRAZOLE SODIUM FOR INJECTION | PANTOPRAZOLE (PANTOPRAZOLE SODIUM) | Cancelled post market |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 Injectable products (for example DIN 02458969 and 02306727) are also among the valid authorizations.
 

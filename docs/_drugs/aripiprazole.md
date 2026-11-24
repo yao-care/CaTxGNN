@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In Canada: at least 20 DINs"
 ---
 
@@ -98,15 +98,38 @@ One additional meta-analysis on aripiprazole or bupropion augmentation (PMID 386
 
 ## Canada Market Information
 
-Twenty single-ingredient licences are currently valid. The licence records available are partial, and no dosage form or indication text is recorded. Five are listed below.
+Twenty single-ingredient licences are currently valid. The licence records available are partial, and no dosage form or indication text is recorded.
 
-| DIN | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 02322412 | ABILIFY | Not recorded | Not recorded |
-| 02554569 | ABILIFY ASIMTUFII | Not recorded | Not recorded |
-| 02472228 | NRA-ARIPIPRAZOLE | Not recorded | Not recorded |
-| 02488051 | ARIPIPRAZOLE | Not recorded | Not recorded |
-| 02473704 | SANDOZ ARIPIPRAZOLE | Not recorded | Not recorded |
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02322412 | ABILIFY | ARIPIPRAZOLE | Marketed |
+| 02448173 | AG-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02460033 | AURO-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02460068 | AURO-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02471108 | APO-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02472228 | NRA-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02472260 | NRA-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02473666 | SANDOZ ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02473674 | SANDOZ ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02473690 | SANDOZ ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02473704 | SANDOZ ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02479346 | RIVA-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02483564 | MINT-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02483580 | MINT-ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02488051 | ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02506718 | ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02534371 | ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02553198 | JAMP ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02553236 | JAMP ARIPIPRAZOLE | ARIPIPRAZOLE | Marketed |
+| 02554569 | ABILIFY ASIMTUFII | ARIPIPRAZOLE | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
