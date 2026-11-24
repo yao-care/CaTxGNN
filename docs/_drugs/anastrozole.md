@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anastrozole: predicted new indication Neuroblastoma (evidence level L5). In Canada: 19 DINs (18 marketed, 1 dormant)"
 ---
 
@@ -67,6 +67,36 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 Currently no related literature available.
+
+## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02224135 | ARIMIDEX | ANASTROZOLE | Marketed |
+| 02320738 | PMS-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02338467 | SANDOZ ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02339080 | JAMP-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02351218 | ACH-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02365650 | TARO-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02374420 | APO-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02379562 | MAR-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02392259 | RIVA-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02392488 | BIO-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02393573 | MINT-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02394898 | TEVA-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02395649 | PRO-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02417855 | NAT-ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02442736 | ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02529904 | ANASTROZOLE | ANASTROZOLE | Marketed |
+| 02540584 | JAMP ANASTROZOLE TABLETS | ANASTROZOLE | Marketed |
+| 02553686 | AG-ANASTROZOLE TABLETS | ANASTROZOLE | Marketed |
+| 02534118 | AG-ANASTROZOLE | ANASTROZOLE | Dormant |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

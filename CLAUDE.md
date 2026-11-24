@@ -576,3 +576,11 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 待查清單 11-24 新增的 28 項全部處理、標 resolved（附 record_ids）；剩 open 的 111 項都是作用機轉待查。
 - 缺表的頁（項目 3）：公開頁裡市場段落沒有程式表的只有 almotriptan、carboplatin、anastrozole 3 頁，它們整頁沒有市場段落，照第一波站的做法不加。
 - 驗證：checker 全量前後都是 0；gate exit 0；`rewrite_license_counts.py --check` 0 頁待改；另寫的寬偵測（舊表相對字樣、紀錄更正文字裡的張數）複查，剩下的是不含數字的「Other licences include …」、表外說明（例 latanoprost「listed in the data as single entries」）與 B 管得到的張數句。
+
+## 整頁沒有市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定（比照 JpTxGNN 第二輪的 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有「## Canada Market Information」、但證據包有 DIN 紀錄的，補段落與程式表。
+- `scripts/sync_license_tables.py` 的 `add_section`：放在「## Safety Considerations」之前（沒有就 Conclusion and Next Steps、再沒有就 Disclaimer）；表與表下說明照 program_block；noindex 頁、沒有紀錄的頁不補。
+  apply_drug_reviews.py、build_license_snapshot.py 結尾與每週排程 sync_tables 都會跑；`PAGE_NOTE` 放行補的段落標題行。
+- gate 第 18 項（`src/catxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
+- 2026-11-24 全量量測 3 頁、補 3 頁：almotriptan（6 個 DIN）、carboplatin（3 個）、anastrozole（19 個，1 個 dormant）；三頁正文的市場說法（「currently marketed in Canada」等）跟事實層一致，沒有新紀錄。checker 全量前後都是 0；gate exit 0。

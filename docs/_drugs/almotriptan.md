@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "ALMOTRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
@@ -65,6 +65,23 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 Currently no related literature available.
+
+## Canada Market Information
+
+<!-- licenses:begin -->
+
+| DIN | Product Name | Active Ingredients (DPD) | Status |
+|------|------|------|------|
+| 02398435 | MYLAN-ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+| 02398443 | MYLAN-ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+| 02405334 | SANDOZ ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+| 02424029 | ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+| 02434849 | TEVA-ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+| 02466821 | ALMOTRIPTAN | ALMOTRIPTAN (ALMOTRIPTAN MALATE) | Marketed |
+
+Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

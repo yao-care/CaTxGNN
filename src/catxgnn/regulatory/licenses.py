@@ -8,6 +8,7 @@
   3. 概覽表的狀態列與張數列＝事實層的寫法：用本站 tools/txgnn/.claude/check_drug_page.py 的 marketed_text／not_marketed_text／
      unknown_status_text／not_reg_text／count_text（checker M1／M4 的同一套函式）。
   4. 表格列寫的狀態不得跟事實相反（checker row_status_conflicts）。
+  5. 公開頁（非 noindex）快照有程式表列，卻整頁沒有市場段落（2026-11-24 第三輪）。
 修法：資料變了→跑每週排程（或 scripts/build_license_snapshot.py 重建快照）；正文的號碼、狀態不對→寫查核紀錄
 （docs/_data/drug_reviews.json）再跑 scripts/apply_drug_reviews.py。
 """
@@ -142,6 +143,10 @@ def page_problems(stem: str, text: str) -> list[str]:
                 errs.append(f"程式區塊表格下方的程式文字應為「{' '.join(e['show']) or '（無）'}」")
         elif s is not None and "rows" in e:
             errs.append("市場段落沒有程式許可證區塊（跑 python3 scripts/sync_license_tables.py）")
+    # 2026-11-24 第三輪：公開頁沒有市場段落、證據包卻有紀錄 → 要補程式表段落（sync_license_tables.add_section）
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if a is None and e.get("rows") and not re.search(r"^noindex:\s*true", fm, re.M):
+        errs.append("公開頁有 DIN 紀錄卻沒有「## Canada Market Information」段落（跑 scripts/sync_license_tables.py）")
     fc = e.get("facts")
     if fc:
         all_rows = [r for t in _tables(lines) for r in _rows(t)]
