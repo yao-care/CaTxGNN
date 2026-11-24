@@ -545,3 +545,22 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：abatacept「Approved use: Not recorded in the local data」→「In Canada: 2 DINs (2 marketed)」；2026-11-19 改了 437 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site CaTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 許可證表與正文張數由程式產生（2026-11-24）
+
+用戶 2026-11-24 決定（各站「許可證張數與狀態不再每週過期」）：每週許可證排程只改概覽表狀態列／張數列，市場段落的 AI 自由格式許可證表（表頭多是「DIN | Product Name | Dosage Form | Approved Indication」、兩欄全是「Not specified」，只列前 5 筆）與正文寫死的張數會跟著 Health Canada DPD 過期、讓 checker 擋整頁；改成程式產生、每週自動同步。
+- A. 程式許可證表：`scripts/sync_license_tables.py`。「## Canada Market Information」段落的第一張許可證表換成程式依證據包（tfda.records＝DPD 的 DIN）產生的表
+  「| DIN | Product Name | Active Ingredients (DPD) | Status |」：列＝證據包全部紀錄（收集器最多 20 筆），排序 Marketed→Approved／Dormant→Cancelled、同狀態依 DIN；品名、成分照 DPD 原文；
+  狀態照 DPD STATUS 原文寫法（MARKETED→Marketed、DORMANT→Dormant、CANCELLED POST MARKET→Cancelled post market…）。表後一句來源（SOURCE；不寫「marketed」字樣，免得 checker M3 當成正文上市說法——第一版寫了「not currently marketed」，checker 誤中 956 頁）；
+  證據包只收到部分 DIN（total_matches 大於紀錄數或事實層 partial）時另一句 PART_NOTE；沒有紀錄時一句 NONE_LINE。前後 `<!-- licenses:begin -->`／`<!-- licenses:end -->`；段落沒有表時放在段落開頭，沒有市場段落的頁（公開頁 3 頁）不加。
+  快照 `snapshots/ca_licenses.json.gz` 存 rows／show（build_license_snapshot.py 用 program_rows）；gate 第 18 項（src/catxgnn/regulatory/licenses.py）擋「市場段落沒有程式區塊」「程式區塊≠快照重算」。
+  每週排程由 `scripts/license_adapter.py` 的 `sync_tables`（--bundles，所有頁比對、只寫有變的）重排，`PAGE_NOTE` 讓 3b 自我檢查放行程式區塊的非表格行；`apply_drug_reviews.py`（非 --check）結尾、`build_license_snapshot.py` 結尾（不給 --ws 時只跑這步與 B）也會跑。
+  第一次換表（`--migrate`）一併拿掉市場段落裡只講舊表列了幾筆的整句與句尾子句（字詞白名單 CAP_WORDS 判斷，例「The first five are listed below.」「…; the five above are shown.」「These are 5 of 9 valid authorizations」），查核紀錄更正文字所在的句子不動。
+- B. 正文張數程式改寫：`scripts/rewrite_license_counts.py`＋`src/catxgnn/regulatory/count_prose.py`（照 Kr／My／DE 移植，英文句型：「N valid licences」「N DINs」「N of M … are valid」「Eight licences are valid in Canada」「Of the N DINs, M are valid」）；
+  有效數同時接受 MARKETED 與 MARKETED＋DORMANT（DORMANT 法律上仍有效，同 checker LEGAL_NM_VALID）。有保留、講查詢、相對數、劑型／品牌／複方子集、講表格顯示筆數、待辦條目、partial 頁不動；
+  單方張數（single-ingredient）跟事實不符的不改（本站 11-06 慣例是刪「single-ingredient」字樣、checker 以總數比）、跨過 1（單複數）、both、全稱與「none cancelled」前提不符的不改，列待查。gate 第 22 項擋「再跑一次會變」。
+- 2026-11-24 第一次套用（資料 data-20261112-154112）：程式表 970 頁（公開頁 929：AI 表 925 頁換掉、段落裡沒有表的 4 頁補上；noindex 41 頁）；拿掉舊表說明句／子句 224 處；正文張數改寫 0 句（頁面跟快照一致；試跑時唯一要改的 efavirenz「Eight valid single-entity」是單方張數，改成照上面規則不改、列待查）；
+  被取代的表上沒有錨著的查核紀錄（superseded 0 筆）。待查清單加 28 項：舊表說明句 26 句（查核紀錄更正文字 18 句、句子同時講別的事 8 句，例 acebutolol「Only the first five are listed here; the sixth is APO-ACEBUTOLOL」）、B 判斷不了 2 句。
+  另寫的寬偵測（正文 DIN 張數／狀態跟事實層不符或仍講表上筆數）139 句→71 句；剩下多是「另外還有某幾張」的補充句（Two further authorizations … are also valid）、部分紀錄頁的「at least 20 … may be partial」、以及上面列待查的說明句。
+  checker 全量前後都是 0；gate exit 0。last_modified_at：程式表改到的 970 頁改 2026-11-24。
+- 母目錄 `.claude/license_labels/CaTxGNN.json` 目前只有「Valid」：程式表寫的狀態字 Marketed（valid）、Dormant（not_marketed）、Cancelled post market（cancelled）沒有對應，排程 lts.apply 會略過這些格（由 sync_tables 重排），要在母目錄補上。
