@@ -97,7 +97,13 @@ Of the 18 publications retrieved, the most relevant are listed below. Case repor
 
 ## Canada Market Information
 
-Health Canada lists 20 valid single-ingredient authorisations, all injectable or infusion products. The data compiled for this report do not include dosage forms or approved indication text.
+Health Canada lists potassium chloride injections and infusion solutions (alone or premixed with dextrose and/or sodium chloride) and haemodialysis products. The data compiled for this report do not include dosage forms or approved indication text.
+
+<!-- review:begin ca-lic-20261124b-potassium_chloride-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Health Canada lists 20 valid single-ingredient authorisations, all injectable or infusion products." Corrected: in the Health Canada DPD product records, the potassium chloride DINs on this page include combination products (premixed with dextrose and/or sodium chloride) and haemodialysis products, so describing them all as single-ingredient injectable or infusion products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-potassium_chloride-2 -->
 
 <!-- licenses:begin -->
 
@@ -130,7 +136,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The other 15 products are potassium chloride premixed with dextrose and/or sodium chloride solutions, plus one product named K+ 45.
+The licences also include potassium chloride premixed with dextrose and/or sodium chloride solutions, plus one product named K+ 45.
+
+<!-- review:begin ca-lic-20261124b-potassium_chloride-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The other 15 products are potassium chloride premixed" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-potassium_chloride-1 -->
 
 ---
 
@@ -169,6 +181,20 @@ No clinical trials support this prediction, and the literature consists mainly o
 - A clear comparison of potassium chloride against potassium citrate or alkali therapy in distal RTA
 - Reframing the question as supportive hypokalaemia management in RTA, not as treatment of the disease itself
 - Safety review for patients with kidney impairment, nephrocalcinosis, and concurrent potassium-raising drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "The other 15 products are potassium chloride premixed" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "Health Canada lists 20 valid single-ingredient authorisations, all injectable or infusion products." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

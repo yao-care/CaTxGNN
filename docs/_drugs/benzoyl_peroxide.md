@@ -83,7 +83,13 @@ No literature is available for the top predicted indication. For the fourth-rank
 
 ## Canada Market Information
 
-Twenty single-ingredient licences are currently valid, and none are cancelled. The data compiled for this report do not include dosage form or approved-indication text, so those fields are left blank.
+<!-- review:begin ca-lic-20261124b-benzoyl_peroxide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: ", so those fields are left blank" Removed: it described the columns of the earlier licence table; the table under Canada Market Information is now generated from the Health Canada DPD data and shows each DIN's product name, active ingredients and status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-benzoyl_peroxide-1 -->
+
+Twenty single-ingredient licences are currently valid, and none are cancelled. The data compiled for this report do not include dosage form or approved-indication text.
 
 <!-- licenses:begin -->
 
@@ -151,11 +157,12 @@ The prediction score is very high (0.9992), but it is supported by no trials or 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epsolay (benzoyl peroxide) prescribing information, Mayne Pharma Commercial LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=641981e6-460b-44dd-8146-306c47e5367c) |
+| 2026-11-24 | Removed: ", so those fields are left blank" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

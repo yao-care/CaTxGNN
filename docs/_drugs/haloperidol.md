@@ -100,7 +100,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The remaining four include other haloperidol injection products and a long-acting formulation (HALOPERIDOL LA).
+The licences also include other haloperidol injection products and a long-acting formulation (HALOPERIDOL LA).
+
+<!-- review:begin ca-lic-20261124b-haloperidol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining four include other haloperidol injection products" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-haloperidol-1 -->
 
 ---
 
@@ -136,11 +142,12 @@ It is supported by a completed Phase 3 haloperidol- and placebo-controlled olanz
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism of action data was not available in the data compiled for this report, so this description rests on the drug's well-established pharmacology" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
+| 2026-11-24 | Reworded: "The remaining four include other haloperidol injection products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

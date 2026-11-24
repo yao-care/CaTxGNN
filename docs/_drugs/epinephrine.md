@@ -135,7 +135,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The remaining licences include other epinephrine injections, ADRENALIN, and several dental or local anaesthetic products combining lidocaine with epinephrine.
+The licences also include other epinephrine injections, ADRENALIN, and several dental or local anaesthetic products combining lidocaine with epinephrine.
+
+<!-- review:begin ca-lic-20261124b-epinephrine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining licences include other epinephrine injections," Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-epinephrine-1 -->
 
 ## Safety Considerations
 
@@ -174,6 +180,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-05 | Removed: "Twenty single-ingredient licences are valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-20 | "Detailed mechanism-of-action data was not available in the data compiled for this report, so this description is based on the established pharmacology of the drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
+| 2026-11-24 | Reworded: "The remaining licences include other epinephrine injections," | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

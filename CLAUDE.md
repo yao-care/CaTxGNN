@@ -564,3 +564,15 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   另寫的寬偵測（正文 DIN 張數／狀態跟事實層不符或仍講表上筆數）139 句→71 句；剩下多是「另外還有某幾張」的補充句（Two further authorizations … are also valid）、部分紀錄頁的「at least 20 … may be partial」、以及上面列待查的說明句。
   checker 全量前後都是 0；gate exit 0。last_modified_at：程式表改到的 970 頁改 2026-11-24。
 - 母目錄 `.claude/license_labels/CaTxGNN.json` 目前只有「Valid」：程式表寫的狀態字 Marketed（valid）、Dormant（not_marketed）、Cancelled post market（cancelled）沒有對應，排程 lts.apply 會略過這些格（由 sync_tables 重排），要在母目錄補上。
+
+## 許可證張數與舊表說法的第二輪查核（2026-11-24）
+
+用戶 2026-11-24 決定（第二輪，各站同日）：第一輪（市場段落換成程式許可證表、正文張數由程式改寫）列進待查的句子，以及查核紀錄更正文字裡寫死的張數，逐句寫查核紀錄處理；更正文字不寫死張數，改指向概覽表與程式表。資料：Release data-20261112-154112、快照 snapshots/ca_licenses.json.gz（2026-11-24）。
+- 查核紀錄更正文字裡的張數／舊表筆數（「Twelve valid licenses exist in total; the five above are shown.」等）：99 筆同 id 重發，換成「The table above/below lists each DIN with its current status in the DPD.」或保留品名等非張數內容的寫法（例 insulin_aspart、serine、lactic_acid）；前版存 history（reason：程式許可證表／正文張數改由程式維護）。atropine 的紀錄更正文字裡「so those columns are left blank」一併拿掉（同 id 重發）。
+- `scripts/reviews_from_edits.py` 的 `figures()` 說明樣板改成不寫數字（「The Quick Overview and the table under Canada Market Information show the current number and status of DINs.」）；說明裡寫死「The DPD lists N DINs for this drug, N marketed」的 31 筆另同 id 重發（只改說明）。
+- 舊表（只列 5 筆）的相對說法：市場段落「A sixth authorization … is also valid」「The remaining N are …」「Only the first five are listed here」「(5 of 6 … shown)」等 81 句寫新紀錄（`ca-lic-20261124b-*`）：只列舉不在舊表上的 DIN 的句子刪除（52 句，程式表已列出證據包全部 DIN 與現行狀態），描述其餘產品類型的句子改成「The licences also include …」、拿掉數字（29 句）；第一輪拿掉舊表說明句前半後留下的半句「None is cancelled.」4 句刪除；描述舊表欄位（「so those columns are left blank」「the table shows only the DIN and product name」等）4 處刪除。
+- 單方標籤錯誤（正文寫 single-ingredient／single-entity 而證據包成分欄為複方）：18 句以 `ca-lic-20261124b-*` 更正（efavirenz「Eight valid single-entity」→單方與 efavirenz/emtricitabine/tenofovir 複方並存；valine、alanine、histidine 等胺基酸與 clavulanic_acid、doxylamine、levodopa、polymyxin_b 全為複方；sacubitril 的 ENTRESTO 是與 valsartan 的複方等），部分收錄頁另以 data/raw 的 DPD 2026-03 全量檔確認沒有單方 DIN。
+- 劑型說法（項目 2）：本站證據包沒有劑型欄，改用 DPD 全量檔（data/raw/form.txt、route.txt，2026-03）逐 DIN 對照全站公開頁的劑型／給藥途徑句；不成立的 3 句更正（cromoglicic_acid 的「eye drop and a nasal product」實為眼藥水與口服膠囊 NALCROM、ciclesonide「an inhaled product」另有鼻噴劑、potassium_chloride「all injectable or infusion products」另有血液透析用產品且含複方），其餘（「marketed in Canada as an injectable」「the only Canadian product is an injection」等）逐句對過成立、不改。
+- 待查清單 11-24 新增的 28 項全部處理、標 resolved（附 record_ids）；剩 open 的 111 項都是作用機轉待查。
+- 缺表的頁（項目 3）：公開頁裡市場段落沒有程式表的只有 almotriptan、carboplatin、anastrozole 3 頁，它們整頁沒有市場段落，照第一波站的做法不加。
+- 驗證：checker 全量前後都是 0；gate exit 0；`rewrite_license_counts.py --check` 0 頁待改；另寫的寬偵測（舊表相對字樣、紀錄更正文字裡的張數）複查，剩下的是不含數字的「Other licences include …」、表外說明（例 latanoprost「listed in the data as single entries」）與 B 管得到的張數句。

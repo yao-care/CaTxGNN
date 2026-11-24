@@ -89,7 +89,11 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-None of the licences is cancelled.
+<!-- review:begin ca-lic-20261124b-ursodeoxycholic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "None of the licences is cancelled." Removed: this was the remainder of a sentence describing the earlier licence table, which showed only some of the DINs; the table under Canada Market Information now shows the current status of each DIN. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-ursodeoxycholic_acid-1 -->
 
 ## Safety Considerations
 
@@ -114,6 +118,19 @@ The prediction is supported only by the model score (L5), with no clinical trial
 - Canadian package insert warnings, contraindications and approved indication text for the 8 DINs
 - Preclinical or early-phase data showing a meaningful LDL-C effect in homozygous patients, compared with current standard therapy
 - Review of the full interaction list, particularly with lipid-lowering agents such as pravastatin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "None of the licences is cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

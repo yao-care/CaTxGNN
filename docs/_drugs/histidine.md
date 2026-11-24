@@ -80,7 +80,13 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-All 20 licences are valid single-ingredient products. Dosage form and approved indication text are not available in the data compiled for this report.
+The DINs in the data are combination products. Dosage form and approved indication text are not available in the data compiled for this report.
+
+<!-- review:begin ca-lic-20261124b-histidine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All 20 licences are valid single-ingredient products." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-histidine-1 -->
 
 <!-- licenses:begin -->
 
@@ -151,6 +157,19 @@ The model's second prediction is **sclerosing cholangitis** (score 0.9927, evide
 - **Other papers:** The remaining papers cover diagnostic biomarkers, genetics and post-transplant biliary lesions.
 
 This prediction is not recommended for progression without evidence that the direction of effect is favourable.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "All 20 licences are valid single-ingredient products." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

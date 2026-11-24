@@ -106,7 +106,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid. All six are single-ingredient products, and none is cancelled.
+<!-- review:begin ca-lic-20261124b-oxcarbazepine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-oxcarbazepine-1 -->
+
+All six are single-ingredient products, and none is cancelled.
 
 ---
 
@@ -154,11 +160,12 @@ The prediction for restless legs syndrome rests on the model score and a plausib
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+| 2026-11-24 | Removed: "One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

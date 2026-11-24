@@ -99,7 +99,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid. All 6 licences are single-ingredient products and none are cancelled.
+<!-- review:begin ca-lic-20261124b-vortioxetine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-vortioxetine-1 -->
+
+All 6 licences are single-ingredient products and none are cancelled.
 
 ---
 
@@ -134,11 +140,12 @@ The prediction rests on model output alone, with no trials and only one non-vort
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+| 2026-11-24 | Removed: "One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

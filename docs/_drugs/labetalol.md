@@ -109,11 +109,11 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The five above are shown as the main ones.
+The table above lists each DIN with its current status in the DPD.
 
 <!-- review:begin ca-lic-20261105-labetalol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Eleven valid single-ingredient licences are listed in total. The five above are shown as the main ones." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-labetalol-1 -->
 
@@ -153,7 +153,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Eleven valid single-ingredient licences are listed in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "Eleven valid single-ingredient licences are listed in total"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
 
 <!-- review:end log -->

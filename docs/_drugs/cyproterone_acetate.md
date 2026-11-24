@@ -106,7 +106,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Nine licences are valid in total. The remaining four are TEVA-CYPROTERONE / ETHINYL ESTRADIOL (02309556), CYESTRA-35 (02290308), CLÉO-35 (02436736) and TARO-CYPROTERONE/ETHINYL ESTRADIOL (02425017).
+<!-- review:begin ca-lic-20261124b-cyproterone_acetate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining four are TEVA-CYPROTERONE / ETHINYL ESTRADIOL (02309556), CYESTRA-35 (02290308), CLÉO-35 (02436736) and TARO-CYPROTERONE/ETHINYL ESTRADIOL (02425017)." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-cyproterone_acetate-1 -->
+
+Nine licences are valid in total.
 
 ---
 
@@ -143,6 +149,18 @@ The prediction rests on a model score and indirect literature. No trial or paper
 | Thrombophilia | L5 | The literature shows CPA-containing contraceptives raise thrombotic risk, a harm signal | Hold |
 | Migraine with brainstem aura, migraine susceptibility | L5 | Literature is about vascular risk, a safety signal | Hold |
 | Prinzmetal angina, antithrombin deficiency type 2, heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis | L5 | Prediction only, with no clinical evidence; several are thrombosis-related, where CPA is a risk factor | Hold |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "The remaining four are TEVA-CYPROTERONE / ETHINYL ESTRADIOL (02309556), CYESTRA-35 (02290308), CLÉO-35 (02436736) and TARO-CYPROTERONE/ETHINYL ESTRADIOL (02425017)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

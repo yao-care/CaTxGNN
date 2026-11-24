@@ -107,7 +107,13 @@ For reference, the most relevant publications retrieved for other predictions ar
 
 ## Canada Market Information
 
-All 20 licenses are valid single-ingredient products. Dosage form and approved indication text are not recorded in the data compiled for this report.
+The DINs in the data are combination products. Dosage form and approved indication text are not recorded in the data compiled for this report.
+
+<!-- review:begin ca-lic-20261124b-tyrosine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All 20 licenses are valid single-ingredient products." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-tyrosine-1 -->
 
 <!-- licenses:begin -->
 
@@ -166,6 +172,19 @@ The prediction for cauda equina syndrome rests solely on a model score, with no 
 - Original approved indication text for the Canadian products
 - A plausible biological rationale linking tyrosine to cauda equina syndrome, followed by preclinical or clinical studies
 - Consideration of the rank 5 prediction (postural orthostatic tachycardia syndrome), which has a plausible catecholamine link, as a better-motivated alternative, although direct evidence is still absent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "All 20 licenses are valid single-ingredient products." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

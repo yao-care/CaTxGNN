@@ -91,11 +91,17 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Fourteen valid licences are listed in Canada. Dosage form, manufacturer, and approved-indication text are not available for any of them, so the table shows only the DIN and product name.
+<!-- review:begin ca-lic-20261124b-tobramycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: ", so the table shows only the DIN and product name" Removed: it described the columns of the earlier licence table; the table under Canada Market Information is now generated from the Health Canada DPD data and shows each DIN's product name, active ingredients and status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-tobramycin-1 -->
+
+The table below lists each DIN with its current status in the DPD. Dosage form, manufacturer, and approved-indication text are not available for any of them.
 
 <!-- review:begin ca-lic-20261106-tobramycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Fourteen valid single-ingredient licences are listed in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Fourteen valid single-ingredient licences are listed in Canada." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence; the Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261106-tobramycin-1 -->
 
@@ -173,8 +179,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "single-ingredient"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
+| 2026-11-24 | Removed: ", so the table shows only the DIN and product name" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

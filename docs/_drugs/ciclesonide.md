@@ -60,7 +60,13 @@ According to the Mechanism of Action section of the US FDA-approved prescribing 
 
 Corticosteroids are an established treatment class for atopic eczema, an inflammatory skin disease. This makes the prediction mechanistically plausible. However, this reasoning is by class analogy only. No study of ciclesonide itself in atopic eczema was supplied.
 
-Ciclesonide is an inhaled product. Use on the skin, or systemically, would need separate formulation, route and safety evaluation. Route compatibility has not yet been assessed.
+Ciclesonide is marketed in Canada as inhaled and intranasal products. Use on the skin, or systemically, would need separate formulation, route and safety evaluation. Route compatibility has not yet been assessed.
+
+<!-- review:begin ca-lic-20261124b-ciclesonide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Ciclesonide is an inhaled product." Corrected: the dosage forms described here did not match the Health Canada DPD product records (dosage form and route of administration) for the DINs on this page; the sentence now names the forms in those records. The table under Canada Market Information lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-ciclesonide-1 -->
 
 Two other model outputs, "dermatitis, atopic" and "2-hydroxyethyl methacrylate sensitization", also have no supporting studies. The "dermatitis, atopic" entry is essentially the same condition as the main prediction and should be consolidated with it in later review.
 
@@ -127,11 +133,12 @@ The prediction score is high (0.9996), and corticosteroids are mechanistically r
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data for ciclesonide is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+| 2026-11-24 | Reworded: "Ciclesonide is an inhaled product." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

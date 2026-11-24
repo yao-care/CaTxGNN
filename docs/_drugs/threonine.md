@@ -80,7 +80,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Threonine is marketed in Canada with 20 valid single-ingredient authorisations. Dosage form, manufacturer and approved indication text were not available in the licence records.
+Threonine is marketed in Canada in combination amino acid and parenteral nutrition products. Dosage form, manufacturer and approved indication text were not available in the licence records.
+
+<!-- review:begin ca-lic-20261124b-threonine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Threonine is marketed in Canada with 20 valid single-ingredient authorisations." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-threonine-2 -->
 
 <!-- licenses:begin -->
 
@@ -113,7 +119,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The remaining 15 authorisations include further CLINIMIX and CLINIMIX E strengths, 20% PROSOL, ESSEPNA, OLIMEL 5.7%, and SMOFKABIVEN (electrolyte free and extra nitrogen electrolyte free).
+The authorisations also include further CLINIMIX and CLINIMIX E strengths, 20% PROSOL, ESSEPNA, OLIMEL 5.7%, and SMOFKABIVEN (electrolyte free and extra nitrogen electrolyte free).
+
+<!-- review:begin ca-lic-20261124b-threonine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining 15 authorisations include further" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-threonine-1 -->
 
 ---
 
@@ -139,6 +151,20 @@ The prediction rests only on a high model score (Evidence Level L5). There are n
 - A literature and trial search for threonine and gastric motility or gastroparesis, including preclinical studies
 - Assessment of route compatibility: the Canadian products are parenteral nutrition formulations, and whether a route suitable for gastroparesis exists is undetermined
 - Approved indication text and dosage forms for the Canadian authorisations, to define the original indication clearly
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "The remaining 15 authorisations include further" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "Threonine is marketed in Canada with 20 valid single-ingredient authorisations." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

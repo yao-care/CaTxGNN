@@ -111,7 +111,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The data compiled for this report list 10 valid licences in total (all single-entity records, none cancelled). The other products include ARTHROTEC 50, GD-DICLOFENAC/MISOPROSTOL 50 and 75, MIFEGYMISO and FEMYSO.
+<!-- review:begin ca-lic-20261124b-misoprostol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(all single-entity records, none cancelled)" Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-misoprostol-1 -->
+
+The data compiled for this report list 10 valid licences in total. The other products include ARTHROTEC 50, GD-DICLOFENAC/MISOPROSTOL 50 and 75, MIFEGYMISO and FEMYSO.
 
 ---
 
@@ -145,11 +151,12 @@ The only support is a high model score (0.9964) with an indirect mechanistic lin
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+| 2026-11-24 | Removed: "(all single-entity records, none cancelled)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

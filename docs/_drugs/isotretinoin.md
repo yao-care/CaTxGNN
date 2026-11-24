@@ -93,7 +93,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Showing 5 of 12 valid single-ingredient licences (EPURIS, CLARUS, ABSORICA LD, ACCUTANE). None are cancelled.
+The single-ingredient licences include EPURIS, CLARUS, ABSORICA LD and ACCUTANE. None are cancelled.
+
+<!-- review:begin ca-lic-20261124b-isotretinoin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Showing 5 of 12 valid single-ingredient licences (EPURIS, CLARUS, ABSORICA LD, ACCUTANE)." Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-isotretinoin-1 -->
 
 ## Safety Considerations
 
@@ -134,11 +140,12 @@ The prediction rests only on a high model score (0.9901), with no clinical trial
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+| 2026-11-24 | Reworded: "Showing 5 of 12 valid single-ingredient licences (EPURIS, CLARUS, ABSORICA LD, ACCUTANE)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

@@ -108,7 +108,7 @@ Approved indication text and dosage form were not available in the compiled data
 
 <!-- review:begin ca-lic-20261105-ketorolac-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "The 14 valid single-ingredient licences are listed below (up to 5 shown). Approved indication text and dosage form were not available in the compiled data." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 14 DINs for this drug, 11 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "The 14 valid single-ingredient licences are listed below (up to 5 shown). Approved indication text and dosage form were not available in the compiled data." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-ketorolac-1 -->
 
@@ -180,7 +180,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "The 14 valid single-ingredient licences are listed below (up to 5 shown)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "The 14 valid single-ingredient licences are listed below (up to 5 shown)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->

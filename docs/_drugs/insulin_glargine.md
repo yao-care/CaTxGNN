@@ -113,11 +113,17 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Nine DINs are valid in total. The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293).
+<!-- review:begin ca-lic-20261124b-insulin_glargine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293)." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-insulin_glargine-1 -->
+
+The table above lists each DIN with its current status in the DPD.
 
 <!-- review:begin ca-lic-20261106-insulin_glargine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Nine DINs are valid in total (all single-ingredient products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 9 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Nine DINs are valid in total (all single-ingredient products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261106-insulin_glargine-1 -->
 
@@ -158,8 +164,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "(all single-ingredient products)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "(all single-ingredient products)"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
+| 2026-11-24 | Removed: "The other four are LANTUS (02251930), BASAGLAR (02444844), SEMGLEE (02526441) and SOLIQUA (02478293)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

@@ -87,7 +87,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Six valid single-ingredient licences are held in total. The sixth is NEOSTIGMINE METHYLSULFATE INJECTION, USP (DIN 02537516).
+<!-- review:begin ca-lic-20261124b-neostigmine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The sixth is NEOSTIGMINE METHYLSULFATE INJECTION, USP (DIN 02537516)." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-neostigmine-1 -->
+
+Six valid single-ingredient licences are held in total.
 
 ## Safety Considerations
 
@@ -124,11 +130,12 @@ The predicted indication has no trial or literature support. It is a subtype of 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description comes from general pharmacology" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
+| 2026-11-24 | Removed: "The sixth is NEOSTIGMINE METHYLSULFATE INJECTION, USP (DIN 02537516)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

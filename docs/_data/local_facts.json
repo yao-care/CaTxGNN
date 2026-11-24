@@ -21,11 +21,11 @@
   "items_current": 3840
  },
  "reviews": {
-  "records": 921,
-  "pages": 808,
-  "public_pages_with_records": 798,
+  "records": 1031,
+  "pages": 825,
+  "public_pages_with_records": 814,
   "by_action": {
-   "correct": 166,
+   "correct": 276,
    "mechanism": 755
   }
  },
@@ -49,7 +49,7 @@
    "l": "L4",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "obsessive-compulsive disorder"
   },
   {
@@ -58,7 +58,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 20,
-   "r": 1,
+   "r": 2,
    "i": "allergic urticaria"
   },
   {
@@ -103,7 +103,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 19,
-   "r": 1,
+   "r": 2,
    "i": "feline acquired immunodeficiency syndrome"
   }
  ],
@@ -220,58 +220,58 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
-   "t": "Lactic Acid",
-   "u": "/drugs/lactic-acid/",
-   "l": "L5",
-   "lt": 3,
-   "lv": 3,
-   "r": 3,
-   "i": "atypical coarctation of aorta"
+   "t": "Triamcinolone",
+   "u": "/drugs/triamcinolone/",
+   "l": "L4",
+   "lt": 16,
+   "lv": 16,
+   "r": 4,
+   "i": "alopecia mucinosa"
   },
   {
-   "t": "Lurasidone",
-   "u": "/drugs/lurasidone/",
+   "t": "Chlorthalidone",
+   "u": "/drugs/chlorthalidone/",
+   "l": "L5",
+   "lt": 8,
+   "lv": 8,
+   "r": 3,
+   "i": "primary hereditary glaucoma"
+  },
+  {
+   "t": "Cilazapril",
+   "u": "/drugs/cilazapril/",
+   "l": "L5",
+   "lt": 8,
+   "lv": 8,
+   "r": 3,
+   "i": "pulmonary hypertension owing to lung disease and/or hypoxia"
+  },
+  {
+   "t": "Citric Acid",
+   "u": "/drugs/citric-acid/",
+   "l": "L5",
+   "lt": 10,
+   "lv": 10,
+   "r": 3,
+   "i": "stomach disease"
+  },
+  {
+   "t": "Epinephrine",
+   "u": "/drugs/epinephrine/",
    "l": "L5",
    "lt": 0,
-   "lv": 17,
+   "lv": 18,
    "r": 3,
-   "i": "retinal dystrophy with or without extraocular anomalies"
+   "i": "obstructive lung disease"
   },
   {
-   "t": "Pantoprazole",
-   "u": "/drugs/pantoprazole/",
+   "t": "Fluorouracil",
+   "u": "/drugs/fluorouracil/",
    "l": "L5",
-   "lt": 0,
-   "lv": 19,
+   "lt": 7,
+   "lv": 7,
    "r": 3,
-   "i": "duodenal obstruction"
-  },
-  {
-   "t": "Pregabalin",
-   "u": "/drugs/pregabalin/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 20,
-   "r": 3,
-   "i": "tendinitis"
-  },
-  {
-   "t": "Acyclovir",
-   "u": "/drugs/acyclovir/",
-   "l": "L5",
-   "lt": 20,
-   "lv": 20,
-   "r": 2,
-   "i": "punctate epithelial keratoconjunctivitis"
-  },
-  {
-   "t": "Alteplase",
-   "u": "/drugs/alteplase/",
-   "l": "L5",
-   "lt": 3,
-   "lv": 3,
-   "r": 2,
-   "i": "heparin cofactor 2 deficiency"
+   "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
   }
  ],
  "example": {
@@ -285,198 +285,198 @@
  },
  "recent_reviews": [
   {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Removed: \"and 6 of the 6 licenses are valid, with none cancelled\"",
-   "d": "2026-11-12"
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Reworded: \"The remaining seven are other zolpidem ODT products\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Sennosides",
-   "u": "/drugs/sennosides/",
-   "s": "Removed: \"All five licences are currently valid\"",
-   "d": "2026-11-12"
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Reworded: \"The remaining 11 authorizations are generic products, including\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "Removed: \"under 20 valid single-ingredient licences\"",
-   "d": "2026-11-12"
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "Reworded: \"The remaining authorizations are mostly sunscreens\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Leflunomide",
-   "u": "/drugs/leflunomide/",
-   "s": "Removed: \"with 18 valid single-ingredient licences, none cancelled\"",
-   "d": "2026-11-12"
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"A sixth authorization, 02502801 (JAMP LAMIVUDINE / ZIDOVUDINE), is also valid.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Betamethasone",
-   "u": "/drugs/betamethasone/",
-   "s": "Removed: \"with 20 valid single-ingredient licences in Canada, mostly topical brands\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Cholecalciferol",
-   "u": "/drugs/cholecalciferol/",
-   "s": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Zinc Acetate",
-   "u": "/drugs/zinc-acetate/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "Removed: \"One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Vitamin E",
    "u": "/drugs/vitamin-e/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vilazodone",
+   "u": "/drugs/vilazodone/",
+   "s": "Removed: \"One more valid licence (DIN 02443724, VIIBRYD) is also on record, for six in total.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Removed: \"None are cancelled.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Valine",
+   "u": "/drugs/valine/",
+   "s": "Reworded: \"The products are single-ingredient authorizations, all valid, and the 5 listed here are a…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Ursodeoxycholic Acid",
+   "u": "/drugs/ursodeoxycholic-acid/",
+   "s": "Removed: \"None of the licences is cancelled.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Reworded: \"All 20 licenses are valid single-ingredient products.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "Removed: \"The remaining licences are under the same or related brand names.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Trolamine Salicylate",
    "u": "/drugs/trolamine-salicylate/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Removed: \"The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain…",
+   "d": "2026-11-24"
   },
   {
    "t": "Triamcinolone",
    "u": "/drugs/triamcinolone/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Reworded: \"The remaining licences include topical products\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tretinoin",
-   "u": "/drugs/tretinoin/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Removed: \"A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Tobramycin",
    "u": "/drugs/tobramycin/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Removed: \", so the table shows only the DIN and product name\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Threonine",
+   "u": "/drugs/threonine/",
+   "s": "Reworded: \"Threonine is marketed in Canada with 20 valid single-ingredient authorisations.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Thiamine",
    "u": "/drugs/thiamine/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Removed: \"The remaining four licences (PREGVIT FOLIC 5, PREGNANCY MULTIVITAMIN, PREGVIT, PREGNANCY…",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tetryzoline",
-   "u": "/drugs/tetryzoline/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "t": "Tenofovir Alafenamide",
+   "u": "/drugs/tenofovir-alafenamide/",
+   "s": "Removed: \"Two more authorizations are valid: GENVOYA (02449498) and SYMTUZA (02473720).\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tetracaine",
-   "u": "/drugs/tetracaine/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tamsulosin",
-   "u": "/drugs/tamsulosin/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "t": "Tapentadol",
+   "u": "/drugs/tapentadol/",
+   "s": "Removed: \"Three other NUCYNTA EXTENDED-RELEASE licences (02415593, 02415607, 02415615) are also valid.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Soybean Oil",
    "u": "/drugs/soybean-oil/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Reworded: \"The remaining licences are SMOFKABIVEN variants\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Sodium Sulfate",
    "u": "/drugs/sodium-sulfate/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Sodium Citrate",
-   "u": "/drugs/sodium-citrate/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Serine",
-   "u": "/drugs/serine/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
-  }
- ],
- "recent_licence_reviews": [
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Removed: \"and 6 of the 6 licenses are valid, with none cancelled\"",
-   "d": "2026-11-12"
+   "s": "Removed: \"A sixth licence (MOVIPREP, DIN 02359499) is also valid.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Sennosides",
    "u": "/drugs/sennosides/",
-   "s": "Removed: \"All five licences are currently valid\"",
-   "d": "2026-11-12"
+   "s": "Reworded: \"in several single-ingredient and docusate-combination products\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Pseudoephedrine",
-   "u": "/drugs/pseudoephedrine/",
-   "s": "Removed: \"under 20 valid single-ingredient licences\"",
-   "d": "2026-11-12"
+   "t": "Selenium",
+   "u": "/drugs/selenium/",
+   "s": "Removed: \"A sixth license, ADDNUTRIV (DIN 02497697), is also on the market.\"",
+   "d": "2026-11-24"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Reworded: \"The remaining seven are other zolpidem ODT products\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Leflunomide",
-   "u": "/drugs/leflunomide/",
-   "s": "Removed: \"with 18 valid single-ingredient licences, none cancelled\"",
-   "d": "2026-11-12"
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Reworded: \"The remaining 11 authorizations are generic products, including\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Betamethasone",
-   "u": "/drugs/betamethasone/",
-   "s": "Removed: \"with 20 valid single-ingredient licences in Canada, mostly topical brands\"",
-   "d": "2026-11-12"
+   "t": "Zinc Oxide",
+   "u": "/drugs/zinc-oxide/",
+   "s": "Reworded: \"The remaining authorizations are mostly sunscreens\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Cholecalciferol",
-   "u": "/drugs/cholecalciferol/",
-   "s": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
-   "d": "2026-11-12"
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"A sixth authorization, 02502801 (JAMP LAMIVUDINE / ZIDOVUDINE), is also valid.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Zinc Acetate",
-   "u": "/drugs/zinc-acetate/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "Removed: \"One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid.\"",
+   "d": "2026-11-24"
   },
   {
    "t": "Vitamin E",
    "u": "/drugs/vitamin-e/",
-   "s": "Removed: \"single-ingredient\"",
-   "d": "2026-11-06"
+   "s": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vilazodone",
+   "u": "/drugs/vilazodone/",
+   "s": "Removed: \"One more valid licence (DIN 02443724, VIIBRYD) is also on record, for six in total.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Removed: \"None are cancelled.\"",
+   "d": "2026-11-24"
   }
  ],
  "files": {

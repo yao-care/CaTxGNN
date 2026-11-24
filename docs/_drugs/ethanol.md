@@ -38,8 +38,14 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Ethanol is marketed in Canada in two licensed single-ingredient products (AVAGARD CHG and DALMACOL), but the data compiled for this report do not list an approved indication for either.
+Ethanol is marketed in Canada as an ingredient of combination products (AVAGARD CHG and DALMACOL), but the data compiled for this report do not list an approved indication for either.
 The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and no publication showing that ethanol treats migraine. The available literature points the other way: alcohol is a known migraine trigger.
+
+<!-- review:begin ca-lic-20261124b-ethanol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "in two licensed single-ingredient products (AVAGARD CHG and DALMACOL)" Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-ethanol-1 -->
 
 ---
 
@@ -128,6 +134,19 @@ Please refer to the package insert for warnings and contraindications.
 - Approved indication and dosage form details for the two Canadian licenses
 - Mechanism of action data
 - Any human evidence that ethanol relieves migraine rather than provoking it; without it, the prediction should be treated as a likely false positive
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "in two licensed single-ingredient products (AVAGARD CHG and DALMACOL)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

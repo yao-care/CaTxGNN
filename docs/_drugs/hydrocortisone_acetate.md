@@ -92,11 +92,11 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Eight licences are valid in Canada; the five above are shown.
+The table above lists each DIN with its current status in the DPD.
 
 <!-- review:begin ca-lic-20261106-hydrocortisone_acetate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Eight single-ingredient licences are valid in Canada; the five above are shown." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The DPD lists 8 DINs for this drug, 8 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Eight single-ingredient licences are valid in Canada; the five above are shown." Removed: it conflicted with the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261106-hydrocortisone_acetate-1 -->
 
@@ -126,7 +126,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "t single-ingredien" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "t single-ingredien"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
 
 <!-- review:end log -->

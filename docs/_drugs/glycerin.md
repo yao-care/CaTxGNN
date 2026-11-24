@@ -128,7 +128,7 @@ The listed products are mainly ophthalmic lubricants, not constipation products.
 
 <!-- review:begin ca-lic-20261105-glycerin-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "There are 13 valid single-ingredient licences in total. The listed products are mainly ophthalmic lubricants, not constipation products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 13 DINs for this drug, 12 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "There are 13 valid single-ingredient licences in total. The listed products are mainly ophthalmic lubricants, not constipation products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-glycerin-1 -->
 
@@ -164,7 +164,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "There are 13 valid single-ingredient licences in total" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "There are 13 valid single-ingredient licences in total" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

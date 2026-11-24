@@ -112,11 +112,11 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
+The licences also include generics (for example Sandoz, Jamp, Auro, NRA and Taro products).
 
 <!-- review:begin ca-lic-20261105-lurasidone-2 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada. The rest are generics (for example Sandoz, Jamp, Auro, NRA and Taro products)." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence; the Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-lurasidone-2 -->
 
@@ -167,7 +167,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The indication is largely on-label, but the only mania-specific trial was withdrawn with no participants, and most of the literature address" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
-| 2026-11-05 | Removed: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "These are 5 of 20 valid single-ingredient lurasidone authorisations in Canada"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data compiled for this report is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Latuda (lurasidone hydrochloride) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=afad3051-9df2-4c54-9684-e8262a133af8) |
 
 <!-- review:end log -->

@@ -87,7 +87,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The remaining licences are also sun-protective or cosmetic products, such as lip balms, moisturisers, foundations and day creams.
+The licences also include sun-protective or cosmetic products, such as lip balms, moisturisers, foundations and day creams.
+
+<!-- review:begin ca-lic-20261124b-octinoxate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining licences are also sun-protective or cosmetic products," Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-octinoxate-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +108,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-05 | Removed: "Octinoxate has 20 valid single-ingredient licences in Canada, with no cancelled licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "The remaining licences are also sun-protective or cosmetic products," | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

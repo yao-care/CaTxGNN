@@ -50,7 +50,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-Dosage form, manufacturer and approved-indication text are not available in the licence records compiled for this report. The five examples below are drawn from the 20 valid single-ingredient authorizations.
+<!-- review:begin ca-lic-20261124b-d-glucose-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The five examples below are drawn from the 20 valid single-ingredient authorizations." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-d-glucose-1 -->
+
+Dosage form, manufacturer and approved-indication text are not available in the licence records compiled for this report.
 
 <!-- licenses:begin -->
 
@@ -90,6 +96,18 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 Please refer to the package insert for safety information. No drug-interaction records were found, and no disease-level contraindication links were identified in the knowledge graph.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "The five examples below are drawn from the 20 valid single-ingredient authorizations." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

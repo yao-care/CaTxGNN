@@ -137,7 +137,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-There are 20 valid single-ingredient licences in total. The product names (acid concentrates and dialysis-related bags) suggest that the Canadian licences are mainly dialysis concentrates rather than ear preparations, so the licensed products may not match the original ear indication or a topical route.
+The DINs in the data are combination products. The product names (acid concentrates and dialysis-related bags) suggest that the Canadian licences are mainly dialysis concentrates rather than ear preparations, so the licensed products may not match the original ear indication or a topical route.
+
+<!-- review:begin ca-lic-20261124b-acetic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "There are 20 valid single-ingredient licences in total." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-acetic_acid-1 -->
 
 ---
 
@@ -169,11 +175,12 @@ The top predictions have high model scores but no trials, no publications, and n
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+| 2026-11-24 | Reworded: "There are 20 valid single-ingredient licences in total." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

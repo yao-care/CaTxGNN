@@ -75,7 +75,7 @@ Dosage form and approved indication text are not available for these products.
 
 <!-- review:begin ca-lic-20261105-mannitol-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Mannitol holds 10 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 10 DINs for this drug, 9 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "Mannitol holds 10 valid single-ingredient authorizations in Canada. Dosage form and approved indication text are not available for these products." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-mannitol-1 -->
 
@@ -98,7 +98,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The remaining five include another Mannitol Injection USP (00038024), Sorbitol Mannitol Irrigation, Cystosol W 3% Hexitols, SAG-M, and an additive solution of sodium, adenine, glucose and mannitol (SAGM).
+The licences also include another Mannitol Injection USP (00038024), Sorbitol Mannitol Irrigation, Cystosol W 3% Hexitols, SAG-M, and an additive solution of sodium, adenine, glucose and mannitol (SAGM).
+
+<!-- review:begin ca-lic-20261124b-mannitol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining five include another Mannitol Injection USP (00038024)," Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-mannitol-1 -->
 
 ## Safety Considerations
 
@@ -130,8 +136,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Mannitol holds 10 valid single-ingredient authorizations in Canada" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "Mannitol holds 10 valid single-ingredient authorizations in Canada" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+| 2026-11-24 | Reworded: "The remaining five include another Mannitol Injection USP (00038024)," | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

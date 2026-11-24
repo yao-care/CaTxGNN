@@ -84,11 +84,17 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-Triamcinolone has 16 valid licences in Canada and none cancelled. The data compiled for this report do not include dosage forms or approved indication text. The five licences below are listed by product name only.
+<!-- review:begin ca-lic-20261124b-triamcinolone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The five licences below are listed by product name only." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-triamcinolone-1 -->
+
+The table below lists each DIN with its current status in the DPD. The data compiled for this report do not include dosage forms or approved indication text.
 
 <!-- review:begin ca-lic-20261106-triamcinolone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Triamcinolone has 16 valid single-ingredient licences in Canada and none cancelled." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence; the Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261106-triamcinolone-1 -->
 
@@ -117,7 +123,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The remaining licences include topical products (e.g. TRIADERM, VIADERM KC, THERADERM), nasal sprays (NASACORT AQ, NASACORT ALLERGY 24HR) and others.
+The licences also include topical products (e.g. TRIADERM, VIADERM KC, THERADERM), nasal sprays (NASACORT AQ, NASACORT ALLERGY 24HR) and others.
+
+<!-- review:begin ca-lic-20261124b-triamcinolone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining licences include topical products" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-triamcinolone-2 -->
 
 ---
 
@@ -162,8 +174,10 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "single-ingredient"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
+| 2026-11-24 | Removed: "The five licences below are listed by product name only." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "The remaining licences include topical products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

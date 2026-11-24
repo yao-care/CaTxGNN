@@ -81,7 +81,7 @@ The compiled records do not include dosage form or approved indication text.
 
 <!-- review:begin ca-lic-20261105-naphazoline-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "All 8 authorizations are valid single-ingredient products. The compiled records do not include dosage form or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 8 DINs for this drug, 7 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "All 8 authorizations are valid single-ingredient products. The compiled records do not include dosage form or approved indication text." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-naphazoline-1 -->
 
@@ -102,7 +102,11 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Three more valid licences are held: SOOTHE ALLERGY (00750794), NAPHCON A (00481408) and CLEAR EYES ALLERGY (02248059).
+<!-- review:begin ca-lic-20261124b-naphazoline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Three more valid licences are held: SOOTHE ALLERGY (00750794), NAPHCON A (00481408) and CLEAR EYES ALLERGY (02248059)." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-naphazoline-1 -->
 
 ## Safety Considerations
 
@@ -133,7 +137,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "All 8 authorizations are valid single-ingredient products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "All 8 authorizations are valid single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "Three more valid licences are held: SOOTHE ALLERGY (00750794), NAPHCON A (00481408) and CLEAR EYES ALLERGY (02248059)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

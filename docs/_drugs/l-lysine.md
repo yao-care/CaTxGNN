@@ -75,7 +75,13 @@ Currently no related clinical trials registered.
 
 ## Canada Market Information
 
-All 20 licences are valid single-ingredient products. Dosage form and approved indication text are not available in the data compiled for this report.
+The DINs in the data are combination products. Dosage form and approved indication text are not available in the data compiled for this report.
+
+<!-- review:begin ca-lic-20261124b-l-lysine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All 20 licences are valid single-ingredient products." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-l-lysine-1 -->
 
 <!-- licenses:begin -->
 
@@ -135,6 +141,19 @@ The prediction rests on a model score alone (TxGNN model, deep learning; gastrop
 - Targeted literature search for L-lysine and gastric emptying or gastroparesis
 - Route compatibility assessment, since current products are parenteral nutrition formulations
 - Mapping the obsolete vitamin D deficiency term to a current ontology term if that prediction is to be pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "All 20 licences are valid single-ingredient products." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

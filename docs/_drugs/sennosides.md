@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Sennosides are stimulant laxatives marketed in Canada in several single-ingredient and docusate-combination products. The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** currently support this prediction, and no biological link has been identified. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+Sennosides are stimulant laxatives marketed in Canada in several combination products, including docusate combinations. The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** currently support this prediction, and no biological link has been identified. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+
+<!-- review:begin ca-lic-20261124b-sennosides-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "in several single-ingredient and docusate-combination products" Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-sennosides-1 -->
 
 ## Quick Overview
 
@@ -70,7 +76,7 @@ Currently no related literature available.
 
 <!-- review:begin ca-lic-20261112-sennosides-1 -->
 
-> **Review correction (2026-11-12)**: Originally stated: "All five licences are currently valid." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The DPD lists 5 DINs for this drug, 4 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-12)**: Originally stated: "All five licences are currently valid." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-12). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261112-sennosides-1 -->
 
@@ -116,7 +122,8 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Removed: "All five licences are currently valid" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-12 | Removed: "All five licences are currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "in several single-ingredient and docusate-combination products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

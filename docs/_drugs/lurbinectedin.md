@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia*
 
 <!-- review:begin ca-lic-20261105-lurbinectedin-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 1 DIN for this drug, 0 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-05)**: Originally stated: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but **no clinical trials and no publications** currently support this prediction, so it is a model-only hypothesis." Removed: its description of the Canadian products did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-lurbinectedin-1 -->
 
@@ -138,7 +138,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-05 | Removed: "Lurbinectedin is marketed in Canada as ZEPZELCA, but the data compiled for this report do not include an approved indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zepzelca (lurbinectedin) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=632bb50c-3bcb-4c85-9056-fc33410550ae) |
 
 <!-- review:end log -->

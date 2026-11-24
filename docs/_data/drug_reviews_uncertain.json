@@ -1448,335 +1448,421 @@
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "efavirenz",
    "file": "efavirenz.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Eight valid single-entity authorizations are listed in total.",
    "reason": "single",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「all／both … valid」「none … cancelled」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「all／both … valid」「none … cancelled」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、或講表格顯示筆數），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "ca-lic-20261124b-efavirenz-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "triamcinolone",
    "file": "triamcinolone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "The five licences below are listed by product name only.",
    "reason": "display",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「all／both … valid」「none … cancelled」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、或講表格顯示筆數），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「all／both … valid」「none … cancelled」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、改成 0 張、單複數要跟著改、或講表格顯示筆數），程式沒改；要改請寫查核紀錄",
+   "record_ids": [
+    "ca-lic-20261124b-triamcinolone-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "acebutolol",
    "file": "acebutolol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Only the first five are listed here; the sixth is APO-ACEBUTOLOL (DIN 02147602).",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-acebutolol-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "articaine",
    "file": "articaine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Twelve valid licenses exist in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-articaine-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "aspartic_acid",
    "file": "aspartic_acid.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seven valid authorizations are listed in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-aspartic_acid-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "bupivacaine",
    "file": "bupivacaine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "All 16 licences are valid products; the five above are shown as examples.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-bupivacaine-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "cilazapril",
    "file": "cilazapril.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Eight valid authorizations are on record in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-cilazapril-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "entacapone",
    "file": "entacapone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Eight valid licences are on record in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-entacapone-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "famciclovir",
    "file": "famciclovir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "*(5 of 6 authorizations shown; the sixth is another APO-FAMCICLOVIR product, DIN 02292025.)*",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-famciclovir-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "folic_acid",
    "file": "folic_acid.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Nine valid licences are registered in total; the five main ones are shown above.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-folic_acid-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "hydrocortisone_acetate",
    "file": "hydrocortisone_acetate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Eight licences are valid in Canada; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-hydrocortisone_acetate-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "indomethacin",
    "file": "indomethacin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Two further authorizations (02499223 AURO-INDOMETHACIN, 02231800 ODAN-INDOMETHACIN) are also valid but not listed here.",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-indomethacin-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "isotretinoin",
    "file": "isotretinoin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Showing 5 of 12 valid single-ingredient licences (EPURIS, CLARUS, ABSORICA LD, ACCUTANE).",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-isotretinoin-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "meropenem",
    "file": "meropenem.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "All 16 authorizations are valid products; the table lists five of them.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-meropenem-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "metronidazole",
    "file": "metronidazole.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Fifteen valid licences are listed in total; the table shows the first five.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-metronidazole-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "nitrogen",
    "file": "nitrogen.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "The first 5 of 14 valid licences are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-nitrogen-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "norgestimate",
    "file": "norgestimate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Showing 5 of 6 valid authorizations.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-norgestimate-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "norgestimate",
    "file": "norgestimate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "The sixth is TRI-CIRA LO 28 (DIN 02401975).",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-norgestimate-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "quinapril",
    "file": "quinapril.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "These are 5 of 14 valid authorizations.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-quinapril-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "rotigotine",
    "file": "rotigotine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "(5 of 6 valid single-ingredient authorizations shown; the sixth is DIN 02403935, also NEUPRO.)",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-rotigotine-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "tamsulosin",
    "file": "tamsulosin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Five of the 10 valid authorisations are listed here.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-tamsulosin-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "tetracaine",
    "file": "tetracaine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seven valid licences are on record in total; the five main ones are shown above.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-tetracaine-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "tobramycin",
    "file": "tobramycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Dosage form, manufacturer, and approved-indication text are not available for any of them, so the table shows only the DIN and product name.",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-tobramycin-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "tretinoin",
    "file": "tretinoin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Ten valid licences are on record in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-tretinoin-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "trimethoprim",
    "file": "trimethoprim.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Eight valid authorizations are listed in total; the five above are shown.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-trimethoprim-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "trolamine_salicylate",
    "file": "trolamine_salicylate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "These are 5 of 11 valid licences.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-trolamine_salicylate-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "valine",
    "file": "valine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "The products are single-ingredient authorizations, all valid, and the 5 listed here are a selection from 20.",
    "reason": "caption-mixed",
    "added": "2026-11-24",
-   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子同時講別的事（品名、第六筆是哪張、未列出的許可），白名單判斷不了，程式沒拿掉；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "record_ids": [
+    "ca-lic-20261124b-valine-1"
+   ],
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   },
   {
    "source": "市場段落換成程式許可證表後，仍講舊表列了幾筆的句子（scripts/sync_license_tables.py --migrate 沒拿掉）",
    "drug": "vitamin_e",
    "file": "vitamin_e.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "All 7 licences are valid entries; the table lists the first 5.",
    "reason": "review-text",
    "added": "2026-11-24",
    "record_ids": [
     "ca-lic-20261106-vitamin_e-1"
    ],
-   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）"
+   "note": "句子是查核紀錄的更正文字，程式不改；市場段落的許可證表已換成程式表（列出證據包全部 DIN），句中「表上列了 5 筆」之類的說法跟新表對不上，要改請寫查核紀錄（同 id 重發或新紀錄）",
+   "resolved_on": "2026-11-24",
+   "resolution": "查核紀錄更正（2026-11-24 第二輪，用戶決定）：舊表筆數／張數拿掉，改指向概覽表與程式表；單方說法依證據包成分欄更正"
   }
  ]
 }

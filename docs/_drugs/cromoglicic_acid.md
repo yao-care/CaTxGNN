@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cromoglicic acid is a mast cell stabilizer that is currently marketed in Canada as an eye drop and a nasal product.
+Cromoglicic acid is a mast cell stabilizer that is currently marketed in Canada as an eye drop and an oral capsule (NALCROM).
 The TxGNN model predicts it may be effective for **ulcerative proctosigmoiditis**, with a score of 0.9999.
 No clinical trials or publications were found for this disease, so the prediction rests on the model alone.
+
+<!-- review:begin ca-lic-20261124b-cromoglicic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "currently marketed in Canada as an eye drop and a nasal product" Corrected: the dosage forms described here did not match the Health Canada DPD product records (dosage form and route of administration) for the DINs on this page; the sentence now names the forms in those records. The table under Canada Market Information lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-cromoglicic_acid-1 -->
 
 ## Quick Overview
 
@@ -102,6 +108,19 @@ The prediction has a very high model score but no supporting clinical trials or 
 - Health Canada package insert warnings and contraindications
 - An assessment of whether a rectal or locally acting formulation is feasible
 - Preclinical or early clinical data in distal ulcerative colitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "currently marketed in Canada as an eye drop and a nasal product" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

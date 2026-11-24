@@ -224,9 +224,8 @@ def classify(rm):
 def figures(fc):
     if not fc or fc.get("total") is None:
         return ""
-    t, v = fc["total"], fc.get("valid") or 0
-    return (f" The DPD lists {t} DIN{'' if t == 1 else 's'} for this drug, {v} marketed; "
-            "the Quick Overview and the table under Canada Market Information show the current figures.")
+    # 2026-11-24（用戶決定）：說明不寫死張數（每週會過期），只指向概覽表與程式許可證表
+    return " The Quick Overview and the table under Canada Market Information show the current number and status of DINs."
 
 
 def note_for(kind, date, fc):

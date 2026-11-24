@@ -72,7 +72,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled. Dosage form and approved indication text were not available in the data compiled for this report.
+Levodopa is marketed in Canada in combination products; the table below lists each DIN with its current status in the DPD. Dosage form and approved indication text were not available in the data compiled for this report.
+
+<!-- review:begin ca-lic-20261124b-levodopa-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-levodopa-1 -->
 
 <!-- licenses:begin -->
 
@@ -142,11 +148,12 @@ The only support is a high model prediction score. There are no registered trial
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
+| 2026-11-24 | Reworded: "Levodopa has 20 valid single-ingredient authorizations in Canada and none cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

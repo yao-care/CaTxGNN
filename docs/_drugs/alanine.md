@@ -108,7 +108,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-Twenty valid single-ingredient licenses are on record in total. Other products include Clinimix E, Essepna, 20% Prosol, Primene 10%, Olimel 5.7% and 7.6%, and SmofKabiven (electrolyte-free and extra-nitrogen versions).
+The DINs in the data are combination products. Other products include Clinimix E, Essepna, 20% Prosol, Primene 10%, Olimel 5.7% and 7.6%, and SmofKabiven (electrolyte-free and extra-nitrogen versions).
+
+<!-- review:begin ca-lic-20261124b-alanine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Twenty valid single-ingredient licenses are on record in total." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-alanine-1 -->
 
 ## Safety Considerations
 
@@ -137,6 +143,19 @@ The prediction rests only on a TxGNN model (deep learning) score. There are no r
 - Approved indication text, dosage forms and routes for the Canadian products
 - Clarification of whether any plausible use (such as parenteral nutritional support in severe gastroparesis) differs from the existing approved use
 - Review of the knowledge-graph contraindications, especially renal and cardiac conditions, against the product labels
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "Twenty valid single-ingredient licenses are on record in total." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

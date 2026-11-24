@@ -62,7 +62,13 @@ According to the Mechanism of Action section of the US FDA-approved prescribing 
 
 ## Canada Market Information
 
-Health Canada records show 20 valid single-ingredient licences, and none are cancelled. Dosage form and approved-indication text are not recorded in the local data.
+In the Health Canada records compiled here, doxylamine DINs are combination products; the table below lists each DIN with its current status in the DPD. Dosage form and approved-indication text are not recorded in the local data.
+
+<!-- review:begin ca-lic-20261124b-doxylamine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Health Canada records show 20 valid single-ingredient licences, and none are cancelled." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-doxylamine-1 -->
 
 <!-- licenses:begin -->
 
@@ -121,11 +127,12 @@ The prediction is model-only (L5), with no clinical trials or publications on na
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
+| 2026-11-24 | Reworded: "Health Canada records show 20 valid single-ingredient licences, and none are cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

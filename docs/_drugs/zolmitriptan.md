@@ -122,7 +122,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The remaining 11 authorizations are generic products, including Sandoz, Teva (OD), Mint, Nat, NRA, Mar, Bio, Jamp and Auro versions.
+The authorizations also include generic products, including Sandoz, Teva (OD), Mint, Nat, NRA, Mar, Bio, Jamp and Auro versions.
+
+<!-- review:begin ca-lic-20261124b-zolmitriptan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining 11 authorizations are generic products, including" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-zolmitriptan-1 -->
 
 ---
 
@@ -153,6 +159,19 @@ The mechanistic link to migraine with brainstem aura is plausible, but there are
 - A focused literature review and safety assessment for triptan use in brainstem aura, including vasoconstriction and stroke risk
 - Approved indication text and dosage forms for the Canadian products
 - If the safety review is acceptable, a well-designed clinical study in this specific subtype
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "The remaining 11 authorizations are generic products, including" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

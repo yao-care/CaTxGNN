@@ -70,7 +70,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-All 20 licences are valid single-ingredient authorisations. Dosage form and approved indication text are not recorded for them.
+The DINs in the data are combination products. Dosage form and approved indication text are not recorded for them.
+
+<!-- review:begin ca-lic-20261124b-isoleucine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "All 20 licences are valid single-ingredient authorisations." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-isoleucine-1 -->
 
 <!-- licenses:begin -->
 
@@ -129,6 +135,19 @@ The prediction has only a computational score. There are no clinical trials or p
 - Confirmed approved indications and dosage forms for the Canadian licences
 - Literature and trial searches on branched-chain amino acids and gastric emptying or gastroparesis
 - Route compatibility assessment, since current products are parenteral nutrition formulations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "All 20 licences are valid single-ingredient authorisations." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

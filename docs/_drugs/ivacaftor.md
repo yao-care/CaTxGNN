@@ -48,11 +48,17 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## Canada Market Information
 
-Ivacaftor is authorized in Canada under 15 valid licences. The licence records compiled for this report do not include dosage forms or approved indication text. Brand names are listed below (first 5 DINs).
+<!-- review:begin ca-lic-20261124b-ivacaftor-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Brand names are listed below (first 5 DINs)." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-ivacaftor-1 -->
+
+The table below lists each DIN with its current status in the DPD. The licence records compiled for this report do not include dosage forms or approved indication text.
 
 <!-- review:begin ca-lic-20261106-ivacaftor-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Ivacaftor is authorized in Canada under 15 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Ivacaftor is authorized in Canada under 15 valid single-ingredient licences." Removed: it described the products as single-ingredient or combination products in a way that did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-06). Revised 2026-11-24: the number of DINs and any reference to the earlier licence table, which showed only some of the DINs, were removed from the corrected sentence; the Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261106-ivacaftor-1 -->
 
@@ -80,7 +86,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4).
+The licences also include ORKAMBI, SYMDEKO and TRIKAFTA products.
+
+<!-- review:begin ca-lic-20261124b-ivacaftor-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4)." Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-ivacaftor-2 -->
 
 ## Safety Considerations
 
@@ -99,7 +111,9 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "single-ingredient" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "single-ingredient"; revised 2026-11-24 to remove the DIN count and the reference to the earlier licence table | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "Brand names are listed below (first 5 DINs)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Reworded: "The remaining 10 licences are for ORKAMBI (5), SYMDEKO (1), and TRIKAFTA (4)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

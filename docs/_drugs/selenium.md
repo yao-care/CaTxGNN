@@ -103,7 +103,11 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-A sixth license, ADDNUTRIV (DIN 02497697), is also on the market.
+<!-- review:begin ca-lic-20261124b-selenium-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A sixth license, ADDNUTRIV (DIN 02497697), is also on the market." Removed: it referred to the earlier licence table, which showed only some of the DINs (for example "the sixth", "the remaining …", "shown here"). The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-selenium-1 -->
 
 ---
 
@@ -137,6 +141,19 @@ The prediction score is very high, but it is a computational output only. No cli
 - Approved indication, dosage form and route information for the Canadian products
 - Targeted literature on selenium supplementation in cholestatic or PSC patients, such as interventional or cohort studies
 - A safety plan covering interactions, especially the major interaction with dimercaprol, and selenium toxicity at higher doses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "A sixth license, ADDNUTRIV (DIN 02497697), is also on the market." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

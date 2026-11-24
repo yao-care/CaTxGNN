@@ -102,11 +102,11 @@ None of the papers below tests atropine for migraine in patients. Several are on
 
 ## Canada Market Information
 
-The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank.
+The data compiled for this report did not include dosage forms or approved indication text.
 
 <!-- review:begin ca-lic-20261105-atropine-1 -->
 
-> **Review correction (2026-11-05)**: Originally stated: "Eleven valid single-ingredient licences are on record. The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The DPD lists 11 DINs for this drug, 10 marketed; the Quick Overview and the table under Canada Market Information show the current figures. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+> **Review correction (2026-11-24)**: Originally stated: "Eleven valid single-ingredient licences are on record. The data compiled for this report did not include dosage forms or approved indication text, so those columns are left blank." Removed: the number or status of DINs stated here did not match the Health Canada DPD data (the Health Canada Drug Product Database as of 2026-11-05). The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Revised 2026-11-24: removed: it described the columns of the earlier licence table; the table under Canada Market Information is now generated from the Health Canada DPD data and shows each DIN's product name, active ingredients and status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
 
 <!-- review:end ca-lic-20261105-atropine-1 -->
 
@@ -166,7 +166,7 @@ Below is the review log for this page: statements checked against official Healt
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-05 | Removed: "Eleven valid single-ingredient licences are on record" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-24 | Removed: "Eleven valid single-ingredient licences are on record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

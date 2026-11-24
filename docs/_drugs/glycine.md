@@ -107,7 +107,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-The remaining authorizations include further Clinimix and Clinimix E strengths, 20% Prosol, Primene 10%, Olimel 7.6% and Essepna. Most are parenteral nutrition or irrigation products, not nasal or respiratory products.
+The authorizations also include further Clinimix and Clinimix E strengths, 20% Prosol, Primene 10%, Olimel 7.6% and Essepna. Most are parenteral nutrition or irrigation products, not nasal or respiratory products.
+
+<!-- review:begin ca-lic-20261124b-glycine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The remaining authorizations include further" Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-glycine-1 -->
 
 ## Safety Considerations
 
@@ -135,6 +141,19 @@ The high TxGNN score (0.9985) is a model prediction only. The only trial found i
 - Clinical or preclinical studies of glycine in nasal cavity disease or upper airway inflammation
 - Confirmation of whether an intranasal or other suitable route and formulation exist, since the current Canadian products are mainly irrigation and parenteral nutrition products
 - Review of the predicted contraindications, especially for kidney, calcium and phosphate disorders, before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "The remaining authorizations include further" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

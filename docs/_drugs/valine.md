@@ -73,7 +73,13 @@ Currently no related clinical trials are registered.
 
 ## Canada Market Information
 
-Licence records for these products do not include dosage form or approved indication text. The products are single-ingredient authorizations, all valid, and the 5 listed here are a selection from 20.
+Licence records for these products do not include dosage form or approved indication text. The products are combination amino acid and parenteral nutrition solutions (such as TRAVASOL, CLINIMIX, PROSOL, OLIMEL and SMOFKABIVEN).
+
+<!-- review:begin ca-lic-20261124b-valine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The products are single-ingredient authorizations, all valid, and the 5 listed here are a selection from 20." Corrected: in the Health Canada DPD data, the DINs for this drug on this page are combination products (or include combination products), so describing them as single-ingredient products did not match. The Quick Overview and the table under Canada Market Information show the current number and status of DINs. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-valine-1 -->
 
 <!-- licenses:begin -->
 
@@ -126,6 +132,19 @@ The prediction rests on indirect metabolic associations only. There are no clini
 - Approved indication text for the Canadian products, to define the original indication and available routes
 
 **Notes on other predictions:** The other nine predicted indications (angle-closure glaucoma, hyperthyroidism, traumatic glaucoma, aqueous misdirection, neovascular glaucoma, glaucomatous optic disc atrophy, resistance to thyroid hormone, obsolete bundle branch block, hyperthyroxinemia) have no clinical trials and no credible therapeutic rationale. Much of the retrieved literature concerns receptor mutations in which "valine" is only an amino acid residue, not the drug. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and all are rated Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Reworded: "The products are single-ingredient authorizations, all valid, and the 5 listed here are a selection from 20." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

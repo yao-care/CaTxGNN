@@ -104,7 +104,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- licenses:end -->
 
-Nine single-ingredient licences are valid in total. The others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths.
+Nine single-ingredient licences are valid in total. The licences also include NOYADA and other TEVA-CAPTOPRIL strengths.
+
+<!-- review:begin ca-lic-20261124b-captopril-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths." Reworded without the reference to the earlier licence table, which showed only some of the DINs (and without its counts); the products named are unchanged. The table under Canada Market Information is now generated from the Health Canada DPD data and lists every DIN in the data with its current status. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261124b-captopril-1 -->
 
 ---
 
@@ -140,11 +146,12 @@ The prediction score is high (0.9928) and the mechanism is plausible, but there 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+| 2026-11-24 | Reworded: "The others include NOYADA (two licences) and further TEVA-CAPTOPRIL strengths." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 
