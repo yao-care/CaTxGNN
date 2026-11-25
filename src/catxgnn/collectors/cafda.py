@@ -154,21 +154,33 @@ class LocalFDACollector(BaseCollector):
         val = str(rec.get(sf, "") or "").strip().lower()
         return any(w and w in val for w in self.withdrawn)
 
+    def matches(self, drug: str, drugbank_id: str | None = None) -> tuple[list, set]:
+        """收集器的全部比對結果（未套排除表）：(現行紀錄, DrugBank ID)；scripts/exclude_mismatched_records.py 也用"""
+        self._prepare()
+        ids = self._drugbank_ids(drug)
+        if drugbank_id:
+            ids.add(str(drugbank_id).upper())
+        recs = []
+        for db in ids:
+            for lic in self.db_to_lic.get(db, ()):
+                recs.extend(self.by_license.get(lic, []))
+        if not recs:
+            # Phase 1 對照沒對上的成分（例：重音字未正規化）→ 退回比對本國藥證的成分欄
+            recs = self._text_match(drug)
+        return [r for r in recs if not self._is_withdrawn(r)], ids
+
+    def excluded(self, drug: str, rec: dict):
+        """2026-11-25（第五輪，用戶決定）：drug_mapping 把另一個有效成分對到本藥 DrugBank ID 的紀錄不收
+        （config/bundle_record_exclusions.json；已有的證據包由 scripts/exclude_mismatched_records.py 移到 tfda.excluded_records）"""
+        from ..regulatory import record_exclusions as RX
+        f = self.fm.get("ingredients")
+        return RX.match(drug, str(rec.get(f, "") or "") if f else "")
+
     def search(self, drug: str, disease: str | None = None, drugbank_id: str | None = None) -> CollectorResult:
         query = {"drug": drug, "disease": disease}
         try:
-            self._prepare()
-            ids = self._drugbank_ids(drug)
-            if drugbank_id:
-                ids.add(str(drugbank_id).upper())
-            recs = []
-            for db in ids:
-                for lic in self.db_to_lic.get(db, ()):
-                    recs.extend(self.by_license.get(lic, []))
-            if not recs:
-                # Phase 1 對照沒對上的成分（例：重音字未正規化）→ 退回比對本國藥證的成分欄
-                recs = self._text_match(drug)
-            active = [r for r in recs if not self._is_withdrawn(r)]
+            active, ids = self.matches(drug, drugbank_id)
+            active = [r for r in active if not self.excluded(drug, r)]
             return self._make_result(query=query, data=self._format(active, ids), success=True)
         except Exception as e:  # noqa: BLE001 — 與其他 collector 一致：失敗時回 not found 並帶錯誤
             return self._make_result(query=query, data={"found": False, "records": []}, success=False, error_message=str(e))

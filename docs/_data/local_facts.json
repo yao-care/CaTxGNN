@@ -12,20 +12,20 @@
  "public_pages": 932,
  "licence_snapshot": "ca_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 809,
+  "drugs_with_data": 810,
   "drugs_with_current": 797,
-  "drugs_none_current": 12,
-  "drugs_without_data": 123,
+  "drugs_none_current": 13,
+  "drugs_without_data": 122,
   "drugs_partial": 0,
-  "items_total": 3996,
+  "items_total": 4002,
   "items_current": 3840
  },
  "reviews": {
-  "records": 1031,
-  "pages": 825,
-  "public_pages_with_records": 814,
+  "records": 1035,
+  "pages": 826,
+  "public_pages_with_records": 815,
   "by_action": {
-   "correct": 276,
+   "correct": 280,
    "mechanism": 755
   }
  },
@@ -217,8 +217,17 @@
    "i": "conjunctivitis"
   }
  ],
- "no_current_more": 0,
+ "no_current_more": 1,
  "most_reviewed": [
+  {
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 0,
+   "r": 5,
+   "i": "primary release disorder of platelets"
+  },
   {
    "t": "Triamcinolone",
    "u": "/drugs/triamcinolone/",
@@ -263,15 +272,6 @@
    "lv": 18,
    "r": 3,
    "i": "obstructive lung disease"
-  },
-  {
-   "t": "Fluorouracil",
-   "u": "/drugs/fluorouracil/",
-   "l": "L5",
-   "lt": 7,
-   "lv": 7,
-   "r": 3,
-   "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina"
   }
  ],
  "example": {
@@ -284,6 +284,18 @@
   "i": "headache disorder"
  },
  "recent_reviews": [
+  {
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is…",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zolpidem",
    "u": "/drugs/zolpidem/",
@@ -351,12 +363,6 @@
    "d": "2026-11-24"
   },
   {
-   "t": "Turoctocog Alfa",
-   "u": "/drugs/turoctocog-alfa/",
-   "s": "Removed: \"The remaining licences are under the same or related brand names.\"",
-   "d": "2026-11-24"
-  },
-  {
    "t": "Trolamine Salicylate",
    "u": "/drugs/trolamine-salicylate/",
    "s": "Removed: \"The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain…",
@@ -421,15 +427,21 @@
    "u": "/drugs/sennosides/",
    "s": "Reworded: \"in several single-ingredient and docusate-combination products\"",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Selenium",
-   "u": "/drugs/selenium/",
-   "s": "Removed: \"A sixth license, ADDNUTRIV (DIN 02497697), is also on the market.\"",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Turoctocog Alfa",
+   "u": "/drugs/turoctocog-alfa/",
+   "s": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Sodium Acetate",
+   "u": "/drugs/sodium-acetate/",
+   "s": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is…",
+   "d": "2026-11-25"
+  },
   {
    "t": "Zolpidem",
    "u": "/drugs/zolpidem/",
@@ -465,18 +477,6 @@
    "u": "/drugs/vitamin-e/",
    "s": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
    "d": "2026-11-24"
-  },
-  {
-   "t": "Vilazodone",
-   "u": "/drugs/vilazodone/",
-   "s": "Removed: \"One more valid licence (DIN 02443724, VIIBRYD) is also on record, for six in total.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Removed: \"None are cancelled.\"",
-   "d": "2026-11-24"
   }
  ],
  "files": {
@@ -502,7 +502,7 @@
   },
   "L5": {
    "n": 729,
-   "current": 721
+   "current": 720
   }
  },
  "cross": {

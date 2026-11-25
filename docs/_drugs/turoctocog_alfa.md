@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 955
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Turoctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia (including the symptomatic form of hemophilia in female ca…"
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction,
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs on record: at least 14; dormant: 6) |
-| Number of DINs | at least 20 |
+| Canada Market Status | Approved but not marketed (approvals on record: 6) |
+| Number of DINs | 6 (marketed: 0) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,26 +80,18 @@ Currently no related literature available.
 
 <!-- review:end ca-lic-20261124b-turoctocog_alfa-1 -->
 
-Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences. The data compiled for this report do not include dosage form or approved indication text for these entries.
+In the Health Canada DPD, turoctocog alfa is listed under the brand name ZONOVATE; the number and current status of its DINs are shown in the Quick Overview and in the table below. The data compiled for this report do not include dosage form or approved indication text for these entries.
+
+<!-- review:begin ca-lic-20261125-turoctocog_alfa-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences." Corrected: the earlier count included other factor VIII products (KOVALTRY, OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE), whose DPD active ingredients are other antihemophilic factors, not turoctocog alfa. Those DINs are no longer counted for this page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json).
+
+<!-- review:end ca-lic-20261125-turoctocog_alfa-1 -->
 
 <!-- licenses:begin -->
 
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 02261219 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
-| 02261227 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
-| 02261235 | HUMATE-P | ANTIHEMOPHILIC FACTOR (HUMAN); VON WILLEBRAND FACTOR (HUMAN) | Marketed |
-| 02430312 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
-| 02430320 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
-| 02430339 | ELOCTATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT BDD), FC FUSION PROTEIN | Marketed |
-| 02447401 | OBIZUR | ANTIHEMOPHILIC FACTOR (RECOMBINANT) PORCINE SEQUENCE | Marketed |
-| 02451441 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
-| 02451468 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
-| 02451476 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
-| 02451484 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
-| 02451492 | KOVALTRY | ANTIHEMOPHILIC FACTOR (RECOMBINANT) | Marketed |
-| 02498537 | ADYNOVATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT), PEGYLATED | Marketed |
-| 02498545 | ADYNOVATE | ANTIHEMOPHILIC FACTOR (RECOMBINANT), PEGYLATED | Marketed |
 | 02435187 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
 | 02435195 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
 | 02435209 | ZONOVATE | TUROCTOCOG ALFA | Dormant |
@@ -109,11 +101,13 @@ Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licence
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
-The data contain only part of the DINs for this ingredient; the list may be incomplete.
-
 <!-- licenses:end -->
 
-Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself.
+<!-- review:begin ca-lic-20261125-turoctocog_alfa-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself." Removed: those brand names are other factor VIII products (DPD active ingredients: antihemophilic factor, recombinant, porcine sequence, human, Fc fusion or pegylated), not turoctocog alfa; they are no longer listed for this page. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json).
+
+<!-- review:end ca-lic-20261125-turoctocog_alfa-2 -->
 
 ## Safety Considerations
 
@@ -133,7 +127,13 @@ The prediction has no supporting trials or literature (evidence level L5). Plate
 - Package insert warnings and contraindications from Health Canada
 - A mechanistic and clinical literature review for acquired FVIII deficiency, if it is pursued as a research question
 - Verification of the ambiguous "flood factor deficiency" term against the source ontology
-- Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text
+- Dosage form and indication text for the Canadian turoctocog alfa (ZONOVATE) DINs
+
+<!-- review:begin ca-lic-20261125-turoctocog_alfa-3 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text" Corrected: which DINs correspond to turoctocog alfa has been confirmed from the DPD active ingredients (ZONOVATE); only the dosage form and indication text remain to be obtained. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json).
+
+<!-- review:end ca-lic-20261125-turoctocog_alfa-3 -->
 
 <!-- review:begin log -->
 
@@ -145,6 +145,9 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 | 2026-11-24 | Removed: "The remaining licences are under the same or related brand names." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json) |
+| 2026-11-25 | Removed: "Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json) |
+| 2026-11-25 | Corrected: "Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json) |
 
 <!-- review:end log -->
 

@@ -6,6 +6,12 @@ drug*.txt：第 1 欄 DRUG_CODE、第 4 欄 DIN；status*.txt：第 1 欄 DRUG_C
 證據包紀錄 license_id＝DIN、status＝DPD STATUS 原文（MARKETED／APPROVED／DORMANT／CANCELLED POST MARKET…）；
 reviewer 依文字判定（cancel 算註銷，dormant、approved 算核准未上市）。同一 DIN 多筆時取 MARKETED > APPROVED／DORMANT > 其他。
 新檔沒有的 DIN 保留原狀態。
+2026-11-25（第五輪，用戶決定「adapter 存成分」）：RAW_FILE 每筆另存收集器比對要用的欄位：drug_code、class（Human／Veterinary…）、
+brand（BRAND_NAME）、ingredients（ingred*.txt 的 INGREDIENT，依原順序去重）、forms（PHARMACEUTICAL_FORM）、routes（ROUTE_OF_ADMINISTRATION）、
+company（comp*.txt 的 DIN owner）——讓 Release 帶著現行清單的成分，量測與補收不用另下載。萃取檔四包任一下載失敗（canada.ca 從雲端常連不上）時，
+改用 Health Canada DPD API（https://health-products.canada.ca/api/drug/，drugproduct／status／activeingredient／form／route，同一個資料庫）
+取同樣的欄位，狀態轉成萃取檔的大寫寫法（Marketed→MARKETED、Cancelled Post Market→CANCELLED POST MARKET），set 依狀態歸到四包之一；
+劑型、給藥途徑也轉大寫（萃取檔寫法）。
 """
 import csv
 import io
@@ -34,21 +40,103 @@ def _zip(name):
 
 def _rows(z, fname):
     with z.open(fname) as fh:
-        return list(csv.reader(io.TextIOWrapper(fh, encoding="latin-1")))
+        raw = fh.read()
+    try:
+        txt = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        txt = raw.decode("latin-1")
+    return list(csv.reader(io.StringIO(txt)))
 
 
-def fetch():
+def _multi(z, fname, col):
+    """drug_code → [欄位值]（依檔案順序去重）；檔案不在包裡就回傳空"""
+    out = {}
+    if fname not in z.namelist():
+        return out
+    for r in _rows(z, fname):
+        if len(r) > col and r[col].strip():
+            v = out.setdefault(r[0], [])
+            if r[col].strip() not in v:
+                v.append(r[col].strip())
+    return out
+
+
+def _fetch_extract():
     out = []
     for name, sfx in SETS.items():
         z = _zip(name)
-        din = {r[0]: r[3].strip() for r in _rows(z, f"drug{sfx}.txt") if len(r) > 3}
+        drug = {r[0]: r for r in _rows(z, f"drug{sfx}.txt") if len(r) > 4}
+        ing = _multi(z, f"ingred{sfx}.txt", 2)
+        form = _multi(z, f"form{sfx}.txt", 2)
+        route = _multi(z, f"route{sfx}.txt", 2)
+        comp = {}
+        if f"comp{sfx}.txt" in z.namelist():
+            for r in _rows(z, f"comp{sfx}.txt"):
+                if len(r) > 4 and (r[0] not in comp or r[4] == "DIN_OWNER"):
+                    comp[r[0]] = r[3].strip()
         n = 0
         for r in _rows(z, f"status{sfx}.txt"):
-            if len(r) > 2 and r[1] == "Y" and r[0] in din and din[r[0]]:
-                out.append({"din": din[r[0]], "status": r[2].strip(), "set": name}); n += 1
+            if len(r) > 2 and r[1] == "Y" and r[0] in drug and drug[r[0]][3].strip():
+                d = drug[r[0]]
+                out.append({"din": d[3].strip(), "status": r[2].strip(), "set": name, "drug_code": r[0], "class": d[2].strip(),
+                            "brand": d[4].strip(), "ingredients": ing.get(r[0], []), "forms": form.get(r[0], []),
+                            "routes": route.get(r[0], []), "company": comp.get(r[0], "")})
+                n += 1
         if n == 0:
             raise RuntimeError(f"{name} 沒有現行狀態紀錄，疑似格式改變")
     return out
+
+
+API_URL = "https://health-products.canada.ca/api/drug/"
+API_SET = {"MARKETED": "allfiles", "APPROVED": "allfiles_ap", "DORMANT": "allfiles_dr"}
+
+
+def _api(endpoint):
+    for attempt in range(4):
+        try:
+            r = requests.get(f"{API_URL}{endpoint}/?lang=en&type=json", timeout=600)
+            r.raise_for_status()
+            return r.json()
+        except Exception:
+            if attempt == 3:
+                raise
+            time.sleep(15 * (attempt + 1))
+
+
+def _fetch_api():
+    prod = {str(r["drug_code"]): r for r in _api("drugproduct")}
+    def multi(rows, key):
+        o = {}
+        for r in rows:
+            v = str(r.get(key) or "").strip()
+            if v:
+                L = o.setdefault(str(r["drug_code"]), [])
+                if v not in L:
+                    L.append(v)
+        return o
+    ing = multi(_api("activeingredient"), "ingredient_name")
+    form = {k: [x.upper() for x in v] for k, v in multi(_api("form"), "pharmaceutical_form_name").items()}
+    route = {k: [x.upper() for x in v] for k, v in multi(_api("route"), "route_of_administration_name").items()}
+    out = []
+    for r in _api("status"):
+        c = str(r["drug_code"])
+        p = prod.get(c)
+        din = str((p or {}).get("drug_identification_number") or "").strip()
+        if not din:
+            continue
+        st = str(r.get("status") or "").strip().upper()
+        out.append({"din": din, "status": st, "set": API_SET.get(st, "allfiles_ia"), "drug_code": c, "class": p.get("class_name", ""),
+                    "brand": str(p.get("brand_name") or "").strip(), "ingredients": ing.get(c, []), "forms": form.get(c, []),
+                    "routes": route.get(c, []), "company": str(p.get("company_name") or "").strip()})
+    return out
+
+
+def fetch():
+    try:
+        return _fetch_extract()
+    except Exception as e:  # 萃取檔下載不到（雲端 session 常見）→ 同一資料庫的 API
+        print(f"DPD 萃取檔下載失敗（{str(e)[:120]}），改用 DPD API", flush=True)
+        return _fetch_api()
 
 
 def validate(new, old):

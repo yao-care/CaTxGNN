@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 854
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not stated in the Canadian license records compiled for this report (…"
 monitor_inn: "SODIUM ACETATE"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
@@ -74,26 +74,26 @@ Currently no related literature available for congenital prothrombin deficiency.
 
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
-| 00039470 | LACTATED RINGER'S INJECTION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00061085 | LACTATED RINGER'S INJECTION, USP | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00061131 | LACTATED RINGER'S AND 5% DEXTROSE INJECTION, USP | CALCIUM CHLORIDE; DEXTROSE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 00512990 | BSS STERILE IRRIGATING SOLUTION | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE TRIHYDRATE; SODIUM CHLORIDE; SODIUM… | Marketed |
 | 00590215 | TPN ELECTROLYTES | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE | Marketed |
-| 00758566 | LACTATED RINGER'S IRRIGATION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00783668 | GLYCEROLYTE 57 SOLUTION | GLYCERINE; POTASSIUM CHLORIDE; SODIUM LACTATE; SODIUM PHOSPHATE DIBASIC; SODIUM PHOSPHATE MONOBASIC | Marketed |
-| 00799793 | DIANEAL PD101 CAPD SOLUTION WITH 0.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00799807 | DIANEAL PD101 CAPD SOLUTION WITH 4.25% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00799815 | DIANEAL PD101 CAPD SOLUTION WITH 1.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00799823 | DIANEAL PD101 CAPD SOLUTION WITH 2.5% DEXTROSE | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00799971 | LACTATED RINGER'S IRRIGATION SOL | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 00865095 | DIANEAL PD4 CAPD SOLUTION WITH 1.5% DEXTROSE AND 2.5MEQ/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
 | 01931628 | ISOLYTE S (MULTI-ELECTROLYTE INJECTION) | MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM GLUCONATE | Marketed |
-| 01931636 | LACTATED RINGER'S INJECTION USP | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 01931679 | ISOLYTE S PH 7.4 (MULTI-ELECTROLYTE INJECTION) | MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; POTASSIUM PHOSPHATE MONOBASIC; SODIUM ACETATE; SODIUM CHLORIDE; SODIU… | Marketed |
+| 02007967 | AMO ENDOSOL SOLUTION | CALCIUM CHLORIDE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE | Marketed |
+| 02013967 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
+| 02014076 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE HYDROCHLORIDE; L-LYSINE HYDROCHL… | Marketed |
 | 02139529 | SODIUM ACETATE INJECTION, USP | SODIUM ACETATE | Marketed |
+| 02142384 | CLINIMIX E | DEXTROSE; GLYCINE; HISTIDINE; L-ALANINE; L-ARGININE; L-ISOLEUCINE; L-LEUCINE; L-PHENYLALANINE; L-PROLINE; L-T… | Marketed |
 | 02181746 | SODIUM ACETATE INJECTION USP | SODIUM ACETATE | Marketed |
-| 02243421 | POTASSIUM CHLORIDE IN LACTATED RINGER'S INJECTION | CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 02261057 | BALANCE 1.5% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 02261065 | BALANCE 4.25% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
-| 02261073 | BALANCE 2.3% GLUCOSE, 1.25 MMOL/L CALCIUM | CALCIUM CHLORIDE; DEXTROSE; MAGNESIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE | Marketed |
+| 02339358 | PLASMA-LYTE A INJECTION | MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM GLUCONATE | Marketed |
+| 02352494 | PERIOLIMEL 2.5% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02352532 | OLIMEL 5.7% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02413892 | HEMOSATE ULTRA HS1125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413906 | HEMOSATE ULTRA HS2125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413914 | HEMOSATE ULTRA HS3125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02413922 | HEMOSATE ULTRA HS4125 | CALCIUM CHLORIDE; CITRIC ACID; DEXTROSE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLOR… | Marketed |
+| 02477955 | OLIMEL 7.6% E | ALANINE; CALCIUM CHLORIDE; DEXTROSE; GLUTAMIC ACID; GLYCINE; HISTIDINE; L-ARGININE; L-ASPARTIC ACID; L-ISOLEU… | Marketed |
+| 02492067 | SSP+ | DISODIUM PHOSPHATE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE;… | Marketed |
+| 02492075 | SSP+ | DISODIUM PHOSPHATE; MAGNESIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM ACETATE; SODIUM CHLORIDE; SODIUM CITRATE;… | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -101,7 +101,13 @@ The data contain only part of the DINs for this ingredient; the list may be inco
 
 <!-- licenses:end -->
 
-A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled.
+Most of these DINs are multi-ingredient electrolyte, dialysis, irrigation or parenteral nutrition solutions that contain sodium acetate; the SODIUM ACETATE INJECTION products are single-ingredient. The number and current status of the DINs are shown in the Quick Overview and in the table above.
+
+<!-- review:begin ca-lic-20261125-sodium_acetate-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled." Corrected: the earlier list included lactated Ringer's, peritoneal dialysis and other solutions whose DPD active ingredients contain sodium lactate but no sodium acetate; those DINs are no longer counted for this page. Most of the remaining DINs are combination products. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json).
+
+<!-- review:end ca-lic-20261125-sodium_acetate-1 -->
 
 ## Safety Considerations
 
@@ -127,6 +133,19 @@ Label-based warnings and contraindications were not available. Please refer to t
 - Mechanism of action data (for example from DrugBank)
 - A credible mechanistic hypothesis and preclinical evidence linking sodium acetate to prothrombin or coagulation biology
 - Review of other candidates. Urinary tract infection is the only prediction with even a speculative link, and it would also need supporting evidence before any further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-25 | Corrected: "A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html); [Health Canada DPD API (drugproduct, activeingredient)](https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

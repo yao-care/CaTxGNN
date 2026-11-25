@@ -27693,6 +27693,107 @@
    "summary": "Removed: \"The five examples below are drawn from the 20 valid single-ingredient authorizations.\"",
    "method": "2026-11-24 第二輪（用戶決定）：查核紀錄更正（CaTxGNN-r2 decisions.py）",
    "anchor": "## Canada Market Information"
+  },
+  {
+   "id": "ca-lic-20261125-turoctocog_alfa-1",
+   "drug": "turoctocog_alfa",
+   "file": "turoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences.",
+   "replacement": "In the Health Canada DPD, turoctocog alfa is listed under the brand name ZONOVATE; the number and current status of its DINs are shown in the Quick Overview and in the table below.",
+   "note": "Corrected: the earlier count included other factor VIII products (KOVALTRY, OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE), whose DPD active ingredients are other antihemophilic factors, not turoctocog alfa. Those DINs are no longer counted for this page.",
+   "finding": "證據包收錯：drug_mapping.csv 把 ANTIHEMOPHILIC FACTOR 對到 DB09109（turoctocog alfa），別的第八因子 14 筆存進證據包（全部比對 28 個 DIN）；排除後只剩 ZONOVATE 6 個 DIN（DPD 狀態 Dormant），句子的張數與「valid single-ingredient」依舊證據包寫，改成不寫數字、指向概覽表與程式表",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "Health Canada DPD API (drugproduct, activeingredient)",
+     "url": "https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Turoctocog alfa is authorized in Canada under 20 valid single-ingredient licences.\"",
+   "method": "2026-11-25 第五輪（用戶決定）：證據包收錯品項排除（config/bundle_record_exclusions.json）後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125-turoctocog_alfa-2",
+   "drug": "turoctocog_alfa",
+   "file": "turoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself.",
+   "replacement": "",
+   "note": "Removed: those brand names are other factor VIII products (DPD active ingredients: antihemophilic factor, recombinant, porcine sequence, human, Fc fusion or pegylated), not turoctocog alfa; they are no longer listed for this page.",
+   "finding": "排除表移出別的第八因子後，程式表只列 ZONOVATE；這句講的其他品牌已不在表上，且依 DPD 成分確認不是 turoctocog alfa，刪除",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "Health Canada DPD API (drugproduct, activeingredient)",
+     "url": "https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Removed: \"Note: the licence list also includes products carrying other brand names (OBIZUR, HUMATE-P, ELOCTATE, ADYNOVATE). These should be verified against Health Canada records to confirm which licences correspond to turoctocog alfa itself.\"",
+   "method": "2026-11-25 第五輪（用戶決定）：證據包收錯品項排除（config/bundle_record_exclusions.json）後的正文更正",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "ca-lic-20261125-turoctocog_alfa-3",
+   "drug": "turoctocog_alfa",
+   "file": "turoctocog_alfa.md",
+   "action": "correct",
+   "claim": "Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text",
+   "replacement": "Dosage form and indication text for the Canadian turoctocog alfa (ZONOVATE) DINs",
+   "note": "Corrected: which DINs correspond to turoctocog alfa has been confirmed from the DPD active ingredients (ZONOVATE); only the dosage form and indication text remain to be obtained.",
+   "finding": "待辦條目只拿掉已解決的前提（哪幾張是本藥已依 DPD 成分確認），其餘建議不動",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "Health Canada DPD API (drugproduct, activeingredient)",
+     "url": "https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and indication text\"",
+   "method": "2026-11-25 第五輪（用戶決定）：證據包收錯品項排除（config/bundle_record_exclusions.json）後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125-sodium_acetate-1",
+   "drug": "sodium_acetate",
+   "file": "sodium_acetate.md",
+   "action": "correct",
+   "claim": "A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled.",
+   "replacement": "Most of these DINs are multi-ingredient electrolyte, dialysis, irrigation or parenteral nutrition solutions that contain sodium acetate; the SODIUM ACETATE INJECTION products are single-ingredient. The number and current status of the DINs are shown in the Quick Overview and in the table above.",
+   "note": "Corrected: the earlier list included lactated Ringer's, peritoneal dialysis and other solutions whose DPD active ingredients contain sodium lactate but no sodium acetate; those DINs are no longer counted for this page. Most of the remaining DINs are combination products.",
+   "finding": "證據包收錯：drug_mapping.csv 把 SODIUM LACTATE、SODIUM GLUCONATE 對到 DB09395（sodium acetate），乳酸林格氏液、DIANEAL／BALANCE、GLYCEROLYTE 57 等 16 筆存進證據包（全部比對 30 個 DIN）；排除後補回同規則的含醋酸鈉產品，原句的「20 張全部單方」本來就不成立（多為複方），改成不寫數字",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    },
+    {
+     "title": "Health Canada DPD API (drugproduct, activeingredient)",
+     "url": "https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled.\"",
+   "method": "2026-11-25 第五輪（用戶決定）：證據包收錯品項排除（config/bundle_record_exclusions.json）後的正文更正"
   }
  ]
 }

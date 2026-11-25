@@ -1719,10 +1719,10 @@
   "by_level": {
    "L5": 729
   },
-  "with_current": 721,
-  "none_current": 8,
-  "without_data": 98,
-  "with_reviews": 674,
+  "with_current": 720,
+  "none_current": 9,
+  "without_data": 97,
+  "with_reviews": 675,
   "rows": [
    {
     "t": "Acetic Acid",
@@ -2303,8 +2303,8 @@
     "i": "congenital prothrombin deficiency",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is…",
     "x": 0
    },
    {
@@ -3229,17 +3229,6 @@
     "lv": 14,
     "r": 3,
     "rs": "Reworded: \"The remainder include quinapril/hydrochlorothiazide products\"",
-    "x": 0
-   },
-   {
-    "t": "Turoctocog Alfa",
-    "u": "/drugs/turoctocog-alfa/",
-    "l": "L5",
-    "i": "primary release disorder of platelets",
-    "lt": 0,
-    "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"The remaining licences are under the same or related brand names.\"",
     "x": 0
    },
    {
@@ -9742,6 +9731,17 @@
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
+   },
+   {
+    "t": "Turoctocog Alfa",
+    "u": "/drugs/turoctocog-alfa/",
+    "l": "L5",
+    "i": "primary release disorder of platelets",
+    "lt": 6,
+    "lv": 0,
+    "r": 5,
+    "rs": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and…",
+    "x": 0
    }
   ],
   "none_current_list": [
@@ -9776,6 +9776,10 @@
    {
     "t": "Palivizumab",
     "u": "/drugs/palivizumab/"
+   },
+   {
+    "t": "Turoctocog Alfa",
+    "u": "/drugs/turoctocog-alfa/"
    }
   ],
   "cross": {

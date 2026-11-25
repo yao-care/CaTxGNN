@@ -584,3 +584,20 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   apply_drug_reviews.py、build_license_snapshot.py 結尾與每週排程 sync_tables 都會跑；`PAGE_NOTE` 放行補的段落標題行。
 - gate 第 18 項（`src/catxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
 - 2026-11-24 全量量測 3 頁、補 3 頁：almotriptan（6 個 DIN）、carboplatin（3 個）、anastrozole（19 個，1 個 dormant）；三頁正文的市場說法（「currently marketed in Canada」等）跟事實層一致，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
+
+## 第五輪：收錯的藥排除表、adapter 存成分（2026-11-25）
+
+用戶 2026-11-25 第五輪決定（本站做第 1、3 條）：
+- 1. 收錯的藥排除並接進排程：`collectors/cafda.py` 依 drug_mapping.csv 的 DrugBank ID 收 DIN，drug_mapping 把 SODIUM LACTATE、SODIUM GLUCONATE 對到 DB09395（Sodium acetate）、把各種 ANTIHEMOPHILIC FACTOR 對到 DB09109（Turoctocog alfa），別的藥被收進本藥證據包。
+  比照 CHTxGNN 第三輪：`config/bundle_record_exclusions.json`（每條附 reason、basis；成分欄＝DPD active ingredient、「;」分隔，有一段符合 family、沒有一段符合 keep 就排除）、`src/catxgnn/regulatory/record_exclusions.py`、`scripts/exclude_mismatched_records.py`
+  （移到 tfda.excluded_records 附 excluded／excluded_reason／excluded_basis；total_matches 扣收集器全部比對結果裡被排除的 DIN、扣過的記在 tfda.excluded_ids；存下的不到 20 筆時照收集器同一規則與排序補回、記 source／added，狀態取 data/raw/dpd_current_status.json；可重複執行）。
+  收集器 `search()` 照同一份表不收（新增 `matches()`、`excluded()`）；`.github/workflows/license-refresh.yml` 在 license_refresh 前跑，有移出或扣數就照常發新 Release。
+  全量量測：DPD API（health-products.canada.ca/api/drug，58,480 個產品的成分）對全部證據包的收集器比對結果 18,404 筆（含沒存的）逐筆看本藥名在不在成分裡，對不到的 222 組逐組判讀；另列 drug_mapping 同一 DrugBank ID 底下不同成分名的 41 個 ID。
+  確認收錯的只有上面兩個 DrugBank ID（4 條規則、5 個證據包）：turoctocog_alfa 移出 14 筆（KOVALTRY、OBIZUR、HUMATE-P、ELOCTATE、ADYNOVATE；total 34→6，剩 ZONOVATE 6 張 Dormant）、sodium_acetate 與 sodium_acetate_trihydrate 各移出 16 筆（乳酸林格氏液、DIANEAL／BALANCE、GLYCEROLYTE 57；total 53→23，各補回 16 筆含醋酸鈉產品）、sodium_gluconate 移出 19 筆（53→3）、sodium_lactate 移出 4 筆（醋酸鈉注射液、ISOLYTE S、TPN ELECTROLYTES；53→30）；合計移出 69 筆、扣 161 個 DIN、補回 38 筆。
+  不收的（同分子的鹽、酯、前驅藥或 INN／USAN 寫法）：diclofenac sodium／potassium 對 diclofenac_diethylamine、norethindrone／acetate 對 norethindrone_enanthate、somatropin、ursodiol、rifampin、pramoxine、tetrahydrozoline、L-／DL- 胺基酸、維生素別名等；antihemophilic_factor（沒有頁）裡的 ZONOVATE 屬同一類別名稱，照收。
+  公開頁 2 頁：turoctocog_alfa 概覽列（Marketed→Approved but not marketed、張數 6）、程式表由程式同步，正文 3 句以 `ca-lic-20261125-turoctocog_alfa-1`～`-3` 更正（「20 valid single-ingredient licences」、說表上有其他品牌的 Note、待辦只拿掉已解決的前提）；sodium_acetate 程式表重排，「20 張全部單方」以 `ca-lic-20261125-sodium_acetate-1` 更正（多為複方，不寫數字）。其他 3 個證據包沒有藥物頁；證據包 local_regulatory 重算 2 個。
+- 3. adapter 存成分：`scripts/license_adapter.py` 的 fetch() 每筆另存 drug_code、class、brand、ingredients、forms、routes、company（萃取檔 drug／ingred／form／route／comp），Release 的 data/raw/dpd_current_status.json 帶著成分；
+  萃取檔下載失敗時改用 DPD API（同一資料庫；狀態轉大寫寫法、set 依狀態歸類）。2026-11-25 從雲端用 requests 下載萃取檔成功（curl 走 HTTP/2 會被斷，requests 正常），58,216 筆、狀態跟上次 Release 一致，0 個 DIN 沒有成分；API 試抓 58,480 筆也通過 validate。
+  漏收重量（照原收集規則：現行 allfiles 人用 DIN 的成分去括號後對 drug_mapping 標準化成分→DrugBank ID，跟證據包 DrugBank ID 相交、不在收集器比對結果裡）：477 個 DIN 不在 2026-03 的萃取檔，其中 412 個對得到 DrugBank ID，
+  缺口 271 個證據包、707 次（有頁面 157 個，例 acetaminophen 16、guanfacine 12、metformin 11、aripiprazole 7、rivaroxaban 7）；超過 50 個證據包，照用戶規則先停下回報，沒有接補收。
+- 驗證：exclude 第二次跑 0 筆；checker 全量前後 0；gate exit 0；apply --check、rewrite_license_counts --check、sync_license_tables --check 都 0。證據包與 data/raw 經 data-overlay 推進 Release。

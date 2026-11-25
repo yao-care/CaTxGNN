@@ -1,0 +1,17 @@
+{
+  "_doc": "證據包收錯的品項（2026-11-25 第五輪，用戶決定；比照 CHTxGNN 第三輪 config/bundle_record_exclusions.json）：collectors/cafda.py 依 data/processed/drug_mapping.csv 的 DrugBank ID 收 DIN，drug_mapping 把另一個有效成分對到本藥的 DrugBank ID 時（例 SODIUM LACTATE→DB09395 Sodium acetate、各種 ANTIHEMOPHILIC FACTOR→DB09109 Turoctocog alfa），別的藥會被收進本藥證據包。規則：證據包名在 bundles 裡時，紀錄成分欄（Health Canada DPD 的 active ingredient，以「;」分隔）有一段符合 family、卻沒有任何一段符合 keep，就從 tfda.records 移到 tfda.excluded_records（附 reason、basis、excluded 日期），total_matches 扣掉收集器全部比對結果裡被排除的 DIN（已扣過的記在 tfda.excluded_ids，可重複執行）。scripts/exclude_mismatched_records.py 套用（每週 license-refresh.yml 在 license_refresh 前先跑），collectors/cafda.py 收集時也照同一份規則。不收：同一分子的鹽類、酯類或前驅藥（diclofenac sodium／potassium 對 diclofenac diethylamine、norethindrone／norethindrone acetate 對 norethindrone enanthate、clindamycin phosphate、sevelamer 各鹽）、INN 與 USAN 寫法（somatropin、ursodiol、rifampin、pramoxine、tetrahydrozoline、cromolyn、trientine、isoproterenol 等）、L-／DL- 胺基酸與鹽類寫法、維生素別名（vitamin B1／B6／D3）、同一類別名稱（antihemophilic_factor 證據包裡的 turoctocog alfa）。全量量測方法：Health Canada DPD API（health-products.canada.ca/api/drug，drugproduct＋activeingredient 全部 58,480 個產品）逐 DIN 取成分，對全部證據包的收集器比對結果（18,404 筆，含因 20 筆上限沒存的）逐筆看本藥名是否在成分裡，對不到的逐組判讀（2026-11-25）。",
+  "rules": [
+    {"bundles": ["turoctocog_alfa"], "family": "^ANTIHEMOPHILIC FACTOR", "keep": "^TUROCTOCOG ALFA",
+     "reason": "成分是別的第八凝血因子（octocog alfa＝KOVALTRY、susoctocog alfa＝OBIZUR、血漿來源第八因子／類血友病因子＝HUMATE-P、efmoroctocog alfa＝ELOCTATE、rurioctocog alfa pegol＝ADYNOVATE、damoctocog／turoctocog pegol 等 PEG 化製劑），不是 turoctocog alfa（ZONOVATE）",
+     "basis": "Health Canada DPD active ingredient（ANTIHEMOPHILIC FACTOR (RECOMBINANT)、(HUMAN)、(RECOMBINANT BDD), FC FUSION PROTEIN、PEGYLATED…；turoctocog alfa 的 DIN 成分寫 TUROCTOCOG ALFA）；drug_mapping.csv 把 ANTIHEMOPHILIC FACTOR 對到 DB09109（Turoctocog alfa）"},
+    {"bundles": ["sodium_acetate", "sodium_acetate_trihydrate"], "family": ".", "keep": "^SODIUM ACETATE\\b",
+     "reason": "成分沒有醋酸鈉：乳酸林格氏液、BALANCE／DIANEAL 腹膜透析液、GLYCEROLYTE 57 等的鈉鹽是 sodium lactate（乳酸鈉），不是 sodium acetate",
+     "basis": "Health Canada DPD active ingredient（例 00039470 LACTATED RINGER'S INJECTION：CALCIUM CHLORIDE; POTASSIUM CHLORIDE; SODIUM CHLORIDE; SODIUM LACTATE）；drug_mapping.csv 把 SODIUM LACTATE、SODIUM GLUCONATE 都對到 DB09395（Sodium acetate）"},
+    {"bundles": ["sodium_gluconate"], "family": ".", "keep": "^SODIUM GLUCONATE\\b",
+     "reason": "成分沒有葡萄糖酸鈉（乳酸林格氏液、腹膜透析液、醋酸鈉注射液、TPN ELECTROLYTES 等）",
+     "basis": "Health Canada DPD active ingredient；drug_mapping.csv 把 SODIUM ACETATE、SODIUM LACTATE、SODIUM GLUCONATE 都對到 DB09395（Sodium acetate）"},
+    {"bundles": ["sodium_lactate"], "family": ".", "keep": "^SODIUM LACTATE\\b",
+     "reason": "成分沒有乳酸鈉（醋酸鈉注射液、ISOLYTE S、TPN ELECTROLYTES、含醋酸鈉的透析液與靜脈營養液等）",
+     "basis": "Health Canada DPD active ingredient；drug_mapping.csv 把 SODIUM ACETATE、SODIUM LACTATE 都對到 DB09395（Sodium acetate）"}
+  ]
+}
