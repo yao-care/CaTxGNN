@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 843
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Selumetinib"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "rhabdoid tumor", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "acromelanosis", "Moynahan syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "peripheral nerve schwannoma", "microcystic/reticular schwannoma"]
-description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). In Canada: 2 DINs (2 marketed)"
+description: "Selumetinib: predicted new indication Familial generalized lentiginosis (evidence level L5). In Canada: 4 DINs (4 marketed)"
 ---
 
 # Selumetinib
@@ -50,8 +50,8 @@ Selumetinib is a MEK1/2 inhibitor originally used for neurofibromatosis. The TxG
 | Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (as assigned in the compiled data; note that no completed Phase 2/3 RCT exists, so this is generous) |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold (pending further evidence; see Conclusion) |
 
 ---
@@ -97,6 +97,8 @@ Reviews and preclinical work in the compiled literature are consistent with this
 |------|------|------|------|
 | 02530139 | KOSELUGO | SELUMETINIB (SELUMETINIB SULFATE) | Marketed |
 | 02530147 | KOSELUGO | SELUMETINIB (SELUMETINIB SULFATE) | Marketed |
+| 02569736 | KOSELUGO GRANULES | SELUMETINIB (SELUMETINIB SULFATE) | Marketed |
+| 02569744 | KOSELUGO GRANULES | SELUMETINIB (SELUMETINIB SULFATE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

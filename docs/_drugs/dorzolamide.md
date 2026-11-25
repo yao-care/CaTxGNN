@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "DORZOLAMIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-24
-description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Canada: 11 DINs (11 marketed)"
+last_modified_at: 2026-11-25
+description: "Dorzolamide: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In Canada: 13 DINs (13 marketed)"
 ---
 
 # Dorzolamide
@@ -52,8 +52,8 @@ There are currently **no clinical trials and no publications** on this disease i
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
-| Number of DINs | 11 (marketed: 11) |
+| Canada Market Status | Marketed (marketed DINs: 13 of 13) |
+| Number of DINs | 13 (marketed: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -97,6 +97,8 @@ Currently no related literature available.
 | 02522020 | DORZOLAMIDE-TIMOLOL | DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE); TIMOLOL (TIMOLOL MALEATE) | Marketed |
 | 02522373 | DORZOLAMIDE | DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE) | Marketed |
 | 02537796 | M-DORZOLAMIDE-TIMOLOL | DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE); TIMOLOL (TIMOLOL MALEATE) | Marketed |
+| 02561573 | DORZOLAMIDE | DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE) | Marketed |
+| 02562138 | DORZOLAMIDE-TIMOLOL | DORZOLAMIDE (DORZOLAMIDE HYDROCHLORIDE); TIMOLOL (TIMOLOL MALEATE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

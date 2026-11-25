@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
-description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). In Canada: 14 DINs (14 marketed)"
+description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). In Canada: 15 DINs (15 marketed)"
 ---
 
 # Loperamide
@@ -52,8 +52,8 @@ The high score appears to be a TxGNN model (deep learning) artifact rather than 
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
-| Number of DINs | 14 (marketed: 14) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
+| Number of DINs | 15 (marketed: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -108,6 +108,7 @@ Literature exists only for two other predicted indications, and both raise safet
 | 02499517 | DIARRHEA RELIEF FAST DISSOLVE | LOPERAMIDE HYDROCHLORIDE | Marketed |
 | 02544989 | JAMP LOPERAMIDE | LOPERAMIDE HYDROCHLORIDE | Marketed |
 | 02552337 | DIARRHEA RELIEF LIQUID GELS | LOPERAMIDE HYDROCHLORIDE | Marketed |
+| 02553139 | DIARRHEA RELIEF LIQUID GELS | LOPERAMIDE HYDROCHLORIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

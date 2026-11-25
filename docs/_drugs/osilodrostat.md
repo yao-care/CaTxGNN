@@ -5,7 +5,7 @@ layout: default
 title: Osilodrostat
 parent: Known Uses Only (No New Predictions)
 nav_order: 689
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Osilodrostat: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Osilodrostat"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 
 ## Canada Market Information
 
@@ -54,6 +54,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|------|------|------|
 | 02558912 | ISTURISA | OSILODROSTAT (OSILODROSTAT PHOSPHATE) | Marketed |
 | 02558920 | ISTURISA | OSILODROSTAT (OSILODROSTAT PHOSPHATE) | Marketed |
+| 02558939 | ISTURISA | OSILODROSTAT (OSILODROSTAT PHOSPHATE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

@@ -7,8 +7,8 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "CILASTATIN"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-24
-description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). In Canada: 2 DINs (2 marketed)"
+last_modified_at: 2026-11-25
+description: "Cilastatin: predicted new indication Staphylococcus aureus infection (evidence level L3). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Cilastatin
@@ -50,8 +50,8 @@ However, the trial tests linezolid with or without a carbapenem, and the antibac
 | Predicted New Indication | Staphylococcus aureus infection |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,6 +89,7 @@ Any anti-staphylococcal effect therefore comes from imipenem. The high TxGNN sco
 |------|------|------|------|
 | 02351706 | TARO-IMIPENEM-CILASTATIN | CILASTATIN (CILASTATIN SODIUM); IMIPENEM | Marketed |
 | 02358344 | IMIPENEM AND CILASTATIN FOR INJECTION USP | CILASTATIN (CILASTATIN SODIUM); IMIPENEM | Marketed |
+| 02565323 | RECARBRIO | CILASTATIN (CILASTATIN SODIUM); IMIPENEM; RELEBACTAM | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

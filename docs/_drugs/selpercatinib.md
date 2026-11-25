@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 842
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Selpercatinib: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ The evidence is weak, and the supplied data suggest a possible safety signal rat
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
+| Number of DINs | 4 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,6 +92,8 @@ None of these publications addresses pulmonary hypertension as a treatment targe
 |------|------|------|------|
 | 02516918 | RETEVMO | SELPERCATINIB | Marketed |
 | 02516926 | RETEVMO | SELPERCATINIB | Marketed |
+| 02565668 | RETEVMO | SELPERCATINIB | Marketed |
+| 02565676 | RETEVMO | SELPERCATINIB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

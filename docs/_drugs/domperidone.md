@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 297
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Dyspepsia, heartburn, epigastric pain, nausea and vomiting"
 monitor_inn: "DOMPERIDONE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -48,8 +48,8 @@ Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dy
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 9 of 10; dormant: 1) |
-| Number of DINs | 10 (marketed: 9) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 13; dormant: 1) |
+| Number of DINs | 13 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,6 +85,9 @@ Dosage form and approved indication text are not available in the compiled data.
 | 02403870 | MAR-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
 | 02445034 | BIO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
 | 02462834 | PRZ-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02543435 | JAMP DOMPERIDONE TABLETS | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02561905 | NRA-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
+| 02567199 | DOMPERIDONE TABLETS | DOMPERIDONE (DOMPERIDONE MALEATE) | Marketed |
 | 02103613 | APO-DOMPERIDONE | DOMPERIDONE (DOMPERIDONE MALEATE) | Dormant |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.

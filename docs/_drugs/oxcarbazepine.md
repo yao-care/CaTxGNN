@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 693
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "OXCARBAZEPINE"
 predicted_indications: ["restless legs syndrome"]
-description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In Canada: 6 DINs (6 marketed)"
+description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In Canada: 9 DINs (9 marketed)"
 ---
 
 # Oxcarbazepine
@@ -52,8 +52,8 @@ The strongest signal in this prediction set is not for visual epilepsy but for *
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,6 +101,9 @@ None of these publications addresses oxcarbazepine specifically in visual epilep
 | 02284294 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
 | 02284308 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
 | 02284316 | APO-OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+| 02560593 | JAMP OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+| 02560607 | JAMP OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
+| 02560615 | JAMP OXCARBAZEPINE | OXCARBAZEPINE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -112,7 +115,13 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- review:end ca-lic-20261124b-oxcarbazepine-1 -->
 
-All six are single-ingredient products, and none is cancelled.
+All are single-ingredient products, and none is cancelled; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.
+
+<!-- review:begin ca-lic-20261125b-oxcarbazepine-2 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "All six are single-ingredient products, and none is cancelled." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-oxcarbazepine-2 -->
 
 ---
 
@@ -154,7 +163,13 @@ The prediction for restless legs syndrome rests on the model score and a plausib
 - Detailed mechanism of action data
 - Targeted literature search for oxcarbazepine in visual, photosensitive and occipital epilepsy
 - Consideration of a formal research question for restless legs syndrome, where case-level evidence is most specific
-- Dosage form and approved indication details for the six Canadian licences
+- Dosage form and approved indication details for the Canadian licences
+
+<!-- review:begin ca-lic-20261125b-oxcarbazepine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "details for the six Canadian licences" Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-oxcarbazepine-1 -->
 
 <!-- review:begin log -->
 
@@ -166,6 +181,8 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 | 2026-11-24 | Removed: "One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "details for the six Canadian licences" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "All six are single-ingredient products, and none is cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

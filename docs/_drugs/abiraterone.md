@@ -5,7 +5,7 @@ layout: default
 title: Abiraterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 14
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Abiraterone: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Abiraterone"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (marketed DINs: 19 of 19) |
-| Number of DINs | 19 (marketed: 19) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
+| Number of DINs | at least 20 |
 
 ---
 
@@ -81,8 +81,11 @@ The table below lists each DIN with its current status in the DPD. The records c
 | 02538563 | AKEEGA | ABIRATERONE ACETATE; NIRAPARIB (NIRAPARIB TOSYLATE) | Marketed |
 | 02540452 | PRZ-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
 | 02540460 | PRZ-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
+| 02569973 | RIVA-ABIRATERONE | ABIRATERONE ACETATE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
 
 <!-- licenses:end -->
 

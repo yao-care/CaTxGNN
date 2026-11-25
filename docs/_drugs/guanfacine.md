@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "GUANFACINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "manic bipolar affective disorder", "restless legs syndrome", "Tourette syndrome"]
-description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). In Canada: 12 DINs (12 marketed)"
+description: "Guanfacine: predicted new indication Faciodigitogenital syndrome (evidence level L5). In Canada: at least 20 DINs"
 ---
 
 # Guanfacine
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
-| Number of DINs | 12 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 20) |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,7 +79,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Twelve valid single-ingredient licences are listed.
+The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.
+
+<!-- review:begin ca-lic-20261125b-guanfacine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Twelve valid single-ingredient licences are listed." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-guanfacine-1 -->
 
 <!-- licenses:begin -->
 
@@ -97,8 +103,18 @@ Twelve valid single-ingredient licences are listed.
 | 02523736 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
 | 02523744 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
 | 02523752 | APO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525127 | AG-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525135 | AG-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525143 | AG-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525151 | AG-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525224 | PRO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525232 | PRO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525240 | PRO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
+| 02525259 | PRO-GUANFACINE XR | GUANFACINE (GUANFACINE HYDROCHLORIDE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
 
 <!-- licenses:end -->
 
@@ -133,11 +149,12 @@ The prediction has a very high model score but no trials, no literature and no p
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Guanfacine Extended-Release (guanfacine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3ec4fed6-cafc-49a0-9540-8d70ac435769) |
+| 2026-11-25 | Corrected: "Twelve valid single-ingredient licences are listed." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

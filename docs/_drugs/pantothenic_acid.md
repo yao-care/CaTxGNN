@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 705
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Pantothenic acid"
 predicted_indications: ["congenital prothrombin deficiency", "ochronosis disorder", "glycerol metabolism disease", "folic acid deficiency anemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urinary tract infection (disease)", "gonococcal urethritis", "Ureaplasma urethritis"]
-description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). In Canada: 5 DINs (3 marketed, 2 dormant)"
+description: "Pantothenic Acid: predicted new indication Congenital prothrombin deficiency (evidence level L5). In Canada: 7 DINs (5 marketed, 2 dormant)"
 ---
 
 # Pantothenic Acid
@@ -50,8 +50,8 @@ Among the other predicted indications, **folic acid deficiency anemia** and **ut
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 3 of 5; dormant: 2) |
-| Number of DINs | 5 (marketed: 3) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 7; dormant: 2) |
+| Number of DINs | 7 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,6 +94,8 @@ Five further papers retrieved for glycerol metabolism disease are metabolomics o
 | 00586315 | MULTI 1000 | ASCORBIC ACID; D-PANTOTHENIC ACID (CALCIUM D-PANTOTHENATE); NICOTINAMIDE; VITAMIN A; VITAMIN B1 (THIAMINE HYD… | Marketed |
 | 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
 | 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02565684 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02565692 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
 | 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
 | 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 635
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "MYCOPHENOLATE MOFETIL"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -48,8 +48,8 @@ Mycophenolate mofetil (MMF) is an immunosuppressant marketed in Canada under man
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; note that the only Phase 2 HIV trial of MMF was withdrawn, so the supporting evidence is weaker than this label suggests) |
-| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
-| Number of DINs | 15 (marketed: 15) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,13 @@ Clinical data are limited to small trials with mixed virologic benefit. Immunosu
 
 ## Canada Market Information
 
-Health Canada lists 15 valid single-ingredient licences. Dosage form, manufacturer and approved indication text were not available for any of them.
+Health Canada lists valid single-ingredient licences; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Dosage form, manufacturer and approved indication text were not available for any of them.
+
+<!-- review:begin ca-lic-20261125b-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Health Canada lists 15 valid single-ingredient licences." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-mycophenolate_mofetil-1 -->
 
 <!-- licenses:begin -->
 
@@ -104,6 +110,7 @@ Health Canada lists 15 valid single-ingredient licences. Dosage form, manufactur
 | 02348675 | TEVA-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
 | 02364883 | TEVA-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
 | 02378574 | ACH-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
+| 02380382 | JAMP-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
 | 02383780 | ACH-MYCOPHENOLATE | MYCOPHENOLATE MOFETIL | Marketed |
 | 02386399 | JAMP-MYCOPHENOLATE CAPSULES | MYCOPHENOLATE MOFETIL | Marketed |
 | 02444836 | MYCOPHENOLATE MOFETIL FOR INJECTION, USP | MYCOPHENOLATE MOFETIL (MYCOPHENOLATE MOFETIL HYDROCHLORIDE) | Marketed |
@@ -175,6 +182,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data for MMF were not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 | 2026-11-24 | Reworded: "The remaining 10 licences cover generic products" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "Health Canada lists 15 valid single-ingredient licences." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the Canadian licence data. Pharmacology data lists andr…"
 monitor_inn: "CYPROTERONE ACETATE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -52,8 +52,8 @@ The evidence is weak, and the literature suggests caution because hormonal expos
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 (no trials; indirect mechanistic literature only) |
-| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
-| Number of DINs | 9 (marketed: 9) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ---
@@ -101,6 +101,7 @@ None of these papers shows CPA treating migraine.
 | 02395797 | RIVA-CYPROTERONE | CYPROTERONE ACETATE | Marketed |
 | 02425017 | TARO-CYPROTERONE/ETHINYL ESTRADIOL | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
 | 02436736 | CLÉO -35 | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
+| 02564424 | AMB-CYPROTERONE ACETATE / ETHINYL ESTRADIOL | CYPROTERONE ACETATE; ETHINYL ESTRADIOL | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -112,7 +113,7 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- review:end ca-lic-20261124b-cyproterone_acetate-1 -->
 
-Nine licences are valid in total.
+Ten licences are valid in total.
 
 ---
 

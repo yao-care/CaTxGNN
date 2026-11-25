@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
-description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). In Canada: 2 DINs (2 marketed)"
+description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Imipenem
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, with a
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,6 +76,7 @@ Currently no related literature available.
 |------|------|------|------|
 | 02351706 | TARO-IMIPENEM-CILASTATIN | CILASTATIN (CILASTATIN SODIUM); IMIPENEM | Marketed |
 | 02358344 | IMIPENEM AND CILASTATIN FOR INJECTION USP | CILASTATIN (CILASTATIN SODIUM); IMIPENEM | Marketed |
+| 02565323 | RECARBRIO | CILASTATIN (CILASTATIN SODIUM); IMIPENEM; RELEBACTAM | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

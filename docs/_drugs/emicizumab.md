@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). In Canada: 4 DINs (4 marketed)"
+description: "Emicizumab: predicted new indication Pseudo-von Willebrand disease (evidence level L5). In Canada: 6 DINs (6 marketed)"
 ---
 
 # Emicizumab
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acquired coagulation factor d
 | Predicted New Indication | Pseudo-von Willebrand disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
-| Number of DINs | 4 (marketed: 4) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on selection:** The TxGNN top-ranked prediction was pseudo-von Willebrand disease (0.9999). It has no supporting trials or literature and no clear mechanistic link, so it is rated L5 / Hold. This report focuses on acquired coagulation factor deficiency (rank 5), the prediction with the strongest evidence. Other predictions are summarised at the end.
@@ -104,6 +104,8 @@ The 10 most relevant publications, prioritising prospective studies:
 | 02479648 | HEMLIBRA | EMICIZUMAB | Marketed |
 | 02479656 | HEMLIBRA | EMICIZUMAB | Marketed |
 | 02479664 | HEMLIBRA | EMICIZUMAB | Marketed |
+| 02556049 | HEMLIBRA | EMICIZUMAB | Marketed |
+| 02556057 | HEMLIBRA | EMICIZUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -131,12 +133,18 @@ Package insert warnings and contraindications were not available. Please refer t
 Prospective phase 2 and phase 3 studies, a real-world cohort and consensus recommendations support emicizumab in acquired hemophilia A, with a strong mechanistic rationale. The studies are non-randomised and the evidence covers only this subtype, so the rating is L2 rather than L1.
 
 **To proceed, the following is needed:**
-- Health Canada package insert warnings and contraindications, and the approved indication text for the four DINs (a blocking gap for safety screening)
+- Health Canada package insert warnings and contraindications, and the approved indication text for the Canadian DINs (a blocking gap for safety screening)
 - Mechanism-of-action data from DrugBank
 - A thrombosis risk plan, especially to avoid concomitant aPCC or to limit bypassing agents
 - Monitoring guidance: chromogenic factor VIII assays are needed, because emicizumab interferes with standard clotting assays
 - Clarification of the role of immunosuppression alongside emicizumab, and a Canadian regulatory pathway for acquired hemophilia A
 - Review of the remaining 10 publications not included in the data
+
+<!-- review:begin ca-lic-20261125b-emicizumab-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "the approved indication text for the four DINs" Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-emicizumab-1 -->
 
 ---
 
@@ -158,11 +166,12 @@ Prospective phase 2 and phase 3 studies, a real-world cohort and consensus recom
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
+| 2026-11-25 | Corrected: "the approved indication text for the four DINs" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

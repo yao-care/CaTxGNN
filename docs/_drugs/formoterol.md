@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In Canada: 8 DINs (8 marketed)"
+description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In Canada: 9 DINs (9 marketed)"
 ---
 
 # Formoterol
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **respiratory malformation**, but
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
-| Number of DINs | 8 (marketed: 8) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,12 +105,13 @@ None of the publications below studies respiratory malformation directly. They a
 | 02361760 | ZENHALE | FORMOTEROL FUMARATE DIHYDRATE; MOMETASONE FUROATE | Marketed |
 | 02439530 | DUAKLIR GENUAIR | ACLIDINIUM BROMIDE; FORMOTEROL FUMARATE DIHYDRATE | Marketed |
 | 02518058 | BREZTRI AEROSPHERE | BUDESONIDE; FORMOTEROL FUMARATE DIHYDRATE; GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE) | Marketed |
+| 02557592 | TRIMBOW | BECLOMETHASONE DIPROPIONATE; FORMOTEROL FUMARATE DIHYDRATE; GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All 8 licences on record are valid.
+All 9 licences on record are valid.
 
 ---
 

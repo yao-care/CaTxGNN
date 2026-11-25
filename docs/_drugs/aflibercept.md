@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Aflibercept"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-24
-description: "Aflibercept: predicted new indication esotropia (evidence level L5). In Canada: 10 DINs (10 marketed)"
+last_modified_at: 2026-11-25
+description: "Aflibercept: predicted new indication esotropia (evidence level L5). In Canada: 12 DINs (12 marketed)"
 ---
 
 # Aflibercept
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **esotropia**, but **no clinical 
 | Predicted New Indication | esotropia |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
-| Number of DINs | 10 (marketed: 10) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,20 @@ Currently no related literature available.
 | 02554798 | EYLEA HD | AFLIBERCEPT | Marketed |
 | 02558238 | YESAFILI | AFLIBERCEPT | Marketed |
 | 02562510 | ENZEEVU | AFLIBERCEPT | Marketed |
+| 02563037 | EYDENZELT | AFLIBERCEPT | Marketed |
+| 02563045 | EYDENZELT | AFLIBERCEPT | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products).
+The valid licences also cover AFLIVU, PAVBLU, ENZEEVU, EYDENZELT and further YESAFILI products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.
+
+<!-- review:begin ca-lic-20261125b-aflibercept-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products)." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-aflibercept-1 -->
 
 ## Safety Considerations
 
@@ -113,11 +121,12 @@ The prediction has a high model score but no supporting trials or publications, 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description relies on the drug's known class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+| 2026-11-25 | Corrected: "Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In Canada: 10 DINs (10 marketed)"
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In Canada: 12 DINs (12 marketed)"
 ---
 
 # Cyclophosphamide
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **vertebral anomalies and variabl
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
-| Number of DINs | 10 (marketed: 10) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,12 +83,14 @@ Currently no related literature available.
 | 02546744 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
 | 02547686 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
 | 02547694 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+| 02560216 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
+| 02560224 | CYCLOPHOSPHAMIDE FOR INJECTION USP | CYCLOPHOSPHAMIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All 10 licences on record are valid single-ingredient products.
+All 12 licences on record are valid single-ingredient products.
 
 ## Cytotoxicity
 

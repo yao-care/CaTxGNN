@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Chlorthalidone: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, congestive heart failure"
 monitor_inn: "CHLORTHALIDONE"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
@@ -50,8 +50,8 @@ but **no clinical trials and no relevant publications** currently support this d
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
-| Number of DINs | 8 (marketed: 8) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,6 +84,9 @@ Currently no related literature available for primary hereditary glaucoma.
 | 02523795 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
 | 02523809 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
 | 02523817 | JAMP CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02557126 | MINT-CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02557134 | MINT-CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
+| 02557142 | MINT-CHLORTHALIDONE | CHLORTHALIDONE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

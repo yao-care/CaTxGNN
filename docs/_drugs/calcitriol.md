@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-24
-description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In Canada: 8 DINs (6 marketed, 1 dormant)"
+last_modified_at: 2026-11-25
+description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In Canada: 10 DINs (8 marketed, 1 dormant)"
 ---
 
 # Calcitriol
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** retrieved for thi
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 8; dormant: 1; cancelled: 1) |
-| Number of DINs | 8 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 10; dormant: 1; cancelled: 1) |
+| Number of DINs | 10 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,6 +91,8 @@ The table below lists each DIN with its current status in the DPD. Approved indi
 | 02431645 | CALCITRIOL-ODAN | CALCITRIOL | Marketed |
 | 02485710 | TARO-CALCITRIOL | CALCITRIOL | Marketed |
 | 02485729 | TARO-CALCITRIOL | CALCITRIOL | Marketed |
+| 02495899 | PMS-CALCITRIOL | CALCITRIOL | Marketed |
+| 02495902 | PMS-CALCITRIOL | CALCITRIOL | Marketed |
 | 02399334 | CALCITRIOL INJECTION USP | CALCITRIOL | Dormant |
 | 02338572 | SILKIS | CALCITRIOL | Cancelled post market |
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ASCORBIC ACID"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "perinatal disease", "disease by subcellular system affected"]
-description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In Canada: 13 DINs (11 marketed, 2 dormant)"
+description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). In Canada: 15 DINs (13 marketed, 2 dormant)"
 ---
 
 # Ascorbic Acid
@@ -48,8 +48,8 @@ Ascorbic acid (vitamin C) is a water-soluble vitamin with antioxidant activity a
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 11 of 13; dormant: 2) |
-| Number of DINs | 13 (marketed: 11) |
+| Canada Market Status | Marketed (marketed DINs: 13 of 15; dormant: 2) |
+| Number of DINs | 15 (marketed: 13) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,6 +83,8 @@ Currently no related literature available.
 | 02359499 | MOVIPREP | ASCORBIC ACID; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM ASCORBATE; SODIUM CHLORIDE; SODIUM SULFAT… | Marketed |
 | 02552620 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
 | 02552639 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
+| 02565684 | PREGVIT | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHENIC ACID (CALCIUM… | Marketed |
+| 02565692 | PREGVIT FOLIC 5 | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (CUPRIC OXIDE); D-PANTOTHEN… | Marketed |
 | 02535718 | PREGNANCY MULTIVITAMIN | ASCORBIC ACID (ASCORBIC ACID); BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTO… | Dormant |
 | 02537478 | PREGNANCY MULTIVITAMIN FOLIC 5 | ASCORBIC ACID; BETA-CAROTENE; CALCIUM (CALCIUM CARBONATE); COPPER (COPPER GLUCONATE); D-PANTOTHENIC ACID (CAL… | Dormant |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cholecalciferol: predicted new indication Acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not stated in the licence records compiled for this report. The knowl…"
 ---
 
@@ -50,8 +50,8 @@ The best-supported candidate further down the list is **renal osteodystrophy** (
 | Predicted New Indication | Acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 17 of 20; dormant: 2; cancelled: 1) |
-| Number of DINs | 20 (marketed: 17) |
+| Canada Market Status | Marketed (marketed DINs on record: at least 17; dormant: 2; cancelled: 1) |
+| Number of DINs | at least 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -130,6 +130,8 @@ The compiled data does not include dosage forms or approved indication text for 
 | 02253178 | SANDOZ D 10 000 | VITAMIN D3 (CHOLECALCIFEROL) | Cancelled post market |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
+
+The data contain only part of the DINs for this ingredient; the list may be incomplete.
 
 <!-- licenses:end -->
 

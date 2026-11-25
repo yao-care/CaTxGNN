@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Doxycycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Bronchitis, acne, bacterial pneumonia, anthrax…"
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
@@ -52,8 +52,8 @@ The top-scoring prediction, punctate epithelial keratoconjunctivitis, has only a
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9994 (rank 1); 0.9989 (post-bacterial disorder) |
 | Evidence Level | L5 for rank 1 (a single case report); L1 for post-bacterial disorder (as graded in the compiled data, though the indication fit is loose) |
-| Canada Market Status | Marketed (marketed DINs: 15 of 17; dormant: 2) |
-| Number of DINs | 17 (marketed: 15) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 20; dormant: 2) |
+| Number of DINs | 20 (marketed: 18) |
 | Recommended Decision | Hold for rank 1; Proceed with Guardrails for post-bacterial disorder |
 
 ---
@@ -99,7 +99,13 @@ The rank 4 prediction has no linked literature. The table below shows the single
 
 ## Canada Market Information
 
-Seventeen single-ingredient licences are currently valid in Canada. The compiled data contain no dosage form or indication text for them.
+The licences are single-ingredient products and are currently valid in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. The compiled data contain no dosage form or indication text for them.
+
+<!-- review:begin ca-lic-20261125b-doxycycline-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Seventeen single-ingredient licences are currently valid in Canada." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-doxycycline-1 -->
 
 <!-- licenses:begin -->
 
@@ -118,7 +124,10 @@ Seventeen single-ingredient licences are currently valid in Canada. The compiled
 | 02528940 | JAMP DOXYCYCLINE CAPSULES | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
 | 02536250 | PRZ-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
 | 02543478 | M-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02554372 | JAMP DOXYCYCLINE TABLETS | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02556928 | AG-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
 | 02558505 | NRA-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
+| 02561115 | BIO-DOXYCYCLINE | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
 | 02561441 | DOXYCYCLINE FOR INJECTION USP | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Marketed |
 | 02351234 | DOXYCYCLINE CAPSULES | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Dormant |
 | 02351242 | DOXYCYCLINE TABLETS | DOXYCYCLINE (DOXYCYCLINE HYCLATE) | Dormant |
@@ -179,6 +188,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 | 2026-11-24 | Reworded: "One further licence is **DOXYCYCLINE FOR INJECTION USP** (DIN 02561441)" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "Seventeen single-ingredient licences are currently valid in Canada." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

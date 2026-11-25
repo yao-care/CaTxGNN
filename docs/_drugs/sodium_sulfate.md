@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 857
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the Canadian licence data compiled for this report (pro…"
 monitor_inn: "SODIUM SULFATE"
 predicted_indications: ["dyspepsia"]
@@ -50,8 +50,8 @@ Sodium sulfate is an osmotic saline laxative, marketed in Canada as a component 
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,6 +94,7 @@ The papers below mention dyspepsia only in passing and all use DSS-induced anima
 | 00777838 | PEGLYTE POWDER | MACROGOL; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
 | 02326302 | BI-PEGLYTE | BISACODYL; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
 | 02359499 | MOVIPREP | ASCORBIC ACID; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM ASCORBATE; SODIUM CHLORIDE; SODIUM SULFAT… | Marketed |
+| 02368234 | JAMPLYTE | POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
 | 02378329 | JAMPLYTE | POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
 | 02552612 | JAMPLYTE + BISACODYL | BISACODYL; POLYETHYLENE GLYCOL 3350; POTASSIUM CHLORIDE; SODIUM BICARBONATE; SODIUM CHLORIDE; SODIUM SULFATE | Marketed |
 

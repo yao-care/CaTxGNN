@@ -38,8 +38,8 @@
     "u": "/drugs/bromfenac/",
     "l": "L1",
     "i": "eye disease",
-    "lt": 2,
-    "lv": 1,
+    "lt": 3,
+    "lv": 2,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
@@ -170,8 +170,8 @@
     "u": "/drugs/bupropion/",
     "l": "L2",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 10,
-    "lv": 10,
+    "lt": 12,
+    "lv": 12,
     "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
@@ -379,10 +379,10 @@
     "u": "/drugs/mycophenolate-mofetil/",
     "l": "L2",
     "i": "HIV infectious disease",
-    "lt": 15,
-    "lv": 15,
-    "r": 2,
-    "rs": "Reworded: \"The remaining 10 licences cover generic products\"",
+    "lt": 16,
+    "lv": 16,
+    "r": 3,
+    "rs": "Corrected: \"Health Canada lists 15 valid single-ingredient licences.\"",
     "x": 0
    },
    {
@@ -654,8 +654,8 @@
     "u": "/drugs/beclomethasone-dipropionate/",
     "l": "L3",
     "i": "atopic eczema",
-    "lt": 5,
-    "lv": 5,
+    "lt": 6,
+    "lv": 6,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
@@ -665,8 +665,8 @@
     "u": "/drugs/calcipotriol/",
     "l": "L3",
     "i": "seborrheic keratosis",
-    "lt": 6,
-    "lv": 6,
+    "lt": 7,
+    "lv": 7,
     "r": 2,
     "rs": "Removed: \"A sixth authorization, DOVOBET OINTMENT (DIN 02244126), is also valid.\"",
     "x": 0
@@ -676,8 +676,8 @@
     "u": "/drugs/cilastatin/",
     "l": "L3",
     "i": "staphylococcus aureus infection",
-    "lt": 2,
-    "lv": 2,
+    "lt": 3,
+    "lv": 3,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data for cilastatin is not available in the data compiled for this report\"…",
     "x": 0
@@ -709,8 +709,8 @@
     "u": "/drugs/daunorubicin/",
     "l": "L3",
     "i": "Hodgkins lymphoma",
-    "lt": 3,
-    "lv": 3,
+    "lt": 4,
+    "lv": 4,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
@@ -819,8 +819,8 @@
     "u": "/drugs/magnesium-sulfate/",
     "l": "L3",
     "i": "thrombotic disease",
-    "lt": 8,
-    "lv": 8,
+    "lt": 9,
+    "lv": 9,
     "r": 1,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
@@ -1072,8 +1072,8 @@
     "u": "/drugs/beta-carotene/",
     "l": "L4",
     "i": "acne (disease)",
-    "lt": 4,
-    "lv": 2,
+    "lt": 6,
+    "lv": 4,
     "r": 0,
     "rs": "",
     "x": 0
@@ -1116,8 +1116,8 @@
     "u": "/drugs/buprenorphine/",
     "l": "L4",
     "i": "acute intermittent porphyria",
-    "lt": 18,
-    "lv": 18,
+    "lt": 20,
+    "lv": 20,
     "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
@@ -1149,8 +1149,8 @@
     "u": "/drugs/cyproterone-acetate/",
     "l": "L4",
     "i": "migraine disorder",
-    "lt": 9,
-    "lv": 9,
+    "lt": 10,
+    "lv": 10,
     "r": 1,
     "rs": "Removed: \"The remaining four are TEVA-CYPROTERONE / ETHINYL ESTRADIOL (02309556), CYESTRA-35 (02290308)…",
     "x": 0
@@ -1457,10 +1457,10 @@
     "u": "/drugs/oxcarbazepine/",
     "l": "L4",
     "i": "restless legs syndrome",
-    "lt": 6,
-    "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"One additional authorization (DIN 02284316, APO-OXCARBAZEPINE) is also valid.\"",
+    "lt": 9,
+    "lv": 9,
+    "r": 4,
+    "rs": "Corrected: \"All six are single-ingredient products, and none is cancelled.\"",
     "x": 0
    },
    {
@@ -1545,8 +1545,8 @@
     "u": "/drugs/progesterone/",
     "l": "L4",
     "i": "breast fibrocystic disease",
-    "lt": 12,
-    "lv": 12,
+    "lt": 13,
+    "lv": 13,
     "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
@@ -1721,7 +1721,7 @@
   },
   "with_current": 720,
   "none_current": 9,
-  "without_data": 97,
+  "without_data": 99,
   "with_reviews": 675,
   "rows": [
    {
@@ -2000,6 +2000,17 @@
     "x": 0
    },
    {
+    "t": "Famotidine",
+    "u": "/drugs/famotidine/",
+    "l": "L5",
+    "i": "duodenal obstruction",
+    "lt": 20,
+    "lv": 20,
+    "r": 2,
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
     "t": "Fentanyl",
     "u": "/drugs/fentanyl/",
     "l": "L5",
@@ -2030,6 +2041,17 @@
     "lv": 20,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data is not available for this report\" replaced with a sourced…",
+    "x": 0
+   },
+   {
+    "t": "Guanfacine",
+    "u": "/drugs/guanfacine/",
+    "l": "L5",
+    "i": "faciodigitogenital syndrome",
+    "lt": 0,
+    "lv": 20,
+    "r": 2,
+    "rs": "Corrected: \"Twelve valid single-ingredient licences are listed.\"",
     "x": 0
    },
    {
@@ -2583,6 +2605,17 @@
     "x": 0
    },
    {
+    "t": "Mesalazine",
+    "u": "/drugs/mesalazine/",
+    "l": "L5",
+    "i": "congenital hypotrichosis with juvenile macular dystrophy",
+    "lt": 19,
+    "lv": 19,
+    "r": 2,
+    "rs": "Corrected: \"Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations.\"",
+    "x": 0
+   },
+   {
     "t": "Methotrexate",
     "u": "/drugs/methotrexate/",
     "l": "L5",
@@ -2726,6 +2759,17 @@
     "x": 0
    },
    {
+    "t": "Doxycycline",
+    "u": "/drugs/doxycycline/",
+    "l": "L5",
+    "i": "punctate epithelial keratoconjunctivitis",
+    "lt": 20,
+    "lv": 18,
+    "r": 3,
+    "rs": "Corrected: \"Seventeen single-ingredient licences are currently valid in Canada.\"",
+    "x": 0
+   },
+   {
     "t": "Epinephrine",
     "u": "/drugs/epinephrine/",
     "l": "L5",
@@ -2737,14 +2781,14 @@
     "x": 0
    },
    {
-    "t": "Famotidine",
-    "u": "/drugs/famotidine/",
+    "t": "Ezetimibe",
+    "u": "/drugs/ezetimibe/",
     "l": "L5",
-    "i": "duodenal obstruction",
-    "lt": 18,
+    "i": "cholesterol-ester transfer protein deficiency",
+    "lt": 20,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "r": 3,
+    "rs": "Corrected: \"Ezetimibe has 19 valid single-ingredient authorizations in Canada.\"",
     "x": 0
    },
    {
@@ -2778,17 +2822,6 @@
     "lv": 18,
     "r": 2,
     "rs": "Removed: \"There are 20 valid single-ingredient authorizations\"",
-    "x": 0
-   },
-   {
-    "t": "Mesalazine",
-    "u": "/drugs/mesalazine/",
-    "l": "L5",
-    "i": "congenital hypotrichosis with juvenile macular dystrophy",
-    "lt": 18,
-    "lv": 18,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2840,7 +2873,7 @@
     "u": "/drugs/cholecalciferol/",
     "l": "L5",
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
-    "lt": 20,
+    "lt": 0,
     "lv": 17,
     "r": 2,
     "rs": "Removed: \"Twenty valid single-ingredient licences are recorded\"",
@@ -2858,17 +2891,6 @@
     "x": 0
    },
    {
-    "t": "Ezetimibe",
-    "u": "/drugs/ezetimibe/",
-    "l": "L5",
-    "i": "cholesterol-ester transfer protein deficiency",
-    "lt": 19,
-    "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"Five main authorizations are listed.\"",
-    "x": 0
-   },
-   {
     "t": "Irbesartan",
     "u": "/drugs/irbesartan/",
     "l": "L5",
@@ -2877,6 +2899,17 @@
     "lv": 17,
     "r": 2,
     "rs": "Removed: \"with 20 valid licences (none cancelled)\"",
+    "x": 0
+   },
+   {
+    "t": "Latanoprost",
+    "u": "/drugs/latanoprost/",
+    "l": "L5",
+    "i": "visceral calciphylaxis",
+    "lt": 18,
+    "lv": 17,
+    "r": 2,
+    "rs": "Removed: \"Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones\"",
     "x": 0
    },
    {
@@ -2913,6 +2946,17 @@
     "x": 0
    },
    {
+    "t": "Propranolol",
+    "u": "/drugs/propranolol/",
+    "l": "L5",
+    "i": "distal myopathy, Tateyama type",
+    "lt": 17,
+    "lv": 17,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "x": 0
+   },
+   {
     "t": "Quetiapine",
     "u": "/drugs/quetiapine/",
     "l": "L5",
@@ -2935,6 +2979,28 @@
     "x": 0
    },
    {
+    "t": "Valproic Acid",
+    "u": "/drugs/valproic-acid/",
+    "l": "L5",
+    "i": "trigeminal nerve neoplasm",
+    "lt": 18,
+    "lv": 17,
+    "r": 2,
+    "rs": "Corrected: \"Sixteen valid single-ingredient licences are on record.\"",
+    "x": 0
+   },
+   {
+    "t": "Eletriptan",
+    "u": "/drugs/eletriptan/",
+    "l": "L5",
+    "i": "atrophoderma vermiculata",
+    "lt": 16,
+    "lv": 16,
+    "r": 2,
+    "rs": "Corrected: \"Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled.\"",
+    "x": 0
+   },
+   {
     "t": "Finasteride",
     "u": "/drugs/finasteride/",
     "l": "L5",
@@ -2954,17 +3020,6 @@
     "lv": 16,
     "r": 2,
     "rs": "Reworded: \"The remaining licences cover additional\"",
-    "x": 0
-   },
-   {
-    "t": "Latanoprost",
-    "u": "/drugs/latanoprost/",
-    "l": "L5",
-    "i": "visceral calciphylaxis",
-    "lt": 17,
-    "lv": 16,
-    "r": 2,
-    "rs": "Removed: \"Latanoprost has 17 valid single-entry licences in Canada and no cancelled ones\"",
     "x": 0
    },
    {
@@ -2997,6 +3052,17 @@
     "lt": 16,
     "lv": 16,
     "r": 1,
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
+    "t": "Trastuzumab",
+    "u": "/drugs/trastuzumab/",
+    "l": "L5",
+    "i": "malignant cutaneous granular cell skin tumor",
+    "lt": 16,
+    "lv": 16,
+    "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
    },
@@ -3045,14 +3111,25 @@
     "x": 0
    },
    {
-    "t": "Doxycycline",
-    "u": "/drugs/doxycycline/",
+    "t": "Galantamine",
+    "u": "/drugs/galantamine/",
     "l": "L5",
-    "i": "punctate epithelial keratoconjunctivitis",
-    "lt": 17,
+    "i": "psychogenic movement disorders",
+    "lt": 15,
     "lv": 15,
     "r": 2,
-    "rs": "Reworded: \"One further licence is DOXYCYCLINE FOR INJECTION USP (DIN 02561441)\"",
+    "rs": "Corrected: \"Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none…",
+    "x": 0
+   },
+   {
+    "t": "Loperamide",
+    "u": "/drugs/loperamide/",
+    "l": "L5",
+    "i": "acute contagious conjunctivitis",
+    "lt": 15,
+    "lv": 15,
+    "r": 2,
+    "rs": "Removed: \"single-ingredient , and none is a combination product\"; revised 2026-11-24 to remove the DIN count…",
     "x": 0
    },
    {
@@ -3078,6 +3155,17 @@
     "x": 0
    },
    {
+    "t": "Oxymetazoline",
+    "u": "/drugs/oxymetazoline/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 15,
+    "lv": 15,
+    "r": 2,
+    "rs": "Corrected: \"Thirteen valid single-ingredient licences are listed in total.\"",
+    "x": 0
+   },
+   {
     "t": "Salbutamol",
     "u": "/drugs/salbutamol/",
     "l": "L5",
@@ -3089,25 +3177,14 @@
     "x": 0
    },
    {
-    "t": "Trastuzumab",
-    "u": "/drugs/trastuzumab/",
+    "t": "Articaine",
+    "u": "/drugs/articaine/",
     "l": "L5",
-    "i": "malignant cutaneous granular cell skin tumor",
-    "lt": 15,
-    "lv": 15,
-    "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
-    "x": 0
-   },
-   {
-    "t": "Valproic Acid",
-    "u": "/drugs/valproic-acid/",
-    "l": "L5",
-    "i": "trigeminal nerve neoplasm",
-    "lt": 16,
-    "lv": 15,
+    "i": "gout",
+    "lt": 14,
+    "lv": 14,
     "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available for this report\" replaced with a sourced…",
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
    },
    {
@@ -3155,17 +3232,6 @@
     "x": 0
    },
    {
-    "t": "Eletriptan",
-    "u": "/drugs/eletriptan/",
-    "l": "L5",
-    "i": "atrophoderma vermiculata",
-    "lt": 14,
-    "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Heparin",
     "u": "/drugs/heparin/",
     "l": "L5",
@@ -3185,17 +3251,6 @@
     "lv": 14,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
-    "t": "Loperamide",
-    "u": "/drugs/loperamide/",
-    "l": "L5",
-    "i": "acute contagious conjunctivitis",
-    "lt": 14,
-    "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"single-ingredient , and none is a combination product\"; revised 2026-11-24 to remove the DIN count…",
     "x": 0
    },
    {
@@ -3243,6 +3298,28 @@
     "x": 0
    },
    {
+    "t": "Zolmitriptan",
+    "u": "/drugs/zolmitriptan/",
+    "l": "L5",
+    "i": "atrophoderma vermiculata",
+    "lt": 17,
+    "lv": 14,
+    "r": 2,
+    "rs": "Corrected: \"Zolmitriptan has 16 valid single-ingredient authorizations in Canada.\"",
+    "x": 0
+   },
+   {
+    "t": "Ascorbic Acid",
+    "u": "/drugs/ascorbic-acid/",
+    "l": "L5",
+    "i": "non-syndromic esophageal malformation",
+    "lt": 15,
+    "lv": 13,
+    "r": 2,
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
     "t": "Bevacizumab",
     "u": "/drugs/bevacizumab/",
     "l": "L5",
@@ -3262,6 +3339,17 @@
     "lv": 13,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data for ceftriaxone are not available in the data compiled for this report\"…",
+    "x": 0
+   },
+   {
+    "t": "Dorzolamide",
+    "u": "/drugs/dorzolamide/",
+    "l": "L5",
+    "i": "hypotrichosis simplex of the scalp",
+    "lt": 13,
+    "lv": 13,
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action text is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -3287,6 +3375,17 @@
     "x": 0
    },
    {
+    "t": "Glycerin",
+    "u": "/drugs/glycerin/",
+    "l": "L5",
+    "i": "cauda equina syndrome",
+    "lt": 14,
+    "lv": 13,
+    "r": 1,
+    "rs": "Removed: \"There are 13 valid single-ingredient licences in total\"",
+    "x": 0
+   },
+   {
     "t": "Moxifloxacin",
     "u": "/drugs/moxifloxacin/",
     "l": "L5",
@@ -3298,25 +3397,14 @@
     "x": 0
    },
    {
-    "t": "Oxymetazoline",
-    "u": "/drugs/oxymetazoline/",
+    "t": "Octreotide",
+    "u": "/drugs/octreotide/",
     "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 13,
+    "i": "vulvar inverted follicular keratosis",
+    "lt": 17,
     "lv": 13,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
-    "t": "Propranolol",
-    "u": "/drugs/propranolol/",
-    "l": "L5",
-    "i": "distal myopathy, Tateyama type",
-    "lt": 13,
-    "lv": 13,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Removed: \"These are 5 of the 14 valid single-ingredient authorizations. None are cancelled\"",
     "x": 0
    },
    {
@@ -3331,14 +3419,36 @@
     "x": 0
    },
    {
-    "t": "Zolmitriptan",
-    "u": "/drugs/zolmitriptan/",
+    "t": "Tranexamic Acid",
+    "u": "/drugs/tranexamic-acid/",
     "l": "L5",
-    "i": "atrophoderma vermiculata",
-    "lt": 16,
+    "i": "amenorrhea (disease)",
+    "lt": 13,
     "lv": 13,
     "r": 1,
-    "rs": "Reworded: \"The remaining 11 authorizations are generic products, including\"",
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "x": 0
+   },
+   {
+    "t": "Varenicline",
+    "u": "/drugs/varenicline/",
+    "l": "L5",
+    "i": "migraine disorder",
+    "lt": 13,
+    "lv": 13,
+    "r": 2,
+    "rs": "Corrected: \"Eleven valid single-ingredient licenses are listed.\"",
+    "x": 0
+   },
+   {
+    "t": "Aflibercept",
+    "u": "/drugs/aflibercept/",
+    "l": "L5",
+    "i": "esotropia",
+    "lt": 12,
+    "lv": 12,
+    "r": 2,
+    "rs": "Corrected: \"Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further…",
     "x": 0
    },
    {
@@ -3364,14 +3474,14 @@
     "x": 0
    },
    {
-    "t": "Articaine",
-    "u": "/drugs/articaine/",
+    "t": "Cyclophosphamide",
+    "u": "/drugs/cyclophosphamide/",
     "l": "L5",
-    "i": "gout",
+    "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 12,
     "lv": 12,
     "r": 1,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3386,36 +3496,14 @@
     "x": 0
    },
    {
-    "t": "Galantamine",
-    "u": "/drugs/galantamine/",
+    "t": "Domperidone",
+    "u": "/drugs/domperidone/",
     "l": "L5",
-    "i": "psychogenic movement disorders",
-    "lt": 12,
-    "lv": 12,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
-    "t": "Glycerin",
-    "u": "/drugs/glycerin/",
-    "l": "L5",
-    "i": "cauda equina syndrome",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 13,
     "lv": 12,
-    "r": 1,
-    "rs": "Removed: \"There are 13 valid single-ingredient licences in total\"",
-    "x": 0
-   },
-   {
-    "t": "Guanfacine",
-    "u": "/drugs/guanfacine/",
-    "l": "L5",
-    "i": "faciodigitogenital syndrome",
-    "lt": 12,
-    "lv": 12,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Reworded: \"(The others are TEVA-, APO-, TARO-, MAR- and PRZ-DOMPERIDONE products.)\"",
     "x": 0
    },
    {
@@ -3438,6 +3526,17 @@
     "lv": 12,
     "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
+    "t": "Iron",
+    "u": "/drugs/iron/",
+    "l": "L5",
+    "i": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+    "lt": 14,
+    "lv": 12,
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -3529,17 +3628,6 @@
     "x": 0
    },
    {
-    "t": "Tranexamic Acid",
-    "u": "/drugs/tranexamic-acid/",
-    "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 12,
-    "lv": 12,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
-    "x": 0
-   },
-   {
     "t": "Zolpidem",
     "u": "/drugs/zolpidem/",
     "l": "L5",
@@ -3548,17 +3636,6 @@
     "lv": 12,
     "r": 2,
     "rs": "Reworded: \"The remaining seven are other zolpidem ODT products\"",
-    "x": 0
-   },
-   {
-    "t": "Ascorbic Acid",
-    "u": "/drugs/ascorbic-acid/",
-    "l": "L5",
-    "i": "non-syndromic esophageal malformation",
-    "lt": 13,
-    "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
    },
    {
@@ -3595,14 +3672,36 @@
     "x": 0
    },
    {
-    "t": "Dorzolamide",
-    "u": "/drugs/dorzolamide/",
+    "t": "Chlorthalidone",
+    "u": "/drugs/chlorthalidone/",
     "l": "L5",
-    "i": "hypotrichosis simplex of the scalp",
+    "i": "primary hereditary glaucoma",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action text is not available\" replaced with a sourced mechanism-of-action statement",
+    "r": 3,
+    "rs": "Removed: \"The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).\"",
+    "x": 0
+   },
+   {
+    "t": "Memantine",
+    "u": "/drugs/memantine/",
+    "l": "L5",
+    "i": "pulmonary hypertension",
+    "lt": 12,
+    "lv": 11,
+    "r": 2,
+    "rs": "Removed: \"Ten valid single-ingredient licenses are listed (none cancelled)\"; revised 2026-11-24 to remove the…",
+    "x": 0
+   },
+   {
+    "t": "Misoprostol",
+    "u": "/drugs/misoprostol/",
+    "l": "L5",
+    "i": "amenorrhea (disease)",
+    "lt": 11,
+    "lv": 11,
+    "r": 2,
+    "rs": "Removed: \"(all single-entity records, none cancelled)\"",
     "x": 0
    },
    {
@@ -3639,6 +3738,17 @@
     "x": 0
    },
    {
+    "t": "Phenobarbital",
+    "u": "/drugs/phenobarbital/",
+    "l": "L5",
+    "i": "trigeminal nerve neoplasm",
+    "lt": 11,
+    "lv": 11,
+    "r": 2,
+    "rs": "Corrected: \"Seven valid single-ingredient licences are listed in total.\"",
+    "x": 0
+   },
+   {
     "t": "Sodium Citrate",
     "u": "/drugs/sodium-citrate/",
     "l": "L5",
@@ -3661,17 +3771,6 @@
     "x": 0
    },
    {
-    "t": "Varenicline",
-    "u": "/drugs/varenicline/",
-    "l": "L5",
-    "i": "migraine disorder",
-    "lt": 11,
-    "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Adapalene",
     "u": "/drugs/adapalene/",
     "l": "L5",
@@ -3680,17 +3779,6 @@
     "lv": 10,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data for adapalene are not available in the data compiled for this report\"…",
-    "x": 0
-   },
-   {
-    "t": "Aflibercept",
-    "u": "/drugs/aflibercept/",
-    "l": "L5",
-    "i": "esotropia",
-    "lt": 10,
-    "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
     "x": 0
    },
    {
@@ -3705,14 +3793,14 @@
     "x": 0
    },
    {
-    "t": "Cyclophosphamide",
-    "u": "/drugs/cyclophosphamide/",
+    "t": "Cyanocobalamin",
+    "u": "/drugs/cyanocobalamin/",
     "l": "L5",
-    "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
-    "lt": 10,
+    "i": "biotin metabolic disease",
+    "lt": 12,
     "lv": 10,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
+    "rs": "\"Detailed mechanism-of-action data for cyanocobalamin is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -3724,6 +3812,17 @@
     "lv": 10,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
+    "t": "Denosumab",
+    "u": "/drugs/denosumab/",
+    "l": "L5",
+    "i": "severe nonproliferative diabetic retinopathy",
+    "lt": 10,
+    "lv": 10,
+    "r": 2,
+    "rs": "Removed: \"A sixth authorization, STOBOCLO (DIN 02560917), is also valid.\"",
     "x": 0
    },
    {
@@ -3746,17 +3845,6 @@
     "lv": 10,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
-    "t": "Iron",
-    "u": "/drugs/iron/",
-    "l": "L5",
-    "i": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
-    "lt": 12,
-    "lv": 10,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -3793,17 +3881,6 @@
     "x": 0
    },
    {
-    "t": "Misoprostol",
-    "u": "/drugs/misoprostol/",
-    "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"(all single-entity records, none cancelled)\"",
-    "x": 0
-   },
-   {
     "t": "Nystatin",
     "u": "/drugs/nystatin/",
     "l": "L5",
@@ -3815,17 +3892,6 @@
     "x": 0
    },
    {
-    "t": "Octreotide",
-    "u": "/drugs/octreotide/",
-    "l": "L5",
-    "i": "vulvar inverted follicular keratosis",
-    "lt": 14,
-    "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"These are 5 of the 14 valid single-ingredient authorizations. None are cancelled\"",
-    "x": 0
-   },
-   {
     "t": "Olopatadine",
     "u": "/drugs/olopatadine/",
     "l": "L5",
@@ -3834,6 +3900,17 @@
     "lv": 10,
     "r": 3,
     "rs": "Removed: \"Five more authorizations are valid: MINT-OLOPATADINE (02422727), OLOPATADINE (02521172), PATANOL…",
+    "x": 0
+   },
+   {
+    "t": "Omalizumab",
+    "u": "/drugs/omalizumab/",
+    "l": "L5",
+    "i": "bronchitis",
+    "lt": 10,
+    "lv": 10,
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -3866,6 +3943,17 @@
     "lt": 10,
     "lv": 10,
     "r": 1,
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
+    "t": "Trimethoprim",
+    "u": "/drugs/trimethoprim/",
+    "l": "L5",
+    "i": "punctate epithelial keratoconjunctivitis",
+    "lt": 10,
+    "lv": 10,
+    "r": 2,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
    },
@@ -3903,14 +3991,25 @@
     "x": 0
    },
    {
-    "t": "Domperidone",
-    "u": "/drugs/domperidone/",
+    "t": "Folic Acid",
+    "u": "/drugs/folic-acid/",
     "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 10,
+    "i": "biotin metabolic disease",
+    "lt": 11,
     "lv": 9,
     "r": 2,
-    "rs": "Reworded: \"(The others are TEVA-, APO-, TARO-, MAR- and PRZ-DOMPERIDONE products.)\"",
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
+    "t": "Formoterol",
+    "u": "/drugs/formoterol/",
+    "l": "L5",
+    "i": "respiratory malformation",
+    "lt": 9,
+    "lv": 9,
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3966,17 +4065,6 @@
     "lv": 9,
     "r": 3,
     "rs": "Reworded: \"The remaining five include another Mannitol Injection USP (00038024),\"",
-    "x": 0
-   },
-   {
-    "t": "Memantine",
-    "u": "/drugs/memantine/",
-    "l": "L5",
-    "i": "pulmonary hypertension",
-    "lt": 10,
-    "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"Ten valid single-ingredient licenses are listed (none cancelled)\"; revised 2026-11-24 to remove the…",
     "x": 0
    },
    {
@@ -4046,6 +4134,17 @@
     "x": 0
    },
    {
+    "t": "Thiamine",
+    "u": "/drugs/thiamine/",
+    "l": "L5",
+    "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+    "lt": 11,
+    "lv": 9,
+    "r": 2,
+    "rs": "Removed: \"The remaining four licences (PREGVIT FOLIC 5, PREGNANCY MULTIVITAMIN, PREGVIT, PREGNANCY…",
+    "x": 0
+   },
+   {
     "t": "Tretinoin",
     "u": "/drugs/tretinoin/",
     "l": "L5",
@@ -4068,14 +4167,25 @@
     "x": 0
    },
    {
-    "t": "Chlorthalidone",
-    "u": "/drugs/chlorthalidone/",
+    "t": "Bimatoprost",
+    "u": "/drugs/bimatoprost/",
     "l": "L5",
-    "i": "primary hereditary glaucoma",
+    "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 8,
     "lv": 8,
-    "r": 3,
-    "rs": "Removed: \"The other three valid licences are AA-ATENIDONE (02248764) and EDARBYCLOR (02397749 and 02397765).\"",
+    "r": 2,
+    "rs": "Corrected: \"All four are valid single-ingredient authorizations.\"",
+    "x": 0
+   },
+   {
+    "t": "Calcitriol",
+    "u": "/drugs/calcitriol/",
+    "l": "L5",
+    "i": "obsolete vitamin D deficiency",
+    "lt": 10,
+    "lv": 8,
+    "r": 2,
+    "rs": "Removed: \"Eight single-ingredient licences are currently valid\"; revised 2026-11-24 to remove the DIN count…",
     "x": 0
    },
    {
@@ -4087,17 +4197,6 @@
     "lv": 8,
     "r": 3,
     "rs": "Removed: \"The others include APO-CILAZAPRIL (02291150), INHIBACE PLUS (02181479) and APO-CILAZAPRIL/HCTZ…",
-    "x": 0
-   },
-   {
-    "t": "Cyanocobalamin",
-    "u": "/drugs/cyanocobalamin/",
-    "l": "L5",
-    "i": "biotin metabolic disease",
-    "lt": 10,
-    "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data for cyanocobalamin is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -4156,17 +4255,6 @@
     "x": 0
    },
    {
-    "t": "Formoterol",
-    "u": "/drugs/formoterol/",
-    "l": "L5",
-    "i": "respiratory malformation",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Liothyronine",
     "u": "/drugs/liothyronine/",
     "l": "L5",
@@ -4197,17 +4285,6 @@
     "lv": 8,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
-    "x": 0
-   },
-   {
-    "t": "Omalizumab",
-    "u": "/drugs/omalizumab/",
-    "l": "L5",
-    "i": "bronchitis",
-    "lt": 8,
-    "lv": 8,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -4288,17 +4365,6 @@
     "x": 0
    },
    {
-    "t": "Trimethoprim",
-    "u": "/drugs/trimethoprim/",
-    "l": "L5",
-    "i": "punctate epithelial keratoconjunctivitis",
-    "lt": 8,
-    "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
-    "x": 0
-   },
-   {
     "t": "Ursodeoxycholic Acid",
     "u": "/drugs/ursodeoxycholic-acid/",
     "l": "L5",
@@ -4343,6 +4409,17 @@
     "x": 0
    },
    {
+    "t": "Dextroamphetamine",
+    "u": "/drugs/dextroamphetamine/",
+    "l": "L5",
+    "i": "faciodigitogenital syndrome",
+    "lt": 7,
+    "lv": 7,
+    "r": 2,
+    "rs": "Corrected: \"All six single-ingredient licences are valid.\"",
+    "x": 0
+   },
+   {
     "t": "Fluorouracil",
     "u": "/drugs/fluorouracil/",
     "l": "L5",
@@ -4365,14 +4442,14 @@
     "x": 0
    },
    {
-    "t": "Folic Acid",
-    "u": "/drugs/folic-acid/",
+    "t": "Fusidic Acid",
+    "u": "/drugs/fusidic-acid/",
     "l": "L5",
-    "i": "biotin metabolic disease",
-    "lt": 9,
+    "i": "exposure keratitis",
+    "lt": 7,
     "lv": 7,
     "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "rs": "Removed: \"A sixth authorization, FUCIDIN H (DIN 02238578), is also valid.\"",
     "x": 0
    },
    {
@@ -4442,17 +4519,6 @@
     "x": 0
    },
    {
-    "t": "Phenobarbital",
-    "u": "/drugs/phenobarbital/",
-    "l": "L5",
-    "i": "trigeminal nerve neoplasm",
-    "lt": 7,
-    "lv": 7,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Phenytoin",
     "u": "/drugs/phenytoin/",
     "l": "L5",
@@ -4461,6 +4527,28 @@
     "lv": 7,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Sodium Sulfate",
+    "u": "/drugs/sodium-sulfate/",
+    "l": "L5",
+    "i": "dyspepsia",
+    "lt": 7,
+    "lv": 7,
+    "r": 2,
+    "rs": "Removed: \"A sixth licence (MOVIPREP, DIN 02359499) is also valid.\"",
+    "x": 0
+   },
+   {
+    "t": "Sulfamethoxazole",
+    "u": "/drugs/sulfamethoxazole/",
+    "l": "L5",
+    "i": "acute contagious conjunctivitis",
+    "lt": 7,
+    "lv": 7,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -4486,14 +4574,14 @@
     "x": 0
    },
    {
-    "t": "Thiamine",
-    "u": "/drugs/thiamine/",
+    "t": "Vitamin E",
+    "u": "/drugs/vitamin-e/",
     "l": "L5",
-    "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+    "i": "inborn disorder of bilirubin metabolism",
     "lt": 9,
     "lv": 7,
     "r": 2,
-    "rs": "Removed: \"The remaining four licences (PREGVIT FOLIC 5, PREGNANCY MULTIVITAMIN, PREGVIT, PREGNANCY…",
+    "rs": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
     "x": 0
    },
    {
@@ -4541,17 +4629,6 @@
     "x": 0
    },
    {
-    "t": "Calcitriol",
-    "u": "/drugs/calcitriol/",
-    "l": "L5",
-    "i": "obsolete vitamin D deficiency",
-    "lt": 8,
-    "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Eight single-ingredient licences are currently valid\"; revised 2026-11-24 to remove the DIN count…",
-    "x": 0
-   },
-   {
     "t": "Ceftazidime",
     "u": "/drugs/ceftazidime/",
     "l": "L5",
@@ -4574,25 +4651,25 @@
     "x": 0
    },
    {
-    "t": "Denosumab",
-    "u": "/drugs/denosumab/",
+    "t": "Dolutegravir",
+    "u": "/drugs/dolutegravir/",
     "l": "L5",
-    "i": "severe nonproliferative diabetic retinopathy",
-    "lt": 6,
-    "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"A sixth authorization, STOBOCLO (DIN 02560917), is also valid.\"",
-    "x": 0
-   },
-   {
-    "t": "Dextroamphetamine",
-    "u": "/drugs/dextroamphetamine/",
-    "l": "L5",
-    "i": "faciodigitogenital syndrome",
+    "i": "feline acquired immunodeficiency syndrome",
     "lt": 6,
     "lv": 6,
     "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not otherwise available in the data compiled for this report\" replaced…",
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description…",
+    "x": 0
+   },
+   {
+    "t": "Emicizumab",
+    "u": "/drugs/emicizumab/",
+    "l": "L5",
+    "i": "pseudo-von Willebrand disease",
+    "lt": 6,
+    "lv": 6,
+    "r": 2,
+    "rs": "Corrected: \"the approved indication text for the four DINs\"",
     "x": 0
    },
    {
@@ -4659,17 +4736,6 @@
     "lv": 6,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available from the data compiled for this report\"…",
-    "x": 0
-   },
-   {
-    "t": "Fusidic Acid",
-    "u": "/drugs/fusidic-acid/",
-    "l": "L5",
-    "i": "exposure keratitis",
-    "lt": 6,
-    "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"A sixth authorization, FUCIDIN H (DIN 02238578), is also valid.\"",
     "x": 0
    },
    {
@@ -4827,17 +4893,6 @@
     "x": 0
    },
    {
-    "t": "Sodium Sulfate",
-    "u": "/drugs/sodium-sulfate/",
-    "l": "L5",
-    "i": "dyspepsia",
-    "lt": 6,
-    "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"A sixth licence (MOVIPREP, DIN 02359499) is also valid.\"",
-    "x": 0
-   },
-   {
     "t": "Theophylline",
     "u": "/drugs/theophylline/",
     "l": "L5",
@@ -4948,6 +5003,17 @@
     "x": 0
    },
    {
+    "t": "Cladribine",
+    "u": "/drugs/cladribine/",
+    "l": "L5",
+    "i": "parameningeal embryonal rhabdomyosarcoma",
+    "lt": 5,
+    "lv": 5,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
     "t": "Dabigatran Etexilate",
     "u": "/drugs/dabigatran-etexilate/",
     "l": "L5",
@@ -5003,14 +5069,14 @@
     "x": 0
    },
    {
-    "t": "Dolutegravir",
-    "u": "/drugs/dolutegravir/",
+    "t": "Enzalutamide",
+    "u": "/drugs/enzalutamide/",
     "l": "L5",
-    "i": "feline acquired immunodeficiency syndrome",
+    "i": "prostate leiomyoma",
     "lt": 5,
     "lv": 5,
     "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description…",
+    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -5044,6 +5110,17 @@
     "lv": 5,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Guselkumab",
+    "u": "/drugs/guselkumab/",
+    "l": "L5",
+    "i": "drug-induced osteoporosis",
+    "lt": 5,
+    "lv": 5,
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -5088,6 +5165,28 @@
     "lv": 5,
     "r": 2,
     "rs": "Removed: \"A sixth licence, DIN 02412268 (LACTULOSE), is also valid.\"",
+    "x": 0
+   },
+   {
+    "t": "Letermovir",
+    "u": "/drugs/letermovir/",
+    "l": "L5",
+    "i": "vulvovaginal candidiasis",
+    "lt": 5,
+    "lv": 5,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Levocarnitine",
+    "u": "/drugs/levocarnitine/",
+    "l": "L5",
+    "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+    "lt": 5,
+    "lv": 5,
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -5157,6 +5256,17 @@
     "x": 0
    },
    {
+    "t": "Pantothenic Acid",
+    "u": "/drugs/pantothenic-acid/",
+    "l": "L5",
+    "i": "congenital prothrombin deficiency",
+    "lt": 7,
+    "lv": 5,
+    "r": 1,
+    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
+    "x": 0
+   },
+   {
     "t": "Propylene Glycol",
     "u": "/drugs/propylene-glycol/",
     "l": "L5",
@@ -5201,14 +5311,25 @@
     "x": 0
    },
    {
-    "t": "Sulfamethoxazole",
-    "u": "/drugs/sulfamethoxazole/",
+    "t": "Sennosides",
+    "u": "/drugs/sennosides/",
     "l": "L5",
-    "i": "acute contagious conjunctivitis",
-    "lt": 5,
+    "i": "hypotrichosis simplex of the scalp",
+    "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Reworded: \"in several single-ingredient and docusate-combination products\"",
+    "x": 0
+   },
+   {
+    "t": "Sotalol",
+    "u": "/drugs/sotalol/",
+    "l": "L5",
+    "i": "sick sinus syndrome 2, autosomal dominant",
+    "lt": 6,
+    "lv": 5,
+    "r": 2,
+    "rs": "Corrected: \"details for the four Canadian authorizations\"",
     "x": 0
    },
    {
@@ -5264,17 +5385,6 @@
     "lv": 5,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
-    "x": 0
-   },
-   {
-    "t": "Vitamin E",
-    "u": "/drugs/vitamin-e/",
-    "l": "L5",
-    "i": "inborn disorder of bilirubin metabolism",
-    "lt": 7,
-    "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
     "x": 0
    },
    {
@@ -5344,17 +5454,6 @@
     "x": 0
    },
    {
-    "t": "Bimatoprost",
-    "u": "/drugs/bimatoprost/",
-    "l": "L5",
-    "i": "malformation syndrome with odontal and/or periodontal component",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
-    "x": 0
-   },
-   {
     "t": "Brigatinib",
     "u": "/drugs/brigatinib/",
     "l": "L5",
@@ -5388,17 +5487,6 @@
     "x": 10
    },
    {
-    "t": "Cladribine",
-    "u": "/drugs/cladribine/",
-    "l": "L5",
-    "i": "parameningeal embryonal rhabdomyosarcoma",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Cobicistat",
     "u": "/drugs/cobicistat/",
     "l": "L5",
@@ -5429,17 +5517,6 @@
     "lv": 4,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
-    "x": 0
-   },
-   {
-    "t": "Emicizumab",
-    "u": "/drugs/emicizumab/",
-    "l": "L5",
-    "i": "pseudo-von Willebrand disease",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5487,17 +5564,6 @@
     "x": 0
    },
    {
-    "t": "Guselkumab",
-    "u": "/drugs/guselkumab/",
-    "l": "L5",
-    "i": "drug-induced osteoporosis",
-    "lt": 4,
-    "lv": 4,
-    "r": 0,
-    "rs": "",
-    "x": 0
-   },
-   {
     "t": "Hydroxyurea",
     "u": "/drugs/hydroxyurea/",
     "l": "L5",
@@ -5531,14 +5597,25 @@
     "x": 0
    },
    {
-    "t": "Levocarnitine",
-    "u": "/drugs/levocarnitine/",
+    "t": "Isosorbide Mononitrate",
+    "u": "/drugs/isosorbide-mononitrate/",
     "l": "L5",
-    "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+    "i": "hypertrichosis (disease)",
+    "lt": 5,
+    "lv": 4,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Ivermectin",
+    "u": "/drugs/ivermectin/",
+    "l": "L5",
+    "i": "vulvovaginal candidiasis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for ivermectin is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -5583,6 +5660,17 @@
     "lv": 4,
     "r": 1,
     "rs": "Removed: \"single-ingredient\"",
+    "x": 0
+   },
+   {
+    "t": "Maraviroc",
+    "u": "/drugs/maraviroc/",
+    "l": "L5",
+    "i": "multiple endocrine neoplasia",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Corrected: \"Both authorizations are valid single-ingredient products.\"",
     "x": 0
    },
    {
@@ -5696,14 +5784,25 @@
     "x": 0
    },
    {
-    "t": "Sennosides",
-    "u": "/drugs/sennosides/",
+    "t": "Selpercatinib",
+    "u": "/drugs/selpercatinib/",
     "l": "L5",
-    "i": "hypotrichosis simplex of the scalp",
-    "lt": 5,
+    "i": "pulmonary hypertension",
+    "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Reworded: \"in several single-ingredient and docusate-combination products\"",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "x": 0
+   },
+   {
+    "t": "Selumetinib",
+    "u": "/drugs/selumetinib/",
+    "l": "L5",
+    "i": "familial generalized lentiginosis",
+    "lt": 4,
+    "lv": 4,
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not currently available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -6070,6 +6169,28 @@
     "x": 0
    },
    {
+    "t": "Daptomycin",
+    "u": "/drugs/daptomycin/",
+    "l": "L5",
+    "i": "osteoarthritis",
+    "lt": 4,
+    "lv": 3,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Dexrazoxane",
+    "u": "/drugs/dexrazoxane/",
+    "l": "L5",
+    "i": "sclerosing cholangitis",
+    "lt": 3,
+    "lv": 3,
+    "r": 2,
+    "rs": "Corrected: \"Both products are valid single-ingredient licenses.\"",
+    "x": 0
+   },
+   {
     "t": "Dicyclomine",
     "u": "/drugs/dicyclomine/",
     "l": "L5",
@@ -6224,6 +6345,17 @@
     "x": 0
    },
    {
+    "t": "Imipenem",
+    "u": "/drugs/imipenem/",
+    "l": "L5",
+    "i": "diffuse scleroderma",
+    "lt": 3,
+    "lv": 3,
+    "r": 2,
+    "rs": "Removed: \"are single-ingredient products and both\"; revised 2026-11-24 to remove the DIN count and the…",
+    "x": 0
+   },
+   {
     "t": "Insulin Degludec",
     "u": "/drugs/insulin-degludec/",
     "l": "L5",
@@ -6279,17 +6411,6 @@
     "x": 0
    },
    {
-    "t": "Isosorbide Mononitrate",
-    "u": "/drugs/isosorbide-mononitrate/",
-    "l": "L5",
-    "i": "hypertrichosis (disease)",
-    "lt": 4,
-    "lv": 3,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
     "t": "Itraconazole",
     "u": "/drugs/itraconazole/",
     "l": "L5",
@@ -6323,6 +6444,17 @@
     "x": 0
    },
    {
+    "t": "Lanadelumab",
+    "u": "/drugs/lanadelumab/",
+    "l": "L5",
+    "i": "serpinopathy with toxic serpin polymerization",
+    "lt": 3,
+    "lv": 3,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "x": 0
+   },
+   {
     "t": "Larotrectinib",
     "u": "/drugs/larotrectinib/",
     "l": "L5",
@@ -6331,17 +6463,6 @@
     "lv": 3,
     "r": 1,
     "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
-    "t": "Letermovir",
-    "u": "/drugs/letermovir/",
-    "l": "L5",
-    "i": "vulvovaginal candidiasis",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -6440,17 +6561,6 @@
     "lt": 3,
     "lv": 3,
     "r": 2,
-    "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
-    "x": 0
-   },
-   {
-    "t": "Pantothenic Acid",
-    "u": "/drugs/pantothenic-acid/",
-    "l": "L5",
-    "i": "congenital prothrombin deficiency",
-    "lt": 5,
-    "lv": 3,
-    "r": 1,
     "rs": "Removed: \"single-ingredient\"; revised 2026-11-24 to remove the DIN count and the reference to the earlier…",
     "x": 0
    },
@@ -6565,6 +6675,17 @@
     "x": 0
    },
    {
+    "t": "Ranolazine",
+    "u": "/drugs/ranolazine/",
+    "l": "L5",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "lt": 3,
+    "lv": 3,
+    "r": 2,
+    "rs": "Corrected: \"dosage forms for the two CORZYNA licenses\"",
+    "x": 0
+   },
+   {
     "t": "Riluzole",
     "u": "/drugs/riluzole/",
     "l": "L5",
@@ -6584,17 +6705,6 @@
     "lv": 3,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
-    "x": 0
-   },
-   {
-    "t": "Sotalol",
-    "u": "/drugs/sotalol/",
-    "l": "L5",
-    "i": "sick sinus syndrome 2, autosomal dominant",
-    "lt": 4,
-    "lv": 3,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -6972,17 +7082,6 @@
     "x": 0
    },
    {
-    "t": "Daptomycin",
-    "u": "/drugs/daptomycin/",
-    "l": "L5",
-    "i": "osteoarthritis",
-    "lt": 3,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
     "t": "Decitabine",
     "u": "/drugs/decitabine/",
     "l": "L5",
@@ -7024,17 +7123,6 @@
     "lv": 2,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Dexrazoxane",
-    "u": "/drugs/dexrazoxane/",
-    "l": "L5",
-    "i": "sclerosing cholangitis",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -7324,17 +7412,6 @@
     "x": 0
    },
    {
-    "t": "Imipenem",
-    "u": "/drugs/imipenem/",
-    "l": "L5",
-    "i": "diffuse scleroderma",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"are single-ingredient products and both\"; revised 2026-11-24 to remove the DIN count and the…",
-    "x": 0
-   },
-   {
     "t": "Insulin Human",
     "u": "/drugs/insulin-human/",
     "l": "L5",
@@ -7390,28 +7467,6 @@
     "x": 0
    },
    {
-    "t": "Ivermectin",
-    "u": "/drugs/ivermectin/",
-    "l": "L5",
-    "i": "vulvovaginal candidiasis",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data for ivermectin is not available in the data compiled for this report\"…",
-    "x": 0
-   },
-   {
-    "t": "Lanadelumab",
-    "u": "/drugs/lanadelumab/",
-    "l": "L5",
-    "i": "serpinopathy with toxic serpin polymerization",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
     "t": "Lorlatinib",
     "u": "/drugs/lorlatinib/",
     "l": "L5",
@@ -7431,17 +7486,6 @@
     "lv": 2,
     "r": 1,
     "rs": "\"Detailed mechanism of action data is not available for this report\" replaced with a sourced…",
-    "x": 0
-   },
-   {
-    "t": "Maraviroc",
-    "u": "/drugs/maraviroc/",
-    "l": "L5",
-    "i": "multiple endocrine neoplasia",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -7533,6 +7577,17 @@
     "x": 0
    },
    {
+    "t": "Pembrolizumab",
+    "u": "/drugs/pembrolizumab/",
+    "l": "L5",
+    "i": "fibromatosis, gingival",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
     "t": "Phentolamine",
     "u": "/drugs/phentolamine/",
     "l": "L5",
@@ -7610,17 +7665,6 @@
     "x": 0
    },
    {
-    "t": "Ranolazine",
-    "u": "/drugs/ranolazine/",
-    "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
     "t": "Ravulizumab",
     "u": "/drugs/ravulizumab/",
     "l": "L5",
@@ -7673,28 +7717,6 @@
     "lv": 2,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
-    "t": "Selpercatinib",
-    "u": "/drugs/selpercatinib/",
-    "l": "L5",
-    "i": "pulmonary hypertension",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
-    "x": 0
-   },
-   {
-    "t": "Selumetinib",
-    "u": "/drugs/selumetinib/",
-    "l": "L5",
-    "i": "familial generalized lentiginosis",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not currently available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -7783,6 +7805,17 @@
     "lv": 2,
     "r": 1,
     "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "x": 0
+   },
+   {
+    "t": "Tenecteplase",
+    "u": "/drugs/tenecteplase/",
+    "l": "L5",
+    "i": "congenital coronary artery anomaly",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -8501,17 +8534,6 @@
     "x": 0
    },
    {
-    "t": "Enzalutamide",
-    "u": "/drugs/enzalutamide/",
-    "l": "L5",
-    "i": "prostate leiomyoma",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
-    "x": 0
-   },
-   {
     "t": "Epirubicin",
     "u": "/drugs/epirubicin/",
     "l": "L5",
@@ -9128,17 +9150,6 @@
     "x": 0
    },
    {
-    "t": "Pembrolizumab",
-    "u": "/drugs/pembrolizumab/",
-    "l": "L5",
-    "i": "fibromatosis, gingival",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
-    "x": 0
-   },
-   {
     "t": "Pentosan Polysulfate",
     "u": "/drugs/pentosan-polysulfate/",
     "l": "L5",
@@ -9473,17 +9484,6 @@
     "u": "/drugs/temsirolimus/",
     "l": "L5",
     "i": "liposarcoma",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
-    "x": 0
-   },
-   {
-    "t": "Tenecteplase",
-    "u": "/drugs/tenecteplase/",
-    "l": "L5",
-    "i": "congenital coronary artery anomaly",
     "lt": 1,
     "lv": 1,
     "r": 1,

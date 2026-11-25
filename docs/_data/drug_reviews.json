@@ -27794,6 +27794,446 @@
    "checked": "2026-11-25",
    "summary": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is cancelled.\"",
    "method": "2026-11-25 第五輪（用戶決定）：證據包收錯品項排除（config/bundle_record_exclusions.json）後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-aflibercept-1",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": "Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products).",
+   "replacement": "The valid licences also cover AFLIVU, PAVBLU, ENZEEVU, EYDENZELT and further YESAFILI products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新上市 EYDENZELT 2 個 DIN（02563037、02563045）補進證據包後 12 張、全部有效，「Ten」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further YESAFILI products).\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-dexrazoxane-1",
+   "drug": "dexrazoxane",
+   "file": "dexrazoxane.md",
+   "action": "correct",
+   "claim": "Both products are valid single-ingredient licenses.",
+   "replacement": "All listed products are valid single-ingredient licences.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新上市 DEXRAZOXANE FOR INJECTION（02557649）補進後 3 張，「Both」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Both products are valid single-ingredient licenses.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-dextroamphetamine-1",
+   "drug": "dextroamphetamine",
+   "file": "dextroamphetamine.md",
+   "action": "correct",
+   "claim": "All six single-ingredient licences are valid.",
+   "replacement": "All of the single-ingredient licences are valid; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 7 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"All six single-ingredient licences are valid.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-doxycycline-1",
+   "drug": "doxycycline",
+   "file": "doxycycline.md",
+   "action": "correct",
+   "claim": "Seventeen single-ingredient licences are currently valid in Canada.",
+   "replacement": "The licences are single-ingredient products and are currently valid in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 20 張（MARKETED 18、DORMANT 2）（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Seventeen single-ingredient licences are currently valid in Canada.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-eletriptan-1",
+   "drug": "eletriptan",
+   "file": "eletriptan.md",
+   "action": "correct",
+   "claim": "Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled.",
+   "replacement": "Eletriptan has valid single-ingredient authorisations in Canada and none are cancelled; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 16 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-emicizumab-1",
+   "drug": "emicizumab",
+   "file": "emicizumab.md",
+   "action": "correct",
+   "claim": "the approved indication text for the four DINs",
+   "replacement": "the approved indication text for the Canadian DINs",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "待辦條目：補收新 HEMLIBRA 2 個 DIN 後 6 張，只拿掉張數，建議不動（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"the approved indication text for the four DINs\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-ezetimibe-1",
+   "drug": "ezetimibe",
+   "file": "ezetimibe.md",
+   "action": "correct",
+   "claim": "Ezetimibe has 19 valid single-ingredient authorizations in Canada.",
+   "replacement": "Ezetimibe has valid single-ingredient authorizations in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 20 張（MARKETED 18、DORMANT 2）（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Ezetimibe has 19 valid single-ingredient authorizations in Canada.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-galantamine-1",
+   "drug": "galantamine",
+   "file": "galantamine.md",
+   "action": "correct",
+   "claim": "Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled).",
+   "replacement": "Galantamine is marketed in Canada under valid single-ingredient authorizations (none cancelled); the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新上市 GALANTAMINE ER 3 個 DIN 補進後 15 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled).\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-guanfacine-1",
+   "drug": "guanfacine",
+   "file": "guanfacine.md",
+   "action": "correct",
+   "claim": "Twelve valid single-ingredient licences are listed.",
+   "replacement": "The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後證據包超過 20 筆上限（部分收錄頁），「Twelve」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Twelve valid single-ingredient licences are listed.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-mesalazine-1",
+   "drug": "mesalazine",
+   "file": "mesalazine.md",
+   "action": "correct",
+   "claim": "Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations.",
+   "replacement": "Mesalazine is marketed in Canada with valid single-ingredient authorizations; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 19 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-mycophenolate_mofetil-1",
+   "drug": "mycophenolate_mofetil",
+   "file": "mycophenolate_mofetil.md",
+   "action": "correct",
+   "claim": "Health Canada lists 15 valid single-ingredient licences.",
+   "replacement": "Health Canada lists valid single-ingredient licences; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 16 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Health Canada lists 15 valid single-ingredient licences.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-oxcarbazepine-1",
+   "drug": "oxcarbazepine",
+   "file": "oxcarbazepine.md",
+   "action": "correct",
+   "claim": "details for the six Canadian licences",
+   "replacement": "details for the Canadian licences",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "待辦條目：補收新 DIN 後 9 張，只拿掉張數，建議不動（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"details for the six Canadian licences\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-oxymetazoline-1",
+   "drug": "oxymetazoline",
+   "file": "oxymetazoline.md",
+   "action": "correct",
+   "claim": "Thirteen valid single-ingredient licences are listed in total.",
+   "replacement": "The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 15 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Thirteen valid single-ingredient licences are listed in total.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-phenobarbital-1",
+   "drug": "phenobarbital",
+   "file": "phenobarbital.md",
+   "action": "correct",
+   "claim": "Seven valid single-ingredient licences are listed in total.",
+   "replacement": "The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 11 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Seven valid single-ingredient licences are listed in total.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-ranolazine-1",
+   "drug": "ranolazine",
+   "file": "ranolazine.md",
+   "action": "correct",
+   "claim": "dosage forms for the two CORZYNA licenses",
+   "replacement": "dosage forms for the Canadian licences",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "待辦條目：新上市 MAR-RANOLAZINE XR（02562448）補進後 3 張、不只 CORZYNA，只拿掉張數與品牌前提，建議不動（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"dosage forms for the two CORZYNA licenses\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-sotalol-1",
+   "drug": "sotalol",
+   "file": "sotalol.md",
+   "action": "correct",
+   "claim": "details for the four Canadian authorizations",
+   "replacement": "details for the Canadian authorizations",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "待辦條目：補收新 DIN 後 6 張，只拿掉張數，建議不動（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"details for the four Canadian authorizations\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-valproic_acid-1",
+   "drug": "valproic_acid",
+   "file": "valproic_acid.md",
+   "action": "correct",
+   "claim": "Sixteen valid single-ingredient licences are on record.",
+   "replacement": "Valid single-ingredient licences are on record; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 18 張（MARKETED 17、DORMANT 1）（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Sixteen valid single-ingredient licences are on record.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-varenicline-1",
+   "drug": "varenicline",
+   "file": "varenicline.md",
+   "action": "correct",
+   "claim": "Eleven valid single-ingredient licenses are listed.",
+   "replacement": "The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 13 張（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Eleven valid single-ingredient licenses are listed.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-zolmitriptan-1",
+   "drug": "zolmitriptan",
+   "file": "zolmitriptan.md",
+   "action": "correct",
+   "claim": "Zolmitriptan has 16 valid single-ingredient authorizations in Canada.",
+   "replacement": "Zolmitriptan has valid single-ingredient authorizations in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新上市 M-ZOLMITRIPTAN（02566133）補進後 17 張（MARKETED 14、DORMANT 3）（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Zolmitriptan has 16 valid single-ingredient authorizations in Canada.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-bimatoprost-1",
+   "drug": "bimatoprost",
+   "file": "bimatoprost.md",
+   "action": "correct",
+   "claim": "All four are valid single-ingredient authorizations.",
+   "replacement": "All of them are valid single-ingredient authorizations; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新 DIN 4 個（APO-BIMATOPROST RC、BIMATOPROST RC、PRO-BIMATOPROST RC、JAMP BIMATOPROST SOLUTION RC）補進後 8 張，「All four」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"All four are valid single-ingredient authorizations.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-maraviroc-1",
+   "drug": "maraviroc",
+   "file": "maraviroc.md",
+   "action": "correct",
+   "claim": "Both authorizations are valid single-ingredient products.",
+   "replacement": "All of the authorizations are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "新上市 WAYMADE-MARAVIROC 2 個 DIN 補進後 4 張，「Both」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"Both authorizations are valid single-ingredient products.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
+  },
+  {
+   "id": "ca-lic-20261125b-oxcarbazepine-2",
+   "drug": "oxcarbazepine",
+   "file": "oxcarbazepine.md",
+   "action": "correct",
+   "claim": "All six are single-ingredient products, and none is cancelled.",
+   "replacement": "All are single-ingredient products, and none is cancelled; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "note": "Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.",
+   "finding": "補收新 DIN 後 9 張，「All six」不再成立（2026-11-25 依原收集規則補收 DPD 新上市 DIN，scripts/add_current_dins.py）；更正文字不寫張數",
+   "sources": [
+    {
+     "title": "Health Canada Drug Product Database (DPD)",
+     "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "summary": "Corrected: \"All six are single-ingredient products, and none is cancelled.\"",
+   "method": "2026-11-25 第六輪（用戶決定）：依原收集規則補收 DPD 新上市 DIN 後的正文更正"
   }
  ]
 }

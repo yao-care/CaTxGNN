@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "MESALAZINE"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -52,8 +52,8 @@ Among the other predictions, **rheumatoid arthritis** has the most supporting ma
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
-| Number of DINs | 18 (marketed: 18) |
+| Canada Market Status | Marketed (marketed DINs: 19 of 19) |
+| Number of DINs | 19 (marketed: 19) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,7 +99,13 @@ For reference, the table below lists the most relevant literature for the best-s
 
 ## Canada Market Information
 
-Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations. Dosage form and approved-indication text are not available for these products.
+Mesalazine is marketed in Canada with valid single-ingredient authorizations; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Dosage form and approved-indication text are not available for these products.
+
+<!-- review:begin ca-lic-20261125b-mesalazine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-mesalazine-1 -->
 
 <!-- licenses:begin -->
 
@@ -123,6 +129,7 @@ Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations.
 | 02524481 | MEZERA | MESALAZINE | Marketed |
 | 02529610 | OCTASA | MESALAZINE | Marketed |
 | 02545012 | MEZERA | MESALAZINE | Marketed |
+| 02562367 | ZDS-MESALAMINE SUPPOSITORIES | MESALAZINE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -159,11 +166,12 @@ The top-ranked prediction, congenital hypotrichosis with juvenile macular dystro
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+| 2026-11-25 | Corrected: "Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

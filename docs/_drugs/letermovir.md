@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
-description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). In Canada: 3 DINs (3 marketed)"
+description: "Letermovir: predicted new indication Vulvovaginal candidiasis (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Letermovir
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
-| Number of DINs | 3 (marketed: 3) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,6 +79,8 @@ Currently no related literature available.
 | 02469367 | PREVYMIS | LETERMOVIR | Marketed |
 | 02469375 | PREVYMIS | LETERMOVIR | Marketed |
 | 02469383 | PREVYMIS | LETERMOVIR | Marketed |
+| 02559323 | LUPIN-LETERMOVIR | LETERMOVIR | Marketed |
+| 02559331 | LUPIN-LETERMOVIR | LETERMOVIR | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

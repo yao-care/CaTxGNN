@@ -63,6 +63,21 @@ jobs:
           set -- ${n:-0 0}
           echo "changed=$(( $1 + $2 ))" >> "$GITHUB_OUTPUT"
 
+      # 2026-11-25（第六輪，用戶決定）：DPD 現行清單（allfiles 人用）有、證據包沒收的本藥新上市 DIN 依原收集規則補收
+      # （scripts/add_current_dins.py --download；只加不刪、可重複執行）；下載或資料有問題時印出原因、不擋排程
+      - name: Add new DINs by original collector rule
+        id: adddin
+        run: |
+          set +e
+          out=$("$GITHUB_WORKSPACE/.venv/bin/python" scripts/add_current_dins.py --download 2>&1)
+          code=$?
+          set -e
+          echo "$out"; echo "$out" >> "$GITHUB_STEP_SUMMARY"
+          [ $code = 0 ] || echo "⚠ 新 DIN 補收沒跑成（exit $code），這次不補" >> "$GITHUB_STEP_SUMMARY"
+          n=$(echo "$out" | sed -n 's/.*依原收集規則補收：[0-9]* 個證據包、\([0-9]*\) 筆.*/\1/p' | tail -1)
+          r=$(echo "$out" | sed -n 's/^記下收集規則：\([0-9]*\) 個證據包.*/\1/p' | tail -1)
+          echo "changed=$(( ${n:-0} + ${r:-0} ))" >> "$GITHUB_OUTPUT"
+
       - name: Refresh licenses
         id: refresh
         env:
@@ -94,7 +109,7 @@ jobs:
           gh workflow run pages.yml --ref main
 
       - name: Publish updated data to Release   # records＝許可證狀態變動＋證據包重算有變（2026-11-12）
-        if: (steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '6') && (steps.refresh.outputs.records != '0' || steps.exclude.outputs.changed != '0') && inputs.dry_run != 'true'
+        if: (steps.refresh.outputs.code == '0' || steps.refresh.outputs.code == '6') && (steps.refresh.outputs.records != '0' || steps.exclude.outputs.changed != '0' || steps.adddin.outputs.changed != '0') && inputs.dry_run != 'true'
         run: |
           SITE=$(cat tools/txgnn/SITE)
           TAG="data-$(date -u +%Y%m%d-%H%M%S)"   # 每次新 tag，舊 tag 一律不覆蓋（pm 2026-10-30 第 3 點）

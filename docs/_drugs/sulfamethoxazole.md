@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 871
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sulfamethoxazole: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Infectious otitis media, nocardiosis, toxoplasmosis, pneumocystosis…"
 monitor_inn: "SULFAMETHOXAZOLE"
 predicted_indications: ["acute contagious conjunctivitis"]
@@ -50,8 +50,8 @@ Evidence is limited to **0 clinical trials** and **1 publication** (a susceptibi
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 (the data compiled for this report rated it L4, but no efficacy or mechanism studies were found, so L5 is the better fit) |
-| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
-| Number of DINs | 5 (marketed: 5) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 | 00445282 | SULFATRIM DS | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
 | 00550086 | SEPTRA INJECTION | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
 | 02525917 | SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 02534746 | SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 02563495 | SEPTRA PEDIATRIC ORAL SUSPENSION | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

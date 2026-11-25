@@ -7,8 +7,8 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-24
-description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In Canada: 10 DINs (10 marketed)"
+last_modified_at: 2026-11-25
+description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In Canada: 12 DINs (12 marketed)"
 ---
 
 # Bupropion
@@ -50,8 +50,8 @@ The data compiled for this report include **6 clinical trials** (2 rated as high
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
-| Number of DINs | 10 (marketed: 10) |
+| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
+| Number of DINs | 12 (marketed: 12) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -102,6 +102,8 @@ These are the same catecholamine pathways targeted by established ADHD treatment
 | 02472945 | CONTRAVE | BUPROPION HYDROCHLORIDE; NALTREXONE HYDROCHLORIDE | Marketed |
 | 02475804 | TARO-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
 | 02475812 | TARO-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02565838 | ODAN-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
+| 02565846 | ODAN-BUPROPION XL | BUPROPION HYDROCHLORIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

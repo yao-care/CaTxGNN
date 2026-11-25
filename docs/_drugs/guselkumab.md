@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). In Canada: 4 DINs (4 marketed)"
+description: "Guselkumab: predicted new indication Drug-induced osteoporosis (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Guselkumab
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 (model prediction only) |
-| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
-| Number of DINs | 4 (marketed: 4) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,12 +77,13 @@ Currently no related literature available.
 | 02487314 | TREMFYA ONE-PRESS | GUSELKUMAB | Marketed |
 | 02559145 | TREMFYA | GUSELKUMAB | Marketed |
 | 02559153 | TREMFYA I.V. | GUSELKUMAB | Marketed |
+| 02566877 | TREMFYA | GUSELKUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All four authorizations are valid single-ingredient products. Dosage form and approved indication details are not available in the data compiled for this report.
+All five authorizations are valid single-ingredient products. Dosage form and approved indication details are not available in the data compiled for this report.
 
 ## Safety Considerations
 

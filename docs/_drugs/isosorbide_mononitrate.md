@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available licence records"
 monitor_inn: "Isosorbide mononitrate"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
@@ -50,8 +50,8 @@ Isosorbide mononitrate is a nitric oxide (NO)-releasing vasodilator that is mark
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 3 of 4; dormant: 1) |
-| Number of DINs | 4 (marketed: 3) |
+| Canada Market Status | Marketed (marketed DINs: 4 of 5; dormant: 1) |
+| Number of DINs | 5 (marketed: 4) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,13 +94,14 @@ For the most plausible alternative prediction (pulmonary arterial hypertension),
 | 02272830 | APO-ISMN | ISOSORBIDE-5-MONONITRATE | Marketed |
 | 02301288 | PMS-ISMN | ISOSORBIDE-5-MONONITRATE | Marketed |
 | 02311321 | PRO-ISMN - 60 | ISOSORBIDE-5-MONONITRATE | Marketed |
+| 02562561 | PRZ-ISMN | ISOSORBIDE-5-MONONITRATE | Marketed |
 | 02126559 | IMDUR | ISOSORBIDE-5-MONONITRATE | Dormant |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All four licences are valid single-ingredient products.
+All five licences are valid single-ingredient products.
 
 ---
 

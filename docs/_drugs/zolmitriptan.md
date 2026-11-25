@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 996
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 16 DINs (13 marketed, 3 dormant)"
+description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 17 DINs (14 marketed, 3 dormant)"
 ---
 
 # Zolmitriptan
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and **18 publications*
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 13 of 16; dormant: 3) |
-| Number of DINs | 16 (marketed: 13) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 17; dormant: 3) |
+| Number of DINs | 17 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,13 @@ The publications below are the most relevant of those compiled. None specificall
 
 ## Canada Market Information
 
-Zolmitriptan has 16 valid single-ingredient authorizations in Canada. The approved indication text and dosage forms are not available in the data compiled for this report. Product names suggest nasal spray and orally disintegrating formulations in addition to standard tablets.
+Zolmitriptan has valid single-ingredient authorizations in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. The approved indication text and dosage forms are not available in the data compiled for this report. Product names suggest nasal spray and orally disintegrating formulations in addition to standard tablets.
+
+<!-- review:begin ca-lic-20261125b-zolmitriptan-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Zolmitriptan has 16 valid single-ingredient authorizations in Canada." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-zolmitriptan-1 -->
 
 <!-- licenses:begin -->
 
@@ -114,6 +120,7 @@ Zolmitriptan has 16 valid single-ingredient authorizations in Canada. The approv
 | 02481030 | AURO-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
 | 02489392 | NRA-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
 | 02512831 | BIO-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
+| 02566133 | M-ZOLMITRIPTAN | ZOLMITRIPTAN | Marketed |
 | 02362988 | SANDOZ ZOLMITRIPTAN | ZOLMITRIPTAN | Dormant |
 | 02362996 | SANDOZ ZOLMITRIPTAN ODT | ZOLMITRIPTAN | Dormant |
 | 02442655 | ZOLMITRIPTAN | ZOLMITRIPTAN | Dormant |
@@ -169,6 +176,7 @@ Below is the review log for this page: statements checked against official Healt
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Reworded: "The remaining 11 authorizations are generic products, including" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "Zolmitriptan has 16 valid single-ingredient authorizations in Canada." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

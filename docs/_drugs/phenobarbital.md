@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 728
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic and partial epilepsy)…"
 monitor_inn: "PHENOBARBITAL"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -52,8 +52,8 @@ The more credible repurposing directions are reflex-type seizure disorders (for 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
-| Number of DINs | 7 (marketed: 7) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 *Note: Health Canada indication text was not available in the data compiled for this report, so the original indication could not be stated here.*
@@ -114,12 +114,22 @@ For context, the most relevant evidence among the lower-ranked predictions (thes
 | 00645575 | PHENOBARB ELIXIR | PHENOBARBITAL | Marketed |
 | 02304082 | PHENOBARBITAL SODIUM INJECTION, USP | PHENOBARBITAL SODIUM | Marketed |
 | 02304090 | PHENOBARBITAL SODIUM INJECTION, USP | PHENOBARBITAL SODIUM | Marketed |
+| 02557789 | JAMP PHENOBARBITAL | PHENOBARBITAL | Marketed |
+| 02557797 | JAMP PHENOBARBITAL | PHENOBARBITAL | Marketed |
+| 02557800 | JAMP PHENOBARBITAL | PHENOBARBITAL | Marketed |
+| 02557819 | JAMP PHENOBARBITAL | PHENOBARBITAL | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-Seven valid single-ingredient licences are listed in total.
+The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.
+
+<!-- review:begin ca-lic-20261125b-phenobarbital-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Seven valid single-ingredient licences are listed in total." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-phenobarbital-1 -->
 
 ---
 
@@ -182,11 +192,12 @@ Please refer to the package insert for label warnings and contraindications, whi
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
+| 2026-11-25 | Corrected: "Seven valid single-ingredient licences are listed in total." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

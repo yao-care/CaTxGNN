@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Glycerin: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 13; cancelled: 1) |
-| Number of DINs | 13 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs: 13 of 14; cancelled: 1) |
+| Number of DINs | 14 (marketed: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -116,6 +116,7 @@ For open-angle glaucoma, the strongest alternative candidate, the retrieved arti
 | 02360837 | CLEAR EYES EXTRA STRENGTH REDNESS RELIEF | GLYCERINE; NAPHAZOLINE HYDROCHLORIDE | Marketed |
 | 02389886 | DRY EYE TEARS | GLYCERINE; HYPROMELLOSE | Marketed |
 | 02399148 | REFRESH OPTIVE ADVANCED | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE; POLYSORBATE 80 | Marketed |
+| 02426773 | NEGATIVE SKIN TEST CONTROL - GLYCERIN | GLYCERINE | Marketed |
 | 02435578 | REFRESH OPTIVE FUSION | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE | Marketed |
 | 02438585 | VISINE FOR DRY EYE TIRED EYE RELIEF | GLYCERINE; HYPROMELLOSE | Marketed |
 | 02463652 | REFRESH OPTIVE GEL DROPS | CARBOXYMETHYLCELLULOSE SODIUM; GLYCERINE | Cancelled post market |

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 147
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the licence data (calcipotriol products are generally u…"
 monitor_inn: "CALCIPOTRIOL"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -96,6 +96,7 @@ Currently no related clinical trials registered.
 | 02427419 | TEVA-BETAMETHASONE/ CALCIPOTRIOL | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL | Marketed |
 | 02457393 | ENSTILAR | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE) | Marketed |
 | 02525178 | TARO-CALCIPOTRIOL / BETAMETHASONE GEL | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL (CALCIPOTRIOL MONOHYDRATE) | Marketed |
+| 02563010 | WYNZORA | BETAMETHASONE (BETAMETHASONE DIPROPIONATE); CALCIPOTRIOL | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 932
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In Canada: 15 DINs (15 marketed)"
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In Canada: 16 DINs (16 marketed)"
 ---
 
 # Trastuzumab
@@ -52,8 +52,8 @@ It is supported by **12 clinical trials** and **20 publications**. However, this
 | Predicted New Indication | Malignant cutaneous granular cell skin tumor |
 | TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
-| Number of DINs | 15 (marketed: 15) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -135,6 +135,7 @@ The table below lists each DIN with its current status in the DPD. Dosage form a
 | 02518244 | KANJINTI | TRASTUZUMAB | Marketed |
 | 02524317 | ONTRUZANT | TRASTUZUMAB | Marketed |
 | 02524325 | ONTRUZANT | TRASTUZUMAB | Marketed |
+| 02550989 | ADHEROZA | TRASTUZUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

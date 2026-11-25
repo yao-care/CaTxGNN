@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In Canada: 17 DINs (16 marketed)"
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In Canada: 18 DINs (17 marketed)"
 ---
 
 # Latanoprost
@@ -49,8 +49,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 (mechanistic reasoning only; no trials or literature) |
-| Canada Market Status | Marketed (marketed DINs: 16 of 17; cancelled: 1) |
-| Number of DINs | 17 (marketed: 16) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 18; cancelled: 1) |
+| Number of DINs | 18 (marketed: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,6 +101,7 @@ Dosage form and approved indication text were not available for these products.
 | 02513285 | M-LATANOPROST | LATANOPROST | Marketed |
 | 02514516 | M-LATANOPROST-TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
 | 02534835 | AG-LATANOPROST | LATANOPROST | Marketed |
+| 02553848 | LATANOPROST / TIMOLOL | LATANOPROST; TIMOLOL (TIMOLOL MALEATE) | Marketed |
 | 02254786 | TEVA-LATANOPROST | LATANOPROST | Cancelled post market |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.

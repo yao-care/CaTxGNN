@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). In Canada: 1 DIN (1 marketed)"
+description: "Enzalutamide: predicted new indication Prostate leiomyoma (evidence level L5). In Canada: 5 DINs (5 marketed)"
 ---
 
 # Enzalutamide
@@ -52,8 +52,8 @@ No clinical trials or publications directly support this top-ranked prediction, 
 | Predicted New Indication | Prostate leiomyoma |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only for the top-ranked indication) |
-| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
-| Number of DINs | 1 (marketed: 1) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
+| Number of DINs | 5 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ---
@@ -111,6 +111,10 @@ The top-ranked prediction has no publications. The table below lists key publica
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
 | 02407329 | XTANDI | ENZALUTAMIDE | Marketed |
+| 02494736 | AURO-ENZALUTAMIDE | ENZALUTAMIDE | Marketed |
+| 02515229 | JAMP ENZALUTAMIDE | ENZALUTAMIDE | Marketed |
+| 02558424 | REDDY-ENZALUTAMIDE | ENZALUTAMIDE | Marketed |
+| 02562677 | APO-ENZALUTAMIDE | ENZALUTAMIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

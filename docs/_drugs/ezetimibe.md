@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Canada: 19 DINs (17 marketed, 2 dormant)"
+description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In Canada: 20 DINs (18 marketed, 2 dormant)"
 ---
 
 # Ezetimibe
@@ -51,8 +51,8 @@ Because this prediction overlaps closely with the original indications, it is be
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 17 of 19; dormant: 2) |
-| Number of DINs | 19 (marketed: 17) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 20; dormant: 2) |
+| Number of DINs | 20 (marketed: 18) |
 | Recommended Decision | Proceed with Guardrails |
 
 Note: The Health Canada records compiled for this report contain no approved indication text.
@@ -116,7 +116,13 @@ The table lists the most relevant trials for hyperlipoproteinemia.
 
 <!-- review:end ca-lic-20261124b-ezetimibe-1 -->
 
-Ezetimibe has 19 valid single-ingredient authorizations in Canada. The records compiled for this report do not include dosage form or approved indication text.
+Ezetimibe has valid single-ingredient authorizations in Canada; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. The records compiled for this report do not include dosage form or approved indication text.
+
+<!-- review:begin ca-lic-20261125b-ezetimibe-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Ezetimibe has 19 valid single-ingredient authorizations in Canada." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-ezetimibe-1 -->
 
 <!-- licenses:begin -->
 
@@ -133,6 +139,7 @@ Ezetimibe has 19 valid single-ingredient authorizations in Canada. The records c
 | 02423243 | MINT-EZETIMIBE | EZETIMIBE | Marketed |
 | 02425211 | BIO-EZETIMIBE | EZETIMIBE | Marketed |
 | 02425610 | ACH-EZETIMIBE | EZETIMIBE | Marketed |
+| 02427826 | APO-EZETIMIBE | EZETIMIBE | Marketed |
 | 02431300 | EZETIMIBE | EZETIMIBE | Marketed |
 | 02467437 | M-EZETIMIBE | EZETIMIBE | Marketed |
 | 02469286 | AURO-EZETIMIBE | EZETIMIBE | Marketed |
@@ -189,6 +196,7 @@ Below is the review log for this page: statements checked against official Healt
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 | 2026-11-24 | Removed: "Five main authorizations are listed." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
+| 2026-11-25 | Corrected: "Ezetimibe has 19 valid single-ingredient authorizations in Canada." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Articaine: predicted new indication Gout (evidence level L5). Approved use: Not specified in the available license data (the products are markete…"
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -50,8 +50,8 @@ This is a model-only prediction with no supporting studies.
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
-| Number of DINs | 12 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
+| Number of DINs | 14 (marketed: 14) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -96,6 +96,8 @@ Currently no related literature available for gout.
 | 02361914 | ORABLOC 1:100,000 | ARTICAINE HYDROCHLORIDE; EPINEPHRINE BITARTRATE | Marketed |
 | 02381311 | POSICAINE N | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
 | 02381338 | POSICAINE SP | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02561980 | ARTICAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION - N | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
+| 02561999 | ARTICAINE HYDROCHLORIDE AND EPINEPHRINE INJECTION - SP | ARTICAINE HYDROCHLORIDE; EPINEPHRINE (EPINEPHRINE BITARTRATE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

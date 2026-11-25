@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal osteoporosis and drug-induced…"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,8 +52,8 @@ This is a computational prediction only, with **0 clinical trials** and **0 publ
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 A second prediction, **diabetic retinopathy** (score 0.9923, also L5, Hold), is discussed in the sections below where relevant.
@@ -99,6 +99,10 @@ No literature directly addresses severe nonproliferative diabetic retinopathy. F
 | 02545764 | WYOST | DENOSUMAB | Marketed |
 | 02560895 | OSENVELT | DENOSUMAB | Marketed |
 | 02560917 | STOBOCLO | DENOSUMAB | Marketed |
+| 02565951 | BILDYOS | DENOSUMAB | Marketed |
+| 02566001 | TUZEMTY | DENOSUMAB | Marketed |
+| 02566265 | DENOZA | DENOSUMAB | Marketed |
+| 02566273 | IDENOS | DENOSUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -110,7 +114,7 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- review:end ca-lic-20261124b-denosumab-1 -->
 
-All 6 authorizations are single-ingredient products with valid status.
+All 10 authorizations are single-ingredient products with valid status.
 
 ---
 

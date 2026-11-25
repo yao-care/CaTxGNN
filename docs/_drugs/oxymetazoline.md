@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 696
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 13 DINs (13 marketed)"
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). In Canada: 15 DINs (15 marketed)"
 ---
 
 # Oxymetazoline
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **5 publicati
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 13 of 13) |
-| Number of DINs | 13 (marketed: 13) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
+| Number of DINs | 15 (marketed: 15) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,12 +105,20 @@ Most of these papers mention oxymetazoline only incidentally (for example as a d
 | 02460599 | NASAL CONGESTION SPRAY | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
 | 02498294 | DRIXORAL NO DRIP NASAL CONGESTION | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
 | 02498308 | DRIXORAL NO DRIP NASAL CONGESTION WITH MENTHOL | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02563606 | SINEX CONGESTION MOISTURIZING | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
+| 02563614 | SINEX CONGESTION ULTRA FINE MIST | OXYMETAZOLINE HYDROCHLORIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-Thirteen valid single-ingredient licences are listed in total.
+The listed licences are valid single-ingredient products; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information.
+
+<!-- review:begin ca-lic-20261125b-oxymetazoline-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Thirteen valid single-ingredient licences are listed in total." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-oxymetazoline-1 -->
 
 ---
 
@@ -141,11 +149,12 @@ The prediction has a very high model score, but there are no clinical trials, an
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+| 2026-11-25 | Corrected: "Thirteen valid single-ingredient licences are listed in total." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

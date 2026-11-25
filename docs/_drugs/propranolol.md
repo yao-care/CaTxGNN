@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In Canada: 13 DINs (13 marketed)"
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In Canada: 17 DINs (17 marketed)"
 ---
 
 # Propranolol
@@ -50,8 +50,8 @@ The data compiled for this report show somewhat more (indirect) literature for t
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 13 of 13) |
-| Number of DINs | 13 (marketed: 13) |
+| Canada Market Status | Marketed (marketed DINs: 17 of 17) |
+| Number of DINs | 17 (marketed: 17) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -114,12 +114,16 @@ Many other records for this prediction are generic "Propranolol" monographs with
 | 02550814 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
 | 02550822 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
 | 02550830 | PRZ-PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02563053 | JAMP PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02563061 | JAMP PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02563088 | JAMP PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
+| 02563096 | JAMP PROPRANOLOL | PROPRANOLOL HYDROCHLORIDE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All 13 licences are valid single-ingredient products.
+All 17 licences are valid single-ingredient products.
 
 ## Safety Considerations
 

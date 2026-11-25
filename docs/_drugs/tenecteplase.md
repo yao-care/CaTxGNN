@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 891
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TENECTEPLASE"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
-description: "Tenecteplase: predicted new indication Congenital coronary artery anomaly (evidence level L5). In Canada: 1 DIN (1 marketed)"
+description: "Tenecteplase: predicted new indication Congenital coronary artery anomaly (evidence level L5). In Canada: 2 DINs (2 marketed)"
 ---
 
 # Tenecteplase
@@ -51,8 +51,8 @@ This is an anatomical subtype of an already-approved indication, so it is not tr
 | Predicted New Indication | Congenital coronary artery anomaly |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
-| Number of DINs | 1 (marketed: 1) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 | Recommended Decision | Hold (the other predicted indications are discussed below) |
 
 ---
@@ -106,6 +106,7 @@ Study designs were inferred from truncated titles and abstracts, so the classifi
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
 | 02244826 | TNKASE | TENECTEPLASE | Marketed |
+| 02562804 | TNKASE | TENECTEPLASE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

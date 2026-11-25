@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "FUSIDIC ACID"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
-description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). In Canada: 6 DINs (6 marketed)"
+description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). In Canada: 7 DINs (7 marketed)"
 ---
 
 # Fusidic Acid
@@ -52,8 +52,8 @@ but there are **0 clinical trials** and only **1 publication** (a case series on
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
-| Number of DINs | 6 (marketed: 6) |
+| Canada Market Status | Marketed (marketed DINs: 7 of 7) |
+| Number of DINs | 7 (marketed: 7) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,6 +94,7 @@ Currently no related clinical trials registered.
 | 02243862 | FUCITHALMIC | FUSIDIC ACID | Marketed |
 | 02474883 | FUCIBET | BETAMETHASONE (BETAMETHASONE VALERATE); FUSIDIC ACID | Marketed |
 | 02528096 | TARO-FUSIDIC ACID | FUSIDIC ACID (FUSIDIC ACID HEMIHYDRATE) | Marketed |
+| 02565587 | TARO-SODIUM FUSIDATE | FUSIDATE SODIUM | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -105,7 +106,7 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- review:end ca-lic-20261124b-fusidic_acid-1 -->
 
-All 6 of 6 licenses are valid.
+All 7 of 7 licenses are valid.
 
 ---
 

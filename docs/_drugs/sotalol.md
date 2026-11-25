@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 865
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
-description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In Canada: 4 DINs (3 marketed, 1 dormant)"
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In Canada: 6 DINs (5 marketed, 1 dormant)"
 ---
 
 # Sotalol
@@ -50,8 +50,8 @@ Mechanistically, the prediction appears implausible and potentially harmful, so 
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 3 of 4; dormant: 1) |
-| Number of DINs | 4 (marketed: 3) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 6; dormant: 1) |
+| Number of DINs | 6 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,13 +101,15 @@ For reference, literature retrieved for the lower-ranked stroke prediction (all 
 | 02167794 | APO-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
 | 02210428 | APO-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
 | 02238326 | PMS-SOTALOL - 80 MG | SOTALOL HYDROCHLORIDE | Marketed |
+| 02565404 | AMB-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
+| 02565412 | AMB-SOTALOL | SOTALOL HYDROCHLORIDE | Marketed |
 | 02238327 | PMS-SOTALOL - 160 MG | SOTALOL HYDROCHLORIDE | Dormant |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All four authorizations are valid single-ingredient products.
+All six authorizations are valid single-ingredient products.
 
 ## Safety Considerations
 
@@ -129,17 +131,24 @@ The TxGNN score is very high, but there are no trials or publications for sick s
 - Mechanism of action data (for example from DrugBank) to support mechanistic analysis
 - Reconciliation of the prediction with the sick sinus syndrome contraindication, and expert review of whether it is a graph artifact
 - Exclusion or merging of the obsolete stroke susceptibility entry with the stroke disorder entry
-- Dosage form and approved-indication details for the four Canadian authorizations
+- Dosage form and approved-indication details for the Canadian authorizations
+
+<!-- review:begin ca-lic-20261125b-sotalol-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "details for the four Canadian authorizations" Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-sotalol-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+| 2026-11-25 | Corrected: "details for the four Canadian authorizations" | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

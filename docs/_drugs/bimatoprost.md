@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 115
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -52,8 +52,8 @@ A different prediction in the same list, **alopecia**, has far stronger support 
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
-| Number of DINs | 4 (marketed: 4) |
+| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
+| Number of DINs | 8 (marketed: 8) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,14 +114,24 @@ Among the ten predicted indications, **alopecia** (TxGNN score 1.0000) is the on
 |------|------|------|------|
 | 02324997 | LUMIGAN RC | BIMATOPROST | Marketed |
 | 02350939 | LATISSE | BIMATOPROST | Marketed |
+| 02403013 | APO-BIMATOPROST RC | BIMATOPROST | Marketed |
 | 02429063 | VISTITAN | BIMATOPROST | Marketed |
+| 02529580 | BIMATOPROST RC | BIMATOPROST | Marketed |
 | 02533464 | ZIMED PF | BIMATOPROST | Marketed |
+| 02563428 | PRO-BIMATOPROST RC | BIMATOPROST | Marketed |
+| 02565773 | JAMP BIMATOPROST SOLUTION RC | BIMATOPROST | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
 <!-- licenses:end -->
 
-All four are valid single-ingredient authorizations. Dosage form and approved-indication text were not available in the compiled data.
+All of them are valid single-ingredient authorizations; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Dosage form and approved-indication text were not available in the compiled data.
+
+<!-- review:begin ca-lic-20261125b-bimatoprost-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "All four are valid single-ingredient authorizations." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-bimatoprost-1 -->
 
 ---
 
@@ -153,11 +163,12 @@ The top-ranked prediction has no trials, no literature, and no plausible mechani
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+| 2026-11-25 | Corrected: "All four are valid single-ingredient authorizations." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

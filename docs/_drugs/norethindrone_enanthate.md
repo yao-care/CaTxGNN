@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 666
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Norethindrone Enanthate: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (marketed DINs: 17 of 18; cancelled: 1) |
-| Number of DINs | 18 (marketed: 17) |
+| Canada Market Status | Marketed (marketed DINs: 18 of 19; cancelled: 1) |
+| Number of DINs | 19 (marketed: 18) |
 
 ## Known uses recorded for this drug
 
@@ -93,6 +93,7 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | 02441306 | JENCYCLA | NORETHINDRONE | Marketed |
 | 02458683 | MAEVE | NORETHINDRONE | Marketed |
 | 02541742 | MYFEMBREE | ESTRADIOL; NORETHINDRONE ACETATE; RELUGOLIX | Marketed |
+| 02553481 | ELFY | ETHINYL ESTRADIOL; NORETHINDRONE ACETATE | Marketed |
 | 02199297 | SELECT 1/35 (28-DAY) | ETHINYL ESTRADIOL; NORETHINDRONE | Cancelled post market |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.

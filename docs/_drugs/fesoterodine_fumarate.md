@@ -5,7 +5,7 @@ layout: default
 title: Fesoterodine Fumarate
 parent: Known Uses Only (No New Predictions)
 nav_order: 382
-last_modified_at: 2026-11-05
+last_modified_at: 2026-11-25
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (marketed DINs: 4 of 4) |
-| Number of DINs | 4 (marketed: 4) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 
 ---
 

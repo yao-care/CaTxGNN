@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "GALANTAMINE"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
-| Number of DINs | 12 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs: 15 of 15) |
+| Number of DINs | 15 (marketed: 15) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,13 @@ Currently no related literature available.
 
 ## Canada Market Information
 
-Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled). The product names indicate extended-release (ER) formulations. Dosage form and approved indication text were not available in the compiled data.
+Galantamine is marketed in Canada under valid single-ingredient authorizations (none cancelled); the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. The product names indicate extended-release (ER) formulations. Dosage form and approved indication text were not available in the compiled data.
+
+<!-- review:begin ca-lic-20261125b-galantamine-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled)." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-galantamine-1 -->
 
 <!-- licenses:begin -->
 
@@ -87,6 +93,9 @@ Galantamine is marketed in Canada under 12 valid single-ingredient authorization
 | 02443015 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
 | 02443023 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
 | 02443031 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02562154 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02562162 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
+| 02562170 | GALANTAMINE ER | GALANTAMINE (GALANTAMINE HYDROBROMIDE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 
@@ -120,11 +129,12 @@ Among the other predictions in the data, "lingual-facial-buccal dyskinesia" (tar
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
+| 2026-11-25 | Corrected: "Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none cancelled)." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

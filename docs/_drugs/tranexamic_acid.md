@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 930
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TRANEXAMIC ACID"
 predicted_indications: ["amenorrhea (disease)"]
-description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In Canada: 12 DINs (12 marketed)"
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In Canada: 13 DINs (13 marketed)"
 ---
 
 # Tranexamic Acid
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are c
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
-| Number of DINs | 12 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs: 13 of 13) |
+| Number of DINs | 13 (marketed: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,6 +96,7 @@ Currently no related clinical trials registered.
 | 02496232 | MAR-TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
 | 02497328 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
 | 02519194 | TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
+| 02531194 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
 | 02531208 | TRANEXAMIC ACID INJECTION | TRANEXAMIC ACID | Marketed |
 | 02549395 | M-TRANEXAMIC ACID | TRANEXAMIC ACID | Marketed |
 

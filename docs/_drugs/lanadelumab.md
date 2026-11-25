@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Lanadelumab"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
-description: "Lanadelumab: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In Canada: 2 DINs (2 marketed)"
+description: "Lanadelumab: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In Canada: 3 DINs (3 marketed)"
 ---
 
 # Lanadelumab
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **serpinopathy with toxic serpi
 | Predicted New Indication | Serpinopathy with toxic serpin polymerization |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
-| Number of DINs | 2 (marketed: 2) |
+| Canada Market Status | Marketed (marketed DINs: 3 of 3) |
+| Number of DINs | 3 (marketed: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,6 +75,7 @@ Currently no related literature available.
 |------|------|------|------|
 | 02480948 | TAKHZYRO | LANADELUMAB | Marketed |
 | 02505614 | TAKHZYRO | LANADELUMAB | Marketed |
+| 02564483 | TAKHZYRO | LANADELUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

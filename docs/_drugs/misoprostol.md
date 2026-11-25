@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Misoprostol: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -52,8 +52,8 @@ Evidence is limited to model prediction and indirect literature.
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 (preclinical/mechanistic and indirect literature; no completed RCT for this indication) |
-| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
-| Number of DINs | 10 (marketed: 10) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 11) |
+| Number of DINs | 11 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,6 +105,7 @@ None of these publications evaluates misoprostol as a treatment for amenorrhea.
 | 02413469 | PMS-DICLOFENAC-MISOPROSTOL | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
 | 02413477 | PMS-DICLOFENAC-MISOPROSTOL | DICLOFENAC SODIUM; MISOPROSTOL | Marketed |
 | 02444038 | MIFEGYMISO | MIFEPRISTONE; MISOPROSTOL | Marketed |
+| 02545284 | JAMP MISOPROSTOL | MISOPROSTOL | Marketed |
 | 02560569 | FEMYSO | MIFEPRISTONE; MISOPROSTOL | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
@@ -117,7 +118,7 @@ Source: Health Canada Drug Product Database (DPD); product names, active ingredi
 
 <!-- review:end ca-lic-20261124b-misoprostol-1 -->
 
-The data compiled for this report list 10 valid licences in total. The other products include ARTHROTEC 50, GD-DICLOFENAC/MISOPROSTOL 50 and 75, MIFEGYMISO and FEMYSO.
+The data compiled for this report list 11 valid licences in total. The other products include ARTHROTEC 50, GD-DICLOFENAC/MISOPROSTOL 50 and 75, MIFEGYMISO and FEMYSO.
 
 ---
 

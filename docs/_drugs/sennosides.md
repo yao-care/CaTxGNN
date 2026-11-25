@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 844
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the licence records compiled for this report (sennoside…"
 monitor_inn: "SENNOSIDES"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -54,8 +54,8 @@ Sennosides are stimulant laxatives marketed in Canada in several combination pro
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 4 of 5; cancelled: 1) |
-| Number of DINs | 5 (marketed: 4) |
+| Canada Market Status | Marketed (marketed DINs: 5 of 6; cancelled: 1) |
+| Number of DINs | 6 (marketed: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,6 +90,7 @@ Currently no related literature available.
 | 02246951 | SENNA S. TABLETS | DOCUSATE SODIUM; SENNOSIDES | Marketed |
 | 02247134 | SENNA LAXATIVE AND DOCUSATE SODIUM TABLETS | DOCUSATE SODIUM; SENNOSIDES | Marketed |
 | 02516209 | COLACE PLUS STIMULANT LAXATIVE | DOCUSATE SODIUM; SENNOSIDES | Marketed |
+| 02553007 | SENNOSIDES 8.6 MG AND DOCUSATE SODIUM 50 MG TABLETS | DOCUSATE SODIUM; SENNOSIDES | Marketed |
 | 02247390 | SANDOZ SENNA S | DOCUSATE SODIUM; SENNOSIDES | Cancelled post market |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.

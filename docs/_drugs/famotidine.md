@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). In Canada: 18 DINs (18 marketed)"
+description: "Famotidine: predicted new indication Duodenal obstruction (evidence level L5). In Canada: 20 DINs (20 marketed)"
 ---
 
 # Famotidine
@@ -50,8 +50,8 @@ Famotidine is a histamine H2-receptor antagonist originally used for gastric and
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (preclinical or mechanism-level support only) |
-| Canada Market Status | Marketed (marketed DINs: 18 of 18) |
-| Number of DINs | 18 (marketed: 18) |
+| Canada Market Status | Marketed (marketed DINs: 20 of 20) |
+| Number of DINs | 20 (marketed: 20) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,6 +123,8 @@ Selected publications for the related peptic ulcer prediction:
 | 02538636 | MINT-FAMOTIDINE | FAMOTIDINE | Marketed |
 | 02549107 | FAMOTIDINE | FAMOTIDINE | Marketed |
 | 02549115 | FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02562332 | RIVA-FAMOTIDINE | FAMOTIDINE | Marketed |
+| 02562340 | RIVA-FAMOTIDINE | FAMOTIDINE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ELETRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 14 DINs (14 marketed)"
+description: "Eletriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In Canada: 16 DINs (16 marketed)"
 ---
 
 # Eletriptan
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **atrophoderma vermiculata**, b
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 14 of 14) |
-| Number of DINs | 14 (marketed: 14) |
+| Canada Market Status | Marketed (marketed DINs: 16 of 16) |
+| Number of DINs | 16 (marketed: 16) |
 | Recommended Decision | Hold |
 
 ---
@@ -94,7 +94,13 @@ None of the publications below studies migraine with brainstem aura directly. Th
 
 ## Canada Market Information
 
-Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled. Dosage form and approved-indication text are not available in the data compiled for this report.
+Eletriptan has valid single-ingredient authorisations in Canada and none are cancelled; the current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Dosage form and approved-indication text are not available in the data compiled for this report.
+
+<!-- review:begin ca-lic-20261125b-eletriptan-1 -->
+
+> **Review correction (2026-11-25)**: Originally stated: "Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled." Corrected: DINs marketed after the March 2026 DPD extract were added to the evidence for this page (same matching rule as the original collector), so the earlier count no longer applies. The current number and status of DINs are shown in the Quick Overview and in the table under Canada Market Information. Source: [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html).
+
+<!-- review:end ca-lic-20261125b-eletriptan-1 -->
 
 <!-- licenses:begin -->
 
@@ -110,6 +116,8 @@ Eletriptan has 14 valid single-ingredient authorisations in Canada and none are 
 | 02479478 | AURO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
 | 02489961 | PRO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
 | 02489988 | PRO-ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02493683 | JAMP ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
+| 02493691 | JAMP ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
 | 02511266 | ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
 | 02511274 | ELETRIPTAN | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
 | 02518015 | APO-ELETRIPTAN TABLETS | ELETRIPTAN (ELETRIPTAN HYDROBROMIDE) | Marketed |
@@ -160,11 +168,12 @@ Moderate-level interactions include aprepitant, morphine, cimetidine, clotrimazo
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Health Canada data (the Drug Product Database, DPD). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
+| 2026-11-25 | Corrected: "Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled." | Corrected | [Health Canada Drug Product Database (DPD)](https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/drug-product-database.html) |
 
 <!-- review:end log -->
 

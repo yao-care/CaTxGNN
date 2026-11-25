@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 775
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PROGESTERONE"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In Canada: 12 DINs (12 marketed)"
+description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In Canada: 13 DINs (13 marketed)"
 ---
 
 # Progesterone
@@ -52,8 +52,8 @@ Support is thin: there are **0 registered clinical trials** and **20 publication
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| Canada Market Status | Marketed (marketed DINs: 12 of 12) |
-| Number of DINs | 12 (marketed: 12) |
+| Canada Market Status | Marketed (marketed DINs: 13 of 13) |
+| Number of DINs | 13 (marketed: 13) |
 | Recommended Decision | Hold |
 
 ---
@@ -107,6 +107,7 @@ The table below lists each DIN with its current status in the DPD. The approved 
 |------|------|------|------|
 | 02166704 | PROMETRIUM | PROGESTERONE | Marketed |
 | 02241013 | CRINONE | PROGESTERONE | Marketed |
+| 02334992 | ENDOMETRIN | PROGESTERONE | Marketed |
 | 02439913 | TEVA-PROGESTERONE | PROGESTERONE | Marketed |
 | 02446820 | ACT PROGESTERONE INJECTION | PROGESTERONE | Marketed |
 | 02463113 | REDDY-PROGESTERONE | PROGESTERONE | Marketed |

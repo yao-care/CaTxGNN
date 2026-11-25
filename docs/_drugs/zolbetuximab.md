@@ -5,7 +5,7 @@ layout: default
 title: Zolbetuximab
 parent: Known Uses Only (No New Predictions)
 nav_order: 995
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Zolbetuximab: known uses and market status in Canada; currently no new candidate indication"
 monitor_inn: "Zolbetuximab"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
-| Number of DINs | 1 (marketed: 1) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 
 ---
 
@@ -55,6 +55,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
 | 02553996 | VYLOY | ZOLBETUXIMAB | Marketed |
+| 02563916 | VYLOY | ZOLBETUXIMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

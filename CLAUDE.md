@@ -601,3 +601,26 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   漏收重量（照原收集規則：現行 allfiles 人用 DIN 的成分去括號後對 drug_mapping 標準化成分→DrugBank ID，跟證據包 DrugBank ID 相交、不在收集器比對結果裡）：477 個 DIN 不在 2026-03 的萃取檔，其中 412 個對得到 DrugBank ID，
   缺口 271 個證據包、707 次（有頁面 157 個，例 acetaminophen 16、guanfacine 12、metformin 11、aripiprazole 7、rivaroxaban 7）；超過 50 個證據包，照用戶規則先停下回報，沒有接補收。
 - 驗證：exclude 第二次跑 0 筆；checker 全量前後 0；gate exit 0；apply --check、rewrite_license_counts --check、sync_license_tables --check 都 0。證據包與 data/raw 經 data-overlay 推進 Release。
+
+## 第六輪：DPD 新上市 DIN 依原收集規則補收（2026-11-25）
+
+用戶 2026-11-25 第六輪決定（第 1 條「新許可補收：全部照原規則補」）：第五輪量測 271 個證據包、707 次漏收（2026-03 萃取檔之後才上市的 DIN 不在 drug_mapping、也不在 data/raw 萃取檔，每週排程只更新既有 DIN 的狀態）。
+- `scripts/add_current_dins.py [--download] [--dry-run] [--report out.tsv]`（比照 ES／CH 的 add_current_licenses.py）：
+  收集規則逐包判定——照現行 drug_mapping.csv 與 drug_mapping.csv.bak_20261012（那一版 DIN 前導 0 被吃掉，補回 8 位數比對）分別在 2026-03 萃取檔重算 cafda.matches（扣排除表），
+  張數等於 total_matches、現有紀錄都在裡面的那份就是它的規則（兩份都對用現行），記在 tfda.collection_rule；1,552 個證據包全部重算得出（現行 1,541、只有 bak 對得上 11），停損 0 包。
+  當時算進 total_matches 卻因 20 筆上限沒存的 DIN 回填 tfda.records_not_stored（235 個證據包），避免重複計數。
+  補收範圍照原收集器：現行清單（data/raw/dpd_current_status.json）set＝allfiles、class＝Human、不在 2026-03 萃取檔的 DIN（2026-11-25：477 個，全部 MARKETED）；
+  成分照 loader 寫法（去重排序、「; 」連接），同一原始成分字串在該份 drug_mapping 見過就沿用其 DrugBank ID（當時 failed 的照舊不收），沒見過的照 map_fda_drugs_to_drugbank 逐成分對
+  （成分名在該份 drug_mapping 的標準化成分見過就沿用，含 rescue 補救的對照，否則 drugbank_mapper），跟本藥 ID 相交才收；原收集器退回文字比對的證據包照 _text_match；排除表照舊不收。
+  records 未滿 20 存進 records（單方在前），滿了只記 records_not_stored，都算進 total_matches；每筆記 source（萃取檔日期與規則）、added。只加不刪、可重複執行。
+  `.github/workflows/license-refresh.yml` 在 Exclude mismatched records 之後、license_refresh 之前以 `--download` 跑（失敗只印出、不擋排程），有補收就照常發新 Release。
+- 2026-11-25 套用（Release data-20261125-010637）：266 個證據包補 702 筆（不重複 DIN 407 個；477 個新 DIN 裡 70 個對不到任何證據包）；第二次跑 0 筆。
+  補到的類別都是原規則本來就收的人用藥（DPD class Human）：多種維生素／礦物質複方逐成分歸屬（26 個證據包）、感冒藥複方、透析液／輸液、防曬成分（homosalate、octinoxate 等，DPD 列為人用藥）等；沒有獸用、消毒劑（DPD 另分 class），沒有判定為別的藥的。
+  另有少數 DIN 號碼較舊、2026-03 時不在 allfiles（例 APO-BIMATOPROST RC 02403013），現在列為 MARKETED，照同一規則收。
+  證據包 local_regulatory 重算 86 個；概覽狀態列／張數列 85 頁、程式表 84 頁、description 42 頁由程式同步，正文張數 B 改寫 10 頁；部分收錄頁 235→241（例 guanfacine 補收後超過 20 筆）。
+- 正文跟新事實矛盾的 22 句以 22 筆 `ca-lic-20261125b-*` 更正（更正文字不寫張數，指向概覽表與程式表）：checker M3 12 句（B 不改的單方張數句，例 galantamine「12 valid single-ingredient」→新增 GALANTAMINE ER 3 張、
+  aflibercept「Ten licences」→新增 EYDENZELT）、另寫的寬偵測（改到的 266 頁正文、數字只符合舊事實層而不符合新事實層的句子）再找到 bimatoprost「All four」、maraviroc「Both」、dexrazoxane「Both」、
+  oxcarbazepine「All six」、ezetimibe、zolmitriptan、guanfacine 等 6 句，待辦條目 4 句（emicizumab、oxcarbazepine、ranolazine、sotalol 的「for the four DINs」等，只拿掉張數，ranolazine 一併拿掉「CORZYNA」前提）。
+  寬偵測複查：舊事實層數字句剩 0（pembrolizumab 2 句是作用機轉節錄裡的數字，誤中）；其餘命中是試驗、文獻、交互作用與節錄裡的數字。正文有變的 85 頁 last_modified_at 改 2026-11-25。
+- 驗證：checker 全量前後 0（中途 M3 12 → 0）、row-status 0；gate exit 0；apply --check、rewrite_license_counts --check、sync_license_tables --check 0；add_current_dins、exclude_mismatched_records 第二次跑 0 筆。證據包與 data/raw 經 data-overlay 推進 Release。
+- 另：repo 根目錄未追蹤的 `._data`（macOS AppleDouble 殘留檔）已刪。

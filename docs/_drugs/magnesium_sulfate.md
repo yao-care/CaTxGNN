@@ -7,8 +7,8 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "MAGNESIUM SULFATE"
 predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
-last_modified_at: 2026-11-24
-description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). In Canada: 8 DINs (8 marketed)"
+last_modified_at: 2026-11-25
+description: "Magnesium Sulfate: predicted new indication Thrombotic disease (evidence level L3). In Canada: 9 DINs (9 marketed)"
 ---
 
 # Magnesium Sulfate
@@ -52,8 +52,8 @@ Support is limited to **1 Phase 3 trial (status unknown, no results)**, a small 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
-| Number of DINs | 8 (marketed: 8) |
+| Canada Market Status | Marketed (marketed DINs: 9 of 9) |
+| Number of DINs | 9 (marketed: 9) |
 | Recommended Decision | Hold |
 
 ---
@@ -111,6 +111,7 @@ Magnesium sulfate is marketed in Canada; the table below lists each DIN with its
 | 02501813 | SMOFKABIVEN EXTRA NITROGEN | ALANINE; ARGININE; CALCIUM CHLORIDE; DEXTROSE; FISH OIL; GLYCINE; HISTIDINE; ISOLEUCINE; LEUCINE; LYSINE (LYS… | Marketed |
 | 02513161 | MAGNESIUM SULFATE INJECTION, BP 49.3% | MAGNESIUM SULFATE | Marketed |
 | 02542153 | MAGNESIUM SULFATE IN WATER FOR INJECTION | MAGNESIUM SULFATE | Marketed |
+| 02562235 | MAGNESIUM SULFATE INJECTION USP | MAGNESIUM SULFATE | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 63
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Anifrolumab: known uses and market status in Canada; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Anifrolumab,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| Canada Market Status | Marketed (marketed DINs: 1 of 1) |
-| Number of DINs | 1 (marketed: 1) |
+| Canada Market Status | Marketed (marketed DINs: 2 of 2) |
+| Number of DINs | 2 (marketed: 2) |
 
 ## Known uses recorded for this drug
 
@@ -77,6 +77,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Anifrolumab,
 | DIN | Product Name | Active Ingredients (DPD) | Status |
 |------|------|------|------|
 | 02522845 | SAPHNELO | ANIFROLUMAB | Marketed |
+| 02566338 | SAPHNELO | ANIFROLUMAB | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

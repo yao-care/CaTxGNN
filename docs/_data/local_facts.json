@@ -12,20 +12,20 @@
  "public_pages": 932,
  "licence_snapshot": "ca_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 810,
-  "drugs_with_current": 797,
+  "drugs_with_data": 808,
+  "drugs_with_current": 795,
   "drugs_none_current": 13,
-  "drugs_without_data": 122,
+  "drugs_without_data": 124,
   "drugs_partial": 0,
-  "items_total": 4002,
-  "items_current": 3840
+  "items_total": 4107,
+  "items_current": 3948
  },
  "reviews": {
-  "records": 1035,
+  "records": 1057,
   "pages": 826,
   "public_pages_with_records": 815,
   "by_action": {
-   "correct": 280,
+   "correct": 302,
    "mechanism": 755
   }
  },
@@ -44,6 +44,15 @@
    "i": "punctate epithelial keratoconjunctivitis"
   },
   {
+   "t": "Buprenorphine",
+   "u": "/drugs/buprenorphine/",
+   "l": "L4",
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
+   "i": "acute intermittent porphyria"
+  },
+  {
    "t": "Desvenlafaxine",
    "u": "/drugs/desvenlafaxine/",
    "l": "L4",
@@ -60,6 +69,15 @@
    "lv": 20,
    "r": 2,
    "i": "allergic urticaria"
+  },
+  {
+   "t": "Famotidine",
+   "u": "/drugs/famotidine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
+   "i": "duodenal obstruction"
   },
   {
    "t": "Serine",
@@ -87,24 +105,6 @@
    "lv": 19,
    "r": 1,
    "i": "migraine with brainstem aura"
-  },
-  {
-   "t": "Gramicidin D",
-   "u": "/drugs/gramicidin-d/",
-   "l": "L5",
-   "lt": 19,
-   "lv": 19,
-   "r": 1,
-   "i": "postinfectious vasculitis"
-  },
-  {
-   "t": "Lamivudine",
-   "u": "/drugs/lamivudine/",
-   "l": "L5",
-   "lt": 20,
-   "lv": 19,
-   "r": 2,
-   "i": "feline acquired immunodeficiency syndrome"
   }
  ],
  "no_current": [
@@ -229,6 +229,15 @@
    "i": "primary release disorder of platelets"
   },
   {
+   "t": "Oxcarbazepine",
+   "u": "/drugs/oxcarbazepine/",
+   "l": "L4",
+   "lt": 9,
+   "lv": 9,
+   "r": 4,
+   "i": "restless legs syndrome"
+  },
+  {
    "t": "Triamcinolone",
    "u": "/drugs/triamcinolone/",
    "l": "L4",
@@ -241,8 +250,8 @@
    "t": "Chlorthalidone",
    "u": "/drugs/chlorthalidone/",
    "l": "L5",
-   "lt": 8,
-   "lv": 8,
+   "lt": 11,
+   "lv": 11,
    "r": 3,
    "i": "primary hereditary glaucoma"
   },
@@ -263,15 +272,6 @@
    "lv": 10,
    "r": 3,
    "i": "stomach disease"
-  },
-  {
-   "t": "Epinephrine",
-   "u": "/drugs/epinephrine/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 18,
-   "r": 3,
-   "i": "obstructive lung disease"
   }
  ],
  "example": {
@@ -285,6 +285,132 @@
  },
  "recent_reviews": [
   {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Corrected: \"Zolmitriptan has 16 valid single-ingredient authorizations in Canada.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Corrected: \"Eleven valid single-ingredient licenses are listed.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Sixteen valid single-ingredient licences are on record.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Sotalol",
+   "u": "/drugs/sotalol/",
+   "s": "Corrected: \"details for the four Canadian authorizations\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ranolazine",
+   "u": "/drugs/ranolazine/",
+   "s": "Corrected: \"dosage forms for the two CORZYNA licenses\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Phenobarbital",
+   "u": "/drugs/phenobarbital/",
+   "s": "Corrected: \"Seven valid single-ingredient licences are listed in total.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxymetazoline",
+   "u": "/drugs/oxymetazoline/",
+   "s": "Corrected: \"Thirteen valid single-ingredient licences are listed in total.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxcarbazepine",
+   "u": "/drugs/oxcarbazepine/",
+   "s": "Corrected: \"All six are single-ingredient products, and none is cancelled.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Mycophenolate Mofetil",
+   "u": "/drugs/mycophenolate-mofetil/",
+   "s": "Corrected: \"Health Canada lists 15 valid single-ingredient licences.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Mesalazine",
+   "u": "/drugs/mesalazine/",
+   "s": "Corrected: \"Mesalazine is marketed in Canada with 18 valid single-ingredient authorizations.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Maraviroc",
+   "u": "/drugs/maraviroc/",
+   "s": "Corrected: \"Both authorizations are valid single-ingredient products.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Guanfacine",
+   "u": "/drugs/guanfacine/",
+   "s": "Corrected: \"Twelve valid single-ingredient licences are listed.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Galantamine",
+   "u": "/drugs/galantamine/",
+   "s": "Corrected: \"Galantamine is marketed in Canada under 12 valid single-ingredient authorizations (none…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ezetimibe",
+   "u": "/drugs/ezetimibe/",
+   "s": "Corrected: \"Ezetimibe has 19 valid single-ingredient authorizations in Canada.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Emicizumab",
+   "u": "/drugs/emicizumab/",
+   "s": "Corrected: \"the approved indication text for the four DINs\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Eletriptan",
+   "u": "/drugs/eletriptan/",
+   "s": "Corrected: \"Eletriptan has 14 valid single-ingredient authorisations in Canada and none are cancelled.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Doxycycline",
+   "u": "/drugs/doxycycline/",
+   "s": "Corrected: \"Seventeen single-ingredient licences are currently valid in Canada.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Dextroamphetamine",
+   "u": "/drugs/dextroamphetamine/",
+   "s": "Corrected: \"All six single-ingredient licences are valid.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Dexrazoxane",
+   "u": "/drugs/dexrazoxane/",
+   "s": "Corrected: \"Both products are valid single-ingredient licenses.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Bimatoprost",
+   "u": "/drugs/bimatoprost/",
+   "s": "Corrected: \"All four are valid single-ingredient authorizations.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
+   "s": "Corrected: \"Ten licences are currently valid in total (also covering AFLIVU, PAVBLU, ENZEEVU and further…",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Turoctocog Alfa",
    "u": "/drugs/turoctocog-alfa/",
    "s": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and…",
@@ -300,183 +426,57 @@
    "t": "Zolpidem",
    "u": "/drugs/zolpidem/",
    "s": "Reworded: \"The remaining seven are other zolpidem ODT products\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
-   "s": "Reworded: \"The remaining 11 authorizations are generic products, including\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zinc Oxide",
-   "u": "/drugs/zinc-oxide/",
-   "s": "Reworded: \"The remaining authorizations are mostly sunscreens\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Removed: \"A sixth authorization, 02502801 (JAMP LAMIVUDINE / ZIDOVUDINE), is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "Removed: \"One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vitamin E",
-   "u": "/drugs/vitamin-e/",
-   "s": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vilazodone",
-   "u": "/drugs/vilazodone/",
-   "s": "Removed: \"One more valid licence (DIN 02443724, VIIBRYD) is also on record, for six in total.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Vancomycin",
-   "u": "/drugs/vancomycin/",
-   "s": "Removed: \"None are cancelled.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Valine",
-   "u": "/drugs/valine/",
-   "s": "Reworded: \"The products are single-ingredient authorizations, all valid, and the 5 listed here are a…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ursodeoxycholic Acid",
-   "u": "/drugs/ursodeoxycholic-acid/",
-   "s": "Removed: \"None of the licences is cancelled.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Reworded: \"All 20 licenses are valid single-ingredient products.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Trolamine Salicylate",
-   "u": "/drugs/trolamine-salicylate/",
-   "s": "Removed: \"The remaining six are Myoflex Maximum Strength, Pain Relief Cream Extra Strength, Flexacrème Pain…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Triamcinolone",
-   "u": "/drugs/triamcinolone/",
-   "s": "Reworded: \"The remaining licences include topical products\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Removed: \"A sixth authorization, DUOTRAV PQ (DIN 02278251), is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "Removed: \", so the table shows only the DIN and product name\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Threonine",
-   "u": "/drugs/threonine/",
-   "s": "Reworded: \"Threonine is marketed in Canada with 20 valid single-ingredient authorisations.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Thiamine",
-   "u": "/drugs/thiamine/",
-   "s": "Removed: \"The remaining four licences (PREGVIT FOLIC 5, PREGNANCY MULTIVITAMIN, PREGVIT, PREGNANCY…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tenofovir Alafenamide",
-   "u": "/drugs/tenofovir-alafenamide/",
-   "s": "Removed: \"Two more authorizations are valid: GENVOYA (02449498) and SYMTUZA (02473720).\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tapentadol",
-   "u": "/drugs/tapentadol/",
-   "s": "Removed: \"Three other NUCYNTA EXTENDED-RELEASE licences (02415593, 02415607, 02415615) are also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Soybean Oil",
-   "u": "/drugs/soybean-oil/",
-   "s": "Reworded: \"The remaining licences are SMOFKABIVEN variants\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sodium Sulfate",
-   "u": "/drugs/sodium-sulfate/",
-   "s": "Removed: \"A sixth licence (MOVIPREP, DIN 02359499) is also valid.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sennosides",
-   "u": "/drugs/sennosides/",
-   "s": "Reworded: \"in several single-ingredient and docusate-combination products\"",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Turoctocog Alfa",
-   "u": "/drugs/turoctocog-alfa/",
-   "s": "Corrected: \"Confirmation of which Canadian licences correspond to turoctocog alfa, with dosage form and…",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Sodium Acetate",
-   "u": "/drugs/sodium-acetate/",
-   "s": "Corrected: \"A total of 20 valid licenses are on record. All are single-ingredient entries, and none is…",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Zolpidem",
-   "u": "/drugs/zolpidem/",
-   "s": "Reworded: \"The remaining seven are other zolpidem ODT products\"",
-   "d": "2026-11-24"
-  },
-  {
    "t": "Zolmitriptan",
    "u": "/drugs/zolmitriptan/",
-   "s": "Reworded: \"The remaining 11 authorizations are generic products, including\"",
-   "d": "2026-11-24"
+   "s": "Corrected: \"Zolmitriptan has 16 valid single-ingredient authorizations in Canada.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Zinc Oxide",
-   "u": "/drugs/zinc-oxide/",
-   "s": "Reworded: \"The remaining authorizations are mostly sunscreens\"",
-   "d": "2026-11-24"
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Corrected: \"Eleven valid single-ingredient licenses are listed.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Zidovudine",
-   "u": "/drugs/zidovudine/",
-   "s": "Removed: \"A sixth authorization, 02502801 (JAMP LAMIVUDINE / ZIDOVUDINE), is also valid.\"",
-   "d": "2026-11-24"
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Sixteen valid single-ingredient licences are on record.\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "Removed: \"One further authorization (DIN 02552752, APO-VORTIOXETINE) is also valid.\"",
-   "d": "2026-11-24"
+   "t": "Sotalol",
+   "u": "/drugs/sotalol/",
+   "s": "Corrected: \"details for the four Canadian authorizations\"",
+   "d": "2026-11-25"
   },
   {
-   "t": "Vitamin E",
-   "u": "/drugs/vitamin-e/",
-   "s": "Removed: \"The remaining two are PREGVIT (02552620) and PREGNANCY MULTIVITAMIN FOLIC 5 (02537478).\"",
-   "d": "2026-11-24"
+   "t": "Ranolazine",
+   "u": "/drugs/ranolazine/",
+   "s": "Corrected: \"dosage forms for the two CORZYNA licenses\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Phenobarbital",
+   "u": "/drugs/phenobarbital/",
+   "s": "Corrected: \"Seven valid single-ingredient licences are listed in total.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxymetazoline",
+   "u": "/drugs/oxymetazoline/",
+   "s": "Corrected: \"Thirteen valid single-ingredient licences are listed in total.\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Oxcarbazepine",
+   "u": "/drugs/oxcarbazepine/",
+   "s": "Corrected: \"All six are single-ingredient products, and none is cancelled.\"",
+   "d": "2026-11-25"
   }
  ],
  "files": {

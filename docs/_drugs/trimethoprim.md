@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 949
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "TRIMETHOPRIM"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this specific p
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 8 of 8) |
-| Number of DINs | 8 (marketed: 8) |
+| Canada Market Status | Marketed (marketed DINs: 10 of 10) |
+| Number of DINs | 10 (marketed: 10) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,6 +94,8 @@ For the closely related, already-established indication of conjunctivitis, the c
 | 02243116 | TRIMETHOPRIM TABLETS | TRIMETHOPRIM | Marketed |
 | 02243117 | TRIMETHOPRIM TABLETS | TRIMETHOPRIM | Marketed |
 | 02525917 | SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 02534746 | SULFAMETHOXAZOLE AND TRIMETHOPRIM FOR INJECTION, USP | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
+| 02563495 | SEPTRA PEDIATRIC ORAL SUSPENSION | SULFAMETHOXAZOLE; TRIMETHOPRIM | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

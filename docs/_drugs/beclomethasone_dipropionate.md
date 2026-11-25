@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 96
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Beclomethasone Dipropionate: predicted new indication Atopic eczema (evidence level L3). Approved use: Asthma, allergic rhinitis (including intrinsic and allergic asthma…"
 monitor_inn: "BECLOMETHASONE DIPROPIONATE"
 predicted_indications: ["atopic eczema"]
@@ -50,8 +50,8 @@ but currently there are **no registered clinical trials** and only **9 publicati
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L3 |
-| Canada Market Status | Marketed (marketed DINs: 5 of 5) |
-| Number of DINs | 5 (marketed: 5) |
+| Canada Market Status | Marketed (marketed DINs: 6 of 6) |
+| Number of DINs | 6 (marketed: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,6 +89,7 @@ Currently no related clinical trials registered.
 | 02238796 | APO-BECLOMETHASONE NASAL SPRAY | BECLOMETHASONE DIPROPIONATE | Marketed |
 | 02242029 | QVAR | BECLOMETHASONE DIPROPIONATE | Marketed |
 | 02242030 | QVAR | BECLOMETHASONE DIPROPIONATE | Marketed |
+| 02557592 | TRIMBOW | BECLOMETHASONE DIPROPIONATE; FORMOTEROL FUMARATE DIHYDRATE; GLYCOPYRRONIUM (GLYCOPYRRONIUM BROMIDE) | Marketed |
 
 Source: Health Canada Drug Product Database (DPD); product names, active ingredients and status as recorded in the DPD, sorted by status and then by DIN.
 

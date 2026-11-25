@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not specified in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ There are **0 clinical trials** and **2 publications**, and neither publication 
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Canada Market Status | Marketed (marketed DINs: 9 of 10; cancelled: 1) |
-| Number of DINs | 10 (marketed: 9) |
+| Canada Market Status | Marketed (marketed DINs: 11 of 12; cancelled: 1) |
+| Number of DINs | 12 (marketed: 11) |
 | Recommended Decision | Hold |
 
 ---
@@ -99,6 +99,8 @@ The table below lists each DIN with its current status in the DPD. The data comp
 | 02366487 | APO-MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
 | 02375532 | SANDOZ MEMANTINE FCT | MEMANTINE HYDROCHLORIDE | Marketed |
 | 02382830 | PMS-MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
+| 02409887 | JAMP-MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
+| 02409895 | JAMP-MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
 | 02443082 | MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
 | 02446049 | MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
 | 02531887 | MINT-MEMANTINE | MEMANTINE HYDROCHLORIDE | Marketed |
